@@ -76,9 +76,9 @@
       
         <tags>
             
-            <tag> MySQL </tag>
-            
             <tag> 面试 </tag>
+            
+            <tag> MySQL </tag>
             
             <tag> 数据库 </tag>
             
@@ -99,6 +99,8 @@
       <categories>
           
           <category> 面试总结 </category>
+          
+          <category> Java 学习 </category>
           
       </categories>
       
@@ -127,6 +129,8 @@
           
           <category> 面试总结 </category>
           
+          <category> Java 学习 </category>
+          
       </categories>
       
       
@@ -153,6 +157,8 @@
       <categories>
           
           <category> 面试总结 </category>
+          
+          <category> Java 学习 </category>
           
       </categories>
       
