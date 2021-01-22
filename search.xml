@@ -4,6 +4,180 @@
   
     
     <entry>
+      <title>BC7 缩短二进制</title>
+      <link href="posts/85274492/"/>
+      <url>posts/85274492/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>微信搜索 <strong>「村雨遥」</strong>，关注我，一起成长！</p><p>个人博客：<a href="http://cunyu1943.site/">村雨遥の杂货铺</a></p><p>本文对应代码已收录到我的 Github 项目：<a href="https://github.com/cunyu1943/algo-practice">algo-practice</a>，有需要的朋友自取呀！</p></blockquote><h2 id="1-题目"><a class="markdownIt-Anchor" href="#1-题目"></a> 1. 题目</h2><ul><li><a href="https://www.nowcoder.com/practice/4ffcc9f206b949ddb057ee0099b34d51?tpId=107&amp;&amp;tqId=33288&amp;rp=1&amp;ru=/ta/beginner-programmers&amp;qru=/ta/beginner-programmers/question-ranking">缩短二进制</a></li><li>难度：简单</li></ul><h2 id="2-题目描述"><a class="markdownIt-Anchor" href="#2-题目描述"></a> 2. 题目描述</h2><p>我们处理的整数通常用十进制表示，在计算机内存中是以二进制补码形式存储，但通常二进制表示的整数比较长，为了便于在程序设计过程中理解和处理数据，通常采用八进制和十六<a href="https://www.baidu.com/s?wd=16%E8%BF%9B%E5%88%B6&amp;tn=SE_PcZhidaonwhc_ngpagmjz&amp;rsv_dl=gh_pc_zhidao">进制</a>，缩短了<a href="https://www.baidu.com/s?wd=%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%95%B0&amp;tn=SE_PcZhidaonwhc_ngpagmjz&amp;rsv_dl=gh_pc_zhidao">二进制补码表示的整数</a>，但保持了<a href="https://www.baidu.com/s?wd=%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%95%B0&amp;tn=SE_PcZhidaonwhc_ngpagmjz&amp;rsv_dl=gh_pc_zhidao">二进制数</a>的表达特点。请输出十进制整数1234对应的八进制和十六进制。</p><p>输入描述:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">无</span><br></pre></td></tr></table></figure><p>输出描述:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">十进制整数1234对应的八进制和十六进制（字母大写），用空格分开，并且要求，在八进制前显示前导0，在十六进制数前显示前导0X。</span><br></pre></td></tr></table></figure><p>备注:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">printf可以使用使用格式控制串“%o”、“%X”分别输出八进制整数和十六进制整数，并使用修饰符“#”控制前导显示</span><br></pre></td></tr></table></figure><h2 id="3-题解"><a class="markdownIt-Anchor" href="#3-题解"></a> 3. 题解</h2><h3 id="31-分析"><a class="markdownIt-Anchor" href="#31-分析"></a> 3.1 分析</h3><p>考察的知识点主要是 Java 中的格式化输出，<code>System.out.format(格式，对应数据)</code>；然后另一个知识点就是对应进制的输出 <code>%d</code> 代表十进制，<code>%o</code> 代表八进制，<code>%x</code> 代表十六进制，而使用 <code>#</code> 来控制前导显示；</p><h3 id="32-代码"><a class="markdownIt-Anchor" href="#32-代码"></a> 3.2 代码</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Created with IntelliJ IDEA.</span></span><br><span class="line"><span class="comment"> * Version : 1.0</span></span><br><span class="line"><span class="comment"> * Author  : K</span></span><br><span class="line"><span class="comment"> * 公众号   : 村雨遥</span></span><br><span class="line"><span class="comment"> * Website : https://cunyu1943.site</span></span><br><span class="line"><span class="comment"> * Email   : 747731461@qq.com</span></span><br><span class="line"><span class="comment"> * Date    : 2020/12/30 上午9:46</span></span><br><span class="line"><span class="comment"> * Project : algo-practice</span></span><br><span class="line"><span class="comment"> * Package : PACKAGE_NAME</span></span><br><span class="line"><span class="comment"> * Class   : BC7</span></span><br><span class="line"><span class="comment"> * Desc    : 缩短二进制</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">BC7</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> num = <span class="number">1234</span>;</span><br><span class="line">        System.out.format(<span class="string">&quot;%#o &quot;</span>, num);</span><br><span class="line">        System.out.format(<span class="string">&quot;%#X&quot;</span>, num);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><img src="https://gitee.com/cunyu1943/images/raw/master/ImgsUbuntu/20200510234310.png" alt="" /></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 刷题 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Nowcoder </tag>
+            
+            <tag> 算法 </tag>
+            
+            <tag> 数据结构 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>BC8 十六进制转十进制</title>
+      <link href="posts/6dbaa490/"/>
+      <url>posts/6dbaa490/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>微信搜索 <strong>「村雨遥」</strong>，关注我，一起成长！</p><p>个人博客：<a href="http://cunyu1943.site/">村雨遥の杂货铺</a></p><p>本文对应代码已收录到我的 Github 项目：<a href="https://github.com/cunyu1943/algo-practice">algo-practice</a>，有需要的朋友自取呀！</p></blockquote><h2 id="1-题目"><a class="markdownIt-Anchor" href="#1-题目"></a> 1. 题目</h2><ul><li><a href="https://www.nowcoder.com/practice/33e148570d5c4e728116e2f861638c9c?tpId=107&amp;&amp;tqId=33289&amp;rp=1&amp;ru=/ta/beginner-programmers&amp;qru=/ta/beginner-programmers/question-ranking">十六进制转十进制</a></li><li>难度：简单</li></ul><h2 id="2-题目描述"><a class="markdownIt-Anchor" href="#2-题目描述"></a> 2. 题目描述</h2><p>BoBo写了一个十六进制整数ABCDEF，他问KiKi对应的十进制整数是多少。</p><p>输入描述:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">无</span><br></pre></td></tr></table></figure><p>输出描述:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">十六进制整数ABCDEF对应的十进制整数，所占域宽为15。</span><br></pre></td></tr></table></figure><p>备注:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">printf可以使用使用格式控制串“%md”输出域宽为m的十进制整数。</span><br></pre></td></tr></table></figure><h2 id="3-题解"><a class="markdownIt-Anchor" href="#3-题解"></a> 3. 题解</h2><h3 id="31-分析"><a class="markdownIt-Anchor" href="#31-分析"></a> 3.1 分析</h3><p>要将 16 进制转换为 10 进制，我们可以用对应封装类 <code>Integer</code> 的方法 <code>parseInt()</code> 来将 16 进制转换为 10 进制，最后格式化输出；</p><h3 id="32-代码"><a class="markdownIt-Anchor" href="#32-代码"></a> 3.2 代码</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Created with IntelliJ IDEA.</span></span><br><span class="line"><span class="comment"> * Version : 1.0</span></span><br><span class="line"><span class="comment"> * Author  : K</span></span><br><span class="line"><span class="comment"> * 公众号   : 村雨遥</span></span><br><span class="line"><span class="comment"> * Website : https://cunyu1943.site</span></span><br><span class="line"><span class="comment"> * Email   : 747731461@qq.com</span></span><br><span class="line"><span class="comment"> * Date    : 2020/12/30 上午10:26</span></span><br><span class="line"><span class="comment"> * Project : algo-practice</span></span><br><span class="line"><span class="comment"> * Package : PACKAGE_NAME</span></span><br><span class="line"><span class="comment"> * Class   : BC8</span></span><br><span class="line"><span class="comment"> * Desc    : 十六进制转十进制</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">BC8</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        String numHex = <span class="string">&quot;ABCDEF&quot;</span>;</span><br><span class="line">        <span class="keyword">int</span> num = Integer.parseInt(numHex, <span class="number">16</span>);</span><br><span class="line">        System.out.format(<span class="string">&quot;%15d&quot;</span>, num);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><img src="https://gitee.com/cunyu1943/images/raw/master/ImgsUbuntu/20200510234310.png" alt="" /></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 刷题 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Nowcoder </tag>
+            
+            <tag> 算法 </tag>
+            
+            <tag> 数据结构 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>BC6 小飞机</title>
+      <link href="posts/c2af07f8/"/>
+      <url>posts/c2af07f8/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>微信搜索 <strong>「村雨遥」</strong>，关注我，一起成长！</p><p>个人博客：<a href="http://cunyu1943.site/">村雨遥の杂货铺</a></p><p>本文对应代码已收录到我的 Github 项目：<a href="https://github.com/cunyu1943/algo-practice">algo-practice</a>，有需要的朋友自取呀！</p></blockquote><h2 id="1-题目"><a class="markdownIt-Anchor" href="#1-题目"></a> 1. 题目</h2><ul><li><a href="https://www.nowcoder.com/practice/5cd9598f28f74521805d2069ce4a108a?tpId=107&amp;&amp;tqId=33287&amp;rp=1&amp;ru=/ta/beginner-programmers&amp;qru=/ta/beginner-programmers/question-ranking">小飞机</a></li><li>难度：入门</li></ul><h2 id="2-题目描述"><a class="markdownIt-Anchor" href="#2-题目描述"></a> 2. 题目描述</h2><p>KiKi学会了printf在屏幕输出信息，他想输出一架小飞机。请帮他编写程序输出这架小飞机。</p><p>输入描述:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">无</span><br></pre></td></tr></table></figure><p>输出描述:</p><p><img src="https://uploadfiles.nowcoder.com/images/20181023/309120_1540275149545_89DC7581D242308621613B5C9BEE2A87" alt="" /></p><h2 id="3-题解"><a class="markdownIt-Anchor" href="#3-题解"></a> 3. 题解</h2><h3 id="31-分析"><a class="markdownIt-Anchor" href="#31-分析"></a> 3.1 分析</h3><p>考察知识点为标准输出；</p><h3 id="32-代码"><a class="markdownIt-Anchor" href="#32-代码"></a> 3.2 代码</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Created with IntelliJ IDEA.</span></span><br><span class="line"><span class="comment"> * Version : 1.0</span></span><br><span class="line"><span class="comment"> * Author  : K</span></span><br><span class="line"><span class="comment"> * 公众号   : 村雨遥</span></span><br><span class="line"><span class="comment"> * Website : https://cunyu1943.site</span></span><br><span class="line"><span class="comment"> * Email   : 747731461@qq.com</span></span><br><span class="line"><span class="comment"> * Date    : 2020/12/30 上午10:20</span></span><br><span class="line"><span class="comment"> * Project : algo-practice</span></span><br><span class="line"><span class="comment"> * Package : PACKAGE_NAME</span></span><br><span class="line"><span class="comment"> * Class   : BC6</span></span><br><span class="line"><span class="comment"> * Desc    : 小飞机</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Main</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;     **     &quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;     **     &quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;************&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;************&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;    *  *    &quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;    *  *    &quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><img src="https://gitee.com/cunyu1943/images/raw/master/ImgsUbuntu/20200510234310.png" alt="" /></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 刷题 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Nowcoder </tag>
+            
+            <tag> 算法 </tag>
+            
+            <tag> 数据结构 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>BC3 有容乃大</title>
+      <link href="posts/ac0a08a2/"/>
+      <url>posts/ac0a08a2/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>微信搜索 <strong>「村雨遥」</strong>，关注我，一起成长！</p><p>个人博客：<a href="http://cunyu1943.site/">村雨遥の杂货铺</a></p><p>本文对应代码已收录到我的 Github 项目：<a href="https://github.com/cunyu1943/algo-practice">algo-practice</a>，有需要的朋友自取呀！</p></blockquote><h2 id="1-题目"><a class="markdownIt-Anchor" href="#1-题目"></a> 1. 题目</h2><ul><li><a href="https://www.nowcoder.com/practice/4712159bbc15417086d40d6c6ff94fee?tpId=107&amp;&amp;tqId=33284&amp;rp=1&amp;ru=/ta/beginner-programmers&amp;qru=/ta/beginner-programmers/question-ranking">有容乃大</a></li><li>难度：简单</li></ul><h2 id="2-题目描述"><a class="markdownIt-Anchor" href="#2-题目描述"></a> 2. 题目描述</h2><p>确定不同整型数据类型在内存中占多大（字节），输出不同整型数据类型在内存中占多大（字节）。</p><p>输入描述:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">无</span><br></pre></td></tr></table></figure><p>输出描述:</p><p>不同整型数据类型在内存中占多大（字节），具体格式详见输出样例，输出样例中的?为不同整型数据类型在内存中占的字节数。输出样例如下：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">The size of short is ? bytes.</span><br><span class="line">The size of int is ? bytes.</span><br><span class="line">The size of long is ? bytes.</span><br><span class="line">The size of long long is ? bytes.</span><br></pre></td></tr></table></figure><h2 id="3-题解"><a class="markdownIt-Anchor" href="#3-题解"></a> 3. 题解</h2><h3 id="31-分析"><a class="markdownIt-Anchor" href="#31-分析"></a> 3.1 分析</h3><p>Java 中，要查看不同整形类型在内存中所占内存的大小，需要借助其对应的封装类，封装类的 <code>BYTES</code> 属性对应着该类型占用的内存大小；</p><h3 id="32-代码"><a class="markdownIt-Anchor" href="#32-代码"></a> 3.2 代码</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Created with IntelliJ IDEA.</span></span><br><span class="line"><span class="comment"> * Version : 1.0</span></span><br><span class="line"><span class="comment"> * Author  : K</span></span><br><span class="line"><span class="comment"> * 公众号   : 村雨遥</span></span><br><span class="line"><span class="comment"> * Website : https://cunyu1943.site</span></span><br><span class="line"><span class="comment"> * Email   : 747731461@qq.com</span></span><br><span class="line"><span class="comment"> * Date    : 2020/12/30 上午9:18</span></span><br><span class="line"><span class="comment"> * Project : algo-practice</span></span><br><span class="line"><span class="comment"> * Package : PACKAGE_NAME</span></span><br><span class="line"><span class="comment"> * Class   : BC3</span></span><br><span class="line"><span class="comment"> * Desc    : 有容乃大</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">BC3</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;The size of short is &quot;</span> + Short.BYTES + <span class="string">&quot; bytes.&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;The size of int is &quot;</span> + Integer.BYTES + <span class="string">&quot; bytes.&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;The size of long is &quot;</span> + Long.BYTES + <span class="string">&quot; bytes.&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;The size of long long is &quot;</span> + Long.BYTES + <span class="string">&quot; bytes.&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure><p><img src="https://gitee.com/cunyu1943/images/raw/master/ImgsUbuntu/20200510234310.png" alt="" /></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 刷题 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Nowcoder </tag>
+            
+            <tag> 算法 </tag>
+            
+            <tag> 数据结构 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>BC2 我是大V</title>
+      <link href="posts/34526ea1/"/>
+      <url>posts/34526ea1/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>微信搜索 <strong>「村雨遥」</strong>，关注我，一起成长！</p><p>个人博客：<a href="http://cunyu1943.site/">村雨遥の杂货铺</a></p><p>本文对应代码已收录到我的 Github 项目：<a href="https://github.com/cunyu1943/algo-practice">algo-practice</a>，有需要的朋友自取呀！</p></blockquote><h2 id="1-题目"><a class="markdownIt-Anchor" href="#1-题目"></a> 1. 题目</h2><ul><li><a href="https://www.nowcoder.com/practice/5c329570ba034871a96299df21e80e51?tpId=107&amp;&amp;tqId=33283&amp;rp=1&amp;ru=/ta/beginner-programmers&amp;qru=/ta/beginner-programmers/question-ranking">我是大V</a></li><li>难度：入门</li></ul><h2 id="2-题目描述"><a class="markdownIt-Anchor" href="#2-题目描述"></a> 2. 题目描述</h2><p>每个人都想成为大V (VIP：Very Important Person)，但要一点一点积累才行，先从小v做起。要求输出由小写字母v组成的大V。</p><p>输入描述:</p><p>无</p><p>输出描述:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">v   v</span><br><span class="line"></span><br><span class="line"> v v</span><br><span class="line"></span><br><span class="line">  v</span><br></pre></td></tr></table></figure><p>备注:</p><p>换行使用转义字符 <code>\n</code></p><h2 id="3-题解"><a class="markdownIt-Anchor" href="#3-题解"></a> 3. 题解</h2><h3 id="31-分析"><a class="markdownIt-Anchor" href="#31-分析"></a> 3.1 分析</h3><p>仍然考察基础语法，多行标准输入输出；</p><h3 id="32-代码"><a class="markdownIt-Anchor" href="#32-代码"></a> 3.2 代码</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Created with IntelliJ IDEA.</span></span><br><span class="line"><span class="comment"> * Version : 1.0</span></span><br><span class="line"><span class="comment"> * Author  : K</span></span><br><span class="line"><span class="comment"> * 公众号   : 村雨遥</span></span><br><span class="line"><span class="comment"> * Website : https://cunyu1943.site</span></span><br><span class="line"><span class="comment"> * Email   : 747731461@qq.com</span></span><br><span class="line"><span class="comment"> * Date    : 2020/12/30 上午9:10</span></span><br><span class="line"><span class="comment"> * Project : algo-practice</span></span><br><span class="line"><span class="comment"> * Package : PACKAGE_NAME</span></span><br><span class="line"><span class="comment"> * Class   : BC2</span></span><br><span class="line"><span class="comment"> * Desc    : 我是大V</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">BC2</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;v   v&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot; v v &quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;  v  &quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><img src="https://gitee.com/cunyu1943/images/raw/master/ImgsUbuntu/20200510234310.png" alt="" /></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 刷题 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Nowcoder </tag>
+            
+            <tag> 算法 </tag>
+            
+            <tag> 数据结构 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>BC1 实践出真知</title>
+      <link href="posts/b51dc2b5/"/>
+      <url>posts/b51dc2b5/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>微信搜索 <strong>「村雨遥」</strong>，关注我，一起成长！</p><p>个人博客：<a href="http://cunyu1943.site/">村雨遥の杂货铺</a></p><p>本文对应代码已收录到我的 Github 项目：<a href="https://github.com/cunyu1943/algo-practice">algo-practice</a>，有需要的朋友自取呀！</p></blockquote><h2 id="1-题目"><a class="markdownIt-Anchor" href="#1-题目"></a> 1. 题目</h2><ul><li><a href="https://www.nowcoder.com/practice/9273504dbe6f4c5a92b75854faca5f45?tpId=107&amp;&amp;tqId=33282&amp;rp=1&amp;ru=/ta/beginner-programmers&amp;qru=/ta/beginner-programmers/question-ranking">实践出真知</a></li><li>难度：入门</li></ul><h2 id="2-题目描述"><a class="markdownIt-Anchor" href="#2-题目描述"></a> 2. 题目描述</h2><p>于老师经常告诉我们“学习编程最好的办法就是上机实践，因为你要对计算机下指令，想让计算机帮你干活，就得多和计算机‘交流’，实践才能出真知。”</p><p>输入描述:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">无</span><br></pre></td></tr></table></figure><p>输出描述:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Practice makes perfect!</span><br></pre></td></tr></table></figure><h2 id="3-题解"><a class="markdownIt-Anchor" href="#3-题解"></a> 3. 题解</h2><h3 id="31-分析"><a class="markdownIt-Anchor" href="#31-分析"></a> 3.1 分析</h3><p>此题属于入门级题目，只要学了 Java，知道怎么建立一个类，如何写主方法 <code>main</code>，以及标准化输出即可；</p><h3 id="32-代码"><a class="markdownIt-Anchor" href="#32-代码"></a> 3.2 代码</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Created with IntelliJ IDEA.</span></span><br><span class="line"><span class="comment"> * Version : 1.0</span></span><br><span class="line"><span class="comment"> * Author  : K</span></span><br><span class="line"><span class="comment"> * 公众号   : 村雨遥</span></span><br><span class="line"><span class="comment"> * Website : https://cunyu1943.site</span></span><br><span class="line"><span class="comment"> * Email   : 747731461@qq.com</span></span><br><span class="line"><span class="comment"> * Date    : 2020/12/30 上午8:56</span></span><br><span class="line"><span class="comment"> * Project : algo-practice</span></span><br><span class="line"><span class="comment"> * Package : PACKAGE_NAME</span></span><br><span class="line"><span class="comment"> * Class   : BC1</span></span><br><span class="line"><span class="comment"> * Desc    : 实践出真知]</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">BC1</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;Practice makes perfect!&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><img src="https://gitee.com/cunyu1943/images/raw/master/ImgsUbuntu/20200510234310.png" alt="" /></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 刷题 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Nowcoder </tag>
+            
+            <tag> 算法 </tag>
+            
+            <tag> 数据结构 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>揭秘 HashMap</title>
       <link href="posts/2a28a5c9/"/>
       <url>posts/2a28a5c9/</url>
