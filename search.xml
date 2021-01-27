@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>推荐三个提升工作效率的Github 项目</title>
+      <link href="posts/403cd087/"/>
+      <url>posts/403cd087/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>个人博客：<a href="http://cunyu1943.site/">村雨遥の杂货铺</a></p></blockquote><h2 id="1-前言"><a class="markdownIt-Anchor" href="#1-前言"></a> 1. 前言</h2><p>说起 Github，大家可能都觉得那只是程序员的聚集地。今天就要告诉大家，Github 不仅仅是 Coder 们的专属，它同时也是一个巨大的资源宝库！</p><p>由于我也算是个半吊子的程序员了，所以用 Github 也算久的了，然后今天就给大家安利提高效率的三个项目，希望大家通过它们能够解决自己工作生活中的一些小痛点，提升大家的效率。</p><p>最后，如果你也用 Github 的话，给个 <strong>Star</strong> 鼓励鼓励作者吧，让作者更有动力一直更新下去！</p><p>那么首先在这里贴出项目的地址：</p><ol><li>电子书下载：<a href="https://github.com/cunyu1943/amazing-books">https://github.com/cunyu1943/amazing-books</a></li><li>好用高效的软件推荐：<a href="https://github.com/cunyu1943/amazing-softwares">https://github.com/cunyu1943/amazing-softwares</a></li><li>各种神奇的网站推荐：<a href="https://github.com/cunyu1943/amazing-websites">https://github.com/cunyu1943/amazing-websites</a></li></ol><h2 id="2-项目介绍"><a class="markdownIt-Anchor" href="#2-项目介绍"></a> 2. 项目介绍</h2><h3 id="21-amazing-books"><a class="markdownIt-Anchor" href="#21-amazing-books"></a> 2.1 amazing-books</h3><ol><li><strong>项目地址</strong></li></ol><blockquote><p><a href="https://github.com/cunyu1943/amazing-books">https://github.com/cunyu1943/amazing-books</a></p></blockquote><ol start="2"><li><strong>项目简介</strong></li></ol><p>该项目主要是作者把自己从网上搜集的电子书归档整理所给出的一个项目，主要是更方便大家获取相关资源，同时也节约大家的时间，不用再费力去找。</p><p>项目收集的书籍主要有如下类别：</p><ul><li>C &amp; C++</li><li>Java</li><li>Linux</li><li>Python</li><li>办公</li><li>程序员必读</li><li>大数据与云计算</li><li>前端</li><li>人工智能</li><li>数据结构与算法</li><li>数据库</li></ul><p>具体各类别下的书目可以通过如下链接在线查看：</p><blockquote><p><a href="https://v3.processon.com/view/link/60050ba0e401fd261bc7c03b#map">https://v3.processon.com/view/link/60050ba0e401fd261bc7c03b#map</a></p></blockquote><ol start="3"><li><strong>项目截图</strong></li></ol><p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs/C++.png" alt="" /></p><p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs/java.png" alt="" /></p><h3 id="22-amazing-softwares"><a class="markdownIt-Anchor" href="#22-amazing-softwares"></a> 2.2 amazing-softwares</h3><ol><li><strong>项目地址</strong></li></ol><blockquote><p><a href="https://github.com/cunyu1943/amazing-softwares">https://github.com/cunyu1943/amazing-softwares</a></p></blockquote><ol start="2"><li><strong>项目简介</strong></li></ol><p>项目主要是用于推荐作者在日常工作和生活中，自己亲身体验下来的较为良心，功能性较强的软件。之所以在这里整理出来，是想让大家用上更好的软件，不要再被各种流氓软件所绑架了！</p><p>主要分为系统系列和软件系列，各自下面的分类主要是如下：</p><ul><li><strong>系统系列</strong><ul><li>系统镜像</li><li>刻录工具</li></ul></li><li><strong>软件系列</strong><ul><li>终端工具</li><li>编程</li><li>写作笔记工具</li><li>办公</li><li>PDF 查看</li><li>视频/音频</li><li>解压缩</li><li>系统管理</li><li>下载神器</li><li>浏览器插件</li><li>护眼工具</li><li>快速启动</li><li>文件搜索/管理</li><li>远程工具</li><li>小众软件</li><li>……</li></ul></li></ul><ol start="3"><li><strong>项目截图</strong></li></ol><p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs/website-list.png" alt="" /></p><h3 id="23-amazing-websites"><a class="markdownIt-Anchor" href="#23-amazing-websites"></a> 2.3 amazing-websites</h3><ol><li><strong>项目地址</strong></li></ol><blockquote><p><a href="https://github.com/cunyu1943/amazing-websites">https://github.com/cunyu1943/amazing-websites</a></p></blockquote><ol start="2"><li><strong>项目简介</strong></li></ol><p>本项目主要是作者的浏览器收藏夹实在太满了，哈哈哈。也是做一个备份，万一哪天浏览器收藏夹数据丢失了，还有个恢复的地儿。项目推荐的网站，主要是日常工作中需要解决一些小痛点而找，比如证件照换底色，看个高清电影啥的（自己穷，没钱充 VIP，😂）。</p><p>网站类别主要如下：</p><ul><li>云存储</li><li>工具</li><li>在线作图</li><li>素材下载</li><li>PPT 下载</li><li>论文检索</li><li>在线刷题</li><li>文字教程</li><li>视频教程</li><li>搜索</li><li>PDF 书籍搜索</li><li>网盘搜索</li><li>导航</li><li>影视</li><li>音乐</li><li>壁纸</li><li>软件下载</li><li>……</li></ul><ol start="3"><li><strong>项目截图</strong></li></ol><p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs/websiteslist.png" alt="" /></p><h2 id="3-总结"><a class="markdownIt-Anchor" href="#3-总结"></a> 3. 总结</h2><p>好了，今天的 Github 推荐到此结束了，快去收藏 Star 一波吧。</p><p>如果你也有好的书籍，网站和软件推荐，欢迎留言推荐呀，也可以去 Github 提交 Issue（更推荐）！</p><p><img src="https://gitee.com/cunyu1943/images/raw/master/ImgsUbuntu/20200510234310.png" alt="" /></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Github </tag>
+            
+            <tag> 工具 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>如何利用 Github 搭建自己的免费图床？</title>
       <link href="posts/30c3c998/"/>
       <url>posts/30c3c998/</url>
