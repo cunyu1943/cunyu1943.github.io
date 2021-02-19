@@ -4,6 +4,56 @@
   
     
     <entry>
+      <title>导航页更新，你想知道的都在这儿！</title>
+      <link href="posts/2e988c7c/"/>
+      <url>posts/2e988c7c/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>个人博客：<a href="http://cunyu1943.site/">村雨遥の杂货铺</a></p></blockquote><h2 id="1-前言"><a class="markdownIt-Anchor" href="#1-前言"></a> 1. 前言</h2><p>继 <a href="https://mp.weixin.qq.com/s?__biz=MzIyNTg2MjkzNw==&amp;mid=2247492691&amp;idx=1&amp;sn=124bb0ebd1f614817ca903da674a71ee&amp;chksm=e87b9025df0c193398b23d1969fd2ac11e8b17355790639414d5c6c42634ad0aad9d30ae4356#rd">上次发文</a> 通知大家我的导航页上线之后，自己又对其进行了进一步的完善，更加方便大家设置浏览器主页了！</p><p>先贴一张图来展示下完善后的导航页：</p><p><img src="https://img-blog.csdnimg.cn/20210217205625372.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2dpdGh1Yl8zOTY1NTAyOQ==,size_16,color_FFFFFF,t_70" alt="导航主页" /></p><p>导航地址：</p><blockquote><p><a href="https://cunyu1943.site/navigation">https://cunyu1943.site/navigation</a></p></blockquote><h2 id="2-更新内容"><a class="markdownIt-Anchor" href="#2-更新内容"></a> 2. 更新内容</h2><p>导航页上线之初，个人规划主要将其分成如下 7 部分：</p><ol><li><strong>个人专区</strong>：主要是我个人的一些专属链接，通过这些链接你能够轻松的找到我；</li><li><strong>常用推荐</strong>：我日常使用频率较高的网站或软件等推荐；</li><li><strong>优质网站</strong>：也就是上一篇文章中所提到的 amazing-websites(<a href="https://github.com/cunyu1943/amazing-websites">https://github.com/cunyu1943/amazing-websites</a>) 项目；</li><li><strong>优质软件</strong>：对应上一篇文章中所提到的 amazing-softwares(<a href="https://github.com/cunyu1943/amazing-softwares">https://github.com/cunyu1943/amazing-softwares</a>) 项目；</li><li><strong>浏览器插件</strong>：浏览器插件其实是个很强大的东西，所以在这里单独拎出来，大家赶紧去的可以去看看；</li><li><strong>系统篇</strong>：鉴于大家可能装系统时需要用到系统镜像，所以在这里独立出来一个模块，方便大家下载相应镜像；</li><li><strong>关于本导航</strong>：主要是说明建立该导航的初衷；</li></ol><p>此次更新主要是在上线初版的基础中加入了如下内容：</p><ul><li>[x] 去除左侧导航栏 <strong>关于本导航</strong>；</li><li>[ ] 完善导航页数据；</li><li>[ ] 顶部导航栏新增 <strong>关于博主</strong>；</li><li>[ ] 顶部导航栏新增 <strong>评论留言</strong>，主要是方便大家提交自己觉得不错的资源（网站、软件、插件等）；</li><li>[ ] 新增搜索框，方便大家设置浏览器主页，打开之后直接就能搜索，而且提供多个搜索引擎选择；</li><li>[ ] 浏览器插件下，新增 <strong>高效工具</strong>，主要推荐我平常用的多的浏览器插件；</li><li>[ ] 系统篇下，新增 <strong>刻录工具</strong>，主要推荐用于刻录系统启动盘的工具；</li></ul><h2 id="3-总结"><a class="markdownIt-Anchor" href="#3-总结"></a> 3. 总结</h2><p>好了，此次关于导航页的更新到此就结束了，如果你还有更好的建议，欢迎留言交流。如果你也有优质的资源（软件、网站、浏览器插件等）要推荐给大家，那就赶紧去我的导航页留言推荐吧！</p><blockquote><p><a href="https://cunyu1943.site/navigation">https://cunyu1943.site/navigation</a></p></blockquote><p><img src="https://gitee.com/cunyu1943/images/raw/master/ImgsUbuntu/20200510234310.png" alt="" /></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 程序人生 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 杂谈 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>怒肝通宵，我的导航页上线了！</title>
+      <link href="posts/658efba8/"/>
+      <url>posts/658efba8/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>个人博客：<a href="http://cunyu1943.site/">村雨遥の杂货铺</a></p></blockquote><h2 id="1-前言"><a class="markdownIt-Anchor" href="#1-前言"></a> 1. 前言</h2><p>前段时间发了一篇文章，内容是关于我的 Github 项目的，链接在此 -&gt; <a href="https://mp.weixin.qq.com/s?__biz=MzIyNTg2MjkzNw==&amp;mid=2247492673&amp;idx=1&amp;sn=fe8fe5390564cfffedb724298063f244&amp;chksm=e87b9037df0c1921fe72c8503803f83aeae95b5eb8f7b76a590a416ef04c09415ea43f4736df&amp;token=844916262&amp;lang=zh_CN#rd">发现 3 个 Github 项目，绝了！</a>。</p><p>发了之后，发现大家还是十分感兴趣的，也收获了来自大家的 Star 鼓励（偷偷开心，😄）。</p><p>但是项目终究是文字版本，要去找的时候还是比较麻烦的，需要去书签里找。为了解决这个痛点，我决定做一个导航界面，这样一来大家就可以把它设置为浏览器主页，每次打开就能直接看到了。于是消失的这段时间，经过一番考察，最终把我的导航界面做了出来。在此，先贴一张图预览：</p><p><img src="https://raw.githubusercontent.com/cunyu1943/blog-imgs/main/navigation.png" alt="" /></p><p>导航地址：</p><blockquote><p><a href="https://cunyu1943.site/navigation">https://cunyu1943.site/navigation</a></p></blockquote><h2 id="2-规划及进度"><a class="markdownIt-Anchor" href="#2-规划及进度"></a> 2. 规划及进度</h2><h3 id="21-规划"><a class="markdownIt-Anchor" href="#21-规划"></a> 2.1 规划</h3><p>目前，个人规划主要将其分成如下 7 部分：</p><ol><li><strong>个人专区</strong>：主要是我个人的一些专属链接，通过这些链接你能够轻松的找到我；</li><li><strong>常用推荐</strong>：我日常使用频率较高的网站或软件等推荐；</li><li><strong>优质网站</strong>：也就是上一篇文章中所提到的 amazing-websites(<a href="https://github.com/cunyu1943/amazing-websites">https://github.com/cunyu1943/amazing-websites</a>) 项目；</li><li><strong>优质软件</strong>：对应上一篇文章中所提到的 amazing-softwares(<a href="https://github.com/cunyu1943/amazing-softwares">https://github.com/cunyu1943/amazing-softwares</a>) 项目；</li><li><strong>浏览器插件</strong>：浏览器插件其实是个很强大的东西，所以在这里单独拎出来，大家赶紧去的可以去看看；</li><li><strong>系统镜像</strong>：鉴于大家可能装系统时需要用到系统镜像，所以在这里独立出来一个模块，方便大家下载相应镜像；</li><li><strong>关于本导航</strong>：主要是说明建立该导航的初衷；</li></ol><p>而在优质网站、优质软件、浏览器插件以及系统模块，我有分为了不同的子模块，这些子模块会随着后面数据的增多而不断调整，所以也不必过于纠结。</p><ol><li><strong>优质网站</strong><ul><li>云存储</li><li>在线工具</li><li>在线作图</li><li>素材下载</li><li>PPT下载</li><li>论文检索</li><li>在线刷题</li><li>文字教程</li><li>视频教程</li><li>综合搜索</li><li>PDF书籍搜索</li><li>网盘搜索</li><li>导航</li><li>影视</li><li>音乐</li><li>壁纸</li><li>软件下载</li><li>镜像站</li></ul></li><li><strong>优质软件</strong><ul><li>终端工具</li><li>编程</li><li>写作笔记工具</li><li>办公</li><li>PDF查看</li><li>视频</li><li>音频</li><li>解压缩</li><li>系统管理</li><li>下载神器</li><li>护眼工具</li><li>快速启动</li><li>文件搜索/管理</li><li>远程工具</li><li>小众软件</li></ul></li><li><strong>浏览器插件</strong><ul><li>科学上网</li></ul></li><li><strong>系统镜像</strong><ul><li>Windows</li><li>Linux</li><li>MacOS</li></ul></li></ol><h3 id="22-进度"><a class="markdownIt-Anchor" href="#22-进度"></a> 2.2 进度</h3><p>说来惭愧，虽然导航页是出来了，但是进度还是很慢，里边目前只添加了十几个网站。不过大家不用担心，这不是所有的数据，后续还是会不断更新的，一旦有啥优质的内容，我会抽空把数据更新上去，同时，Github 的项目也不会停止更新，会一直同步更新下去，也感谢大家的 Star 支持！</p><h2 id="3-总结"><a class="markdownIt-Anchor" href="#3-总结"></a> 3. 总结</h2><p>总体来讲，导航页面算是搭建完成了，但是由于我的收藏夹有点满，添加网址、找网站logo啥的也比较费时间，所以后续完善过程可能会持续一段时间，也请大家谅解（苦逼学生还有论文任务，o(╥﹏╥)o），我会抽空把所有东西都更新上去的！</p><p><img src="https://gitee.com/cunyu1943/images/raw/master/ImgsUbuntu/20200510234310.png" alt="" /></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 程序人生 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 杂谈 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>推荐三个提升工作效率的Github 项目</title>
       <link href="posts/403cd087/"/>
       <url>posts/403cd087/</url>
