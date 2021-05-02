@@ -471,8 +471,7 @@ header .side-nav .social-link {
     }
 
     100% {
-        opacity: 0.4;
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+        opacity: 0.4;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
         filter: alpha(opacity=40);
         top: 0;
     }
