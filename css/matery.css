@@ -1,6 +1,6 @@
 /*全局基础样式*/
 /*小屏幕下(手机类)的样式*/
-@media only screen and (max-width: 601px) {
+@media only sreen and (max-width: 601px) {
     .container {
         width: 95%;
     }
@@ -241,7 +241,7 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, #29B6F6 0%, #1E88E5 100%);
     opacity: 0.8  /* 透明效果 */
 }
 
