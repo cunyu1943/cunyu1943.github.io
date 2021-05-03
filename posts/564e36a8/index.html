@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="友链, Java 公众号：村雨遥 LeetCode">
+    <meta name="keywords" content="【Java 从入坑到放弃】No 1. Java 开发环境搭建, Java 公众号：村雨遥 LeetCode">
     <meta name="description" content="吾生也有涯，而知也无涯。">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>友链 | 村雨遥的博客</title>
+    <title>【Java 从入坑到放弃】No 1. Java 开发环境搭建 | 村雨遥的博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -296,7 +296,7 @@
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">友链</h1>
+                    <h1 class="description center-align post-title">【Java 从入坑到放弃】No 1. Java 开发环境搭建</h1>
                 </div>
             </div>
         </div>
@@ -410,12 +410,25 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/Java/">
+                                <span class="chip bg-color">Java</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/Java-%E4%BF%AE%E7%82%BC%E4%B9%8B%E8%B7%AF/" class="post-category">
+                                Java 修炼之路
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -424,28 +437,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-01-20
+                    2021-05-03
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-01-21
+                    2021-05-03
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    0
+                    1.3k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    4 分
                 </div>
                 
 
@@ -468,7 +481,146 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                
+                <blockquote>
+<p><strong>本文已收录至个人 Github仓库</strong>：<a target="_blank" rel="noopener" href="https://github.com/cunyu1943/cs-docs">cs-docs</a>，欢迎各位 <strong>Star、Fork</strong> ~</p>
+</blockquote>
+<h2 id="1-前言"><a class="markdownIt-Anchor" href="#1-前言"></a> 1. 前言</h2>
+<p>要进行 Java 开发，那怎么能少得了 JDK 呢，那么就首先来教大家如何安装并配置 JDK；</p>
+<h2 id="2-下载并安装-jdk"><a class="markdownIt-Anchor" href="#2-下载并安装-jdk"></a> 2. 下载并安装 JDK</h2>
+<h3 id="21-windows"><a class="markdownIt-Anchor" href="#21-windows"></a> 2.1 Windows</h3>
+<h4 id="211-安装"><a class="markdownIt-Anchor" href="#211-安装"></a> 2.1.1 安装</h4>
+<ol>
+<li>首先进入  <a target="_blank" rel="noopener" href="https://www.oracle.com/java/technologies/javase-downloads.html">Oracle 官网</a>，然后找到自己想要的 JDK 版本，这边以 JDK 11 为例；</li>
+</ol>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/e0f644ac6dc11c0aad90950033f1ae9c.png" alt=""></p>
+<ol start="2">
+<li>点击 JDK Download 后，它会跳转到具体下载页面，然后根据自己的系统来进行选择，此处以 Windows 10 64 位为例；</li>
+</ol>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/b434fc59fc0db7b731efe183c785e5b2.png" alt=""></p>
+<ol start="3">
+<li>点击最后的连接后，它会让你同意协议，勾选同意，然后登陆你的 Oracle 账户即可开始下载，若是没有 Oracle 账户，点击下面的创建一个即可；</li>
+</ol>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/df34758789f8162b21e126dde9c857a8.png" alt=""></p>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/a52c51e77e39fff25acb7d4f619d5a64.png" alt=""></p>
+<ol start="4">
+<li>下载完成后，进行安装即可，安装流程和我们平常安装软件的一样，就不再赘述，需要注意的是要记住如下的安装路径，因为一般我们都不会安装到默认路径，所以一定要记住你所安装到的路径，这关系到后续的配置步骤；</li>
+</ol>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/21aac5438217aba471cecb3b9c62ce8b.png" alt=""></p>
+<h4 id="212-配置-jdk"><a class="markdownIt-Anchor" href="#212-配置-jdk"></a> 2.1.2  配置 JDK</h4>
+<p>好了，经过上面的配置，我们的 JDK 就已经安装好了，但是这个使用你是用不了的，我们还需要进一步的配置；</p>
+<p>打开系统属性来进行环境变量配置，打开系统属性并进行配置的方式如下：</p>
+<ol>
+<li><strong>Windows + R</strong>  快捷键组合唤醒 Windows 运行窗口，然后输入 <code>sysdm.cpl</code>，紧接着回车即可，一般会打开如下界面，然后点击最上方的 <strong>高级</strong>；</li>
+</ol>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/1268d2679c0f59a877a167804b5e92fc.png" alt=""></p>
+<ol start="2">
+<li>点击高级后，就会打开如下界面，然后打开环境变量；</li>
+</ol>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/d6d1248017060238da834ebb76dde598.png" alt=""><br>
+3.  新建环境变量 <strong>JAVA_HOME</strong>，然后变量值填入刚才安装 JDK 的路径（刚才提醒过要记住！）；</p>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/1f099376b3dc6464825053b8ff6d9d0d.png" alt=""></p>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/0c5bd96f68d6b380828ec2c18544c7fe.png" alt=""></p>
+<ol start="4">
+<li>编辑 <strong>Path</strong> 环境变量，然后新建一个变量值，填入如下内容：<code>%JAVA_HOME%\bin</code>；</li>
+</ol>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/e48caa51ec79038bd22c82b0aae616f6.png" alt=""></p>
+<ol start="5">
+<li>各种确定，然后突出系统属性即可，到这一步，理论上我们的 JDK 就安装并配置成功了，接下来我们就去确认一下到底安装好了没；</li>
+</ol>
+<h4 id="213-验证-jdk"><a class="markdownIt-Anchor" href="#213-验证-jdk"></a> 2.1.3 验证 JDK</h4>
+<p>按照上述步骤操作完成之后，接下来就是验证了，一般我们可以通过如下三个命令来进行验证；</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 查看 JDK 版本</span>
+java -version
+
+<span class="token comment"># 编译命令</span>
+javac
+
+<span class="token comment"># 运行命令</span>
+java<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>打开命令控制台（<strong>Windows + R，然后输入 cmd 回车</strong>），然后输入如上三个命令，如果安装成功，一般是会出现如下内容的；</p>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/389fee69f4cfbba0de01137e77a817f8.png" alt=""></p>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/e9b89e4068316fc20ae2553813b83075.png" alt=""></p>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/ceaa12cd2523d3ea3e96defea9fbd8e1.png" alt=""></p>
+<h3 id="22-macos"><a class="markdownIt-Anchor" href="#22-macos"></a> 2.2 macOS</h3>
+<h4 id="221-安装"><a class="markdownIt-Anchor" href="#221-安装"></a> 2.2.1 安装</h4>
+<ol>
+<li>首先去 <a target="_blank" rel="noopener" href="https://www.oracle.com/java/technologies/javase-jdk11-downloads.html">官网下载</a> 对应安装包；</li>
+</ol>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/05375fdb50e8a131d939192b67508871.png" alt=""></p>
+<ol start="2">
+<li>接受相关协议并登录下载；</li>
+</ol>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/c98fde365fa3703b1defc363ab9bb1a6.png" alt=""></p>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/bcd00cd812ef7035ce24a4bb9b8c3082.png" alt=""></p>
+<ol start="3">
+<li>双击下载好的 <code>.dmg</code> 安装包，然后开始安装；</li>
+</ol>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/305a9616bd833106e93cbc7a4cb58e57.png" alt=""></p>
+<ol start="4">
+<li>安装过程中会让你输入密码，也就是你本机的秘密；</li>
+</ol>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/2f86de8bd7cab234fd2f1cc3bbde6660.png" alt=""></p>
+<ol start="5">
+<li>安装成功；</li>
+</ol>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/d021a88d58cd2e14202014fd3766e3ec.png" alt=""></p>
+<h4 id="222-验证"><a class="markdownIt-Anchor" href="#222-验证"></a> 2.2.2 验证</h4>
+<p>不同于 Windows，macOS 下不用再去配置了，它会给你自动配置好，我们只需要去验证即可；</p>
+<ol>
+<li>查看 JDK 版本；</li>
+</ol>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">java -version<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/9ac7a39c9c0706fd11943f1fab98144e.png" alt=""></p>
+<ol start="2">
+<li>编译命令；</li>
+</ol>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/fd382f325012a601e719bb3217bd2be5.png" alt=""></p>
+<ol start="3">
+<li>运行命令；</li>
+</ol>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/ccd1031edf48f255964bfa5ee8d74584.png" alt=""></p>
+<h2 id="3-你的第一个-java程序helloworld"><a class="markdownIt-Anchor" href="#3-你的第一个-java程序helloworld"></a> 3. 你的第一个 Java程序：HelloWorld</h2>
+<p>好了，经过上面的安装配置，我们就可以开始我们的第一个 Java 程序编写了，我们不需要任何的基础，只需要你按照上面的步骤配置好 JDK，就可以了，下面就来具体实践：</p>
+<ol>
+<li>打开的编辑器（推荐 VS Code），如果没有，记事本也成，然后写入如下内容，然后保存为 <code>Main.java</code>；</li>
+</ol>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Main</span><span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Hello World!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<ol start="2">
+<li>打开控制命令台，然后进入上述文件存放的路径，使用如下命令进行编译，然后会生成一个 <code>Main.class</code> 文件；</li>
+</ol>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">javac Main.java<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/273c3a587a1de7098a4a3ae1b60eb2e4.png" alt=""></p>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/88d272607c243733168f3cb18a26afee.png" alt=""></p>
+<ol start="3">
+<li>运行，使用如下命令进行运行，然后就可以看到打印出的最终结果了！</li>
+</ol>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">java Main<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/d4797369ca28be9d523f5977b98d0e3e.png" alt=""></p>
+<h2 id="4-知识点说明"><a class="markdownIt-Anchor" href="#4-知识点说明"></a> 4. 知识点说明</h2>
+<p>我们的 Hello World 是打印出来了，但是你肯定对里边的代码很感兴趣，这一节就主要针对我们的 Hello World 程序进行说明；</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Main</span><span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Hello World!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>完整的程序代码如上：</p>
+<ul>
+<li><code>public</code>：权限修饰符，表示这一个可以公开访问的类，类似的还有 <code>protected、default、private</code>，后续学习过程中再一一介绍；</li>
+<li><code>class</code>：Java 关键字，表示这是一个类；</li>
+<li><code>Main</code>： 表示我们的类名，在保存时文件要和它同名，否则你的程序是编译不了的。你可以试试，如果把我们上面的 <code>Main.java</code> 改成其他名字，你看看是不是还能编译成功呢？</li>
+<li><code>public static void main(String[] args){}</code>：主方法，这是我们以后最常接触到的一个方法，每个主类当中都必须有一个 <code>main</code> 方法；</li>
+<li><code>System.out.println("Hello World!")</code>：控制台输出语句，执行该语句会在控制台中输出字符串，字符串要用双引号 <code>""</code> 括起来，你可以把其中的 <code>Hello Wolrd!</code> 换成你想要打印的内容试试看；</li>
+</ul>
+<h2 id="5-总结"><a class="markdownIt-Anchor" href="#5-总结"></a> 5. 总结</h2>
+<p>好了，今天的内容到此就结束了，主要介绍了如何在 Windows 和 macOS 中安装 JDK，以及如何写我们的第一个 <code>Hello World</code> 程序。最后，则是对我们的 <code>Hello World</code> 程序中的相关知识进行了介绍。</p>
+<blockquote>
+<p>建议关注公众号 「<strong>村雨遥</strong>」，最新干货文章不容错过 ~</p>
+</blockquote>
+
                 
             </div>
             <hr/>
@@ -494,7 +646,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://cunyu1943.site/link/index.html">http://cunyu1943.site/link/index.html</a>
+                    <a href="http://cunyu1943.site/posts/564e36a8/">http://cunyu1943.site/posts/564e36a8/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -531,7 +683,11 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/Java/">
+                                    <span class="chip bg-color">Java</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -700,7 +856,7 @@
         repo: 'cunyu1943.github.io',
         owner: 'cunyu1943',
         admin: "cunyu1943",
-        id: '2021-01-20T15-22-49',
+        id: '2021-05-03T15-18-39',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -728,18 +884,17 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/link/index.html">
+                <a href="/posts/f88149e6/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="友链">
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="【Java 从入坑到放弃】No 2. 玩转 IDEA">
                         
-                        <span class="card-title">友链</span>
+                        <span class="card-title">【Java 从入坑到放弃】No 2. 玩转 IDEA</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -749,9 +904,9 @@
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-01-20
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-05-03
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -760,7 +915,6 @@
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>
@@ -768,16 +922,16 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/link/index.html">
+                <a href="/posts/c97353d2/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="友链">
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="【剑指 Java】第 4 弹：绝对硬货，Spring 面试知识点总结大全">
                         
-                        <span class="card-title">友链</span>
+                        <span class="card-title">【剑指 Java】第 4 弹：绝对硬货，Spring 面试知识点总结大全</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -788,17 +942,40 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-01-20
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-05-02
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            村雨遥
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E5%89%91%E6%8C%87-Java/" class="post-category">
+                                    剑指 Java
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
-
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E9%9D%A2%E8%AF%95/">
+                        <span class="chip bg-color">面试</span>
+                    </a>
+                    
+                    <a href="/tags/Spring/">
+                        <span class="chip bg-color">Spring</span>
+                    </a>
+                    
+                    <a href="/tags/SpringBoot/">
+                        <span class="chip bg-color">SpringBoot</span>
+                    </a>
+                    
+                    <a href="/tags/SpringMVC/">
+                        <span class="chip bg-color">SpringMVC</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -976,6 +1153,13 @@
 
 </main>
 
+
+<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$', '$'], ['\(', '\)']]}
+    });
+</script>
 
 
 
