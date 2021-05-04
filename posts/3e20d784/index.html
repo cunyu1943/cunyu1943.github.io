@@ -143,7 +143,7 @@
       </li>
       
       <li>
-        <a href="/categories/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/Online-Judge/">
+        <a href="/categories/Online-Judge/">
           
           <i class="fas fa-code" style="margin-top: -20px; zoom: 0.6;"></i>
           
@@ -329,7 +329,7 @@
               
                 <li>
 
-                  <a href="/categories/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/Online-Judge/ " style="margin-left:75px">
+                  <a href="/categories/Online-Judge/ " style="margin-left:75px">
 				  
 				   <i class="fa fas fa-code" style="position: absolute;left:50px" ></i>
 			      
@@ -669,23 +669,18 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <blockquote>
-<p><strong>本文已收录至个人 Github仓库</strong>：<a target="_blank" rel="noopener" href="https://github.com/cunyu1943/cs-docs">cs-docs</a>，欢迎各位 <strong>Star、Fork</strong> ~</p>
+<p>  <strong>本文已收录至个人 Github仓库</strong>：<a target="_blank" rel="noopener" href="https://github.com/cunyu1943/cs-docs">cs-docs</a>，欢迎各位 <strong>Star、Fork</strong> ~</p>
 </blockquote>
-<h2 id="反射概述"><a class="markdownIt-Anchor" href="#反射概述"></a> 反射概述</h2>
-<h3 id="什么是反射"><a class="markdownIt-Anchor" href="#什么是反射"></a> 什么是反射</h3>
-<p>将类的各个组成部分封装为其他对象的过程就叫做 <strong>反射</strong>，其中 <strong>组成部分</strong> 指的是我们类的 <strong>成员变量（Field）</strong>、<strong>构造方法（Constructor）</strong>、<strong>成员方法（Method）</strong>。</p>
-<h3 id="使用反射的优缺点"><a class="markdownIt-Anchor" href="#使用反射的优缺点"></a> 使用反射的优缺点</h3>
-<ul>
-<li>
-<p><strong>优点</strong></p>
+<h2 id="反射概述"><a href="#反射概述" class="headerlink" title="反射概述"></a>反射概述</h2><h3 id="什么是反射"><a href="#什么是反射" class="headerlink" title="什么是反射"></a>什么是反射</h3><p>将类的各个组成部分封装为其他对象的过程就叫做 <strong>反射</strong>，其中 <strong>组成部分</strong> 指的是我们类的 <strong>成员变量（Field）</strong>、<strong>构造方法（Constructor）</strong>、<strong>成员方法（Method）</strong>。</p>
+<h3 id="使用反射的优缺点"><a href="#使用反射的优缺点" class="headerlink" title="使用反射的优缺点"></a>使用反射的优缺点</h3><ul>
+<li><p><strong>优点</strong></p>
 <ol>
 <li>在程序运行过程中可以操作类对象，增加了程序的灵活性；</li>
 <li>解耦，从而提高程序的可扩展性，提高代码的复用率，方便外部调用；</li>
 <li>对于任何一个类，当知道它的类名后，就能够知道这个类的所有属性和方法；而对于任何一个对象，都能够调用它的一个任意方法。</li>
 </ol>
 </li>
-<li>
-<p><strong>缺点</strong></p>
+<li><p><strong>缺点</strong></p>
 <ol>
 <li><strong>性能问题</strong>：Java 反射中包含了一些动态类型，JVM 无法对这些动态代码进行优化，因此通过反射来操作的方式要比正常操作效率更低。</li>
 <li><strong>安全问题</strong>：使用反射时要求程序必须在一个没有安全限制的环境中运行，如果程序有安全限制，就不能使用反射。</li>
@@ -693,17 +688,15 @@
 </ol>
 </li>
 </ul>
-<h2 id="class-对象的获取及使用"><a class="markdownIt-Anchor" href="#class-对象的获取及使用"></a> Class 对象的获取及使用</h2>
-<h3 id="获取-class-对象的方式"><a class="markdownIt-Anchor" href="#获取-class-对象的方式"></a> 获取 Class 对象的方式</h3>
-<ol>
+<h2 id="Class-对象的获取及使用"><a href="#Class-对象的获取及使用" class="headerlink" title="Class 对象的获取及使用"></a>Class 对象的获取及使用</h2><h3 id="获取-Class-对象的方式"><a href="#获取-Class-对象的方式" class="headerlink" title="获取 Class 对象的方式"></a>获取 Class 对象的方式</h3><ol>
 <li><code>Class.forName("全类名")</code></li>
 </ol>
 <p>源代码阶段，它能将字节码文件加载进内存中，然后返回 <code>Class</code> 对象，多用于配置文件中，将类名定义在配置文件中，通过读取配置文件来加载类。</p>
-<ol start="2">
+<ol>
 <li><code>类名.class</code></li>
 </ol>
 <p>类对象阶段，通过类名的 <code>class</code> 属性来获取，多用于参数的传递。</p>
-<ol start="3">
+<ol>
 <li><code>对象.getClass()</code></li>
 </ol>
 <p>运行时阶段，<code>getClass()</code> 定义在 <code>Object</code> 类中，表明所有类都能使用该方法，多用于对象的获取字节码的方式。</p>
@@ -833,9 +826,7 @@
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <p><img src="https://img-blog.csdnimg.cn/img_convert/5f0542d56abe1ea0b6f8d0af1849fc40.png" alt="对比结果"></p>
 <p>上述代码中，会发现最后输出的比较结果返回的是两个 <code>true</code>，说明通过上述三种方式获取的 <code>Class</code> 对象都是同一个，<strong>同一个字节码文件（<code>*.class</code>）在一次运行过程中只会被加载一次</strong>。</p>
-<h3 id="class-对象的使用"><a class="markdownIt-Anchor" href="#class-对象的使用"></a> Class 对象的使用</h3>
-<h4 id="获取成员变量"><a class="markdownIt-Anchor" href="#获取成员变量"></a> 获取成员变量</h4>
-<ul>
+<h3 id="Class-对象的使用"><a href="#Class-对象的使用" class="headerlink" title="Class 对象的使用"></a>Class 对象的使用</h3><h4 id="获取成员变量"><a href="#获取成员变量" class="headerlink" title="获取成员变量"></a>获取成员变量</h4><ul>
 <li><code>Field[] getFields()</code></li>
 </ul>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">package</span> <span class="token namespace">com<span class="token punctuation">.</span>cunyu</span><span class="token punctuation">;</span>
@@ -959,8 +950,7 @@ idField<span class="token punctuation">.</span><span class="token function">set<
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <p><img src="https://img-blog.csdnimg.cn/img_convert/370161d55c540b9f07ea3197e7f8c135.png" alt=""></p>
 <p>观察上面的结果可知，该方法可用于获取指定的成员变量，不用考虑成员变量修饰符的限制（<strong>不包括父类</strong>）。但是在利用 <code>set</code>、<code>get</code> 方法来获取和设置 <code>private</code>、<code>protected</code> 修饰的成员变量时，需要利用 <code>setAccessible()</code> 来忽略访问全新啊修饰符的安全检查，否则程序将会报错。</p>
-<h4 id="获取构造方法"><a class="markdownIt-Anchor" href="#获取构造方法"></a> 获取构造方法</h4>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">package</span> <span class="token namespace">com<span class="token punctuation">.</span>cunyu</span><span class="token punctuation">;</span>
+<h4 id="获取构造方法"><a href="#获取构造方法" class="headerlink" title="获取构造方法"></a>获取构造方法</h4><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">package</span> <span class="token namespace">com<span class="token punctuation">.</span>cunyu</span><span class="token punctuation">;</span>
 
 <span class="token keyword">import</span> <span class="token namespace">java<span class="token punctuation">.</span>lang<span class="token punctuation">.</span>reflect<span class="token punctuation">.</span></span><span class="token class-name">Constructor</span><span class="token punctuation">;</span>
 <span class="token keyword">import</span> <span class="token namespace">java<span class="token punctuation">.</span>lang<span class="token punctuation">.</span>reflect<span class="token punctuation">.</span></span><span class="token class-name">InvocationTargetException</span><span class="token punctuation">;</span>
@@ -1011,12 +1001,10 @@ idField<span class="token punctuation">.</span><span class="token function">set<
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <p><img src="https://img-blog.csdnimg.cn/img_convert/78d9193e2b0658b72b67d57099504fc0.png" alt=""></p>
 <ul>
-<li>
-<p><code>Constructor&lt;?&gt;[] getConstructors()</code></p>
-<p>类似于通过 <code>Class</code> 实例来获取成员变量，该方法用于获取所有 <code>public</code> 所修饰的构造方法（<strong>包括父类</strong>）；</p>
+<li><p><code>Constructor&lt;?&gt;[] getConstructors()</code></p>
+<p>  类似于通过 <code>Class</code> 实例来获取成员变量，该方法用于获取所有 <code>public</code> 所修饰的构造方法（<strong>包括父类</strong>）；</p>
 </li>
-<li>
-<p><code>Constructor&lt;T&gt; getConstructor(类&lt;?&gt;... parameterTypes)</code></p>
+<li><p><code>Constructor&lt;T&gt; getConstructor(类&lt;?&gt;... parameterTypes)</code></p>
 </li>
 </ul>
 <p>该方法用于获取某一指定参数类型后的 <code>public</code> 所修饰的构造方法（<strong>包括父类</strong>）；</p>
@@ -1029,8 +1017,7 @@ idField<span class="token punctuation">.</span><span class="token function">set<
 </ul>
 <p>该方法用于获取某一指定参数类型后的 <code>public</code> 所修饰的构造方法（<strong>不包括父类</strong>）；</p>
 <p>而获取到构造方法之后，我们就可以利用 <code>newInstance()</code> 方法来创建类的实例。特殊的，如果我们的构造方法是无参的，此时则可以直接利用 <code>Class.newInstance()</code> 来构造实例。</p>
-<h4 id="获取成员方法"><a class="markdownIt-Anchor" href="#获取成员方法"></a> 获取成员方法</h4>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">package</span> <span class="token namespace">com<span class="token punctuation">.</span>cunyu</span><span class="token punctuation">;</span>
+<h4 id="获取成员方法"><a href="#获取成员方法" class="headerlink" title="获取成员方法"></a>获取成员方法</h4><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">package</span> <span class="token namespace">com<span class="token punctuation">.</span>cunyu</span><span class="token punctuation">;</span>
 
 <span class="token keyword">import</span> <span class="token namespace">java<span class="token punctuation">.</span>lang<span class="token punctuation">.</span>reflect<span class="token punctuation">.</span></span><span class="token class-name">InvocationTargetException</span><span class="token punctuation">;</span>
 <span class="token keyword">import</span> <span class="token namespace">java<span class="token punctuation">.</span>lang<span class="token punctuation">.</span>reflect<span class="token punctuation">.</span></span><span class="token class-name">Method</span><span class="token punctuation">;</span>
@@ -1076,7 +1063,7 @@ idField<span class="token punctuation">.</span><span class="token function">set<
 </ul>
 <p>用于获取当前类的某一个指定名称 <code>public</code> 所修饰的成员方法（<strong>包括父类</strong>）。</p>
 <ul>
-<li><code>Method[] getDeclaredMethods()</code></li>
+<li><code>Method[] getDeclaredMethods()</code> </li>
 </ul>
 <p>用于获取当前类的所有 <code>public</code> 所修饰的成员方法（<strong>不包括父类</strong>）。</p>
 <ul>
@@ -1084,8 +1071,7 @@ idField<span class="token punctuation">.</span><span class="token function">set<
 </ul>
 <p>用于获取当前类的某一个指定名称 <code>public</code> 所修饰的成员方法（<strong>不包括父类</strong>）。</p>
 <p>而当我们获取到类的成员方法后，如果要执行某一个方法，可以使用 <code>invoke()</code> 方法来执行该方法。</p>
-<h4 id="获取类名"><a class="markdownIt-Anchor" href="#获取类名"></a> 获取类名</h4>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">package</span> <span class="token namespace">com<span class="token punctuation">.</span>cunyu</span><span class="token punctuation">;</span>
+<h4 id="获取类名"><a href="#获取类名" class="headerlink" title="获取类名"></a>获取类名</h4><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">package</span> <span class="token namespace">com<span class="token punctuation">.</span>cunyu</span><span class="token punctuation">;</span>
 
 <span class="token comment">/**
  * @author : cunyu
@@ -1109,8 +1095,7 @@ idField<span class="token punctuation">.</span><span class="token function">set<
 <li><code>String getName()</code></li>
 </ul>
 <p>从上述程序的结果可知，当我们获取到 <code>Class</code> 对象之后，如果不知道类的全名，就可以使用 <code>getName()</code> 来获取该类的全名。</p>
-<h2 id="反射实例"><a class="markdownIt-Anchor" href="#反射实例"></a> 反射实例</h2>
-<p>假设我们有如下需求：在不改变类的代码的前提下，我们能够创建任意类的对象，并执行其中的方法。</p>
+<h2 id="反射实例"><a href="#反射实例" class="headerlink" title="反射实例"></a>反射实例</h2><p>假设我们有如下需求：在不改变类的代码的前提下，我们能够创建任意类的对象，并执行其中的方法。</p>
 <p>此时，我们可以通过 <strong>配置文件 + 反射</strong>  的方式来实现这一效果，而这也就是我们现在所用框架中的基础，当我们使用反射后，只需要通过修改配置文件中的内容就能够不用去改代码就实现对应的功能。</p>
 <p>假设我们有两个类，一个 <code>Student</code>，一个 <code>Teacher</code>，两者的定义如下；</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">package</span> <span class="token namespace">com<span class="token punctuation">.</span>cunyu</span><span class="token punctuation">;</span>
@@ -1156,7 +1141,7 @@ idField<span class="token punctuation">.</span><span class="token function">set<
 <p>定义的配置文件 <code>prop.properties</code> ，其中主要内容包括 <code>className</code> 和 <code>methodName</code> 两个属性，分别代表类的全类名和要调用方法的名字。一个具体实例如下，分别代表名为 <code>Student</code> 的类和名为 <code>study</code>  的方法。</p>
 <pre class="line-numbers language-properties" data-language="properties"><code class="language-properties"><span class="token attr-name">className</span><span class="token punctuation">=</span><span class="token attr-value">com.cunyu.Student</span>
 <span class="token attr-name">methodName</span><span class="token punctuation">=</span><span class="token attr-value">study</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-<ol start="2">
+<ol>
 <li>然后在主方法中加载读取配置文件；</li>
 </ol>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">//        创建配置文件对象</span>
@@ -1169,17 +1154,17 @@ properties<span class="token punctuation">.</span><span class="token function">l
 <span class="token comment">//        获取配置文件中定义的数据</span>
 <span class="token class-name">String</span> className <span class="token operator">=</span> properties<span class="token punctuation">.</span><span class="token function">getProperty</span><span class="token punctuation">(</span><span class="token string">"className"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token class-name">String</span> methodName <span class="token operator">=</span> properties<span class="token punctuation">.</span><span class="token function">getProperty</span><span class="token punctuation">(</span><span class="token string">"methodName"</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<ol start="3">
+<ol>
 <li>利用反射技术将类加载到内存中；</li>
 </ol>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">//        加载进内存</span>
 <span class="token class-name">Class</span> name <span class="token operator">=</span> <span class="token class-name">Class</span><span class="token punctuation">.</span><span class="token function">forName</span><span class="token punctuation">(</span>className<span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-<ol start="4">
+<ol>
 <li>接着利用 <code>newInstance()</code> 方法创建对象；</li>
 </ol>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">//        创建实例</span>
 <span class="token class-name">Object</span> object <span class="token operator">=</span> name<span class="token punctuation">.</span><span class="token function">newInstance</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-<ol start="5">
+<ol>
 <li>最后则是利用 <code>invoke()</code> 方法来执行方法；</li>
 </ol>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">//        获取并执行方法</span>
@@ -1229,11 +1214,10 @@ method<span class="token punctuation">.</span><span class="token function">invok
 <p>此时，我们只需要改动配置文件 <code>prop.properties</code> 中的配置即可输出不同结果；</p>
 <p><img src="https://img-blog.csdnimg.cn/img_convert/2ea306bc1d85075dea38f22f852a741b.png" alt=""></p>
 <p><img src="https://img-blog.csdnimg.cn/img_convert/584f448161eebde25d8da0e9324210a5.png" alt=""></p>
-<h2 id="总结"><a class="markdownIt-Anchor" href="#总结"></a> 总结</h2>
-<p>好了，感谢耐心看到这里的各位。如果您觉得本文对您有所帮助，那就给我点个赞吧！</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>好了，感谢耐心看到这里的各位。如果您觉得本文对您有所帮助，那就给我点个赞吧！</p>
 <p>最后，对于文中知识点有错误或欠缺的地方，还请大家见谅，欢迎大家评论留言给我指正~</p>
 <blockquote>
-<p>建议关注公众号 「<strong>村雨遥</strong>」，最新干货文章不容错过 ~</p>
+<p>  建议关注公众号 「<strong>村雨遥</strong>」，最新干货文章不容错过 ~</p>
 </blockquote>
 
                 
@@ -2070,7 +2054,7 @@ method<span class="token punctuation">.</span><span class="token function">invok
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">86.4k</span>&nbsp;字
+                class="white-color">86.2k</span>&nbsp;字
             
             
             

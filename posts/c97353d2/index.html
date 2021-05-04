@@ -143,7 +143,7 @@
       </li>
       
       <li>
-        <a href="/categories/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/Online-Judge/">
+        <a href="/categories/Online-Judge/">
           
           <i class="fas fa-code" style="margin-top: -20px; zoom: 0.6;"></i>
           
@@ -329,7 +329,7 @@
               
                 <li>
 
-                  <a href="/categories/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/Online-Judge/ " style="margin-left:75px">
+                  <a href="/categories/Online-Judge/ " style="margin-left:75px">
 				  
 				   <i class="fa fas fa-code" style="position: absolute;left:50px" ></i>
 			      
@@ -677,10 +677,9 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <blockquote>
-<p><strong>本文已收录至个人 Github仓库</strong>：<a target="_blank" rel="noopener" href="https://github.com/cunyu1943/cs-docs">cs-docs</a>，欢迎各位 <strong>Star、Fork</strong> ~</p>
+<p>  <strong>本文已收录至个人 Github仓库</strong>：<a target="_blank" rel="noopener" href="https://github.com/cunyu1943/cs-docs">cs-docs</a>，欢迎各位 <strong>Star、Fork</strong> ~</p>
 </blockquote>
-<h2 id="1-spring-特点"><a class="markdownIt-Anchor" href="#1-spring-特点"></a> 1. Spring 特点</h2>
-<p>Spring 主要有如下特点：</p>
+<h2 id="1-Spring-特点"><a href="#1-Spring-特点" class="headerlink" title="1. Spring 特点"></a>1. Spring 特点</h2><p>Spring 主要有如下特点：</p>
 <ol>
 <li><strong>轻量级</strong>：Spring 是非侵入式，其中的对象不依赖 Spring 的特定类；</li>
 <li><strong>控制反转（IoC）</strong>：通过 IoC，促进了低耦合，一个对象依赖的其他对象通过被动的方式传递进来，而不用该对象主动创建或查找；</li>
@@ -688,9 +687,7 @@
 <li><strong>容器</strong>：包含并管理应用对象的配置以及生命周期，此时 Spring 就相当于一个容器；</li>
 <li><strong>框架集合</strong>：能将简单的组件进行配置，组合成为更为复杂的应用；在 Spring 中，应用对象被声明式地组合在一个 XML 文件中；此外，Spring 也提供了事务管理、 持久化框架集成等基础功能，将应用逻辑的开发留给开发者；</li>
 </ol>
-<h2 id="2-spring-核心组件"><a class="markdownIt-Anchor" href="#2-spring-核心组件"></a> 2. Spring 核心组件</h2>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/f8f52f31e2b1e4a5c63e5668d064cd79.png" alt=""><br>
-Spring 是一个分层架构，主要由如下 7 大模块所构成。Spring 模块位于核心容器，定义了创建、配置和管理 Bean 的方式。</p>
+<h2 id="2-Spring-核心组件"><a href="#2-Spring-核心组件" class="headerlink" title="2. Spring 核心组件"></a>2. Spring 核心组件</h2><p><img src="https://img-blog.csdnimg.cn/img_convert/f8f52f31e2b1e4a5c63e5668d064cd79.png" alt=""><br>Spring 是一个分层架构，主要由如下 7 大模块所构成。Spring 模块位于核心容器，定义了创建、配置和管理 Bean 的方式。</p>
 <ol>
 <li><strong>Spring Core</strong>：提供 Spring 框架基本功能，主要组件是 BeanFactory，是工厂模式的实现，通过 IOC 机制将应用程序的配置和依赖性规范与实际的应用程序代码分开。</li>
 <li><strong>Spring Context</strong>：一个配置文件，给 Spring 框架提供上下文信息，上下文包括 JNDI、EJB、电子邮件、国际化、校验和调度等企业服务。</li>
@@ -700,7 +697,7 @@ Spring 是一个分层架构，主要由如下 7 大模块所构成。Spring 模
 <li><strong>Spring Web</strong>：Web 上下文模块建立在应用程序上下文模块之上，为基于 Web 的应用程序提供了上下文，所以 Spring 框架支持与 Jakarta Structs 的集成。同时该模块还简化了处理多部分请求以及请求参数绑定到域对象的工作。</li>
 <li><strong>Spring MVC</strong>：MVC 是一个全功能的构建 Web 应用的 MVC 实现，可以通过策略接口对 MVC 框架实现高度可配置。而且 MVC 还容纳了 JSP、Velocity、Tiles 等视图技术。</li>
 </ol>
-<h2 id="3-spring-常用注解"><a class="markdownIt-Anchor" href="#3-spring-常用注解"></a> 3. Spring 常用注解</h2>
+<h2 id="3-Spring-常用注解"><a href="#3-Spring-常用注解" class="headerlink" title="3. Spring 常用注解"></a>3. Spring 常用注解</h2><div class="table-container">
 <table>
 <thead>
 <tr>
@@ -771,37 +768,34 @@ Spring 是一个分层架构，主要由如下 7 大模块所构成。Spring 模
 </tr>
 </tbody>
 </table>
-<h2 id="4-ioc-原理"><a class="markdownIt-Anchor" href="#4-ioc-原理"></a> 4. IoC 原理</h2>
-<h3 id="41-定义"><a class="markdownIt-Anchor" href="#41-定义"></a> 4.1 定义</h3>
-<p>Spring 通过一个配置文件来描述 <code>Bean</code> 之间的相互依赖关系，利用 Java 的反射功能来实例化 <code>Bean</code> 并建立 <code>Bean</code> 之间的依赖关系。Spring 的 IoC 容器在完成这些底层工作的基础上，还提供 <code>Bean</code> 实例缓存、生命周期管理、<code>Bean</code> 实例代理、事件发布、资源装载等高级服务；</p>
+</div>
+<h2 id="4-IoC-原理"><a href="#4-IoC-原理" class="headerlink" title="4. IoC 原理"></a>4. IoC 原理</h2><h3 id="4-1-定义"><a href="#4-1-定义" class="headerlink" title="4.1 定义"></a>4.1 定义</h3><p>Spring 通过一个配置文件来描述 <code>Bean</code> 之间的相互依赖关系，利用 Java 的反射功能来实例化 <code>Bean</code> 并建立 <code>Bean</code> 之间的依赖关系。Spring 的 IoC 容器在完成这些底层工作的基础上，还提供 <code>Bean</code> 实例缓存、生命周期管理、<code>Bean</code> 实例代理、事件发布、资源装载等高级服务；</p>
 <p>总结而言：<strong>IOC 负责创建对象、管理对象（通过依赖注入）、整合对象、配置对象以及管理对象的生命周期</strong>；</p>
-<h3 id="42-spring-容器高层视图"><a class="markdownIt-Anchor" href="#42-spring-容器高层视图"></a> 4.2 Spring 容器高层视图</h3>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/38c318f0471c891948870b4aeb7ef42b.png" alt=""></p>
+<h3 id="4-2-Spring-容器高层视图"><a href="#4-2-Spring-容器高层视图" class="headerlink" title="4.2 Spring 容器高层视图"></a>4.2 Spring 容器高层视图</h3><p><img src="https://img-blog.csdnimg.cn/img_convert/38c318f0471c891948870b4aeb7ef42b.png" alt=""></p>
 <ol>
 <li>Spring 启动时先读取 <code>Bean</code> 配置信息，并在 Spring 容器中生成一份对应的 <code>Bean</code> 配置注册表；</li>
 <li>根据上一步中生成的 <code>Bean</code> 配置注册表来实例化 <code>Bean</code>，并装配好 <code>Bean</code> 之间的依赖关系；</li>
 <li>将实例化后的 <code>Bean</code> 装载到 Spring 容器中的 <code>Bean</code> 缓存池中，供上层的应用程序使用；</li>
 </ol>
-<h3 id="43-spring-bean-的作用域及生命周期"><a class="markdownIt-Anchor" href="#43-spring-bean-的作用域及生命周期"></a> 4.3 Spring Bean 的作用域及生命周期</h3>
-<h4 id="431-作用域"><a class="markdownIt-Anchor" href="#431-作用域"></a> 4.3.1 作用域</h4>
-<p>Spring 中，用来组成应用程序的主体以及由 Spring IoC 容器所管理的对象叫做 Bean。简而言之，Bean 就是由 IoC 容器来进行初始化、装配和管理的对象。</p>
+<h3 id="4-3-Spring-Bean-的作用域及生命周期"><a href="#4-3-Spring-Bean-的作用域及生命周期" class="headerlink" title="4.3 Spring Bean 的作用域及生命周期"></a>4.3 Spring Bean 的作用域及生命周期</h3><h4 id="4-3-1-作用域"><a href="#4-3-1-作用域" class="headerlink" title="4.3.1 作用域"></a>4.3.1 作用域</h4><p>Spring 中，用来组成应用程序的主体以及由 Spring IoC 容器所管理的对象叫做 Bean。简而言之，Bean 就是由 IoC 容器来进行初始化、装配和管理的对象。</p>
 <p>Bean 的作用域主要有如下几种：</p>
 <ol>
 <li><strong>Singleton（单例）</strong></li>
 </ol>
 <p>作用域为 <code>Singleton</code>，<strong>该模式在多线程下不安全</strong>，表明 IoC  容器中只会存在一个共享 Bean 实例，而且所有对 Bean 的请求，主要 <code>id</code> 和该 Bean 定义相匹配，那么就会返回 Bean 的同一实例。<code>Singleton</code> 是单例模型，即在从创建容器的同时就会自动创建一个 Bean 的对象，无论是否使用，而且 <strong>每次获取到的对象都是同一对象</strong>。</p>
-<ol start="2">
+<ol>
 <li><strong>Prototype（原型）：每次创建时使用</strong></li>
 </ol>
 <p>作用域为 <code>Prototype</code>，表明一个 Bean 定义对应多个实例，该作用域中的 Bean 会导致在 <strong>每次对该 Bean 请求时均创建一个新的 Bean 实例</strong>。<code>Prototype</code> 是一个原型类型，在我们创建容器时并未实例化，而是当我们获取 Bean 时才去创建一个对象，而且每次获取到的对象都不一样。</p>
-<ol start="3">
+<ol>
 <li><strong>Request：一次 request 一个实例</strong></li>
 </ol>
 <p>作用域为 <code>Request</code>，<strong>表明在一次 <code>HTTP</code> 请求中，容器返回该 Bean 的同一个实例</strong>，即每个 <code>HTTP</code> 请求均有各自的 Bean 实例，依据某个 Bean 定义创建而成，只在基于 Web 的 Spring ApplicationContext 情形下有效。当一次 <code>HTTP</code> 请求处理结束时，该作用域中的 Bean 实例均被销毁。</p>
-<ol start="4">
+<ol>
 <li><strong>Session</strong></li>
 </ol>
 <p>作用域为 <code>Session</code> ，表明 <strong>在一个 <code>HTTP Session</code> 中，容器返回该 Bean 的同一个实例，对不同的 <code>Session</code> 请求则创建新的实例，该 <code>Bean</code> 实例仅在当前 <code>Session</code> 内有效</strong>，只在基于 Web 的 Spring ApplicationContext 情形下有效。当一个 <code>HTTP Session</code> 被废弃时，在该作用域内的 Bean 也将失效。</p>
+<div class="table-container">
 <table>
 <thead>
 <tr>
@@ -828,8 +822,8 @@ Spring 是一个分层架构，主要由如下 7 大模块所构成。Spring 模
 </tr>
 </tbody>
 </table>
-<h4 id="432-生命周期"><a class="markdownIt-Anchor" href="#432-生命周期"></a> 4.3.2 生命周期</h4>
-<ol>
+</div>
+<h4 id="4-3-2-生命周期"><a href="#4-3-2-生命周期" class="headerlink" title="4.3.2 生命周期"></a>4.3.2 生命周期</h4><ol>
 <li>Spring 对 Bean 进行实例化；</li>
 <li>Spring 将值和 Bean 的引用注入到 Bean 对应属性中；</li>
 <li>若 Bean 实现了 BeanNameAware 接口，则 Spring 将 Bean 的 ID 传递给 setBeanName() 方法；</li>
@@ -841,8 +835,7 @@ Spring 是一个分层架构，主要由如下 7 大模块所构成。Spring 模
 <li>此时，Bean 已经准备就绪，我们就可以被应用程序使用，他们将一直驻留在应用上下文中，直到该应用被销毁；</li>
 <li>若 Bean 实现了 DisposableBean 接口，Spring 将调用它的 <code>destory()</code> 接口方法；同样，若 Bean 使用 <code>destroy-method</code> 声明了销毁方法，该方法也将被调用；</li>
 </ol>
-<h3 id="44-spring-依赖注入的四种方式"><a class="markdownIt-Anchor" href="#44-spring-依赖注入的四种方式"></a> 4.4 Spring 依赖注入的四种方式</h3>
-<ol>
+<h3 id="4-4-Spring-依赖注入的四种方式"><a href="#4-4-Spring-依赖注入的四种方式" class="headerlink" title="4.4 Spring 依赖注入的四种方式"></a>4.4 Spring 依赖注入的四种方式</h3><ol>
 <li><strong>构造器注入</strong></li>
 </ol>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">// 带参，方便用构造器进行注入</span>
@@ -852,7 +845,7 @@ Spring 是一个分层架构，主要由如下 7 大模块所构成。Spring 模
 <pre class="line-numbers language-xml" data-language="xml"><code class="language-xml"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>bean</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>CatDaoImpl<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>com.cunyu.CatDaoImpl<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
 	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>constructor-arg</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>name<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>constructor-arg</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>bean</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-<ol start="2">
+<ol>
 <li><strong>setter 方法注入</strong></li>
 </ol>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Id</span> <span class="token punctuation">{</span>
@@ -869,7 +862,7 @@ Spring 是一个分层架构，主要由如下 7 大模块所构成。Spring 模
 <pre class="line-numbers language-xml" data-language="xml"><code class="language-xml"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>bean</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>id<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>com.cunyu.Id <span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span> 
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>property</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>id<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>1801333<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>property</span><span class="token punctuation">&gt;</span></span> 
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>bean</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-<ol start="3">
+<ol>
 <li><strong>静态工厂注入</strong></li>
 </ol>
 <p>所谓静态工厂就是通过调用静态工厂的方法来获取自己所需对象，而且为了方便 Spring 管理，我们不能通过 “类.静态方法()” 来获取对象，而应该通过 Spring 注入的形式；</p>
@@ -893,7 +886,7 @@ Spring 是一个分层架构，主要由如下 7 大模块所构成。Spring 模
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>bean</span><span class="token punctuation">&gt;</span></span>
 <span class="token comment">&lt;!--从工厂类获取静态方法--&gt;</span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>bean</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>staticFactoryDao<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>com.cunyu.DaoFactory<span class="token punctuation">"</span></span> <span class="token attr-name">factory-method</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>getStaticFactoryDaoImpl<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>bean</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<ol start="4">
+<ol>
 <li><strong>实例工厂</strong></li>
 </ol>
 <p>实例工厂表示获取对象实例的方法不是静态的，所以需要先 <code>new</code> 工厂类，然后再调用普通的实例方法；</p>
@@ -918,14 +911,14 @@ Spring 是一个分层架构，主要由如下 7 大模块所构成。Spring 模
 <span class="token comment">&lt;!--此处获取对象的方式是从工厂类中获取实例方法--&gt;</span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>bean</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>daoFactory<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>com.cunyu.DaoFactory<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>bean</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>bean</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>factoryDao<span class="token punctuation">"</span></span> <span class="token attr-name">factory-bean</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>daoFactory<span class="token punctuation">"</span></span> <span class="token attr-name">factory-method</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>getFactoryDaoImpl<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>bean</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h3 id="45-spring-自动装配方式"><a class="markdownIt-Anchor" href="#45-spring-自动装配方式"></a> 4.5 Spring 自动装配方式</h3>
-<p>要实现自动装配，主要从如下两个角度来进行实现：</p>
+<h3 id="4-5-Spring-自动装配方式"><a href="#4-5-Spring-自动装配方式" class="headerlink" title="4.5 Spring 自动装配方式"></a>4.5 Spring 自动装配方式</h3><p>要实现自动装配，主要从如下两个角度来进行实现：</p>
 <ol>
 <li><strong>组件扫描（Component Scanning）</strong>：Spring 会自动发现应用上下文中所创建的 Bean；</li>
 <li><strong>自动装配（Autowiring）</strong>：Spring 自动满足 Bean 之间的依赖；</li>
 </ol>
 <p>Spring 装配包括 <strong>手动转配和自动装配</strong>，<strong>手动装配是通过 <code>XML</code> 装配、构造方法、<code>setter</code> 方法等方式；</strong></p>
 <p>而自动装配有如下几种，使得 Spring 容器通过自动装配方式来进行依赖注入；</p>
+<div class="table-container">
 <table>
 <thead>
 <tr>
@@ -956,51 +949,41 @@ Spring 是一个分层架构，主要由如下 7 大模块所构成。Spring 模
 </tr>
 </tbody>
 </table>
-<h3 id="46-ioc-的优缺点"><a class="markdownIt-Anchor" href="#46-ioc-的优缺点"></a> 4.6 IoC 的优缺点</h3>
-<ol>
+</div>
+<h3 id="4-6-IoC-的优缺点"><a href="#4-6-IoC-的优缺点" class="headerlink" title="4.6 IoC 的优缺点"></a>4.6 IoC 的优缺点</h3><ol>
 <li><strong>优点</strong>：组件之间的解耦，提高程序可维护性、灵活性；</li>
 <li><strong>缺点</strong>：创建对象步骤复杂，有一定学习成本；利用反射创建对象，效率会降低；</li>
 </ol>
-<h2 id="5-aop-原理"><a class="markdownIt-Anchor" href="#5-aop-原理"></a> 5. AOP 原理</h2>
-<h3 id="51-定义"><a class="markdownIt-Anchor" href="#51-定义"></a> 5.1 定义</h3>
-<p>即剖开封装的对象内部，并将那些影响了多个类的公共行为封装到一个可重用模块，并将其命名为 <code>Aspect</code>，<strong>即切面</strong>。所谓切面即 <strong>与业务无关，但被业务模块所公用的逻辑，便于减少系统的重复代码，降低模块间的耦合度，利于后续的可操作性和可维护性</strong>。</p>
+<h2 id="5-AOP-原理"><a href="#5-AOP-原理" class="headerlink" title="5. AOP 原理"></a>5. AOP 原理</h2><h3 id="5-1-定义"><a href="#5-1-定义" class="headerlink" title="5.1 定义"></a>5.1 定义</h3><p>即剖开封装的对象内部，并将那些影响了多个类的公共行为封装到一个可重用模块，并将其命名为 <code>Aspect</code>，<strong>即切面</strong>。所谓切面即 <strong>与业务无关，但被业务模块所公用的逻辑，便于减少系统的重复代码，降低模块间的耦合度，利于后续的可操作性和可维护性</strong>。</p>
 <p>通过使用横切，AOP 将软件切分为：<strong>核心关注点和横切关注点</strong>。业务处理的主要流程是核心关注点，与横切关注点关系不大。<strong>横切关注点的特点是经常发生在核心关注点的多处，且各处基本相似</strong>。AOP 的作用就在于 <strong>分离系统中的各种关注点，将核心关注点和横切关注点分离开</strong>。</p>
-<h3 id="52-核心概念"><a class="markdownIt-Anchor" href="#52-核心概念"></a> 5.2 核心概念</h3>
-<h3 id="53-aop-的两种代理方式"><a class="markdownIt-Anchor" href="#53-aop-的两种代理方式"></a> 5.3 AOP 的两种代理方式</h3>
-<p>Spring 提供了两种方式来生成代理对象：JDK Proxy 和 CGlib，<strong>默认的策略是如果目标类是接口，则使用 JDK 动态代理技术，否则使用 CGlib 来生成代理</strong>；</p>
+<h3 id="5-2-核心概念"><a href="#5-2-核心概念" class="headerlink" title="5.2 核心概念"></a>5.2 核心概念</h3><h3 id="5-3-AOP-的两种代理方式"><a href="#5-3-AOP-的两种代理方式" class="headerlink" title="5.3 AOP 的两种代理方式"></a>5.3 AOP 的两种代理方式</h3><p>Spring 提供了两种方式来生成代理对象：JDK Proxy 和 CGlib，<strong>默认的策略是如果目标类是接口，则使用 JDK 动态代理技术，否则使用 CGlib 来生成代理</strong>；</p>
 <ol>
 <li><strong>JDK 动态接口代理</strong></li>
 </ol>
 <p>主要涉及 <code>Proxy</code> 和 <code>InvocationHandler</code>，<code>InvocationHandler</code> 是一个接口，通过实现该接口定义横切逻辑，并通过反射机制调用目标类的代码，动态地将横切逻辑与业务逻辑编制在一起。而 <code>Proxy</code> 则利用 <code>InvocationHandler</code> 动态创建一个符合某一接口的实例，生成目标类的代理对象；</p>
-<ol start="2">
+<ol>
 <li><strong>CGlib 动态代理</strong></li>
 </ol>
 <p>全称 <code>Code Generation Library</code>，<strong>是一个高性能高质量的代码生成类库，能在运行期间扩展 Java 类与实现 Java 接口。</strong> CGlib 封装了 ASM，能在运行期间动态生成新的类。</p>
-<ol start="3">
+<ol>
 <li><strong>JDK 动态代理和 CGlib 动态代理的区别</strong></li>
 </ol>
 <p>JDK 动态代理只能为接口创建代理实例，而对于没有通过接口定义业务方法的类，则需要通过 CGlib 创建动态代理；</p>
-<h3 id="54-切面的通知类型"><a class="markdownIt-Anchor" href="#54-切面的通知类型"></a> 5.4 切面的通知类型</h3>
-<ol>
+<h3 id="5-4-切面的通知类型"><a href="#5-4-切面的通知类型" class="headerlink" title="5.4 切面的通知类型"></a>5.4 切面的通知类型</h3><ol>
 <li><strong>前置通知（Before）</strong>：目标方法在被调用前调用通知；</li>
 <li><strong>后置通知（After）</strong>：目标方法完成后调用通知；</li>
 <li><strong>返回通知（After-returning）</strong>：目标方法成功执行之后调用通知；</li>
 <li><strong>异常通知（After-throwing）</strong>：目标方法抛出异常后调用通知；</li>
 <li><strong>环绕通知（Around）</strong>：在被通知的方法调用之前和调用之后执行自定义的行为；</li>
 </ol>
-<h2 id="6-spring-mvc"><a class="markdownIt-Anchor" href="#6-spring-mvc"></a> 6. Spring MVC</h2>
-<h3 id="61-什么是-mvc-框架"><a class="markdownIt-Anchor" href="#61-什么是-mvc-框架"></a> 6.1 什么是 MVC 框架？</h3>
-<p>MVC，全称 Model View Controller，是模型（model）-视图（view）-控制器（controller）的缩写，是一种软件设计典范。用一种业务逻辑、数据、界面显示分离的方法组织代码，将业务逻辑聚集到一个部件中，然后在改进和个性化定制界面及用户交互的同时，不用重写业务逻辑；</p>
+<h2 id="6-Spring-MVC"><a href="#6-Spring-MVC" class="headerlink" title="6. Spring MVC"></a>6. Spring MVC</h2><h3 id="6-1-什么是-MVC-框架？"><a href="#6-1-什么是-MVC-框架？" class="headerlink" title="6.1 什么是 MVC 框架？"></a>6.1 什么是 MVC 框架？</h3><p>MVC，全称 Model View Controller，是模型（model）-视图（view）-控制器（controller）的缩写，是一种软件设计典范。用一种业务逻辑、数据、界面显示分离的方法组织代码，将业务逻辑聚集到一个部件中，然后在改进和个性化定制界面及用户交互的同时，不用重写业务逻辑；</p>
 <p>采用 MVC 设计模式主要有如下好处：</p>
 <ol>
 <li>通过分层设计，实现了业务系统各组件之间的结构，有利于业务系统的可扩展性和可维护性；</li>
 <li>有利于系统的并行开发，提升开发效率；</li>
 </ol>
-<h3 id="62-springmvc"><a class="markdownIt-Anchor" href="#62-springmvc"></a> 6.2 SpringMVC</h3>
-<h4 id="621-定义"><a class="markdownIt-Anchor" href="#621-定义"></a> 6.2.1 定义</h4>
-<p>Spring MVC 是 Spring 框架的一个模块，一个基于 MVC 的框架；</p>
-<h4 id="622-组件"><a class="markdownIt-Anchor" href="#622-组件"></a> 6.2.2 组件</h4>
-<ol>
+<h3 id="6-2-SpringMVC"><a href="#6-2-SpringMVC" class="headerlink" title="6.2 SpringMVC"></a>6.2 SpringMVC</h3><h4 id="6-2-1-定义"><a href="#6-2-1-定义" class="headerlink" title="6.2.1 定义"></a>6.2.1 定义</h4><p>Spring MVC 是 Spring 框架的一个模块，一个基于 MVC 的框架；</p>
+<h4 id="6-2-2-组件"><a href="#6-2-2-组件" class="headerlink" title="6.2.2 组件"></a>6.2.2 组件</h4><ol>
 <li><code>DispatcherServlet</code>：核心组件，前端控制器，也叫中央控制器，由它来调度相关组件，<strong>用于接收请求、响应结果，相当于转发器，有了 <code>DispatcherServlet</code> 就减少了其他组件之间的耦合度</strong>；</li>
 <li><code>HandlerMapping</code>：处理器映射器，根据 URL 路径映射到不同的 <code>Handler</code>；</li>
 <li><code>HandlerAdapter</code>：处理器适配器，按照 <code>HandlerAdapter</code> 的规则来执行 <code>Handler</code>；</li>
@@ -1008,8 +991,7 @@ Spring 是一个分层架构，主要由如下 7 大模块所构成。Spring 模
 <li><code>ViewResolver</code>：视图解析器，将逻辑视图解析成具体的视图；</li>
 <li><code>View</code>：一个接口，支持不同的视图类型；</li>
 </ol>
-<h4 id="623-mvc-工作流程"><a class="markdownIt-Anchor" href="#623-mvc-工作流程"></a> 6.2.3 MVC 工作流程</h4>
-<ol>
+<h4 id="6-2-3-MVC-工作流程"><a href="#6-2-3-MVC-工作流程" class="headerlink" title="6.2.3 MVC 工作流程"></a>6.2.3 MVC 工作流程</h4><ol>
 <li>浏览器发送请求，前端控制区 <code>DispatcherServlet</code> 拦截该请求；</li>
 <li><code>DispatcherServlet</code> 拦截到请求后，对请求 URL 进行解析，得到请求资源标识符 URI，根据 URI 调用 <code>HandlerMapping</code> 后获取对应 <code>Handler</code>；</li>
 <li><code>DispatcherServlet</code> 拿到 <code>Handler</code> 之后，找到 <code>HandlerAdapter</code> ，通过它来访问 <code>Handler</code>，并执行处理器；</li>
@@ -1018,17 +1000,14 @@ Spring 是一个分层架构，主要由如下 7 大模块所构成。Spring 模
 <li>然后 <code>ViewResolver</code> 将解析后的 <code>View</code> 返回给 <code>DispatcherServlet</code>，然后对 <code>View</code> 进行渲染；</li>
 <li>然后由 <code>DispatcherServlet</code> 响应视图给浏览器；</li>
 </ol>
-<h4 id="624-springmvc-的优点"><a class="markdownIt-Anchor" href="#624-springmvc-的优点"></a> 6.2.4 SpringMVC 的优点</h4>
-<ol>
+<h4 id="6-2-4-SpringMVC-的优点"><a href="#6-2-4-SpringMVC-的优点" class="headerlink" title="6.2.4 SpringMVC 的优点"></a>6.2.4 SpringMVC 的优点</h4><ol>
 <li>具有 Spring 的特性；</li>
 <li>支持多种视图；</li>
 <li>配置方便，非侵入；</li>
 <li>分层更加清晰，利于团队开发的代码维护，以及可读性好；</li>
 </ol>
-<h3 id="63-注解"><a class="markdownIt-Anchor" href="#63-注解"></a> 6.3 注解</h3>
-<h4 id="631-注解原理"><a class="markdownIt-Anchor" href="#631-注解原理"></a> 6.3.1 注解原理</h4>
-<p>注解本质上是一个集成了 <code>Annotation</code> 的特殊接口，其具体实现类是 Java 运行时生成的动态代理类。通过反射获取注解时，返回的是 Java 运行时生成的动态代理对象。通过代理对象调用自定义注解的方法，将最终调用 <code>AnnotationInvocationHandler</code> 的 <code>invoke</code> 方法，然后该方法从 <code>memberValues</code> 的 <code>Map</code> 中索引出对应的值；</p>
-<h4 id="632-常用注解"><a class="markdownIt-Anchor" href="#632-常用注解"></a> 6.3.2 常用注解</h4>
+<h3 id="6-3-注解"><a href="#6-3-注解" class="headerlink" title="6.3 注解"></a>6.3 注解</h3><h4 id="6-3-1-注解原理"><a href="#6-3-1-注解原理" class="headerlink" title="6.3.1 注解原理"></a>6.3.1 注解原理</h4><p>注解本质上是一个集成了 <code>Annotation</code> 的特殊接口，其具体实现类是 Java 运行时生成的动态代理类。通过反射获取注解时，返回的是 Java 运行时生成的动态代理对象。通过代理对象调用自定义注解的方法，将最终调用 <code>AnnotationInvocationHandler</code> 的 <code>invoke</code> 方法，然后该方法从 <code>memberValues</code> 的 <code>Map</code> 中索引出对应的值；</p>
+<h4 id="6-3-2-常用注解"><a href="#6-3-2-常用注解" class="headerlink" title="6.3.2 常用注解"></a>6.3.2 常用注解</h4><div class="table-container">
 <table>
 <thead>
 <tr>
@@ -1051,8 +1030,9 @@ Spring 是一个分层架构，主要由如下 7 大模块所构成。Spring 模
 </tr>
 </tbody>
 </table>
+</div>
 <blockquote>
-<p>建议关注公众号 【<strong>村雨遥</strong>】，以便及时获取最新文章及资源 ~</p>
+<p>  建议关注公众号 【<strong>村雨遥</strong>】，以便及时获取最新文章及资源 ~</p>
 </blockquote>
 
                 
@@ -1886,7 +1866,7 @@ Spring 是一个分层架构，主要由如下 7 大模块所构成。Spring 模
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">86.4k</span>&nbsp;字
+                class="white-color">86.2k</span>&nbsp;字
             
             
             

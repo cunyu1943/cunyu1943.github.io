@@ -143,7 +143,7 @@
       </li>
       
       <li>
-        <a href="/categories/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/Online-Judge/">
+        <a href="/categories/Online-Judge/">
           
           <i class="fas fa-code" style="margin-top: -20px; zoom: 0.6;"></i>
           
@@ -329,7 +329,7 @@
               
                 <li>
 
-                  <a href="/categories/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/Online-Judge/ " style="margin-left:75px">
+                  <a href="/categories/Online-Judge/ " style="margin-left:75px">
 				  
 				   <i class="fa fas fa-code" style="position: absolute;left:50px" ></i>
 			      
@@ -669,10 +669,9 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <blockquote>
-<p><strong>本文已收录至个人 Github仓库</strong>：<a target="_blank" rel="noopener" href="https://github.com/cunyu1943/cs-docs">cs-docs</a>，欢迎各位 <strong>Star、Fork</strong> ~</p>
+<p>  <strong>本文已收录至个人 Github仓库</strong>：<a target="_blank" rel="noopener" href="https://github.com/cunyu1943/cs-docs">cs-docs</a>，欢迎各位 <strong>Star、Fork</strong> ~</p>
 </blockquote>
-<h2 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h2>
-<p>对于计算机专业的学生来讲，一定对于学生成绩管理系统课程设计十分印象深刻。设计、上机、编码、写报告、答辩等一系列流程，虽然很简单，但也可以综合运用我们所学的一些知识了。</p>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>对于计算机专业的学生来讲，一定对于学生成绩管理系统课程设计十分印象深刻。设计、上机、编码、写报告、答辩等一系列流程，虽然很简单，但也可以综合运用我们所学的一些知识了。</p>
 <p>今天就来复习以下这个课题，用 Java SE 来实现该课题，也算是补上当初上课的时候没有好好写的遗憾吧。</p>
 <p>虽然很简单，但是对于刚涉足编程学习的人来讲，还是有一定难度的，既要考虑界面打印，也要考虑条件判断、循环语句、输入输出控制等等技巧，所以在这里简单地实现一下，方便给初学的小伙伴们一个参考（对于我的界面比较丑的问题，就不要过于纠结了，下去可以自己调整😂，我们只关注功能实现🤣）。</p>
 <p>对于学生成绩管理系统，主要可以分为如下几个功能：</p>
@@ -729,9 +728,7 @@
 </ul>
 <p>退出菜单；</p>
 <p><img src="https://img-blog.csdnimg.cn/img_convert/b079f26a81bdb5bb01132dff8c11cd72.png" alt=""></p>
-<h2 id="功能设计与实现"><a class="markdownIt-Anchor" href="#功能设计与实现"></a> 功能设计与实现</h2>
-<h3 id="主界面"><a class="markdownIt-Anchor" href="#主界面"></a> 主界面</h3>
-<p>主要是打印出来系统功能的选择菜单，然后根据我们的输入进入不同的子功能模块；</p>
+<h2 id="功能设计与实现"><a href="#功能设计与实现" class="headerlink" title="功能设计与实现"></a>功能设计与实现</h2><h3 id="主界面"><a href="#主界面" class="headerlink" title="主界面"></a>主界面</h3><p>主要是打印出来系统功能的选择菜单，然后根据我们的输入进入不同的子功能模块；</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">package</span> <span class="token namespace">com<span class="token punctuation">.</span>cunyu</span><span class="token punctuation">;</span>
 
 <span class="token keyword">import</span> <span class="token namespace">java<span class="token punctuation">.</span>util<span class="token punctuation">.</span></span><span class="token class-name">ArrayList</span><span class="token punctuation">;</span>
@@ -803,8 +800,7 @@
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h3 id="主类设计"><a class="markdownIt-Anchor" href="#主类设计"></a> 主类设计</h3>
-<p>系统主要是针对学生成绩信息管理的，所以我们设计一个学生类，包括一系列属性（也就是简单的个人信息和各科成绩）；</p>
+<h3 id="主类设计"><a href="#主类设计" class="headerlink" title="主类设计"></a>主类设计</h3><p>系统主要是针对学生成绩信息管理的，所以我们设计一个学生类，包括一系列属性（也就是简单的个人信息和各科成绩）；</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">package</span> <span class="token namespace">com<span class="token punctuation">.</span>cunyu</span><span class="token punctuation">;</span>
 <span class="token comment">/**
  * @author : cunyu
@@ -840,8 +836,7 @@
     
     <span class="token comment">// 各种 setter/getter 以及构造函数</span>
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h3 id="录入学生成绩"><a class="markdownIt-Anchor" href="#录入学生成绩"></a> 录入学生成绩</h3>
-<p>首先录入学号，判断是否可用，不可用则重新输入，可用则输入其他信息；</p>
+<h3 id="录入学生成绩"><a href="#录入学生成绩" class="headerlink" title="录入学生成绩"></a>录入学生成绩</h3><p>首先录入学号，判断是否可用，不可用则重新输入，可用则输入其他信息；</p>
 <p>然后将信息赋值到学生对象，最后将该学生对象加入集合就可以了。</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">/**
 * @param students 学生对象列表
@@ -904,8 +899,7 @@
     <span class="token comment">//        提示信息</span>
     <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"添加成功"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h3 id="统计学生成绩"><a class="markdownIt-Anchor" href="#统计学生成绩"></a> 统计学生成绩</h3>
-<p>主要实现对于各学生平均成绩的统计，然后打印出信息；</p>
+<h3 id="统计学生成绩"><a href="#统计学生成绩" class="headerlink" title="统计学生成绩"></a>统计学生成绩</h3><p>主要实现对于各学生平均成绩的统计，然后打印出信息；</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">/**
 * @param students 学生对象集合
 * @return
@@ -926,8 +920,7 @@
         <span class="token punctuation">}</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h3 id="查找学生成绩"><a class="markdownIt-Anchor" href="#查找学生成绩"></a> 查找学生成绩</h3>
-<p>先判断是否有数据，有数据再进行后续操作。然后通过对输入的学号进行匹配，找到对应学号的学生成绩信息并打印；</p>
+<h3 id="查找学生成绩"><a href="#查找学生成绩" class="headerlink" title="查找学生成绩"></a>查找学生成绩</h3><p>先判断是否有数据，有数据再进行后续操作。然后通过对输入的学号进行匹配，找到对应学号的学生成绩信息并打印；</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">/**
 * @param students 学生对象集合
 * @return
@@ -965,8 +958,7 @@
     <span class="token punctuation">}</span>
 
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h3 id="修改学生成绩"><a class="markdownIt-Anchor" href="#修改学生成绩"></a> 修改学生成绩</h3>
-<p>先判断是否有数据，有数据再进行后续操作。然后通过对输入的学号进行匹配，找到对应学号的学生，然后对其成绩信息进行修改，但不修改个人其他信息；</p>
+<h3 id="修改学生成绩"><a href="#修改学生成绩" class="headerlink" title="修改学生成绩"></a>修改学生成绩</h3><p>先判断是否有数据，有数据再进行后续操作。然后通过对输入的学号进行匹配，找到对应学号的学生，然后对其成绩信息进行修改，但不修改个人其他信息；</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">/**
 * @param students 学生对象集合
 * @return
@@ -1019,8 +1011,7 @@
         <span class="token punctuation">}</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h3 id="删除学生成绩"><a class="markdownIt-Anchor" href="#删除学生成绩"></a> 删除学生成绩</h3>
-<p>先判断是否有数据，有数据再进行后续操作。然后通过对输入的学号进行匹配，找到对应学号的学生，然后将其从集合中删除即可；</p>
+<h3 id="删除学生成绩"><a href="#删除学生成绩" class="headerlink" title="删除学生成绩"></a>删除学生成绩</h3><p>先判断是否有数据，有数据再进行后续操作。然后通过对输入的学号进行匹配，找到对应学号的学生，然后将其从集合中删除即可；</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">/**
      * @param students 学生对象集合
      * @return
@@ -1053,8 +1044,7 @@
         <span class="token punctuation">}</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h3 id="按平均分排序"><a class="markdownIt-Anchor" href="#按平均分排序"></a> 按平均分排序</h3>
-<p>先判断是否有数据，有数据再进行后续操作。然后对集合中的学生的平均成绩进行排序，然后依次从高到低打印出学生信息；</p>
+<h3 id="按平均分排序"><a href="#按平均分排序" class="headerlink" title="按平均分排序"></a>按平均分排序</h3><p>先判断是否有数据，有数据再进行后续操作。然后对集合中的学生的平均成绩进行排序，然后依次从高到低打印出学生信息；</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">/**
 * @param students 学生对象集合
 * @return
@@ -1082,8 +1072,7 @@
         <span class="token punctuation">}</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h3 id="显示所有成绩"><a class="markdownIt-Anchor" href="#显示所有成绩"></a> 显示所有成绩</h3>
-<p>先判断是否有数据，有数据再进行后续操作。遍历学生对象集合，然后打印出各个学生的成绩信息。</p>
+<h3 id="显示所有成绩"><a href="#显示所有成绩" class="headerlink" title="显示所有成绩"></a>显示所有成绩</h3><p>先判断是否有数据，有数据再进行后续操作。遍历学生对象集合，然后打印出各个学生的成绩信息。</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">/**
 * @param students 学生对象集合
 * @return
@@ -1103,8 +1092,7 @@
         <span class="token punctuation">}</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h2 id="总程序"><a class="markdownIt-Anchor" href="#总程序"></a> 总程序</h2>
-<p>将上述所有模块整合之后，我们得到最终的程序；</p>
+<h2 id="总程序"><a href="#总程序" class="headerlink" title="总程序"></a>总程序</h2><p>将上述所有模块整合之后，我们得到最终的程序；</p>
 <ol>
 <li><strong>Manager.java</strong></li>
 </ol>
@@ -1172,7 +1160,7 @@
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<ol start="2">
+<ol>
 <li><strong>Student.java</strong></li>
 </ol>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">package</span> <span class="token namespace">com<span class="token punctuation">.</span>cunyu</span><span class="token punctuation">;</span>
@@ -1595,10 +1583,9 @@
 
 <span class="token punctuation">}</span>
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h2 id="总结"><a class="markdownIt-Anchor" href="#总结"></a> 总结</h2>
-<p>虽然功能比较简陋，但还是需要一定时间来完成的。此外，本设计只是针对一次运行过程，一旦程序终止，录入的数据就无法保存了，这一点需要注意。后续考虑加入文件写入或者数据库的方式来实现该课程设计，以保存我们所录入的数据。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>虽然功能比较简陋，但还是需要一定时间来完成的。此外，本设计只是针对一次运行过程，一旦程序终止，录入的数据就无法保存了，这一点需要注意。后续考虑加入文件写入或者数据库的方式来实现该课程设计，以保存我们所录入的数据。</p>
 <blockquote>
-<p>建议关注公众号 「<strong>村雨遥</strong>」，最新干货文章不容错过 ~</p>
+<p>  建议关注公众号 「<strong>村雨遥</strong>」，最新干货文章不容错过 ~</p>
 </blockquote>
 
                 
@@ -2435,7 +2422,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">86.4k</span>&nbsp;字
+                class="white-color">86.2k</span>&nbsp;字
             
             
             

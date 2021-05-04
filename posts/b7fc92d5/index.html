@@ -143,7 +143,7 @@
       </li>
       
       <li>
-        <a href="/categories/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/Online-Judge/">
+        <a href="/categories/Online-Judge/">
           
           <i class="fas fa-code" style="margin-top: -20px; zoom: 0.6;"></i>
           
@@ -329,7 +329,7 @@
               
                 <li>
 
-                  <a href="/categories/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/Online-Judge/ " style="margin-left:75px">
+                  <a href="/categories/Online-Judge/ " style="margin-left:75px">
 				  
 				   <i class="fa fas fa-code" style="position: absolute;left:50px" ></i>
 			      
@@ -665,37 +665,28 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <blockquote>
-<p><strong>本文已收录至个人 Github仓库</strong>：<a target="_blank" rel="noopener" href="https://github.com/cunyu1943/cs-docs">cs-docs</a>，欢迎各位 <strong>Star、Fork</strong> ~</p>
+<p>  <strong>本文已收录至个人 Github仓库</strong>：<a target="_blank" rel="noopener" href="https://github.com/cunyu1943/cs-docs">cs-docs</a>，欢迎各位 <strong>Star、Fork</strong> ~</p>
 </blockquote>
-<h2 id="1-前言"><a class="markdownIt-Anchor" href="#1-前言"></a> 1. 前言</h2>
-<p>之前的文章中，我们已经对 Python 有所了解了，并且也学会了 Pycharm 的安装及使用。现在该开始正式进入主题了，接下来就要学习 Python 的相关语法，以及如何使用他们进行编程。</p>
+<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>之前的文章中，我们已经对 Python 有所了解了，并且也学会了 Pycharm 的安装及使用。现在该开始正式进入主题了，接下来就要学习 Python 的相关语法，以及如何使用他们进行编程。</p>
 <p>今天主要内容就介绍 Python 中的如下知识点：</p>
 <ol>
 <li><strong>变量</strong></li>
 <li><strong>数据类型</strong></li>
 <li><strong>运算符</strong></li>
 </ol>
-<h2 id="2-变量"><a class="markdownIt-Anchor" href="#2-变量"></a> 2. 变量</h2>
-<h3 id="21-什么是变量"><a class="markdownIt-Anchor" href="#21-什么是变量"></a> 2.1 什么是变量</h3>
-<p>所谓变量，其实一开始是源自于数学。而在计算机语言中，变量指的是 <strong>能够存储计算结果或者能够表示值的抽象概念</strong>。</p>
+<h2 id="2-变量"><a href="#2-变量" class="headerlink" title="2. 变量"></a>2. 变量</h2><h3 id="2-1-什么是变量"><a href="#2-1-什么是变量" class="headerlink" title="2.1 什么是变量"></a>2.1 什么是变量</h3><p>所谓变量，其实一开始是源自于数学。而在计算机语言中，变量指的是 <strong>能够存储计算结果或者能够表示值的抽象概念</strong>。</p>
 <p>我们可以通过变量名来访问变量，在 Python 中，变量通常是可变的，它不仅仅能够表示数字，还能是任意数据类型。</p>
-<h3 id="22-变量命名规则"><a class="markdownIt-Anchor" href="#22-变量命名规则"></a> 2.2 变量命名规则</h3>
-<p>Python 中，是通过标识符来给变量命名，而标识符就是用于给程序中变量、类、方法命名的符号。简单来说，标识符就是合法的名字。而什么是合法的名字呢？那我们就来看看 Python 中标识符的命名规则。</p>
+<h3 id="2-2-变量命名规则"><a href="#2-2-变量命名规则" class="headerlink" title="2.2 变量命名规则"></a>2.2 变量命名规则</h3><p>Python 中，是通过标识符来给变量命名，而标识符就是用于给程序中变量、类、方法命名的符号。简单来说，标识符就是合法的名字。而什么是合法的名字呢？那我们就来看看 Python 中标识符的命名规则。</p>
 <p>Python 中，标识符 <strong>必须以字母、下划线开头，然后后面可以跟上任意数目的字母、数字以及下划线，而且也区分大小写</strong>。总结起来就是如下几点：</p>
 <ol>
-<li>
-<p><strong>变量名只能包含字母、数字和下划线，而且只能以字母或下划线开头，不能以数字开头</strong>，比如我们可以把一个变量命名为 <code>cunyu_1943、_cunyu1943</code> 但是不能命名为 <code>1943_cunyu</code>；</p>
+<li><p><strong>变量名只能包含字母、数字和下划线，而且只能以字母或下划线开头，不能以数字开头</strong>，比如我们可以把一个变量命名为 <code>cunyu_1943、_cunyu1943</code> 但是不能命名为 <code>1943_cunyu</code>；</p>
 </li>
-<li>
-<p><strong>变量名中间不能包含空格，但是可以用下划线来进行分割</strong>，比如可以命名为 <code>student_name</code>，但不能命名为 <code>student name</code>；</p>
+<li><p><strong>变量名中间不能包含空格，但是可以用下划线来进行分割</strong>，比如可以命名为 <code>student_name</code>，但不能命名为 <code>student name</code>；</p>
 </li>
-<li>
-<p><strong>变量名应该尽量简短切具有描述性</strong>，比如我们变量名为 <code>name</code>，那别人一看就知道这是表示名字的，但如果我们命名为 <code>n</code>，那可能就得花更多的时间来搞清楚它到底是啥意思；</p>
-</li>
-<li>
-<p><strong>不要把 Python 中的关键字和内置函数名用做变量名</strong>，Python 中常见的关键字和内置函数如下表；</p>
-</li>
+<li><strong>变量名应该尽量简短切具有描述性</strong>，比如我们变量名为 <code>name</code>，那别人一看就知道这是表示名字的，但如果我们命名为 <code>n</code>，那可能就得花更多的时间来搞清楚它到底是啥意思；</li>
+<li><strong>不要把 Python 中的关键字和内置函数名用做变量名</strong>，Python 中常见的关键字和内置函数如下表；</li>
 </ol>
+<div class="table-container">
 <table>
 <thead>
 <tr>
@@ -838,6 +829,8 @@
 </tr>
 </tbody>
 </table>
+</div>
+<div class="table-container">
 <table>
 <thead>
 <tr>
@@ -945,15 +938,13 @@
 <td style="text-align:left"><code>hasattr()</code></td>
 <td style="text-align:left"><code>max()</code></td>
 <td style="text-align:left"><code>round()</code></td>
-<td></td>
 </tr>
 </tbody>
 </table>
+</div>
 <p></p>
-<h2 id="3-数据类型"><a class="markdownIt-Anchor" href="#3-数据类型"></a> 3. 数据类型</h2>
-<p>要处理各种文本、图形、音频、视频等数据，光使用数值类型是远远不够的，我们需要更多的数据类型来定义不同的数据。在 Python 中，主要有如下几种数据类型：</p>
-<h3 id="31-数字"><a class="markdownIt-Anchor" href="#31-数字"></a> 3.1 数字</h3>
-<p>数字数据类型用于存储数值，他们是 <strong>不可改变</strong> 的数据类型。也就是说，每改变一个数字数据类型，就会分配一个新的对象。</p>
+<h2 id="3-数据类型"><a href="#3-数据类型" class="headerlink" title="3. 数据类型"></a>3. 数据类型</h2><p>要处理各种文本、图形、音频、视频等数据，光使用数值类型是远远不够的，我们需要更多的数据类型来定义不同的数据。在 Python 中，主要有如下几种数据类型：</p>
+<h3 id="3-1-数字"><a href="#3-1-数字" class="headerlink" title="3.1 数字"></a>3.1 数字</h3><p>数字数据类型用于存储数值，他们是 <strong>不可改变</strong> 的数据类型。也就是说，每改变一个数字数据类型，就会分配一个新的对象。</p>
 <p>当我们给变量指定一个值时，数字对象就会被创建，而如果我们要删除这些对象的引用，就可以使用 <code>del</code> 语句；</p>
 <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment"># 创建对象</span>
 number <span class="token operator">=</span> <span class="token number">1</span>
@@ -965,8 +956,7 @@ number <span class="token operator">=</span> <span class="token number">1</span>
 <li><code>float</code>：浮点类型，也就是数学中的小数。一个浮点数的小数点位置是可变的，它不仅可以表示成数学写法（<code>456.78</code>），还支持科学记数法（<code>4.5678e2</code>）；</li>
 <li><code>complex</code>：复数类型，由实部和虚部组成，形如 <code>a + bj</code> 的形式，和数学中的复数表示一样，只是把 <code>i</code> 变成了 <code>j</code>；</li>
 </ul>
-<h3 id="32-字符串"><a class="markdownIt-Anchor" href="#32-字符串"></a> 3.2 字符串</h3>
-<p>以单引号或双引号括起来的任意文本，例如 <code>“cunyu1943”</code> 和 <code>‘cunyu1943’</code>，而且还可以书写成多行的形式（用三个单引号或三个双引号开头，三个单引号或三个双引号结尾）</p>
+<h3 id="3-2-字符串"><a href="#3-2-字符串" class="headerlink" title="3.2 字符串"></a>3.2 字符串</h3><p>以单引号或双引号括起来的任意文本，例如 <code>“cunyu1943”</code> 和 <code>‘cunyu1943’</code>，而且还可以书写成多行的形式（用三个单引号或三个双引号开头，三个单引号或三个双引号结尾）</p>
 <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token triple-quoted-string string">'''
 公众号：村雨遥
 blog：cunyu1943.site
@@ -984,10 +974,10 @@ blog：cunyu1943<span class="token punctuation">.</span>site
 <p>如果我们要从字符串汇总获取一小段子字符串，则可以使用 <code>[头下标:尾下标]</code> 来进行截取。注意 <strong>左闭右开</strong> 原则，即通过  <code>[头下标:尾下标]</code> 方式获取的子字符串包含头下标的字符，但不包含尾下标的字符；</p>
 <p>加入我们的字符串 <code>s = 'abcdef’</code>，则通过不同方式索引的结果如下图：</p>
 <p><img src="https://img-blog.csdnimg.cn/img_convert/a81823c17d94496142e6c265ad94b4e1.png" alt="图片源自菜鸟教程"></p>
-<h3 id="33-列表"><a class="markdownIt-Anchor" href="#33-列表"></a> 3.3 列表</h3>
-<p><code>list</code> 是一种 <strong>有序</strong> 的集合，能随时向其中添加和删除元素，用 <code>[]</code> 标识，内部元素用逗号隔开，元素可以是字符、数字、字符串等数据类型，是 Python 中最常用的复合数据类型。类似于字符串，也可以用 <code>[头下标:尾下标]</code> 的方式来进行截取相应子列表，索引方式同字符串，示例如下：</p>
+<h3 id="3-3-列表"><a href="#3-3-列表" class="headerlink" title="3.3 列表"></a>3.3 列表</h3><p><code>list</code> 是一种 <strong>有序</strong> 的集合，能随时向其中添加和删除元素，用 <code>[]</code> 标识，内部元素用逗号隔开，元素可以是字符、数字、字符串等数据类型，是 Python 中最常用的复合数据类型。类似于字符串，也可以用 <code>[头下标:尾下标]</code> 的方式来进行截取相应子列表，索引方式同字符串，示例如下：</p>
 <p><img src="https://img-blog.csdnimg.cn/img_convert/b74bdbedc3906fdef50d0362d258c52b.png" alt="源自菜鸟教程"></p>
 <p><code>list</code> 中常用方法如下：</p>
+<div class="table-container">
 <table>
 <thead>
 <tr>
@@ -1042,6 +1032,7 @@ blog：cunyu1943<span class="token punctuation">.</span>site
 </tr>
 </tbody>
 </table>
+</div>
 <p>如果我们要实现不同列表连接，应该这么办呢，此时我们可以使用 <code>+</code> 来连接不同的数组；</p>
 <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> list1 <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">]</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> list2 <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">]</span>
@@ -1051,9 +1042,9 @@ blog：cunyu1943<span class="token punctuation">.</span>site
 <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> list1 <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">]</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> <span class="token keyword">print</span><span class="token punctuation">(</span>list1 <span class="token operator">*</span> <span class="token number">2</span><span class="token punctuation">)</span>
 <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-<h3 id="34-元组"><a class="markdownIt-Anchor" href="#34-元组"></a> 3.4 元组</h3>
-<p><code>tuple</code> 也是一种类似于 <code>list</code> 的 <strong>有序</strong> 列表，用 <code>()</code> 标识，内部元素用逗号隔开。它俩的一个最大区别在于： <code>tuple</code> 一旦初始化之后，就不能再修改了，相当于只读列表，所以 <code>tuple</code> 不像 <code>list</code> 一样有类似 <code>append()、insert()</code> 等方法；</p>
+<h3 id="3-4-元组"><a href="#3-4-元组" class="headerlink" title="3.4 元组"></a>3.4 元组</h3><p><code>tuple</code> 也是一种类似于 <code>list</code> 的 <strong>有序</strong> 列表，用 <code>()</code> 标识，内部元素用逗号隔开。它俩的一个最大区别在于： <code>tuple</code> 一旦初始化之后，就不能再修改了，相当于只读列表，所以 <code>tuple</code> 不像 <code>list</code> 一样有类似 <code>append()、insert()</code> 等方法；</p>
 <p>常用方法如下：</p>
+<div class="table-container">
 <table>
 <thead>
 <tr>
@@ -1080,12 +1071,12 @@ blog：cunyu1943<span class="token punctuation">.</span>site
 </tr>
 </tbody>
 </table>
+</div>
 <p>如果我们要定义一个空的元组，可以用如下的方式：</p>
 <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token builtin">tuple</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p>而如果元组中只有一个元素时，为了避免歧义，通常需要定义成如下形式：</p>
 <pre class="line-numbers language-python" data-language="python"><code class="language-python">t <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<h3 id="35-字典"><a class="markdownIt-Anchor" href="#35-字典"></a> 3.5 字典</h3>
-<p>列表是有序的对象集合，而字典则是无序的对象集合，字典用 <code>{}</code>标识，元素间用逗号分隔，每个元素由 <code>key:value</code> 的形式组成。</p>
+<h3 id="3-5-字典"><a href="#3-5-字典" class="headerlink" title="3.5 字典"></a>3.5 字典</h3><p>列表是有序的对象集合，而字典则是无序的对象集合，字典用 <code>{}</code>标识，元素间用逗号分隔，每个元素由 <code>key:value</code> 的形式组成。</p>
 <p>两者之间的区别在于：字典中的元素是通过键值对来存取的，而不是通过偏移存取。</p>
 <p>字典值虽然能够没有限制，但是键是有限制的，主要有如下两点需要记住：</p>
 <ol>
@@ -1093,6 +1084,7 @@ blog：cunyu1943<span class="token punctuation">.</span>site
 <li>键必须不可变，所以它可以是数字、字符串或元组，但是不能用列表；</li>
 </ol>
 <p>字典也有许多方法供我们使用，主要方法总结如下：</p>
+<div class="table-container">
 <table>
 <thead>
 <tr>
@@ -1151,14 +1143,14 @@ blog：cunyu1943<span class="token punctuation">.</span>site
 </tr>
 </tbody>
 </table>
-<h3 id="36-布尔值"><a class="markdownIt-Anchor" href="#36-布尔值"></a> 3.6 布尔值</h3>
-<p>布尔值只有<code>True</code>、<code>False</code>两种值，要么是<code>True</code>，要么是<code>False</code>。在Python中，可以直接用<code>True</code>、<code>False</code> 直接表示布尔值，也可以通过布尔运算计算出来。</p>
+</div>
+<h3 id="3-6-布尔值"><a href="#3-6-布尔值" class="headerlink" title="3.6 布尔值"></a>3.6 布尔值</h3><p>布尔值只有<code>True</code>、<code>False</code>两种值，要么是<code>True</code>，要么是<code>False</code>。在Python中，可以直接用<code>True</code>、<code>False</code> 直接表示布尔值，也可以通过布尔运算计算出来。</p>
 <pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> <span class="token boolean">False</span>
 <span class="token boolean">False</span>
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> <span class="token number">3</span> <span class="token operator">&gt;</span> <span class="token number">2</span>
 <span class="token boolean">True</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-<h2 id="4-运算符"><a class="markdownIt-Anchor" href="#4-运算符"></a> 4. 运算符</h2>
-<p>Python 支持多种运算符，但是运算符之间也是有优先级的，下表大致按照优先级从高到低的顺序列出了所有运算符，下面分别介绍运算符的类别；</p>
+<h2 id="4-运算符"><a href="#4-运算符" class="headerlink" title="4. 运算符"></a>4. 运算符</h2><p>Python 支持多种运算符，但是运算符之间也是有优先级的，下表大致按照优先级从高到低的顺序列出了所有运算符，下面分别介绍运算符的类别；</p>
+<div class="table-container">
 <table>
 <thead>
 <tr>
@@ -1189,11 +1181,12 @@ blog：cunyu1943<span class="token punctuation">.</span>site
 </tr>
 <tr>
 <td style="text-align:left"><code>&amp;</code></td>
-<td style="text-align:left">位 ‘<code>AND</code>’</td>
+<td style="text-align:left">位 ‘<code>AND</code>‘</td>
 </tr>
 <tr>
-<td style="text-align:left"><code>^ |</code></td>
-<td style="text-align:left">位运算符</td>
+<td style="text-align:left">`^</td>
+<td style="text-align:left">`</td>
+<td>位运算符</td>
 </tr>
 <tr>
 <td style="text-align:left"><code>&lt;= &lt; &gt; &gt;=</code></td>
@@ -1221,8 +1214,9 @@ blog：cunyu1943<span class="token punctuation">.</span>site
 </tr>
 </tbody>
 </table>
-<h3 id="41-算术运算符"><a class="markdownIt-Anchor" href="#41-算术运算符"></a> 4.1 算术运算符</h3>
-<p>假设变量 <code>a = 10, b = 20</code>：</p>
+</div>
+<h3 id="4-1-算术运算符"><a href="#4-1-算术运算符" class="headerlink" title="4.1 算术运算符"></a>4.1 算术运算符</h3><p>假设变量 <code>a = 10, b = 20</code>：</p>
+<div class="table-container">
 <table>
 <thead>
 <tr>
@@ -1269,8 +1263,9 @@ blog：cunyu1943<span class="token punctuation">.</span>site
 </tr>
 </tbody>
 </table>
-<h3 id="42-比较运算符"><a class="markdownIt-Anchor" href="#42-比较运算符"></a> 4.2 比较运算符</h3>
-<p>假设变量 <code>a = 10, b = 20</code>：</p>
+</div>
+<h3 id="4-2-比较运算符"><a href="#4-2-比较运算符" class="headerlink" title="4.2 比较运算符"></a>4.2 比较运算符</h3><p>假设变量 <code>a = 10, b = 20</code>：</p>
+<div class="table-container">
 <table>
 <thead>
 <tr>
@@ -1317,8 +1312,9 @@ blog：cunyu1943<span class="token punctuation">.</span>site
 </tr>
 </tbody>
 </table>
-<h3 id="43-赋值运算符"><a class="markdownIt-Anchor" href="#43-赋值运算符"></a> 4.3 赋值运算符</h3>
-<p>假设变量 <code>a = 10, b = 20</code>：</p>
+</div>
+<h3 id="4-3-赋值运算符"><a href="#4-3-赋值运算符" class="headerlink" title="4.3 赋值运算符"></a>4.3 赋值运算符</h3><p>假设变量 <code>a = 10, b = 20</code>：</p>
+<div class="table-container">
 <table>
 <thead>
 <tr>
@@ -1370,8 +1366,9 @@ blog：cunyu1943<span class="token punctuation">.</span>site
 </tr>
 </tbody>
 </table>
-<h3 id="44-逻辑运算符"><a class="markdownIt-Anchor" href="#44-逻辑运算符"></a> 4.4 逻辑运算符</h3>
-<p>假设变量 <code>a = 10, b = 20</code>：</p>
+</div>
+<h3 id="4-4-逻辑运算符"><a href="#4-4-逻辑运算符" class="headerlink" title="4.4 逻辑运算符"></a>4.4 逻辑运算符</h3><p>假设变量 <code>a = 10, b = 20</code>：</p>
+<div class="table-container">
 <table>
 <thead>
 <tr>
@@ -1385,26 +1382,27 @@ blog：cunyu1943<span class="token punctuation">.</span>site
 <tr>
 <td style="text-align:left"><code>and</code></td>
 <td style="text-align:left"><code>x and y</code></td>
-<td style="text-align:left">布尔"与" - 如果 <code>x</code> 为 <code>False</code>，<code>x and y</code> 返回 <code>False</code>，否则它返回 <code>y</code> 的计算值</td>
+<td style="text-align:left">布尔”与” - 如果 <code>x</code> 为 <code>False</code>，<code>x and y</code> 返回 <code>False</code>，否则它返回 <code>y</code> 的计算值</td>
 <td style="text-align:left"><code>(a and b)</code> 返回 20</td>
 </tr>
 <tr>
 <td style="text-align:left"><code>or</code></td>
 <td style="text-align:left"><code>x or y</code></td>
-<td style="text-align:left">布尔"或" - 如果 <code>x</code> 是非 0，它返回 <code>x</code> 的值，否则它返回 <code>y</code> 的计算值</td>
+<td style="text-align:left">布尔”或” - 如果 <code>x</code> 是非 0，它返回 <code>x</code> 的值，否则它返回 <code>y</code> 的计算值</td>
 <td style="text-align:left"><code>(a or b)</code> 返回 10</td>
 </tr>
 <tr>
 <td style="text-align:left"><code>not</code></td>
 <td style="text-align:left"><code>not x</code></td>
-<td style="text-align:left">布尔"非" - 如果 <code>x</code> 为 <code>True</code>，返回 <code>False</code> 。如果 <code>x</code> 为 <code>False</code>，它返回 <code>True</code></td>
+<td style="text-align:left">布尔”非” - 如果 <code>x</code> 为 <code>True</code>，返回 <code>False</code> 。如果 <code>x</code> 为 <code>False</code>，它返回 <code>True</code></td>
 <td style="text-align:left"><code>not(a and b)</code> 返回 <code>False</code></td>
 </tr>
 </tbody>
 </table>
-<h3 id="45-位运算符"><a class="markdownIt-Anchor" href="#45-位运算符"></a> 4.5 位运算符</h3>
-<p>假设变量 <code>a = 60, b = 13</code>：</p>
+</div>
+<h3 id="4-5-位运算符"><a href="#4-5-位运算符" class="headerlink" title="4.5 位运算符"></a>4.5 位运算符</h3><p>假设变量 <code>a = 60, b = 13</code>：</p>
 <p>按位运算符石将数字转换为二进制之后来进行计算的，则 <code>a = 00111100、b = 00001101</code></p>
+<div class="table-container">
 <table>
 <thead>
 <tr>
@@ -1420,9 +1418,11 @@ blog：cunyu1943<span class="token punctuation">.</span>site
 <td style="text-align:left"><code>(a &amp; b)</code> 输出结果 12 ，二进制解释： 0000 1100</td>
 </tr>
 <tr>
-<td style="text-align:left"><code>|</code></td>
+<td style="text-align:left">`</td>
+<td style="text-align:left">`</td>
 <td style="text-align:left">按位或运算符：只要对应的二个二进位有一个为 1 时，结果位就为 1</td>
-<td style="text-align:left"><code>(a | b)</code> 输出结果 61 ，二进制解释： 0011 1101</td>
+<td>`(a</td>
+<td>b)` 输出结果 61 ，二进制解释： 0011 1101</td>
 </tr>
 <tr>
 <td style="text-align:left"><code>^</code></td>
@@ -1441,12 +1441,13 @@ blog：cunyu1943<span class="token punctuation">.</span>site
 </tr>
 <tr>
 <td style="text-align:left"><code>&gt;&gt;</code></td>
-<td style="text-align:left">右移动运算符：把 "&gt;&gt;” 左边的运算数的各二进位全部右移若干位，<strong>&gt;&gt;</strong> 右边的数字指定了移动的位数</td>
+<td style="text-align:left">右移动运算符：把 “&gt;&gt;” 左边的运算数的各二进位全部右移若干位，<strong>&gt;&gt;</strong> 右边的数字指定了移动的位数</td>
 <td style="text-align:left"><code>a &gt;&gt; 2</code> 输出结果 15 ，二进制解释： 0000 1111</td>
 </tr>
 </tbody>
 </table>
-<h3 id="46-成员运算符"><a class="markdownIt-Anchor" href="#46-成员运算符"></a> 4.6 成员运算符</h3>
+</div>
+<h3 id="4-6-成员运算符"><a href="#4-6-成员运算符" class="headerlink" title="4.6 成员运算符"></a>4.6 成员运算符</h3><div class="table-container">
 <table>
 <thead>
 <tr>
@@ -1468,8 +1469,9 @@ blog：cunyu1943<span class="token punctuation">.</span>site
 </tr>
 </tbody>
 </table>
-<h3 id="47-身份运算符"><a class="markdownIt-Anchor" href="#47-身份运算符"></a> 4.7 身份运算符</h3>
-<p>身份运算符用于比较两个对象的存储单元：</p>
+</div>
+<h3 id="4-7-身份运算符"><a href="#4-7-身份运算符" class="headerlink" title="4.7 身份运算符"></a>4.7 身份运算符</h3><p>身份运算符用于比较两个对象的存储单元：</p>
+<div class="table-container">
 <table>
 <thead>
 <tr>
@@ -1491,12 +1493,12 @@ blog：cunyu1943<span class="token punctuation">.</span>site
 </tr>
 </tbody>
 </table>
-<h2 id="5-总结"><a class="markdownIt-Anchor" href="#5-总结"></a> 5. 总结</h2>
-<p>好了，文章到这里也算🈶️挺多内容了，赶紧去仔细看看，然后动手实践起来吧。</p>
+</div>
+<h2 id="5-总结"><a href="#5-总结" class="headerlink" title="5. 总结"></a>5. 总结</h2><p>好了，文章到这里也算🈶️挺多内容了，赶紧去仔细看看，然后动手实践起来吧。</p>
 <p>如果你觉得我的文章对你有所帮助，那就赶紧去关注我吧。另外，为了方便大家交流，我还特意创建了微信交流群，如果你也有兴趣加入，关注我的公众号（村雨遥）回复 <strong>加群</strong>，我人工拉你入群哦。</p>
 <p><img src="https://img-blog.csdnimg.cn/img_convert/ff1f319675f421e98cbf2c93da3bf08b.png" alt=""></p>
 <blockquote>
-<p>建议关注公众号 「<strong>村雨遥</strong>」，最新干货文章不容错过 ~</p>
+<p>  建议关注公众号 「<strong>村雨遥</strong>」，最新干货文章不容错过 ~</p>
 </blockquote>
 
                 
@@ -2329,7 +2331,7 @@ blog：cunyu1943<span class="token punctuation">.</span>site
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">86.4k</span>&nbsp;字
+                class="white-color">86.2k</span>&nbsp;字
             
             
             

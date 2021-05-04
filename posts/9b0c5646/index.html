@@ -143,7 +143,7 @@
       </li>
       
       <li>
-        <a href="/categories/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/Online-Judge/">
+        <a href="/categories/Online-Judge/">
           
           <i class="fas fa-code" style="margin-top: -20px; zoom: 0.6;"></i>
           
@@ -329,7 +329,7 @@
               
                 <li>
 
-                  <a href="/categories/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/Online-Judge/ " style="margin-left:75px">
+                  <a href="/categories/Online-Judge/ " style="margin-left:75px">
 				  
 				   <i class="fa fas fa-code" style="position: absolute;left:50px" ></i>
 			      
@@ -673,41 +673,37 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <blockquote>
-<p><strong>本文已收录至个人 Github仓库</strong>：<a target="_blank" rel="noopener" href="https://github.com/cunyu1943/cs-docs">cs-docs</a>，欢迎各位 <strong>Star、Fork</strong> ~</p>
+<p>  <strong>本文已收录至个人 Github仓库</strong>：<a target="_blank" rel="noopener" href="https://github.com/cunyu1943/cs-docs">cs-docs</a>，欢迎各位 <strong>Star、Fork</strong> ~</p>
 </blockquote>
-<h2 id="1-前言"><a class="markdownIt-Anchor" href="#1-前言"></a> 1. 前言</h2>
-<p>对于写博客的朋友们来讲，图床这个东西一定不会陌生，而且在一定程度上也给大家造成过一定困扰。</p>
+<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>对于写博客的朋友们来讲，图床这个东西一定不会陌生，而且在一定程度上也给大家造成过一定困扰。</p>
 <p>对于不清楚这个东西的朋友，我就在这儿大概说一下图床是个啥东西。所谓图床，其实可以就相当于我们手机上的相册，不过他是在线的，而且是对大家开放的，大家都可以访问查看，但是编辑删除这些功能仅限于拥有者，就相当于用百度云分享的公开照片，你可以查看，也可以下载下来编辑，但是拥有权还是属于分享者。</p>
 <p>那你可能会疑惑，那这个东西和写博客的我们有啥关系呢？</p>
-<img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/50fa99ec14644fbfaaf97992d0955a9b~tplv-k3u1fbpfcp-zoom-1.image" style="zoom: 50%;">
+<p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/50fa99ec14644fbfaaf97992d0955a9b~tplv-k3u1fbpfcp-zoom-1.image" style="zoom: 50%;"></p>
 <p>你想想，我们写博客，是不是有很多图片需要插入，我们这些博客要保留在本地的时候你可以预览到图片，但一旦你要把它发布到网上，这时候问题来了！发现图片上传失败，那是因为你本地的图片都是存在本地的，平台不会自动给你上传，那这个时候就凸显出图床的重要性了。当然了，如果你是直接在平台进行编辑，那着一点就不用担心了，基本平台都会自动给你上传到它自己的服务器。</p>
 <p>有了图床，我们在本地写好博客之后，就能够任意复制到其他平台，不用担心图片丢失问题了。</p>
-<img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/22061b36742741968d22ec8056802658~tplv-k3u1fbpfcp-zoom-1.image" style="zoom:50%;">
+<p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/22061b36742741968d22ec8056802658~tplv-k3u1fbpfcp-zoom-1.image" style="zoom:50%;"></p>
 <p>今天的文章就是给大家分享一个搭建免费图床的教程，既是方便自己后续的复习，也希望对大家也有所帮助。</p>
-<h2 id="2-准备工作"><a class="markdownIt-Anchor" href="#2-准备工作"></a> 2. 准备工作</h2>
-<p>那么在正式开始之前，你需要提前准备以下东西：</p>
+<h2 id="2-准备工作"><a href="#2-准备工作" class="headerlink" title="2. 准备工作"></a>2. 准备工作</h2><p>那么在正式开始之前，你需要提前准备以下东西：</p>
 <blockquote>
 <p>一个 Github 账号</p>
 </blockquote>
-<img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c67db74bcaa640578447b77b567a7c95~tplv-k3u1fbpfcp-zoom-1.image" style="zoom:50%;">
+<p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c67db74bcaa640578447b77b567a7c95~tplv-k3u1fbpfcp-zoom-1.image" style="zoom:50%;"></p>
 <p>好了，就这么简单，只要你有一个 Github 账号就够了，你就能拥有一个免费的图床了，如果你还没有，那赶紧去 <a target="_blank" rel="noopener" href="https://github.com/cunyu1943" title="注册">注册</a> 一个账号吧。</p>
-<h2 id="3-搭建过程"><a class="markdownIt-Anchor" href="#3-搭建过程"></a> 3. 搭建过程</h2>
-<p>这一部分就是正式开始大家过程了，准备好大干一场吧！</p>
-<img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3dc01deed8984a33995e5b1f17324892~tplv-k3u1fbpfcp-zoom-1.image" style="zoom:50%;">
+<h2 id="3-搭建过程"><a href="#3-搭建过程" class="headerlink" title="3. 搭建过程"></a>3. 搭建过程</h2><p>这一部分就是正式开始大家过程了，准备好大干一场吧！</p>
+<p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3dc01deed8984a33995e5b1f17324892~tplv-k3u1fbpfcp-zoom-1.image" style="zoom:50%;"></p>
 <ol>
 <li>登录你的 Github 之后，创建一个新的仓库；</li>
 </ol>
 <p><img src="https://img-blog.csdnimg.cn/img_convert/bdafff4aed63d1e10572254fedc8501d.png" alt=""></p>
-<ol start="2">
+<ol>
 <li>填写仓库先关资料，一般只需要选一个合适的仓库名，然后确保仓库为 <code>public</code> 其他的保持默认就好；</li>
 </ol>
 <p><img src="https://img-blog.csdnimg.cn/img_convert/48d90f2f80c66abb90a50d6f474da77e.png" alt=""></p>
-<ol start="3">
+<ol>
 <li>一般创建成功之后，会出现如下界面，至此，我们的图床算是创建好了，接下来就是如何上传图片了；</li>
 </ol>
 <p><img src="https://img-blog.csdnimg.cn/img_convert/fde08bc299258dd6f7fd1f12703c13f8.png" alt=""></p>
-<h2 id="4-上传图片"><a class="markdownIt-Anchor" href="#4-上传图片"></a> 4. 上传图片</h2>
-<p>通过上面的步骤，我们的图床时搭建好了，但是通过传统的方法向 Github 上传图片太麻烦了，这里我们推荐使用一个开源图床工具 <a target="_blank" rel="noopener" href="https://molunerfinn.com/PicGo/" title="PicGo">PicGo</a> 来作为我们的图片上传工具；</p>
+<h2 id="4-上传图片"><a href="#4-上传图片" class="headerlink" title="4. 上传图片"></a>4. 上传图片</h2><p>通过上面的步骤，我们的图床时搭建好了，但是通过传统的方法向 Github 上传图片太麻烦了，这里我们推荐使用一个开源图床工具 <a target="_blank" rel="noopener" href="https://molunerfinn.com/PicGo/" title="PicGo">PicGo</a> 来作为我们的图片上传工具；</p>
 <p>PicGo 的安装就不说了，去他的 <a target="_blank" rel="noopener" href="https://molunerfinn.com/PicGo/" title="官网">官网</a> 下载对应版本进行安装即可，我们主要讲讲如何用它来上传图片。安装后，打开软件其主页面如下：</p>
 <p><img src="https://img-blog.csdnimg.cn/img_convert/7bcb336a2f6b7a947f9348d284fea772.png" alt=""></p>
 <p>接下来就是配置 PicGo 的过程了。</p>
@@ -717,43 +713,40 @@
 <p>以此打开 <code>Settings -&gt; Developer settings -&gt; Personal access tokens</code>，最后点击 <code>generate new token</code>；</p>
 <p><img src="https://img-blog.csdnimg.cn/img_convert/add0cfb7d9f65cb8eefc5df76b8ebe10.png" alt=""></p>
 <p><img src="https://img-blog.csdnimg.cn/img_convert/bf9946c73d66a78d1b07c505433b6ad2.png" alt=""></p>
-<ol start="2">
+<ol>
 <li>填写及勾选相关信息，然后点击 <code>Genetate token</code> 即可；</li>
 </ol>
 <p><img src="https://img-blog.csdnimg.cn/img_convert/51874cbe8b2d405c01a5763fbd1c8c14.png" alt=""></p>
-<ol start="3">
+<ol>
 <li><code>token</code> 生成，注意它只会显示一次，所以你最好把它复制下来到你的备忘录存好，方便下次使用，否则下次有需要重新新建；</li>
 </ol>
 <p><img src="https://img-blog.csdnimg.cn/img_convert/c8d7a85d377067762c7d5016c9c41863.png" alt=""></p>
-<ol start="4">
+<ol>
 <li>配置 PicGo，依次打开 图床设置 -&gt; Github 图床；</li>
 </ol>
 <p><img src="https://img-blog.csdnimg.cn/img_convert/c0db4ee374b28ed38cae4c9ac8dfd234.png" alt=""></p>
-<ol start="5">
+<ol>
 <li>填写相关信息，最后点击 <code>确定</code>即可，要将其作为默认图床的话，点击设为默认图床；</li>
 </ol>
 <p><img src="https://img-blog.csdnimg.cn/img_convert/92d13b74836d918391810d6c859c65da.png" alt=""></p>
-<ol start="6">
+<ol>
 <li>上传图片，通过上传区上传即可（Ctrl V 或者将图片拖拽都可以），也可以通过快捷键的方式上传（默认上传键为 <code>Ctrl + Shift + P</code>）；</li>
 </ol>
 <p><img src="https://img-blog.csdnimg.cn/img_convert/701f0783e772e05a782a7f0863ac1322.png" alt=""></p>
-<h2 id="5-加速访问"><a class="markdownIt-Anchor" href="#5-加速访问"></a> 5. 加速访问</h2>
-<p>大家可能会发现，我们上传到 Github 的图片有时候访问太慢了，有时候甚至直接加载不出来！那该咋办呢？</p>
+<h2 id="5-加速访问"><a href="#5-加速访问" class="headerlink" title="5. 加速访问"></a>5. 加速访问</h2><p>大家可能会发现，我们上传到 Github 的图片有时候访问太慢了，有时候甚至直接加载不出来！那该咋办呢？</p>
 <p>这时候我们就可以用 <a target="_blank" rel="noopener" href="https://www.jsdelivr.com/" title="jsDelivr">jsDelivr</a> 进行免费加速，而设置的方法也很简单，只需要在我们 PicGo 图床配置中添加如下自定义域名即可；</p>
 <blockquote>
 <p><code>https://cdn.jsdelivr.net/gh/用户名/仓库名</code></p>
 </blockquote>
 <p>比如我的就是 <code>https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs</code></p>
 <p><img src="https://img-blog.csdnimg.cn/img_convert/6494fa2eec3fa16acafcfe992fe22262.png" alt=""></p>
-<h2 id="6-图床推荐"><a class="markdownIt-Anchor" href="#6-图床推荐"></a> 6. 图床推荐</h2>
-<p>除开用 Github 搭建的方式之后，我们也可以用 Gitee 进行搭建，搭建方式和本文大致相同。此外，我也推荐几个免费的图床给大家，大家可以根据自己的喜好进行选择；</p>
+<h2 id="6-图床推荐"><a href="#6-图床推荐" class="headerlink" title="6. 图床推荐"></a>6. 图床推荐</h2><p>除开用 Github 搭建的方式之后，我们也可以用 Gitee 进行搭建，搭建方式和本文大致相同。此外，我也推荐几个免费的图床给大家，大家可以根据自己的喜好进行选择；</p>
 <ol>
 <li><a target="_blank" rel="noopener" href="https://imgchr.com/" title="路过图床">路过图床</a></li>
 <li><a target="_blank" rel="noopener" href="https://sm.ms/" title="SM.MS">SM.MS</a></li>
 <li><a target="_blank" rel="noopener" href="https://imgur.com/" title="Imgur">Imgur</a></li>
 </ol>
-<h2 id="7-总结"><a class="markdownIt-Anchor" href="#7-总结"></a> 7. 总结</h2>
-<p>至此，我们的搭建免费图床的教程就到此结束了，总结一下主要有如下几部分：</p>
+<h2 id="7-总结"><a href="#7-总结" class="headerlink" title="7. 总结"></a>7. 总结</h2><p>至此，我们的搭建免费图床的教程就到此结束了，总结一下主要有如下几部分：</p>
 <ol>
 <li>准备一个 Github 账号；</li>
 <li>搭建图床仓库；</li>
@@ -764,7 +757,7 @@
 <p>如果你对上面的部分有疑问，欢迎留言或者私信，我会在看到的第一时间回复你！</p>
 <p><img src="https://img-blog.csdnimg.cn/img_convert/796f38768fedfc1e32ce123aa898c5c0.png" alt=""></p>
 <blockquote>
-<p>建议关注公众号 「<strong>村雨遥</strong>」，最新干货文章不容错过 ~</p>
+<p>  建议关注公众号 「<strong>村雨遥</strong>」，最新干货文章不容错过 ~</p>
 </blockquote>
 
                 
@@ -1342,12 +1335,12 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E5%B7%A5%E5%85%B7/">
-                        <span class="chip bg-color">工具</span>
-                    </a>
-                    
                     <a href="/tags/%E6%95%99%E7%A8%8B/">
                         <span class="chip bg-color">教程</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%B7%A5%E5%85%B7/">
+                        <span class="chip bg-color">工具</span>
                     </a>
                     
                 </div>
@@ -1601,7 +1594,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">86.4k</span>&nbsp;字
+                class="white-color">86.2k</span>&nbsp;字
             
             
             
