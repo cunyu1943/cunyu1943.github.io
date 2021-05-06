@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>【LeetCode】1720. 解码异或后的数组</title>
+      <link href="posts/8955af0c/"/>
+      <url>posts/8955af0c/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>  <strong>本文已收录至个人 Github仓库</strong>：<a href="https://github.com/cunyu1943/cs-docs">cs-docs</a>，欢迎各位 <strong>Star、Fork</strong> ~</p></blockquote><h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><ul><li><a href="https://leetcode-cn.com/problems/decode-xored-array/">1720. 解码异或后的数组</a></li><li>难度：简单</li></ul><h2 id="描述"><a href="#描述" class="headerlink" title="描述"></a>描述</h2><blockquote><p>  <strong>未知</strong> 整数数组 <code>arr</code> 由 <code>n</code> 个非负整数组成。</p><p>  经编码后变为长度为 <code>n - 1</code> 的另一个整数数组 <code>encoded</code> ，其中 <code>encoded[i] = arr[i] XOR arr[i + 1]</code> 。例如，<code>arr = [1,0,2,1]</code> 经编码后得到 <code>encoded = [1,2,3]</code> 。</p><p>  给你编码后的数组 <code>encoded</code> 和原数组 <code>arr</code> 的第一个元素 <code>first</code>（<code>arr[0]</code>）。</p><p>  请解码返回原数组 <code>arr</code> 。可以证明答案存在并且是唯一的。</p><p>  <strong>示例 1：</strong></p><p>  <strong>输入：</strong> encoded = [1,2,3], first = 1<br>  <strong>输出：</strong> [1,0,2,1]<br>  <strong>解释：</strong> 若 arr = [1,0,2,1] ，那么 first = 1 且 encoded = [1 XOR 0, 0 XOR 2, 2 XOR 1] = [1,2,3]</p><p>  <strong>示例 2：</strong></p><p>  <strong>输入：</strong> encoded = [6,2,7,3], first = 4<br>  <strong>输出：</strong> [4,2,0,7,4]</p><p>  <strong>提示：</strong></p><ul><li>$2 &lt;= n &lt;= 10^4$</li><li><code>encoded.length == n - 1</code></li><li>0 &lt;= encoded[i] &lt;= 10<sup>5</sup></li><li>0 &lt;= first &lt;= 10<sup>5</sup></li></ul></blockquote><h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><h3 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h3><ul><li><p>因为 <code>a ^ b = c</code>，<code>a ^ b ^ b = a</code>，所以得知 <code>c ^ b = a</code></p></li><li><p>观察题目，可以发现 <code>arr[0] ^ arr[1] = encode[0]</code>、<code>arr[1] ^ arr[2] = encode[1]</code>……，已知 <code>encode</code> 数组和 <code>arr[0]</code>，运用上面的式子可以知道 <code>arr[1] = arr[0] ^ encode[0]</code>、<code>arr[2] = arr[1] ^ encode[1]</code>……</p></li><li>因为主要是遍历了一趟数组，所以时间复杂度为 <code>O(n)</code>；</li></ul><h3 id="实现"><a href="#实现" class="headerlink" title="实现"></a>实现</h3><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">class</span> <span class="token class-name">Solution</span> <span class="token punctuation">{</span>    <span class="token keyword">public</span> <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token function">decode</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> encoded<span class="token punctuation">,</span> <span class="token keyword">int</span> first<span class="token punctuation">)</span> <span class="token punctuation">{</span>        <span class="token comment">// 编码前的数组</span>        <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> result <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token keyword">int</span><span class="token punctuation">[</span>encoded<span class="token punctuation">.</span>length <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">;</span>        <span class="token comment">// 编码前数组的第一个元素</span>        result<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">=</span> first<span class="token punctuation">;</span>        <span class="token comment">// result[i] ^ result[i + 1] = encode[i]，反过来 result[i + 1] = encode[i] ^ result[i]</span>        <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> result<span class="token punctuation">.</span>length <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>            result<span class="token punctuation">[</span>i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> result<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">^</span> encoded<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>        <span class="token punctuation">}</span>        <span class="token keyword">return</span> result<span class="token punctuation">;</span>    <span class="token punctuation">}</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><blockquote><p>  建议关注公众号 「<strong>村雨遥</strong>」，最新干货文章不容错过 ~</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> Online Judge </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> LeetCode </tag>
+            
+            <tag> 位运算 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>【剑指 Offer】03. 数组中重复的数字</title>
       <link href="posts/14fc53a7/"/>
       <url>posts/14fc53a7/</url>

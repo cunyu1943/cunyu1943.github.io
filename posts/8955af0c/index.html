@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="【效率为王】技术写作中的那些神兵利器, Java 公众号：村雨遥 LeetCode">
+    <meta name="keywords" content="【LeetCode】1720. 解码异或后的数组, Java 公众号：村雨遥 LeetCode">
     <meta name="description" content="吾生也有涯，而知也无涯。">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>【效率为王】技术写作中的那些神兵利器 | 村雨遥的博客</title>
+    <title>【LeetCode】1720. 解码异或后的数组 | 村雨遥的博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -474,12 +474,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/10.png')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">【效率为王】技术写作中的那些神兵利器</h1>
+                    <h1 class="description center-align post-title">【LeetCode】1720. 解码异或后的数组</h1>
                 </div>
             </div>
         </div>
@@ -595,8 +595,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E5%B7%A5%E5%85%B7/">
-                                <span class="chip bg-color">工具</span>
+                            <a href="/tags/LeetCode/">
+                                <span class="chip bg-color">LeetCode</span>
+                            </a>
+                        
+                            <a href="/tags/%E4%BD%8D%E8%BF%90%E7%AE%97/">
+                                <span class="chip bg-color">位运算</span>
                             </a>
                         
                     </div>
@@ -607,8 +611,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E6%95%88%E7%8E%87%E4%B8%BA%E7%8E%8B/" class="post-category">
-                                效率为王
+                            <a href="/categories/Online-Judge/" class="post-category">
+                                Online Judge
                             </a>
                         
                     </div>
@@ -620,28 +624,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-05-04
+                    2021-05-06
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-05-04
+                    2021-05-06
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    2.3k
+                    417
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    8 分
+                    1 分
                 </div>
                 
 
@@ -667,260 +671,47 @@
                 <blockquote>
 <p>  <strong>本文已收录至个人 Github仓库</strong>：<a target="_blank" rel="noopener" href="https://github.com/cunyu1943/cs-docs">cs-docs</a>，欢迎各位 <strong>Star、Fork</strong> ~</p>
 </blockquote>
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>之前参加了由掘金社区组织的创作者训练营第二期活动，有幸见到了比如月影、工业聚、张晋涛等许多这个行业的大佬，也认识了许多技术写作的博主，可谓是一场大型网友面基会，哈哈哈 🤣. 针对大佬们的演讲和各位博主的提问，发现大家对于多平台分发这一块很感兴趣，也被这个问题困扰了许久，所以今天就来讲讲我这个小菜鸟在平常创作和发布这一块中摸索使用的一些工具总结，希望能对大家有所帮助。下面就来看看文章的主要内容，我主要会从如下几个方面来进行展开：</p>
+<h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><ul>
+<li><a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/decode-xored-array/">1720. 解码异或后的数组</a></li>
+<li>难度：简单</li>
+</ul>
+<h2 id="描述"><a href="#描述" class="headerlink" title="描述"></a>描述</h2><blockquote>
+<p>  <strong>未知</strong> 整数数组 <code>arr</code> 由 <code>n</code> 个非负整数组成。</p>
+<p>  经编码后变为长度为 <code>n - 1</code> 的另一个整数数组 <code>encoded</code> ，其中 <code>encoded[i] = arr[i] XOR arr[i + 1]</code> 。例如，<code>arr = [1,0,2,1]</code> 经编码后得到 <code>encoded = [1,2,3]</code> 。</p>
+<p>  给你编码后的数组 <code>encoded</code> 和原数组 <code>arr</code> 的第一个元素 <code>first</code>（<code>arr[0]</code>）。</p>
+<p>  请解码返回原数组 <code>arr</code> 。可以证明答案存在并且是唯一的。</p>
+<p>  <strong>示例 1：</strong></p>
+<p>  <strong>输入：</strong> encoded = [1,2,3], first = 1<br>  <strong>输出：</strong> [1,0,2,1]<br>  <strong>解释：</strong> 若 arr = [1,0,2,1] ，那么 first = 1 且 encoded = [1 XOR 0, 0 XOR 2, 2 XOR 1] = [1,2,3]</p>
+<p>  <strong>示例 2：</strong></p>
+<p>  <strong>输入：</strong> encoded = [6,2,7,3], first = 4<br>  <strong>输出：</strong> [4,2,0,7,4]</p>
+<p>  <strong>提示：</strong></p>
 <ul>
-<li><strong>编辑器</strong></li>
-<li><p><strong>思维导图</strong></p>
+<li>$2 &lt;= n &lt;= 10^4$</li>
+<li><code>encoded.length == n - 1</code></li>
+<li>0 &lt;= encoded[i] &lt;= 10<sup>5</sup></li>
+<li>0 &lt;= first &lt;= 10<sup>5</sup></li>
+</ul>
+</blockquote>
+<h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><h3 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h3><ul>
+<li><p>因为 <code>a ^ b = c</code>，<code>a ^ b ^ b = a</code>，所以得知 <code>c ^ b = a</code></p>
 </li>
-<li><p><strong>图床</strong></p>
+<li><p>观察题目，可以发现 <code>arr[0] ^ arr[1] = encode[0]</code>、<code>arr[1] ^ arr[2] = encode[1]</code>……，已知 <code>encode</code> 数组和 <code>arr[0]</code>，运用上面的式子可以知道 <code>arr[1] = arr[0] ^ encode[0]</code>、<code>arr[2] = arr[1] ^ encode[1]</code>……</p>
 </li>
-<li><strong>多平台分发</strong></li>
+<li>因为主要是遍历了一趟数组，所以时间复杂度为 <code>O(n)</code>；</li>
 </ul>
-<p>如果你对其中的某一部分比较感兴趣，那就直接跳到对应目录吧，当然你也可以看看全文，看看我的方法和你使用的方法是否相同呢 😉。</p>
-<h2 id="编辑器"><a href="#编辑器" class="headerlink" title="编辑器"></a>编辑器</h2><p>主要针对的是使用 Markdown 语法的编辑器，如果你对 Markdown 语法还不太熟悉，可以先看看我的另一篇文章：<a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s?__biz=MzIyNTg2MjkzNw==&amp;mid=2247492604&amp;idx=1&amp;sn=a8ef3fe0dc72ed18e841f00236dc01d5&amp;chksm=e87b978adf0c1e9c0b7120aee8826f15e387c5a1581456c7bb227b201c9ad2810a91ca576b2a#rd">十分钟入门 Markdown 写作</a>。</p>
-<h3 id="Typora"><a href="#Typora" class="headerlink" title="Typora"></a>Typora</h3><blockquote>
-<p>  地址：<a target="_blank" rel="noopener" href="https://www.typora.io/">https://www.typora.io/</a></p>
-</blockquote>
-<p>我愿称之为最强 Markdown 编辑器没有之一，这是一款支持 macOS、Windows、Linux 三大平台的 Markdown 编辑器，而且完全免费。简单而强大，一旦你熟悉其中的快捷键之后，你会发现比其他编辑器快很多！（个人觉得，当然你也可以有不同的意见哈 😁）不过有一个缺点就是，当前一旦文档过大，Typora 使用起来就会十分卡顿，而相同的文档在其它编辑器则不会出现这种情况。</p>
-<p>此外，Typora 支持多种主题，还能支持我们自定义主题，对于我们颜控的小伙伴来讲，那就是杀招呀！对于大多数其它编辑器支持的导出功能，它怎么能少呢，Typora 支持导出如下格式的文件：</p>
-<ul>
-<li>PDF</li>
-<li>HTML（With/Without Styles）</li>
-<li>Word</li>
-<li>OPenOffice</li>
-<li>RTF</li>
-<li>Epub</li>
-<li>LaTex</li>
-<li>Media Wiki</li>
-<li>reStructureText</li>
-<li>Textile</li>
-<li>OPML</li>
-<li>图像</li>
-</ul>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/93f5e642ec2df9f4800192fb7b634121.png" alt=""></p>
-<h3 id="MarkText"><a href="#MarkText" class="headerlink" title="MarkText"></a>MarkText</h3><blockquote>
-<p>  地址：<a target="_blank" rel="noopener" href="https://marktext.app/">https://marktext.app/</a></p>
-</blockquote>
-<p>也是一款简单优雅免费的开源 Markdown 编辑器，专注于速度和可用性，而且同样支持 macOS、Windows、Linux 三大平台。支持如下特性：</p>
-<ul>
-<li>实时预览（所见即所得）和简洁明了的界面，使您获得无干扰的写作体验。</li>
-<li>支持 CommonMark 规范和 GitHub Flavored Markdown 规范。</li>
-<li>Markdown扩展，例如数学表达式（KaTeX）、front matter 和 emoji。</li>
-<li>支持段落和内联样式快捷方式，以提高您的写作效率。</li>
-<li>导出 <strong>HTML</strong> 和 <strong>PDF</strong> 文件。</li>
-<li>各种主题：<strong>Cadmium Light</strong>、<strong>Material Dark</strong> 等等。</li>
-<li>各种编辑模式：<strong>源代码模式</strong>、<strong>打字机模式</strong>、<strong>专注模式</strong>。</li>
-<li>直接从剪贴板中粘贴图片。</li>
-</ul>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/43b55f25b35d160e46ac3c74cc046d41.png" alt=""></p>
-<h3 id="VS-Code"><a href="#VS-Code" class="headerlink" title="VS Code"></a>VS Code</h3><blockquote>
-<p>  地址：<a target="_blank" rel="noopener" href="https://code.visualstudio.com/">https://code.visualstudio.com/</a></p>
-</blockquote>
-<p>是的，VS Code 不仅仅可以作为我们的代码编辑器，我们还能把它当成 Markdown 编辑器，搭配 Markdown 增强插件，左边编辑，右边实时预览，爽歪歪！</p>
-<p>推荐插件：</p>
-<ul>
-<li>Markdown All in One</li>
-<li>Markdown Preview GitHub Styling</li>
-</ul>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/05a79ed98bd13b3a7dca992a89bbc4f6.png" alt=""></p>
-<h2 id="思维导图"><a href="#思维导图" class="headerlink" title="思维导图"></a>思维导图</h2><h3 id="Process-On"><a href="#Process-On" class="headerlink" title="Process On"></a>Process On</h3><blockquote>
-<p>  地址：<a target="_blank" rel="noopener" href="https://www.processon.com/i/5eec25bf1e08532637344b9c">https://www.processon.com/i/5eec25bf1e08532637344b9c</a></p>
-</blockquote>
-<p>免费的在线作图工具，支持实时协作，方便团队，支持多种图的制作：</p>
-<ul>
-<li>流程图</li>
-<li>思维导图</li>
-<li>原型图</li>
-<li>UML</li>
-<li>网络拓扑图</li>
-<li>组织结构图</li>
-<li>……</li>
-</ul>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/5f7d91517e741db88ea31cb08ffd6906.png" alt=""></p>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/dc4fdd7d65efdcef9ca7aff90a068965.png" alt=""></p>
-<h3 id="幕布"><a href="#幕布" class="headerlink" title="幕布"></a>幕布</h3><blockquote>
-<p>  地址：<a target="_blank" rel="noopener" href="https://mubu.com/">https://mubu.com/</a></p>
-</blockquote>
-<p>大纲式笔记工具，根据我们的大纲生成思维导图。免费账号支持 300 条多文档结点数量，支持 4 种结构、4 种风格思维导图样式，还能导出 Word、PDF、图片、HTML 等格式，完全足够我们日常个人使用。</p>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/6496690a8cbde7ed3741ad873273c64b.png" alt=""></p>
-<h3 id="GitMind"><a href="#GitMind" class="headerlink" title="GitMind"></a>GitMind</h3><blockquote>
-<p>  地址：<a target="_blank" rel="noopener" href="https://gitmind.cn/">https://gitmind.cn/</a></p>
-</blockquote>
-<p>免费在线思维导图软件，简化逻辑梳理，集思广益，释放创造力在线脑图、思维导图、流程图、工业设计、工程管理，一图涵千面。</p>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/2e110d0c638da659f2c41688a3aba490.png" alt=""></p>
-<p>我们不仅能自己编辑，还能邀请小伙伴进行团队协作。此外，支持多种模板，不仅支持在线编辑，还支持多种导出形式。</p>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/b8f96e90ed0b0295a2b27e80ea2bb083.png" alt=""></p>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/7c481ca35d6ff0e1055c51bfe3068405.png" alt=""></p>
-<h3 id="markmap"><a href="#markmap" class="headerlink" title="markmap"></a>markmap</h3><blockquote>
-<p>  地址：<a target="_blank" rel="noopener" href="https://markmap.js.org/">https://markmap.js.org/</a></p>
-</blockquote>
-<p>上面的工具都是直接图像化工具，和我们的 Markdown 工具无关。而今天这个工具，将两者结合起来，利用 Markdown 来画思维导图。markmap 将 Markdown 语法的文本通过思维导图的方式进行可视化，我们即可以使用在线版，也可以使用它在 VS Code 中的插件版，十分方便，而且支持导出 SVG 和 HTML，可以说是十分方便了！</p>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/4c69fd55e7e1032d866093822ac75db0.png" alt=""></p>
-<h2 id="图床"><a href="#图床" class="headerlink" title="图床"></a>图床</h2><h3 id="Github"><a href="#Github" class="headerlink" title="Github"></a>Github</h3><blockquote>
-<p>  地址：<a target="_blank" rel="noopener" href="http://github.com/">http://github.com/</a></p>
-</blockquote>
-<p>是的，你没有看错，就是万能的 GitHub，我们不仅仅可以从这里找到开源的项目、软件、教程等，你还能把它当成你自己的免费图床。关于具体的搭建过程，可以参考以下我之前的一篇文章：<a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s?__biz=MzIyNTg2MjkzNw==&amp;mid=2247492657&amp;idx=1&amp;sn=4420ebc879c2013ee564b832f6615d10&amp;chksm=e87b9047df0c195109f063d5118bbbd01d72469857965360a7cca5951871a7f1fcb470328016#rd">如何利用 GitHub 搭建自己的免费图床？</a></p>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/9df4c097a6f575d570c34e7d68130eeb.png" alt=""></p>
-<h3 id="Gitee"><a href="#Gitee" class="headerlink" title="Gitee"></a>Gitee</h3><blockquote>
-<p>  地址：<a target="_blank" rel="noopener" href="http://gitee.com/">http://gitee.com/</a></p>
-</blockquote>
-<p>既然 GitHub 可以用来搭建图床，那我们的国内的 Gitee 也必须可以呀，而且相对 GitHub 来讲访问的速度更快，岂不是美哉。具体的搭建过程可以参考我之前的一篇文章：<a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s?__biz=MzIyNTg2MjkzNw==&amp;mid=2247492731&amp;idx=1&amp;sn=3cef56ad4ce5ec462c6233381af2799c&amp;chksm=e87b900ddf0c191bad9d126b0c7e1cc43e1b481f2ad6224f5ac5d3f4edee25fe6d4281f9edbb#rd">Gitee + Typora，搭建自己的免费图床！</a></p>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/90a698a4707f5d0a0b0c3a81e79df8b3.png" alt=""></p>
-<h3 id="SM-MS"><a href="#SM-MS" class="headerlink" title="SM.MS"></a>SM.MS</h3><blockquote>
-<p>  地址：<a target="_blank" rel="noopener" href="https://sm.ms/">https://sm.ms/</a></p>
-</blockquote>
-<p>提供免费图床，而且每个账户有 5 GB 的免费空间，方便我们自己管理，作为我们日常使用完全足够了。</p>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/9347fd7fa0b1edb839c22c80f3f9e1f9.png" alt=""></p>
-<h3 id="路过图床"><a href="#路过图床" class="headerlink" title="路过图床"></a>路过图床</h3><blockquote>
-<p>  地址：<a target="_blank" rel="noopener" href="https://imgtu.com/">https://imgtu.com/</a></p>
-</blockquote>
-<p>路过图床，这是一款高速稳定的上传和外链服务的图床，支持全球 CDN 加速、支持外链、原图保持，而且最大单张支持 10 MB。至于它的稳定性，相信你也不用担心，它已经从 2011 运行至今 10 年的历程，截至到发文前托管了 16151781 张图片，还在犹豫什么，用起来就完事儿了！</p>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/b26f1bd57b635e0a1102f3e0b4016320.png" alt=""></p>
-<h2 id="多平台分发"><a href="#多平台分发" class="headerlink" title="多平台分发"></a>多平台分发</h2><h3 id="OpenWrite"><a href="#OpenWrite" class="headerlink" title="OpenWrite"></a>OpenWrite</h3><blockquote>
-<p>  地址：<a target="_blank" rel="noopener" href="https://openwrite.cn/">https://openwrite.cn/</a></p>
-</blockquote>
-<p>主要提供群发功能、博客导流公众号等功能，此外还支持导出 Markdown 导微信公众号、多平台免费图床配置等，不过普通用户每月仅支持 10 次免费群发机会，其他功能则需要会员。</p>
-<p>普通用户和会员的功能对比：</p>
-<div class="table-container">
-<table>
-<thead>
-<tr>
-<th style="text-align:left">特权</th>
-<th style="text-align:left">会员用户</th>
-<th style="text-align:left">普通用户</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">VIP 客服群，1 对 1 解答</td>
-<td style="text-align:left"><strong>支持</strong></td>
-<td style="text-align:left">不支持</td>
-</tr>
-<tr>
-<td style="text-align:left">无限渠道数量</td>
-<td style="text-align:left">支持</td>
-<td style="text-align:left">支持</td>
-</tr>
-<tr>
-<td style="text-align:left">文章免费图床</td>
-<td style="text-align:left">支持</td>
-<td style="text-align:left">支持</td>
-</tr>
-<tr>
-<td style="text-align:left">文章扩散次数</td>
-<td style="text-align:left"><strong>无限制</strong></td>
-<td style="text-align:left">10 次/月</td>
-</tr>
-<tr>
-<td style="text-align:left">文章定时扩散</td>
-<td style="text-align:left"><strong>支持</strong></td>
-<td style="text-align:left">不支持</td>
-</tr>
-<tr>
-<td style="text-align:left">文章群删</td>
-<td style="text-align:left"><strong>支持</strong></td>
-<td style="text-align:left">不支持</td>
-</tr>
-<tr>
-<td style="text-align:left">文章自定义图床</td>
-<td style="text-align:left"><strong>支持</strong></td>
-<td style="text-align:left">不支持</td>
-</tr>
-<tr>
-<td style="text-align:left">文章数据统计分析</td>
-<td style="text-align:left"><strong>支持</strong></td>
-<td style="text-align:left">不支持</td>
-</tr>
-<tr>
-<td style="text-align:left">文章不同渠道自定义底部信息</td>
-<td style="text-align:left"><strong>支持</strong></td>
-<td style="text-align:left">不支持</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p>当前支持的渠道：</p>
-<ul>
-<li>思否</li>
-<li>CSDN</li>
-<li>掘金</li>
-<li>简书</li>
-<li>知乎</li>
-<li>开源中国</li>
-<li>Spring4All</li>
-<li>今日头条</li>
-<li>慕课手记</li>
-<li>微博</li>
-<li>百家号</li>
-</ul>
-<p>支持的图床：</p>
-<ul>
-<li><p>默认：OW 的免费七牛云，宽高限制在 800 px * 800 px，超出限制将缩放</p>
-</li>
-<li><p>七牛云</p>
-</li>
-<li>阿里云</li>
-</ul>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/166a1a14756f06a2d7f5ce454f619b18.png" alt="渠道管理"></p>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/4899edb48d76b22bdad0cf5e17315bc5.png" alt="文章管理"></p>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/e9f134196a0b63cc749fe1925eb7ff15.png" alt="图床配置"></p>
-<h3 id="ArtiPub"><a href="#ArtiPub" class="headerlink" title="ArtiPub"></a>ArtiPub</h3><blockquote>
-<p>  地址：<a target="_blank" rel="noopener" href="https://github.com/crawlab-team/artipub">https://github.com/crawlab-team/artipub</a></p>
-</blockquote>
-<p>ArtiPub (Article Publisher 的简称，意为 “文章发布者”) 是一款开源的一文多发平台，目前支持文章编辑、文章发布、数据统计的功能。此外，ArtiPub 安装简单，提供了多种安装方式，可以一键安装使用，安装一般只要 5 分钟。</p>
-<p>目前支持如下平台：</p>
-<ul>
-<li>掘金</li>
-<li>SegmentFault</li>
-<li>CSDN</li>
-<li>简书</li>
-<li>知乎</li>
-<li>开源中国</li>
-<li>今日头条</li>
-<li>博客园</li>
-<li>百度百家号</li>
-<li>51CTO</li>
-<li>开发者头条</li>
-<li>微信公众号</li>
-</ul>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/858f33946ecbb1446983154fc4cb3c6f.png" alt="登陆注册"></p>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/a5d533cd3c854c6f1b73b952543d240f.png" alt="平台管理"></p>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/9e310e1b7ef6aa3eed5e75fcf6cef1a1.png" alt="文章管理"></p>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/3a7830643aca031b5809fcd9324d2303.png" alt="文章编辑"></p>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/6af374723b950d11ad06f966c4b44e54.png" alt="文章发布"></p>
-<h3 id="BlogHelper"><a href="#BlogHelper" class="headerlink" title="BlogHelper"></a>BlogHelper</h3><blockquote>
-<p>  地址：<a target="_blank" rel="noopener" href="https://github.com/onblog/BlogHelper">https://github.com/onblog/BlogHelper</a></p>
-</blockquote>
-<p>这是一款没有界面只存在于系统托盘的小助手，而且完全免费。</p>
-<p>通过它，我们可以将我们本地写好的文章分发到国内技术主流平台。此外，软件还支持多个图床，无论你是使用免费的图床还是自己搭建的图床，相信该软件总有适合你的一个图床吧。</p>
-<ol>
-<li>支持的平台<ul>
-<li>知乎</li>
-<li>掘金</li>
-<li>简书</li>
-<li>思否</li>
-<li>CSDN</li>
-<li>博客园</li>
-<li>开源中国</li>
-</ul>
-</li>
-<li>支持的图床<ul>
-<li>新浪</li>
-<li>七牛云</li>
-<li>又拍云</li>
-<li>阿里云</li>
-<li>腾讯云</li>
-<li>SM.MS</li>
-<li>GitHub</li>
-<li>ImgUR</li>
-</ul>
-</li>
-</ol>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/9f662f4455952462aca4894af58457d1.png" alt="图床管理"></p>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/a2e945b1b3ef1a3a9eccd3c7be36f7eb.png" alt="平台管理"></p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>工具虽多，但不要贪杯哦，哈哈哈。以上也算是介绍了 10 多款用于不同功能的软件了，他们可能都不是很完美，但也都有着自己各自的特点，我们可以结合自己的需要来进行选择他们其中的一款或多款软件搭配使用，不过这都取决于你自己的喜好了。</p>
-<p>好了，今天的文章就到此结束了。如果本文对你也有所帮助，那就点个赞吧！</p>
-<p>当然，如果你有更好的工具推荐，也欢迎在评论区留言交流 ~</p>
+<h3 id="实现"><a href="#实现" class="headerlink" title="实现"></a>实现</h3><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">class</span> <span class="token class-name">Solution</span> <span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token function">decode</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> encoded<span class="token punctuation">,</span> <span class="token keyword">int</span> first<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token comment">// 编码前的数组</span>
+        <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> result <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token keyword">int</span><span class="token punctuation">[</span>encoded<span class="token punctuation">.</span>length <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+        <span class="token comment">// 编码前数组的第一个元素</span>
+        result<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">=</span> first<span class="token punctuation">;</span>
+        <span class="token comment">// result[i] ^ result[i + 1] = encode[i]，反过来 result[i + 1] = encode[i] ^ result[i]</span>
+        <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> result<span class="token punctuation">.</span>length <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            result<span class="token punctuation">[</span>i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> result<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">^</span> encoded<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">return</span> result<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <blockquote>
 <p>  建议关注公众号 「<strong>村雨遥</strong>」，最新干货文章不容错过 ~</p>
 </blockquote>
@@ -950,7 +741,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://cunyu1943.site/posts/53549ae6/">http://cunyu1943.site/posts/53549ae6/</a>
+                    <a href="http://cunyu1943.site/posts/8955af0c/">http://cunyu1943.site/posts/8955af0c/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -988,8 +779,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E5%B7%A5%E5%85%B7/">
-                                    <span class="chip bg-color">工具</span>
+                                <a href="/tags/LeetCode/">
+                                    <span class="chip bg-color">LeetCode</span>
+                                </a>
+                            
+                                <a href="/tags/%E4%BD%8D%E8%BF%90%E7%AE%97/">
+                                    <span class="chip bg-color">位运算</span>
                                 </a>
                             
                         </div>
@@ -1160,7 +955,7 @@
         repo: 'cunyu1943.github.io',
         owner: 'cunyu1943',
         admin: "cunyu1943",
-        id: '2021-05-04T11-08-57',
+        id: '2021-05-06T22-03-01',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -1454,17 +1249,18 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/posts/3e435af2/">
+                <a href="/posts/8955af0c/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="【Java 从入坑到放弃】JDBC 编程指北">
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="【LeetCode】1720. 解码异或后的数组">
                         
-                        <span class="card-title">【Java 从入坑到放弃】JDBC 编程指北</span>
+                        <span class="card-title">【LeetCode】1720. 解码异或后的数组</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1474,30 +1270,31 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-05-04
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-05-06
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Java-%E4%BF%AE%E7%82%BC%E4%B9%8B%E8%B7%AF/" class="post-category">
-                                    Java 修炼之路
+                            <a href="/categories/Online-Judge/" class="post-category">
+                                    Online Judge
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Java/">
-                        <span class="chip bg-color">Java</span>
+                    <a href="/tags/LeetCode/">
+                        <span class="chip bg-color">LeetCode</span>
                     </a>
                     
-                    <a href="/tags/JDBC/">
-                        <span class="chip bg-color">JDBC</span>
+                    <a href="/tags/%E4%BD%8D%E8%BF%90%E7%AE%97/">
+                        <span class="chip bg-color">位运算</span>
                     </a>
                     
                 </div>
@@ -1511,13 +1308,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/posts/16cb7ba0/">
+                <a href="/posts/14fc53a7/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="【效率为王】超详细 Halo 博客搭建教程">
+                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="【剑指 Offer】03. 数组中重复的数字">
                         
-                        <span class="card-title">【效率为王】超详细 Halo 博客搭建教程</span>
+                        <span class="card-title">【剑指 Offer】03. 数组中重复的数字</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1534,8 +1331,8 @@
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E6%95%88%E7%8E%87%E4%B8%BA%E7%8E%8B/" class="post-category">
-                                    效率为王
+                            <a href="/categories/Online-Judge/" class="post-category">
+                                    Online Judge
                                 </a>
                             
                             
@@ -1545,12 +1342,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E6%95%99%E7%A8%8B/">
-                        <span class="chip bg-color">教程</span>
-                    </a>
-                    
-                    <a href="/tags/%E5%8D%9A%E5%AE%A2/">
-                        <span class="chip bg-color">博客</span>
+                    <a href="/tags/%E5%89%91%E6%8C%87-Offer/">
+                        <span class="chip bg-color">剑指 Offer</span>
                     </a>
                     
                 </div>
