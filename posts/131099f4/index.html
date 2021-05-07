@@ -682,15 +682,15 @@
 </ol>
 <h4 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h4><p>安装成功后，将 git 与 GitHub 账号绑定，右键打开 Git Bash，然后设置配置信息：</p>
 <p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/imgimage-gitbash.png" alt=""></p>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell"># 配置用户名和邮箱
-git config --global user.name "github 用户名"
-git config --global user.email "github 注册邮箱"<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell"><span class="token comment"># 配置用户名和邮箱</span>
+<span class="token function">git</span> config --global user.name <span class="token string">"github 用户名"</span>
+<span class="token function">git</span> config --global user.email <span class="token string">"github 注册邮箱"</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 <p>比如我的配置就是：</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java">git config <span class="token operator">--</span>global user<span class="token punctuation">.</span>name <span class="token string">"cunyu1943"</span>
 git config <span class="token operator">--</span>global user<span class="token punctuation">.</span>email <span class="token string">"747731461@qq.com"</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 <p>接着生成 ssh 密钥文件，输入如下命令后直接三次回车即可，一般不需要设置密码；</p>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell"># 生成 ssh 密钥
-ssh-keygen -t rsa -C "github 注册邮箱"<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell"><span class="token comment"># 生成 ssh 密钥</span>
+ssh-keygen -t rsa -C <span class="token string">"github 注册邮箱"</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 <p>我生成秘钥的命令：</p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">ssh-keygen -t rsa -C <span class="token string">"747731461@qq.com"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/imgimage-ssh.png" alt=""></p>
@@ -720,11 +720,23 @@ ssh-keygen -t rsa -C "github 注册邮箱"<span aria-hidden="true" class="line-n
 <ol>
 <li>初始化后，目录结构如下；</li>
 </ol>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">.├── _config.yml <span class="token comment"># 网站配置信息├── package.json # 应用程序信息├── scaffolds # 模板文件夹├── source # 存放用户资源|   ├── _drafts|   └── _posts└── themes # 主题文件夹</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell"><span class="token builtin class-name">.</span>
+├── _config.yml <span class="token comment"># 网站配置信息</span>
+├── package.json <span class="token comment"># 应用程序信息</span>
+├── scaffolds <span class="token comment"># 模板文件夹</span>
+├── <span class="token builtin class-name">source</span> <span class="token comment"># 存放用户资源</span>
+<span class="token operator">|</span>   ├── _drafts
+<span class="token operator">|</span>   └── _posts
+└── themes <span class="token comment"># 主题文件夹</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <ol>
 <li>然后输入如下命令，然后在浏览器中打开 <code>http://localhost:4000</code>；</li>
 </ol>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell"><span class="token comment"># 新建博客hexo new "博客名"# 生成静态网页hexo g# 打开本地服务器hexo s</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell"><span class="token comment"># 新建博客</span>
+hexo new <span class="token string">"博客名"</span>
+<span class="token comment"># 生成静态网页</span>
+hexo g
+<span class="token comment"># 打开本地服务器</span>
+hexo s<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <p>然后就可以看到如下的界面，不过我的是经过修改过的，所以和你的会不一样。</p>
 <p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9baa05737cd04d409192fb3583c36bc3~tplv-k3u1fbpfcp-zoom-1.image" alt=""></p>
 <h3 id="Github-个人仓库"><a href="#Github-个人仓库" class="headerlink" title="Github 个人仓库"></a>Github 个人仓库</h3><p>完成上面的步骤之后，我们就能在本地进行预览了，不过我们如果想要发布到网上供别人看的话，那就得利用 Github Pages 的功能了，下边就来介绍如何结合 Hexo + Github Pages ，将我们的博客推送到网上去，方便大家在任何地方访问！</p>
@@ -748,7 +760,9 @@ ssh-keygen -t rsa -C "github 注册邮箱"<span aria-hidden="true" class="line-n
 <p>  <a target="_blank" rel="noopener" href="https://用户名.github.io">https://用户名.github.io</a></p>
 </blockquote>
 <p>比如我的博客 <a target="_blank" rel="noopener" href="https://cunyu1943.github.io/">村雨遥的博客</a>；</p>
-<pre class="line-numbers language-none"><code class="language-none">hexo cleanhexo ghexo d<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="line-numbers language-none"><code class="language-none">hexo clean
+hexo g
+hexo d<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 <p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/blog/image-20210507090419341.png" alt=""></p>
 <h3 id="Gitee-个人仓库"><a href="#Gitee-个人仓库" class="headerlink" title="Gitee 个人仓库"></a>Gitee 个人仓库</h3><p>上面说完部署到 Github，接下来就说说怎么部署到 Gitee，老规矩，首先你得需要一个 Gitee 账号，如果没有的，出门 <a target="_blank" rel="noopener" href="https://gitee.com/">右转</a> 先去注册个账号。</p>
 <p>然后新建一个仓库，同样有几点需要注意的：</p>
@@ -784,13 +798,15 @@ ssh-keygen -t rsa -C "github 注册邮箱"<span aria-hidden="true" class="line-n
 <ol>
 <li>接着在控制台使用如下命令，将其推送到远程 GitHub 仓库，等过一会儿之后，访问即可看到刚才推送的新文章了！</li>
 </ol>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">hexo ghexo d<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">hexo g
+hexo d<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 <p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/blog/20210507091400.png" alt=""></p>
 <h2 id="如何绑定自定义域名"><a href="#如何绑定自定义域名" class="headerlink" title="如何绑定自定义域名"></a>如何绑定自定义域名</h2><p>通过 <code>用户名.github.io</code> 的方式来访问总归是有些不方便，如果我们需要自己的个性域名，又应该如何设置呢？那么在此之前，你需要有一个已经备案好的域名，如果没有的话，请到阿里云、腾讯云等场商购买自己的域名，然后通过该平台备案，然后添加两条解析记录，以我的腾讯云为例：</p>
 <p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/blog/20210507092325.png" alt=""></p>
 <p>备好案并设置解析之后，在 Github 的博客项目中，依次点击 <code>Settings-&gt;Pages</code>，然后在 <code>Custom domain</code> 添加你的域名即可，最后 <code>Save</code> 即可，此时你的博客根目录下应该会多一个 <code>CNAME</code> 的文件，然后你就可以通过自己的域名来访问你的博客了。</p>
 <p>当然，有时候可能经过上面的设置后，博客根目录下不会出现名为 <code>CNAME</code> 的文件，如果没有，我们可以通过在本地博客 <code>/source</code> 目录下手动建立一个 <code>CNAME</code> 文件（无后缀），然后把你的域名填进去并保存，最后依次执行如下命令将设置上传到  Github 即可 ~</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">hexo ghexo d<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">hexo g
+hexo d<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 <p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/blog/20210507092800.png" alt=""></p>
 <p>比如我的域名为 <code>cunyu1943.site</code>，通过设置之后，我们就可以通过 <a href="https://cunyu1943.site">https://cunyu1943.site</a> 来访问我的博客了。</p>
 <p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/blog/20210507091719.png" alt=""></p>
