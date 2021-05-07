@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="【Java 从入坑到放弃】No 4. 操作符, Java 公众号：村雨遥 LeetCode">
+    <meta name="keywords" content="【效率为王】超详细 Hexo + Github Pages 博客搭建教程, Java 公众号：村雨遥 LeetCode">
     <meta name="description" content="吾生也有涯，而知也无涯。">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>【Java 从入坑到放弃】No 4. 操作符 | 村雨遥的博客</title>
+    <title>【效率为王】超详细 Hexo + Github Pages 博客搭建教程 | 村雨遥的博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -479,7 +479,7 @@
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">【Java 从入坑到放弃】No 4. 操作符</h1>
+                    <h1 class="description center-align post-title">【效率为王】超详细 Hexo + Github Pages 博客搭建教程</h1>
                 </div>
             </div>
         </div>
@@ -595,8 +595,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Java/">
-                                <span class="chip bg-color">Java</span>
+                            <a href="/tags/%E6%95%99%E7%A8%8B/">
+                                <span class="chip bg-color">教程</span>
+                            </a>
+                        
+                            <a href="/tags/%E5%8D%9A%E5%AE%A2/">
+                                <span class="chip bg-color">博客</span>
                             </a>
                         
                     </div>
@@ -607,8 +611,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Java-%E4%BF%AE%E7%82%BC%E4%B9%8B%E8%B7%AF/" class="post-category">
-                                Java 修炼之路
+                            <a href="/categories/%E6%95%88%E7%8E%87%E4%B8%BA%E7%8E%8B/" class="post-category">
+                                效率为王
                             </a>
                         
                     </div>
@@ -620,28 +624,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-05-03
+                    2021-05-07
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-05-03
+                    2021-05-07
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    2.4k
+                    2.9k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    9 分
+                    10 分
                 </div>
                 
 
@@ -667,419 +671,135 @@
                 <blockquote>
 <p>  <strong>本文已收录至个人 Github仓库</strong>：<a target="_blank" rel="noopener" href="https://github.com/cunyu1943/cs-docs">cs-docs</a>，欢迎各位 <strong>Star、Fork</strong> ~</p>
 </blockquote>
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s?__biz=MzIyNTg2MjkzNw==&amp;mid=2247493124&amp;idx=1&amp;sn=4290091f2c5beb706f7ad98a465df3ea&amp;chksm=e87b9272df0c1b64ef67cda2c9fed9c1e2328d48b6bf7ac13cb6471b9f315934d81d74c1a3e5#rd">上一篇文章</a> 中介绍了 Java 变量和数据类型，那么如何对他们进行运行算呢？这一节就来看看 Java 中的运算！</p>
-<p>本文主要内容：</p>
-<ul>
-<li><strong>算术运算符</strong></li>
-<li><strong>关系运算符</strong></li>
-<li><strong>位运算符</strong></li>
-<li><strong>逻辑运算符</strong></li>
-<li><strong>赋值运算符</strong></li>
-<li><strong>条件运算符</strong></li>
-</ul>
-<p>好了，话不多说，开始正式内容吧！</p>
-<h2 id="算术运算符"><a href="#算术运算符" class="headerlink" title="算术运算符"></a>算术运算符</h2><p>常见的算术运算符主要有下表中的几种，主要是针对整型和浮点类型的运算。</p>
-<div class="table-container">
-<table>
-<thead>
-<tr>
-<th style="text-align:left">操作符</th>
-<th style="text-align:left">描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"><code>+</code></td>
-<td style="text-align:left">加法 - 相加运算符两侧的值</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>-</code></td>
-<td style="text-align:left">减法 - 左操作数减去右操作数</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>*</code></td>
-<td style="text-align:left">乘法 - 相乘操作符两侧的值</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>/</code></td>
-<td style="text-align:left">除法 - 左操作数除以右操作数</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>％</code></td>
-<td style="text-align:left">取余 - 左操作数除以右操作数的余数</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>++</code></td>
-<td style="text-align:left">自增: 操作数的值增加1</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>--</code></td>
-<td style="text-align:left">自减: 操作数的值减少1</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p><strong>注意</strong>：<code>++</code> 和 <code>--</code> 可以放在操作数之前，也可以放在操作数之后；<strong>位于操作数之前时，先自增/减，再赋值；位于操作数之后，先赋值，再自增/减</strong>；总结起来就是 <strong>符号在前就先加/减，符号在后就后加/减</strong>。</p>
-<p>以下是部分算术运算符的示例以及运行结果：</p>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">/**
- * @author : cunyu
- * @version : 1.0
- * @className : Main
- * @date : 2021/4/15 9:43
- * @description : 算术运算符演示
- */</span>
-
-<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Main</span> <span class="token punctuation">{</span>
-    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">int</span> num1 <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span>
-        <span class="token keyword">int</span> num2 <span class="token operator">=</span> <span class="token number">20</span><span class="token punctuation">;</span>
-        <span class="token keyword">int</span> num3 <span class="token operator">=</span> <span class="token number">30</span><span class="token punctuation">;</span>
-        <span class="token keyword">int</span> num4 <span class="token operator">=</span> <span class="token number">40</span><span class="token punctuation">;</span>
-
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"num1 + num2 = "</span> <span class="token operator">+</span> <span class="token punctuation">(</span>num1 <span class="token operator">+</span> num2<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"num1 - num2 = "</span> <span class="token operator">+</span> <span class="token punctuation">(</span>num1 <span class="token operator">-</span> num2<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"num1 * num2 = "</span> <span class="token operator">+</span> <span class="token punctuation">(</span>num1 <span class="token operator">*</span> num2<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"num2 / num1 = "</span> <span class="token operator">+</span> <span class="token punctuation">(</span>num2 <span class="token operator">/</span> num1<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"num2 % num1 = "</span> <span class="token operator">+</span> <span class="token punctuation">(</span>num2 <span class="token operator">%</span> num1<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"num3 % num1 = "</span> <span class="token operator">+</span> <span class="token punctuation">(</span>num3 <span class="token operator">%</span> num1<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"num1++   = "</span> <span class="token operator">+</span> <span class="token punctuation">(</span>num1<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"num1--   = "</span> <span class="token operator">+</span> <span class="token punctuation">(</span>num1<span class="token operator">--</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token comment">// 查看 ++ 在操作数前后位置时结果的不同</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"num4++   = "</span> <span class="token operator">+</span> <span class="token punctuation">(</span>num4<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"++num4   = "</span> <span class="token operator">+</span> <span class="token punctuation">(</span><span class="token operator">++</span>num4<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/3626246f49b35364868db82aa3a1f8f4.png" alt=""></p>
-<h2 id="关系运算符"><a href="#关系运算符" class="headerlink" title="关系运算符"></a>关系运算符</h2><p>关系运算符主要是指两个数据间的关系，两者之间的比较结果用逻辑值来表示，常用来比较判断两个变量或常量的大小。常见的关系运算符及含义如下表：</p>
-<div class="table-container">
-<table>
-<thead>
-<tr>
-<th style="text-align:left">运算符</th>
-<th style="text-align:left">描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"><code>==</code></td>
-<td style="text-align:left">检查如果两个操作数的值是否相等，如果相等则条件为真</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>!=</code></td>
-<td style="text-align:left">检查如果两个操作数的值是否相等，如果值不相等则条件为真</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>&gt;</code></td>
-<td style="text-align:left">检查左操作数的值是否大于右操作数的值，如果是那么条件为真</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>&lt;</code></td>
-<td style="text-align:left">检查左操作数的值是否小于右操作数的值，如果是那么条件为真</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>&gt;=</code></td>
-<td style="text-align:left">检查左操作数的值是否大于或等于右操作数的值，如果是那么条件为真</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>&lt;=</code></td>
-<td style="text-align:left">检查左操作数的值是否小于或等于右操作数的值，如果是那么条件为真</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p>以下是部分关系运算符的示例以及运行结果：</p>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">/**
- * @author : cunyu
- * @version : 1.0
- * @className : Main
- * @date : 2021/4/15 9:45
- * @description : 关系运算符
- */</span>
-
-<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Main</span> <span class="token punctuation">{</span>
-    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">int</span> num1 <span class="token operator">=</span> <span class="token number">100</span><span class="token punctuation">;</span>
-        <span class="token keyword">int</span> num2 <span class="token operator">=</span> <span class="token number">220</span><span class="token punctuation">;</span>
-
-
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"num1 == num2 = "</span> <span class="token operator">+</span> <span class="token punctuation">(</span>num1 <span class="token operator">==</span> num2<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"num1 != num2 = "</span> <span class="token operator">+</span> <span class="token punctuation">(</span>num1 <span class="token operator">!=</span> num2<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"num1 &gt; num2 = "</span> <span class="token operator">+</span> <span class="token punctuation">(</span>num1 <span class="token operator">&gt;</span> num2<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"num2 &lt; num1 = "</span> <span class="token operator">+</span> <span class="token punctuation">(</span>num2 <span class="token operator">&lt;</span> num1<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"num2 &lt;= num1 = "</span> <span class="token operator">+</span> <span class="token punctuation">(</span>num2 <span class="token operator">&lt;=</span> num1<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"num2 &gt;= num1 = "</span> <span class="token operator">+</span> <span class="token punctuation">(</span>num2 <span class="token operator">&gt;=</span> num1<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/6145a306c72c0f0be11d984aa7097b6e.png" alt=""></p>
-<h2 id="位运算符"><a href="#位运算符" class="headerlink" title="位运算符"></a>位运算符</h2><p>位运算符主要用来对操作数二进制的位进行运算，其运算结果是整型的。常见的位运算符及功能描述如下表所示：</p>
-<div class="table-container">
-<table>
-<thead>
-<tr>
-<th>操作符</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>＆</code></td>
-<td>如果相对应位都是 1，则结果为 1，否则为 0</td>
-</tr>
-<tr>
-<td>`</td>
-<td>`</td>
-<td>如果相对应位都是 0，则结果为 0，否则为 1</td>
-</tr>
-<tr>
-<td><code>^</code></td>
-<td>如果相对应位值相同，则结果为 0，否则为 1</td>
-</tr>
-<tr>
-<td><code>〜</code></td>
-<td>按位取反运算符翻转操作数的每一位，即 0 变成 1，1 变成 0</td>
-</tr>
-<tr>
-<td><code>&lt;&lt;</code></td>
-<td>按位左移运算符。左操作数按位左移右操作数指定的位数</td>
-</tr>
-<tr>
-<td><code>&gt;&gt;</code></td>
-<td>按位右移运算符。左操作数按位右移右操作数指定的位数</td>
-</tr>
-<tr>
-<td><code>&gt;&gt;&gt;</code></td>
-<td>按位右移补零操作符。左操作数的值按右操作数指定的位数右移，移动得到的空位以零填充</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p>以下是部分位运算符的示例以及运行结果：</p>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">/**
- * @author : cunyu
- * @version : 1.0
- * @className : Main
- * @date : 2021/4/15 10:02
- * @description : 位运算符
- */</span>
-
-<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Main</span> <span class="token punctuation">{</span>
-    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">int</span> num1 <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span>
-        <span class="token keyword">int</span> num2 <span class="token operator">=</span> <span class="token number">20</span><span class="token punctuation">;</span>
-
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"num1 &amp; num2 = "</span> <span class="token operator">+</span> <span class="token punctuation">(</span>num1 <span class="token operator">&amp;</span> num2<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"num1 | num2 = "</span> <span class="token operator">+</span> <span class="token punctuation">(</span>num1 <span class="token operator">|</span> num2<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"num1 ^ num2 = "</span> <span class="token operator">+</span> <span class="token punctuation">(</span>num1 <span class="token operator">^</span> num2<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"~ num2 = "</span> <span class="token operator">+</span> <span class="token punctuation">(</span><span class="token operator">~</span>num2<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"num1 &lt;&lt; 2 = "</span> <span class="token operator">+</span> <span class="token punctuation">(</span>num1 <span class="token operator">&lt;&lt;</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"num1 &gt;&gt; 2 = "</span> <span class="token operator">+</span> <span class="token punctuation">(</span>num1 <span class="token operator">&gt;&gt;</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"num1 &gt;&gt;&gt; 2 = "</span> <span class="token operator">+</span> <span class="token punctuation">(</span>num1 <span class="token operator">&gt;&gt;&gt;</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/272fa3f4b8a300fc2385824fcd477b55.png" alt=""></p>
-<h2 id="逻辑运算符"><a href="#逻辑运算符" class="headerlink" title="逻辑运算符"></a>逻辑运算符</h2><p>逻辑运算符通过将关系表达式连接起来，从而组成一个复杂的逻辑表达式，从而判断程序中的表达式是否成立，其结果返回 <code>true</code> 或 <code>false</code>。</p>
-<div class="table-container">
-<table>
-<thead>
-<tr>
-<th style="text-align:left">操作符</th>
-<th style="text-align:left">描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"><code>&amp;&amp;</code></td>
-<td style="text-align:left">称为逻辑与运算符。当且仅当两个操作数都为真，条件才为真</td>
-</tr>
-<tr>
-<td style="text-align:left">`</td>
-<td style="text-align:left"></td>
-<td>`</td>
-<td>称为逻辑或操作符。如果任何两个操作数任何一个为真，条件为真</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>!</code></td>
-<td style="text-align:left">称为逻辑非运算符。用来反转操作数的逻辑状态。如果条件为 <code>true</code>，则逻辑非运算符将得到 <code>false</code></td>
-</tr>
-</tbody>
-</table>
-</div>
-<p>以下是逻辑运算符的示例以及运行结果：</p>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">/**
- * @author : cunyu
- * @version : 1.0
- * @className : Main
- * @date : 2021/4/15 10:07
- * @description : 逻辑运算符
- */</span>
-
-<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Main</span> <span class="token punctuation">{</span>
-    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">boolean</span> positive <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
-        <span class="token keyword">boolean</span> negative <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
-
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"positive &amp;&amp; negative = "</span> <span class="token operator">+</span> <span class="token punctuation">(</span>positive <span class="token operator">&amp;&amp;</span> negative<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"positive || negative = "</span> <span class="token operator">+</span> <span class="token punctuation">(</span>positive <span class="token operator">||</span> negative<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"!(positive || negative) = "</span> <span class="token operator">+</span> <span class="token operator">!</span><span class="token punctuation">(</span>positive <span class="token operator">||</span> negative<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/edf27acad058b26488e9e728b4d1ec73.png" alt=""></p>
-<h2 id="赋值运算符"><a href="#赋值运算符" class="headerlink" title="赋值运算符"></a>赋值运算符</h2><p>赋值运算符表示一个动作，将其右侧的值送到左侧的变量中。常见的赋值运算符及含义如下表所示：</p>
-<div class="table-container">
-<table>
-<thead>
-<tr>
-<th style="text-align:left">操作符</th>
-<th style="text-align:left">描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"><code>=</code></td>
-<td style="text-align:left">简单的赋值运算符，将右操作数的值赋给左侧操作数</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>+=</code></td>
-<td style="text-align:left">加和赋值操作符，它把左操作数和右操作数相加赋值给左操作数</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>-=</code></td>
-<td style="text-align:left">减和赋值操作符，它把左操作数和右操作数相减赋值给左操作数</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>*=</code></td>
-<td style="text-align:left">乘和赋值操作符，它把左操作数和右操作数相乘赋值给左操作数</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>/=</code></td>
-<td style="text-align:left">除和赋值操作符，它把左操作数和右操作数相除赋值给左操作数</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>％=</code></td>
-<td style="text-align:left">取模和赋值操作符，它把左操作数和右操作数取模后赋值给左操作数</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>&lt;&lt; =</code></td>
-<td style="text-align:left">左移位赋值运算符</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>&gt;&gt;=</code></td>
-<td style="text-align:left">右移位赋值运算符</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>＆=</code></td>
-<td style="text-align:left">按位与赋值运算符</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>^=</code></td>
-<td style="text-align:left">按位异或赋值操作符</td>
-</tr>
-<tr>
-<td style="text-align:left">`</td>
-<td style="text-align:left">=`</td>
-<td>按位或赋值操作符</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p>以下是部分赋值运算符的示例以及运行结果：</p>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">/**
- * @author : cunyu
- * @version : 1.0
- * @className : Main
- * @date : 2021/4/15 10:13
- * @description : 赋值运算符
- */</span>
-
-<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Main</span> <span class="token punctuation">{</span>
-    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">int</span> num1 <span class="token operator">=</span> <span class="token number">100</span><span class="token punctuation">;</span>
-        <span class="token keyword">int</span> num2 <span class="token operator">=</span> <span class="token number">1000</span><span class="token punctuation">;</span>
-
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"num1 + num2 = "</span> <span class="token operator">+</span> <span class="token punctuation">(</span>num1 <span class="token operator">+</span> num2<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"num1 += num2 = "</span> <span class="token operator">+</span> <span class="token punctuation">(</span>num1 <span class="token operator">+=</span> num2<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"num1 - num2 = "</span> <span class="token operator">+</span> <span class="token punctuation">(</span>num1 <span class="token operator">-</span> num2<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"num1 -= num2 = "</span> <span class="token operator">+</span> <span class="token punctuation">(</span>num1 <span class="token operator">-=</span> num2<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"num1 * num2 = "</span> <span class="token operator">+</span> <span class="token punctuation">(</span>num1 <span class="token operator">*</span> num2<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"num1 *= num2 = "</span> <span class="token operator">+</span> <span class="token punctuation">(</span>num1 <span class="token operator">*=</span> num2<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"num1 &amp; num2 = "</span> <span class="token operator">+</span> <span class="token punctuation">(</span>num1 <span class="token operator">&amp;</span> num2<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"num1 &amp;= num2 = "</span> <span class="token operator">+</span> <span class="token punctuation">(</span>num1 <span class="token operator">&amp;=</span> num2<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/dac6097ae6ae2c1c6eb49622cb5e9011.png" alt=""></p>
-<h2 id="条件运算符（-）"><a href="#条件运算符（-）" class="headerlink" title="条件运算符（? :）"></a>条件运算符（? :）</h2><p>也叫作三元运算符，共有 3 个操作数，且需要判断布尔表达式的值，常用来取代某个 <code>if-else</code> 语句。其语法结构如下所示：</p>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java">variable x <span class="token operator">=</span> <span class="token punctuation">(</span>expression<span class="token punctuation">)</span> <span class="token operator">?</span> value <span class="token keyword">if</span> <span class="token boolean">true</span> <span class="token operator">:</span> value <span class="token keyword">if</span> <span class="token boolean">false</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>以下是条件运算符的示例以及运行结果：</p>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">/**
- * @author : cunyu
- * @version : 1.0
- * @className : Main
- * @date : 2021/4/15 10:18
- * @description : 条件运算符
- */</span>
-
-<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Main</span> <span class="token punctuation">{</span>
-    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">int</span> num1 <span class="token operator">=</span> <span class="token number">30</span><span class="token punctuation">;</span>
-        <span class="token keyword">int</span> num2 <span class="token operator">=</span> <span class="token number">300</span><span class="token punctuation">;</span>
-
-        <span class="token keyword">int</span> result <span class="token operator">=</span> num1 <span class="token operator">&gt;</span> num2 <span class="token operator">?</span> num1 <span class="token operator">:</span> num2<span class="token punctuation">;</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"The max between num1 and num2 is "</span> <span class="token operator">+</span> result<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/01d8416a973b2387d4f20d17ceb063c1.png" alt=""></p>
-<h2 id="instanceof"><a href="#instanceof" class="headerlink" title="instanceof"></a>instanceof</h2><p>用于操作对象实例，检查该对象是否是一个特定类型（类类型或接口类型），其语法结构如下。该知识点涉及到类与对象，此处就不做展开，等到后边学习类与对象之后，就能理解了。</p>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token punctuation">(</span> <span class="token class-name">Object</span> reference variable <span class="token punctuation">)</span> <span class="token keyword">instanceof</span>  <span class="token punctuation">(</span><span class="token keyword">class</span><span class="token operator">/</span><span class="token keyword">interface</span> type<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<h2 id="equals-和"><a href="#equals-和" class="headerlink" title="equals() 和 =="></a>equals() 和 ==</h2><ul>
-<li><code>==</code></li>
-</ul>
-<p>基本数据类型用 <code>==</code> 比较的是值，而 用于引用数据类型时判断两个对象的内存地址是否相等，即两对象是否是同一个对象；</p>
-<blockquote>
-<p>  本质来讲，由于 Java 中只有值传递，所以不管是基本数据类型还是引用数据类型，比较的其实都是值，只不过引用类型变量存的值是对象的地址；</p>
-</blockquote>
-<ul>
-<li><code>equals()</code></li>
-</ul>
-<p>作用也是判断两个对象是否相等，但是 <strong>不能用于基本数据类型变量的比较</strong>。存在于 <code>Object()</code> 类中，所以所有类都具有 <code>equals()</code> 方法存在两种使用情况：</p>
-<ol>
-<li><strong>类未覆盖 <code>equals()</code> 方法</strong>：此时通过 <code>equals()</code> 比较该类的两个对象时，等价于 <code>==</code> 比较这两个对象，默认使用  <code>Object</code> 类中的 <code>equals()</code> 方法；</li>
-<li><strong>类覆盖了 <code>equals()</code> 方法</strong>：一旦覆盖了该方法，则用来比较两个对象的内容是否相等，如我们常用的 <code>String、BitSet、Data、File</code> 就覆盖了 <code>equals()</code> 方法；</li>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>现在市面上已经有许多博客了，比如 CSDN、掘金、博客园、简书等等。我们可以直接在上面发表内容，而且交互比较人性化，而且也能被搜索引擎检索到。但是总归是别人的平台，经常会受限，因此我们就希望能有自己的博客。之前也尝试过搭建过不同的博客类型，折腾了不少工作，最终决定定型，采用 Hexo + Github Pages 的方式。今天就带大家一起来搭建自己的博客。由于是采用 Hexo + Github Pages 的方式，所以都是免费的，只是需要有一定的动手能力！</p>
+<h2 id="Hexo-简介"><a href="#Hexo-简介" class="headerlink" title="Hexo 简介"></a>Hexo 简介</h2><p><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">Hexo</a> 是一个快速、简洁且高效的静态博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。我们只需要通过 Markdown 语法写好自己的博客内容，然后通过简单的命令就能够将生成的网页上传到 Github，然后大家都可以来访问你的网页了。既方便了自己，也给了自己一个展示自己成果的平台，是不是一举两得。</p>
+<h2 id="搭建步骤"><a href="#搭建步骤" class="headerlink" title="搭建步骤"></a>搭建步骤</h2><p>搭建之前，需要做一些准备工作，首先需要确保你的电脑上已经上安装好了 Git 和 Node.Js，然后才能开始安装 Hexo，那么首先我们先来看看如何准备这这些环境。</p>
+<h3 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h3><h4 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h4><ol>
+<li><strong>Window</strong>：<a target="_blank" rel="noopener" href="https://git-scm.com/download/win">下载并安装</a></li>
+<li><strong>macOS</strong>：<a target="_blank" rel="noopener" href="https://sourceforge.net/projects/git-osx-installer/">下载并安装</a></li>
+<li><strong>Linux（Debian，Ubuntu）</strong>：<code>sudo apt-get install git-core</code></li>
+<li><strong>Linux（Fedora、RedHat、CentOS）</strong>：<code>sudo yum install git-core</code></li>
 </ol>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">/**
- * @author : cunyu
- * @version : 1.0
- * @className : Main
- * @date : 2021/4/15 13:26
- * @description : == 和 equals 用法
- */</span>
-
-<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Main</span> <span class="token punctuation">{</span>
-    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">int</span> num1 <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span>
-        <span class="token keyword">int</span> num2 <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span>
-        <span class="token keyword">int</span> num3 <span class="token operator">=</span> <span class="token number">20</span><span class="token punctuation">;</span>
-        <span class="token class-name">String</span> str1 <span class="token operator">=</span> <span class="token string">"村雨遥"</span><span class="token punctuation">;</span>
-        <span class="token class-name">String</span> str2 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">String</span><span class="token punctuation">(</span><span class="token string">"村雨遥"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-        <span class="token comment">// == 用于基本数据类型，用于比较两者是否相等</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"num1 == num2："</span> <span class="token operator">+</span> <span class="token punctuation">(</span>num1 <span class="token operator">==</span> num2<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// true</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"num3 == num3："</span> <span class="token operator">+</span> <span class="token punctuation">(</span>num2 <span class="token operator">==</span> num3<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// false</span>
-        <span class="token comment">// 而用于引用类型则表示两者是否指向同一对象</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"str1 == str2："</span> <span class="token operator">+</span> <span class="token punctuation">(</span>str1 <span class="token operator">==</span> str2<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// false</span>
-
-        <span class="token comment">// equals 用于比较引用类型是否内容是否相同</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"str1 equals str2："</span> <span class="token operator">+</span> str1<span class="token punctuation">.</span><span class="token function">equals</span><span class="token punctuation">(</span>str2<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// true</span>
-
-        <span class="token comment">// equals 不能用于基本数据类型比较</span>
-        <span class="token comment">//        System.out.println(num1.equals(num2));</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p><img src="https://img-blog.csdnimg.cn/img_convert/64b73f3a7e947173a4dec9ea1e9848fc.png" alt=""></p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>好了，以上就是有关操作符系列的相关知识点了。老规矩，如果您觉得对您有所帮助，那就点个赞吧 🥳.</p>
-<p>对于文中所遗漏或者存在错误的知识点，也欢迎大家评论指正呀！</p>
+<h4 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h4><p>安装成功后，将 git 与 GitHub 账号绑定，右键打开 Git Bash，然后设置配置信息：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/imgimage-gitbash.png" alt=""></p>
+<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell"># 配置用户名和邮箱
+git config --global user.name "github 用户名"
+git config --global user.email "github 注册邮箱"<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<p>比如我的配置就是：</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java">git config <span class="token operator">--</span>global user<span class="token punctuation">.</span>name <span class="token string">"cunyu1943"</span>
+git config <span class="token operator">--</span>global user<span class="token punctuation">.</span>email <span class="token string">"747731461@qq.com"</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<p>接着生成 ssh 密钥文件，输入如下命令后直接三次回车即可，一般不需要设置密码；</p>
+<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell"># 生成 ssh 密钥
+ssh-keygen -t rsa -C "github 注册邮箱"<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<p>我生成秘钥的命令：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">ssh-keygen -t rsa -C <span class="token string">"747731461@qq.com"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/imgimage-ssh.png" alt=""></p>
+<p>一般执行上述命令之后，会生成 <code>id_rsa</code> 和 <code>id_rsa.pub</code> 两个文件，前者是我们私有的，而后者则是对外开放的。接着找到生成的 <code>.ssh</code> 的文件夹中的 id_rsa.pub 密钥，将内容复制；</p>
+<p><img src="https://s1.ax1x.com/2020/10/09/0rP6HA.png" alt=""></p>
+<p>然后打开 <a target="_blank" rel="noopener" href="https://github.com/settings/keys">GitHub-Settings-Keys</a> 页面，创建一个新的 SSH key，填写 <code>Title</code> 和 <code>Key</code>，<code>Title</code> 可以随意，而 <code>Key</code> 的内容则是我们刚才复制的 <code>id_rsa.pub</code> 中的内容，最后点击 <code>Add SSH key</code> 即可；</p>
+<p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/imgimage-20201009172808255.png" alt=""></p>
+<h3 id="Node-Js-安装"><a href="#Node-Js-安装" class="headerlink" title="Node.Js 安装"></a>Node.Js 安装</h3><h4 id="安装-1"><a href="#安装-1" class="headerlink" title="安装"></a>安装</h4><p>去官网下载最新的稳定版 <a target="_blank" rel="noopener" href="https://nodejs.org/en/">Node.JS</a> ，一般推荐 64 位（大家应该现在用的电脑基本都是 64 位的吧），安装的话很简单，基本就是下一步下一步点击就好了。如果还是不知道如何安装，可以参考我的另一篇博客：<a target="_blank" rel="noopener" href="https://blog.csdn.net/github_39655029/article/details/105397485">Windows 下 Node.js 的安装（多图版）客</a></p>
+<h4 id="验证"><a href="#验证" class="headerlink" title="验证"></a>验证</h4><p>安装完成后，要查看我们是否安装成功，可以打开命令提示符（<code>Win + R</code>），输入 <code>cmd</code> 打开控制台，输入如下命令，如果出现对应版本号，说明安装成功了；</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">node -v
+<span class="token function">npm</span> -v<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/imgimage-nodejs.png" alt=""></p>
+<h4 id="设置-1"><a href="#设置-1" class="headerlink" title="设置"></a>设置</h4><p>由于下载包是从国外服务器，所以速度较慢，因此我们推荐用阿里的国内镜像进行设置；</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">npm</span> config <span class="token builtin class-name">set</span> registry https://registry.npm.taobao.org<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h3 id="Hexo-安装"><a href="#Hexo-安装" class="headerlink" title="Hexo 安装"></a>Hexo 安装</h3><p>在你的硬盘上找个地儿，用来存放你的博客文件，比如我的就在 <code>D:personalFiles/github/blog</code>，这个文件夹你可以根据自己的喜好来设置。然后从命令台进入当前文件夹，接下来就是安装过程了；</p>
+<ol>
+<li>首先安装 Hexo</li>
+</ol>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">npm</span> i hexo-cli -g<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p><img src="https://s1.ax1x.com/2020/10/01/0MVPI0.png" alt=""></p>
+<ol>
+<li>新建一个文件夹用于存放你的博客，比如我的是 <code>blog</code>，然后进入该文件夹，并用如下命令进行初始化并安装必备组件；</li>
+</ol>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">hexo init <span class="token builtin class-name">.</span>
+<span class="token function">npm</span> <span class="token function">install</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<p><img src="https://s1.ax1x.com/2020/10/01/0MV2es.png" alt=""></p>
+<ol>
+<li>初始化后，目录结构如下；</li>
+</ol>
+<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">.├── _config.yml <span class="token comment"># 网站配置信息├── package.json # 应用程序信息├── scaffolds # 模板文件夹├── source # 存放用户资源|   ├── _drafts|   └── _posts└── themes # 主题文件夹</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<ol>
+<li>然后输入如下命令，然后在浏览器中打开 <code>http://localhost:4000</code>；</li>
+</ol>
+<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell"><span class="token comment"># 新建博客hexo new "博客名"# 生成静态网页hexo g# 打开本地服务器hexo s</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>然后就可以看到如下的界面，不过我的是经过修改过的，所以和你的会不一样。</p>
+<p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9baa05737cd04d409192fb3583c36bc3~tplv-k3u1fbpfcp-zoom-1.image" alt=""></p>
+<h3 id="Github-个人仓库"><a href="#Github-个人仓库" class="headerlink" title="Github 个人仓库"></a>Github 个人仓库</h3><p>完成上面的步骤之后，我们就能在本地进行预览了，不过我们如果想要发布到网上供别人看的话，那就得利用 Github Pages 的功能了，下边就来介绍如何结合 Hexo + Github Pages ，将我们的博客推送到网上去，方便大家在任何地方访问！</p>
+<blockquote>
+<p>  首先你得有个 GitHub 账号，如果没有的，请出门 <a target="_blank" rel="noopener" href="https://github.com/">右转</a> 先去注册个账号；</p>
+</blockquote>
+<p>有了账号之后，新建一个仓库，而且得确保你的仓库是 <code>public</code>，你要搞个 <code>private</code>，谁能访问的了？？？同时，仓库名一定要是：</p>
+<blockquote>
+<p>  <strong>用户名.github.io</strong></p>
+<p>  <strong>用户名.github.io</strong></p>
+<p>  <strong>用户名.github.io</strong></p>
+</blockquote>
+<p>这个用户名建议不要太复杂，但是又要能体现你个人特点，因为后续让别人访问你的博客时，就要通过 <code>https://用户名.github.io</code> 这个域名来访问。比如我的用户名是 <strong>cunyu1943</strong>，所以我的仓库就是 <a target="_blank" rel="noopener" href="https://github.com/cunyu1943/cunyu1943.github.io">cunyu1943.github.io</a>：</p>
+<p><img src="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5c44b93d292d48c692382625c98a08c1~tplv-k3u1fbpfcp-watermark.image" alt=""></p>
+<h3 id="部署到-Github"><a href="#部署到-Github" class="headerlink" title="部署到 Github"></a>部署到 Github</h3><p>完成上面的步骤后，你应该能在本地进行预览了，接下来就是推送网站到 Github Pages 了，然后我们就能被其他人访问了。</p>
+<p>只需要在我们刚才的博客根目录中的站点配置文件 <code>_config.yml</code> ，设置为你的个人仓库名即可：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/imgimage-config.png" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/imgimage-deploy.png" alt=""></p>
+<p>完成上述步骤之后，主要使用如下命令，就能将我们本地的内容推送到远程 GitHub 仓库了，然后在浏览器中访问：</p>
+<blockquote>
+<p>  <a target="_blank" rel="noopener" href="https://用户名.github.io">https://用户名.github.io</a></p>
+</blockquote>
+<p>比如我的博客 <a target="_blank" rel="noopener" href="https://cunyu1943.github.io/">村雨遥的博客</a>；</p>
+<pre class="line-numbers language-none"><code class="language-none">hexo cleanhexo ghexo d<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/blog/image-20210507090419341.png" alt=""></p>
+<h3 id="Gitee-个人仓库"><a href="#Gitee-个人仓库" class="headerlink" title="Gitee 个人仓库"></a>Gitee 个人仓库</h3><p>上面说完部署到 Github，接下来就说说怎么部署到 Gitee，老规矩，首先你得需要一个 Gitee 账号，如果没有的，出门 <a target="_blank" rel="noopener" href="https://gitee.com/">右转</a> 先去注册个账号。</p>
+<p>然后新建一个仓库，同样有几点需要注意的：</p>
+<ol>
+<li>保证你的仓库是 <code>public</code>；</li>
+<li>仓库名是 <strong>你的用户名</strong>，这一点和 Github 略有不同，不需要是 <strong>用户名.gitee.io</strong>；</li>
+</ol>
+<p>比如我的用户名是 <code>cunyu1943</code>，所以我的仓库名就是 <a target="_blank" rel="noopener" href="https://gitee.com/cunyu1943/cunyu1943">cunyu1943</a>。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/blog/image-gitee.png" alt=""></p>
+<h3 id="部署到-Gitee"><a href="#部署到-Gitee" class="headerlink" title="部署到 Gitee"></a>部署到 Gitee</h3><p>完成上面的步骤后，你应该能在本地进行预览了，接下来就是推送网站到 Gitee Pages 了，然后我们就能被其他人访问了。这里需要注意的是，Gitee Pages 不像 Github Pages 会自动更新，它需要你每次推送后，去更新一下，如果想要自动更新，就需要开通 Gitee 的会员。</p>
+<p>然后需要在我们刚才的博客根目录中的站点配置文件 <code>_config.yml</code> ，设置为你的个人仓库名即可：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/imgimage-config.png" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/image-hosting-for-blog/blog/image-giteedeploy.png" alt=""></p>
+<p>完成上述步骤之后，主要使用如下命令，就能将我们本地的内容推送到远程 Gitee仓库了，去手动更新 Gitee Pages 后，然后在浏览器中访问：</p>
+<blockquote>
+<p>  <a target="_blank" rel="noopener" href="https://用户名.gitee.io">https://用户名.gitee.io</a></p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/blog/image-20210507090730869.png" alt=""></p>
+<h2 id="如何写新博客并推送到远程"><a href="#如何写新博客并推送到远程" class="headerlink" title="如何写新博客并推送到远程"></a>如何写新博客并推送到远程</h2><p>通过上面的步骤后，你的博客应该就已经搭建成功，而且能通过 <code>https://用户名.github.io</code> 的方式进行访问了。接下来如果我们要发一篇新的博客内容，又应该怎么办呢？接下来就详细讲一下如何操作。</p>
+<ol>
+<li>首先进入博客所在文件夹，然后右键进入控制台，用如下命令进行创建新的文章；</li>
+</ol>
+<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">hexo n <span class="token string">"博客标题名"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/blog/image-20210507090948379.png" alt=""></p>
+<ol>
+<li>接着在 <code>blog/source/_posts</code> 目录下应该就会有创建好的以文章标题名命名的 Markdown 文件；</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/blog/image-20210507091022985.png" alt=""></p>
+<ol>
+<li>接着打开该文件，编写你自己想要的内容即可；</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/blog/20210507091211.png" alt=""></p>
+<ol>
+<li>接着在控制台使用如下命令，将其推送到远程 GitHub 仓库，等过一会儿之后，访问即可看到刚才推送的新文章了！</li>
+</ol>
+<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">hexo ghexo d<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/blog/20210507091400.png" alt=""></p>
+<h2 id="如何绑定自定义域名"><a href="#如何绑定自定义域名" class="headerlink" title="如何绑定自定义域名"></a>如何绑定自定义域名</h2><p>通过 <code>用户名.github.io</code> 的方式来访问总归是有些不方便，如果我们需要自己的个性域名，又应该如何设置呢？那么在此之前，你需要有一个已经备案好的域名，如果没有的话，请到阿里云、腾讯云等场商购买自己的域名，然后通过该平台备案，然后添加两条解析记录，以我的腾讯云为例：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/blog/20210507092325.png" alt=""></p>
+<p>备好案并设置解析之后，在 Github 的博客项目中，依次点击 <code>Settings-&gt;Pages</code>，然后在 <code>Custom domain</code> 添加你的域名即可，最后 <code>Save</code> 即可，此时你的博客根目录下应该会多一个 <code>CNAME</code> 的文件，然后你就可以通过自己的域名来访问你的博客了。</p>
+<p>当然，有时候可能经过上面的设置后，博客根目录下不会出现名为 <code>CNAME</code> 的文件，如果没有，我们可以通过在本地博客 <code>/source</code> 目录下手动建立一个 <code>CNAME</code> 文件（无后缀），然后把你的域名填进去并保存，最后依次执行如下命令将设置上传到  Github 即可 ~</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">hexo ghexo d<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/blog/20210507092800.png" alt=""></p>
+<p>比如我的域名为 <code>cunyu1943.site</code>，通过设置之后，我们就可以通过 <a href="https://cunyu1943.site">https://cunyu1943.site</a> 来访问我的博客了。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/blog/20210507091719.png" alt=""></p>
+<h2 id="美化"><a href="#美化" class="headerlink" title="美化"></a>美化</h2><p>经过上面的设置之后，我们只是得到了一个简单地博客，如果你也想让你的博客像我的一样酷（zhuang）炫（bi），就要用到主题了，我采用的主题是 <a target="_blank" rel="noopener" href="https://github.com/blinkfox/hexo-theme-matery">hexo-theme-matery</a>，一个基于材料设计和响应式设计而成的主题，而且关于如何设置它也有十分详细的文档，如果存在不懂得问题，还可以及时提交 issue，作者回复也十分及时。</p>
+<p>如果你不想过于折腾，那么你完成上面的步骤之后，也可以直接采用我的博客源代码，然后把里边的个人配置改一下就 ok 了，我的博客源码地址：<a target="_blank" rel="noopener" href="https://github.com/cunyu1943/hexo-theme-matery-personal">cunyu1943/hexo-theme-matery-personal</a></p>
+<p>大家直接下载下来，然后把 <code>node_modules.zip</code> 进行解压，然后修改其中的部分配置（也就是你的 Github、网名啥的呀个人信息），主要是修改根目录下的 <code>_config.yml</code> 和 <code>_config.hexo-theme-matery.yml</code>，然后就可以直接写博客了。当然，前提是你把环境啥的都搭建好了。</p>
+<p>PS：我对于配置文件中的某些关键信息进行了隐藏，比如 <code>gitalk</code>、<code>gitment</code>、<code>Valine</code>、<code>baiduAnalytics</code> 等，这些需要你自己去注册并获取自己的信息，请记得修改，否则可能导致失败。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>至此，我们的博客就搭建完成了，是不是很简单，赶紧去试试吧！</p>
+<p>对于文中不清楚的地方，欢迎留言，我会在看到的第一时间回复你！</p>
 <blockquote>
 <p>  建议关注公众号 「<strong>村雨遥</strong>」，最新干货文章不容错过 ~</p>
 </blockquote>
@@ -1109,7 +829,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://cunyu1943.site/posts/bb695896/">http://cunyu1943.site/posts/bb695896/</a>
+                    <a href="http://cunyu1943.site/posts/131099f4/">http://cunyu1943.site/posts/131099f4/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -1147,8 +867,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Java/">
-                                    <span class="chip bg-color">Java</span>
+                                <a href="/tags/%E6%95%99%E7%A8%8B/">
+                                    <span class="chip bg-color">教程</span>
+                                </a>
+                            
+                                <a href="/tags/%E5%8D%9A%E5%AE%A2/">
+                                    <span class="chip bg-color">博客</span>
                                 </a>
                             
                         </div>
@@ -1319,7 +1043,7 @@
         repo: 'cunyu1943.github.io',
         owner: 'cunyu1943',
         admin: "cunyu1943",
-        id: '2021-05-03T15-19-12',
+        id: '2021-05-07T10-57-03',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -1613,17 +1337,18 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/posts/5efee643/">
+                <a href="/posts/131099f4/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="【Java 从入坑到放弃】No 5. 控制流程">
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="【效率为王】超详细 Hexo + Github Pages 博客搭建教程">
                         
-                        <span class="card-title">【Java 从入坑到放弃】No 5. 控制流程</span>
+                        <span class="card-title">【效率为王】超详细 Hexo + Github Pages 博客搭建教程</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1633,26 +1358,31 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-05-03
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-05-07
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Java-%E4%BF%AE%E7%82%BC%E4%B9%8B%E8%B7%AF/" class="post-category">
-                                    Java 修炼之路
+                            <a href="/categories/%E6%95%88%E7%8E%87%E4%B8%BA%E7%8E%8B/" class="post-category">
+                                    效率为王
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Java/">
-                        <span class="chip bg-color">Java</span>
+                    <a href="/tags/%E6%95%99%E7%A8%8B/">
+                        <span class="chip bg-color">教程</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%8D%9A%E5%AE%A2/">
+                        <span class="chip bg-color">博客</span>
                     </a>
                     
                 </div>
@@ -1666,13 +1396,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/posts/f8bfd521/">
+                <a href="/posts/8955af0c/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="【Java 从入坑到放弃】No 3. 变量与数据类型">
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="【LeetCode】1720. 解码异或后的数组">
                         
-                        <span class="card-title">【Java 从入坑到放弃】No 3. 变量与数据类型</span>
+                        <span class="card-title">【LeetCode】1720. 解码异或后的数组</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1683,14 +1413,14 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-05-03
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-05-06
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Java-%E4%BF%AE%E7%82%BC%E4%B9%8B%E8%B7%AF/" class="post-category">
-                                    Java 修炼之路
+                            <a href="/categories/Online-Judge/" class="post-category">
+                                    Online Judge
                                 </a>
                             
                             
@@ -1700,8 +1430,12 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Java/">
-                        <span class="chip bg-color">Java</span>
+                    <a href="/tags/LeetCode/">
+                        <span class="chip bg-color">LeetCode</span>
+                    </a>
+                    
+                    <a href="/tags/%E4%BD%8D%E8%BF%90%E7%AE%97/">
+                        <span class="chip bg-color">位运算</span>
                     </a>
                     
                 </div>
