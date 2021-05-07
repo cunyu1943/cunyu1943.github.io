@@ -6,7 +6,7 @@
   <link href="http://cunyu1943.site/atom.xml" rel="self"/>
   
   <link href="http://cunyu1943.site/"/>
-  <updated>2021-05-07T05:37:48.850Z</updated>
+  <updated>2021-05-07T07:20:47.864Z</updated>
   <id>http://cunyu1943.site/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【数据结构与算法】数组的增删改查</title>
+    <link href="http://cunyu1943.site/posts/a24b20b1/"/>
+    <id>http://cunyu1943.site/posts/a24b20b1/</id>
+    <published>2021-05-07T07:19:49.000Z</published>
+    <updated>2021-05-07T07:20:47.864Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;  &lt;strong&gt;本文已收录至个人 Github仓库&lt;/strong&gt;：&lt;a href=&quot;https://github.com/cunyu1943/cs-docs&quot;&gt;cs-docs&lt;/a&gt;，欢迎各位</summary>
+        
+      
+    
+    
+    
+    <category term="数据结构与算法" scheme="http://cunyu1943.site/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="数据结构" scheme="http://cunyu1943.site/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+    <category term="数组" scheme="http://cunyu1943.site/tags/%E6%95%B0%E7%BB%84/"/>
+    
+  </entry>
   
   <entry>
     <title>【LeetCode】1486. 数组异或操作</title>
@@ -523,34 +551,6 @@
     <category term="Java" scheme="http://cunyu1943.site/tags/Java/"/>
     
     <category term="IO" scheme="http://cunyu1943.site/tags/IO/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Java 从入坑到放弃】JDBC 编程指北</title>
-    <link href="http://cunyu1943.site/posts/3e435af2/"/>
-    <id>http://cunyu1943.site/posts/3e435af2/</id>
-    <published>2021-05-04T03:12:47.000Z</published>
-    <updated>2021-05-04T03:23:09.326Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;  &lt;strong&gt;本文已收录至个人 Github仓库&lt;/strong&gt;：&lt;a href=&quot;https://github.com/cunyu1943/cs-docs&quot;&gt;cs-docs&lt;/a&gt;，欢迎各位</summary>
-        
-      
-    
-    
-    
-    <category term="Java 修炼之路" scheme="http://cunyu1943.site/categories/Java-%E4%BF%AE%E7%82%BC%E4%B9%8B%E8%B7%AF/"/>
-    
-    
-    <category term="Java" scheme="http://cunyu1943.site/tags/Java/"/>
-    
-    <category term="JDBC" scheme="http://cunyu1943.site/tags/JDBC/"/>
     
   </entry>
   
