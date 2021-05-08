@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="【数据结构与算法】数组的增删改查, Java 公众号：村雨遥 LeetCode">
+    <meta name="keywords" content="【Java 从入坑到放弃】No 7. 何为面向对象（上）, Java 公众号：村雨遥 LeetCode">
     <meta name="description" content="吾生也有涯，而知也无涯。">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>【数据结构与算法】数组的增删改查 | 村雨遥的博客</title>
+    <title>【Java 从入坑到放弃】No 7. 何为面向对象（上） | 村雨遥的博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -496,12 +496,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/6.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/2.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">【数据结构与算法】数组的增删改查</h1>
+                    <h1 class="description center-align post-title">【Java 从入坑到放弃】No 7. 何为面向对象（上）</h1>
                 </div>
             </div>
         </div>
@@ -617,12 +617,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">
-                                <span class="chip bg-color">数据结构</span>
-                            </a>
-                        
-                            <a href="/tags/%E6%95%B0%E7%BB%84/">
-                                <span class="chip bg-color">数组</span>
+                            <a href="/tags/Java/">
+                                <span class="chip bg-color">Java</span>
                             </a>
                         
                     </div>
@@ -633,8 +629,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" class="post-category">
-                                数据结构与算法
+                            <a href="/categories/Java-%E4%BF%AE%E7%82%BC%E4%B9%8B%E8%B7%AF/" class="post-category">
+                                Java 修炼之路
                             </a>
                         
                     </div>
@@ -646,28 +642,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-05-07
+                    2021-05-08
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-05-07
+                    2021-05-08
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    2.2k
+                    2.8k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    8 分
+                    10 分
                 </div>
                 
 
@@ -693,234 +689,216 @@
                 <blockquote>
 <p>  <strong>本文已收录至个人 Github仓库</strong>：<a target="_blank" rel="noopener" href="https://github.com/cunyu1943/cs-docs">cs-docs</a>，欢迎各位 <strong>Star、Fork</strong> ~</p>
 </blockquote>
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>作为重要的线性数据结构， 我们经常会跟数组打交道。所谓数组，就是一系列相同数据类型元素的集合，数据类型可以是 <code>int</code>、<code>float</code>、<code>String</code>、类……。而对数组的增删改查则是日常用到的操作。为了弄清楚这些常用操作，此博客则对这些操作进行一一梳理。</p>
-<h2 id="数组简介"><a href="#数组简介" class="headerlink" title="数组简介"></a>数组简介</h2><h3 id="如何创建数组"><a href="#如何创建数组" class="headerlink" title="如何创建数组"></a>如何创建数组</h3><p>我们以 Java 中创建数组为例，创建语法如下：</p>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java">dataType<span class="token punctuation">[</span><span class="token punctuation">]</span> arrName <span class="token operator">=</span> <span class="token keyword">new</span> dataType<span class="token punctuation">[</span>size<span class="token punctuation">]</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>其中各个字段的含义如下：</p>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>前面已经讲了 Java 的一些环境搭建、IDE 使用、变量及数据类型、操作符、控制流程以及数组操作，今天就来看看 Java 里边的一个核心思想 - <strong>面向对象编程</strong>。内容预告如下：</p>
 <ul>
-<li><code>dataType</code>：也就是我们数组中元素的数据类型；</li>
-<li><code>arrName</code>：即数组名；</li>
-<li><code>size</code>：即数组所能容纳的元素数量；</li>
-<li><code>new</code>：Java 语言中的关键词；</li>
+<li><strong>面向对象简介</strong></li>
+<li><strong>面向对象实例</strong></li>
 </ul>
-<p>假设我们要创建一个由 10 个元素的数组，其中元素的数据类型为 <code>int</code>，则创建的方法如下：</p>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> arr <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token number">10</span><span class="token punctuation">]</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>创建数组时，我们一定要注意，必须明确指定数组的元素个数，也就是上边说的 <code>size</code>。</p>
-<h3 id="数组长度与容量"><a href="#数组长度与容量" class="headerlink" title="数组长度与容量"></a>数组长度与容量</h3><p>在我们日常使用中，大家都容易把这两个概念混为一谈，但是实际上，两者是不一样的，两者的定义如下：</p>
+<h2 id="面向对象"><a href="#面向对象" class="headerlink" title="面向对象"></a>面向对象</h2><h3 id="什么是面向对象？"><a href="#什么是面向对象？" class="headerlink" title="什么是面向对象？"></a>什么是面向对象？</h3><p>所谓面向对象，是一种通过对象的方式，将现实中的事物映射到计算机模型的一种编程方法；</p>
+<p>对象的含义指的是具体的某一个事物，即我们在现实生活中能够看得见摸得着的。在面向对象程序设计中，对象指的是计算机系统中的某一个成分，主要有两层含义。一个是指 <strong>数据</strong>，另一个则是 <strong>动作</strong>。即对象是两者的结合体，通过对象不仅能够进行操作，还能对操作的结果进行记录。</p>
+<p>在这之前，另一种编程方式是 <strong>面向过程</strong>，用一个具体的例子来讲，可以描述成下面这样：</p>
+<blockquote>
+<p>  将如有一天你很想吃酸菜鱼，那么你该怎么办呢？下面就以面向对象和面向过程给你两个选择，让你决定来选哪一个！</p>
+<ol>
+<li><strong>面向对象</strong>：打开手机，打开外卖软件，搜索酸菜鱼，然后下单，等着外卖送到家就行！</li>
+<li><strong>面向过程</strong>：先去买菜，鱼、酸菜、调料……，然后回家杀鱼、切酸菜、切调料……，再接着开始炒，最后做好盛到盘子里！</li>
+</ol>
+</blockquote>
+<p>对比可以发现两者的优缺点：</p>
 <ul>
-<li><strong>容量</strong>：指当前数组最多能容纳的元素个数，也就是我们创建数组时所指定的元素个数；</li>
-<li><strong>长度</strong>：指当前数组中的元素个数，它不一定等于容量，小于容量时表示数组还可以添加元素；</li>
-<li>两者关系：<strong>长度 &lt;= 容量</strong>；</li>
+<li><strong>面向过程</strong><ul>
+<li><strong>优点</strong>：性能好；以例子来说自己做比起点外卖，经济又实惠，还吃得放心；</li>
+<li><strong>缺点</strong>：不易维护、不易复用、不易扩展；以例子来讲，要是我们自己做，临时又想吃其他的菜，又得跑去买材料啥的，麻烦！但外卖就不一样了，直接打开手机再点就是！</li>
 </ul>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> arr <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token number">10</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-length <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
-<span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">5</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-    arr<span class="token punctuation">[</span>length<span class="token operator">++</span><span class="token punctuation">]</span> <span class="token operator">=</span> i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-
-<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>“数组容量： ” <span class="token operator">+</span> arr<span class="token punctuation">.</span>length<span class="token punctuation">)</span>；
-<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>“数组长度： ” <span class="token operator">+</span> length；<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h2 id="插入元素到数组"><a href="#插入元素到数组" class="headerlink" title="插入元素到数组"></a>插入元素到数组</h2><p>要插入元素到数组中，可以分为如下 3 中情况：</p>
-<ol>
-<li>插入数组开头</li>
-<li>插入数组结尾</li>
-<li>插入数组中间</li>
+</li>
+<li><strong>面向对象</strong><ul>
+<li><strong>优点</strong>：易维护、易复用、易扩展，也就是面向过程的缺点；</li>
+<li><strong>缺点</strong>：性能较差；比起自己做，点外卖成本啥的可能就比较高了；</li>
+</ul>
+</li>
+</ul>
+<h3 id="面向对象的-3-大特性"><a href="#面向对象的-3-大特性" class="headerlink" title="面向对象的 3 大特性"></a>面向对象的 3 大特性</h3><ol>
+<li><strong>封装</strong></li>
 </ol>
-<h3 id="插入元素到数组开头"><a href="#插入元素到数组开头" class="headerlink" title="插入元素到数组开头"></a>插入元素到数组开头</h3><p>要将元素插入数组开头位置，我们只需要先把原来数组的元素整体都向后移动一个位置，然后将插入元素赋值给数组第一个元素即可；</p>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">/**
-* 插入元素到数组开头
-* @param arr 待插入元素的数组
-* @param val 待插入的元素
-* @return 插入元素后的数组
-*/</span>
-<span class="token keyword">public</span> <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token function">insertStart</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> arr<span class="token punctuation">,</span> <span class="token keyword">int</span> val<span class="token punctuation">)</span><span class="token punctuation">{</span>
-    <span class="token comment">// 用于存放插入元素后的数据</span>
-    <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> destArr <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token keyword">int</span><span class="token punctuation">[</span>arr<span class="token punctuation">.</span>length <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-    
-    <span class="token comment">// 将元素插入新数组开头，同时将原数组整体赋值给新数组</span>
-    destArr<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">=</span> val<span class="token punctuation">;</span>
-    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> arr<span class="token punctuation">.</span>length<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-        destArr<span class="token punctuation">[</span>i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> arr<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-    
-    <span class="token keyword">return</span> destArr<span class="token punctuation">;</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h3 id="插入元素到数组结尾"><a href="#插入元素到数组结尾" class="headerlink" title="插入元素到数组结尾"></a>插入元素到数组结尾</h3><p>这是最简单的一种情况，要将元素插入到数组结尾，直接将插入的元素赋值给数组尾部即可；</p>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">/**
-* 插入元素到数组开头
-* @param arr 待插入元素的数组
-* @param val 待插入的元素
-* @return 插入元素后的数组
-*/</span>
-<span class="token keyword">public</span> <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token function">insertEnd</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> arr<span class="token punctuation">,</span> <span class="token keyword">int</span> val<span class="token punctuation">)</span><span class="token punctuation">{</span>
-    <span class="token comment">// 用于存放插入元素后的数据</span>
-    <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> destArr <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token keyword">int</span><span class="token punctuation">[</span>arr<span class="token punctuation">.</span>length <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-    
-    <span class="token comment">// 将元素插入新数组结尾，同时将原数组整体赋值给新数组</span>
-    destArr<span class="token punctuation">[</span>arr<span class="token punctuation">.</span>length<span class="token punctuation">]</span> <span class="token operator">=</span> val<span class="token punctuation">;</span>
-    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> arr<span class="token punctuation">.</span>length<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-        destArr<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> arr<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-    
-    <span class="token keyword">return</span> destArr<span class="token punctuation">;</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h3 id="插入元素到数组中间"><a href="#插入元素到数组中间" class="headerlink" title="插入元素到数组中间"></a>插入元素到数组中间</h3><p>插入元素到中间，相当于只要先把数组中插入位置后边的元素整体向后移动一位，然后将插入元素赋值给对应插入位置的数组对应位置即可；</p>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">/**
-* 插入元素到数组任意位置
-* @param arr 待插入元素的数组
-* @param val 待插入的元素
-* @param index 待插入元素的索引位置
-* @return 插入元素后的数组
-*/</span>
-<span class="token keyword">public</span> <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token function">insertAnyWhere</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> arr<span class="token punctuation">,</span> <span class="token keyword">int</span> index<span class="token punctuation">,</span> <span class="token keyword">int</span> val<span class="token punctuation">)</span><span class="token punctuation">{</span>
-    <span class="token comment">// 用于存放插入元素后的数据</span>
-    <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> destArr <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token keyword">int</span><span class="token punctuation">[</span>arr<span class="token punctuation">.</span>length <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-    
-    <span class="token comment">// 将原数组插入元素位置前半段赋值给新数组</span>
-    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> index<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-        destArr<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> arr<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-    <span class="token comment">// 将原数组插入元素位置后半段赋值给新数组</span>
-    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> j <span class="token operator">=</span> index<span class="token punctuation">;</span> j <span class="token operator">&lt;</span> arr<span class="token punctuation">.</span>length<span class="token punctuation">;</span> j<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-        destArr<span class="token punctuation">[</span>j <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> arr<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-    
-    <span class="token comment">// 将元素插入新数组指定位置</span>
-    destArr<span class="token punctuation">[</span>index<span class="token punctuation">]</span> <span class="token operator">=</span> val<span class="token punctuation">;</span>
-    
-    <span class="token keyword">return</span> destArr<span class="token punctuation">;</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h2 id="删除数组中的元素"><a href="#删除数组中的元素" class="headerlink" title="删除数组中的元素"></a>删除数组中的元素</h2><p>同样的，假设我们要删除数组中的元素，也要考虑如下 3 种情况：</p>
+<p>隐藏对象的属性和实现细节，对外只提供访问的接口，提高复用性和安全性；</p>
 <ol>
-<li>删除数组开头元素</li>
-<li>删除数组末尾元素</li>
-<li>删除数组中间元素</li>
+<li><strong>继承</strong></li>
 </ol>
-<h3 id="删除数组开头元素"><a href="#删除数组开头元素" class="headerlink" title="删除数组开头元素"></a>删除数组开头元素</h3><p>删除开头元素，相当于将原数组开头元素后边的元素整体向前移动一位，而不用管开头的元素；</p>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">/**
-* 删除数组开头元素
-* @param arr 待删除元素的数组
-* @return 删除元素后的数组
-*/</span>
-
-<span class="token keyword">public</span> <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token function">deleteStart</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> arr<span class="token punctuation">)</span><span class="token punctuation">{</span>
-    <span class="token comment">// 删除元素后，数组容量减小</span>
-    <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> destArr <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token keyword">int</span><span class="token punctuation">[</span>arr<span class="token punctuation">.</span>length <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-    
-    <span class="token comment">// 删除开头元素，相当与将后边的元素整体向前移动一位</span>
-    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> arr<span class="token punctuation">.</span>length<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-        destArr<span class="token punctuation">[</span>i <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> arr<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-    
-    <span class="token keyword">return</span> destArr<span class="token punctuation">;</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h3 id="删除数组末尾元素"><a href="#删除数组末尾元素" class="headerlink" title="删除数组末尾元素"></a>删除数组末尾元素</h3><p>直接将数组末尾元素删除即可；</p>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">/**
-* 删除数组末尾元素
-* @param arr 待删除元素的数组
-* @return 删除元素后的数组
-*/</span>
-
-<span class="token keyword">public</span> <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token function">deleteEnd</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> arr<span class="token punctuation">)</span><span class="token punctuation">{</span>
-    <span class="token comment">// 删除元素后，数组容量减小</span>
-    <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> destArr <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token keyword">int</span><span class="token punctuation">[</span>arr<span class="token punctuation">.</span>length <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-    
-    <span class="token comment">// 删除最后一个元素，相当于不去管最后一个元素</span>
-    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> arr<span class="token punctuation">.</span>length <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-        destArr<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> arr<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-    
-    <span class="token keyword">return</span> destArr<span class="token punctuation">;</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h3 id="删除数组中间元素"><a href="#删除数组中间元素" class="headerlink" title="删除数组中间元素"></a>删除数组中间元素</h3><p>删除任意位置元素，相当于不动删除位置前的元素，然后将删除元素位置后的元素整体向前移动一位；</p>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">/**
-* 删除数组任意位置元素
-* @param arr 待删除元素的数组
-* @param index 待删除元素索引位置
-* @return 删除元素后的数组
-*/</span>
-
-<span class="token keyword">public</span> <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token function">deleteMiddle</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> arr<span class="token punctuation">,</span> <span class="token keyword">int</span> index<span class="token punctuation">)</span><span class="token punctuation">{</span>
-    <span class="token comment">// 删除元素后，数组容量减小</span>
-    <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> destArr <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token keyword">int</span><span class="token punctuation">[</span>arr<span class="token punctuation">.</span>length <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-    
-    <span class="token comment">// 删除任意位置元素，前半段保持</span>
-    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> index<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-        destArr<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> arr<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-    
-    <span class="token comment">// 后半段整体向前移动一位</span>
-    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> j <span class="token operator">=</span> index<span class="token punctuation">;</span> j <span class="token operator">&lt;</span> arr<span class="token punctuation">.</span>length <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">;</span> j<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-        destArr<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">=</span> arr<span class="token punctuation">[</span>j <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-    
-    <span class="token keyword">return</span> destArr<span class="token punctuation">;</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h2 id="修改数组元素"><a href="#修改数组元素" class="headerlink" title="修改数组元素"></a>修改数组元素</h2><p>要修改数组元素，实际上只要知道需要修改数组元素的索引位置即可，然后将对应索引位置的值修改为你要修改的值即可；</p>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">/**
-* 修改数组任意位置元素
-* @param arr 待修改元素的数组
-* @param index 待修改元素索引位置
-* @param val 修改后的元素值
-* @return 修改元素后的数组
-*/</span>
-
-<span class="token keyword">public</span> <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token function">update</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> arr<span class="token punctuation">,</span> <span class="token keyword">int</span> index<span class="token punctuation">,</span> <span class="token keyword">int</span> val<span class="token punctuation">)</span><span class="token punctuation">{</span>
-    arr<span class="token punctuation">[</span>index<span class="token punctuation">]</span> <span class="token operator">=</span> val<span class="token punctuation">;</span>
-    <span class="token keyword">return</span> arr<span class="token punctuation">;</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h2 id="查找数组中的元素"><a href="#查找数组中的元素" class="headerlink" title="查找数组中的元素"></a>查找数组中的元素</h2><p>要查找数组中的某一个元素，最常用的方法有如下两种：</p>
+<p>定义父类之后，子类可以从基础类进行继承，提高了代码的复用率，重要的一点：<strong>类只能单继承</strong>；</p>
 <ol>
-<li>线性查找，主要针对数组较小时</li>
-<li>二分查找，主要针对数组较大时，提高查询效率</li>
+<li><strong>多态</strong></li>
 </ol>
-<h3 id="线性查找"><a href="#线性查找" class="headerlink" title="线性查找"></a>线性查找</h3><p>线性查找即遍历数组，然后判断各元素是否是目标值，是则输出对应索引位置，否则返回 -1，此时时间复杂度为 $O(n)$；</p>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">/**
-* 线性查找
-* @param array 
-* @param target 要查找的目标值
-* @return -1 说明未找到目标值，否则返回目标值索引位置
-*/</span>
-
-<span class="token keyword">public</span> <span class="token keyword">int</span> <span class="token function">linearSearch</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> array<span class="token punctuation">,</span> <span class="token keyword">int</span> target<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<p>父类或者接口定义的引用变量可以指向子类或具体实现类的实例对象，提高了程序的扩展性；</p>
+<h3 id="面向对象的-5-大原则"><a href="#面向对象的-5-大原则" class="headerlink" title="面向对象的 5 大原则"></a>面向对象的 5 大原则</h3><ol>
+<li><strong>单一职责原则 SRP</strong></li>
+</ol>
+<p>类的功能要单一，不能太复杂；</p>
+<ol>
+<li><strong>开放封闭原则 OCP</strong></li>
+</ol>
+<p>一个模块对于扩展是开放的，对于修改则是封闭的，可以增加功能，但是修改功能却不行；</p>
+<ol>
+<li><strong>里氏替换原则 LSP</strong></li>
+</ol>
+<p>子类能够替换父类出现在父类能够出现的任何地方；</p>
+<ol>
+<li><strong>依赖倒置原则 DIP</strong></li>
+</ol>
+<p>高层次的模块不应该依赖于低层次的模块，而应该都依赖于抽象。抽象不应该依赖于具体实现，但具体实现应该依赖于抽象；</p>
+<ol>
+<li><strong>接口分离原则 ISP</strong></li>
+</ol>
+<p>设计时采用多个与特定客户类相关的接口比采用一个通用接口要好；</p>
+<h2 id="面向对象的具体实例"><a href="#面向对象的具体实例" class="headerlink" title="面向对象的具体实例"></a>面向对象的具体实例</h2><h3 id="类与对象"><a href="#类与对象" class="headerlink" title="类与对象"></a>类与对象</h3><p>以我们日常生活为例，我们现在很多人都养宠物，而宠物 <strong>都有一些共同状态</strong>，比如名字、毛色、年龄…… 这样一来我们就可以设计一个叫做 <strong>类</strong> 的东西，用来 <strong>代表宠物</strong> 这一类事物；</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Pet</span><span class="token punctuation">{</span>
+    <span class="token comment">// 名字</span>
+    <span class="token keyword">public</span> <span class="token class-name">String</span> name<span class="token punctuation">;</span>
     
-    <span class="token comment">// 查找到目标值时，返回目标之索引位置</span>
-    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> array<span class="token punctuation">.</span>length<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-    	<span class="token keyword">if</span><span class="token punctuation">(</span>target <span class="token operator">==</span> array<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-            reurn i<span class="token punctuation">;</span>
-        <span class="token punctuation">}</span>    
-    <span class="token punctuation">}</span>
+    <span class="token comment">// 毛色</span>
+    <span class="token keyword">public</span> <span class="token class-name">String</span> furColor<span class="token punctuation">;</span>
+    
+    <span class="token comment">// 年龄</span>
+    <span class="token keyword">public</span> <span class="token keyword">int</span> age<span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>有了这个类之后，它就相当于我们的一个模板，根据这个模板我们就能够创建一个个具体的宠物，而这些宠物，就叫做 <strong>对象</strong>；</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Pet</span><span class="token punctuation">{</span>
+    <span class="token comment">// 名字</span>
+    <span class="token keyword">public</span> <span class="token class-name">String</span> name<span class="token punctuation">;</span>
+    
+    <span class="token comment">// 毛色</span>
+    <span class="token keyword">public</span> <span class="token class-name">String</span> furColor<span class="token punctuation">;</span>
+    
+    <span class="token comment">// 年龄</span>
+    <span class="token keyword">public</span> <span class="token keyword">int</span> age<span class="token punctuation">;</span>
+    
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token comment">// 创建一个对象</span>
+        <span class="token class-name">Pet</span> dog <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Pet</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        dog<span class="token punctuation">.</span>name <span class="token operator">=</span> <span class="token string">"博美"</span><span class="token punctuation">;</span>
+        dog<span class="token punctuation">.</span>furColor <span class="token operator">=</span> <span class="token string">"white"</span><span class="token punctuation">;</span>
+        dog<span class="token punctuation">.</span>age <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
         
-    <span class="token keyword">return</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h3 id="二分查找"><a href="#二分查找" class="headerlink" title="二分查找"></a>二分查找</h3><p>当数组长度很小时，使用线性查找方法很快就能找到目标值是否存在并返回对应索引位置，但当数组很大时，线性查找的方法效率就太低了。这时候二分查找是更理想的查找手段，二分查找实质是使用双指针，每次对半查找，大大提高效率，时间复杂度缩减为 $O(logn)$；</p>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">/**
-* 二分查找
-* @param array 
-* @param target 要查找的目标值
-* @return -1 说明未找到目标值，否则返回目标值索引位置
-*/</span>
-
-<span class="token keyword">public</span> <span class="token keyword">int</span> <span class="token function">binarySearch</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> array<span class="token punctuation">,</span> <span class="token keyword">int</span> target<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token comment">// 左右指针</span>
-    <span class="token keyword">int</span> left <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> 
-    <span class="token keyword">int</span> right <span class="token operator">=</span> array<span class="token punctuation">.</span>length <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">;</span> 
-
-    <span class="token keyword">while</span><span class="token punctuation">(</span>left <span class="token operator">&lt;=</span> right<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">int</span> mid <span class="token operator">=</span> left <span class="token operator">+</span> <span class="token punctuation">(</span>right <span class="token operator">-</span> left<span class="token punctuation">)</span> <span class="token operator">/</span> <span class="token number">2</span><span class="token punctuation">;</span>
-        <span class="token comment">// 当前值等于目标值时，返回当前索引位置</span>
-        <span class="token keyword">if</span><span class="token punctuation">(</span>array<span class="token punctuation">[</span>mid<span class="token punctuation">]</span> <span class="token operator">==</span> target<span class="token punctuation">)</span><span class="token punctuation">{</span>
-            <span class="token keyword">return</span> mid<span class="token punctuation">;</span> 
-        <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>array<span class="token punctuation">[</span>mid<span class="token punctuation">]</span> <span class="token operator">&lt;</span> target<span class="token punctuation">)</span><span class="token punctuation">{</span> <span class="token comment">// 当前值小于目标值，左指针向右移动一位</span>
-            left <span class="token operator">=</span> mid <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">;</span> 
-        <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span> <span class="token comment">// 当前值大于目标值，右指针向左移动一位</span>
-            right <span class="token operator">=</span> mid <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span>            
+        <span class="token class-name">Pet</span> cat <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Pet</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        cat<span class="token punctuation">.</span>name <span class="token operator">=</span> <span class="token string">"英短"</span><span class="token punctuation">;</span>
+        cat<span class="token punctuation">.</span>furColor <span class="token operator">=</span> <span class="token string">"orange"</span><span class="token punctuation">;</span>
+        cat<span class="token punctuation">.</span>age <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>
+        
     <span class="token punctuation">}</span>
-    <span class="token keyword">return</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>今天的内容到此结束，主要针对数组这一数据结构进行了介绍，讲了如何创建数组，并对数组中易混淆的长度和容量概念进行了比较。最后则是讲了数组的相关操作，总结了几种针对数组的增删改查方法。</p>
-<p>如果你有更多关于数组的相关知识，欢迎评论区留言交流，咱们评论区见！</p>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="属性"><a href="#属性" class="headerlink" title="属性"></a>属性</h3><p>每个宠物都有自己的名字、毛色和年龄等一系列状态，而这些状态就叫做一个类的 <strong>属性</strong>。而属性的类型既可以是基本类型（比如上述例子中的 <code>int</code>），也可以是引用类型（上述例子中的 <code>String</code>）。而在 Java 语言中，属性的命名虽然没有强制规定，但是一般都是有一套大家通用的命名方法，即：</p>
+<blockquote>
+<p>  若属性是一个单词组成，那么一般都是小写；</p>
+<p>  若属性是多个单词组成，那么则采用驼峰法；</p>
+<p>  关于更多的命名规定，推荐参考阿里巴巴出品的 《Java 开发手册》，下载地址：<a target="_blank" rel="noopener" href="https://github.com/cunyu1943/amazing-books">https://github.com/cunyu1943/amazing-books</a></p>
+</blockquote>
+<h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>而除开属性之后，每个对象还能够有许多其他的功能，就像宠物都能吃东西、会叫……，那么这些他们能够做的事情，在类里边就可以用 <strong>方法</strong> 来进行表示；</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Pet</span><span class="token punctuation">{</span>
+    <span class="token comment">// 名字</span>
+    <span class="token keyword">public</span> <span class="token class-name">String</span> name<span class="token punctuation">;</span>
+    
+    <span class="token comment">// 毛色</span>
+    <span class="token keyword">public</span> <span class="token class-name">String</span> furColor<span class="token punctuation">;</span>
+    
+    <span class="token comment">// 年龄</span>
+    <span class="token keyword">public</span> <span class="token keyword">int</span> age<span class="token punctuation">;</span>
+    
+    <span class="token comment">// 吃东西对应的方法</span>
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">eat</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"吃东西！"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    
+    <span class="token comment">// 叫唤对应的方法</span>
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">bark</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"叫唤！"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>而对于方法，也有需要注意的几点：</p>
+<ol>
+<li>方法是可以有返回值的，如果要返回对应值，则其返回值的类型要与返回值相对于，对于不需要返回值的方法，则将其返回类型设置为 <code>void</code>；</li>
+<li>方法是可以有参数的，我们上述例子的方法中都是不带参数的，但如果我们有需要，就可以加上自己需要的参数，但此时注意要带上参数的类型；</li>
+</ol>
+<p>总结起来，可以分为如下四种方法：</p>
+<ol>
+<li><strong>无参无返回值</strong></li>
+</ol>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">methodName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    ……
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<ol>
+<li><strong>无参有返回值</strong></li>
+</ol>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">boolean</span> <span class="token function">methodName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    ……
+    <span class="token keyword">return</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<ol>
+<li><strong>有参无返回值</strong></li>
+</ol>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">methodName</span><span class="token punctuation">(</span><span class="token class-name">String</span> name<span class="token punctuation">)</span><span class="token punctuation">{</span>
+    ……
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<ol>
+<li><strong>有参有返回值</strong></li>
+</ol>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">boolean</span> <span class="token function">methodName</span><span class="token punctuation">(</span><span class="token class-name">String</span> name<span class="token punctuation">)</span><span class="token punctuation">{</span>
+    ……
+    <span class="token keyword">return</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Pet</span><span class="token punctuation">{</span>
+    <span class="token comment">// 名字</span>
+    <span class="token keyword">public</span> <span class="token class-name">String</span> name<span class="token punctuation">;</span>
+    
+    <span class="token comment">// 毛色</span>
+    <span class="token keyword">public</span> <span class="token class-name">String</span> furColor<span class="token punctuation">;</span>
+    
+    <span class="token comment">// 年龄</span>
+    <span class="token keyword">public</span> <span class="token keyword">int</span> age<span class="token punctuation">;</span>
+    
+    <span class="token comment">// 具有返回值的方法</span>
+    <span class="token keyword">int</span> <span class="token function">getAge</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">return</span> age<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">// 带有参数的方法</span>
+    <span class="token keyword">void</span> <span class="token function">setAge</span><span class="token punctuation">(</span><span class="token keyword">int</span> age<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>age <span class="token operator">=</span> age<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    
+    <span class="token comment">// 吃东西对应的方法</span>
+    <span class="token keyword">void</span> <span class="token function">eat</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"吃东西！"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    
+    <span class="token comment">// 叫唤对应的方法</span>
+    <span class="token keyword">void</span> <span class="token function">bark</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"叫唤！"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>而对于方法命名的方式，也是有一定讲究的。因为一般而言方法都是一个类的动作行为，所以 <strong>一般都是以动词开头，而如果有多个单词组合，则除开第一个单词全部小写之外，后面每个单词的第一个字母都要使用大写</strong>。</p>
+<h3 id="构造方法"><a href="#构造方法" class="headerlink" title="构造方法"></a>构造方法</h3><p>上面我们说了实例（也就是对象）和属性，那么当我们创建一个实例的时候，通常我们想要把它的属性也给它设置好。为了实现这一功能，这时候我们可以添加方法，从而达到这一目的，以上述设置宠物的年龄为例。</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">// 首先创建一个实例Pet pet = new Pet();// 接着调用方法设置年龄pet.setAge(3);// 查看设置年龄是否成功System.out.println(pet.getAge());</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>可以发现通过上述调用方法的方式是可以完成这一目的的，但假设我们需要设置的属性很多，此时要全部设置属性值时就需要调用许多次 <code>setter</code> 方法，一旦遗漏一个，则实例内部状态就紊乱了。那我们就想了，有没有一种简单点的方法，能够让我们在创建实例对象的同时就把内部属性初始化了呢？</p>
+<p>答案是：Yes！🎉🎉🎉</p>
+<p>这时候我们就可以用到一类特殊的方法 - <strong>构造方法</strong>，以下就来看看这个构造方法的特殊之处。</p>
+<p>其实在上面我们创建实例的时候就已经调用了构造方法了，只不过它是没有带任何参数的构造方法。以上述动物类 <code>Pet</code> 为实例，我们来看看如何编写它的构造方法。</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Pet</span><span class="token punctuation">{</span>        <span class="token comment">// 名字    public String name;        // 毛色    public String furColor;        // 年龄    public int age;        // 无参构造方法    public Pet(){}        // 带参构造方法    public Pet(String name, String furColor, int age){        this.name = name;        this.furColor = furColor;        this.age = age;    }}</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>以上我们只是给出了无参的构造方法和带了所有属性的构造方法，除了上面的两个构造方法之外，我们还可以根据需要创建带有部分属性的构造方法。可以看到，相比于普通的方法，构造方法有着明显的特点：</p>
+<ol>
+<li><strong>没有返回值</strong>：是的，无论是带参还是不带参的构造函数，它们都是没有返回值的，而它也是 <strong>每个类默认的构造方法</strong>；</li>
+<li><strong>方法名同类名一样</strong>：必须确保构造方法的名字和类名一致，否则它就不是构造方法了；</li>
+</ol>
+<p>有了构造方法之后，我们创建实例时就可以直接给它初始化了，而不用再去麻烦地调用各个 <code>setter</code> 方法来初始化实例。</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">// 调用无参构造方法Pet pet1 = new Pet();// 调用有参构造方法Pet pet2 = new Pet("柯基", "黄色", 1);</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>🎈 Tips：对于实例的属性值，在未经构造方法初始化时，各数据类型都有默认值，整型默认值为 <code>0</code>，浮点型默认值为 <code>0.0</code>，布尔类型默认值为 <code>false</code>，引用类型默认值为 <code>null</code>。</p>
+<h3 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h3><p>既然知道了什么是面向对象以及面向对象中的一些关键知识点如对象、属性、方法的概念，那我们就趁热来看看啥是引用。</p>
+<p>所谓引用，其实在之前学习的时候就已经涉及到了。你是否还记得 <code>String</code> 这个特殊的数据类型，其实在我们创建一个 <code>String</code> 对象时，也就创建了一个引用。</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token class-name">String</span> str <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">String</span><span class="token punctuation">(</span><span class="token string">"村雨遥"</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>其中 <code>str</code> 既是一个变量，也是一个引用，指向一个值为 <code>"村雨遥"</code> 的 <code>String</code> 对象，后续如果我们要访问这个 <code>String</code> 对象，就需要使用 <code>str</code> 这个引用来代表它。</p>
+<p><img src="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8c6475fcddda4b19b7f1ba10ec940b09~tplv-k3u1fbpfcp-watermark.image" alt=""></p>
+<p>以上我们说的是一个引用指向一个对象，但是我们也可以用多个引用指向同一个对象。就好比你家买了一俩车，不仅你可以开，你老婆也可以开，你爸妈也可以开。而这时候的车就好比一个“对象”，而使用它的人就是多个“引用”。</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">// 对象 1String str1 = new String("村雨遥");// 对象 2String str2 = str1;// 对象 3String str3 = str1;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p><img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3d8d0a440f60445f9b6f8c249a79caa0~tplv-k3u1fbpfcp-watermark.image" alt=""></p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>XDM，今天的内容就到此结束了。主要讲了面向对象的相关概念以及特性，并对面向对象中的类、对象、属性、方法、构造方法以及引用做了介绍，关于更多面向对象的知识，我们下一篇文章中再见！</p>
 <blockquote>
 <p>  建议关注公众号 「<strong>村雨遥</strong>」，最新干货文章不容错过 ~</p>
 </blockquote>
@@ -950,7 +928,7 @@ length <span class="token operator">=</span> <span class="token number">0</span>
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://cunyu1943.site/posts/a24b20b1/">http://cunyu1943.site/posts/a24b20b1/</a>
+                    <a href="http://cunyu1943.site/posts/3a718393/">http://cunyu1943.site/posts/3a718393/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -988,12 +966,8 @@ length <span class="token operator">=</span> <span class="token number">0</span>
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">
-                                    <span class="chip bg-color">数据结构</span>
-                                </a>
-                            
-                                <a href="/tags/%E6%95%B0%E7%BB%84/">
-                                    <span class="chip bg-color">数组</span>
+                                <a href="/tags/Java/">
+                                    <span class="chip bg-color">Java</span>
                                 </a>
                             
                         </div>
@@ -1164,7 +1138,7 @@ length <span class="token operator">=</span> <span class="token number">0</span>
         repo: 'cunyu1943.github.io',
         owner: 'cunyu1943',
         admin: "cunyu1943",
-        id: '2021-05-07T15-19-49',
+        id: '2021-05-08T18-47-23',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -1458,9 +1432,10 @@ length <span class="token operator">=</span> <span class="token number">0</span>
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/posts/3a718393/">
                     <div class="card-image">
@@ -1478,9 +1453,9 @@ length <span class="token operator">=</span> <span class="token number">0</span>
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-05-08
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-05-08
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -1493,6 +1468,7 @@ length <span class="token operator">=</span> <span class="token number">0</span>
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -1511,13 +1487,13 @@ length <span class="token operator">=</span> <span class="token number">0</span>
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/posts/c05cdf56/">
+                <a href="/posts/a24b20b1/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="【LeetCode】1486. 数组异或操作">
+                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="【数据结构与算法】数组的增删改查">
                         
-                        <span class="card-title">【LeetCode】1486. 数组异或操作</span>
+                        <span class="card-title">【数据结构与算法】数组的增删改查</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1534,8 +1510,8 @@ length <span class="token operator">=</span> <span class="token number">0</span>
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Online-Judge/" class="post-category">
-                                    Online Judge
+                            <a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" class="post-category">
+                                    数据结构与算法
                                 </a>
                             
                             
@@ -1545,12 +1521,12 @@ length <span class="token operator">=</span> <span class="token number">0</span>
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/LeetCode/">
-                        <span class="chip bg-color">LeetCode</span>
+                    <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">
+                        <span class="chip bg-color">数据结构</span>
                     </a>
                     
-                    <a href="/tags/%E4%BD%8D%E8%BF%90%E7%AE%97/">
-                        <span class="chip bg-color">位运算</span>
+                    <a href="/tags/%E6%95%B0%E7%BB%84/">
+                        <span class="chip bg-color">数组</span>
                     </a>
                     
                 </div>
