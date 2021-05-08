@@ -1,0 +1,2586 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="免费编程资源, Java 公众号：村雨遥 LeetCode">
+    <meta name="description" content="吾生也有涯，而知也无涯。">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>免费编程资源 | 村雨遥的博客</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery.min.js"></script>
+
+<meta name="generator" content="Hexo 5.3.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="村雨遥的博客" type="application/atom+xml">
+</head>
+
+
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">村雨遥的博客</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/nav" class="waves-effect waves-light">
+      
+      <i class="fas fa-location-arrow" style="zoom: 0.6;"></i>
+      
+      <span>导航</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/code-nav" class="waves-effect waves-light">
+      
+      <i class="fas fa-terminal" style="zoom: 0.6;"></i>
+      
+      <span>编程资源</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="" class="waves-effect waves-light">
+
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
+    </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/categories/Java-%E4%BF%AE%E7%82%BC%E4%B9%8B%E8%B7%AF/">
+          
+          <i class="fab fa-java" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Java 修炼</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/categories/%E5%89%91%E6%8C%87-Java/">
+          
+          <i class="fas fa-graduation-cap" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>剑指 Java</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/categories/Python-%E5%85%BB%E6%88%90%E8%AE%B0/">
+          
+          <i class="fab fa-python" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Python 养成</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/categories/%E6%95%88%E7%8E%87%E4%B8%BA%E7%8E%8B/">
+          
+          <i class="fas fa-tools" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>效率为王</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/categories/%E5%AE%9E%E6%88%98%E6%BC%94%E7%BB%83%E5%9C%BA/">
+          
+          <i class="fas fa-running" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>实战演练</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/categories/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/">
+          
+          <i class="fas fa-paste" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>资源分享</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/categories/Online-Judge/">
+          
+          <i class="fas fa-code" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Online Judge</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/categories">
+          
+          <i class="fas fa-bookmark" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>所有分类</span>
+        </a>
+      </li>
+      
+    </ul>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>标签</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>友链</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">村雨遥的博客</div>
+        <div class="logo-desc">
+            
+            吾生也有涯，而知也无涯。
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/nav" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-location-arrow"></i>
+			
+			导航
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/code-nav" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-terminal"></i>
+			
+			编程资源
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="javascript:;">
+			
+				<i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
+		</a>
+            <ul  style="background:  ;" >
+              
+                <li>
+
+                  <a href="/categories/Java-%E4%BF%AE%E7%82%BC%E4%B9%8B%E8%B7%AF/ " style="margin-left:75px">
+				  
+				   <i class="fa fab fa-java" style="position: absolute;left:50px" ></i>
+			      
+		          <span>Java 修炼</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/categories/%E5%89%91%E6%8C%87-Java/ " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-graduation-cap" style="position: absolute;left:50px" ></i>
+			      
+		          <span>剑指 Java</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/categories/Python-%E5%85%BB%E6%88%90%E8%AE%B0/ " style="margin-left:75px">
+				  
+				   <i class="fa fab fa-python" style="position: absolute;left:50px" ></i>
+			      
+		          <span>Python 养成</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/categories/%E6%95%88%E7%8E%87%E4%B8%BA%E7%8E%8B/ " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-tools" style="position: absolute;left:50px" ></i>
+			      
+		          <span>效率为王</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/categories/%E5%AE%9E%E6%88%98%E6%BC%94%E7%BB%83%E5%9C%BA/ " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-running" style="position: absolute;left:50px" ></i>
+			      
+		          <span>实战演练</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/categories/%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB/ " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-paste" style="position: absolute;left:50px" ></i>
+			      
+		          <span>资源分享</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/categories/Online-Judge/ " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-code" style="position: absolute;left:50px" ></i>
+			      
+		          <span>Online Judge</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/categories " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-bookmark" style="position: absolute;left:50px" ></i>
+			      
+		          <span>所有分类</span>
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			标签
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			友链
+		</a>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/cunyu1943/cunyu1943.github.io" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/cunyu1943/cunyu1943.github.io" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/4.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">免费编程资源</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        padding: 35px 0 15px 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        padding-bottom: 30px;
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                          <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                          </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2021-05-08
+                </div>
+                
+
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
+                    2021-05-08
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    883
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                    3 分
+                </div>
+                
+
+                
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
+            </div>
+        </div>
+        <hr class="clearfix">
+
+        
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="/libs/prism/prism.css">
+        
+
+        
+
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <blockquote>
+<p>  🎈 持续更新中 ~</p>
+</blockquote>
+<p>我的其他项目，欢迎 <strong>Star</strong> 收藏：</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/cunyu1943/cs-docs"><img src="https://github-readme-stats.vercel.app/api/pin/?username=cunyu1943&amp;repo=cs-docs&amp;theme=dark" alt="cs-docs"></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/cunyu1943/amazing-websites"><img src="https://github-readme-stats.vercel.app/api/pin/?username=cunyu1943&amp;repo=amazing-websites&amp;theme=dark" alt="amazing-websites"></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/cunyu1943/amazing-books"><img src="https://github-readme-stats.vercel.app/api/pin/?username=cunyu1943&amp;repo=amazing-books&amp;theme=dark" alt="amazing-books"></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/cunyu1943/amazing-softwares"><img src="https://github-readme-stats.vercel.app/api/pin/?username=cunyu1943&amp;repo=amazing-softwares&amp;theme=dark" alt="amazing-softwares"></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="🚩-简介"><a href="#🚩-简介" class="headerlink" title="🚩 简介"></a>🚩 简介</h2><ul>
+<li>项目说明：推荐整理各种免费编程资源，长期持续更新~</li>
+<li>项目类型：资料收集</li>
+<li>项目地址</li>
+</ul>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>平台</th>
+<th>地址</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Github</strong></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/cunyu1943/amazing-programming-resources">https://github.com/cunyu1943/amazing-programming-resources</a></td>
+</tr>
+<tr>
+<td><strong>Gitee</strong></td>
+<td><a target="_blank" rel="noopener" href="https://gitee.com/cunyu1943/amazing-programming-resources">https://gitee.com/cunyu1943/amazing-programming-resources</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>欢迎大家推荐更多免费编程资源，如果有失效的，一定要及时提交 Issues ！如果对你有用，可以点击右上角 <strong>Star</strong> 💖💖💖 表示支持一下哦 🙏🙏🙏！</p>
+<p>此外我还建立了交流群，方便大家一起交流，在这里你可以聊编程、聊生活、聊工作……，还有免费编程书籍获取，都在群里，赶紧来加入吧！</p>
+<p><strong>加群方式</strong>：关注公众号 <strong>村雨遥</strong>，回复 <strong>加群</strong> 即可。</p>
+<div align="center"><img src="https://gitee.com/cunyu1943/images/raw/master/ImgsUbuntu/20200510234310.png" style="zoom:50%;" width="50%"></div>
+
+<p>温馨提示：</p>
+<blockquote>
+<p> 善用 Ctrl + F 快捷方式，资源排名不分先后，取决于添加的时间 ~</p>
+</blockquote>
+<h2 id="💻-面试八股文"><a href="#💻-面试八股文" class="headerlink" title="💻 面试八股文"></a>💻 面试八股文</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://sqlzoo.net/wiki/SQL_Tutorial/zh">SQL Tutorial/zh - SQLZOO</a></td>
+<td><a target="_blank" rel="noopener" href="http://xuesql.cn/">自学SQL网(教程 视频 练习全套)</a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.liaoxuefeng.com/wiki/1177760294764384">SQL教程 - 廖雪峰的官方网站</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/CyC2018/CS-Notes"><img src="https://github-readme-stats.vercel.app/api/pin/?username=CyC2018&amp;repo=CS-Notes&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/wolverinn/Waking-Up/"><img src="https://github-readme-stats.vercel.app/api/pin/?username=wolverinn&amp;repo=Waking-Up&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/frank-lam/fullstack-tutorial"><img src="https://github-readme-stats.vercel.app/api/pin/?username=frank-lam&amp;repo=fullstack-tutorial&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/0voice/interview_internal_reference"><img src="https://github-readme-stats.vercel.app/api/pin/?username=0voice&amp;repo=interview_internal_reference&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/kdn251/interviews/"><img src="https://github-readme-stats.vercel.app/api/pin/?username=kdn251&amp;repo=interviews&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/huihut/interview/"><img src="https://github-readme-stats.vercel.app/api/pin/?username=huihut&amp;repo=interview&amp;theme=dark" alt=""></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="☕-Java"><a href="#☕-Java" class="headerlink" title="☕ Java"></a>☕ Java</h2><h3 id="🔬-教程"><a href="#🔬-教程" class="headerlink" title="🔬 教程"></a>🔬 教程</h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://how2j.cn/">How2J 的 Java教程</a></td>
+<td><a target="_blank" rel="noopener" href="http://www.mayikt.com/freeOrMember?status=0">蚂蚁课堂-课程列表</a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.learnjavaonline.org/">Learn Java - Free Interactive Java Tutorial</a></td>
+<td><a target="_blank" rel="noopener" href="https://www.liaoxuefeng.com/wiki/1252599548343744">Java教程 - 廖雪峰的官方网站</a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/java/java-tutorial.html">Java 教程菜鸟教程</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/lingcoder/onJava8/"><img src="https://github-readme-stats.vercel.app/api/pin/?username=lingcoder&amp;repo=onJava8&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/PotoYang/spring-in-action-v5-translate"><img src="https://github-readme-stats.vercel.app/api/pin/?username=PotoYang&amp;repo=spring-in-action-v5-translate&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/Snailclimb/JavaGuide"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Snailclimb&amp;repo=JavaGuide&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/CodingDocs/springboot-guide"><img src="https://github-readme-stats.vercel.app/api/pin/?username=CodingDocs&amp;repo=springboot-guide&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/YunaiV/SpringBoot-Labs/"><img src="https://github-readme-stats.vercel.app/api/pin/?username=YunaiV&amp;repo=SpringBoot-Labs&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/wuyouzhuguli/SpringAll/"><img src="https://github-readme-stats.vercel.app/api/pin/?username=wuyouzhuguli&amp;repo=SpringAll&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/xkcoding/spring-boot-demo"><img src="https://github-readme-stats.vercel.app/api/pin/?username=xkcoding&amp;repo=spring-boot-demo&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/JeffLi1993/springboot-learning-example"><img src="https://github-readme-stats.vercel.app/api/pin/?username=JeffLi1993&amp;repo=springboot-learning-example&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/hollischuang/toBeTopJavaer/"><img src="https://github-readme-stats.vercel.app/api/pin/?username=hollischuang&amp;repo=toBeTopJavaer&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/doocs/advanced-java"><img src="https://github-readme-stats.vercel.app/api/pin/?username=doocs&amp;repo=advanced-java&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/AobingJava/JavaFamily"><img src="https://github-readme-stats.vercel.app/api/pin/?username=AobingJava&amp;repo=JavaFamily&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/ZhongFuCheng3y/3y"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ZhongFuCheng3y&amp;repo=3y&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/xingshaocheng/architect-awesome"><img src="https://github-readme-stats.vercel.app/api/pin/?username=xingshaocheng&amp;repo=architect-awesome&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/aalansehaiyang/technology-talk"><img src="https://github-readme-stats.vercel.app/api/pin/?username=aalansehaiyang&amp;repo=technology-talk&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/eugenp/tutorials"><img src="https://github-readme-stats.vercel.app/api/pin/?username=eugenp&amp;repo=tutorials&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/crossoverJie/JCSprout"><img src="https://github-readme-stats.vercel.app/api/pin/?username=crossoverJie&amp;repo=JCSprout&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/javagrowing/JGrowing"><img src="https://github-readme-stats.vercel.app/api/pin/?username=javagrowing&amp;repo=JGrowing&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/eugenp/tutorials"><img src="https://github-readme-stats.vercel.app/api/pin/?username=eugenp&amp;repo=tutorials&amp;theme=dark" alt="tutorials"></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/brianway/java-learning"><img src="https://github-readme-stats.vercel.app/api/pin/?username=brianway&amp;repo=java-learning&amp;theme=dark" alt="java-learning"></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/iluwatar/java-design-patterns"><img src="https://github-readme-stats.vercel.app/api/pin/?username=iluwatar&amp;repo=java-design-patterns&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/kangjianwei/LearningJDK"><img src="https://github-readme-stats.vercel.app/api/pin/?username=kangjianwei&amp;repo=LearningJDK&amp;theme=dark" alt="LearningJDK"></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/coderbruis/JavaSourceCodeLearning"><img src="https://github-readme-stats.vercel.app/api/pin/?username=coderbruis&amp;repo=JavaSourceCodeLearning&amp;theme=dark" alt="JavaSourceCodeLearning"></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/gzc426/Java-Interview"><img src="https://github-readme-stats.vercel.app/api/pin/?username=gzc426&amp;repo=Java-Interview&amp;theme=dark" alt="LearningNotes"></a></td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/francistao/LearningNotes"><img src="https://github-readme-stats.vercel.app/api/pin/?username=francistao&amp;repo=LearningNotes&amp;theme=dark" alt="LearningNotes"></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/forezp/SpringCloudLearning"><img src="https://github-readme-stats.vercel.app/api/pin/?username=forezp&amp;repo=SpringCloudLearning&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/dyc87112/SpringCloud-Learning"><img src="https://github-readme-stats.vercel.app/api/pin/?username=dyc87112&amp;repo=SpringCloud-Learning&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/yinjihuan/spring-cloud"><img src="https://github-readme-stats.vercel.app/api/pin/?username=yinjihuan&amp;repo=spring-cloud&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/ityouknow/spring-cloud-examples"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ityouknow&amp;repo=spring-cloud-examples&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/zhoutaoo/SpringCloud"><img src="https://github-readme-stats.vercel.app/api/pin/?username=zhoutaoo&amp;repo=SpringCloud&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/heibaiying/BigData-Notes"><img src="https://github-readme-stats.vercel.app/api/pin/?username=heibaiying&amp;repo=BigData-Notes&amp;theme=dark" alt=""></a></td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/macrozheng/mall-learning"><img src="https://github-readme-stats.vercel.app/api/pin/?username=macrozheng&amp;repo=mall-learning&amp;theme=dark" alt="mall-learning"></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="⏳-项目"><a href="#⏳-项目" class="headerlink" title="⏳ 项目"></a>⏳ 项目</h3><h4 id="🏃‍♀️-电商"><a href="#🏃‍♀️-电商" class="headerlink" title="🏃‍♀️ 电商"></a>🏃‍♀️ 电商</h4><div class="table-container">
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/macrozheng/mall"><img src="https://github-readme-stats.vercel.app/api/pin/?username=macrozheng&amp;repo=mall&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/gz-yami/mall4j"><img src="https://github-readme-stats.vercel.app/api/pin/?username=gz-yami&amp;repo=mall4j&amp;theme=dark" alt="mall4j"></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/qiurunze123/miaosha"><img src="https://github-readme-stats.vercel.app/api/pin/?username=qiurunze123&amp;repo=miaosha&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/newbee-ltd/newbee-mall"><img src="https://github-readme-stats.vercel.app/api/pin/?username=newbee-ltd&amp;repo=newbee-mall&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/paascloud/paascloud-master"><img src="https://github-readme-stats.vercel.app/api/pin/?username=paascloud&amp;repo=paascloud-master&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/YunaiV/onemall"><img src="https://github-readme-stats.vercel.app/api/pin/?username=YunaiV&amp;repo=onemall&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/macrozheng/mall-swarm"><img src="https://github-readme-stats.vercel.app/api/pin/?username=macrozheng&amp;repo=mall-swarm&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/linlinjava/litemall"><img src="https://github-readme-stats.vercel.app/api/pin/?username=linlinjava&amp;repo=litemall&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/hfbin/Seckill"><img src="https://github-readme-stats.vercel.app/api/pin/?username=hfbin&amp;repo=Seckill&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/Exrick/xmall"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Exrick&amp;repo=xmall&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/2227324689/gpmall"><img src="https://github-readme-stats.vercel.app/api/pin/?username=2227324689&amp;repo=gpmall&amp;theme=dark" alt=""></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h4 id="🏃‍♂️-博客-论坛"><a href="#🏃‍♂️-博客-论坛" class="headerlink" title="🏃‍♂️ 博客/论坛"></a>🏃‍♂️ 博客/论坛</h4><div class="table-container">
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/halo-dev/halo"><img src="https://github-readme-stats.vercel.app/api/pin/?username=halo-dev&amp;repo=halo&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/langhsu/mblog"><img src="https://github-readme-stats.vercel.app/api/pin/?username=langhsu&amp;repo=mblog&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/ZHENFENG13/My-Blog"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ZHENFENG13&amp;repo=My-Blog&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/ZHENFENG13/My-Blog-layui"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ZHENFENG13&amp;repo=My-Blog-layui&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/88250/symphony"><img src="https://github-readme-stats.vercel.app/api/pin/?username=88250&amp;repo=symphony&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/damoqiongqiu/NiceFish"><img src="https://github-readme-stats.vercel.app/api/pin/?username=damoqiongqiu&amp;repo=NiceFish&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/lenve/VBlog"><img src="https://github-readme-stats.vercel.app/api/pin/?username=lenve&amp;repo=VBlog&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/lenve/vhr"><img src="https://github-readme-stats.vercel.app/api/pin/?username=lenve&amp;repo=vhr&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/yourkevin/NiterForum"><img src="https://github-readme-stats.vercel.app/api/pin/?username=yourkevin&amp;repo=NiterForum&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/codedrinker/community"><img src="https://github-readme-stats.vercel.app/api/pin/?username=codedrinker&amp;repo=community&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/cloudfavorites/favorites-web"><img src="https://github-readme-stats.vercel.app/api/pin/?username=cloudfavorites&amp;repo=favorites-web&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/Qbian61/forum-java"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Qbian61&amp;repo=forum-java&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/mindskip/xzs"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mindskip&amp;repo=xzs&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/mindskip/xzs-mysql"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mindskip&amp;repo=xzs-mysql&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/Jackson0714/PassJava-Platform"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Jackson0714&amp;repo=PassJava-Platform&amp;theme=dark" alt=""></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h4 id="🔧-脚手架"><a href="#🔧-脚手架" class="headerlink" title="🔧 脚手架"></a>🔧 脚手架</h4><div class="table-container">
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/jhipster/generator-jhipster"><img src="https://github-readme-stats.vercel.app/api/pin/?username=jhipster&amp;repo=generator-jhipster&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/alibaba/COLA"><img src="https://github-readme-stats.vercel.app/api/pin/?username=alibaba&amp;repo=COLA&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/zhangdaiscott/jeecg-boot"><img src="https://github-readme-stats.vercel.app/api/pin/?username=zhangdaiscott&amp;repo=jeecg-boot&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/zuihou/lamp-cloud"><img src="https://github-readme-stats.vercel.app/api/pin/?username=zuihou&amp;repo=lamp-cloud&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/renrenio/renren-security"><img src="https://github-readme-stats.vercel.app/api/pin/?username=renrenio&amp;repo=renren-security&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/yangzongzhuan/RuoYi"><img src="https://github-readme-stats.vercel.app/api/pin/?username=yangzongzhuan&amp;repo=RuoYi&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/chillzhuang/SpringBlade"><img src="https://github-readme-stats.vercel.app/api/pin/?username=chillzhuang&amp;repo=SpringBlade&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/stylefeng/Guns"><img src="https://github-readme-stats.vercel.app/api/pin/?username=stylefeng&amp;repo=Guns&amp;theme=dark" alt=""></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h4 id="🛒-管理系统"><a href="#🛒-管理系统" class="headerlink" title="🛒 管理系统"></a>🛒 管理系统</h4><div class="table-container">
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/thinkgem/jeesite4"><img src="https://github-readme-stats.vercel.app/api/pin/?username=thinkgem&amp;repo=jeesite4&amp;theme=dark" alt=""></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="🐍-Python"><a href="#🐍-Python" class="headerlink" title="🐍 Python"></a>🐍 Python</h2><h3 id="🔬-教程-1"><a href="#🔬-教程-1" class="headerlink" title="🔬 教程"></a>🔬 教程</h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://mofanpy.com/">莫烦Python</a></td>
+<td><a target="_blank" rel="noopener" href="https://www.learnpython.org/">Learn Python - Free Interactive Python Tutorial</a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://python123.io/">Python123 - 编程更简单</a></td>
+<td><a target="_blank" rel="noopener" href="https://shimo.im/docs/36pykCPH6XCjKJcv/read">Python 数据分析视频</a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1wD4y1o7AS">价值2万多的Python教程全套</a></td>
+<td><a target="_blank" rel="noopener" href="https://www.liaoxuefeng.com/wiki/1016959663602400">Python教程 - 廖雪峰的官方网站</a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/python3/python3-tutorial.html">Python3 教程菜鸟教程</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/jackfrued/Python-100-Days"><img src="https://github-readme-stats.vercel.app/api/pin/?username=jackfrued&amp;repo=Python-100-Days&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/TwoWater/Python"><img src="https://github-readme-stats.vercel.app/api/pin/?username=TwoWater&amp;repo=Python&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/wistbean/learn_python3_spider"><img src="https://github-readme-stats.vercel.app/api/pin/?username=wistbean&amp;repo=learn_python3_spider&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/Kr1s77/Python-crawler-tutorial-starts-from-zero"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Kr1s77&amp;repo=Python-crawler-tutorial-starts-from-zero&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/CodecWang/OpenCV-Python-Tutorial"><img src="https://github-readme-stats.vercel.app/api/pin/?username=CodecWang&amp;repo=OpenCV-Python-Tutorial&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/hangsz/pandas-tutorial"><img src="https://github-readme-stats.vercel.app/api/pin/?username=hangsz&amp;repo=pandas-tutorial&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/ethan-funny/explore-python"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ethan-funny&amp;repo=explore-python&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/realpython/python-guide"><img src="https://github-readme-stats.vercel.app/api/pin/?username=realpython&amp;repo=python-guide&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/yidao620c/python3-cookbook"><img src="https://github-readme-stats.vercel.app/api/pin/?username=yidao620c&amp;repo=python3-cookbook&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/Jack-Cherish/PythonPark"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Jack-Cherish&amp;repo=PythonPark&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/taizilongxu/interview_python"><img src="https://github-readme-stats.vercel.app/api/pin/?username=taizilongxu&amp;repo=interview_python&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/eastlakeside/interpy-zh"><img src="https://github-readme-stats.vercel.app/api/pin/?username=eastlakeside&amp;repo=interpy-zh&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/iswbm/pycharm-guide"><img src="https://github-readme-stats.vercel.app/api/pin/?username=iswbm&amp;repo=pycharm-guide&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/iswbm/magic-python"><img src="https://github-readme-stats.vercel.app/api/pin/?username=iswbm&amp;repo=magic-python&amp;theme=dark" alt=""></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="⏳-项目-1"><a href="#⏳-项目-1" class="headerlink" title="⏳ 项目"></a>⏳ 项目</h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/bisguzar/twitter-scraper"><img src="https://github-readme-stats.vercel.app/api/pin/?username=bisguzar&amp;repo=twitter-scraper&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/x-hw/amazing-qr"><img src="https://github-readme-stats.vercel.app/api/pin/?username=x-hw&amp;repo=amazing-qr&amp;theme=dark" alt=""></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="👻-C"><a href="#👻-C" class="headerlink" title="👻 C"></a>👻 C</h2><h3 id="🔬-教程-2"><a href="#🔬-教程-2" class="headerlink" title="🔬 教程"></a>🔬 教程</h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:left"></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><a target="_blank" rel="noopener" href="https://www.runoob.com/cprogramming/c-tutorial.html">C 语言教程菜鸟教程</a></td>
+<td><a target="_blank" rel="noopener" href="https://fresh2refresh.com/c-programming/">C Programming Tutorial</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><a target="_blank" rel="noopener" href="http://www.imooc.com/learn/249">C语言入门教程-慕课网</a></td>
+<td><a target="_blank" rel="noopener" href="https://wizardforcel.gitbooks.io/lcthw/content/preface.html"> 笨办法学C</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><a target="_blank" rel="noopener" href="https://www.lanqiao.cn/courses/57">C 语言简明教程_C - 蓝桥云课</a></td>
+<td><a target="_blank" rel="noopener" href="https://study.163.com/course/introduction/1003030021.htm#/courseDetail">C语言基础入门 - 网易云课堂</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><a target="_blank" rel="noopener" href="https://github.com/hairrrrr/C-CrashCourse"><img src="https://github-readme-stats.vercel.app/api/pin/?username=hairrrrr&amp;repo=C-CrashCourse&amp;theme=dark" alt=""></a></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="⏳-项目-2"><a href="#⏳-项目-2" class="headerlink" title="⏳ 项目"></a>⏳ 项目</h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.lanqiao.cn/courses/155">C 语言实现 2048 游戏_C - 蓝桥云课</a></td>
+<td><a target="_blank" rel="noopener" href="https://study.163.com/course/introduction/1321006.htm#/courseDetail">C语言：斗地主的发牌器 - 网易云课堂</a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.lanqiao.cn/courses/75">C 语言实现简单计算器_C - 蓝桥云课</a></td>
+<td><a target="_blank" rel="noopener" href="https://www.lanqiao.cn/courses/670">C 语言实现自己的编程语言_C - 蓝桥云课</a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/Rapiz1/DungeonRush"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Rapiz1&amp;repo=DungeonRush&amp;theme=dark" alt=""></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="🐋-C"><a href="#🐋-C" class="headerlink" title="🐋 C++"></a>🐋 C++</h2><h3 id="🔬-教程-3"><a href="#🔬-教程-3" class="headerlink" title="🔬 教程"></a>🔬 教程</h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://docs.microsoft.com/zh-cn/cpp/cpp/?view=msvc-160">C++ 文档 - 入门、教程、参考。Microsoft Docs</a></td>
+<td><a target="_blank" rel="noopener" href="https://www.nowcoder.com/tutorial/10003/7bdcb36b1ff74114b026c46b7ac64ac1">C++教程_编程入门教程_牛客网</a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="http://c.biancheng.net/cplus/">C++入门教程，C++基础教程</a></td>
+<td><a target="_blank" rel="noopener" href="https://www.w3cschool.cn/cpp/">C++ 教程_w3cschool</a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.yiibai.com/cplusplus/">C++教程™ </a></td>
+<td><a target="_blank" rel="noopener" href="http://gitbook.net/cplusplus/index.html">C++在线教程 </a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://fresh2refresh.com/cpp-tutorial/">C++ Tutorial</a></td>
+<td><a target="_blank" rel="noopener" href="https://www.cplusplus.com/">The C++ Resources Network</a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/Light-City/CPlusPlusThings"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Light-City&amp;repo=CPlusPlusThings&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/wuye9036/CppTemplateTutorial"><img src="https://github-readme-stats.vercel.app/api/pin/?username=wuye9036&amp;repo=CppTemplateTutorial&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/CoatiSoftware/Sourcetrail"><img src="https://github-readme-stats.vercel.app/api/pin/?username=CoatiSoftware&amp;repo=Sourcetrail&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/changkun/modern-cpp-tutorial"><img src="https://github-readme-stats.vercel.app/api/pin/?username=changkun&amp;repo=modern-cpp-tutorial&amp;theme=dark" alt=""></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="⏳-项目-3"><a href="#⏳-项目-3" class="headerlink" title="⏳ 项目"></a>⏳ 项目</h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/plibither8/2048.cpp"><img src="https://github-readme-stats.vercel.app/api/pin/?username=plibither8&amp;repo=2048.cpp&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/Alinshans/MyTinySTL"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Alinshans&amp;repo=MyTinySTL&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/microsoft/calculator"><img src="https://github-readme-stats.vercel.app/api/pin/?username=microsoft&amp;repo=calculator&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/taylorconor/tinytetris"><img src="https://github-readme-stats.vercel.app/api/pin/?username=taylorconor&amp;repo=tinytetris&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/xmuli/chinessChess"><img src="https://github-readme-stats.vercel.app/api/pin/?username=xmuli&amp;repo=chinessChess&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/xournalpp/xournalpp"><img src="https://github-readme-stats.vercel.app/api/pin/?username=xournalpp&amp;repo=xournalpp&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/mayerui/sudoku"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mayerui&amp;repo=sudoku&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/ChungZH/notepanda"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ChungZH&amp;repo=notepanda&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/yuzu-emu/yuzu"><img src="https://github-readme-stats.vercel.app/api/pin/?username=yuzu-emu&amp;repo=yuzu&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/christianparpart/contour"><img src="https://github-readme-stats.vercel.app/api/pin/?username=christianparpart&amp;repo=contour&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/amhndu/SimpleNES"><img src="https://github-readme-stats.vercel.app/api/pin/?username=amhndu&amp;repo=SimpleNES&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/Neirth/FreeNOS"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Neirth&amp;repo=FreeNOS&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/ithewei/hplayer"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ithewei&amp;repo=hplayer&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/an-tao/drogon"><img src="https://github-readme-stats.vercel.app/api/pin/?username=an-tao&amp;repo=drogon&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/flameshot-org/flameshot"><img src="https://github-readme-stats.vercel.app/api/pin/?username=flameshot-org&amp;repo=flameshot&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/csb6/html-plus-plus"><img src="https://github-readme-stats.vercel.app/api/pin/?username=csb6&amp;repo=html-plus-plus&amp;theme=dark" alt=""></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="🔔-Go"><a href="#🔔-Go" class="headerlink" title="🔔 Go"></a>🔔 Go</h2><h3 id="🍭-教程"><a href="#🍭-教程" class="headerlink" title="🍭 教程"></a>🍭 教程</h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/unknwon/the-way-to-go_ZH_CN"><img src="https://github-readme-stats.vercel.app/api/pin/?username=unknwon&amp;repo=the-way-to-go_ZH_CN&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/xinliangnote/Go"><img src="https://github-readme-stats.vercel.app/api/pin/?username=xinliangnote&amp;repo=Go&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/talkgo/read"><img src="https://github-readme-stats.vercel.app/api/pin/?username=talkgo&amp;repo=read&amp;theme=dark" alt=""></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="🍼-项目"><a href="#🍼-项目" class="headerlink" title="🍼 项目"></a>🍼 项目</h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/zxh0/jvm.go"><img src="https://github-readme-stats.vercel.app/api/pin/?username=zxh0&amp;repo=jvm.go&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/zxh0/jvmgo-book"><img src="https://github-readme-stats.vercel.app/api/pin/?username=zxh0&amp;repo=jvmgo-book&amp;theme=dark" alt=""></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="👗-前端"><a href="#👗-前端" class="headerlink" title="👗 前端"></a>👗 前端</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/qianguyihao/Web"><img src="https://github-readme-stats.vercel.app/api/pin/?username=qianguyihao&amp;repo=Web&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/FrontEndGitHub/FrontEndGitHub"><img src="https://github-readme-stats.vercel.app/api/pin/?username=FrontEndGitHub&amp;repo=FrontEndGitHub&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/vuejs/awesome-vue"><img src="https://github-readme-stats.vercel.app/api/pin/?username=vuejs&amp;repo=awesome-vue&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/kujian/frontendDaily"><img src="https://github-readme-stats.vercel.app/api/pin/?username=kujian&amp;repo=frontendDaily&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/ljianshu/Blog"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ljianshu&amp;repo=Blog&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/JacksonTian/fks"><img src="https://github-readme-stats.vercel.app/api/pin/?username=JacksonTian&amp;repo=fks&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/ruanyf/jstraining"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ruanyf&amp;repo=jstraining&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/stephentian/33-js-concepts"><img src="https://github-readme-stats.vercel.app/api/pin/?username=stephentian&amp;repo=33-js-concepts&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/alienzhou/frontend-tech-list"><img src="https://github-readme-stats.vercel.app/api/pin/?username=alienzhou&amp;repo=frontend-tech-list&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/iview/iview-admin"><img src="https://github-readme-stats.vercel.app/api/pin/?username=iview&amp;repo=iview-admin&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/Advanced-Frontend/Daily-Interview-Question"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Advanced-Frontend&amp;repo=Daily-Interview-Question&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/InterviewMap/CS-Interview-Knowledge-Map"><img src="https://github-readme-stats.vercel.app/api/pin/?username=InterviewMap&amp;repo=CS-Interview-Knowledge-Map&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/paddingme/Front-end-Web-Development-Interview-Question"><img src="https://github-readme-stats.vercel.app/api/pin/?username=paddingme&amp;repo=Front-end-Web-Development-Interview-Question&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/yygmind/blog"><img src="https://github-readme-stats.vercel.app/api/pin/?username=yygmind&amp;repo=blog&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/ascoders/weekly"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ascoders&amp;repo=weekly&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/lefex/FE"><img src="https://github-readme-stats.vercel.app/api/pin/?username=lefex&amp;repo=FE&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/microsoft/Web-Dev-For-Beginners"><img src="https://github-readme-stats.vercel.app/api/pin/?username=microsoft&amp;repo=Web-Dev-For-Beginners&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/Asabeneh/30-Days-Of-React"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Asabeneh&amp;repo=30-Days-Of-React&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/godbasin/vue-ebook"><img src="https://github-readme-stats.vercel.app/api/pin/?username=godbasin&amp;repo=vue-ebook&amp;theme=dark" alt=""></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="👒-数据结构-算法"><a href="#👒-数据结构-算法" class="headerlink" title="👒 数据结构/算法"></a>👒 数据结构/算法</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/MisterBooo/LeetCodeAnimation"><img src="https://github-readme-stats.vercel.app/api/pin/?username=MisterBooo&amp;repo=LeetCodeAnimation&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/labuladong/fucking-algorithm"><img src="https://github-readme-stats.vercel.app/api/pin/?username=labuladong&amp;repo=fucking-algorithm&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/geekxh/hello-algorithm"><img src="https://github-readme-stats.vercel.app/api/pin/?username=geekxh&amp;repo=hello-algorithm&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/nonstriater/Learn-Algorithms"><img src="https://github-readme-stats.vercel.app/api/pin/?username=nonstriater&amp;repo=Learn-Algorithms&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/halfrost/LeetCode-Go"><img src="https://github-readme-stats.vercel.app/api/pin/?username=halfrost&amp;repo=LeetCode-Go&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/billryan/algorithm-exercise"><img src="https://github-readme-stats.vercel.app/api/pin/?username=billryan&amp;repo=algorithm-exercise&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/liweiwei1419/LeetCode-Solutions-in-Good-Style"><img src="https://github-readme-stats.vercel.app/api/pin/?username=liweiwei1419&amp;repo=LeetCode-Solutions-in-Good-Style&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/doocs/leetcode"><img src="https://github-readme-stats.vercel.app/api/pin/?username=doocs&amp;repo=leetcode&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/Xunzhuo/Algorithm-Guide"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Xunzhuo&amp;repo=Algorithm-Guide&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/Blankj/awesome-java-leetcode"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Blankj&amp;repo=awesome-java-leetcode&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/TheAlgorithms/C-Plus-Plus"><img src="https://github-readme-stats.vercel.app/api/pin/?username=TheAlgorithms&amp;repo=C-Plus-Plus&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/TheAlgorithms/C"><img src="https://github-readme-stats.vercel.app/api/pin/?username=TheAlgorithms&amp;repo=C&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/TheAlgorithms/Go"><img src="https://github-readme-stats.vercel.app/api/pin/?username=TheAlgorithms&amp;repo=Go&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/TheAlgorithms/Python"><img src="https://github-readme-stats.vercel.app/api/pin/?username=TheAlgorithms&amp;repo=Python&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/TheAlgorithms/Javascript"><img src="https://github-readme-stats.vercel.app/api/pin/?username=TheAlgorithms&amp;repo=Javascript&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/TheAlgorithms/Java"><img src="https://github-readme-stats.vercel.app/api/pin/?username=TheAlgorithms&amp;repo=Java&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/greyireland/algorithm-pattern"><img src="https://github-readme-stats.vercel.app/api/pin/?username=greyireland&amp;repo=algorithm-pattern&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/algorithm-visualizer/algorithm-visualizer"><img src="https://github-readme-stats.vercel.app/api/pin/?username=algorithm-visualizer&amp;repo=algorithm-visualizer&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/mgechev/javascript-algorithms"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mgechev&amp;repo=javascript-algorithms&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/trekhleb/javascript-algorithms"><img src="https://github-readme-stats.vercel.app/api/pin/?username=trekhleb&amp;repo=javascript-algorithms&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/keon/algorithms"><img src="https://github-readme-stats.vercel.app/api/pin/?username=keon&amp;repo=algorithms&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/jeffgerickson/algorithms"><img src="https://github-readme-stats.vercel.app/api/pin/?username=jeffgerickson&amp;repo=algorithms&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/raywenderlich/swift-algorithm-club"><img src="https://github-readme-stats.vercel.app/api/pin/?username=raywenderlich&amp;repo=swift-algorithm-club&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/tayllan/awesome-algorithms"><img src="https://github-readme-stats.vercel.app/api/pin/?username=tayllan&amp;repo=awesome-algorithms&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/wangzheng0822/algo"><img src="https://github-readme-stats.vercel.app/api/pin/?username=wangzheng0822&amp;repo=algo&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/liuxinyu95/AlgoXY"><img src="https://github-readme-stats.vercel.app/api/pin/?username=liuxinyu95&amp;repo=AlgoXY&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/Dairongpeng/algorithm-note"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Dairongpeng&amp;repo=algorithm-note&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/wind-liang/leetcode"><img src="https://github-readme-stats.vercel.app/api/pin/?username=wind-liang&amp;repo=leetcode&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/youngyangyang04/leetcode-master"><img src="https://github-readme-stats.vercel.app/api/pin/?username=youngyangyang04&amp;repo=leetcode-master&amp;theme=dark" alt=""></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="👣-Linux"><a href="#👣-Linux" class="headerlink" title="👣 Linux"></a>👣 Linux</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a target="_blank" rel="noopener" href="http://linux.vbird.org/">鸟哥的 Linux 私房菜</a></td>
+<td><a target="_blank" rel="noopener" href="https://www.runoob.com/linux/linux-tutorial.html">Linux 教程    菜鸟教程</a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.w3cschool.cn/linux/">Linux 教程_w3cschool</a></td>
+<td><a target="_blank" rel="noopener" href="https://www.lanqiao.cn/courses/68">Linux 命令基础入门_Linux - 蓝桥云课</a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.lanqiao.cn/courses/1">Linux 基础入门_Linux - 蓝桥云课</a></td>
+<td><a target="_blank" rel="noopener" href="https://www.lanqiao.cn/courses/1403">Linux 运维新手入门课_Linux - 蓝桥云课</a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://xinbaoku.com/linux_tutorial">Linux学习教程，Linux入门教程</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/yeasy/docker_practice"><img src="https://github-readme-stats.vercel.app/api/pin/?username=yeasy&amp;repo=docker_practice&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/dunwu/linux-tutorial"><img src="https://github-readme-stats.vercel.app/api/pin/?username=dunwu&amp;repo=linux-tutorial&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/judasn/Linux-Tutorial"><img src="https://github-readme-stats.vercel.app/api/pin/?username=judasn&amp;repo=Linux-Tutorial&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/jaywcjlove/linux-command"><img src="https://github-readme-stats.vercel.app/api/pin/?username=jaywcjlove&amp;repo=linux-command&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/billie66/TLCL"><img src="https://github-readme-stats.vercel.app/api/pin/?username=billie66&amp;repo=TLCL&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/MintCN/linux-insides-zh"><img src="https://github-readme-stats.vercel.app/api/pin/?username=MintCN&amp;repo=linux-insides-zh&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/gatieme/LDD-LinuxDeviceDrivers"><img src="https://github-readme-stats.vercel.app/api/pin/?username=gatieme&amp;repo=LDD-LinuxDeviceDrivers&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/me115/linuxtools_rst"><img src="https://github-readme-stats.vercel.app/api/pin/?username=me115&amp;repo=linuxtools_rst&amp;theme=dark" alt=""></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="🎓-Git"><a href="#🎓-Git" class="headerlink" title="🎓 Git"></a>🎓 Git</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://learngitbranching.js.org/">LearnGitBranching</a></td>
+<td><a target="_blank" rel="noopener" href="https://backlog.com/git-tutorial/cn/">猴子都能懂的GIT入门</a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://www.liaoxuefeng.com/wiki/896043488029600">Git教程 - 廖雪峰的官方网站</a></td>
+<td><a target="_blank" rel="noopener" href="https://git-scm.com/book/zh/v2">Git - Book</a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://rogerdudler.github.io/git-guide/index.zh.html">git - the simple guide - no deep shit! </a></td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/firstcontributions/first-contributions"><img src="https://github-readme-stats.vercel.app/api/pin/?username=firstcontributions&amp;repo=first-contributions&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/521xueweihan/git-tips"><img src="https://github-readme-stats.vercel.app/api/pin/?username=521xueweihan&amp;repo=git-tips&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/twtrubiks/Git-Tutorials"><img src="https://github-readme-stats.vercel.app/api/pin/?username=twtrubiks&amp;repo=Git-Tutorials&amp;theme=dark" alt=""></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="🎼-人工智能"><a href="#🎼-人工智能" class="headerlink" title="🎼 人工智能"></a>🎼 人工智能</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://developers.google.cn/machine-learning/crash-course">机器学习速成课程 Google Developers</a></td>
+<td><a target="_blank" rel="noopener" href="https://zh-v2.d2l.ai/">《动手学深度学习》 — 动手学深度学习 2.0.0</a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="http://www.ai-start.com/ml2014/">机器学习个人笔记-目录</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/jikexueyuanwiki/tensorflow-zh"><img src="https://github-readme-stats.vercel.app/api/pin/?username=jikexueyuanwiki&amp;repo=tensorflow-zh&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/lcylmhlcy/Awesome-algorithm-interview"><img src="https://github-readme-stats.vercel.app/api/pin/?username=lcylmhlcy&amp;repo=Awesome-algorithm-interview&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/apachecn/AiLearning"><img src="https://github-readme-stats.vercel.app/api/pin/?username=apachecn&amp;repo=AiLearning&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/fengdu78/deeplearning_ai_books"><img src="https://github-readme-stats.vercel.app/api/pin/?username=fengdu78&amp;repo=deeplearning_ai_books&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/nndl/nndl.github.io"><img src="https://github-readme-stats.vercel.app/api/pin/?username=nndl&amp;repo=nndl.github.io&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/zergtant/pytorch-handbook"><img src="https://github-readme-stats.vercel.app/api/pin/?username=zergtant&amp;repo=pytorch-handbook&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/NLP-LOVE/ML-NLP"><img src="https://github-readme-stats.vercel.app/api/pin/?username=NLP-LOVE&amp;repo=ML-NLP&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/chenyuntc/pytorch-book"><img src="https://github-readme-stats.vercel.app/api/pin/?username=chenyuntc&amp;repo=pytorch-book&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/ShusenTang/Dive-into-DL-PyTorch"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ShusenTang&amp;repo=Dive-into-DL-PyTorch&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/MorvanZhou/PyTorch-Tutorial"><img src="https://github-readme-stats.vercel.app/api/pin/?username=MorvanZhou&amp;repo=PyTorch-Tutorial&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/apachecn/ai-roadmap"><img src="https://github-readme-stats.vercel.app/api/pin/?username=apachecn&amp;repo=ai-roadmap&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/MLEveryday/practicalAI-cn"><img src="https://github-readme-stats.vercel.app/api/pin/?username=MLEveryday&amp;repo=practicalAI-cn&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/amusi/AI-Job-Notes"><img src="https://github-readme-stats.vercel.app/api/pin/?username=amusi&amp;repo=AI-Job-Notes&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/Yorko/mlcourse.ai"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Yorko&amp;repo=mlcourse.ai&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow"><img src="https://github-readme-stats.vercel.app/api/pin/?username=MorvanZhou&amp;repo=Reinforcement-learning-with-tensorflow&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/fastai/course-v3"><img src="https://github-readme-stats.vercel.app/api/pin/?username=fastai&amp;repo=course-v3&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/weslynn/AlphaTree-graphic-deep-neural-network"><img src="https://github-readme-stats.vercel.app/api/pin/?username=weslynn&amp;repo=AlphaTree-graphic-deep-neural-network&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/girls-in-ai/Girls-In-AI"><img src="https://github-readme-stats.vercel.app/api/pin/?username=girls-in-ai&amp;repo=Girls-In-AI&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/scutan90/DeepLearning-500-questions"><img src="https://github-readme-stats.vercel.app/api/pin/?username=scutan90&amp;repo=DeepLearning-500-questions&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/NLP-LOVE/Introduction-NLP"><img src="https://github-readme-stats.vercel.app/api/pin/?username=NLP-LOVE&amp;repo=Introduction-NLP&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/duoergun0729/nlp"><img src="https://github-readme-stats.vercel.app/api/pin/?username=duoergun0729&amp;repo=nlp&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/linjinjin123/awesome-AIOps"><img src="https://github-readme-stats.vercel.app/api/pin/?username=linjinjin123&amp;repo=awesome-AIOps&amp;theme=dark" alt=""></a></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/datawhalechina/team-learning-data-mining"><img src="https://github-readme-stats.vercel.app/api/pin/?username=datawhalechina&amp;repo=team-learning-data-mining&amp;theme=dark" alt=""></a></td>
+<td><a target="_blank" rel="noopener" href="https://github.com/fengdu78/WZU-machine-learning-course"><img src="https://github-readme-stats.vercel.app/api/pin/?username=fengdu78&amp;repo=WZU-machine-learning-course&amp;theme=dark" alt=""></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="📞-联系我"><a href="#📞-联系我" class="headerlink" title="📞 联系我"></a>📞 联系我</h2><h3 id="📟-公众号"><a href="#📟-公众号" class="headerlink" title="📟 公众号"></a>📟 公众号</h3><blockquote>
+<p>  名称：<strong>村雨遥</strong>，微信号：<strong>cunyu1943</strong></p>
+</blockquote>
+<p>建议关注公众号 🤝🤝🤝，最新文章会优先发布到此处，此外也方便及时交流，也可以通过微信公众号后台添加我的个人微信！</p>
+<div align="center"><img src="https://gitee.com/cunyu1943/images/raw/master/ImgsUbuntu/20200510234310.png" style="zoom:50%;" width="50%"></div>
+
+<h3 id="💬-个人微信"><a href="#💬-个人微信" class="headerlink" title="💬 个人微信"></a>💬 个人微信</h3><blockquote>
+<p>  昵称：<strong>K</strong>，微信号：<strong>cunyu1024</strong></p>
+</blockquote>
+<div align="center"><img src="https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/blog/wechat.gif" style="zoom:50%;"></div>
+
+<h2 id="🍟其他平台"><a href="#🍟其他平台" class="headerlink" title="🍟其他平台"></a>🍟其他平台</h2><ul>
+<li>📌 <strong>Github@村雨遥</strong>：<a target="_blank" rel="noopener" href="https://github.com/cunyu1943">https://github.com/cunyu1943</a></li>
+<li>📌 <strong>Gitee@村雨遥</strong>：<a target="_blank" rel="noopener" href="https://gitee.com/cunyu1943">https://gitee.com/cunyu1943</a></li>
+<li>📌 <strong>CSDN@村雨遥</strong>：<a target="_blank" rel="noopener" href="https://blog.csdn.net/github_39655029">https://blog.csdn.net/github_39655029</a></li>
+<li>📌 <strong>掘金@村雨遥</strong>：<a target="_blank" rel="noopener" href="https://juejin.cn/user/747323637904519">https://juejin.cn/user/747323637904519</a></li>
+<li>📌 <strong>知乎@村雨遥</strong>：<a target="_blank" rel="noopener" href="https://www.zhihu.com/people/cunyu1943">https://www.zhihu.com/people/cunyu1943</a></li>
+<li>📌 <strong>简书@村雨遥</strong>：<a target="_blank" rel="noopener" href="https://www.jianshu.com/u/c936e85a22d8">https://www.jianshu.com/u/c936e85a22d8</a></li>
+<li>📌 <strong>牛客@村雨遥</strong>：<a target="_blank" rel="noopener" href="https://www.nowcoder.com/profile/806383223">https://www.nowcoder.com/profile/806383223</a></li>
+<li>📌 <strong>开源中国@村雨遥</strong>：<a target="_blank" rel="noopener" href="https://my.oschina.net/cunyu1943">https://my.oschina.net/cunyu1943</a></li>
+<li>📌 <strong>腾讯云+社区@村雨遥</strong>：<a target="_blank" rel="noopener" href="https://cloud.tencent.com/developer/column/80666">https://cloud.tencent.com/developer/column/80666</a></li>
+</ul>
+<h2 id="🍋-特别致谢"><a href="#🍋-特别致谢" class="headerlink" title="🍋 特别致谢"></a>🍋 特别致谢</h2><ol>
+<li><a target="_blank" rel="noopener" href="https://typora.io/">Typora</a>，所有文档均使用 Typora 编写；</li>
+<li><a target="_blank" rel="noopener" href="https://github.com/anuraghazra/github-readme-stats">GitHub Readme Stats</a>：Get dynamically generated GitHub stats on your readmes!</li>
+</ol>
+
+                
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">村雨遥</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="http://cunyu1943.site/code-nav/index.html">http://cunyu1943.site/code-nav/index.html</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">村雨遥</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="wechat,qq,qzone,weibo,douban,linkedin,twitter,facebook,google" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">你的赏识是我创作的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.png" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
+        </div>
+    </div>
+
+    
+        <link rel="stylesheet" href="/libs/gitalk/gitalk.css">
+<link rel="stylesheet" href="/css/my-gitalk.css">
+
+<div class="card gitalk-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="gitalk-container" class="card-content"></div>
+</div>
+
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script>
+    let gitalk = new Gitalk({
+        clientID: '8195db58494122cb1cf5',
+        clientSecret: 'e9aab942ebe254595c186b5d1deea9f26c93d933',
+        repo: 'cunyu1943.github.io',
+        owner: 'cunyu1943',
+        admin: "cunyu1943",
+        id: '2021-05-08T11-13-57',
+        distractionFreeMode: false  // Facebook-like distraction free mode
+    });
+
+    gitalk.render('gitalk-container');
+</script>
+
+    
+
+    
+
+    
+
+    
+
+    
+        <style>
+    .valine-card {
+        margin: 1.5rem auto;
+    }
+
+    .valine-card .card-content {
+        padding: 20px 20px 5px 20px;
+    }
+
+    #vcomments textarea {
+        box-sizing: border-box;
+        background: url("/medias/comment_bg.png") 100% 100% no-repeat;
+    }
+
+    #vcomments p {
+        margin: 2px 2px 10px;
+        font-size: 1.05rem;
+        line-height: 1.78rem;
+    }
+
+    #vcomments blockquote p {
+        text-indent: 0.2rem;
+    }
+
+    #vcomments a {
+        padding: 0 2px;
+        color: #4cbf30;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    #vcomments img {
+        max-width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    #vcomments ol li {
+        list-style-type: decimal;
+    }
+
+    #vcomments ol,
+    ul {
+        display: block;
+        padding-left: 2em;
+        word-spacing: 0.05rem;
+    }
+
+    #vcomments ul li,
+    ol li {
+        display: list-item;
+        line-height: 1.8rem;
+        font-size: 1rem;
+    }
+
+    #vcomments ul li {
+        list-style-type: disc;
+    }
+
+    #vcomments ul ul li {
+        list-style-type: circle;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    #vcomments table, th, td {
+        border: 0;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments h1 {
+        font-size: 1.85rem;
+        font-weight: bold;
+        line-height: 2.2rem;
+    }
+
+    #vcomments h2 {
+        font-size: 1.65rem;
+        font-weight: bold;
+        line-height: 1.9rem;
+    }
+
+    #vcomments h3 {
+        font-size: 1.45rem;
+        font-weight: bold;
+        line-height: 1.7rem;
+    }
+
+    #vcomments h4 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    #vcomments h5 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        line-height: 1.4rem;
+    }
+
+    #vcomments h6 {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    #vcomments p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    #vcomments hr {
+        margin: 12px 0;
+        border: 0;
+        border-top: 1px solid #ccc;
+    }
+
+    #vcomments blockquote {
+        margin: 15px 0;
+        border-left: 5px solid #42b983;
+        padding: 1rem 0.8rem 0.3rem 0.8rem;
+        color: #666;
+        background-color: rgba(66, 185, 131, .1);
+    }
+
+    #vcomments pre {
+        font-family: monospace, monospace;
+        padding: 1.2em;
+        margin: .5em 0;
+        background: #272822;
+        overflow: auto;
+        border-radius: 0.3em;
+        tab-size: 4;
+    }
+
+    #vcomments code {
+        font-family: monospace, monospace;
+        padding: 1px 3px;
+        font-size: 0.92rem;
+        color: #e96900;
+        background-color: #f8f8f8;
+        border-radius: 2px;
+    }
+
+    #vcomments pre code {
+        font-family: monospace, monospace;
+        padding: 0;
+        color: #e8eaf6;
+        background-color: #272822;
+    }
+
+    #vcomments pre[class*="language-"] {
+        padding: 1.2em;
+        margin: .5em 0;
+    }
+
+    #vcomments code[class*="language-"],
+    pre[class*="language-"] {
+        color: #e8eaf6;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+
+    #vcomments b,
+    strong {
+        font-weight: bold;
+    }
+
+    #vcomments dfn {
+        font-style: italic;
+    }
+
+    #vcomments small {
+        font-size: 85%;
+    }
+
+    #vcomments cite {
+        font-style: normal;
+    }
+
+    #vcomments mark {
+        background-color: #fcf8e3;
+        padding: .2em;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+</style>
+
+<div class="card valine-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="vcomments" class="card-content" style="display: grid">
+    </div>
+</div>
+
+<script src="/libs/valine/av-min.js"></script>
+<script src="https://unpkg.com/valine@1.3.9/dist/Valine.min.js"></script>
+<script>
+    new Valine({
+        el: '#vcomments',
+        appId: 'syx8P52pC7WTl9pzSFRGzuKd-MdYXbMMI',
+        appKey: 'es1Ae3CV3E2mg94MBHcUFfcq',
+        notify: 'false' === 'true',
+        verify: 'false' === 'true',
+        visitor: 'true' === 'true',
+        avatar: 'mm',
+        pageSize: '10',
+        lang: 'zh-cn',
+        placeholder: '如果你还没有 Github 账号，可以来这里留言 ~'
+    });
+</script>
+
+<!--酷Q推送-->
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/code-nav/index.html">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="免费编程资源">
+                        
+                        <span class="card-title">免费编程资源</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-05-08
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            村雨遥
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                本篇&nbsp;<i class="far fa-dot-circle"></i>
+            </div>
+            <div class="card">
+                <a href="/code-nav/index.html">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="免费编程资源">
+                        
+                        <span class="card-title">免费编程资源</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-05-08
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            村雨遥
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+<script>
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('120')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + '来源: 村雨遥的博客<br />'
+            + '文章作者: 村雨遥<br />'
+            + '文章链接: <a href="' + url + '">' + url + '</a><br />'
+            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
+    });
+</script>
+
+
+<!-- readmore -->
+<script src="https://readmore.openwrite.cn/js/readmore.js" type="text/javascript"></script>
+<script>
+    const btw = new BTWPlugin();
+    btw.init({
+        id: 'artDetail',
+        blogId: '15556-1619960496381-104',
+        name: '村雨遥',
+        qrcode: 'https://gitee.com/cunyu1943/images/raw/master/blogpic/wepublic.png',
+        keyword: 'vip',
+    });
+</script>
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget card" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+    <div class="container row center-align" style="margin-bottom: 15px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            
+                <span id="year">2020-2021</span>
+            
+            <a href="/about" target="_blank">村雨遥</a>
+            <!-- |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a> -->
+            <br>
+            
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">94.2k</span>&nbsp;字
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <span id="sitetime">载入运行时间...</span>
+            <script>
+                function siteTime() {
+                    var seconds = 1000;
+                    var minutes = seconds * 60;
+                    var hours = minutes * 60;
+                    var days = hours * 24;
+                    var years = days * 365;
+                    var today = new Date();
+                    var startYear = "2020";
+                    var startMonth = "1";
+                    var startDate = "1";
+                    var startHour = "0";
+                    var startMinute = "0";
+                    var startSecond = "0";
+                    var todayYear = today.getFullYear();
+                    var todayMonth = today.getMonth() + 1;
+                    var todayDate = today.getDate();
+                    var todayHour = today.getHours();
+                    var todayMinute = today.getMinutes();
+                    var todaySecond = today.getSeconds();
+                    var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                    var diff = t2 - t1;
+                    var diffYears = Math.floor(diff / years);
+                    var diffDays = Math.floor((diff / days) - diffYears * 365);
+                    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
+                        minutes);
+                    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
+                        diffMinutes * minutes) / seconds);
+                    if (startYear == todayYear) {
+                        document.getElementById("year").innerHTML = todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已运行 " + diffDays + " 天 " + diffHours +
+                            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    } else {
+                        document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已运行 " + diffYears + " 年 " + diffDays +
+                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    }
+                }
+                setInterval(siteTime, 1000);
+            </script>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/cunyu1943" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:747731461@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=747731461" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 747731461" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+    <a href="https://www.zhihu.com/people/cunyu1943" class="tooltipped" target="_blank" data-tooltip="关注我的知乎: https://www.zhihu.com/people/cunyu1943" data-position="top" data-delay="50">
+        <i class="fab fa-zhihu1">知</i>
+    </a>
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+        <!-- 又拍云的位置 以div为一个部分 -->
+        <div class="col s12 m4 l4" align=center> <a href="https://www.upyun.com/" target="_blank"> <img
+            src="https://gitee.com/cunyu1943/images/raw/master/blogpic/upyun.png" width="17%" /></a>
+        </div>
+
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+$(function () {
+    var searchFunc = function (path, search_id, content_id) {
+        'use strict';
+        $.ajax({
+            url: path,
+            dataType: "xml",
+            success: function (xmlResponse) {
+                // get the contents from search data
+                var datas = $("entry", xmlResponse).map(function () {
+                    return {
+                        title: $("title", this).text(),
+                        content: $("content", this).text(),
+                        url: $("url", this).text()
+                    };
+                }).get();
+                var $input = document.getElementById(search_id);
+                var $resultContent = document.getElementById(content_id);
+                $input.addEventListener('input', function () {
+                    var str = '<ul class=\"search-result-list\">';
+                    var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                    $resultContent.innerHTML = "";
+                    if (this.value.trim().length <= 0) {
+                        return;
+                    }
+                    // perform local searching
+                    datas.forEach(function (data) {
+                        var isMatch = true;
+                        var data_title = data.title.trim().toLowerCase();
+                        var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
+                        var data_url = data.url;
+                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var index_title = -1;
+                        var index_content = -1;
+                        var first_occur = -1;
+                        // only match artiles with not empty titles and contents
+                        if (data_title !== '' && data_content !== '') {
+                            keywords.forEach(function (keyword, i) {
+                                index_title = data_title.indexOf(keyword);
+                                index_content = data_content.indexOf(keyword);
+                                if (index_title < 0 && index_content < 0) {
+                                    isMatch = false;
+                                } else {
+                                    if (index_content < 0) {
+                                        index_content = 0;
+                                    }
+                                    if (i === 0) {
+                                        first_occur = index_content;
+                                    }
+                                }
+                            });
+                        }
+                        // show search results
+                        if (isMatch) {
+                            str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
+                            var content = data.content.trim().replace(/<[^>]+>/g, "");
+                            if (first_occur >= 0) {
+                                // cut out 100 characters
+                                var start = first_occur - 20;
+                                var end = first_occur + 80;
+                                if (start < 0) {
+                                    start = 0;
+                                }
+                                if (start === 0) {
+                                    end = 100;
+                                }
+                                if (end > content.length) {
+                                    end = content.length;
+                                }
+                                var match_content = content.substr(start, end);
+                                // highlight all keywords
+                                keywords.forEach(function (keyword) {
+                                    var regS = new RegExp(keyword, "gi");
+                                    match_content = match_content.replace(regS, "<em class=\"search-keyword\">" + keyword + "</em>");
+                                });
+
+                                str += "<p class=\"search-result\">" + match_content + "...</p>"
+                            }
+                            str += "</li>";
+                        }
+                    });
+                    str += "</ul>";
+                    $resultContent.innerHTML = str;
+                });
+            }
+        });
+    };
+
+    searchFunc('/search.xml', 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?0e04a42f3ef801de0a628947884a3bcd";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    <!--腾讯兔小巢-->
+    
+    
+
+    
+    
+    <script type="text/javascript" size="150" alpha='0.6'
+        zIndex="-1" src="/libs/background/ribbon.min.js" async="async"></script>
+    
+
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>
