@@ -876,19 +876,46 @@
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <p>而对于方法命名的方式，也是有一定讲究的。因为一般而言方法都是一个类的动作行为，所以 <strong>一般都是以动词开头，而如果有多个单词组合，则除开第一个单词全部小写之外，后面每个单词的第一个字母都要使用大写</strong>。</p>
 <h3 id="构造方法"><a href="#构造方法" class="headerlink" title="构造方法"></a>构造方法</h3><p>上面我们说了实例（也就是对象）和属性，那么当我们创建一个实例的时候，通常我们想要把它的属性也给它设置好。为了实现这一功能，这时候我们可以添加方法，从而达到这一目的，以上述设置宠物的年龄为例。</p>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">// 首先创建一个实例Pet pet = new Pet();// 接着调用方法设置年龄pet.setAge(3);// 查看设置年龄是否成功System.out.println(pet.getAge());</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">// 首先创建一个实例</span>
+<span class="token class-name">Pet</span> pet <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Pet</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// 接着调用方法设置年龄</span>
+pet<span class="token punctuation">.</span><span class="token function">setAge</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// 查看设置年龄是否成功</span>
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>pet<span class="token punctuation">.</span><span class="token function">getAge</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <p>可以发现通过上述调用方法的方式是可以完成这一目的的，但假设我们需要设置的属性很多，此时要全部设置属性值时就需要调用许多次 <code>setter</code> 方法，一旦遗漏一个，则实例内部状态就紊乱了。那我们就想了，有没有一种简单点的方法，能够让我们在创建实例对象的同时就把内部属性初始化了呢？</p>
 <p>答案是：Yes！🎉🎉🎉</p>
 <p>这时候我们就可以用到一类特殊的方法 - <strong>构造方法</strong>，以下就来看看这个构造方法的特殊之处。</p>
 <p>其实在上面我们创建实例的时候就已经调用了构造方法了，只不过它是没有带任何参数的构造方法。以上述动物类 <code>Pet</code> 为实例，我们来看看如何编写它的构造方法。</p>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Pet</span><span class="token punctuation">{</span>        <span class="token comment">// 名字    public String name;        // 毛色    public String furColor;        // 年龄    public int age;        // 无参构造方法    public Pet(){}        // 带参构造方法    public Pet(String name, String furColor, int age){        this.name = name;        this.furColor = furColor;        this.age = age;    }}</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Pet</span><span class="token punctuation">{</span>
+        <span class="token comment">// 名字</span>
+    <span class="token keyword">public</span> <span class="token class-name">String</span> name<span class="token punctuation">;</span>
+    
+    <span class="token comment">// 毛色</span>
+    <span class="token keyword">public</span> <span class="token class-name">String</span> furColor<span class="token punctuation">;</span>
+    
+    <span class="token comment">// 年龄</span>
+    <span class="token keyword">public</span> <span class="token keyword">int</span> age<span class="token punctuation">;</span>
+    
+    <span class="token comment">// 无参构造方法</span>
+    <span class="token keyword">public</span> <span class="token class-name">Pet</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token punctuation">}</span>
+    
+    <span class="token comment">// 带参构造方法</span>
+    <span class="token keyword">public</span> <span class="token class-name">Pet</span><span class="token punctuation">(</span><span class="token class-name">String</span> name<span class="token punctuation">,</span> <span class="token class-name">String</span> furColor<span class="token punctuation">,</span> <span class="token keyword">int</span> age<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>name <span class="token operator">=</span> name<span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>furColor <span class="token operator">=</span> furColor<span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>age <span class="token operator">=</span> age<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <p>以上我们只是给出了无参的构造方法和带了所有属性的构造方法，除了上面的两个构造方法之外，我们还可以根据需要创建带有部分属性的构造方法。可以看到，相比于普通的方法，构造方法有着明显的特点：</p>
 <ol>
 <li><strong>没有返回值</strong>：是的，无论是带参还是不带参的构造函数，它们都是没有返回值的，而它也是 <strong>每个类默认的构造方法</strong>；</li>
 <li><strong>方法名同类名一样</strong>：必须确保构造方法的名字和类名一致，否则它就不是构造方法了；</li>
 </ol>
 <p>有了构造方法之后，我们创建实例时就可以直接给它初始化了，而不用再去麻烦地调用各个 <code>setter</code> 方法来初始化实例。</p>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">// 调用无参构造方法Pet pet1 = new Pet();// 调用有参构造方法Pet pet2 = new Pet("柯基", "黄色", 1);</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">// 调用无参构造方法</span>
+<span class="token class-name">Pet</span> pet1 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Pet</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// 调用有参构造方法</span>
+<span class="token class-name">Pet</span> pet2 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Pet</span><span class="token punctuation">(</span><span class="token string">"柯基"</span><span class="token punctuation">,</span> <span class="token string">"黄色"</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 <p>🎈 Tips：对于实例的属性值，在未经构造方法初始化时，各数据类型都有默认值，整型默认值为 <code>0</code>，浮点型默认值为 <code>0.0</code>，布尔类型默认值为 <code>false</code>，引用类型默认值为 <code>null</code>。</p>
 <h3 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h3><p>既然知道了什么是面向对象以及面向对象中的一些关键知识点如对象、属性、方法的概念，那我们就趁热来看看啥是引用。</p>
 <p>所谓引用，其实在之前学习的时候就已经涉及到了。你是否还记得 <code>String</code> 这个特殊的数据类型，其实在我们创建一个 <code>String</code> 对象时，也就创建了一个引用。</p>
@@ -896,7 +923,12 @@
 <p>其中 <code>str</code> 既是一个变量，也是一个引用，指向一个值为 <code>"村雨遥"</code> 的 <code>String</code> 对象，后续如果我们要访问这个 <code>String</code> 对象，就需要使用 <code>str</code> 这个引用来代表它。</p>
 <p><img src="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8c6475fcddda4b19b7f1ba10ec940b09~tplv-k3u1fbpfcp-watermark.image" alt=""></p>
 <p>以上我们说的是一个引用指向一个对象，但是我们也可以用多个引用指向同一个对象。就好比你家买了一俩车，不仅你可以开，你老婆也可以开，你爸妈也可以开。而这时候的车就好比一个“对象”，而使用它的人就是多个“引用”。</p>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">// 对象 1String str1 = new String("村雨遥");// 对象 2String str2 = str1;// 对象 3String str3 = str1;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">// 对象 1</span>
+<span class="token class-name">String</span> str1 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">String</span><span class="token punctuation">(</span><span class="token string">"村雨遥"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// 对象 2</span>
+<span class="token class-name">String</span> str2 <span class="token operator">=</span> str1<span class="token punctuation">;</span>
+<span class="token comment">// 对象 3</span>
+<span class="token class-name">String</span> str3 <span class="token operator">=</span> str1<span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <p><img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3d8d0a440f60445f9b6f8c249a79caa0~tplv-k3u1fbpfcp-watermark.image" alt=""></p>
 <h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>XDM，今天的内容就到此结束了。主要讲了面向对象的相关概念以及特性，并对面向对象中的类、对象、属性、方法、构造方法以及引用做了介绍，关于更多面向对象的知识，我们下一篇文章中再见！</p>
 <blockquote>
