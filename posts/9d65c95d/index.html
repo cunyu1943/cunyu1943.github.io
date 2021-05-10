@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="留言板, Java 公众号：村雨遥 LeetCode">
+    <meta name="keywords" content="【Bug 修复】为什么 2 * (i * i) 比 2 * i * i 效率高？, Java 公众号：村雨遥 LeetCode">
     <meta name="description" content="吾生也有涯，而知也无涯。">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>留言板 | 村雨遥的博客</title>
+    <title>【Bug 修复】为什么 2 * (i * i) 比 2 * i * i 效率高？ | 村雨遥的博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -501,7 +501,7 @@
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">留言板</h1>
+                    <h1 class="description center-align post-title">【Bug 修复】为什么 2 * (i * i) 比 2 * i * i 效率高？</h1>
                 </div>
             </div>
         </div>
@@ -615,12 +615,25 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/Java/">
+                                <span class="chip bg-color">Java</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/Bug-%E4%BF%AE%E5%A4%8D/" class="post-category">
+                                Bug 修复
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -629,28 +642,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-01-21
+                    2021-05-10
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-01-21
+                    2021-05-10
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    124
+                    1.6k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    8 分
                 </div>
                 
 
@@ -673,22 +686,264 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="有什麽想説的？"><a href="#有什麽想説的？" class="headerlink" title="有什麽想説的？"></a><strong>有什麽想説的？</strong></h2><h2 id="有什麽想問的？"><a href="#有什麽想問的？" class="headerlink" title="有什麽想問的？"></a><strong>有什麽想問的？</strong></h2><h2 id="有什麽想吐槽的？"><a href="#有什麽想吐槽的？" class="headerlink" title="有什麽想吐槽的？"></a><strong>有什麽想吐槽的？</strong></h2><h2 id="都可以在下面留言…"><a href="#都可以在下面留言…" class="headerlink" title="都可以在下面留言…"></a><strong>都可以在下面留言…</strong></h2><hr>
-<h2 id="友链交换"><a href="#友链交换" class="headerlink" title="友链交换"></a>友链交换</h2><p>交换友链的朋友们，请先添加我的网站到您的友链，然后在下面留言！留言格式如下：</p>
-<ul>
-<li>name: 博客名</li>
-<li>link: 博客链接</li>
-<li>avatar: 博客头像</li>
-<li>descr: 博客描述</li>
-</ul>
-<p>比如我的信息：</p>
-<blockquote>
-<ul>
-<li>name: 村雨遥の杂货铺</li>
-<li>link: <a href="https://cunyu1943.site">https://cunyu1943.site</a></li>
-<li>avatar: <a target="_blank" rel="noopener" href="https://gitee.com/cunyu1943/images/raw/master/blogpic/avatar.png">https://gitee.com/cunyu1943/images/raw/master/blogpic/avatar.png</a></li>
-<li>descr: 吾生也有涯，而知也无涯</li>
-</ul>
+                <blockquote>
+<p>  <strong>本文已收录至个人 Github仓库</strong>：<a target="_blank" rel="noopener" href="https://github.com/cunyu1943/cs-docs">cs-docs</a>，欢迎各位 <strong>Star、Fork</strong> ~</p>
+</blockquote>
+<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>为什么 <code>2  * (i * i)</code>  比 <code>2 * i * i</code> 效率高？</p>
+<p>执行如下代码时，平均完成时间在 0.50s 到 0.55s 之间：</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java">ublic <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">long</span> startTime <span class="token operator">=</span> <span class="token class-name">System</span><span class="token punctuation">.</span><span class="token function">nanoTime</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">int</span> n <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">1000000000</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        n <span class="token operator">+=</span> <span class="token number">2</span> <span class="token operator">*</span> <span class="token punctuation">(</span>i <span class="token operator">*</span> i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token keyword">double</span><span class="token punctuation">)</span> <span class="token punctuation">(</span><span class="token class-name">System</span><span class="token punctuation">.</span><span class="token function">nanoTime</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">-</span> startTime<span class="token punctuation">)</span> <span class="token operator">/</span> <span class="token number">1000000000</span> <span class="token operator">+</span> <span class="token string">" s"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"n = "</span> <span class="token operator">+</span> n<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>但如果我把其中的 <code>2 * (i * i)</code> 换成 <code>2 * i * i</code>，程序的平均完成时间就在 0.60s 到 0.65s 之间，这是什么原因导致的呢？</p>
+<p>我反复运行了上述程序 15 次，每次运行的时间结果对比如下：</p>
+<pre class="line-numbers language-none"><code class="language-none">2*(i*i)  |  2*i*i
+----------+----------
+0.5183738 | 0.6246434
+0.5298337 | 0.6049722
+0.5308647 | 0.6603363
+0.5133458 | 0.6243328
+0.5003011 | 0.6541802
+0.5366181 | 0.6312638
+0.515149  | 0.6241105
+0.5237389 | 0.627815
+0.5249942 | 0.6114252
+0.5641624 | 0.6781033
+0.538412  | 0.6393969
+0.5466744 | 0.6608845
+0.531159  | 0.6201077
+0.5048032 | 0.6511559
+0.5232789 | 0.6544526<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>其中运行 <code>2 * i * i</code> 版本的代码最快完成时间都要比 <code>2 * (i * i)</code> 版本最慢完成时间慢上很多。假设它们要达到相同的效率，那么此事发生的概率应该低于 $1/2^{15} * 100\% = 0.00305\%$.</p>
+<h2 id="回答"><a href="#回答" class="headerlink" title="回答"></a>回答</h2><h3 id="回答-1"><a href="#回答-1" class="headerlink" title="回答 1"></a>回答 1</h3><p>两者的字节码顺序有些许不同。</p>
+<p>首先来看 <code>2 * (i * i)</code> 的字节码：</p>
+<pre class="line-numbers language-none"><code class="language-none">iconst_2
+iload0
+iload0
+imul
+imul
+iadd<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>再来看 <code>2 * i * i</code> 的字节码：</p>
+<pre class="line-numbers language-none"><code class="language-none">iconst_2
+iload0
+imul
+iload0
+imul
+iadd<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>乍一看，两者并没有什么不同，只是顺序发生了变化，但实际上第二个版本是更优的版本。</p>
+<p>我们深入底层去看看 JIT，JIT 更倾向于展开小循环，而 <code>2 * (i * i)</code> 是以 16 倍来展开的：</p>
+<pre class="line-numbers language-none"><code class="language-none">030   B2: # B2 B3 &lt;- B1 B2  Loop: B2-B2 inner main of N18 Freq: 1e+006
+030     addl    R11, RBP    # int
+033     movl    RBP, R13    # spill
+036     addl    RBP, #14    # int
+039     imull   RBP, RBP    # int
+03c     movl    R9, R13 # spill
+03f     addl    R9, #13 # int
+043     imull   R9, R9  # int
+047     sall    RBP, #1
+049     sall    R9, #1
+04c     movl    R8, R13 # spill
+04f     addl    R8, #15 # int
+053     movl    R10, R8 # spill
+056     movdl   XMM1, R8    # spill
+05b     imull   R10, R8 # int
+05f     movl    R8, R13 # spill
+062     addl    R8, #12 # int
+066     imull   R8, R8  # int
+06a     sall    R10, #1
+06d     movl    [rsp + #32], R10    # spill
+072     sall    R8, #1
+075     movl    RBX, R13    # spill
+078     addl    RBX, #11    # int
+07b     imull   RBX, RBX    # int
+07e     movl    RCX, R13    # spill
+081     addl    RCX, #10    # int
+084     imull   RCX, RCX    # int
+087     sall    RBX, #1
+089     sall    RCX, #1
+08b     movl    RDX, R13    # spill
+08e     addl    RDX, #8 # int
+091     imull   RDX, RDX    # int
+094     movl    RDI, R13    # spill
+097     addl    RDI, #7 # int
+09a     imull   RDI, RDI    # int
+09d     sall    RDX, #1
+09f     sall    RDI, #1
+0a1     movl    RAX, R13    # spill
+0a4     addl    RAX, #6 # int
+0a7     imull   RAX, RAX    # int
+0aa     movl    RSI, R13    # spill
+0ad     addl    RSI, #4 # int
+0b0     imull   RSI, RSI    # int
+0b3     sall    RAX, #1
+0b5     sall    RSI, #1
+0b7     movl    R10, R13    # spill
+0ba     addl    R10, #2 # int
+0be     imull   R10, R10    # int
+0c2     movl    R14, R13    # spill
+0c5     incl    R14 # int
+0c8     imull   R14, R14    # int
+0cc     sall    R10, #1
+0cf     sall    R14, #1
+0d2     addl    R14, R11    # int
+0d5     addl    R14, R10    # int
+0d8     movl    R10, R13    # spill
+0db     addl    R10, #3 # int
+0df     imull   R10, R10    # int
+0e3     movl    R11, R13    # spill
+0e6     addl    R11, #5 # int
+0ea     imull   R11, R11    # int
+0ee     sall    R10, #1
+0f1     addl    R10, R14    # int
+0f4     addl    R10, RSI    # int
+0f7     sall    R11, #1
+0fa     addl    R11, R10    # int
+0fd     addl    R11, RAX    # int
+100     addl    R11, RDI    # int
+103     addl    R11, RDX    # int
+106     movl    R10, R13    # spill
+109     addl    R10, #9 # int
+10d     imull   R10, R10    # int
+111     sall    R10, #1
+114     addl    R10, R11    # int
+117     addl    R10, RCX    # int
+11a     addl    R10, RBX    # int
+11d     addl    R10, R8 # int
+120     addl    R9, R10 # int
+123     addl    RBP, R9 # int
+126     addl    RBP, [RSP + #32 (32-bit)]   # int
+12a     addl    R13, #16    # int
+12e     movl    R11, R13    # spill
+131     imull   R11, R13    # int
+135     sall    R11, #1
+138     cmpl    R13, #999999985
+13f     jl     B2   # loop end  P=1.000000 C=6554623.000000<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>我们可以看到堆栈上只有 1 个寄存器溢出。</p>
+<p>再来看看 <code>2 * i * i</code> 版本：</p>
+<pre class="line-numbers language-none"><code class="language-none">05a   B3: # B2 B4 &lt;- B1 B2  Loop: B3-B2 inner main of N18 Freq: 1e+006
+05a     addl    RBX, R11    # int
+05d     movl    [rsp + #32], RBX    # spill
+061     movl    R11, R8 # spill
+064     addl    R11, #15    # int
+068     movl    [rsp + #36], R11    # spill
+06d     movl    R11, R8 # spill
+070     addl    R11, #14    # int
+074     movl    R10, R9 # spill
+077     addl    R10, #16    # int
+07b     movdl   XMM2, R10   # spill
+080     movl    RCX, R9 # spill
+083     addl    RCX, #14    # int
+086     movdl   XMM1, RCX   # spill
+08a     movl    R10, R9 # spill
+08d     addl    R10, #12    # int
+091     movdl   XMM4, R10   # spill
+096     movl    RCX, R9 # spill
+099     addl    RCX, #10    # int
+09c     movdl   XMM6, RCX   # spill
+0a0     movl    RBX, R9 # spill
+0a3     addl    RBX, #8 # int
+0a6     movl    RCX, R9 # spill
+0a9     addl    RCX, #6 # int
+0ac     movl    RDX, R9 # spill
+0af     addl    RDX, #4 # int
+0b2     addl    R9, #2  # int
+0b6     movl    R10, R14    # spill
+0b9     addl    R10, #22    # int
+0bd     movdl   XMM3, R10   # spill
+0c2     movl    RDI, R14    # spill
+0c5     addl    RDI, #20    # int
+0c8     movl    RAX, R14    # spill
+0cb     addl    RAX, #32    # int
+0ce     movl    RSI, R14    # spill
+0d1     addl    RSI, #18    # int
+0d4     movl    R13, R14    # spill
+0d7     addl    R13, #24    # int
+0db     movl    R10, R14    # spill
+0de     addl    R10, #26    # int
+0e2     movl    [rsp + #40], R10    # spill
+0e7     movl    RBP, R14    # spill
+0ea     addl    RBP, #28    # int
+0ed     imull   RBP, R11    # int
+0f1     addl    R14, #30    # int
+0f5     imull   R14, [RSP + #36 (32-bit)]   # int
+0fb     movl    R10, R8 # spill
+0fe     addl    R10, #11    # int
+102     movdl   R11, XMM3   # spill
+107     imull   R11, R10    # int
+10b     movl    [rsp + #44], R11    # spill
+110     movl    R10, R8 # spill
+113     addl    R10, #10    # int
+117     imull   RDI, R10    # int
+11b     movl    R11, R8 # spill
+11e     addl    R11, #8 # int
+122     movdl   R10, XMM2   # spill
+127     imull   R10, R11    # int
+12b     movl    [rsp + #48], R10    # spill
+130     movl    R10, R8 # spill
+133     addl    R10, #7 # int
+137     movdl   R11, XMM1   # spill
+13c     imull   R11, R10    # int
+140     movl    [rsp + #52], R11    # spill
+145     movl    R11, R8 # spill
+148     addl    R11, #6 # int
+14c     movdl   R10, XMM4   # spill
+151     imull   R10, R11    # int
+155     movl    [rsp + #56], R10    # spill
+15a     movl    R10, R8 # spill
+15d     addl    R10, #5 # int
+161     movdl   R11, XMM6   # spill
+166     imull   R11, R10    # int
+16a     movl    [rsp + #60], R11    # spill
+16f     movl    R11, R8 # spill
+172     addl    R11, #4 # int
+176     imull   RBX, R11    # int
+17a     movl    R11, R8 # spill
+17d     addl    R11, #3 # int
+181     imull   RCX, R11    # int
+185     movl    R10, R8 # spill
+188     addl    R10, #2 # int
+18c     imull   RDX, R10    # int
+190     movl    R11, R8 # spill
+193     incl    R11 # int
+196     imull   R9, R11 # int
+19a     addl    R9, [RSP + #32 (32-bit)]    # int
+19f     addl    R9, RDX # int
+1a2     addl    R9, RCX # int
+1a5     addl    R9, RBX # int
+1a8     addl    R9, [RSP + #60 (32-bit)]    # int
+1ad     addl    R9, [RSP + #56 (32-bit)]    # int
+1b2     addl    R9, [RSP + #52 (32-bit)]    # int
+1b7     addl    R9, [RSP + #48 (32-bit)]    # int
+1bc     movl    R10, R8 # spill
+1bf     addl    R10, #9 # int
+1c3     imull   R10, RSI    # int
+1c7     addl    R10, R9 # int
+1ca     addl    R10, RDI    # int
+1cd     addl    R10, [RSP + #44 (32-bit)]   # int
+1d2     movl    R11, R8 # spill
+1d5     addl    R11, #12    # int
+1d9     imull   R13, R11    # int
+1dd     addl    R13, R10    # int
+1e0     movl    R10, R8 # spill
+1e3     addl    R10, #13    # int
+1e7     imull   R10, [RSP + #40 (32-bit)]   # int
+1ed     addl    R10, R13    # int
+1f0     addl    RBP, R10    # int
+1f3     addl    R14, RBP    # int
+1f6     movl    R10, R8 # spill
+1f9     addl    R10, #16    # int
+1fd     cmpl    R10, #999999985
+204     jl     B2   # loop end  P=1.000000 C=7419903.000000<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>这里我们看到堆栈上有更多的溢出，这是因为此时需要保存的中间结果增多了。</p>
+<p>因此，问题迎刃而解，<code>2 * (i * i)</code> 之所以比 <code>2 * i * i</code> 效率高，是因为 JIT 为 <code>2 * (i * i)</code> 生成了更佳的汇编代码。</p>
+<h2 id="出处"><a href="#出处" class="headerlink" title="出处"></a>出处</h2><blockquote>
+<p>  文章翻译自 Stack Overflow：<a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/53452713/why-is-2-i-i-faster-than-2-i-i-in-java">Why is 2 <em> (i </em> i) faster than 2 <em> i </em> i in Java? </a></p>
+<p>  建议关注公众号 「<strong>村雨遥</strong>」，最新干货文章不容错过 ~</p>
 </blockquote>
 
                 
@@ -716,7 +971,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://cunyu1943.site/message/index.html">http://cunyu1943.site/message/index.html</a>
+                    <a href="http://cunyu1943.site/posts/9d65c95d/">http://cunyu1943.site/posts/9d65c95d/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -753,7 +1008,11 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/Java/">
+                                    <span class="chip bg-color">Java</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -922,7 +1181,7 @@
         repo: 'cunyu1943.github.io',
         owner: 'cunyu1943',
         admin: "cunyu1943",
-        id: '2021-01-21T17-57-46',
+        id: '2021-05-10T19-26-56',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -1216,18 +1475,17 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/message/index.html">
+                <a href="/posts/cd270c2a/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="留言板">
+                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="【Bug 修复】如何将 Java 8 中的流转换为数组">
                         
-                        <span class="card-title">留言板</span>
+                        <span class="card-title">【Bug 修复】如何将 Java 8 中的流转换为数组</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1237,18 +1495,29 @@
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-01-21
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-05-10
+                        </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            村雨遥
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Bug-%E4%BF%AE%E5%A4%8D/" class="post-category">
+                                    Bug 修复
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
-
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Java/">
+                        <span class="chip bg-color">Java</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -1256,16 +1525,16 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/message/index.html">
+                <a href="/posts/3a718393/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="留言板">
+                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="【Java 从入坑到放弃】No 7. 何为面向对象（上）">
                         
-                        <span class="card-title">留言板</span>
+                        <span class="card-title">【Java 从入坑到放弃】No 7. 何为面向对象（上）</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1276,17 +1545,28 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-01-21
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-05-08
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            村雨遥
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Java-%E4%BF%AE%E7%82%BC%E4%B9%8B%E8%B7%AF/" class="post-category">
+                                    Java 修炼之路
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
-
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Java/">
+                        <span class="chip bg-color">Java</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -1464,6 +1744,13 @@
 
 </main>
 
+
+<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$', '$'], ['\(', '\)']]}
+    });
+</script>
 
 
 

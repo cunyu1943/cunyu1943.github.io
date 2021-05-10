@@ -6,7 +6,7 @@
   <link href="http://cunyu1943.site/atom.xml" rel="self"/>
   
   <link href="http://cunyu1943.site/"/>
-  <updated>2021-05-08T10:59:07.752Z</updated>
+  <updated>2021-05-10T11:30:05.109Z</updated>
   <id>http://cunyu1943.site/</id>
   
   <author>
@@ -15,6 +15,58 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【Bug 修复】如何将 Java 8 中的流转换为数组</title>
+    <link href="http://cunyu1943.site/posts/cd270c2a/"/>
+    <id>http://cunyu1943.site/posts/cd270c2a/</id>
+    <published>2021-05-10T11:29:19.000Z</published>
+    <updated>2021-05-10T11:30:05.109Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;  &lt;strong&gt;本文已收录至个人 Github仓库&lt;/strong&gt;：&lt;a href=&quot;https://github.com/cunyu1943/cs-docs&quot;&gt;cs-docs&lt;/a&gt;，欢迎各位</summary>
+        
+      
+    
+    
+    
+    <category term="Bug 修复" scheme="http://cunyu1943.site/categories/Bug-%E4%BF%AE%E5%A4%8D/"/>
+    
+    
+    <category term="Java" scheme="http://cunyu1943.site/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Bug 修复】为什么 2 * (i * i) 比 2 * i * i 效率高？</title>
+    <link href="http://cunyu1943.site/posts/9d65c95d/"/>
+    <id>http://cunyu1943.site/posts/9d65c95d/</id>
+    <published>2021-05-10T11:26:56.000Z</published>
+    <updated>2021-05-10T11:28:23.713Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;  &lt;strong&gt;本文已收录至个人 Github仓库&lt;/strong&gt;：&lt;a href=&quot;https://github.com/cunyu1943/cs-docs&quot;&gt;cs-docs&lt;/a&gt;，欢迎各位</summary>
+        
+      
+    
+    
+    
+    <category term="Bug 修复" scheme="http://cunyu1943.site/categories/Bug-%E4%BF%AE%E5%A4%8D/"/>
+    
+    
+    <category term="Java" scheme="http://cunyu1943.site/tags/Java/"/>
+    
+  </entry>
   
   <entry>
     <title>【Java 从入坑到放弃】No 7. 何为面向对象（上）</title>
@@ -493,62 +545,6 @@
     <category term="Github" scheme="http://cunyu1943.site/tags/Github/"/>
     
     <category term="资源" scheme="http://cunyu1943.site/tags/%E8%B5%84%E6%BA%90/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【实战演练场】Java 学生成绩管理系统，附源码！</title>
-    <link href="http://cunyu1943.site/posts/67ecb459/"/>
-    <id>http://cunyu1943.site/posts/67ecb459/</id>
-    <published>2021-05-04T03:16:45.000Z</published>
-    <updated>2021-05-04T03:23:09.334Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;  &lt;strong&gt;本文已收录至个人 Github仓库&lt;/strong&gt;：&lt;a href=&quot;https://github.com/cunyu1943/cs-docs&quot;&gt;cs-docs&lt;/a&gt;，欢迎各位</summary>
-        
-      
-    
-    
-    
-    <category term="实战演练场" scheme="http://cunyu1943.site/categories/%E5%AE%9E%E6%88%98%E6%BC%94%E7%BB%83%E5%9C%BA/"/>
-    
-    
-    <category term="Java" scheme="http://cunyu1943.site/tags/Java/"/>
-    
-    <category term="项目" scheme="http://cunyu1943.site/tags/%E9%A1%B9%E7%9B%AE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Java 从入坑到放弃】反射机制详解：入门、使用、实例</title>
-    <link href="http://cunyu1943.site/posts/3e20d784/"/>
-    <id>http://cunyu1943.site/posts/3e20d784/</id>
-    <published>2021-05-04T03:15:02.000Z</published>
-    <updated>2021-05-04T03:23:09.315Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;  &lt;strong&gt;本文已收录至个人 Github仓库&lt;/strong&gt;：&lt;a href=&quot;https://github.com/cunyu1943/cs-docs&quot;&gt;cs-docs&lt;/a&gt;，欢迎各位</summary>
-        
-      
-    
-    
-    
-    <category term="Java 修炼之路" scheme="http://cunyu1943.site/categories/Java-%E4%BF%AE%E7%82%BC%E4%B9%8B%E8%B7%AF/"/>
-    
-    
-    <category term="Java" scheme="http://cunyu1943.site/tags/Java/"/>
-    
-    <category term="反射" scheme="http://cunyu1943.site/tags/%E5%8F%8D%E5%B0%84/"/>
     
   </entry>
   
