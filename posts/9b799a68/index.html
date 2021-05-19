@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="【剑指 Offer】10-II. 青蛙跳台阶问题, Java 公众号：村雨遥 LeetCode">
+    <meta name="keywords" content="【数据结构与算法】谈谈我是如何给有序数组去重的？, Java 公众号：村雨遥 LeetCode">
     <meta name="description" content="吾生也有涯，而知也无涯。">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>【剑指 Offer】10-II. 青蛙跳台阶问题 | 村雨遥的博客</title>
+    <title>【数据结构与算法】谈谈我是如何给有序数组去重的？ | 村雨遥的博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -496,12 +496,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/8.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/10.png')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">【剑指 Offer】10-II. 青蛙跳台阶问题</h1>
+                    <h1 class="description center-align post-title">【数据结构与算法】谈谈我是如何给有序数组去重的？</h1>
                 </div>
             </div>
         </div>
@@ -617,8 +617,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E5%89%91%E6%8C%87-Offer/">
-                                <span class="chip bg-color">剑指 Offer</span>
+                            <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">
+                                <span class="chip bg-color">数据结构</span>
+                            </a>
+                        
+                            <a href="/tags/%E6%95%B0%E7%BB%84/">
+                                <span class="chip bg-color">数组</span>
                             </a>
                         
                     </div>
@@ -629,8 +633,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Online-Judge/" class="post-category">
-                                Online Judge
+                            <a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" class="post-category">
+                                数据结构与算法
                             </a>
                         
                     </div>
@@ -642,28 +646,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-05-04
+                    2021-05-19
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-05-04
+                    2021-05-19
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    509
+                    1.2k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    2 分
+                    4 分
                 </div>
                 
 
@@ -689,82 +693,100 @@
                 <blockquote>
 <p>  <strong>本文已收录至个人 Github仓库</strong>：<a target="_blank" rel="noopener" href="https://github.com/cunyu1943/cs-docs">cs-docs</a>，欢迎各位 <strong>Star、Fork</strong> ~</p>
 </blockquote>
-<h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><ul>
-<li><a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/">剑指 Offer 10- II. 青蛙跳台阶问题</a></li>
-<li>难度：简单</li>
-</ul>
-<h2 id="描述"><a href="#描述" class="headerlink" title="描述"></a>描述</h2><blockquote>
-<p>  一只青蛙一次可以跳上1级台阶，也可以跳上2级台阶。求该青蛙跳上一个 <code>n</code> 级的台阶总共有多少种跳法。</p>
-<p>  答案需要取模 1e9+7（1000000007），如计算初始结果为：1000000008，请返回 1。</p>
-<p>  <strong>示例 1：</strong></p>
-<p>  <strong>输入：</strong> n = 2</p>
-<p>  <strong>输出：</strong> 2</p>
-<p>  <strong>示例 2：</strong></p>
-<p>  <strong>输入：</strong> n = 7</p>
-<p>  <strong>输出：</strong> 21</p>
-<p>  <strong>示例 3：</strong></p>
-<p>  <strong>输入：</strong> n = 0</p>
-<p>  <strong>输出：</strong> 1</p>
-<p>  <strong>提示：</strong></p>
-<ul>
-<li><code>0 &lt;= n &lt;= 100</code></li>
-</ul>
-</blockquote>
-<h2 id="方法-1"><a href="#方法-1" class="headerlink" title="方法 1"></a>方法 1</h2><h3 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h3><ol>
-<li>递归</li>
-<li>自己在草稿上模拟一遍，可以发现其实就是个斐波那契数列</li>
-<li>所以可以很容易写出递归版本</li>
-<li>此时时间辅助度为 $O(2^n)$</li>
-</ol>
-<h3 id="实现"><a href="#实现" class="headerlink" title="实现"></a>实现</h3><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">int</span> <span class="token function">numWays</span><span class="token punctuation">(</span><span class="token keyword">int</span> n<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-	<span class="token comment">// 基础情况</span>
-    <span class="token keyword">if</span><span class="token punctuation">(</span>n <span class="token operator">&lt;=</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-        <span class="token keyword">return</span> n<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-
-    <span class="token comment">// 递归实现</span>
-    <span class="token keyword">return</span> <span class="token punctuation">(</span><span class="token function">numWays</span><span class="token punctuation">(</span>n <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token function">numWays</span><span class="token punctuation">(</span>n <span class="token operator">-</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">%</span> <span class="token number">1000000007</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h2 id="方法-2"><a href="#方法-2" class="headerlink" title="方法 2"></a>方法 2</h2><h3 id="思路-1"><a href="#思路-1" class="headerlink" title="思路"></a>思路</h3><p>用一个 HashMap 来保存已经计算过的状态，然后每次从里边判断是否要计算该状态；</p>
-<h3 id="实现-1"><a href="#实现-1" class="headerlink" title="实现"></a>实现</h3><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">static</span> <span class="token class-name">Map</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Integer</span><span class="token punctuation">,</span> <span class="token class-name">Integer</span><span class="token punctuation">&gt;</span></span> map <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">HashMap</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token keyword">public</span> <span class="token keyword">int</span> <span class="token function">numWays</span><span class="token punctuation">(</span><span class="token keyword">int</span> n<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">if</span><span class="token punctuation">(</span>n <span class="token operator">&lt;=</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-        <span class="token keyword">return</span> n<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
-        <span class="token comment">// 判断是否计算过，计算过就直接获取该值</span>
-        <span class="token keyword">if</span><span class="token punctuation">(</span>map<span class="token punctuation">.</span><span class="token function">containsKey</span><span class="token punctuation">(</span>n<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-            <span class="token keyword">return</span> map<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span>n<span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
-            <span class="token comment">// 如果没有计算过，就加入该值并返回</span>
-            <span class="token keyword">int</span> tmp <span class="token operator">=</span> <span class="token function">numWays</span><span class="token punctuation">(</span>n <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token function">numWays</span><span class="token punctuation">(</span>n <span class="token operator">-</span> <span class="token number">2</span><span class="token punctuation">)</span> <span class="token operator">%</span> <span class="token number">1000000007</span><span class="token punctuation">;</span>
-            map<span class="token punctuation">.</span><span class="token function">put</span><span class="token punctuation">(</span>n<span class="token punctuation">,</span> tmp<span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token keyword">return</span> tmp<span class="token punctuation">;</span>
+<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>给定一个有序数组，要删除数组重复出现的元素，使得每个元素只出现一次，然后返回移除重复数组后的新长度；</p>
+<p><strong>示例</strong>：</p>
+<p>假设给定一个数组 <code>nums = [1,2,4,4]</code>，删除重复出现的元素 4 后，原数组变成 <code>nums = [1, 2, 4]</code>，此时新的数组长度为 3；</p>
+<h2 id="解决思路"><a href="#解决思路" class="headerlink" title="解决思路"></a>解决思路</h2><h3 id="数组原地操作"><a href="#数组原地操作" class="headerlink" title="数组原地操作"></a>数组原地操作</h3><p>数组原地操作，此时无需创建新的数组，只需要在原来的数组上操作即可。相当于首先要找到数组中重复的元素，然后将重复的元素移除，此时就涉及到数组中的删除操作，相关知识点可以看我的另一篇文章 <a target="_blank" rel="noopener" href="https://juejin.cn/post/6959725810160762888">数组的增删改查</a>。</p>
+<p>这是一种时间换空间的方法，此时的空间复杂度为 $O(1)$，时间复杂度为 $O(n^2)$，具体实现可以参考如下代码，其中也详细注释了每一步操作。</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">/**
+* 去除有序数组中重复元素并返回数组的新长度
+* @param nums
+* @return 删除重复元素后数组的新长度
+*/</span>
+<span class="token keyword">public</span> <span class="token keyword">int</span> <span class="token function">removeDuplicates</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> nums<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 数组初始容量</span>
+    <span class="token keyword">int</span> length <span class="token operator">=</span> nums<span class="token punctuation">.</span>length<span class="token punctuation">;</span>
+    
+    <span class="token comment">// 我们假定数组最后一个元素是唯一的，然后对于其他的每个元素，如果自身与它后边的数相同，那么就删除这个相同的元素</span>
+    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> length <span class="token operator">-</span> <span class="token number">2</span><span class="token punctuation">;</span> i <span class="token operator">&gt;=</span> <span class="token number">0</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token comment">// 比较当前元素与其后一个元素是否相等</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>nums<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">==</span> nums<span class="token punctuation">[</span>i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token comment">// 若相等，则移除后一位，并将所有元素向前移动一位</span>
+            <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> j <span class="token operator">=</span> i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">;</span> j <span class="token operator">&lt;</span> length<span class="token punctuation">;</span> j<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+                num<span class="token punctuation">[</span>j <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> nums<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+            length<span class="token operator">--</span><span class="token punctuation">;</span>
         <span class="token punctuation">}</span>
     <span class="token punctuation">}</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h2 id="方法-3"><a href="#方法-3" class="headerlink" title="方法 3"></a>方法 3</h2><h3 id="思路-2"><a href="#思路-2" class="headerlink" title="思路"></a>思路</h3><ol>
-<li>利用递归实现很简单，但是时间复杂度太高，所以考虑用动态规划的方法</li>
-<li>观察可以发现，其实当前状态只和前两个状态相关，所以定义两个状态 <code>prev</code> 和 <code>curr</code> 来前两个状态的值</li>
-<li>然后然后不断切换两个状态值就可以得到最终结果</li>
-<li>此时时间复杂度为 $O(n)$</li>
-</ol>
-<h3 id="实现-2"><a href="#实现-2" class="headerlink" title="实现"></a>实现</h3><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">int</span> <span class="token function">numWays</span><span class="token punctuation">(</span><span class="token keyword">int</span> n<span class="token punctuation">)</span> <span class="token punctuation">{</span>
     
-    <span class="token keyword">if</span><span class="token punctuation">(</span>n <span class="token operator">==</span> <span class="token number">1</span> <span class="token operator">||</span> n <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-        <span class="token keyword">return</span> n<span class="token punctuation">;</span>
+    <span class="token comment">// 返回数组的新长度</span>
+    <span class="token keyword">return</span> length<span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="普通方法"><a href="#普通方法" class="headerlink" title="普通方法"></a>普通方法</h3><p>针对数组原地操作算法时间复杂度为 $O(n^2)$，为降低时间复杂度提高算法效率，可以通过空间换时间的做法，通过定义新的数组，从而实现去除重复元素的目的，此时的时间复杂度为 $O(n)$，而空间复杂度也由 $O(1)$ 变成了 $O(n)$。但是有几点需要注意：</p>
+<ol>
+<li>临界情况（即数组为空）；</li>
+<li>创建新数组时，需要指定其容量，所以需要先求出原数组中无重复元素时的元素个数；</li>
+<li>最后则是将原数组中未重复的元素赋值给新数组；</li>
+</ol>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">/**
+* 去除有序数组中重复元素并返回数组的新长度
+* @param nums
+* @return 删除重复元素后的新数组
+*/</span>
+<span class="token keyword">public</span> <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token function">removeDuplicates</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> nums<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 临界情况</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>nums<span class="token punctuation">.</span>length <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">return</span> nums<span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
-
-    <span class="token keyword">int</span> prev <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
-    <span class="token keyword">int</span> curr <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
-
-    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> n<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-        <span class="token keyword">int</span> sum <span class="token operator">=</span> <span class="token punctuation">(</span>prev <span class="token operator">+</span> curr<span class="token punctuation">)</span> <span class="token operator">%</span> <span class="token number">1000000007</span><span class="token punctuation">;</span>
-        prev <span class="token operator">=</span> curr<span class="token punctuation">;</span>
-        curr <span class="token operator">=</span> sum<span class="token punctuation">;</span>
+    
+    <span class="token comment">// 先求出数组中无重复时的元素个数</span>
+    <span class="token keyword">int</span> size <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> nums<span class="token punctuation">.</span>length<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>i <span class="token operator">==</span> <span class="token number">0</span> <span class="token operator">||</span> nums<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">!=</span> nums<span class="token punctuation">[</span>i <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            size<span class="token operator">++</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
     <span class="token punctuation">}</span>
+    
+    <span class="token comment">// 用于存放不含重复元素的有序数组</span>
+    <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> resultArr <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token keyword">int</span><span class="token punctuation">[</span>size<span class="token punctuation">]</span><span class="token punctuation">;</span>
+    
+    <span class="token keyword">int</span> index <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> nums<span class="token punctuation">.</span>length<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>i <span class="token operator">==</span> <span class="token number">0</span> <span class="token operator">||</span> nums<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">!=</span> nums<span class="token punctuation">[</span>i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            resultArr<span class="token punctuation">[</span>index<span class="token operator">++</span><span class="token punctuation">]</span> <span class="token operator">=</span> nums<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    
+    <span class="token comment">// 返回新的不含重复元素的有序数组</span>
+    <span class="token keyword">return</span> resultArr<span class="token punctuation">;</span>    
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="双指针"><a href="#双指针" class="headerlink" title="双指针"></a>双指针</h3><p>以上的两种方法要么是以时间换空间，要么是以空间换时间，那我们有没有一种折中的办法，既能保证时间复杂度很低，也能保证空间复杂度呢？答案是：当然有！</p>
+<p>利用双指针的思想，既可以将空间复杂度控制在 $O(1)$，也可以将时间复杂度控制在 $O(n)$。</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">/**
+* 去除有序数组中重复元素并返回数组的新长度
+* @param nums
+* @return 删除重复元素后数组的新长度
+*/</span>
+<span class="token keyword">public</span> <span class="token keyword">int</span> <span class="token function">removeDuplicates</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> nums<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+ 	<span class="token comment">// 临界情况</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>nums<span class="token punctuation">.</span>length <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        reutrn <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    
+    <span class="token keyword">int</span> size <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> nums<span class="token punctuation">.</span>length<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>nums<span class="token punctuation">[</span>size<span class="token punctuation">]</span> <span class="token operator">!=</span> nums<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            nums<span class="token punctuation">[</span><span class="token operator">++</span>size<span class="token punctuation">]</span> <span class="token operator">=</span> nums<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
 
-    <span class="token keyword">return</span> curr<span class="token punctuation">;</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>    
+    
+    <span class="token comment">// 返回新长度</span>
+    <span class="token keyword">return</span> size <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>以上就是 3 种去除有序数组中重复元素的三种算法，其中既有以时间换空间的数组原地操作法，也有空间换时间的普通方法，最后的话则是有一种综合前两种方法优点的方法 - 双指针。通过双指针方法，既能保证空间复杂度为 $O(1)$，也将时间复杂度限制在了 $O(n)$。</p>
+<p>想不到连简单的数组去重都有这么大的学问，我们在日常学习时，大多可能只关注于如何实现功能即可。但如果要应用到工作场景中，可能就需要考虑效率问题，此时则需要根据我们的具体需求来进行选择了。</p>
+<p>好了，以上就是今天的内容了，如果你还有其他更好的方法，欢迎留言交流呀！</p>
 <blockquote>
 <p>  建议关注公众号 「<strong>村雨遥</strong>」，最新干货文章不容错过 ~</p>
 </blockquote>
@@ -794,7 +816,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://cunyu1943.site/posts/de25b7ed/">http://cunyu1943.site/posts/de25b7ed/</a>
+                    <a href="http://cunyu1943.site/posts/9b799a68/">http://cunyu1943.site/posts/9b799a68/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -832,8 +854,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E5%89%91%E6%8C%87-Offer/">
-                                    <span class="chip bg-color">剑指 Offer</span>
+                                <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">
+                                    <span class="chip bg-color">数据结构</span>
+                                </a>
+                            
+                                <a href="/tags/%E6%95%B0%E7%BB%84/">
+                                    <span class="chip bg-color">数组</span>
                                 </a>
                             
                         </div>
@@ -1004,7 +1030,7 @@
         repo: 'cunyu1943.github.io',
         owner: 'cunyu1943',
         admin: "cunyu1943",
-        id: '2021-05-04T15-51-12',
+        id: '2021-05-19T14-38-44',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -1298,17 +1324,18 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/posts/63d61223/">
+                <a href="/posts/9b799a68/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="【剑指 Offer】10-I. 斐波那契数列">
+                        <img src="/medias/featureimages/10.png" class="responsive-img" alt="【数据结构与算法】谈谈我是如何给有序数组去重的？">
                         
-                        <span class="card-title">【剑指 Offer】10-I. 斐波那契数列</span>
+                        <span class="card-title">【数据结构与算法】谈谈我是如何给有序数组去重的？</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1318,26 +1345,31 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-05-04
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-05-19
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Online-Judge/" class="post-category">
-                                    Online Judge
+                            <a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" class="post-category">
+                                    数据结构与算法
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E5%89%91%E6%8C%87-Offer/">
-                        <span class="chip bg-color">剑指 Offer</span>
+                    <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">
+                        <span class="chip bg-color">数据结构</span>
+                    </a>
+                    
+                    <a href="/tags/%E6%95%B0%E7%BB%84/">
+                        <span class="chip bg-color">数组</span>
                     </a>
                     
                 </div>
@@ -1351,13 +1383,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/posts/bcb92c95/">
+                <a href="/posts/cd270c2a/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="【剑指 Offer】11. 旋转数组的最小数字">
+                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="【Bug 修复】如何将 Java 8 中的流转换为数组">
                         
-                        <span class="card-title">【剑指 Offer】11. 旋转数组的最小数字</span>
+                        <span class="card-title">【Bug 修复】如何将 Java 8 中的流转换为数组</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1368,14 +1400,14 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-05-04
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-05-10
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Online-Judge/" class="post-category">
-                                    Online Judge
+                            <a href="/categories/Bug-%E4%BF%AE%E5%A4%8D/" class="post-category">
+                                    Bug 修复
                                 </a>
                             
                             
@@ -1385,8 +1417,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E5%89%91%E6%8C%87-Offer/">
-                        <span class="chip bg-color">剑指 Offer</span>
+                    <a href="/tags/Java/">
+                        <span class="chip bg-color">Java</span>
                     </a>
                     
                 </div>
