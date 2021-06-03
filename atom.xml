@@ -6,7 +6,7 @@
   <link href="http://cunyu1943.site/atom.xml" rel="self"/>
   
   <link href="http://cunyu1943.site/"/>
-  <updated>2021-06-03T03:27:40.985Z</updated>
+  <updated>2021-06-03T04:11:25.757Z</updated>
   <id>http://cunyu1943.site/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://cunyu1943.site/posts/e313ec47/"/>
     <id>http://cunyu1943.site/posts/e313ec47/</id>
     <published>2021-06-03T03:26:19.000Z</published>
-    <updated>2021-06-03T03:27:40.985Z</updated>
+    <updated>2021-06-03T04:11:25.757Z</updated>
     
     
       
@@ -35,6 +35,10 @@
     
     
     
+    <category term="Java 编程实例" scheme="http://cunyu1943.site/categories/Java-%E7%BC%96%E7%A8%8B%E5%AE%9E%E4%BE%8B/"/>
+    
+    
+    <category term="Java" scheme="http://cunyu1943.site/tags/Java/"/>
     
   </entry>
   
@@ -43,7 +47,7 @@
     <link href="http://cunyu1943.site/posts/ac1a3a71/"/>
     <id>http://cunyu1943.site/posts/ac1a3a71/</id>
     <published>2021-06-03T03:26:08.000Z</published>
-    <updated>2021-06-03T03:27:17.097Z</updated>
+    <updated>2021-06-03T04:11:14.727Z</updated>
     
     
       
@@ -57,6 +61,10 @@
     
     
     
+    <category term="Java 编程实例" scheme="http://cunyu1943.site/categories/Java-%E7%BC%96%E7%A8%8B%E5%AE%9E%E4%BE%8B/"/>
+    
+    
+    <category term="Java" scheme="http://cunyu1943.site/tags/Java/"/>
     
   </entry>
   
