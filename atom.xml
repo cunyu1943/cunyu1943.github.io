@@ -6,7 +6,7 @@
   <link href="http://cunyu1943.site/atom.xml" rel="self"/>
   
   <link href="http://cunyu1943.site/"/>
-  <updated>2021-06-17T00:52:37.032Z</updated>
+  <updated>2021-06-17T01:35:01.577Z</updated>
   <id>http://cunyu1943.site/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Python3 编程实例（36 - 40）</title>
+    <link href="http://cunyu1943.site/posts/ac59de4e/"/>
+    <id>http://cunyu1943.site/posts/ac59de4e/</id>
+    <published>2021-06-17T01:34:14.000Z</published>
+    <updated>2021-06-17T01:35:01.577Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;  &lt;strong&gt;本文已收录至个人 Github仓库&lt;/strong&gt;：&lt;a href=&quot;https://github.com/cunyu1943/cs-docs&quot;&gt;cs-docs&lt;/a&gt;，欢迎各位</summary>
+        
+      
+    
+    
+    
+    <category term="Python 编程实例" scheme="http://cunyu1943.site/categories/Python-%E7%BC%96%E7%A8%8B%E5%AE%9E%E4%BE%8B/"/>
+    
+    
+    <category term="Python" scheme="http://cunyu1943.site/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Python3 编程实例（31 - 35）</title>
     <link href="http://cunyu1943.site/posts/4dc69fa5/"/>
     <id>http://cunyu1943.site/posts/4dc69fa5/</id>
     <published>2021-06-17T00:51:01.000Z</published>
-    <updated>2021-06-17T00:52:37.032Z</updated>
+    <updated>2021-06-17T00:52:50.254Z</updated>
     
     
       
@@ -47,7 +73,7 @@
     <link href="http://cunyu1943.site/posts/f1bb6960/"/>
     <id>http://cunyu1943.site/posts/f1bb6960/</id>
     <published>2021-06-17T00:50:38.000Z</published>
-    <updated>2021-06-17T00:51:10.661Z</updated>
+    <updated>2021-06-17T00:52:50.262Z</updated>
     
     
       
@@ -73,7 +99,7 @@
     <link href="http://cunyu1943.site/posts/9f64dd2b/"/>
     <id>http://cunyu1943.site/posts/9f64dd2b/</id>
     <published>2021-06-17T00:50:00.000Z</published>
-    <updated>2021-06-17T00:50:19.121Z</updated>
+    <updated>2021-06-17T00:52:50.251Z</updated>
     
     
       
@@ -99,7 +125,7 @@
     <link href="http://cunyu1943.site/posts/27ecfbd3/"/>
     <id>http://cunyu1943.site/posts/27ecfbd3/</id>
     <published>2021-06-17T00:49:17.000Z</published>
-    <updated>2021-06-17T00:49:38.138Z</updated>
+    <updated>2021-06-17T00:52:50.247Z</updated>
     
     
       
@@ -125,7 +151,7 @@
     <link href="http://cunyu1943.site/posts/33f31cf8/"/>
     <id>http://cunyu1943.site/posts/33f31cf8/</id>
     <published>2021-06-17T00:47:58.000Z</published>
-    <updated>2021-06-17T00:48:54.911Z</updated>
+    <updated>2021-06-17T00:52:50.240Z</updated>
     
     
       
@@ -151,7 +177,7 @@
     <link href="http://cunyu1943.site/posts/5455e0a5/"/>
     <id>http://cunyu1943.site/posts/5455e0a5/</id>
     <published>2021-06-17T00:47:43.000Z</published>
-    <updated>2021-06-17T00:48:39.965Z</updated>
+    <updated>2021-06-17T00:52:50.259Z</updated>
     
     
       
@@ -509,32 +535,6 @@
     <category term="数据结构" scheme="http://cunyu1943.site/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
     <category term="数组" scheme="http://cunyu1943.site/tags/%E6%95%B0%E7%BB%84/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Bug 修复】如何将 Java 8 中的流转换为数组</title>
-    <link href="http://cunyu1943.site/posts/cd270c2a/"/>
-    <id>http://cunyu1943.site/posts/cd270c2a/</id>
-    <published>2021-05-10T11:29:19.000Z</published>
-    <updated>2021-05-10T11:30:25.950Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;  &lt;strong&gt;本文已收录至个人 Github仓库&lt;/strong&gt;：&lt;a href=&quot;https://github.com/cunyu1943/cs-docs&quot;&gt;cs-docs&lt;/a&gt;，欢迎各位</summary>
-        
-      
-    
-    
-    
-    <category term="Bug 修复" scheme="http://cunyu1943.site/categories/Bug-%E4%BF%AE%E5%A4%8D/"/>
-    
-    
-    <category term="Java" scheme="http://cunyu1943.site/tags/Java/"/>
     
   </entry>
   
