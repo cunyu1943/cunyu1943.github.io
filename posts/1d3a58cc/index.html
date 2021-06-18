@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="【剑指 Offer】10-I. 斐波那契数列, Java 公众号：村雨遥 LeetCode">
+    <meta name="keywords" content="Python3 编程实例（41 - 45）, Java 公众号：村雨遥 LeetCode">
     <meta name="description" content="吾生也有涯，而知也无涯。">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>【剑指 Offer】10-I. 斐波那契数列 | 村雨遥的博客</title>
+    <title>Python3 编程实例（41 - 45） | 村雨遥的博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -603,12 +603,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/5.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/6.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">【剑指 Offer】10-I. 斐波那契数列</h1>
+                    <h1 class="description center-align post-title">Python3 编程实例（41 - 45）</h1>
                 </div>
             </div>
         </div>
@@ -724,8 +724,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E5%89%91%E6%8C%87-Offer/">
-                                <span class="chip bg-color">剑指 Offer</span>
+                            <a href="/tags/Python/">
+                                <span class="chip bg-color">Python</span>
                             </a>
                         
                     </div>
@@ -736,8 +736,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Online-Judge/" class="post-category">
-                                Online Judge
+                            <a href="/categories/Python-%E7%BC%96%E7%A8%8B%E5%AE%9E%E4%BE%8B/" class="post-category">
+                                Python 编程实例
                             </a>
                         
                     </div>
@@ -749,21 +749,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-05-04
+                    2021-06-18
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-05-04
+                    2021-06-18
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    716
+                    658
                 </div>
                 
 
@@ -796,88 +796,155 @@
                 <blockquote>
 <p>  <strong>本文已收录至个人 Github仓库</strong>：<a target="_blank" rel="noopener" href="https://github.com/cunyu1943/cs-docs">cs-docs</a>，欢迎各位 <strong>Star、Fork</strong> ~</p>
 </blockquote>
-<h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><ul>
-<li><p><a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/">剑指 Offer 10- I. 斐波那契数列</a></p>
-</li>
-<li><p>难度：简单</p>
-</li>
-</ul>
-<h2 id="描述"><a href="#描述" class="headerlink" title="描述"></a>描述</h2><blockquote>
-<p>  写一个函数，输入 n ，求斐波那契（Fibonacci）数列的第 n 项。斐波那契数列的定义如下：</p>
-<p>  F(0) = 0,   F(1) = 1</p>
-<p>  F(N) = F(N - 1) + F(N - 2), 其中 N &gt; 1.</p>
-<p>  斐波那契数列由 0 和 1 开始，之后的斐波那契数就是由之前的两数相加而得出。</p>
-<p>  答案需要取模 1e9+7（1000000007），如计算初始结果为：1000000008，请返回 1。</p>
-<p>  示例 1：</p>
-<p>  输入：n = 2</p>
-<p>  输出：1</p>
-<p>  示例 2：</p>
-<p>  输入：n = 5</p>
-<p>  输出：5</p>
-<p>  提示：</p>
-<p>  0 &lt;= n &lt;= 100</p>
-</blockquote>
-<h2 id="方法-1"><a href="#方法-1" class="headerlink" title="方法 1"></a>方法 1</h2><h3 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h3><p>$F(0) = 0,   F(1) = 1$</p>
-<p>$F(N) = F(N - 1) + F(N - 2)$, 其中 $N &gt; 1$</p>
-<p>利用递归的方法， 把 $f(n)$ 问题的计算拆分成 $f(n−1)$ 和 $f(n−2)$ 两个子问题的计算，并递归，以 $f(0)$ 和 $f(1)$ 为终止条件，虽然能求出结果，但是最终会超时；</p>
-<h3 id="实现"><a href="#实现" class="headerlink" title="实现"></a>实现</h3><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">class</span> <span class="token class-name">Solution</span> <span class="token punctuation">{</span>
-    <span class="token keyword">public</span> <span class="token keyword">int</span> <span class="token function">fib</span><span class="token punctuation">(</span><span class="token keyword">int</span> n<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">if</span> <span class="token punctuation">(</span>n <span class="token operator">==</span> <span class="token number">0</span> <span class="token operator">||</span> n <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            <span class="token keyword">return</span> n<span class="token punctuation">;</span>
-        <span class="token punctuation">}</span>
-        
-        <span class="token keyword">return</span> <span class="token punctuation">(</span><span class="token function">fib</span><span class="token punctuation">(</span>n <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token function">fib</span><span class="token punctuation">(</span>n <span class="token operator">-</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">%</span> <span class="token number">1000000007</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h2 id="方法-2"><a href="#方法-2" class="headerlink" title="方法 2"></a>方法 2</h2><h3 id="思路-1"><a href="#思路-1" class="headerlink" title="思路"></a>思路</h3><p>减少暴力递归中的重复运算，可以将子问题的答案存放到备忘录，进行下次运算时先从备忘录中查询，如果已经有对应答案，直接取出用就行，这样就可以大大减少运算的时间。</p>
-<p>通过添加备忘录，将原来的递归树进行了剪枝，大大减少了子问题，此时的子问题个数变成了 $n$，此时的时间复杂度变成了 $O(n)$；</p>
-<h3 id="实现-1"><a href="#实现-1" class="headerlink" title="实现"></a>实现</h3><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">class</span> <span class="token class-name">Solution</span> <span class="token punctuation">{</span>
-    <span class="token comment">// 用一个哈希表来当备忘录</span>
-    <span class="token class-name">HashMap</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Integer</span><span class="token punctuation">,</span> <span class="token class-name">Integer</span><span class="token punctuation">&gt;</span></span> hashMap <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">HashMap</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token punctuation">&gt;</span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<h2 id="实例-41"><a href="#实例-41" class="headerlink" title="实例 41"></a>实例 41</h2><h3 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h3><p>模仿静态变量的用法。</p>
+<h3 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h3><p>所谓静态变量其实就是说它的作用域是整个程序。</p>
+<h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#!/usr/bin/env python</span>
+<span class="token comment"># -*- coding: utf-8 -*-</span>
+<span class="token comment"># @version : 1.0</span>
+<span class="token comment"># @Time    : 2021/4/10 13:24</span>
+<span class="token comment"># @Author  : cunyu</span>
+<span class="token comment"># @Email   : 747731461@qq.com</span>
+<span class="token comment"># @Site    : https://cunyu1943.site</span>
+<span class="token comment"># 公众号    : 村雨遥</span>
+<span class="token comment"># @File    : 41.py</span>
+<span class="token comment"># @Software: PyCharm</span>
+<span class="token comment"># @Desc    : 练习实例41</span>
 
-    <span class="token keyword">public</span> <span class="token keyword">int</span> <span class="token function">fib</span><span class="token punctuation">(</span><span class="token keyword">int</span> n<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token comment">// Base Case</span>
-        <span class="token keyword">if</span> <span class="token punctuation">(</span>n <span class="token operator">==</span> <span class="token number">0</span> <span class="token operator">||</span> n <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            <span class="token keyword">return</span> n<span class="token punctuation">;</span>
-        <span class="token punctuation">}</span>
+<span class="token keyword">class</span> <span class="token class-name">Demo</span><span class="token punctuation">:</span>
+    static_value <span class="token operator">=</span> <span class="token number">10</span>
 
-        <span class="token comment">// 如果计算过了，就直接返回对应答案</span>
-        <span class="token keyword">if</span> <span class="token punctuation">(</span>hashMap<span class="token punctuation">.</span><span class="token function">containsKey</span><span class="token punctuation">(</span>n<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            <span class="token keyword">return</span> hashMap<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span>n<span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
-            <span class="token comment">// 没计算过的进行计算，同时存入备忘录</span>
-            <span class="token keyword">int</span> val <span class="token operator">=</span><span class="token punctuation">(</span> <span class="token function">fib</span><span class="token punctuation">(</span>n <span class="token operator">-</span> <span class="token number">2</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token function">fib</span><span class="token punctuation">(</span>n <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">%</span> <span class="token number">1000000007</span><span class="token punctuation">;</span>
-            hashMap<span class="token punctuation">.</span><span class="token function">put</span><span class="token punctuation">(</span>n<span class="token punctuation">,</span> val<span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token keyword">return</span> val<span class="token punctuation">;</span>
-        <span class="token punctuation">}</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h2 id="方法-3"><a href="#方法-3" class="headerlink" title="方法 3"></a>方法 3</h2><h3 id="思路-2"><a href="#思路-2" class="headerlink" title="思路"></a>思路</h3><p>F(0) = 0,   F(1) = 1</p>
-<p>F(N) = F(N - 1) + F(N - 2), 其中 N &gt; 1</p>
-<p>利用上述条件，利用动态规划的思想；</p>
-<ul>
-<li><strong>状态定义</strong>： 设 $dp$ 为一维数组，其中 $dp[i]$ 的值代表 斐波那契数列第 $i$ 个数字 。</li>
-<li><strong>转移方程</strong>： $dp[i + 1] = dp[i] + dp[i - 1]$，即对应数列定义 $f(n + 1) = f(n) + f(n - 1) $；</li>
-<li><strong>初始状态</strong>： $dp[0] = 0$,  $dp[1]=1$ ，即初始化前两个数字；</li>
-<li><strong>返回值</strong>： $dp[n]$ ，即斐波那契数列的第 $n$ 个数字</li>
-<li><strong>时间复杂度</strong>：此时主要进行循环操作，时间复杂度为 $O(n)$；</li>
-</ul>
-<h3 id="实现-2"><a href="#实现-2" class="headerlink" title="实现"></a>实现</h3><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">int</span> <span class="token function">fib</span><span class="token punctuation">(</span><span class="token keyword">int</span> n<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token class-name">N</span> <span class="token operator">==</span> <span class="token number">0</span> <span class="token operator">||</span> <span class="token class-name">N</span> <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-        <span class="token keyword">return</span> <span class="token class-name">N</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
+    <span class="token keyword">def</span> <span class="token function">addStatic</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        self<span class="token punctuation">.</span>static_value <span class="token operator">+=</span> <span class="token number">1</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span>self<span class="token punctuation">.</span>static_value<span class="token punctuation">)</span>
 
-    <span class="token keyword">int</span> prev <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
-    <span class="token keyword">int</span> curr <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
-    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> <span class="token class-name">N</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-        <span class="token keyword">int</span> sum <span class="token operator">=</span> <span class="token punctuation">(</span>prev <span class="token operator">+</span> curr<span class="token punctuation">)</span> <span class="token operator">%</span> <span class="token number">1000000007</span><span class="token punctuation">;</span>
-        prev <span class="token operator">=</span> curr<span class="token punctuation">;</span>
-        curr <span class="token operator">=</span> sum<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
 
-    <span class="token keyword">return</span> curr<span class="token punctuation">;</span>
+<span class="token keyword">if</span> __name__ <span class="token operator">==</span> <span class="token string">'__main__'</span><span class="token punctuation">:</span>
+    demo <span class="token operator">=</span> Demo<span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        demo<span class="token punctuation">.</span>addStatic<span class="token punctuation">(</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h3><p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/blog/image-20210618082943943.png" alt=""></p>
+<h2 id="实例-42"><a href="#实例-42" class="headerlink" title="实例 42"></a>实例 42</h2><h3 id="题目-1"><a href="#题目-1" class="headerlink" title="题目"></a>题目</h3><p>学习使用 auto 定义变量的用法。</p>
+<h3 id="分析-1"><a href="#分析-1" class="headerlink" title="分析"></a>分析</h3><p>Python 中不存在 auto 关键字，所以利用变量作用域来进行示范。</p>
+<h3 id="代码-1"><a href="#代码-1" class="headerlink" title="代码"></a>代码</h3><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#!/usr/bin/env python</span>
+<span class="token comment"># -*- coding: utf-8 -*-</span>
+<span class="token comment"># @version : 1.0</span>
+<span class="token comment"># @Time    : 2021/4/10 13:28</span>
+<span class="token comment"># @Author  : cunyu</span>
+<span class="token comment"># @Email   : 747731461@qq.com</span>
+<span class="token comment"># @Site    : https://cunyu1943.site</span>
+<span class="token comment"># 公众号    : 村雨遥</span>
+<span class="token comment"># @File    : 42.py</span>
+<span class="token comment"># @Software: PyCharm</span>
+<span class="token comment"># @Desc    : 练习实例42</span>
 
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<span class="token keyword">def</span> <span class="token function">autofunc</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    num <span class="token operator">=</span> <span class="token number">1</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">'方法内部 %d'</span> <span class="token operator">%</span> num<span class="token punctuation">)</span>
+    num <span class="token operator">+=</span> <span class="token number">1</span>
+
+
+<span class="token keyword">if</span> __name__ <span class="token operator">==</span> <span class="token string">'__main__'</span><span class="token punctuation">:</span>
+    num <span class="token operator">=</span> <span class="token number">10</span>
+    <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">'num = %d'</span> <span class="token operator">%</span> num<span class="token punctuation">)</span>
+        num <span class="token operator">+=</span> <span class="token number">1</span>
+        autofunc<span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="结果-1"><a href="#结果-1" class="headerlink" title="结果"></a>结果</h3><p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/blog/image-20210618083129326.png" alt=""></p>
+<h2 id="实例-43"><a href="#实例-43" class="headerlink" title="实例 43"></a>实例 43</h2><h3 id="题目-2"><a href="#题目-2" class="headerlink" title="题目"></a>题目</h3><p>模仿静态变量 (static) 另一案例。</p>
+<h3 id="分析-2"><a href="#分析-2" class="headerlink" title="分析"></a>分析</h3><p>类似于实例 41。</p>
+<h3 id="代码-2"><a href="#代码-2" class="headerlink" title="代码"></a>代码</h3><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#!/usr/bin/env python</span>
+<span class="token comment"># -*- coding: utf-8 -*-</span>
+<span class="token comment"># @version : 1.0</span>
+<span class="token comment"># @Time    : 2021/4/10 13:34</span>
+<span class="token comment"># @Author  : cunyu</span>
+<span class="token comment"># @Email   : 747731461@qq.com</span>
+<span class="token comment"># @Site    : https://cunyu1943.site</span>
+<span class="token comment"># 公众号    : 村雨遥</span>
+<span class="token comment"># @File    : 43.py</span>
+<span class="token comment"># @Software: PyCharm</span>
+<span class="token comment"># @Desc    : 练习实例43</span>
+
+<span class="token keyword">class</span> <span class="token class-name">Num</span><span class="token punctuation">:</span>
+    nNum <span class="token operator">=</span> <span class="token number">1</span>
+
+    <span class="token keyword">def</span> <span class="token function">inc</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        self<span class="token punctuation">.</span>nNum <span class="token operator">+=</span> <span class="token number">1</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">'nNum = %d'</span> <span class="token operator">%</span> self<span class="token punctuation">.</span>nNum<span class="token punctuation">)</span>
+
+
+<span class="token keyword">if</span> __name__ <span class="token operator">==</span> <span class="token string">'__main__'</span><span class="token punctuation">:</span>
+    nNum <span class="token operator">=</span> <span class="token number">2</span>
+    inst <span class="token operator">=</span> Num<span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        nNum <span class="token operator">+=</span> <span class="token number">1</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">'The num = %d'</span> <span class="token operator">%</span> nNum<span class="token punctuation">)</span>
+        inst<span class="token punctuation">.</span>inc<span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="结果-2"><a href="#结果-2" class="headerlink" title="结果"></a>结果</h3><p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/blog/image-20210618083729164.png" alt=""></p>
+<h2 id="实例-44"><a href="#实例-44" class="headerlink" title="实例 44"></a>实例 44</h2><h3 id="题目-3"><a href="#题目-3" class="headerlink" title="题目"></a>题目</h3><p>两个 3 行 3 列的矩阵，实现其对应位置的数据相加，并返回一个新矩阵：</p>
+<pre class="line-numbers language-none"><code class="language-none">X = [[12,7,3],
+    [4 ,5,6],
+    [7 ,8,9]]
+
+Y = [[5,8,1],
+    [6,7,3],
+    [4,5,9]]<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="分析-3"><a href="#分析-3" class="headerlink" title="分析"></a>分析</h3><p>只需要将矩阵对应位置上的元素进行相加，存放到新的矩阵中即可。</p>
+<h3 id="代码-3"><a href="#代码-3" class="headerlink" title="代码"></a>代码</h3><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#!/usr/bin/env python</span>
+<span class="token comment"># -*- coding: utf-8 -*-</span>
+<span class="token comment"># @version : 1.0</span>
+<span class="token comment"># @Time    : 2021/4/10 20:35</span>
+<span class="token comment"># @Author  : cunyu</span>
+<span class="token comment"># @Email   : 747731461@qq.com</span>
+<span class="token comment"># @Site    : https://cunyu1943.site</span>
+<span class="token comment"># 公众号    : 村雨遥</span>
+<span class="token comment"># @File    : 44.py</span>
+<span class="token comment"># @Software: PyCharm</span>
+<span class="token comment"># @Desc    : 练习实例44</span>
+
+<span class="token keyword">if</span> __name__ <span class="token operator">==</span> <span class="token string">'__main__'</span><span class="token punctuation">:</span>
+    X <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">[</span><span class="token number">12</span><span class="token punctuation">,</span> <span class="token number">7</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+         <span class="token punctuation">[</span><span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+         <span class="token punctuation">[</span><span class="token number">7</span><span class="token punctuation">,</span> <span class="token number">8</span><span class="token punctuation">,</span> <span class="token number">9</span><span class="token punctuation">]</span><span class="token punctuation">]</span>
+
+    Y <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">[</span><span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">8</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+         <span class="token punctuation">[</span><span class="token number">6</span><span class="token punctuation">,</span> <span class="token number">7</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+         <span class="token punctuation">[</span><span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">9</span><span class="token punctuation">]</span><span class="token punctuation">]</span>
+
+    result <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+              <span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+              <span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">]</span>
+
+    <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token builtin">len</span><span class="token punctuation">(</span>X<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token keyword">for</span> j <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token builtin">len</span><span class="token punctuation">(</span>X<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+            result<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">=</span> X<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">+</span> Y<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span>j<span class="token punctuation">]</span>
+
+    <span class="token keyword">print</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="结果-3"><a href="#结果-3" class="headerlink" title="结果"></a>结果</h3><p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/blog/image-20210618083927059.png" alt=""></p>
+<h2 id="实例-45"><a href="#实例-45" class="headerlink" title="实例 45"></a>实例 45</h2><h3 id="题目-4"><a href="#题目-4" class="headerlink" title="题目"></a>题目</h3><p>统计 1 到 100 之和。</p>
+<h3 id="分析-4"><a href="#分析-4" class="headerlink" title="分析"></a>分析</h3><p>就是一个累加的过程，利用循环即可实现。</p>
+<h3 id="代码-4"><a href="#代码-4" class="headerlink" title="代码"></a>代码</h3><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#!/usr/bin/env python</span>
+<span class="token comment"># -*- coding: utf-8 -*-</span>
+<span class="token comment"># @version : 1.0</span>
+<span class="token comment"># @Time    : 2021/4/10 20:39</span>
+<span class="token comment"># @Author  : cunyu</span>
+<span class="token comment"># @Email   : 747731461@qq.com</span>
+<span class="token comment"># @Site    : https://cunyu1943.site</span>
+<span class="token comment"># 公众号    : 村雨遥</span>
+<span class="token comment"># @File    : 45.py</span>
+<span class="token comment"># @Software: PyCharm</span>
+<span class="token comment"># @Desc    : 练习实例45</span>
+
+<span class="token keyword">if</span> __name__ <span class="token operator">==</span> <span class="token string">'__main__'</span><span class="token punctuation">:</span>
+    <span class="token builtin">sum</span> <span class="token operator">=</span> <span class="token number">0</span>
+    <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">101</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token builtin">sum</span> <span class="token operator">+=</span> i
+    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"总和：%d"</span> <span class="token operator">%</span> <span class="token builtin">sum</span><span class="token punctuation">)</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="结果-4"><a href="#结果-4" class="headerlink" title="结果"></a>结果</h3><p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/blog/image-20210618084123423.png" alt=""></p>
 <blockquote>
 <p>  建议关注公众号 「<strong>村雨遥</strong>」，最新干货文章不容错过 ~</p>
 </blockquote>
@@ -907,7 +974,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://cunyu1943.site/posts/63d61223/">http://cunyu1943.site/posts/63d61223/</a>
+                    <a href="http://cunyu1943.site/posts/1d3a58cc/">http://cunyu1943.site/posts/1d3a58cc/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -945,8 +1012,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E5%89%91%E6%8C%87-Offer/">
-                                    <span class="chip bg-color">剑指 Offer</span>
+                                <a href="/tags/Python/">
+                                    <span class="chip bg-color">Python</span>
                                 </a>
                             
                         </div>
@@ -1117,7 +1184,7 @@
         repo: 'cunyu1943.github.io',
         owner: 'cunyu1943',
         admin: "cunyu1943",
-        id: '2021-05-04T15-54-20',
+        id: '2021-06-18T08-44-49',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -1411,17 +1478,18 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/posts/4eca9a09/">
+                <a href="/posts/1d3a58cc/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/10.png" class="responsive-img" alt="【剑指-Offer】09. 用两个栈实现队列">
+                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="Python3 编程实例（41 - 45）">
                         
-                        <span class="card-title">【剑指-Offer】09. 用两个栈实现队列</span>
+                        <span class="card-title">Python3 编程实例（41 - 45）</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1431,26 +1499,27 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-05-04
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-06-18
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Online-Judge/" class="post-category">
-                                    Online Judge
+                            <a href="/categories/Python-%E7%BC%96%E7%A8%8B%E5%AE%9E%E4%BE%8B/" class="post-category">
+                                    Python 编程实例
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E5%89%91%E6%8C%87-Offer/">
-                        <span class="chip bg-color">剑指 Offer</span>
+                    <a href="/tags/Python/">
+                        <span class="chip bg-color">Python</span>
                     </a>
                     
                 </div>
@@ -1464,13 +1533,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/posts/de25b7ed/">
+                <a href="/posts/ac59de4e/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="【剑指 Offer】10-II. 青蛙跳台阶问题">
+                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="Python3 编程实例（36 - 40）">
                         
-                        <span class="card-title">【剑指 Offer】10-II. 青蛙跳台阶问题</span>
+                        <span class="card-title">Python3 编程实例（36 - 40）</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1481,14 +1550,14 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-05-04
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-06-17
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Online-Judge/" class="post-category">
-                                    Online Judge
+                            <a href="/categories/Python-%E7%BC%96%E7%A8%8B%E5%AE%9E%E4%BE%8B/" class="post-category">
+                                    Python 编程实例
                                 </a>
                             
                             
@@ -1498,8 +1567,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E5%89%91%E6%8C%87-Offer/">
-                        <span class="chip bg-color">剑指 Offer</span>
+                    <a href="/tags/Python/">
+                        <span class="chip bg-color">Python</span>
                     </a>
                     
                 </div>
