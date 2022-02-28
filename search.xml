@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>如何在 Chrome 中执行 JavaScript 代码</title>
+      <link href="/posts/ac0e388a/"/>
+      <url>/posts/ac0e388a/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言">前言</h2><p>要在浏览器中执行 JavaScript 脚本，首先你的浏览器得支持。现在主流推荐 Chrome 浏览器，也可以使用基于 Chromium的 Edge 浏览器。下面来介绍如何在 Chrome 中打开开发者工具，以及如何在开发者工具中运行调试 JavaScript 代码。</p><h2 id="打开开发者工具">打开开发者工具</h2><p>Chrome 中的开发者工具界面如下图所示。</p><p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/blog/devtools.png" alt=""></p><p>要打开 Chrome 开发者工具来运行调试前端代码，常见的有 3 种方式。</p><ol><li><strong>右键“检查”</strong></li></ol><p>在 Chrome 中打开一个页面之后，我们可以在页面中单击鼠标右键，然后在菜单中中选择**“检查”**，这样就可以打开开发者工具了。</p><p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/blog/right-check.png" alt=""></p><ol start="2"><li><strong>快捷键 F12</strong></li></ol><p>同样的，一般在 Chrome 中，可以直接通过 <code>F12</code> 快捷键来打开开发者工具。</p><ol start="3"><li><strong>菜单进入</strong></li></ol><p>依次从右上角菜单栏中选择 <code>更多工具 -&gt; 开发者工具</code> 开启。当然，这里也可以看到，其实我们也可以通过另一组快捷键来开启（<code>Ctrl + Shift + I</code>）。如果你对 Chrome 足够熟悉，那么这也是一种可选的方式。</p><p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/blog/menu-devtools.png" alt=""></p><h2 id="开发者工具中执行-JavaScript-代码">开发者工具中执行 JavaScript 代码</h2><p>要在开发者工具中执行 JavaScript 代码，也主要可以利用两种方式，一种是在 <code>Console</code> 窗口对 JavaScript 代码进行调试，而另一种方式则是使用 Chrome 中的 snippets 小脚本来执行。</p><p>下面我将对着两种方式分别做一个介绍，以便大家能熟练掌握。</p><ol><li><strong>Console 窗口执行</strong></li></ol><p>在上面打开开发者工具之后，我们会发现一个 Console 窗口，此时只要在 Console 窗口中 <code>&gt;</code> 符号后边输入我们需要执行的代码，然后回车即可执行。</p><p>以下是两个实例，第一个实例将会在控制台中打印<strong>公众号：村雨遥</strong>，而第二个实例则会在浏览器中弹窗并显示<strong>公众号：村雨遥</strong>。</p><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="string">&quot;公众号：村雨遥&quot;</span>);</span><br></pre></td></tr></table></figure><p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/02/image-20220228222227206.png" alt=""></p><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="built_in">window</span>.alert(<span class="string">&quot;公众号：村雨遥&quot;</span>);</span><br></pre></td></tr></table></figure><p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/02/1.gif" alt=""></p><ol start="2"><li><strong>Snippet 脚本</strong></li></ol><p>除开在 Console 窗口中执行 JavaScript 脚本之外，我们还可以在 Chrome 中创建一个脚本，然后再执行，具体方式如下。</p><p>在开发者工具中切换到 Sources 菜单，然后选择其中的 <code>Snippets</code> 选项卡，接着点击下方的 <code>+ New snippet</code> 来新建一个脚本文件。</p><p>我们可以对新建的脚本文件进行重命名，然后再右侧的框中编写我们的 JavaScript 代码，编写完成之后点击 <code>Ctrl + Enter</code> 即可执行，效果同在 Console 中一样。</p><p>以下是一个 Snippet 脚本执行实例，新建的脚本执行后，先是弹窗，同时在 Console 界面打印出了内容。</p><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="built_in">window</span>.alert(<span class="string">&quot;公众号：村雨遥&quot;</span>);</span><br><span class="line"><span class="built_in">console</span>.log(<span class="string">&quot;公众号：村雨遥&quot;</span>);</span><br></pre></td></tr></table></figure><p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/02/2.gif" alt=""></p><p>在创建的 Snippet 脚本上单击鼠标右键，我们可以进行如下操作：</p><ul><li><strong>Run</strong>：运行，执行我们创建的脚本。</li><li><strong>Rename</strong>：重命名，对我们创建的脚本进行重命名。</li><li><strong>Remove</strong>：删除，移除我们创建的脚本。</li><li><strong>Save as</strong>：另存为，将我们创建的脚本导出。</li></ul><p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/02/image-20220228230516764.png" alt=""></p><h2 id="注意">注意</h2><p>我们会发现打开的 Chrome 开发者工具都是英文形式的，但实际上现在的 Chrome 开发者工具早已经支持中文。如果您对英文界面使用起来有所困难，可以通过以下的方式将开发者工具切换为简体中文。</p><p>点击开发者工具右上角的 ⚙，然后选择 <code>Language</code> 为 <code>Chinese</code>，也就是我们的中文，接着重新载入开发者工具即可。</p><p><img src="https://cdn.jsdelivr.net/gh/cunyu1943/blog-imgs@main/2022/02/changelanguage.gif" alt=""></p><h2 id="总结">总结</h2><p>以上就是今天的所有内容了，主要介绍了如何打开 Chrome 中的开发者工具，并且利用开发者工具如何来执行 JavaScript 脚本。</p><p>如果您觉得本文还不错，欢迎点赞、收藏、转发，您的关注是我坚持的最大动力！</p><center><b><font color="red">关注公众号，获取最新文章更新</font></b></center><img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" width="200" alt="公众号" /><script src="https://readmore.openwrite.cn/js/readmore.js" type="text/javascript"></script><script>    const btw = new BTWPlugin();    btw.init({        id: 'article-container',        blogId: '15556-1641043359442-147',        name: '村雨遥',        qrcode: 'https://gitee.com/cunyu1943/images/raw/master/blogpic/wepublic.png',        keyword: '村雨',    });</script>]]></content>
+      
+      
+      <categories>
+          
+          <category> JavaScript 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> JavaScript </tag>
+            
+            <tag> Chrome </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>JavaScript 中的输出</title>
       <link href="/posts/dd54733b/"/>
       <url>/posts/dd54733b/</url>

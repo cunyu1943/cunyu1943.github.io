@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://cunyu1943.site/posts/ac0e388a/</loc>
+    
+    <lastmod>2022-02-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://cunyu1943.site/JavaScript-%E6%95%99%E7%A8%8B/index.html</loc>
+    
+    <lastmod>2022-02-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://cunyu1943.site/posts/dd54733b/</loc>
     
     <lastmod>2022-02-28</lastmod>
@@ -1268,6 +1286,13 @@
   
   <url>
     <loc>https://cunyu1943.site/tags/JavaScript/</loc>
+    <lastmod>2022-02-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://cunyu1943.site/tags/Chrome/</loc>
     <lastmod>2022-02-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
