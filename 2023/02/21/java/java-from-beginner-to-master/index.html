@@ -1,17 +1,17 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title>Java 从入门到精通 | JavaPark</title><meta name="author" content="村雨遥"><meta name="copyright" content="村雨遥"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="电饭锅发的刚发的">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title>Java 从入门到精通 | JavaPark</title><meta name="author" content="村雨遥"><meta name="copyright" content="村雨遥"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="一、Java 概述 0. 本文预览 mindmapJava 概述    1. 计算机软硬件    2. 软件简介    3. 编程语言    4. Java 简介    5. Java 开发环境    6. Hello World    7. 注释    8. API 文档    9. JVM 初体验    10. 开发工具推荐 1. 计算机软硬件 1.1 计算机的组成 计算机的组成只要指的是系统">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Java 从入门到精通">
 <meta property="og:url" content="http://cunyu1943.github.io/2023/02/21/java/java-from-beginner-to-master/index.html">
 <meta property="og:site_name" content="JavaPark">
-<meta property="og:description" content="电饭锅发的刚发的">
+<meta property="og:description" content="一、Java 概述 0. 本文预览 mindmapJava 概述    1. 计算机软硬件    2. 软件简介    3. 编程语言    4. Java 简介    5. Java 开发环境    6. Hello World    7. 注释    8. API 文档    9. JVM 初体验    10. 开发工具推荐 1. 计算机软硬件 1.1 计算机的组成 计算机的组成只要指的是系统">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://images.alphacoders.com/115/1153586.jpg">
+<meta property="og:image" content="https://images8.alphacoders.com/105/1054337.jpg">
 <meta property="article:published_time" content="2023-02-21T14:58:36.000Z">
-<meta property="article:modified_time" content="2023-02-21T15:00:08.114Z">
+<meta property="article:modified_time" content="2023-02-21T15:25:15.997Z">
 <meta property="article:author" content="村雨遥">
 <meta property="article:tag" content="Java">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://images.alphacoders.com/115/1153586.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://cunyu1943.github.io/2023/02/21/java/java-from-beginner-to-master/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//www.clarity.ms"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="google-site-verification" content="nFiHaC59FfN-CWAMsc3ij2qwRXkxxe9zYSlcqGzh0Kk"/><meta name="baidu-site-verification" content="code-xSfgjuOmgQ"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>var _hmt = _hmt || [];
+<meta name="twitter:image" content="https://images8.alphacoders.com/105/1054337.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://cunyu1943.github.io/2023/02/21/java/java-from-beginner-to-master/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//www.clarity.ms"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="google-site-verification" content="nFiHaC59FfN-CWAMsc3ij2qwRXkxxe9zYSlcqGzh0Kk"/><meta name="baidu-site-verification" content="code-xSfgjuOmgQ"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
   hm.src = "https://hm.baidu.com/hm.js?807a69bd86c94f887c88d87e436c6c7d";
@@ -71,8 +71,8 @@ gtag('config', 'G-ZSBWD61LD1');
   isPost: true,
   isHome: false,
   isHighlightShrink: false,
-  isToc: false,
-  postUpdate: '2023-02-21 23:00:08'
+  isToc: true,
+  postUpdate: '2023-02-21 23:25:15'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -195,8 +195,513 @@ gtag('config', 'G-ZSBWD61LD1');
       }
     }
     detectApple()
-    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js/themes/blue/pace-theme-minimal.min.css"/><script src="https://cdn.jsdelivr.net/npm/pace-js/pace.min.js"></script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">1</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 目录</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg fixed" id="page-header" style="background-image: url('https://images.alphacoders.com/115/1153586.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="JavaPark"></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 目录</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Java 从入门到精通</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-02-21T14:58:36.000Z" title="发表于 2023-02-21 22:58:36">2023-02-21</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-02-21T15:00:08.114Z" title="更新于 2023-02-21 23:00:08">2023-02-21</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Java-%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A/">Java 从入门到精通</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">8</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>1分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Java 从入门到精通"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>电饭锅发的刚发的</p>
-</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="https://cunyu1943.github.io/">村雨遥</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://cunyu1943.github.io/2023/02/21/java/java-from-beginner-to-master/">http://cunyu1943.github.io/2023/02/21/java/java-from-beginner-to-master/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://cunyu1943.github.io" target="_blank">JavaPark</a>！</span></div></div><div class="tag_share"><div class="post_share"><div class="social-share" data-image="https://images.alphacoders.com/115/1153586.jpg" data-sites="wechat,weibo,qq,qzone,douban,google,facebook,twitter"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i> 打赏</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/img/wechatpay.png" target="_blank"><img class="post-qr-code-img" src="/img/wechatpay.png" alt="微信支付"/></a><div class="post-qr-code-desc">微信支付</div></li><li class="reward-item"><a href="/img/alipay.png" target="_blank"><img class="post-qr-code-img" src="/img/alipay.png" alt="支付宝"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2023/02/21/hello-world/" title="Hello World"><img class="cover" src="https://images3.alphacoders.com/116/1166531.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Hello World</div></div></a></div></nav><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="giscus-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">村雨遥</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">1</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/cunyu1943/JavaPark"><i class="fab fa-github"></i><span>Star me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzIyNTg2MjkzNw==&amp;action=getalbum&amp;album_id=2501145320567963650&amp;scene=173&amp;from_msgid=2247496990&amp;from_itemidx=1&amp;count=3&amp;nolastread=1#wechat_redirect" target="_blank" title=""><i class="fa-brands fa-weixin"></i></a><a class="social-icon" href="https://cunyu1943.blog.csdn.net" target="_blank" title=""><i class="fa-solid fa-c"></i></a><a class="social-icon" href="https://github.com/cunyu1943" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:747731461@qq.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2023/02/21/hello-world/" title="Hello World"><img src="https://images3.alphacoders.com/116/1166531.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hello World"/></a><div class="content"><a class="title" href="/2023/02/21/hello-world/" title="Hello World">Hello World</a><time datetime="2023-02-21T15:00:08.114Z" title="更新于 2023-02-21 23:00:08">2023-02-21</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/02/21/java/java-from-beginner-to-master/" title="Java 从入门到精通"><img src="https://images.alphacoders.com/115/1153586.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Java 从入门到精通"/></a><div class="content"><a class="title" href="/2023/02/21/java/java-from-beginner-to-master/" title="Java 从入门到精通">Java 从入门到精通</a><time datetime="2023-02-21T15:00:08.114Z" title="更新于 2023-02-21 23:00:08">2023-02-21</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('https://images.alphacoders.com/115/1153586.jpg')"><div id="footer-wrap"><div class="copyright">&copy;2018 - 2023 By 村雨遥</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><div class="js-pjax"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css"><script src="https://cdn.jsdelivr.net/npm/katex/dist/contrib/copy-tex.min.js"></script><script>(() => {
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js/themes/blue/pace-theme-minimal.min.css"/><script src="https://cdn.jsdelivr.net/npm/pace-js/pace.min.js"></script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">1</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 目录</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg fixed" id="page-header" style="background-image: url('https://images8.alphacoders.com/105/1054337.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="JavaPark"></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 目录</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Java 从入门到精通</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-02-21T14:58:36.000Z" title="发表于 2023-02-21 22:58:36">2023-02-21</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-02-21T15:25:15.997Z" title="更新于 2023-02-21 23:25:15">2023-02-21</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Java-%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A/">Java 从入门到精通</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">4.1k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>14分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Java 从入门到精通"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1>一、Java 概述</h1>
+<h2 id="0-本文预览">0. 本文预览</h2>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mindmap</span><br><span class="line">Java 概述</span><br><span class="line">    1. 计算机软硬件</span><br><span class="line">    2. 软件简介</span><br><span class="line">    3. 编程语言</span><br><span class="line">    4. Java 简介</span><br><span class="line">    5. Java 开发环境</span><br><span class="line">    6. Hello World</span><br><span class="line">    7. 注释</span><br><span class="line">    8. API 文档</span><br><span class="line">    9. JVM 初体验</span><br><span class="line">    10. 开发工具推荐</span><br></pre></td></tr></table></figure>
+<h2 id="1-计算机软硬件">1. 计算机软硬件</h2>
+<h3 id="1-1-计算机的组成">1.1 计算机的组成</h3>
+<p>计算机的组成只要指的是系统结构的逻辑实现，包括机器内的数据流和控制流的组成以及逻辑设计等。主要分为五个部分，分别是：</p>
+<ul>
+<li><strong>控制器</strong></li>
+<li><strong>运算器</strong></li>
+<li><strong>存储器</strong></li>
+<li><strong>输入设备</strong></li>
+<li><strong>输出设备</strong></li>
+</ul>
+<p><img src="https://img-blog.csdnimg.cn/b4d4796cbdef4b84b92a2fae5b356906.png" alt="计算机组成"></p>
+<h3 id="1-2-CPU、内存、硬盘">1.2 CPU、内存、硬盘</h3>
+<ol>
+<li><strong>CPU</strong></li>
+</ol>
+<p><code>Central Processing Unit</code>，中文译为中央处理器，是整个计算机中最为核心的部件，计算机就是通过 <code>CPU</code> 来进行运算和控制的。如果把计算机比作一个人，那么 <code>CPU</code> 就是人的大脑。</p>
+<ol start="2">
+<li><strong>硬盘</strong></li>
+</ol>
+<p>主要用于存储计算机中的数据，是计算机中最主要的存储设备，具有容量大、断电不怕数据丢失的特点。目前，常见的硬盘主要分为：</p>
+<ul>
+<li><strong>机械硬盘（HDD）</strong></li>
+<li><strong>固态硬盘（SSD）</strong></li>
+<li><strong>混合硬盘（SSHD）</strong></li>
+</ul>
+<p>固态硬盘无论是在开机速度还是程序运行方面，其加载速度都远超机械硬盘，但有一个缺点就是价格昂贵，因此无法做到全面取代机械硬盘。</p>
+<ol start="3">
+<li><strong>内存</strong></li>
+</ol>
+<p>主要负责计算机中硬盘和 <code>CPU</code> 之间的数据交换处理。一般用来保存从硬盘中读取数据，然后提供给 <code>CPU</code> 使用。此外，对于 <code>CPU</code> 中的一些临时的运算结果，也通常保存在内存中，以便 <code>CPU</code> 再次使用或直接保存到硬盘中。不同于硬盘就算断电也不会丢数据的特点，内存一旦断电，那么它所保存的数据就将丢失。</p>
+<p><img src="https://img-blog.csdnimg.cn/bb260964fd3f46559040b9ac61f9fbe2.png" alt="CPU、内存、硬盘关系图"></p>
+<h2 id="2-软件简介">2. 软件简介</h2>
+<h3 id="2-1-什么是软件">2.1 什么是软件</h3>
+<blockquote>
+<p>软件 = 数据结构 + 算法</p>
+</blockquote>
+<p>所谓软件，就是一系列按照特顺序组织的数据和指令的合集，如果说硬件是计算机中的有形部分，那么软件则是计算机中的无形部分。一般来说，计算机软件可以分为系统软件、应用软件，以及介于这两种之间的中间件。</p>
+<ol>
+<li><strong>系统软件</strong></li>
+</ol>
+<p>系统软件指的是控制和协调计算机以及外设，支持应用软件开发和运行的系统，无序用户干预的各种程序的合集。最主要的功能是调度、监控和维护计算机系统，负责计算机中相互独立的硬件，让它们能够协调工作。最常见的系统软件有 <code>macOS</code>、<code>Windows 11</code>、<code>Linux</code>、<code>Android</code>、<code>iOS</code> 等。</p>
+<ol start="2">
+<li><strong>应用软件</strong></li>
+</ol>
+<p>应用软件是软件的主要分类，指针对用户的某种特殊应用目的所编写的程序，如文本处理、浏览器、沟通交流等。最常见的应用软件有微信、<code>QQ</code>、钉钉、网易云音乐、<code>Chrome</code> 等。</p>
+<h3 id="2-2-人机交互方式">2.2 人机交互方式</h3>
+<p>人机交互方式是指通过计算机输入、输出设备，以有效的方式从而实现人与计算机对话。比如计算机通过输出设备如显示器给人提供大量相关信息，而人通过输入设备如键盘给计算机输入相关指令，让计算机完成对应工作等。</p>
+<ol>
+<li><strong>命令行方式</strong></li>
+</ol>
+<p>需要在控制台中输入特定的指令，然后计算机才能去完成对应的操作。此时就需要使用者对指令十分熟悉，否则将无法使用计算机。</p>
+<p><img src="https://img-blog.csdnimg.cn/4a875d9830ca4992b14bbd1d6e41457e.png" alt="命令行"></p>
+<ol start="2">
+<li><strong>图形化界面</strong></li>
+</ol>
+<p>简单直观，使用者能够十分容易就上手，只需要点点鼠标、输入文字等就能完成对应的操作。</p>
+<p><img src="https://img-blog.csdnimg.cn/a7cbccfe1cd442508a613948b89c664d.png" alt="图形化界面"></p>
+<h3 id="2-3-常用-Dos-命令">2.3 常用 Dos 命令</h3>
+<p><code>Dos（Disk Operating System）</code>，中文译为磁盘操作系统。它是微软早期在推出 <code>Windows</code> 之前的一个操作系统，是一个单用户、单任务的操作系统，能够直接操纵管理硬盘中的文件。</p>
+<h4 id="2-3-1-如何打开-Dos-窗口">2.3.1 如何打开 Dos 窗口</h4>
+<p>打开的方式很多，这里例举常用的 <code>5</code> 种。</p>
+<ol>
+<li><strong>方法 1</strong></li>
+</ol>
+<p><code>Win + R</code> 快捷键打开运行，输入 <code>cmd</code> 后回车。</p>
+<ol start="2">
+<li><strong>方法 2</strong></li>
+</ol>
+<p>依次打开开始菜单 -&gt; <code>Windows</code> 系统（<code>Windows</code> 工具） -&gt; 命令提示符。</p>
+<ol start="3">
+<li><strong>方法 3</strong></li>
+</ol>
+<p>打开资源管理器，然后在地址栏输入 <code>cmd</code> 后回车。</p>
+<ol start="4">
+<li><strong>方法 4</strong></li>
+</ol>
+<p>鼠标右键点击开始菜单的 <code>Win</code> 图标，找到命令提示符（终端）并进入。</p>
+<ol start="5">
+<li><strong>方法 5</strong></li>
+</ol>
+<p>在任务栏中的搜索栏中搜索 <code>cmd</code> 并打开。</p>
+<h4 id="2-3-2-目录操作">2.3.2 目录操作</h4>
+<ol>
+<li><strong>磁盘切换</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">盘符 + 冒号</span><br></pre></td></tr></table></figure>
+<p>如 <code>D:</code> 就代码进入 <code>D</code> 盘。</p>
+<p><img src="https://img-blog.csdnimg.cn/09414a722bdc4ecb919d9c12a20cbeff.png" alt=""></p>
+<ol start="2">
+<li><strong>进入指定目录</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd 目录</span><br></pre></td></tr></table></figure>
+<p><img src="https://img-blog.csdnimg.cn/1ef51757d619425383bb0e847186d46b.png" alt=""></p>
+<ol start="3">
+<li><strong>返回磁盘根目录</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd \</span><br></pre></td></tr></table></figure>
+<p><img src="https://img-blog.csdnimg.cn/9ab01d4d9b7c4ecea2deb6985bd3ba9e.png" alt=""></p>
+<ol start="4">
+<li><strong>返回上级目录</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ..</span><br></pre></td></tr></table></figure>
+<p><img src="https://img-blog.csdnimg.cn/5dea8e9f04c34e91869c7356b32bfab2.png" alt=""></p>
+<ol start="5">
+<li><strong>新建目录</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">md 目录名</span><br></pre></td></tr></table></figure>
+<p><img src="https://img-blog.csdnimg.cn/6617f0f262cd44b39bc6e75f7146e0e7.png" alt=""></p>
+<ol start="6">
+<li><strong>查看当前目录中内容</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">dir</span><br></pre></td></tr></table></figure>
+<p><img src="https://img-blog.csdnimg.cn/bddda2e75fb6487b9e0631b00f52b5ff.png" alt=""></p>
+<ol start="7">
+<li><strong>查看指定目录结构</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">tree 目录</span><br></pre></td></tr></table></figure>
+<p><img src="https://img-blog.csdnimg.cn/aaf0e471c2434efa905e0d160b1b060e.png" alt=""></p>
+<ol start="8">
+<li><strong>删除目录</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">rd 目录名</span><br></pre></td></tr></table></figure>
+<p><img src="https://img-blog.csdnimg.cn/c422e4c274ba4e4eab773b94763c9f06.png" alt=""></p>
+<ol start="9">
+<li><strong>复制文件</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">copy 源文件 目标文件</span><br></pre></td></tr></table></figure>
+<p><img src="https://img-blog.csdnimg.cn/45336c8adbc94cb4ae00a8754280930e.png" alt=""></p>
+<ol start="10">
+<li><strong>删除文件</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">del 文件名</span><br></pre></td></tr></table></figure>
+<p><img src="https://img-blog.csdnimg.cn/98b36e84ffaf4292a6cd97bdc98aa4fd.png" alt=""></p>
+<h4 id="2-3-3-开关机操作">2.3.3 开关机操作</h4>
+<ol>
+<li><strong>关机</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">shutdown /s</span><br></pre></td></tr></table></figure>
+<ol start="2">
+<li><strong>重启</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">shutdown /r</span><br></pre></td></tr></table></figure>
+<ol start="3">
+<li><strong>注销</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">shutdown /l</span><br></pre></td></tr></table></figure>
+<ol start="4">
+<li><strong>休眠</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">shutdown /h /f</span><br></pre></td></tr></table></figure>
+<ol start="5">
+<li><strong>定时关机</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">shutdown /s /t 时间（秒）</span><br></pre></td></tr></table></figure>
+<p><img src="https://img-blog.csdnimg.cn/e88262049fb2404894e0137de05d83b5.png" alt=""></p>
+<ol start="6">
+<li><strong>取消关机</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">shutdown /a</span><br></pre></td></tr></table></figure>
+<p><img src="https://img-blog.csdnimg.cn/e77917423cde4e07b1552897ee9497d7.png" alt=""></p>
+<h4 id="2-3-4-网络操作">2.3.4 网络操作</h4>
+<ol>
+<li><strong>测试网络延迟和丢包率</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">ping ip/域名</span><br></pre></td></tr></table></figure>
+<p><img src="https://img-blog.csdnimg.cn/b90c248998964ff79241b7d5a4a5dba9.png" alt=""></p>
+<ol start="2">
+<li><strong>查看本机 ip 地址</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">ipconfig</span><br></pre></td></tr></table></figure>
+<p><img src="https://img-blog.csdnimg.cn/68a68e8dc08745ee90b562feb5120de5.png" alt=""></p>
+<ol start="3">
+<li><strong>清除本地 DNS 缓存</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">ipconfig /flushdns</span><br></pre></td></tr></table></figure>
+<p><img src="https://img-blog.csdnimg.cn/2d7f861853f44810821c50208d9d88eb.png" alt=""></p>
+<ol start="4">
+<li><strong>路由追踪</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">tracert ip/域名</span><br></pre></td></tr></table></figure>
+<p><img src="https://img-blog.csdnimg.cn/280ecadf38664625b5be11c324f170c1.png" alt=""></p>
+<h4 id="2-3-5-进程-服务操作">2.3.5 进程/服务操作</h4>
+<ol>
+<li><strong>查看当前运行的进程</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">tasklist</span><br></pre></td></tr></table></figure>
+<p><img src="https://img-blog.csdnimg.cn/074848735de8420cab1ba252e95fa575.png" alt=""></p>
+<ol start="2">
+<li><strong>运行指定程序或命令</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">start 程序名</span><br></pre></td></tr></table></figure>
+<ol start="3">
+<li><strong>按名称结束进程</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">taskkill /im 进程名</span><br></pre></td></tr></table></figure>
+<p><img src="https://img-blog.csdnimg.cn/39d7659d45884808b26da56f85afca97.png" alt=""></p>
+<ol start="4">
+<li><strong>按 PID 结束进程</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">taskkill /pid PID</span><br></pre></td></tr></table></figure>
+<p><img src="https://img-blog.csdnimg.cn/fb1d63432bae44d18462e68655232300.png" alt=""></p>
+<ol start="5">
+<li><strong>查看当前运行的服务</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">net start</span><br></pre></td></tr></table></figure>
+<p><img src="https://img-blog.csdnimg.cn/925f0da34e374d1b8b27799209af0293.png" alt=""></p>
+<ol start="6">
+<li><strong>启动指定服务</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">net start 服务名</span><br></pre></td></tr></table></figure>
+<p><img src="https://img-blog.csdnimg.cn/4ff4342792f3439e934eb03776188aff.png" alt=""></p>
+<ol start="7">
+<li><strong>停止指定服务</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">net stop 服务名</span><br></pre></td></tr></table></figure>
+<p><img src="https://img-blog.csdnimg.cn/867c5f3845c34e9e9332612406020dc1.png" alt=""></p>
+<h4 id="2-3-6-其他操作">2.3.6 其他操作</h4>
+<ol>
+<li><strong>清除屏幕</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cls</span><br></pre></td></tr></table></figure>
+<p><img src="https://img-blog.csdnimg.cn/89af78bbcd7a48d6be489b09a0505ea0.png" alt="清除前"><br>
+<img src="https://img-blog.csdnimg.cn/871450fabd614115ac62f4d8cc552871.png" alt="清除后"></p>
+<ol start="2">
+<li><strong>退出</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">exit</span><br></pre></td></tr></table></figure>
+<h2 id="3-编程语言">3. 编程语言</h2>
+<h3 id="3-1-什么是计算机语言">3.1 什么是计算机语言</h3>
+<p>在聊计算机语言之前，我们先来看看什么叫做语言。所谓语言，就是人与人之间沟通的一种方式。比如我们日常生活中用普通话沟通，而和外国人则是用英语沟通。</p>
+<p>而计算机语言指用于人和计算机之间相互沟通的语言，我们通过编程语言编程后对计算机下达指令，然后让计算机去完成我们所需的功能。计算机是人和计算机之间信息传递的媒介，它和人类语言一样，也有很多种，比如 <code>C</code>、<code>C++</code>、<code>Java</code>、<code>Python</code>、<code>Go</code> 等。</p>
+<h3 id="3-2-计算机语言分类">3.2 计算机语言分类</h3>
+<p>计算机语言的种类非常多，但总体上可分为以下三大类：</p>
+<ul>
+<li><strong>机器语言</strong></li>
+<li><strong>汇编语言</strong></li>
+<li><strong>高级语言</strong></li>
+</ul>
+<ol>
+<li><strong>机器语言</strong></li>
+</ol>
+<p>机器语言指的是一台计算机全部的指令集合。最开始，计算机中的指令和数据都是由 <code>0</code> 和 <code>1</code> 组成的二进制数。</p>
+<ol start="2">
+<li>
+<p><strong>汇编语言</strong></p>
+</li>
+<li>
+<p><strong>高级语言</strong></p>
+</li>
+</ol>
+<h3 id="3-3-计算机语言排行榜">3.3 计算机语言排行榜</h3>
+<p><a target="_blank" rel="noopener" href="https://www.tiobe.com/tiobe-index/">https://www.tiobe.com/tiobe-index/</a></p>
+<p><img src="https://img-blog.csdnimg.cn/6c0226702c0f4af983ee8908f12f7628.png" alt="计算机语言排行榜"></p>
+<p><img src="https://img-blog.csdnimg.cn/51fc4849f5824a17a6a3052502511b86.png" alt="计算机语言占比趋势图"></p>
+<h2 id="4-Java-简介">4. Java 简介</h2>
+<h2 id="5-Java-开发环境">5. Java 开发环境</h2>
+<h2 id="6-Hello-World">6. Hello World</h2>
+<h2 id="7-注释">7. 注释</h2>
+<h2 id="8-API-文档">8. API 文档</h2>
+<h2 id="9-JVM-初体验">9. JVM 初体验</h2>
+<h2 id="10-开发工具推荐">10. 开发工具推荐</h2>
+<h3 id="10-1-文本开发工具">10.1 文本开发工具</h3>
+<p>也就是常说的文本编辑器，是用来编写普通文字的应用软件，而程序开发者则一般用来编写程序的源代码。目前常用的几款文本编辑器主要有：</p>
+<ol>
+<li><strong>Visual Studio Code</strong></li>
+</ol>
+<ul>
+<li>下载地址：<a target="_blank" rel="noopener" href="https://code.visualstudio.com/">https://code.visualstudio.com/</a></li>
+</ul>
+<p><img src="https://img-blog.csdnimg.cn/fd26a08d1ac34213a977c4d5f80a5959.png" alt="VS Code"></p>
+<p>一个完全免费的跨平台文本编辑器，支持 ``Windows<code>、</code>macOS<code>、</code>Linux<code>，具有开源访问权限和大量扩展集，内置 </code>Git` 命令。而且社区活跃，包含大量使用文档、常见问题等内容。</p>
+<ol start="2">
+<li><strong>Sublime Text</strong></li>
+</ol>
+<ul>
+<li>下载地址：<a target="_blank" rel="noopener" href="https://www.sublimetext.com/download">https://www.sublimetext.com/download</a></li>
+</ul>
+<p><img src="https://img-blog.csdnimg.cn/4f4174df2f634b86819043cc70c0340e.png" alt="Sublime Text"></p>
+<p><code>Sublime Text</code> 是一个轻量、简洁、高效、跨平台的编辑器。支持安装扩展、即时文件切换、<code>Vim</code> 模式、宏定义等，简约而不失强大。</p>
+<ol start="3">
+<li><strong>HBuilder X</strong></li>
+</ol>
+<ul>
+<li>下载地址：<a target="_blank" rel="noopener" href="https://www.dcloud.io/hbuilderx.html">https://www.dcloud.io/hbuilderx.html</a></li>
+</ul>
+<p><img src="https://img-blog.csdnimg.cn/6a365a18d83848c7b9e4883541844be7.png" alt="HBuilder X"></p>
+<blockquote>
+<p><code>HBuilderX</code>，<code>H</code> 是 <code>HTML</code> 的首字母，<code>Builder</code> 是构造者，<code>X</code> 是 <code>HBuilder</code> 的下一代版本。我们也简称 <code>HX</code>。 <code>HX</code> 是轻如编辑器、强如 <code>IDE</code> 的合体版本。</p>
+</blockquote>
+<p>一款轻巧、急速的堪比 <code>IDE</code> 的强大编辑器，支持小程序、<code>Vue</code> 开发、语法提示功能强大、<code>json</code> 支持更强，此外还支持安装各种丰富的插件，进一步提高工作效率。</p>
+<ol start="4">
+<li><strong>UltraEdit</strong></li>
+</ol>
+<ul>
+<li>下载地址：<a target="_blank" rel="noopener" href="https://www.ultraedit.com/">https://www.ultraedit.com/</a></li>
+</ul>
+<p><img src="https://img-blog.csdnimg.cn/bd12515623514d63add01f5bbd78a90e.png" alt="UltraEdit"></p>
+<p>一个支持多平台的文本编辑器，可以支持基本语法和二十多种语言。它使用方便，可以用颜色标注重点部分，支持进行内嵌式编辑，也可以进行代码编辑。</p>
+<ol start="5">
+<li><strong>Notepad3</strong></li>
+</ol>
+<ul>
+<li>下载地址：<a target="_blank" rel="noopener" href="https://www.rizonesoft.com/downloads/notepad3/">https://www.rizonesoft.com/downloads/notepad3/</a></li>
+</ul>
+<p><img src="https://img-blog.csdnimg.cn/064c7956d5ae487cbda49303b489bef2.png" alt="Notepad3"></p>
+<p><code>Notepad3</code> 是一个快速且轻量级的基于 <code>Scintilla</code> 的文本编辑器，具有语法突出显示功能。它的内存占用量很小，但功能强大，足以处理大多数编程作业。</p>
+<ol start="6">
+<li><strong>Vim</strong></li>
+</ol>
+<ul>
+<li>下载地址：<a target="_blank" rel="noopener" href="https://www.vim.org/download.php">https://www.vim.org/download.php</a></li>
+</ul>
+<p><img src="https://img-blog.csdnimg.cn/e6f388891cee41799a81b6eccf2671cd.png" alt="Vim"></p>
+<p><code>Vim</code> 是从 <code>vi</code> 发展出来的一个文本编辑器。代码补全、编译及错误跳转等方便编程的功能特别丰富，在程序员中被广泛使用，是类 <code>Unix</code> 系统用户最喜欢的文本编辑器之一。当然，在 <code>Windowns</code> 中也能通过安装从而使用上这个编辑器。</p>
+<h3 id="10-2-集成开发工具">10.2 集成开发工具</h3>
+<p>也就是常说的 <code>IDE(Integrated Development Environment)</code>，是将代码编写、编译、执行、调试等多项功能综合到一起的开发工具。</p>
+<ol>
+<li><strong>IntelliJ IDEA</strong></li>
+</ol>
+<ul>
+<li>下载地址：<a target="_blank" rel="noopener" href="https://www.jetbrains.com/zh-cn/idea/">https://www.jetbrains.com/zh-cn/idea/</a></li>
+</ul>
+<p><img src="https://img-blog.csdnimg.cn/c9f6c3c3eae44eaeb3506178dbef40bc.png" alt="IDEA"></p>
+<p>业界公认为最好的 <code>Java</code> 开发工具，尤其在智能代码助手、代码自动提示、重构、<code>JavaEE</code> 支持、各类版本工具(<code>git</code>、<code>svn</code> 等)、<code>JUnit</code>、<code>CVS</code> 整合、代码分析、 创新的 <code>GUI</code> 设计等方面的功能可以说是超常的。<code>IDEA</code> 是 <code>JetBrains</code> 公司的产品，总部位于捷克共和国的首都布拉格，开发人员以严谨著称的东欧程序员为主。分为旗舰版和社区版，旗舰版支持 <code>HTML</code>，<code>CSS</code>，<code>PHP</code>，<code>MySQL</code>，<code>Python</code> 等，而社区版只支持 <code>Java</code>,<code>Kotlin</code> 等少数语言。</p>
+<ol start="2">
+<li><strong>Eclipse</strong></li>
+</ol>
+<ul>
+<li>下载地址：<a target="_blank" rel="noopener" href="https://www.eclipse.org/downloads/packages/">https://www.eclipse.org/downloads/packages/</a></li>
+</ul>
+<p><img src="https://img-blog.csdnimg.cn/348d707fe81044dd891a3d1f1f8c3fa6.png" alt="Eclipse"></p>
+<p><code>Eclipse</code> 是一个开放源代码的、基于 <code>Java</code> 的可扩展开发跨平台的自由集成开发环境。就其本身而言，它只是一个框架和一组服务，用于通过插件组件构建开发环境。同时，<code>Eclipse</code> 附带了一个标准的插件集，包括Java开发工具（<code>Java Development Kit</code>，<code>JDK</code>）。通过安装各种插件，从而达到支持不同的计算机语言，如 <code>C++</code>、<code>Python</code> 等。</p>
+<ol start="3">
+<li><strong>Apache NetBeans</strong></li>
+</ol>
+<ul>
+<li>下载地址：<a target="_blank" rel="noopener" href="https://netbeans.apache.org/download/index.html">https://netbeans.apache.org/download/index.html</a></li>
+</ul>
+<p><img src="https://img-blog.csdnimg.cn/0e6cfaa7512244de88d47409a37148ea.png" alt="Apache NetBeans"></p>
+<p><code>NetBeans</code> 是开源软件开发集成环境，是一个开放框架，可扩展的开发平台，可以用于 <code>Java</code>、<code>C/C++</code>，<code>PHP</code> 等语言的开发。</p>
+<ol start="4">
+<li><strong>MyEclipse</strong></li>
+</ol>
+<ul>
+<li>下载地址：<a target="_blank" rel="noopener" href="https://www.genuitec.com/products/myeclipse/download/">https://www.genuitec.com/products/myeclipse/download/</a></li>
+</ul>
+<p><img src="https://img-blog.csdnimg.cn/da4a0e3272bd4239855b56632a51b941.png" alt="MyEclipse"></p>
+<p>这是基于 <code>Eclipse</code> 加上自己的插件开发而成的功能强大的企业级集成开发环境，主要用于 <code>Java</code>、<code>Java EE</code> 以及移动应用的开发。在最新版的 <code>MyEclipse</code> 中，对各种开源产品和主流开发框架的支持相当不错。已支持 <code>PHP</code>、<code>Python</code>、<code>Vue</code>、<code>Angular</code>、<code>React</code>、<code>Java</code>、<code>Java EE</code> 等语言和框架开发。</p>
+<h1>二、变量与运算符</h1>
+<h2 id="0-本文预览-2">0. 本文预览</h2>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mindmap</span><br><span class="line">变量与运算符</span><br><span class="line">    1. 关键字</span><br><span class="line">    2. 标识符</span><br><span class="line">    3. 变量</span><br><span class="line">    4. 基本数据类型</span><br><span class="line">    5. 基本数据类型变量运算规则</span><br><span class="line">    6. 计算机中数据的存储机制</span><br><span class="line">    7. 运算符</span><br><span class="line">    8. 字符级</span><br></pre></td></tr></table></figure>
+<h2 id="1-关键字">1. 关键字</h2>
+<h2 id="2-标识符">2. 标识符</h2>
+<h2 id="3-变量">3. 变量</h2>
+<h2 id="4-基本数据类型">4. 基本数据类型</h2>
+<h2 id="5-基本数据类型变量运算规则">5. 基本数据类型变量运算规则</h2>
+<h2 id="6-计算机中数据的存储机制">6. 计算机中数据的存储机制</h2>
+<h2 id="7-运算符">7. 运算符</h2>
+<h2 id="8-字符集">8. 字符集</h2>
+<h1>三、流程控制</h1>
+<h2 id="0-本文预览-3">0. 本文预览</h2>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mindmap</span><br><span class="line">流程控制 </span><br><span class="line">    1. 顺序结构]</span><br><span class="line">    2. 分支结构</span><br><span class="line">    3. 循环结构</span><br><span class="line">    4. break 和 continue</span><br><span class="line">    5. 键盘录入</span><br><span class="line">    6. 随机验证码</span><br></pre></td></tr></table></figure>
+<h2 id="1-顺序结构">1. 顺序结构</h2>
+<h2 id="2-分支结构">2. 分支结构</h2>
+<h2 id="3-循环结构">3. 循环结构</h2>
+<h2 id="4-break-和-continue">4. break 和 continue</h2>
+<h2 id="5-键盘录入">5. 键盘录入</h2>
+<h2 id="6-随机验证码">6. 随机验证码</h2>
+<h1>四、数组</h1>
+<h2 id="0-本文概览">0. 本文概览</h2>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mindmap</span><br><span class="line">数组 </span><br><span class="line">    1. 数组简介</span><br><span class="line">    2. 一维数组</span><br><span class="line">    3. 多维数组</span><br><span class="line">    4. 数组常用算法</span><br><span class="line">    5. Arrays 工具类</span><br><span class="line">    6. 常见异常</span><br></pre></td></tr></table></figure>
+<h2 id="1-数组简介">1. 数组简介</h2>
+<h2 id="2-一维数组">2. 一维数组</h2>
+<h2 id="3-多维数组">3. 多维数组</h2>
+<h2 id="4-数组常用算法">4. 数组常用算法</h2>
+<h2 id="5-Arrays-工具类">5. Arrays 工具类</h2>
+<h2 id="6-常见异常">6. 常见异常</h2>
+<h1>五、 面向对象（上）</h1>
+<h2 id="0-本文预览-4">0. 本文预览</h2>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mindmap</span><br><span class="line">面向对象（上）</span><br><span class="line">    1. 面向对象编程简介</span><br><span class="line">    2. Java 中的类与对象</span><br><span class="line">    3. 对象内存分析</span><br><span class="line">    4. 成员变量</span><br><span class="line">    5. 方法</span><br><span class="line">    6. 对象数组</span><br><span class="line">    7. package &amp; import</span><br><span class="line">    8. 封装</span><br><span class="line">    9. 构造器</span><br><span class="line">    10. 知识拓展</span><br></pre></td></tr></table></figure>
+<h2 id="1-面向对象编程简介">1. 面向对象编程简介</h2>
+<h2 id="2-Java-中的类与对象">2. Java 中的类与对象</h2>
+<h2 id="3-对象内存分析">3. 对象内存分析</h2>
+<h2 id="4-成员变量">4. 成员变量</h2>
+<h2 id="5-方法">5. 方法</h2>
+<h2 id="6-对象数组">6. 对象数组</h2>
+<h2 id="7-package-import">7. package &amp; import</h2>
+<h2 id="8-封装">8. 封装</h2>
+<h2 id="9-构造器">9. 构造器</h2>
+<h2 id="10-知识拓展">10. 知识拓展</h2>
+<h1>六、 面向对象（中）</h1>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mindmap</span><br><span class="line">面向对象（中）    </span><br><span class="line">    1. this</span><br><span class="line">    2. 继承</span><br><span class="line">    3. 重写与重载</span><br><span class="line">    4. 权限修饰</span><br><span class="line">    5. super</span><br><span class="line">    6. 子类对象实例化</span><br><span class="line">    7. 多态</span><br><span class="line">    8. Object 类</span><br></pre></td></tr></table></figure>
+<h2 id="1-this">1. this</h2>
+<h2 id="2-继承">2. 继承</h2>
+<h2 id="3-重写与重载">3. 重写与重载</h2>
+<h2 id="4-权限修饰">4. 权限修饰</h2>
+<h2 id="5-super">5. super</h2>
+<h2 id="6-子类对象实例化">6. 子类对象实例化</h2>
+<h2 id="7-多态">7. 多态</h2>
+<h2 id="8-Object-类">8. Object 类</h2>
+<h1>七、 面向对象（下）</h1>
+<h2 id="0-本文预览-5">0. 本文预览</h2>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mindmap</span><br><span class="line">面向对象（下）</span><br><span class="line">    1. static</span><br><span class="line">    2. 单例模式</span><br><span class="line">    3. main 方法</span><br><span class="line">    4. 代码块</span><br><span class="line">    5. final</span><br><span class="line">    6. 抽象类与抽象方法</span><br><span class="line">    7. 接口</span><br><span class="line">    8. 内部类</span><br><span class="line">    9. 枚举类</span><br><span class="line">    10. 注解</span><br><span class="line">    11. 包装类</span><br></pre></td></tr></table></figure>
+<h2 id="1-static">1. static</h2>
+<h2 id="2-单例模式">2. 单例模式</h2>
+<h2 id="3-main-方法">3. main 方法</h2>
+<h2 id="4-代码块">4. 代码块</h2>
+<h2 id="5-final">5. final</h2>
+<h2 id="6-抽象类与抽象方法">6. 抽象类与抽象方法</h2>
+<h2 id="7-接口">7. 接口</h2>
+<h2 id="8-内部类">8. 内部类</h2>
+<h2 id="9-枚举类">9. 枚举类</h2>
+<h2 id="10-注解">10. 注解</h2>
+<h2 id="11-包装类">11. 包装类</h2>
+<h1>八、 异常处理</h1>
+<h2 id="0-本文预览-6">0. 本文预览</h2>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mindmap</span><br><span class="line">异常处理</span><br><span class="line">    1. 异常概述</span><br><span class="line">    2. Java 异常体系</span><br><span class="line">    3. 常见错误与异常</span><br><span class="line">    4. 异常处理</span><br><span class="line">    5. throw</span><br><span class="line">    6. 自定义异常</span><br></pre></td></tr></table></figure>
+<h2 id="1-异常概述">1. 异常概述</h2>
+<h2 id="2-Java-异常体系">2. Java 异常体系</h2>
+<h2 id="3-常见错误与异常">3. 常见错误与异常</h2>
+<h2 id="4-异常处理">4. 异常处理</h2>
+<h2 id="5-throw">5. throw</h2>
+<h2 id="6-自定义异常">6. 自定义异常</h2>
+<h1>九、 多线程</h1>
+<h2 id="0-本文预览-7">0. 本文预览</h2>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mindmap</span><br><span class="line">多线程</span><br><span class="line">    1. 相关概念</span><br><span class="line">    2. 线程创建与启动</span><br><span class="line">    3. Thread 类</span><br><span class="line">    4. 多线程的生命周期</span><br><span class="line">    5. 线程安全</span><br><span class="line">    6. 同步</span><br><span class="line">    7. 线程通信</span><br></pre></td></tr></table></figure>
+<h2 id="1-相关概念">1. 相关概念</h2>
+<h2 id="2-线程创建与启动">2. 线程创建与启动</h2>
+<h2 id="3-Thread-类">3. Thread 类</h2>
+<h2 id="4-多线程的生命周期">4. 多线程的生命周期</h2>
+<h2 id="5-线程安全">5. 线程安全</h2>
+<h2 id="6-同步">6. 同步</h2>
+<h2 id="7-线程通信">7. 线程通信</h2>
+<h1>十、 常用类和基础 API</h1>
+<h2 id="0-本文预览-8">0. 本文预览</h2>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mindmap</span><br><span class="line">常用类和基础 API</span><br><span class="line">    1. String</span><br><span class="line">    2. StringBuffer &amp; StringBuilder</span><br><span class="line">    3. 日期时间 API</span><br><span class="line">    4. Java 比较器</span><br><span class="line">    5. 系统相关类</span><br><span class="line">    6. 数学相关类</span><br></pre></td></tr></table></figure>
+<h2 id="1-String">1. String</h2>
+<h2 id="2-StringBuffer-StringBuilder">2. StringBuffer &amp; StringBuilder</h2>
+<h2 id="3-日期时间-API">3. 日期时间 API</h2>
+<h2 id="4-Java-比较器">4. Java 比较器</h2>
+<h2 id="5-系统相关类">5. 系统相关类</h2>
+<h2 id="6-数学相关类">6. 数学相关类</h2>
+<h1>十一、 集合</h1>
+<h2 id="0-本文预览-9">0. 本文预览</h2>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mindmap</span><br><span class="line">集合</span><br><span class="line">    1. 集合框架概述</span><br><span class="line">    2. Collection 接口与方法</span><br><span class="line">    3. Iterator 迭代器</span><br><span class="line">    4. List</span><br><span class="line">    5. Set</span><br><span class="line">    6. Map</span><br><span class="line">    7. Collections 工具类</span><br></pre></td></tr></table></figure>
+<h2 id="1-集合框架概述">1. 集合框架概述</h2>
+<h2 id="2-Collection-接口与方法">2. Collection 接口与方法</h2>
+<h2 id="3-Iterator-迭代器">3. Iterator 迭代器</h2>
+<h2 id="4-List">4. List</h2>
+<h2 id="5-Set">5. Set</h2>
+<h2 id="6-Map">6. Map</h2>
+<h2 id="7-Collections-工具类">7. Collections 工具类</h2>
+<h1>十二、 泛型</h1>
+<h2 id="0-本文预览-10">0. 本文预览</h2>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mindmap</span><br><span class="line">泛型</span><br><span class="line">    1. 泛型概述</span><br><span class="line">    2. 泛型实例</span><br><span class="line">    3. 自定义泛型结构</span><br><span class="line">    4. 继承中的泛型</span><br><span class="line">    5. 通配符</span><br></pre></td></tr></table></figure>
+<h2 id="1-泛型概述">1. 泛型概述</h2>
+<h2 id="2-泛型实例">2. 泛型实例</h2>
+<h2 id="3-自定义泛型结构">3. 自定义泛型结构</h2>
+<h2 id="4-继承中的泛型">4. 继承中的泛型</h2>
+<h2 id="5-通配符">5. 通配符</h2>
+<h1>十三、 File 类与 IO 流</h1>
+<h2 id="0-本文预览-11">0. 本文预览</h2>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mindmap</span><br><span class="line">File 类与 IO 流</span><br><span class="line">    1. java.io.File 类</span><br><span class="line">    2. IO 流原理及分类</span><br><span class="line">    3. FileReader &amp; FileWriter</span><br><span class="line">    4. FileInputStream &amp; FileOutputStream</span><br><span class="line">    5. 缓冲流</span><br><span class="line">    6. 转换流</span><br><span class="line">    7. 数据流</span><br><span class="line">    8. 对象流</span><br><span class="line">    9. 其他流</span><br><span class="line">    10. Apache Common</span><br></pre></td></tr></table></figure>
+<h2 id="1-java-io-File-类">1. java.io.File 类</h2>
+<h2 id="2-IO-流原理及分类">2. IO 流原理及分类</h2>
+<h2 id="3-FileReader-FileWriter">3. FileReader &amp; FileWriter</h2>
+<h2 id="4-FileInputStream-FileOutputStream">4. FileInputStream &amp; FileOutputStream</h2>
+<h2 id="5-缓冲流">5. 缓冲流</h2>
+<h2 id="6-转换流">6. 转换流</h2>
+<h2 id="7-数据流">7. 数据流</h2>
+<h2 id="8-对象流">8. 对象流</h2>
+<h2 id="9-其他流">9. 其他流</h2>
+<h2 id="10-Apache-Common">10. Apache Common</h2>
+<h1>十四、 网络编程</h1>
+<h2 id="0-本文预览-12">0. 本文预览</h2>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mindmap</span><br><span class="line">网络编程</span><br><span class="line">    1. 网络编程概述</span><br><span class="line">    2. 网络通信要素</span><br><span class="line">    3. TCP 与 UDP</span><br><span class="line">    4. 网络编程 API</span><br><span class="line">    5. TCP 网络编程</span><br><span class="line">    6. UDP 网络编程</span><br><span class="line">    7. URL 编程</span><br></pre></td></tr></table></figure>
+<h2 id="1-网络编程概述">1. 网络编程概述</h2>
+<h2 id="2-网络通信要素">2. 网络通信要素</h2>
+<h2 id="3-TCP-与-UDP">3. TCP 与 UDP</h2>
+<h2 id="4-网络编程-API">4. 网络编程 API</h2>
+<h2 id="5-TCP-网络编程">5. TCP 网络编程</h2>
+<h2 id="6-UDP-网络编程">6. UDP 网络编程</h2>
+<h2 id="7-URL-编程">7. URL 编程</h2>
+<h1>十五、 反射机制</h1>
+<h2 id="0-本文预览-13">0. 本文预览</h2>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mindmap</span><br><span class="line">反射机制</span><br><span class="line">    1. 反射简介</span><br><span class="line">    2. Class 入门</span><br><span class="line">    3. 类加载</span><br><span class="line">    4. 反射的应用</span><br><span class="line">    5. 反射的动态性</span><br></pre></td></tr></table></figure>
+<h2 id="1-反射简介">1. 反射简介</h2>
+<h2 id="2-Class-入门">2. Class 入门</h2>
+<h2 id="3-类加载">3. 类加载</h2>
+<h2 id="4-反射的应用">4. 反射的应用</h2>
+<h2 id="5-反射的动态性">5. 反射的动态性</h2>
+<h1>十六、 常用数据结构</h1>
+<h2 id="0-本文预览-14">0. 本文预览</h2>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mindmap</span><br><span class="line"></span><br><span class="line">常用数据结构</span><br><span class="line">    1. 数据结构简介</span><br><span class="line">    2. 数组</span><br><span class="line">    3. 链表</span><br><span class="line">    4. 栈</span><br><span class="line">    5. 队列</span><br><span class="line">    6. 树与二叉树</span><br><span class="line">    7. List</span><br><span class="line">    8. Map</span><br><span class="line">    9. Set</span><br></pre></td></tr></table></figure>
+<h2 id="1-数据结构简介">1. 数据结构简介</h2>
+<h2 id="2-数组">2. 数组</h2>
+<h2 id="3-链表">3. 链表</h2>
+<h2 id="4-栈">4. 栈</h2>
+<h2 id="5-队列">5. 队列</h2>
+<h2 id="6-树与二叉树">6. 树与二叉树</h2>
+<h2 id="7-List">7. List</h2>
+<h2 id="8-Map">8. Map</h2>
+<h2 id="9-Set">9. Set</h2>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="https://cunyu1943.github.io/">村雨遥</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://cunyu1943.github.io/2023/02/21/java/java-from-beginner-to-master/">http://cunyu1943.github.io/2023/02/21/java/java-from-beginner-to-master/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://cunyu1943.github.io" target="_blank">JavaPark</a>！</span></div></div><div class="tag_share"><div class="post_share"><div class="social-share" data-image="https://images8.alphacoders.com/105/1054337.jpg" data-sites="wechat,weibo,qq,qzone,douban,google,facebook,twitter"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i> 打赏</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/img/wechatpay.png" target="_blank"><img class="post-qr-code-img" src="/img/wechatpay.png" alt="微信支付"/></a><div class="post-qr-code-desc">微信支付</div></li><li class="reward-item"><a href="/img/alipay.png" target="_blank"><img class="post-qr-code-img" src="/img/alipay.png" alt="支付宝"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2023/02/21/hello-world/" title="Hello World"><img class="cover" src="https://images4.alphacoders.com/934/934513.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Hello World</div></div></a></div></nav><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="giscus-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">一、Java 概述</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#0-%E6%9C%AC%E6%96%87%E9%A2%84%E8%A7%88"><span class="toc-text">0. 本文预览</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BD%AF%E7%A1%AC%E4%BB%B6"><span class="toc-text">1. 计算机软硬件</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E7%BB%84%E6%88%90"><span class="toc-text">1.1 计算机的组成</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-2-CPU%E3%80%81%E5%86%85%E5%AD%98%E3%80%81%E7%A1%AC%E7%9B%98"><span class="toc-text">1.2 CPU、内存、硬盘</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E8%BD%AF%E4%BB%B6%E7%AE%80%E4%BB%8B"><span class="toc-text">2. 软件简介</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2-1-%E4%BB%80%E4%B9%88%E6%98%AF%E8%BD%AF%E4%BB%B6"><span class="toc-text">2.1 什么是软件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-2-%E4%BA%BA%E6%9C%BA%E4%BA%A4%E4%BA%92%E6%96%B9%E5%BC%8F"><span class="toc-text">2.2 人机交互方式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-3-%E5%B8%B8%E7%94%A8-Dos-%E5%91%BD%E4%BB%A4"><span class="toc-text">2.3 常用 Dos 命令</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#2-3-1-%E5%A6%82%E4%BD%95%E6%89%93%E5%BC%80-Dos-%E7%AA%97%E5%8F%A3"><span class="toc-text">2.3.1 如何打开 Dos 窗口</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-3-2-%E7%9B%AE%E5%BD%95%E6%93%8D%E4%BD%9C"><span class="toc-text">2.3.2 目录操作</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-3-3-%E5%BC%80%E5%85%B3%E6%9C%BA%E6%93%8D%E4%BD%9C"><span class="toc-text">2.3.3 开关机操作</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-3-4-%E7%BD%91%E7%BB%9C%E6%93%8D%E4%BD%9C"><span class="toc-text">2.3.4 网络操作</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-3-5-%E8%BF%9B%E7%A8%8B-%E6%9C%8D%E5%8A%A1%E6%93%8D%E4%BD%9C"><span class="toc-text">2.3.5 进程&#x2F;服务操作</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-3-6-%E5%85%B6%E4%BB%96%E6%93%8D%E4%BD%9C"><span class="toc-text">2.3.6 其他操作</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80"><span class="toc-text">3. 编程语言</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-%E4%BB%80%E4%B9%88%E6%98%AF%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80"><span class="toc-text">3.1 什么是计算机语言</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-2-%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80%E5%88%86%E7%B1%BB"><span class="toc-text">3.2 计算机语言分类</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-3-%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80%E6%8E%92%E8%A1%8C%E6%A6%9C"><span class="toc-text">3.3 计算机语言排行榜</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-Java-%E7%AE%80%E4%BB%8B"><span class="toc-text">4. Java 简介</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-Java-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83"><span class="toc-text">5. Java 开发环境</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-Hello-World"><span class="toc-text">6. Hello World</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7-%E6%B3%A8%E9%87%8A"><span class="toc-text">7. 注释</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#8-API-%E6%96%87%E6%A1%A3"><span class="toc-text">8. API 文档</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#9-JVM-%E5%88%9D%E4%BD%93%E9%AA%8C"><span class="toc-text">9. JVM 初体验</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#10-%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90"><span class="toc-text">10. 开发工具推荐</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#10-1-%E6%96%87%E6%9C%AC%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7"><span class="toc-text">10.1 文本开发工具</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#10-2-%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7"><span class="toc-text">10.2 集成开发工具</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">二、变量与运算符</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#0-%E6%9C%AC%E6%96%87%E9%A2%84%E8%A7%88-2"><span class="toc-text">0. 本文预览</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E5%85%B3%E9%94%AE%E5%AD%97"><span class="toc-text">1. 关键字</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E6%A0%87%E8%AF%86%E7%AC%A6"><span class="toc-text">2. 标识符</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E5%8F%98%E9%87%8F"><span class="toc-text">3. 变量</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B"><span class="toc-text">4. 基本数据类型</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E5%8F%98%E9%87%8F%E8%BF%90%E7%AE%97%E8%A7%84%E5%88%99"><span class="toc-text">5. 基本数据类型变量运算规则</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%AD%E6%95%B0%E6%8D%AE%E7%9A%84%E5%AD%98%E5%82%A8%E6%9C%BA%E5%88%B6"><span class="toc-text">6. 计算机中数据的存储机制</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7-%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-text">7. 运算符</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#8-%E5%AD%97%E7%AC%A6%E9%9B%86"><span class="toc-text">8. 字符集</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">三、流程控制</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#0-%E6%9C%AC%E6%96%87%E9%A2%84%E8%A7%88-3"><span class="toc-text">0. 本文预览</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E9%A1%BA%E5%BA%8F%E7%BB%93%E6%9E%84"><span class="toc-text">1. 顺序结构</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84"><span class="toc-text">2. 分支结构</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84"><span class="toc-text">3. 循环结构</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-break-%E5%92%8C-continue"><span class="toc-text">4. break 和 continue</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-%E9%94%AE%E7%9B%98%E5%BD%95%E5%85%A5"><span class="toc-text">5. 键盘录入</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-%E9%9A%8F%E6%9C%BA%E9%AA%8C%E8%AF%81%E7%A0%81"><span class="toc-text">6. 随机验证码</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">四、数组</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#0-%E6%9C%AC%E6%96%87%E6%A6%82%E8%A7%88"><span class="toc-text">0. 本文概览</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E6%95%B0%E7%BB%84%E7%AE%80%E4%BB%8B"><span class="toc-text">1. 数组简介</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84"><span class="toc-text">2. 一维数组</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E5%A4%9A%E7%BB%B4%E6%95%B0%E7%BB%84"><span class="toc-text">3. 多维数组</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E6%95%B0%E7%BB%84%E5%B8%B8%E7%94%A8%E7%AE%97%E6%B3%95"><span class="toc-text">4. 数组常用算法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-Arrays-%E5%B7%A5%E5%85%B7%E7%B1%BB"><span class="toc-text">5. Arrays 工具类</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-%E5%B8%B8%E8%A7%81%E5%BC%82%E5%B8%B8"><span class="toc-text">6. 常见异常</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">五、 面向对象（上）</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#0-%E6%9C%AC%E6%96%87%E9%A2%84%E8%A7%88-4"><span class="toc-text">0. 本文预览</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B%E7%AE%80%E4%BB%8B"><span class="toc-text">1. 面向对象编程简介</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-Java-%E4%B8%AD%E7%9A%84%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1"><span class="toc-text">2. Java 中的类与对象</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E5%AF%B9%E8%B1%A1%E5%86%85%E5%AD%98%E5%88%86%E6%9E%90"><span class="toc-text">3. 对象内存分析</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E6%88%90%E5%91%98%E5%8F%98%E9%87%8F"><span class="toc-text">4. 成员变量</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-%E6%96%B9%E6%B3%95"><span class="toc-text">5. 方法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-%E5%AF%B9%E8%B1%A1%E6%95%B0%E7%BB%84"><span class="toc-text">6. 对象数组</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7-package-import"><span class="toc-text">7. package &amp; import</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#8-%E5%B0%81%E8%A3%85"><span class="toc-text">8. 封装</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#9-%E6%9E%84%E9%80%A0%E5%99%A8"><span class="toc-text">9. 构造器</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#10-%E7%9F%A5%E8%AF%86%E6%8B%93%E5%B1%95"><span class="toc-text">10. 知识拓展</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">六、 面向对象（中）</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-this"><span class="toc-text">1. this</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E7%BB%A7%E6%89%BF"><span class="toc-text">2. 继承</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E9%87%8D%E5%86%99%E4%B8%8E%E9%87%8D%E8%BD%BD"><span class="toc-text">3. 重写与重载</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E6%9D%83%E9%99%90%E4%BF%AE%E9%A5%B0"><span class="toc-text">4. 权限修饰</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-super"><span class="toc-text">5. super</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-%E5%AD%90%E7%B1%BB%E5%AF%B9%E8%B1%A1%E5%AE%9E%E4%BE%8B%E5%8C%96"><span class="toc-text">6. 子类对象实例化</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7-%E5%A4%9A%E6%80%81"><span class="toc-text">7. 多态</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#8-Object-%E7%B1%BB"><span class="toc-text">8. Object 类</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">七、 面向对象（下）</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#0-%E6%9C%AC%E6%96%87%E9%A2%84%E8%A7%88-5"><span class="toc-text">0. 本文预览</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-static"><span class="toc-text">1. static</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F"><span class="toc-text">2. 单例模式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-main-%E6%96%B9%E6%B3%95"><span class="toc-text">3. main 方法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E4%BB%A3%E7%A0%81%E5%9D%97"><span class="toc-text">4. 代码块</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-final"><span class="toc-text">5. final</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-%E6%8A%BD%E8%B1%A1%E7%B1%BB%E4%B8%8E%E6%8A%BD%E8%B1%A1%E6%96%B9%E6%B3%95"><span class="toc-text">6. 抽象类与抽象方法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7-%E6%8E%A5%E5%8F%A3"><span class="toc-text">7. 接口</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#8-%E5%86%85%E9%83%A8%E7%B1%BB"><span class="toc-text">8. 内部类</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#9-%E6%9E%9A%E4%B8%BE%E7%B1%BB"><span class="toc-text">9. 枚举类</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#10-%E6%B3%A8%E8%A7%A3"><span class="toc-text">10. 注解</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#11-%E5%8C%85%E8%A3%85%E7%B1%BB"><span class="toc-text">11. 包装类</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">八、 异常处理</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#0-%E6%9C%AC%E6%96%87%E9%A2%84%E8%A7%88-6"><span class="toc-text">0. 本文预览</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E5%BC%82%E5%B8%B8%E6%A6%82%E8%BF%B0"><span class="toc-text">1. 异常概述</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-Java-%E5%BC%82%E5%B8%B8%E4%BD%93%E7%B3%BB"><span class="toc-text">2. Java 异常体系</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E5%B8%B8%E8%A7%81%E9%94%99%E8%AF%AF%E4%B8%8E%E5%BC%82%E5%B8%B8"><span class="toc-text">3. 常见错误与异常</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86"><span class="toc-text">4. 异常处理</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-throw"><span class="toc-text">5. throw</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-%E8%87%AA%E5%AE%9A%E4%B9%89%E5%BC%82%E5%B8%B8"><span class="toc-text">6. 自定义异常</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">九、 多线程</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#0-%E6%9C%AC%E6%96%87%E9%A2%84%E8%A7%88-7"><span class="toc-text">0. 本文预览</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5"><span class="toc-text">1. 相关概念</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E7%BA%BF%E7%A8%8B%E5%88%9B%E5%BB%BA%E4%B8%8E%E5%90%AF%E5%8A%A8"><span class="toc-text">2. 线程创建与启动</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-Thread-%E7%B1%BB"><span class="toc-text">3. Thread 类</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F"><span class="toc-text">4. 多线程的生命周期</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-%E7%BA%BF%E7%A8%8B%E5%AE%89%E5%85%A8"><span class="toc-text">5. 线程安全</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-%E5%90%8C%E6%AD%A5"><span class="toc-text">6. 同步</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7-%E7%BA%BF%E7%A8%8B%E9%80%9A%E4%BF%A1"><span class="toc-text">7. 线程通信</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">十、 常用类和基础 API</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#0-%E6%9C%AC%E6%96%87%E9%A2%84%E8%A7%88-8"><span class="toc-text">0. 本文预览</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-String"><span class="toc-text">1. String</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-StringBuffer-StringBuilder"><span class="toc-text">2. StringBuffer &amp; StringBuilder</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E6%97%A5%E6%9C%9F%E6%97%B6%E9%97%B4-API"><span class="toc-text">3. 日期时间 API</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-Java-%E6%AF%94%E8%BE%83%E5%99%A8"><span class="toc-text">4. Java 比较器</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-%E7%B3%BB%E7%BB%9F%E7%9B%B8%E5%85%B3%E7%B1%BB"><span class="toc-text">5. 系统相关类</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-%E6%95%B0%E5%AD%A6%E7%9B%B8%E5%85%B3%E7%B1%BB"><span class="toc-text">6. 数学相关类</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">十一、 集合</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#0-%E6%9C%AC%E6%96%87%E9%A2%84%E8%A7%88-9"><span class="toc-text">0. 本文预览</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E9%9B%86%E5%90%88%E6%A1%86%E6%9E%B6%E6%A6%82%E8%BF%B0"><span class="toc-text">1. 集合框架概述</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-Collection-%E6%8E%A5%E5%8F%A3%E4%B8%8E%E6%96%B9%E6%B3%95"><span class="toc-text">2. Collection 接口与方法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-Iterator-%E8%BF%AD%E4%BB%A3%E5%99%A8"><span class="toc-text">3. Iterator 迭代器</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-List"><span class="toc-text">4. List</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-Set"><span class="toc-text">5. Set</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-Map"><span class="toc-text">6. Map</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7-Collections-%E5%B7%A5%E5%85%B7%E7%B1%BB"><span class="toc-text">7. Collections 工具类</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">十二、 泛型</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#0-%E6%9C%AC%E6%96%87%E9%A2%84%E8%A7%88-10"><span class="toc-text">0. 本文预览</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E6%B3%9B%E5%9E%8B%E6%A6%82%E8%BF%B0"><span class="toc-text">1. 泛型概述</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E6%B3%9B%E5%9E%8B%E5%AE%9E%E4%BE%8B"><span class="toc-text">2. 泛型实例</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E8%87%AA%E5%AE%9A%E4%B9%89%E6%B3%9B%E5%9E%8B%E7%BB%93%E6%9E%84"><span class="toc-text">3. 自定义泛型结构</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E7%BB%A7%E6%89%BF%E4%B8%AD%E7%9A%84%E6%B3%9B%E5%9E%8B"><span class="toc-text">4. 继承中的泛型</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-%E9%80%9A%E9%85%8D%E7%AC%A6"><span class="toc-text">5. 通配符</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">十三、 File 类与 IO 流</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#0-%E6%9C%AC%E6%96%87%E9%A2%84%E8%A7%88-11"><span class="toc-text">0. 本文预览</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-java-io-File-%E7%B1%BB"><span class="toc-text">1. java.io.File 类</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-IO-%E6%B5%81%E5%8E%9F%E7%90%86%E5%8F%8A%E5%88%86%E7%B1%BB"><span class="toc-text">2. IO 流原理及分类</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-FileReader-FileWriter"><span class="toc-text">3. FileReader &amp; FileWriter</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-FileInputStream-FileOutputStream"><span class="toc-text">4. FileInputStream &amp; FileOutputStream</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-%E7%BC%93%E5%86%B2%E6%B5%81"><span class="toc-text">5. 缓冲流</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-%E8%BD%AC%E6%8D%A2%E6%B5%81"><span class="toc-text">6. 转换流</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7-%E6%95%B0%E6%8D%AE%E6%B5%81"><span class="toc-text">7. 数据流</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#8-%E5%AF%B9%E8%B1%A1%E6%B5%81"><span class="toc-text">8. 对象流</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#9-%E5%85%B6%E4%BB%96%E6%B5%81"><span class="toc-text">9. 其他流</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#10-Apache-Common"><span class="toc-text">10. Apache Common</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">十四、 网络编程</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#0-%E6%9C%AC%E6%96%87%E9%A2%84%E8%A7%88-12"><span class="toc-text">0. 本文预览</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B%E6%A6%82%E8%BF%B0"><span class="toc-text">1. 网络编程概述</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E7%BD%91%E7%BB%9C%E9%80%9A%E4%BF%A1%E8%A6%81%E7%B4%A0"><span class="toc-text">2. 网络通信要素</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-TCP-%E4%B8%8E-UDP"><span class="toc-text">3. TCP 与 UDP</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B-API"><span class="toc-text">4. 网络编程 API</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-TCP-%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B"><span class="toc-text">5. TCP 网络编程</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-UDP-%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B"><span class="toc-text">6. UDP 网络编程</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7-URL-%E7%BC%96%E7%A8%8B"><span class="toc-text">7. URL 编程</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">十五、 反射机制</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#0-%E6%9C%AC%E6%96%87%E9%A2%84%E8%A7%88-13"><span class="toc-text">0. 本文预览</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E5%8F%8D%E5%B0%84%E7%AE%80%E4%BB%8B"><span class="toc-text">1. 反射简介</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-Class-%E5%85%A5%E9%97%A8"><span class="toc-text">2. Class 入门</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E7%B1%BB%E5%8A%A0%E8%BD%BD"><span class="toc-text">3. 类加载</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E5%8F%8D%E5%B0%84%E7%9A%84%E5%BA%94%E7%94%A8"><span class="toc-text">4. 反射的应用</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-%E5%8F%8D%E5%B0%84%E7%9A%84%E5%8A%A8%E6%80%81%E6%80%A7"><span class="toc-text">5. 反射的动态性</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">十六、 常用数据结构</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#0-%E6%9C%AC%E6%96%87%E9%A2%84%E8%A7%88-14"><span class="toc-text">0. 本文预览</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%AE%80%E4%BB%8B"><span class="toc-text">1. 数据结构简介</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E6%95%B0%E7%BB%84"><span class="toc-text">2. 数组</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E9%93%BE%E8%A1%A8"><span class="toc-text">3. 链表</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E6%A0%88"><span class="toc-text">4. 栈</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-%E9%98%9F%E5%88%97"><span class="toc-text">5. 队列</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-%E6%A0%91%E4%B8%8E%E4%BA%8C%E5%8F%89%E6%A0%91"><span class="toc-text">6. 树与二叉树</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7-List"><span class="toc-text">7. List</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#8-Map"><span class="toc-text">8. Map</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#9-Set"><span class="toc-text">9. Set</span></a></li></ol></li></ol></div></div></div></div></main><footer id="footer" style="background-image: url('https://images8.alphacoders.com/105/1054337.jpg')"><div id="footer-wrap"><div class="copyright">&copy;2018 - 2023 By 村雨遥</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><div class="js-pjax"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css"><script src="https://cdn.jsdelivr.net/npm/katex/dist/contrib/copy-tex.min.js"></script><script>(() => {
   document.querySelectorAll('#article-container span.katex-display').forEach(item => {
     btf.wrap(item, 'div', { class: 'katex-wrap'})
   })
