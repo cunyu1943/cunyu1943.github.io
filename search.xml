@@ -31,22 +31,22 @@
     
     
     <entry>
-      <title>友链</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
-        <content type="html"><![CDATA[<p>添加友链请按照以下格式留言：</p><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">&quot;name&quot;:</span> <span class="string">&quot;Weibo&quot;</span><span class="string">,</span></span><br><span class="line"><span class="attr">&quot;link&quot;:</span> <span class="string">&quot;https://www.weibo.com/&quot;</span><span class="string">,</span></span><br><span class="line"><span class="attr">&quot;avatar&quot;:</span> <span class="string">&quot;https://i.loli.net/2020/05/14/TLJBum386vcnI1P.png&quot;</span><span class="string">,</span></span><br><span class="line"><span class="attr">&quot;descr&quot;:</span> <span class="string">&quot;中国最大社交分享平台&quot;</span></span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>友链</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>添加友链请按照以下格式留言：</p><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">&quot;name&quot;:</span> <span class="string">&quot;Weibo&quot;</span><span class="string">,</span></span><br><span class="line"><span class="attr">&quot;link&quot;:</span> <span class="string">&quot;https://www.weibo.com/&quot;</span><span class="string">,</span></span><br><span class="line"><span class="attr">&quot;avatar&quot;:</span> <span class="string">&quot;https://i.loli.net/2020/05/14/TLJBum386vcnI1P.png&quot;</span><span class="string">,</span></span><br><span class="line"><span class="attr">&quot;descr&quot;:</span> <span class="string">&quot;中国最大社交分享平台&quot;</span></span><br></pre></td></tr></table></figure>]]></content>
       
     </entry>
     
