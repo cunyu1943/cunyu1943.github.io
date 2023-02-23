@@ -2,7 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://cunyu1943.github.io/posts/4a17b156/</loc>
+    <loc>http://cunyu1943.github.io/link/index.html</loc>
+    
+    <lastmod>2023-02-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://cunyu1943.github.io/tags/index.html</loc>
+    
+    <lastmod>2023-02-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://cunyu1943.github.io/posts/6b002a6d/</loc>
     
     <lastmod>2023-02-23</lastmod>
     
@@ -28,24 +46,6 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>http://cunyu1943.github.io/link/index.html</loc>
-    
-    <lastmod>2023-02-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://cunyu1943.github.io/tags/index.html</loc>
-    
-    <lastmod>2023-02-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>http://cunyu1943.github.io/</loc>
@@ -55,6 +55,20 @@
   </url>
 
   
+  <url>
+    <loc>http://cunyu1943.github.io/tags/Java/</loc>
+    <lastmod>2023-02-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
+  
+  <url>
+    <loc>http://cunyu1943.github.io/categories/Java-%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A/</loc>
+    <lastmod>2023-02-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 </urlset>

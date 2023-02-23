@@ -1,0 +1,450 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title>一、Java 简介 | JavaPark</title><meta name="author" content="村雨遥"><meta name="copyright" content="村雨遥"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="作者：村雨遥 博客：JavaPark 原文：https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s&#x2F;aGz8CBOK5mW8xjAlstlMQw  吾生也有涯，而知也无涯。  1. 前言 既然要学习一门技术，那么就先来了解下它的历史，我们为什么要使用它，以及我们能用它来干啥。 graph LRJava简介 ---&gt; A[1. 历史背景]Java简介 ---&gt; B[2. 为什么使用 Jav">
+<meta property="og:type" content="article">
+<meta property="og:title" content="一、Java 简介">
+<meta property="og:url" content="http://cunyu1943.github.io/posts/6b002a6d/index.html">
+<meta property="og:site_name" content="JavaPark">
+<meta property="og:description" content="作者：村雨遥 博客：JavaPark 原文：https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s&#x2F;aGz8CBOK5mW8xjAlstlMQw  吾生也有涯，而知也无涯。  1. 前言 既然要学习一门技术，那么就先来了解下它的历史，我们为什么要使用它，以及我们能用它来干啥。 graph LRJava简介 ---&gt; A[1. 历史背景]Java简介 ---&gt; B[2. 为什么使用 Jav">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://images5.alphacoders.com/121/1214725.jpg">
+<meta property="article:published_time" content="2023-02-23T12:08:59.000Z">
+<meta property="article:modified_time" content="2023-02-23T12:12:46.422Z">
+<meta property="article:author" content="村雨遥">
+<meta property="article:tag" content="Java">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://images5.alphacoders.com/121/1214725.jpg"><link rel="shortcut icon" href="/img/avatar.png"><link rel="canonical" href="http://cunyu1943.github.io/posts/6b002a6d/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//www.clarity.ms"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="google-site-verification" content="nFiHaC59FfN-CWAMsc3ij2qwRXkxxe9zYSlcqGzh0Kk"/><meta name="baidu-site-verification" content="code-xSfgjuOmgQ"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?807a69bd86c94f887c88d87e436c6c7d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-ZSBWD61LD1"></script><script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-ZSBWD61LD1');
+</script><script>(function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+})(window, document, "clarity", "script", "9wwrtm6j3m");</script><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":true,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: {"limitDay":30,"position":"top","messagePrev":"距离上次更新已","messageNext":"天，文章内容可能已过时，请知晓！"},
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":50,"languages":{"author":"作者: 村雨遥","link":"链接: ","source":"来源: JavaPark","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#1f1f1f","position":"top-center"},
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: true,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: true,
+  }
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '一、Java 简介',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2023-02-23 20:12:46'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="JavaPark" type="application/atom+xml">
+<link rel="alternate" href="/rss.xml" title="JavaPark" type="application/rss+xml">
+</head><body><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js/themes/blue/pace-theme-minimal.min.css"/><script src="https://cdn.jsdelivr.net/npm/pace-js/pace.min.js"></script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">1</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">1</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa-solid fa-list-check"></i><span> 项目</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" target="_blank" rel="noopener" href="https://github.com/cunyu1943/JavaPark"><i class="fa-fw fa-brands fa-java"></i><span> JavaPark</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://github.com/cunyu1943/ebooks"><i class="fa-fw fa-solid fa-book"></i><span> ebooks</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 目录</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/rss.xml"><i class="fa-fw fa-solid fa-square-rss"></i><span> 订阅</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg fixed" id="page-header" style="background-image: url('https://images5.alphacoders.com/121/1214725.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="JavaPark"></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa-solid fa-list-check"></i><span> 项目</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" target="_blank" rel="noopener" href="https://github.com/cunyu1943/JavaPark"><i class="fa-fw fa-brands fa-java"></i><span> JavaPark</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://github.com/cunyu1943/ebooks"><i class="fa-fw fa-solid fa-book"></i><span> ebooks</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 目录</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/rss.xml"><i class="fa-fw fa-solid fa-square-rss"></i><span> 订阅</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">一、Java 简介</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-02-23T12:08:59.000Z" title="发表于 2023-02-23 20:08:59">2023-02-23</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-02-23T12:12:46.422Z" title="更新于 2023-02-23 20:12:46">2023-02-23</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Java-%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A/">Java 从入门到精通</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">1.6k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>5分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="一、Java 简介"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>作者：村雨遥</p>
+<p>博客：<a href="https://cunyu1943.github.io/JavaPark">JavaPark</a></p>
+<p>原文：<a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/aGz8CBOK5mW8xjAlstlMQw">https://mp.weixin.qq.com/s/aGz8CBOK5mW8xjAlstlMQw</a></p>
+<blockquote>
+<p>吾生也有涯，而知也无涯。</p>
+</blockquote>
+<h2 id="1-前言">1. 前言</h2>
+<p>既然要学习一门技术，那么就先来了解下它的历史，我们为什么要使用它，以及我们能用它来干啥。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">graph LR</span><br><span class="line">Java简介 ---&gt; A[1. 历史背景]</span><br><span class="line">Java简介 ---&gt; B[2. 为什么使用 Java]</span><br><span class="line">Java简介 ---&gt; C[3. Java 能做什么]</span><br><span class="line">Java简介 ---&gt; D[4. Java 技术体系]</span><br></pre></td></tr></table></figure>
+<h2 id="2-历史背景">2. 历史背景</h2>
+<p>1990 年代初，<code>Sun</code> 公司的詹姆斯·高斯林等人为了实现电视机、电话、闹钟等家用电器的控制和通信，开发了一套用于设置在家用电器等小型系统中的编程语言。在当时，这门语言被命名为 <code>Oka</code>。但由于市场需求不高，所以该计划被逐渐放弃。</p>
+<p>随着 1990 年代互联网的发展，<code>Sun</code> 公司发现 <code>Oka</code> 语言在互联网中的应用前景广泛。于是决定对 <code>Oka</code> 进行改造，并在 1995 年 5 月以 <code>Java</code> 的名义正式发布。</p>
+<p>随着互联网的迅猛发展，Java 也得以逐渐成为重要的网络编程语言，詹姆斯·高斯林也被大家公认为 Java 之父。</p>
+<p>到了 2009 年， <code>Sun</code> 公司被 <code>Oracle</code> 公司所收购，自此 <code>Java</code> 成为 <code>Oracle</code> 公司的一大产品直至今日。</p>
+<p>以下是截止到本文写作时间（2022 年 7 月 23 日）<code>Java</code> 的历史年表，累计经过了 18 次主要版本更新，目前来到了 <code>Java SE</code> 18。而 <code>Java SE</code> 19 早期预览版也已经流出，根据官方给出的发布时间表，大概会在 9 月份发布 Java SE 19 的 <code>GA</code> 版本。不过虽然 <code>Java</code> 已经经历了这么多版本的更新，但国内目前用的最多的应该还是 Java 1.8 版本。而出于对稳定性的考虑，企业开发更喜欢 <code>LTS</code> 版本，这也是为什么至今 Java 1.8 还占有如此高的市场比例。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">版本</th>
+<th style="text-align:center">发布日期</th>
+<th style="text-align:center">主要事件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">JDK Beta</td>
+<td style="text-align:center">1995</td>
+<td style="text-align:center">Java 语言发布，用 Java 实现的浏览器和 Java Applet 被大量应用</td>
+</tr>
+<tr>
+<td style="text-align:center">JDK 1.0</td>
+<td style="text-align:center">1996 年 1 月</td>
+<td style="text-align:center">奠定了 JDK、JRE、JVM 的体系结构</td>
+</tr>
+<tr>
+<td style="text-align:center">JDK 1.1</td>
+<td style="text-align:center">1997 年 2 月</td>
+<td style="text-align:center">加入 JIT，提升 JDK 效率</td>
+</tr>
+<tr>
+<td style="text-align:center">J2SE 1.2</td>
+<td style="text-align:center">1998 年 12 月</td>
+<td style="text-align:center">确立 J2SE、J2EE、J2ME 产品结构</td>
+</tr>
+<tr>
+<td style="text-align:center">J2SE 1.3</td>
+<td style="text-align:center">2000 年 5 月</td>
+<td style="text-align:center">内置 HotSpot JVM</td>
+</tr>
+<tr>
+<td style="text-align:center">J2SE 1.4</td>
+<td style="text-align:center">2002 年 2 月</td>
+<td style="text-align:center">XML 处理、断言、支持正则表达式</td>
+</tr>
+<tr>
+<td style="text-align:center">J2SE 5.0</td>
+<td style="text-align:center">2004 年 9 月</td>
+<td style="text-align:center">静态导入、泛型、for-each 循环、自动拆，装箱、枚举、可变参数</td>
+</tr>
+<tr>
+<td style="text-align:center">Java SE 6</td>
+<td style="text-align:center">2006 年 12 月</td>
+<td style="text-align:center">提供动态语言支持、同步垃圾回收</td>
+</tr>
+<tr>
+<td style="text-align:center">Java SE 7</td>
+<td style="text-align:center">2011 年 7 月</td>
+<td style="text-align:center">字符串的 switch 语句、多异常捕抓</td>
+</tr>
+<tr>
+<td style="text-align:center">Java SE 8 (LTS)</td>
+<td style="text-align:center">2014 年 3 月</td>
+<td style="text-align:center">Lambda 表达式</td>
+</tr>
+<tr>
+<td style="text-align:center">Java SE 9</td>
+<td style="text-align:center">2017 年 9 月</td>
+<td style="text-align:center">轻量级 json API、垃圾收集机制更新</td>
+</tr>
+<tr>
+<td style="text-align:center">Java SE 10</td>
+<td style="text-align:center">2018 年 3 月</td>
+<td style="text-align:center">局部变量类型推断，Java 后续版本快速迭代更新</td>
+</tr>
+<tr>
+<td style="text-align:center">Java SE 11 (LTS)</td>
+<td style="text-align:center">2018 年 9 月</td>
+<td style="text-align:center">常用类增强，Java 11 是继 Java 8 之后的首个长期支持本版</td>
+</tr>
+<tr>
+<td style="text-align:center">Java SE 12</td>
+<td style="text-align:center">2019 年 3 月</td>
+<td style="text-align:center">switch 表达式增强</td>
+</tr>
+<tr>
+<td style="text-align:center">Java SE 13</td>
+<td style="text-align:center">2019 年 9 月</td>
+<td style="text-align:center">文本块支持</td>
+</tr>
+<tr>
+<td style="text-align:center">Java SE 14</td>
+<td style="text-align:center">2020 年 3 月</td>
+<td style="text-align:center"><code>instanceof</code> 支持模式匹配</td>
+</tr>
+<tr>
+<td style="text-align:center">Java SE 15</td>
+<td style="text-align:center">2020 年 9 月</td>
+<td style="text-align:center"><code>EdDSA</code> 数字签名算法、 密封类、隐藏类</td>
+</tr>
+<tr>
+<td style="text-align:center">Java SE 16</td>
+<td style="text-align:center">2021 年 3 月</td>
+<td style="text-align:center">启用 C++ 14 语言特性、Vector API</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>Java SE 17 (LTS)</strong></td>
+<td style="text-align:center">2021 年 9 月</td>
+<td style="text-align:center">恢复总是严格的浮点语义、增强型伪随机数生成器</td>
+</tr>
+<tr>
+<td style="text-align:center">Java SE 18</td>
+<td style="text-align:center">2022 年 3 月</td>
+<td style="text-align:center">默认 UTF-8 编码、代码片段、简单的网络服务器</td>
+</tr>
+</tbody>
+</table>
+<h2 id="3-为什么使用-Java">3. 为什么使用 Java</h2>
+<p>既然编程语言有那么多，那我们为什么要使用 Java 语言呢？以下就来看看 Java 被广泛使用的几个原因。</p>
+<ol>
+<li><strong>世界范围内流行，国内使用最为广泛的编程语言之一。</strong></li>
+</ol>
+<p>以下是截止 2022 年 7 月 TIOBE 统计的编程语言排行榜，可以看到 Java 处于前三的位置。而从历年编程语言所占市场份额趋势图也可以看出，Java 虽然没有一直独占鳌头，但绝大数时间都是占据领先地位。</p>
+<p><img src="https://img-blog.csdnimg.cn/6637fb1c44b9454f98a730133d895747.png" alt=""><br>
+<img src="https://img-blog.csdnimg.cn/f9b7d09d943c4bb38f8ec076c504fe41.png" alt=""></p>
+<ol start="2">
+<li><strong>移植性高</strong></li>
+</ol>
+<p>由于 Java 中 JVM 的特性，所以能够做到一次编译，随处运行，其移植性也就更高。</p>
+<ol start="3">
+<li><strong>开发社区完善</strong></li>
+</ol>
+<p>社区完善也是 Java 为什么使用多的原因，各种封装 API，比起 C、C++ 语言使用起来更加方便。虽然 <code>Python</code> 的封装程度更高，但是其效率比起 <code>Java</code> 却打了折扣。毕竟封装程度和效率是成反比的，<code>Java</code> 兼具了效率高和使用方便的特点，所以更受人们青睐。</p>
+<h2 id="4-Java-能做什么">4. Java 能做什么</h2>
+<p>Java 应用广泛，在我们日常中就能经常见到由 Java 所开发的程序。常见的的应用应用领域如下：</p>
+<ol>
+<li><strong>桌面 GUI 应用开发</strong></li>
+<li><strong>服务器系统</strong></li>
+<li><strong>企业级应用开发</strong></li>
+<li><strong>大数据开发</strong></li>
+<li><strong>移动应用开发</strong></li>
+<li><strong>游戏开发</strong></li>
+<li>……</li>
+</ol>
+<h2 id="5-Java-技术体系">5. Java 技术体系</h2>
+<p>根据传统意义上 Sun 官方定义， Java 技术体系的组成主要就是我们常说的 JDK，即以下三部分：</p>
+<ol>
+<li><strong>Java 程序设计语言</strong></li>
+<li><strong>Java 虚拟机</strong></li>
+<li><strong>Java API 类库</strong></li>
+</ol>
+<p><img src="https://img-blog.csdnimg.cn/4dfc7057ff0f406187a2c7def724b99a.png" alt=""></p>
+<p>同时，Java 技术体系又可以主要分为以下 3 个平台。</p>
+<ol>
+<li><strong>Java SE</strong></li>
+</ol>
+<p>Java Standard Edition，即 Java 标准版。主要是 Java 技术的核心和基础，要想学好 Java，那么首先你得掌握好这部分。主要运行在桌面级应用，如 Windows 应用程序。</p>
+<ol start="2">
+<li><strong>Java EE</strong></li>
+</ol>
+<p>Java Enterprise Editon，即 Java 企业版。从它的名字就不难看出，这是 Java 针对企业级应用开发所提供的一套解决方案，主要用于架设高性能企业网站。</p>
+<ol start="3">
+<li><strong>Java ME</strong></li>
+</ol>
+<p>Java Micro Edition，即 Java 小型版。主要是 Java 针对移动设备应用所提供的一套解决方案，主要运行在手机、pad 等移动端。</p>
+<p><img src="https://img-blog.csdnimg.cn/b0ad3b942def40e2a6cec69f15072a27.png" alt=""></p>
+<h2 id="6-总结">6. 总结</h2>
+<p>本文主要从 Java 历史背景、选择 Java 的理由、Java 能做什么、Java 技术体系等 4 方面对 Java 语言做了一个简单介绍。接下来的文章我们就来看看，如何搭建 Java 的开发环境以及实现一个简单的入门程序。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="https://cunyu1943.github.io/">村雨遥</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://cunyu1943.github.io/posts/6b002a6d/">http://cunyu1943.github.io/posts/6b002a6d/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://cunyu1943.github.io" target="_blank">JavaPark</a>！</span></div></div><div class="tag_share"><div class="post_share"><div class="social-share" data-image="https://images5.alphacoders.com/121/1214725.jpg" data-sites="wechat,weibo,qq,qzone,douban,google,facebook,twitter"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i> 打赏</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/img/wechatpay.png" target="_blank"><img class="post-qr-code-img" src="/img/wechatpay.png" alt="微信支付"/></a><div class="post-qr-code-desc">微信支付</div></li><li class="reward-item"><a href="/img/alipay.png" target="_blank"><img class="post-qr-code-img" src="/img/alipay.png" alt="支付宝"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div></div><nav class="pagination-post" id="pagination"></nav><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="giscus-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E5%89%8D%E8%A8%80"><span class="toc-text">1. 前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E5%8E%86%E5%8F%B2%E8%83%8C%E6%99%AF"><span class="toc-text">2. 历史背景</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8-Java"><span class="toc-text">3. 为什么使用 Java</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-Java-%E8%83%BD%E5%81%9A%E4%BB%80%E4%B9%88"><span class="toc-text">4. Java 能做什么</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-Java-%E6%8A%80%E6%9C%AF%E4%BD%93%E7%B3%BB"><span class="toc-text">5. Java 技术体系</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-%E6%80%BB%E7%BB%93"><span class="toc-text">6. 总结</span></a></li></ol></div></div></div></div></main><footer id="footer" style="background-image: url('https://images5.alphacoders.com/121/1214725.jpg')"><div id="footer-wrap"><div class="copyright">&copy;2018 - 2023 By 村雨遥</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><div class="js-pjax"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css"><script src="https://cdn.jsdelivr.net/npm/katex/dist/contrib/copy-tex.min.js"></script><script>(() => {
+  document.querySelectorAll('#article-container span.katex-display').forEach(item => {
+    btf.wrap(item, 'div', { class: 'katex-wrap'})
+  })
+})()</script><script>(() => {
+  const $mermaidWrap = document.querySelectorAll('#article-container .mermaid-wrap')
+  if ($mermaidWrap.length) {
+    window.runMermaid = () => {
+      window.loadMermaid = true
+      const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+
+      Array.from($mermaidWrap).forEach((item, index) => {
+        const mermaidSrc = item.firstElementChild
+        const mermaidThemeConfig = '%%{init:{ \'theme\':\'' + theme + '\'}}%%\n'
+        const mermaidID = 'mermaid-' + index
+        const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
+        mermaid.mermaidAPI.render(mermaidID, mermaidDefinition, (svgCode) => {
+          mermaidSrc.insertAdjacentHTML('afterend', svgCode)
+        })
+      })
+    }
+
+    const loadMermaid = () => {
+      window.loadMermaid ? runMermaid() : getScript('https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js').then(runMermaid)
+    }
+
+    window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
+  }
+})()</script><script>function loadGiscus () {
+  let nowTheme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light'
+
+  const config = Object.assign({
+    src: 'https://giscus.app/client.js',
+    'data-repo': 'cunyu1943/cunyu1943.github.io',
+    'data-repo-id': 'MDEwOlJlcG9zaXRvcnkzOTkzNzgzNjM=',
+    'data-category-id': 'DIC_kwDOF84Hu84CUVKC',
+    'data-mapping': 'pathname',
+    'data-theme': nowTheme,
+    'data-reactions-enabled': '1',
+    crossorigin: 'anonymous',
+    async: true
+  },null)
+
+  let ele = document.createElement('script')
+  for (let key in config) {
+    ele.setAttribute(key, config[key])
+  }
+  document.getElementById('giscus-wrap').insertAdjacentElement('afterbegin',ele)
+}
+
+function changeGiscusTheme () {
+  const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light'
+
+  function sendMessage(message) {
+    const iframe = document.querySelector('iframe.giscus-frame');
+    if (!iframe) return;
+    iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+  }
+
+  sendMessage({
+    setConfig: {
+      theme: theme
+    }
+  });
+}
+
+if ('Giscus' === 'Giscus' || !false) {
+  if (false) btf.loadComment(document.getElementById('giscus-wrap'), loadGiscus)
+  else loadGiscus()
+} else {
+  function loadOtherComment () {
+    loadGiscus()
+  }
+}</script></div><script defer="defer" id="ribbon" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="false" data-click="true"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></body></html>
