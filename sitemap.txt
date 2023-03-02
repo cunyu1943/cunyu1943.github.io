@@ -2,6 +2,9 @@ http://cunyu1943.github.io/java-basic-learning/index.html
 http://cunyu1943.github.io/link/index.html
 http://cunyu1943.github.io/springboot-learning/index.html
 http://cunyu1943.github.io/tags/index.html
+http://cunyu1943.github.io/posts/b465a055/
+http://cunyu1943.github.io/posts/44c5df43/
+http://cunyu1943.github.io/posts/475d8715/
 http://cunyu1943.github.io/posts/d15e1165/
 http://cunyu1943.github.io/posts/e65215f5/
 http://cunyu1943.github.io/posts/32c7951f/
@@ -21,9 +24,6 @@ http://cunyu1943.github.io/posts/6b002a6d/
 http://cunyu1943.github.io/posts/874a7803/
 http://cunyu1943.github.io/posts/c30e4a85/
 http://cunyu1943.github.io/posts/a42a8e58/
-http://cunyu1943.github.io/posts/b465a055/
-http://cunyu1943.github.io/posts/44c5df43/
-http://cunyu1943.github.io/posts/475d8715/
 http://cunyu1943.github.io/
 http://cunyu1943.github.io/tags/Java/
 http://cunyu1943.github.io/tags/IntelliJ-IDEA/
