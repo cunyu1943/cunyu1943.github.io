@@ -109,7 +109,7 @@ const setTimeState = () => {
 };
 
 const chageTimeFormate = () => {
-    const timeElements = document.getElementsByTagName("time"), lang = GOBALCONFIG.lang.sayhello
+    const timeElements = document.getElementsByTagName("time"), lang = GOBALCONFIG.lang.time
     for (var i = 0; i < timeElements.length; i++) {
         const datetime = timeElements[i].getAttribute("datetime"), timeObj = new Date(datetime), daysDiff = utils.timeDiff(timeObj, new Date())
         var timeString;
@@ -313,14 +313,14 @@ window.refreshFn = () => {
     acrylic.addRuntime()
     GOBALCONFIG.lazyload.enable && acrylic.lazyloadImg()
     GOBALCONFIG.lightbox && acrylic.lightbox('#article-container img, #bber .bber-content-img img')
+    GOBALCONFIG.randomlinks && randomLinksList()
+    PAGECONFIG.toc && toc.init()
+    PAGECONFIG.comment && initComment()
     if(PAGECONFIG.is_home){
         showTodayCard()
         acrylic.initbbtalk()
     }
     if(PAGECONFIG.is_page && PAGECONFIG.page === 'says')acrylic.reflashEssayWaterFall()
-    PAGECONFIG.toc && toc.init()
-    PAGECONFIG.comment && initComment()
-    GOBALCONFIG.randomlinks && randomLinksList()
 }
 
 acrylic.initTheme()
