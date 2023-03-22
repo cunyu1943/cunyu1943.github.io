@@ -274,11 +274,8 @@ class acrylic {
         }
     }
     static addRuntime() {
-        const $runtimeCount = document.getElementById('runtimeshow')
-        if ($runtimeCount) {
-          const runtime = $runtimeCount.getAttribute('data-runtime')
-          $runtimeCount.innerText = utils.timeDiff(new Date(runtime), new Date()) + GOBALCONFIG.lang.time.runtime
-          console.log(new Date(runtime), new Date())
+        if (GOBALCONFIG.runtime) {
+            document.getElementById('runtimeshow').innerText = utils.timeDiff(new Date(GOBALCONFIG.runtime), new Date()) + GOBALCONFIG.lang.time.runtime
         }
     }
     static lazyloadImg(){
@@ -321,7 +318,7 @@ window.refreshFn = () => {
         acrylic.initbbtalk()
     }
     if(PAGECONFIG.is_page && PAGECONFIG.page === 'says')acrylic.reflashEssayWaterFall()
-    GOBALCONFIG.covercolor && PAGECONFIG.is_post && coverColor()
+    GOBALCONFIG.covercolor && coverColor()
 }
 
 acrylic.initTheme()
