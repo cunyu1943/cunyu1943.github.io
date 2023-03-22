@@ -18,6 +18,8 @@
 <link rel="stylesheet" href="/css/custom.css">
 
 
+    <script data-pace-options="{ &quot;restartOnRequestAfter&quot;:false,&quot;eventLag&quot;:false}" src="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/pace/1.2.4/pace.min.js"></script>
+
 
 <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     
@@ -30,9 +32,95 @@
 
 
 
-<script>var GOBALCONFIG = {"root":"/","runtime":"2021-12-12 00:00:00","lazyload":{"enable":false,"error":"/img/404.svg"},"lightbox":true,"randomlinks":false,"lang":{"theme":{"dark":"已切换至深色模式","light":"已切换至浅色模式"},"copy":{"success":"复制成功","error":"复制失败"},"backtop":"返回顶部","time":{"recent":"最近","yesterday":"昨天","berforeyesterday":"前天","daybefore":"天前","runtime":"天"},"sayhello":{"morning":"早上好","noon":"中午好","afternoon":"下午好","night":"晚上好","goodnight":"晚安","iam":"!  我是"}},"covercolor":true};</script><script id="site-config">var PAGECONFIG = {"is_home":false,"is_post":false,"is_page":false,"page":false};</script>
+<script>var GOBALCONFIG = {"root":"/","runtime":"2018-01-01 00:00:00","lazyload":{"enable":false,"error":"/img/404.svg"},"lightbox":true,"randomlinks":true,"lang":{"theme":{"dark":"已切换至深色模式","light":"已切换至浅色模式"},"copy":{"success":"复制成功","error":"复制失败"},"backtop":"返回顶部","time":{"recent":"最近","yesterday":"昨天","berforeyesterday":"前天","daybefore":"天前","runtime":"天"},"sayhello":{"morning":"早上好","noon":"中午好","afternoon":"下午好","night":"晚上好","goodnight":"晚安","iam":"!  我是"}},"covercolor":true};</script><script id="site-config">var PAGECONFIG = {"is_home":false,"is_post":false,"is_page":false,"page":false};</script>
     <meta name="generator" content="Hexo 6.3.0"></head>
     <body id="body">
+        
+            <div id="loading-box" onclick="preloader.endLoading();" class style="zoom: 1;">
+    <div class="loading-bg">
+        <img class="loading-img nolazyload" alt="loading image"
+            src="/img/logo.svg">
+        </div>
+</div>
+<script>
+    const preloader = {
+        endLoading: () => {
+            document.getElementById('loading-box').classList.add("loaded")
+        },
+        initLoading: () => {
+            document.getElementById('loading-box').classList.remove("loaded")
+        },
+        removePaceDone: () => {
+            document.getElementById('body').classList = 'pace-done'
+        }
+    }
+    window.addEventListener('load',()=> { preloader.endLoading() })
+    document.addEventListener('pjax:send', () => { preloader.initLoading() })
+    document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+</script>
+<style>
+    #loading-box {
+        -webkit-user-select: none;
+    }
+
+    #loading-box .loading-bg {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background: var(--heo-background);
+        z-index: 1999;
+        opacity: 1;
+        transition: 0.2s;
+        pointer-events: all;
+        animation: showLoading 0.3s 0s backwards;
+    }
+
+    #loading-box.loaded .loading-bg {
+        pointer-events: none;
+        transition: 0.2s;
+        animation: hideLoading 0.3s 0s forwards;
+    }
+
+    #loading-box .loading-img {
+        width: 100px;
+        margin: auto;
+        animation-duration: 0.2s;
+        animation-name: loadingAction;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes loadingAction {
+        from {
+            opacity: 1;
+        }
+
+        to {
+            opacity: 0.6;
+        }
+    }
+
+    @keyframes hideLoading {
+        from {
+            opacity: 1;
+        }
+
+        to {
+            opacity: 0;
+        }
+    }
+
+    @keyframes showLoading {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+</style>
         
         <div id="console" style="zoom: 1;" class="">
     <div class="close-btn" onclick="acrylic.hideConsole()" href="javascript:void(0);">
@@ -143,58 +231,8 @@
                     
                         <li>
                             <a class="site-page child" href="/categories/Spring%20Boot">
-                                <i class="fa-solid fa-book-open"></i>
+                                <i class="fa-solid fa-leaf"></i>
                                 <span> Spring Boot</span>
-                            </a>
-                        </li>
-                    
-                </ul>
-             
-        </div>
-    
-        <div class="menus_item">
-            
-                <a class="site-page" href="javascript:void(0);" rel="external nofollow">
-                    <span> 文库</span>
-                </a>
-                <ul class="menus_item_child">
-                    
-                        <li>
-                            <a class="site-page child" href="/archives/">
-                                <i class="fas fa-box-archive"></i>
-                                <span> 归档</span>
-                            </a>
-                        </li>
-                    
-                        <li>
-                            <a class="site-page child" href="/categories/">
-                                <i class="fas fa-cube"></i>
-                                <span> 分类</span>
-                            </a>
-                        </li>
-                    
-                        <li>
-                            <a class="site-page child" href="/tags/">
-                                <i class="fas fa-tags"></i>
-                                <span> 标签</span>
-                            </a>
-                        </li>
-                    
-                </ul>
-             
-        </div>
-    
-        <div class="menus_item">
-            
-                <a class="site-page" href="javascript:void(0);" rel="external nofollow">
-                    <span> 我的</span>
-                </a>
-                <ul class="menus_item_child">
-                    
-                        <li>
-                            <a class="site-page child" href="/links/">
-                                <i class="fa-solid fa-user-group"></i>
-                                <span> 友链</span>
                             </a>
                         </li>
                     
@@ -327,58 +365,8 @@
                     
                         <li>
                             <a class="site-page child" href="/categories/Spring%20Boot">
-                                <i class="fa-solid fa-book-open"></i>
+                                <i class="fa-solid fa-leaf"></i>
                                 <span> Spring Boot</span>
-                            </a>
-                        </li>
-                    
-                </ul>
-             
-        </div>
-    
-        <div class="menus_item">
-            
-                <a class="site-page" href="javascript:void(0);" rel="external nofollow">
-                    <span> 文库</span>
-                </a>
-                <ul class="menus_item_child">
-                    
-                        <li>
-                            <a class="site-page child" href="/archives/">
-                                <i class="fas fa-box-archive"></i>
-                                <span> 归档</span>
-                            </a>
-                        </li>
-                    
-                        <li>
-                            <a class="site-page child" href="/categories/">
-                                <i class="fas fa-cube"></i>
-                                <span> 分类</span>
-                            </a>
-                        </li>
-                    
-                        <li>
-                            <a class="site-page child" href="/tags/">
-                                <i class="fas fa-tags"></i>
-                                <span> 标签</span>
-                            </a>
-                        </li>
-                    
-                </ul>
-             
-        </div>
-    
-        <div class="menus_item">
-            
-                <a class="site-page" href="javascript:void(0);" rel="external nofollow">
-                    <span> 我的</span>
-                </a>
-                <ul class="menus_item_child">
-                    
-                        <li>
-                            <a class="site-page child" href="/links/">
-                                <i class="fa-solid fa-user-group"></i>
-                                <span> 友链</span>
                             </a>
                         </li>
                     
@@ -566,6 +554,17 @@
         </div>
     
     
+        <div class="footer-group">
+            <div class="footer-title-group">
+                <h3 class="footer-title">友链</h3>
+                <a class="random-friends-btn" href="javascript:randomLinksList();" rel="external nofollow">
+                    <i class="fa-solid fa-arrow-rotate-right"></i>
+                </a>
+            </div>
+            <div class="footer-links" id="friend-links-in-footer">
+            </div>
+        </div>
+    
 </div>
 <div id="footer-banner">
     <div class="footer-banner-links">
@@ -612,6 +611,8 @@
 <script src="/lib/swiper.min.js"></script>
 
 
+
+    <script>const links=[{"name":"Akilar","link":"https://akilar.top"},{"name":"Tianli","link":"https://tianli-blog.club"}];function travelling(){const link=links[utils.randomNum(links.length)];utils.snackbarShow('您即将前往 ⌈ '+link.name+' ⌋ , 安全性未知',false,3000);setTimeout(()=>{window.open(link.link,"_blank")},3000)};function randomLinksList(){let data='';for(let i=1;i<=3;i++){const link=links[utils.randomNum(links.length)];data+='<a class="footer-item" href="'+link.link+'" target="_blank" rel="noopener nofollow">'+link.name+'</a>'};document.getElementById('friend-links-in-footer').innerHTML=data + '<a class="footer-item" href="/links/">更多</a>'};</script>
 
 <div id="js-pjax">
      
