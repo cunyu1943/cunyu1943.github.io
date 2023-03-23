@@ -18,8 +18,6 @@
 <link rel="stylesheet" href="/css/custom.css">
 
 
-    <script data-pace-options="{ &quot;restartOnRequestAfter&quot;:false,&quot;eventLag&quot;:false}" src="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/pace/1.2.4/pace.min.js"></script>
-
 
 <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     
@@ -32,95 +30,9 @@
 
 
 
-<script>var GOBALCONFIG = {"root":"/","runtime":"2018-01-01 00:00:00","lazyload":{"enable":false,"error":"/img/404.svg"},"lightbox":true,"randomlinks":true,"lang":{"theme":{"dark":"已切换至深色模式","light":"已切换至浅色模式"},"copy":{"success":"复制成功","error":"复制失败"},"backtop":"返回顶部","time":{"recent":"最近","yesterday":"昨天","berforeyesterday":"前天","daybefore":"天前","runtime":"天"},"sayhello":{"morning":"早上好","noon":"中午好","afternoon":"下午好","night":"晚上好","goodnight":"晚安","iam":"!  我是"}},"covercolor":true};</script><script id="site-config">var PAGECONFIG = {"is_home":true,"is_post":false,"is_page":false,"page":false};</script>
+<script>var GOBALCONFIG = {"root":"/","runtime":"2018-01-01 00:00:00","lazyload":{"enable":true,"error":"/img/404.svg"},"lightbox":true,"randomlinks":true,"lang":{"theme":{"dark":"已切换至深色模式","light":"已切换至浅色模式"},"copy":{"success":"复制成功","error":"复制失败"},"backtop":"返回顶部","time":{"recent":"最近","yesterday":"昨天","berforeyesterday":"前天","daybefore":"天前","runtime":"天"},"sayhello":{"morning":"早上好","noon":"中午好","afternoon":"下午好","night":"晚上好","goodnight":"晚安","iam":"!  我是"}},"covercolor":true};</script><script id="site-config">var PAGECONFIG = {"is_home":true,"is_post":false,"is_page":false,"page":false};</script>
     <meta name="generator" content="Hexo 6.3.0"></head>
     <body id="body">
-        
-            <div id="loading-box" onclick="preloader.endLoading();" class style="zoom: 1;">
-    <div class="loading-bg">
-        <img class="loading-img nolazyload" alt="loading image"
-            src="/img/logo.svg">
-        </div>
-</div>
-<script>
-    const preloader = {
-        endLoading: () => {
-            document.getElementById('loading-box').classList.add("loaded")
-        },
-        initLoading: () => {
-            document.getElementById('loading-box').classList.remove("loaded")
-        },
-        removePaceDone: () => {
-            document.getElementById('body').classList = 'pace-done'
-        }
-    }
-    window.addEventListener('load',()=> { preloader.endLoading() })
-    document.addEventListener('pjax:send', () => { preloader.initLoading() })
-    document.addEventListener('pjax:complete', () => { preloader.endLoading() })
-</script>
-<style>
-    #loading-box {
-        -webkit-user-select: none;
-    }
-
-    #loading-box .loading-bg {
-        display: flex;
-        width: 100%;
-        height: 100%;
-        position: fixed;
-        background: var(--heo-background);
-        z-index: 1999;
-        opacity: 1;
-        transition: 0.2s;
-        pointer-events: all;
-        animation: showLoading 0.3s 0s backwards;
-    }
-
-    #loading-box.loaded .loading-bg {
-        pointer-events: none;
-        transition: 0.2s;
-        animation: hideLoading 0.3s 0s forwards;
-    }
-
-    #loading-box .loading-img {
-        width: 100px;
-        margin: auto;
-        animation-duration: 0.2s;
-        animation-name: loadingAction;
-        animation-iteration-count: infinite;
-        animation-direction: alternate;
-    }
-
-    @keyframes loadingAction {
-        from {
-            opacity: 1;
-        }
-
-        to {
-            opacity: 0.6;
-        }
-    }
-
-    @keyframes hideLoading {
-        from {
-            opacity: 1;
-        }
-
-        to {
-            opacity: 0;
-        }
-    }
-
-    @keyframes showLoading {
-        from {
-            opacity: 0;
-        }
-
-        to {
-            opacity: 1;
-        }
-    }
-</style>
         
         <div id="console" style="zoom: 1;" class="">
     <div class="close-btn" onclick="acrylic.hideConsole()" href="javascript:void(0);">
@@ -161,7 +73,7 @@
                 <div class="back-menu-list">
                     <a class="back-menu-item" href="/" rel="external nofollow"
                         title="博客">
-                        <img class="back-menu-item-icon" src="/img/logo.svg" loading="lazy">
+                        <img class="back-menu-item-icon" src= "/img/loading.svg" data-lazy-src="/img/logo.svg" loading="lazy">
                         <span class="back-menu-item-text">
                             博客
                         </span>
@@ -282,7 +194,7 @@
                 <div class="back-menu-list">
                     <a class="back-menu-item" href="/" rel="external nofollow"
                         title="博客">
-                        <img class="back-menu-item-icon" src="/img/logo.svg" loading="lazy">
+                        <img class="back-menu-item-icon" src= "/img/loading.svg" data-lazy-src="/img/logo.svg" loading="lazy">
                         <span class="back-menu-item-text">
                             博客
                         </span>
@@ -456,14 +368,14 @@
                     <div class="tags-group-icon-pair">
                     
                     <div class="tags-group-icon" style="background: #989bf8">
-                        <img src="/img/icon/ae.png" title="AE" loading="lazy">
+                        <img src= "/img/loading.svg" data-lazy-src="/img/icon/ae.png" title="AE" loading="lazy">
                     </div>
                 
             
                 
                     
                     <div class="tags-group-icon" style="background: #ffffff">
-                        <img src="/img/icon/Sketch.png" title="Sketch" loading="lazy">
+                        <img src= "/img/loading.svg" data-lazy-src="/img/icon/Sketch.png" title="Sketch" loading="lazy">
                     </div>
                 
                     </div>
@@ -474,14 +386,14 @@
                     <div class="tags-group-icon-pair">
                     
                     <div class="tags-group-icon" style="background: white">
-                        <img src="/img/icon/docker.svg" title="Docker" loading="lazy">
+                        <img src= "/img/loading.svg" data-lazy-src="/img/icon/docker.svg" title="Docker" loading="lazy">
                     </div>
                 
             
                 
                     
                     <div class="tags-group-icon" style="background: #4082c3">
-                        <img src="/img/icon/ps.png" title="ps" loading="lazy">
+                        <img src= "/img/loading.svg" data-lazy-src="/img/icon/ps.png" title="ps" loading="lazy">
                     </div>
                 
                     </div>
@@ -492,14 +404,14 @@
                     <div class="tags-group-icon-pair">
                     
                     <div class="tags-group-icon" style="background: #ffffff">
-                        <img src="/img/icon/FinalCutPro.png" title="FinalCutPro" loading="lazy">
+                        <img src= "/img/loading.svg" data-lazy-src="/img/icon/FinalCutPro.png" title="FinalCutPro" loading="lazy">
                     </div>
                 
             
                 
                     
                     <div class="tags-group-icon" style="background: #ffffff">
-                        <img src="/img/icon/Python.png" title="Python" loading="lazy">
+                        <img src= "/img/loading.svg" data-lazy-src="/img/icon/Python.png" title="Python" loading="lazy">
                     </div>
                 
                     </div>
@@ -510,14 +422,14 @@
                     <div class="tags-group-icon-pair">
                     
                     <div class="tags-group-icon" style="background: #eb6840">
-                        <img src="/img/icon/Swift.png" title="Swift" loading="lazy">
+                        <img src= "/img/loading.svg" data-lazy-src="/img/icon/Swift.png" title="Swift" loading="lazy">
                     </div>
                 
             
                 
                     
                     <div class="tags-group-icon" style="background: #8f55ba">
-                        <img src="/img/icon/Principle.png" title="Principle" loading="lazy">
+                        <img src= "/img/loading.svg" data-lazy-src="/img/icon/Principle.png" title="Principle" loading="lazy">
                     </div>
                 
                     </div>
@@ -528,14 +440,14 @@
                     <div class="tags-group-icon-pair">
                     
                     <div class="tags-group-icon" style="background: #f29e39">
-                        <img src="/img/icon/illustrator.png" title="illustrator" loading="lazy">
+                        <img src= "/img/loading.svg" data-lazy-src="/img/icon/illustrator.png" title="illustrator" loading="lazy">
                     </div>
                 
             
                 
                     
                     <div class="tags-group-icon" style="background: #2c51db">
-                        <img src="/img/icon/CSS3.png" title="CSS3" loading="lazy">
+                        <img src= "/img/loading.svg" data-lazy-src="/img/icon/CSS3.png" title="CSS3" loading="lazy">
                     </div>
                 
                     </div>
@@ -546,32 +458,14 @@
                     <div class="tags-group-icon-pair">
                     
                     <div class="tags-group-icon" style="background: white">
-                        <img src="/img/icon/javascript.svg" title="JS" loading="lazy">
+                        <img src= "/img/loading.svg" data-lazy-src="/img/icon/javascript.svg" title="JS" loading="lazy">
                     </div>
                 
             
                 
                     
                     <div class="tags-group-icon" style="background: white">
-                        <img src="/img/icon/git.svg" title="Git" loading="lazy">
-                    </div>
-                
-                    </div>
-                
-            
-                
-                
-                    <div class="tags-group-icon-pair">
-                    
-                    <div class="tags-group-icon" style="background: white">
-                        <img src="/img/icon/java.svg" title="Java" loading="lazy">
-                    </div>
-                
-            
-                
-                    
-                    <div class="tags-group-icon" style="background: white">
-                        <img src="/img/icon/spring.svg" title="Spring Boot" loading="lazy">
+                        <img src= "/img/loading.svg" data-lazy-src="/img/icon/git.svg" title="Git" loading="lazy">
                     </div>
                 
                     </div>
@@ -582,32 +476,14 @@
                     <div class="tags-group-icon-pair">
                     
                     <div class="tags-group-icon" style="background: white">
-                        <img src="/img/icon/mysql.svg" title="MySQL" loading="lazy">
+                        <img src= "/img/loading.svg" data-lazy-src="/img/icon/java.svg" title="Java" loading="lazy">
                     </div>
                 
             
                 
                     
                     <div class="tags-group-icon" style="background: white">
-                        <img src="/img/icon/linux.svg" title="Linux" loading="lazy">
-                    </div>
-                
-                    </div>
-                
-            
-                
-                
-                    <div class="tags-group-icon-pair">
-                    
-                    <div class="tags-group-icon" style="background: white">
-                        <img src="/img/icon/nginx.svg" title="Nginx" loading="lazy">
-                    </div>
-                
-            
-                
-                    
-                    <div class="tags-group-icon" style="background: white">
-                        <img src="/img/icon/vue.svg" title="Vue" loading="lazy">
+                        <img src= "/img/loading.svg" data-lazy-src="/img/icon/spring.svg" title="Spring Boot" loading="lazy">
                     </div>
                 
                     </div>
@@ -618,7 +494,43 @@
                     <div class="tags-group-icon-pair">
                     
                     <div class="tags-group-icon" style="background: white">
-                        <img src="/img/icon/apache.svg" title="Apache" loading="lazy">
+                        <img src= "/img/loading.svg" data-lazy-src="/img/icon/mysql.svg" title="MySQL" loading="lazy">
+                    </div>
+                
+            
+                
+                    
+                    <div class="tags-group-icon" style="background: white">
+                        <img src= "/img/loading.svg" data-lazy-src="/img/icon/linux.svg" title="Linux" loading="lazy">
+                    </div>
+                
+                    </div>
+                
+            
+                
+                
+                    <div class="tags-group-icon-pair">
+                    
+                    <div class="tags-group-icon" style="background: white">
+                        <img src= "/img/loading.svg" data-lazy-src="/img/icon/nginx.svg" title="Nginx" loading="lazy">
+                    </div>
+                
+            
+                
+                    
+                    <div class="tags-group-icon" style="background: white">
+                        <img src= "/img/loading.svg" data-lazy-src="/img/icon/vue.svg" title="Vue" loading="lazy">
+                    </div>
+                
+                    </div>
+                
+            
+                
+                
+                    <div class="tags-group-icon-pair">
+                    
+                    <div class="tags-group-icon" style="background: white">
+                        <img src= "/img/loading.svg" data-lazy-src="/img/icon/apache.svg" title="Apache" loading="lazy">
                     </div>
                 
                     </div>
@@ -631,14 +543,14 @@
                     <div class="tags-group-icon-pair">
                     
                     <div class="tags-group-icon" style="background: #989bf8">
-                        <img src="/img/icon/ae.png" title="AE" loading="lazy">
+                        <img src= "/img/loading.svg" data-lazy-src="/img/icon/ae.png" title="AE" loading="lazy">
                     </div>
                 
             
                 
                     
                     <div class="tags-group-icon" style="background: #ffffff">
-                        <img src="/img/icon/Sketch.png" title="Sketch" loading="lazy">
+                        <img src= "/img/loading.svg" data-lazy-src="/img/icon/Sketch.png" title="Sketch" loading="lazy">
                     </div>
                 
                     </div>
@@ -649,14 +561,14 @@
                     <div class="tags-group-icon-pair">
                     
                     <div class="tags-group-icon" style="background: white">
-                        <img src="/img/icon/docker.svg" title="Docker" loading="lazy">
+                        <img src= "/img/loading.svg" data-lazy-src="/img/icon/docker.svg" title="Docker" loading="lazy">
                     </div>
                 
             
                 
                     
                     <div class="tags-group-icon" style="background: #4082c3">
-                        <img src="/img/icon/ps.png" title="ps" loading="lazy">
+                        <img src= "/img/loading.svg" data-lazy-src="/img/icon/ps.png" title="ps" loading="lazy">
                     </div>
                 
                     </div>
@@ -667,14 +579,14 @@
                     <div class="tags-group-icon-pair">
                     
                     <div class="tags-group-icon" style="background: #ffffff">
-                        <img src="/img/icon/FinalCutPro.png" title="FinalCutPro" loading="lazy">
+                        <img src= "/img/loading.svg" data-lazy-src="/img/icon/FinalCutPro.png" title="FinalCutPro" loading="lazy">
                     </div>
                 
             
                 
                     
                     <div class="tags-group-icon" style="background: #ffffff">
-                        <img src="/img/icon/Python.png" title="Python" loading="lazy">
+                        <img src= "/img/loading.svg" data-lazy-src="/img/icon/Python.png" title="Python" loading="lazy">
                     </div>
                 
                     </div>
@@ -685,14 +597,14 @@
                     <div class="tags-group-icon-pair">
                     
                     <div class="tags-group-icon" style="background: #eb6840">
-                        <img src="/img/icon/Swift.png" title="Swift" loading="lazy">
+                        <img src= "/img/loading.svg" data-lazy-src="/img/icon/Swift.png" title="Swift" loading="lazy">
                     </div>
                 
             
                 
                     
                     <div class="tags-group-icon" style="background: #8f55ba">
-                        <img src="/img/icon/Principle.png" title="Principle" loading="lazy">
+                        <img src= "/img/loading.svg" data-lazy-src="/img/icon/Principle.png" title="Principle" loading="lazy">
                     </div>
                 
                     </div>
@@ -703,14 +615,14 @@
                     <div class="tags-group-icon-pair">
                     
                     <div class="tags-group-icon" style="background: #f29e39">
-                        <img src="/img/icon/illustrator.png" title="illustrator" loading="lazy">
+                        <img src= "/img/loading.svg" data-lazy-src="/img/icon/illustrator.png" title="illustrator" loading="lazy">
                     </div>
                 
             
                 
                     
                     <div class="tags-group-icon" style="background: #2c51db">
-                        <img src="/img/icon/CSS3.png" title="CSS3" loading="lazy">
+                        <img src= "/img/loading.svg" data-lazy-src="/img/icon/CSS3.png" title="CSS3" loading="lazy">
                     </div>
                 
                     </div>
@@ -721,32 +633,14 @@
                     <div class="tags-group-icon-pair">
                     
                     <div class="tags-group-icon" style="background: white">
-                        <img src="/img/icon/javascript.svg" title="JS" loading="lazy">
+                        <img src= "/img/loading.svg" data-lazy-src="/img/icon/javascript.svg" title="JS" loading="lazy">
                     </div>
                 
             
                 
                     
                     <div class="tags-group-icon" style="background: white">
-                        <img src="/img/icon/git.svg" title="Git" loading="lazy">
-                    </div>
-                
-                    </div>
-                
-            
-                
-                
-                    <div class="tags-group-icon-pair">
-                    
-                    <div class="tags-group-icon" style="background: white">
-                        <img src="/img/icon/java.svg" title="Java" loading="lazy">
-                    </div>
-                
-            
-                
-                    
-                    <div class="tags-group-icon" style="background: white">
-                        <img src="/img/icon/spring.svg" title="Spring Boot" loading="lazy">
+                        <img src= "/img/loading.svg" data-lazy-src="/img/icon/git.svg" title="Git" loading="lazy">
                     </div>
                 
                     </div>
@@ -757,32 +651,14 @@
                     <div class="tags-group-icon-pair">
                     
                     <div class="tags-group-icon" style="background: white">
-                        <img src="/img/icon/mysql.svg" title="MySQL" loading="lazy">
+                        <img src= "/img/loading.svg" data-lazy-src="/img/icon/java.svg" title="Java" loading="lazy">
                     </div>
                 
             
                 
                     
                     <div class="tags-group-icon" style="background: white">
-                        <img src="/img/icon/linux.svg" title="Linux" loading="lazy">
-                    </div>
-                
-                    </div>
-                
-            
-                
-                
-                    <div class="tags-group-icon-pair">
-                    
-                    <div class="tags-group-icon" style="background: white">
-                        <img src="/img/icon/nginx.svg" title="Nginx" loading="lazy">
-                    </div>
-                
-            
-                
-                    
-                    <div class="tags-group-icon" style="background: white">
-                        <img src="/img/icon/vue.svg" title="Vue" loading="lazy">
+                        <img src= "/img/loading.svg" data-lazy-src="/img/icon/spring.svg" title="Spring Boot" loading="lazy">
                     </div>
                 
                     </div>
@@ -793,7 +669,43 @@
                     <div class="tags-group-icon-pair">
                     
                     <div class="tags-group-icon" style="background: white">
-                        <img src="/img/icon/apache.svg" title="Apache" loading="lazy">
+                        <img src= "/img/loading.svg" data-lazy-src="/img/icon/mysql.svg" title="MySQL" loading="lazy">
+                    </div>
+                
+            
+                
+                    
+                    <div class="tags-group-icon" style="background: white">
+                        <img src= "/img/loading.svg" data-lazy-src="/img/icon/linux.svg" title="Linux" loading="lazy">
+                    </div>
+                
+                    </div>
+                
+            
+                
+                
+                    <div class="tags-group-icon-pair">
+                    
+                    <div class="tags-group-icon" style="background: white">
+                        <img src= "/img/loading.svg" data-lazy-src="/img/icon/nginx.svg" title="Nginx" loading="lazy">
+                    </div>
+                
+            
+                
+                    
+                    <div class="tags-group-icon" style="background: white">
+                        <img src= "/img/loading.svg" data-lazy-src="/img/icon/vue.svg" title="Vue" loading="lazy">
+                    </div>
+                
+                    </div>
+                
+            
+                
+                
+                    <div class="tags-group-icon-pair">
+                    
+                    <div class="tags-group-icon" style="background: white">
+                        <img src= "/img/loading.svg" data-lazy-src="/img/icon/apache.svg" title="Apache" loading="lazy">
                     </div>
                 
                     </div>
@@ -887,7 +799,7 @@
             <div class="recent-post-item" onclick="pjax.loadUrl('/idea-tutorial/20220202-idea-guide/')">
     <div class="post_cover left_radius">
         <a href="/idea-tutorial/20220202-idea-guide/" title="最新版 IntelliJ IDEA 使用手册">
-            <img class="post_bg" alt="最新版 IntelliJ IDEA 使用手册" src="https://cdn.seovx.com/?mom=302">
+            <img class="post_bg" alt="最新版 IntelliJ IDEA 使用手册" src= "/img/loading.svg" data-lazy-src="https://cdn.seovx.com/?mom=302">
         </a>
     </div>
     <div class="recent-post-info">
@@ -1067,7 +979,7 @@
                 <i class="fa-solid fa-clock-rotate-left"></i>
                 <div class="item-name">最后更新 :</div>
             </div>
-            <time class="item-count" datetime="2023-03-23T06:43:12+00:00">
+            <time class="item-count" datetime="2023-03-23T06:49:36+00:00">
             </time>
         </div>
         
@@ -1102,7 +1014,7 @@
             <i class="fa-solid fa-envelope"></i>
         </a>
     
-    <img class="footer_mini_logo" src="/img/logo.svg"
+    <img class="footer_mini_logo" src= "/img/loading.svg" data-lazy-src="/img/logo.svg"
         title="返回顶部" onclick="acrylic.toTop()">
     
         <a class="deal_link" target="_blank" href="https://cunyu1943.blog.csdn.net" rel="external nofollow noopener" title="CSDN">
@@ -1197,6 +1109,10 @@
     
 
 <script src="/lib/pjax.min.js"></script>
+
+
+    
+<script src="/lib/lazyload.min.js"></script>
 
 
 
