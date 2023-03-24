@@ -28,10 +28,14 @@
 <script src="/lib/qrcode.min.js"></script>
 
 
+    
+<script src="https://cdn.staticfile.org/twikoo/1.6.10/twikoo.all.min.js"></script>
 
 
 
-<script>var GLOBALCONFIG = {"root":"/","runtime":"2018-01-01 00:00:00","lazyload":{"enable":true,"error":"/img/404.svg"},"lightbox":true,"randomlinks":true,"lang":{"theme":{"dark":"已切换至深色模式","light":"已切换至浅色模式"},"copy":{"success":"复制成功","error":"复制失败"},"backtop":"返回顶部","time":{"recent":"最近","yesterday":"昨天","berforeyesterday":"前天","daybefore":"天前","runtime":"天"},"sayhello":{"morning":"早上好","noon":"中午好","afternoon":"下午好","night":"晚上好","goodnight":"晚安","iam":"!  我是"},"search":{"empty":"搜索结果为空","hit":"已为您找到 ${query} 条结果","placeholder":"输入关键词快速查找"}},"covercolor":true,"localsearch":{"preload":false,"path":"/search.xml"}};</script><script id="site-config">var PAGECONFIG = {"is_home":false,"is_post":true,"is_page":false,"page":false,"toc":true,"comment":false};</script>
+
+
+<script>var GLOBALCONFIG = {"root":"/","runtime":"2018-01-01 00:00:00","lazyload":{"enable":true,"error":"/img/404.svg"},"lightbox":true,"randomlinks":true,"lang":{"theme":{"dark":"已切换至深色模式","light":"已切换至浅色模式"},"copy":{"success":"复制成功","error":"复制失败"},"backtop":"返回顶部","time":{"recent":"最近","yesterday":"昨天","berforeyesterday":"前天","daybefore":"天前","runtime":"天"},"sayhello":{"morning":"早上好","noon":"中午好","afternoon":"下午好","night":"晚上好","goodnight":"晚安","iam":"!  我是"},"search":{"empty":"搜索结果为空","hit":"已为您找到 ${query} 条结果","placeholder":"输入关键词快速查找"}},"covercolor":true,"localsearch":{"preload":false,"path":"/search.xml"}};</script><script id="site-config">var PAGECONFIG = {"is_home":false,"is_post":true,"is_page":false,"page":false,"toc":true,"comment":true};</script>
     <meta name="generator" content="Hexo 6.3.0"></head>
     <body id="body">
         
@@ -461,31 +465,50 @@
     <h1 class="post-title">最新版 IntelliJ IDEA 使用手册</h1>
     <div id="post-meta">
         <div class="meta-secondline">
-            <span class="post-meta-date">
-                <i class="fa-fw post-meta-icon fas fa-calendar"></i>
+            <span class="post-meta-date" title="发布于">
+                <i class="post-meta-icon fa-fw fas fa-calendar"></i>
                 <time datetime="2022-02-01T16:00:00+00:00"></time>
             </span>
-            <span class="post-meta-position" title="作者IP归属地为苏州">
-                <i class="fas fa-location-dot post-meta-icon"></i>
-                <span>苏州</span>
-            </span>
             
-                <span class="post-meta-wordcount">
-                    <i class="fas fa-file-word fa-fw post-meta-icon" title="字数"></i>
-                    <span class="word-count">2.8k</span>
-                </span>
-                <span class="post-meta-time">
-                    <i class="fas fa-clock post-meta-icon" title="阅读耗时"></i>
-                    <span>10 min</span>
+                <span class="post-meta-date" title="更新于">
+                    <i class="post-meta-icon fa-solid fa-clock-rotate-left"></i>
+                    <time datetime="2023-03-24T15:21:34+00:00"></time>
                 </span>
             
-            <span class="post-meta-pv" data-flag-title="热度">
-                <i class="fab fa-hotjar fa-fw post-meta-icon"></i>
-                <span id="busuanzi_value_page_pv">2686369</span>
+            
+                <span class="post-meta-position" title="作者IP归属地为苏州">
+                    <i class="fas fa-location-dot post-meta-icon"></i>
+                    <span>苏州</span>
+                </span>
+            
+            
+                
+                    <span class="post-meta-wordcount">
+                        <i class="fas fa-file-word fa-fw post-meta-icon" title="文章字数"></i>
+                        <span class="word-count">2.8k</span>
+                    </span>
+                
+                
+                    <span class="post-meta-time">
+                        <i class="fas fa-clock post-meta-icon" title="阅读耗时"></i>
+                        <span>10 min</span>
+                    </span>
+                
+            
+            
+                <span class="post-meta-pv" title="文章热度">
+                    <i class="fab fa-hotjar fa-fw post-meta-icon"></i>
+                    
+                        <span id="busuanzi_value_page_pv"><i class="fas fa-spinner fa-pulse"></i></span>
+                            
+                </span>
+            
+            <span class="post-meta-commentcount" title="评论数">
+                <i class="fa-solid fa-message"></i>
+                <a href="#post-comment">
+                    <span id="twikoo-count"><i class="fas fa-spinner fa-pulse"></i></span>
+                </a>
             </span>
-            <!-- <span class="post-meta-commentcount" title="评论数" onclick="heo.scrollTo('post-comment');"><i
-                    class="fa-solid fa-message"></i><span class="post-meta-label">评论:</span><a
-                    href="/p/bdabd8a.html#post-comment" data-pjax-state=""><span id="twikoo-count">15</span></a></span> -->
         </div>
     </div>
 </div>
@@ -777,6 +800,47 @@
         
     
 </nav>
+        
+            <div id="post-comment">
+    <div class="comment-head">
+        <div class="comment-headline">
+            <i class="fas fa-message fa-fw"></i>
+            <span> 评论</span>
+        </div>
+    </div>
+    <div class="comment-wrap">
+        <div id="comment"></div>
+        <script>
+    async function initComment(){
+        var initOptions = Object.assign(
+            {"envId":"https://acrylic.zeabur.app/","path":"window.location.pathname"},
+            {
+                el: '#comment',
+                onCommentLoaded: function() {
+                    GLOBALCONFIG.lightbox && acrylic.lightbox('#article-container img, #twikoo .tk-content img:not(.tk-owo-emotion)') 
+                }
+            }
+        )
+        await twikoo.init(initOptions)
+        
+            var countOptions = Object.assign(
+                {"envId":"https://acrylic.zeabur.app/","path":"window.location.pathname"},
+                { 
+                    urls: [window.location.pathname],
+                    includeReply: false
+                }
+            )
+            const res = await twikoo.getCommentsCount(countOptions)
+            try{
+                document.getElementById('twikoo-count').innerText = res[0].count
+            }catch (e) {
+                document.getElementById('twikoo-count').innerText = '加载错误'
+            }
+             
+    }
+</script>
+    </div>
+</div>
             
     </div>
     <div class="aside-content" id="aside-content">
@@ -1040,15 +1104,14 @@
 <script src="/lib/swiper.min.js"></script>
 
 
-
-    <script>const links=[{"name":"Akilar","link":"https://akilar.top"},{"name":"Tianli","link":"https://tianli-blog.club"}];function travelling(){const link=links[utils.randomNum(links.length)];utils.snackbarShow('您即将前往 ⌈ '+link.name+' ⌋ , 安全性未知',false,3000);setTimeout(()=>{window.open(link.link,"_blank")},3000)};function randomLinksList(){let data='';for(let i=1;i<=3;i++){const link=links[utils.randomNum(links.length)];data+='<a class="footer-item" href="'+link.link+'" target="_blank" rel="noopener nofollow">'+link.name+'</a>'};document.getElementById('friend-links-in-footer').innerHTML=data + '<a class="footer-item" href="/links/">更多</a>'};</script>
-
 <div id="js-pjax">
+    
+    
+        <script async src="https://npm.elemecdn.com/penndu@1.0.0/bsz.js"></script>
      
 </div>
 
-<script src="/js/extend/covercolor.js"></script>
-
+    <script>const links=[{"name":"Akilar","link":"https://akilar.top"},{"name":"Tianli","link":"https://tianli-blog.club"}];function travelling(){const link=links[utils.randomNum(links.length)];utils.snackbarShow('您即将前往 ⌈ '+link.name+' ⌋ , 安全性未知',false,3000);setTimeout(()=>{window.open(link.link,"_blank")},3000)};function randomLinksList(){let data='';for(let i=1;i<=3;i++){const link=links[utils.randomNum(links.length)];data+='<a class="footer-item" href="'+link.link+'" target="_blank" rel="noopener nofollow">'+link.name+'</a>'};document.getElementById('friend-links-in-footer').innerHTML=data + '<a class="footer-item" href="/links/">更多</a>'};</script>
 
     <script>
   let pjaxSelectors = [
@@ -1065,6 +1128,14 @@
     cacheBust: false,
     analytics: false,
     scrollRestoration: false
+  })
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+      const newScript = document.createElement('script')
+      const content = item.text || item.textContent || item.innerHTML || ""
+      Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+      newScript.appendChild(document.createTextNode(content))
+      item.parentNode.replaceChild(newScript, item)
   })
 
   document.addEventListener('pjax:error', (e) => {

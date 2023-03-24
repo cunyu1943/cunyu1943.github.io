@@ -28,6 +28,10 @@
 <script src="/lib/qrcode.min.js"></script>
 
 
+    
+<script src="https://cdn.staticfile.org/twikoo/1.6.10/twikoo.all.min.js"></script>
+
+
 
 
 
@@ -648,6 +652,26 @@
         </div>
     
     
+        
+            <div class="webinfo-item">
+                <div class="webinfo-item-title">
+                    <i class="fa-solid fa-fire"></i>
+                    <div class="item-name">总访问数 :</div>
+                </div>
+                <span id="busuanzi_value_site_pv"><i class="fas fa-spinner fa-pulse"></i></span>
+            </div>
+        
+        
+            <div class="webinfo-item">
+                <div class="webinfo-item-title">
+                    <i class="fa-solid fa-eye"></i>
+                    <div class="item-name">总访客数 :</div>
+                </div>
+                <span id="busuanzi_value_site_uv"><i class="fas fa-spinner fa-pulse"></i></span>
+            </div>
+        
+    
+    
         <div class="webinfo-item">
             <div class="webinfo-item-title">
                 <i class="item-icon fas fa-stopwatch"></i>
@@ -663,10 +687,10 @@
                 <i class="fa-solid fa-clock-rotate-left"></i>
                 <div class="item-name">最后更新 :</div>
             </div>
-            <time class="item-count" datetime="2023-03-24T07:02:50+00:00">
+            <time class="item-count" datetime="Fri Mar 24 2023 15:21:41 GMT+0000 (Coordinated Universal Time)">
             </time>
         </div>
-        
+    
     
         <div class="webinfo-item">
             <div class="webinfo-item-title">
@@ -816,15 +840,14 @@
 <script src="/lib/swiper.min.js"></script>
 
 
-
-    <script>const links=[{"name":"Akilar","link":"https://akilar.top"},{"name":"Tianli","link":"https://tianli-blog.club"}];function travelling(){const link=links[utils.randomNum(links.length)];utils.snackbarShow('您即将前往 ⌈ '+link.name+' ⌋ , 安全性未知',false,3000);setTimeout(()=>{window.open(link.link,"_blank")},3000)};function randomLinksList(){let data='';for(let i=1;i<=3;i++){const link=links[utils.randomNum(links.length)];data+='<a class="footer-item" href="'+link.link+'" target="_blank" rel="noopener nofollow">'+link.name+'</a>'};document.getElementById('friend-links-in-footer').innerHTML=data + '<a class="footer-item" href="/links/">更多</a>'};</script>
-
 <div id="js-pjax">
+    
+    
+        <script async src="https://npm.elemecdn.com/penndu@1.0.0/bsz.js"></script>
      
 </div>
 
-<script src="/js/extend/covercolor.js"></script>
-
+    <script>const links=[{"name":"Akilar","link":"https://akilar.top"},{"name":"Tianli","link":"https://tianli-blog.club"}];function travelling(){const link=links[utils.randomNum(links.length)];utils.snackbarShow('您即将前往 ⌈ '+link.name+' ⌋ , 安全性未知',false,3000);setTimeout(()=>{window.open(link.link,"_blank")},3000)};function randomLinksList(){let data='';for(let i=1;i<=3;i++){const link=links[utils.randomNum(links.length)];data+='<a class="footer-item" href="'+link.link+'" target="_blank" rel="noopener nofollow">'+link.name+'</a>'};document.getElementById('friend-links-in-footer').innerHTML=data + '<a class="footer-item" href="/links/">更多</a>'};</script>
 
     <script>
   let pjaxSelectors = [
@@ -841,6 +864,14 @@
     cacheBust: false,
     analytics: false,
     scrollRestoration: false
+  })
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+      const newScript = document.createElement('script')
+      const content = item.text || item.textContent || item.innerHTML || ""
+      Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+      newScript.appendChild(document.createTextNode(content))
+      item.parentNode.replaceChild(newScript, item)
   })
 
   document.addEventListener('pjax:error', (e) => {
