@@ -49,9 +49,8 @@
         <div class="console-btn-item"> <a class="darkmode_switchbutton" onclick="acrylic.switchDarkMode()" title="显示模式切换"
                 href="javascript:void(0);" rel="external nofollow" data-pjax-state=""><i class="fas fa-moon"
                     style="font-size: 1rem;"></i></a></div>
-        <div class="console-btn-item" id="consoleMusic" onclick="heo.musicToggle()" title="音乐开关"><a class="music-switch"
-                data-pjax-state=""><i class="fas fa-music"></i></a></div>
-        <div class="console-btn-item" id="consoleFPS" onclick="heo.FPSToggle()" title="帧率显示开关"><a class="FPS-switch"
+        
+        <div class="console-btn-item" id="consoleFPS" onclick="acrylic.FPSToggle()" title="帧率显示开关"><a class="FPS-switch"
                 data-pjax-state=""><i class="fas fa-gauge"></i></a></div>
     </div>
     <div class="console-mask" onclick="acrylic.hideConsole()" href="javascript:void(0);" rel="external nofollow"></div>
@@ -693,7 +692,7 @@
                 <i class="fa-solid fa-clock-rotate-left"></i>
                 <div class="item-name">最后更新 :</div>
             </div>
-            <time class="item-count" datetime="Tue Mar 28 2023 15:37:35 GMT+0000 (Coordinated Universal Time)">
+            <time class="item-count" datetime="Tue Mar 28 2023 23:52:03 GMT+0000 (Coordinated Universal Time)">
             </time>
         </div>
     
@@ -853,6 +852,7 @@
      
 </div>
 
+
     
 <script src="/js/extend/covercolor/web.js"></script>
 
@@ -923,7 +923,13 @@
 <script src="/js/extend/search/local-search.js"></script>
 
 
-       
+     
+        <div class="needEndHide" id="nav-music" onclick="acrylic.musicToggle()">
+    <div id="nav-music-hoverTips">音乐已暂停</div>
+    <meting-js id="114360786" server="netease" type="playlist" mutex="true"
+        preload="none" data-lrctype="0" order="random" theme="var(--heo-main)"></meting-js>
+</div>
+    
     </body>
 </html>
 <script>const posts=["blog-tutorial/20220401-hexo/","idea-tutorial/20220202-idea-guide/"];function toRandomPost(){ window.pjax ? pjax.loadUrl('/'+posts[Math.floor(Math.random()*posts.length)]) : window.open('/'+posts[Math.floor(Math.random()*posts.length)], "_self"); };</script>
