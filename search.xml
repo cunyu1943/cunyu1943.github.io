@@ -337,6 +337,38 @@
       </tags>
   </entry>
   <entry>
+    <title>关于本站</title>
+    <url>/about/index.html</url>
+    <content><![CDATA[<div id="readmore-container"></div>
+
+			<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
+			<script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
+			<script>
+			var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
+			if (!isMobile) {
+				try {
+					var plugin = new ReadmorePlugin();
+					plugin.init({
+						"id": "readmore-container",
+						"blogId": "19397-0379198090489-062",
+						"name": "村雨遥",
+						"qrcode": "https://cunyu1943.github.io/JavaPark/personal/wechatpublic.png",
+						"keyword": "验证码",
+						"lockToc": "yes",
+						"type": "hexo",
+						"random": "1",
+						"interval": "60",
+						"expires": "365",
+						"height": "auto"
+					});
+				} catch(e) {
+					console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
+				}
+			}
+			</script>
+		]]></content>
+  </entry>
+  <entry>
     <title>友情链接</title>
     <url>/links/index.html</url>
     <content><![CDATA[<div id="readmore-container"></div>
