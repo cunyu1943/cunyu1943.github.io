@@ -37,9 +37,95 @@
 
 
 
-<script>var GLOBALCONFIG = {"root":"/","runtime":"2018-01-01 00:00:00","lazyload":{"enable":true,"error":"/img/404.svg"},"hightlight":{"enable":true,"limit":200},"lightbox":true,"randomlinks":true,"lang":{"theme":{"dark":"已切换至深色模式","light":"已切换至浅色模式"},"copy":{"success":"复制成功","error":"复制失败"},"backtop":"返回顶部","time":{"recent":"最近","yesterday":"昨天","berforeyesterday":"前天","daybefore":"天前","runtime":"天"},"sayhello":{"morning":"早上好","noon":"中午好","afternoon":"下午好","night":"晚上好","goodnight":"晚安","iam":"!  我是"},"search":{"empty":"搜索结果为空","hit":"已为您找到 ${query} 条结果","placeholder":"输入关键词快速查找"}},"localsearch":{"preload":false,"path":"/search.xml"}};</script><script id="site-config">var PAGECONFIG = {"is_home":false,"is_post":false,"is_page":true,"page":"links","toc":false,"comment":true};</script>
+<script>var GLOBALCONFIG = {"root":"/","runtime":"2018-01-01 00:00:00","lazyload":{"enable":true,"error":"/img/404.svg"},"hightlight":{"enable":true,"limit":200},"lightbox":true,"randomlinks":true,"lang":{"theme":{"dark":"已切换至深色模式","light":"已切换至浅色模式"},"copy":{"success":"复制成功","error":"复制失败"},"backtop":"返回顶部","time":{"recent":"最近","yesterday":"昨天","berforeyesterday":"前天","daybefore":"天前","runtime":"天"},"sayhello":{"morning":"早上好","noon":"中午好","afternoon":"下午好","night":"晚上好","goodnight":"晚安","iam":"!  我是"},"search":{"empty":"搜索结果为空","hit":"已为您找到 ${query} 条结果","placeholder":"输入关键词快速查找"}},"covercolor":true,"localsearch":{"preload":false,"path":"/search.xml"}};</script><script id="site-config">var PAGECONFIG = {"is_home":false,"is_post":false,"is_page":true,"page":"links","toc":false,"comment":true};</script>
     <meta name="generator" content="Hexo 6.3.0"></head>
     <body id="body">
+        
+            <div id="loading-box" onclick="preloader.endLoading();" class style="zoom: 1;">
+    <div class="loading-bg">
+        <img class="loading-img nolazyload" alt="loading image"
+            src="/img/logo.svg">
+        </div>
+</div>
+<script>
+    const preloader = {
+        endLoading: () => {
+            document.getElementById('loading-box').classList.add("loaded")
+        },
+        initLoading: () => {
+            document.getElementById('loading-box').classList.remove("loaded")
+        },
+        removePaceDone: () => {
+            document.getElementById('body').classList = 'pace-done'
+        }
+    }
+    window.addEventListener('load',()=> { preloader.endLoading() })
+    document.addEventListener('pjax:send', () => { preloader.initLoading() })
+    document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+</script>
+<style>
+    #loading-box {
+        -webkit-user-select: none;
+    }
+
+    #loading-box .loading-bg {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background: var(--heo-background);
+        z-index: 1999;
+        opacity: 1;
+        transition: 0.2s;
+        pointer-events: all;
+        animation: showLoading 0.3s 0s backwards;
+    }
+
+    #loading-box.loaded .loading-bg {
+        pointer-events: none;
+        transition: 0.2s;
+        animation: hideLoading 0.3s 0s forwards;
+    }
+
+    #loading-box .loading-img {
+        width: 100px;
+        margin: auto;
+        animation-duration: 0.2s;
+        animation-name: loadingAction;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes loadingAction {
+        from {
+            opacity: 1;
+        }
+
+        to {
+            opacity: 0.6;
+        }
+    }
+
+    @keyframes hideLoading {
+        from {
+            opacity: 1;
+        }
+
+        to {
+            opacity: 0;
+        }
+    }
+
+    @keyframes showLoading {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+</style>
         
         <div id="console" style="zoom: 1;" class="">
     <div class="close-btn" onclick="acrylic.hideConsole()" href="javascript:void(0);">
@@ -278,9 +364,9 @@
                 </div>
             
             <a id="site-name" href="/" title="返回博客主页">
-                <span class="heoicon">
-                    村雨遥
-                </span>
+                    
+                        <span class="heoicon">村雨遥</span>
+                    
             </a>
         </div>
         <div id="page-name-mask">
@@ -744,7 +830,7 @@
 
 
     
-<script src="/js/extend/covercolor/web.js"></script>
+<script src="/js/extend/covercolor/local.js"></script>
 
         
 

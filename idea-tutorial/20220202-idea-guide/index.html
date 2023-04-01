@@ -37,9 +37,95 @@
 
 
 
-<script>var GLOBALCONFIG = {"root":"/","runtime":"2018-01-01 00:00:00","lazyload":{"enable":true,"error":"/img/404.svg"},"hightlight":{"enable":true,"limit":200},"lightbox":true,"randomlinks":true,"lang":{"theme":{"dark":"已切换至深色模式","light":"已切换至浅色模式"},"copy":{"success":"复制成功","error":"复制失败"},"backtop":"返回顶部","time":{"recent":"最近","yesterday":"昨天","berforeyesterday":"前天","daybefore":"天前","runtime":"天"},"sayhello":{"morning":"早上好","noon":"中午好","afternoon":"下午好","night":"晚上好","goodnight":"晚安","iam":"!  我是"},"search":{"empty":"搜索结果为空","hit":"已为您找到 ${query} 条结果","placeholder":"输入关键词快速查找"}},"localsearch":{"preload":false,"path":"/search.xml"}};</script><script id="site-config">var PAGECONFIG = {"is_home":false,"is_post":true,"is_page":false,"page":false,"toc":true,"comment":true};</script>
+<script>var GLOBALCONFIG = {"root":"/","runtime":"2018-01-01 00:00:00","lazyload":{"enable":true,"error":"/img/404.svg"},"hightlight":{"enable":true,"limit":200},"lightbox":true,"randomlinks":true,"lang":{"theme":{"dark":"已切换至深色模式","light":"已切换至浅色模式"},"copy":{"success":"复制成功","error":"复制失败"},"backtop":"返回顶部","time":{"recent":"最近","yesterday":"昨天","berforeyesterday":"前天","daybefore":"天前","runtime":"天"},"sayhello":{"morning":"早上好","noon":"中午好","afternoon":"下午好","night":"晚上好","goodnight":"晚安","iam":"!  我是"},"search":{"empty":"搜索结果为空","hit":"已为您找到 ${query} 条结果","placeholder":"输入关键词快速查找"}},"covercolor":true,"localsearch":{"preload":false,"path":"/search.xml"}};</script><script id="site-config">var PAGECONFIG = {"is_home":false,"is_post":true,"is_page":false,"page":false,"toc":true,"comment":true};</script>
     <meta name="generator" content="Hexo 6.3.0"></head>
     <body id="body">
+        
+            <div id="loading-box" onclick="preloader.endLoading();" class style="zoom: 1;">
+    <div class="loading-bg">
+        <img class="loading-img nolazyload" alt="loading image"
+            src="/img/logo.svg">
+        </div>
+</div>
+<script>
+    const preloader = {
+        endLoading: () => {
+            document.getElementById('loading-box').classList.add("loaded")
+        },
+        initLoading: () => {
+            document.getElementById('loading-box').classList.remove("loaded")
+        },
+        removePaceDone: () => {
+            document.getElementById('body').classList = 'pace-done'
+        }
+    }
+    window.addEventListener('load',()=> { preloader.endLoading() })
+    document.addEventListener('pjax:send', () => { preloader.initLoading() })
+    document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+</script>
+<style>
+    #loading-box {
+        -webkit-user-select: none;
+    }
+
+    #loading-box .loading-bg {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background: var(--heo-background);
+        z-index: 1999;
+        opacity: 1;
+        transition: 0.2s;
+        pointer-events: all;
+        animation: showLoading 0.3s 0s backwards;
+    }
+
+    #loading-box.loaded .loading-bg {
+        pointer-events: none;
+        transition: 0.2s;
+        animation: hideLoading 0.3s 0s forwards;
+    }
+
+    #loading-box .loading-img {
+        width: 100px;
+        margin: auto;
+        animation-duration: 0.2s;
+        animation-name: loadingAction;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes loadingAction {
+        from {
+            opacity: 1;
+        }
+
+        to {
+            opacity: 0.6;
+        }
+    }
+
+    @keyframes hideLoading {
+        from {
+            opacity: 1;
+        }
+
+        to {
+            opacity: 0;
+        }
+    }
+
+    @keyframes showLoading {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+</style>
         
         <div id="console" style="zoom: 1;" class="">
     <div class="close-btn" onclick="acrylic.hideConsole()" href="javascript:void(0);">
@@ -278,9 +364,9 @@
                 </div>
             
             <a id="site-name" href="/" title="返回博客主页">
-                <span class="heoicon">
-                    村雨遥
-                </span>
+                    
+                        <span class="heoicon">村雨遥</span>
+                    
             </a>
         </div>
         <div id="page-name-mask">
@@ -501,7 +587,7 @@
             
                 <span class="post-meta-date" title="更新于">
                     <i class="post-meta-icon fa-solid fa-clock-rotate-left"></i>
-                    <time datetime="2023-03-30T14:52:40+00:00"></time>
+                    <time datetime="2023-04-01T08:50:12+00:00"></time>
                 </span>
             
             
@@ -890,9 +976,9 @@
         </div>
     </div>
     <div class="banner-button-group">
-        <a class="banner-button" href="https://cunyu1943.github.io">
+        <a class="banner-button" target="_blank" rel="noopener" href="https://cunyu1943.blog.csdn.net">
             <i class="fas fa-circle-chevron-right"></i>
-            <span class="banner-button-text">个人主页</span>
+            <span class="banner-button-text">CSDN</span>
         </a>
     </div>
     <div class="card-info-social-icons is-center">
@@ -905,28 +991,6 @@
                 <i class="fa-brands fa-github"></i>
             </a>
         
-    </div>
-</div>
-     
-    
-        
-        <div class="card-widget heo-right-widget" id="card-wechat" style="background: #57bd6a ;">
-    <div id="flip-wrapper">
-        <div id="flip-content">
-            <div class="face">
-                <div class="left">
-                    <span class="title">公众号</span>
-                    <span class="desc">获取最新信息和文章 <i class="fa-solid fa-play"></i></span>
-                </div>
-            </div>
-            <div class="back face">
-                <div class="left">
-                    <span class="title">扫一扫</span>
-                    <span class="desc">精彩文章不容错过 <i class="fa-solid fa-play"></i></span>
-                </div>
-                <img class="nolazyload" src="/img/personal/wechatpublic.png">
-            </div>
-        </div>
     </div>
 </div>
      
@@ -991,6 +1055,28 @@
             </div>
                 
         
+    </div>
+</div>
+     
+        
+            
+        <div class="card-widget heo-right-widget" id="card-wechat" style="background: #57bd6a ;">
+    <div id="flip-wrapper">
+        <div id="flip-content">
+            <div class="face">
+                <div class="left">
+                    <span class="title">公众号</span>
+                    <span class="desc">获取最新信息和文章 <i class="fa-solid fa-play"></i></span>
+                </div>
+            </div>
+            <div class="back face">
+                <div class="left">
+                    <span class="title">扫一扫</span>
+                    <span class="desc">精彩文章不容错过 <i class="fa-solid fa-play"></i></span>
+                </div>
+                <img class="nolazyload" src="/img/personal/wechatpublic.png">
+            </div>
+        </div>
     </div>
 </div>
      
@@ -1150,7 +1236,7 @@
 
 
     
-<script src="/js/extend/covercolor/web.js"></script>
+<script src="/js/extend/covercolor/local.js"></script>
 
         
 
