@@ -1,6 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>学好 Java 基础，这些网站必不可少</title>
+    <url>/QA/20230402-java-basic-exercise/</url>
+    <content><![CDATA[<div id="readmore-container"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>其实无论是哪门编程语言，只要把相关语法掌握之后，更重要的是一些算法、编程思想的提高。</p>
+<p>既然已经对 <code>Java</code> 有了一定的了解了，那肯定基本语法没啥问题了，那在这里就提名几个常用的刷题网站，用来巩固 Java 基础的同时锻炼自己的编程思想，提高自己的编程能力！</p>
+<h2 id="网站推荐"><a href="#网站推荐" class="headerlink" title="网站推荐"></a>网站推荐</h2><h3 id="牛客网"><a href="#牛客网" class="headerlink" title="牛客网"></a>牛客网</h3><ul>
+<li><a href="https://www.nowcoder.com/">牛客网</a></li>
+</ul>
+<p>说白了，我们学习 <code>Java</code>，最终目的不都是为了找一个好点的工作么。既然如此，那就一开始和招聘挂钩吧。在这里推荐几个题库，用于锻炼自己 <code>Java</code> 基础。</p>
+<ul>
+<li><a href="https://www.nowcoder.com/exam/intelligent?questionJobId=10&tagId=21003">牛客网专项练习</a></li>
+</ul>
+<p>专项练习下的编程语言专栏中的 <code>Java</code> 选项，是巩固自己所学 <code>Java</code> 基础知识的绝佳练习。题目均以选择题的形式给出，可以对自己所学查漏补缺。遇到不会的题目，也可以查看官方给出的答案或者大家在评论区给出的解析。</p>
+<p>除了 <code>Java</code> 基础之外，作为一个 <code>CRUD</code> 打工人，对于数据库的操作怎么能不熟练呢？同样的，牛客提供了针对不同的需求，给出了不同级别的练习题。</p>
+<ol>
+<li><p><a href="https://www.nowcoder.com/exam/oj?page=1&tab=SQL%E7%AF%87&topicId=199"><strong>针对非技术小白入门</strong></a></p>
+</li>
+<li><p><a href="https://www.nowcoder.com/exam/oj?page=1&tab=SQL%E7%AF%87&topicId=341"><strong>SQL 基础进阶</strong></a></p>
+</li>
+<li><p><a href="https://www.nowcoder.com/exam/oj?page=1&tab=SQL%E7%AF%87&topicId=240"><strong>SQL 进阶挑战</strong></a></p>
+</li>
+<li><p><a href="https://www.nowcoder.com/exam/oj?page=1&tab=SQL%E7%AF%87&topicId=298"><strong>MySQL 必知必会</strong></a></p>
+</li>
+<li><p><a href="https://www.nowcoder.com/exam/oj?page=1&tab=SQL%E7%AF%87&topicId=268"><strong>大厂面试实战</strong></a></p>
+</li>
+</ol>
+<p>除了以上针对 <code>Java</code> 基础以及 <code>SQL</code> 的相关练习之外，还是以过来人的身份建议楼主不要仅局限于语言本身，还是要学一些数据结构 + 算法方面的知识的，这样能帮你在工作中提高不少的效率。同时，设想一下，假设在面试时，一个同样的算法题，你实现的复杂度为 $O(n)$ ，而其他人实现的复杂度为 $O(n^2)$ ，那你觉得最终企业会招谁呢？</p>
+<p>算法练习的网站也比较多了，这里就推荐几个最常用的。</p>
+<h3 id="LeetCode"><a href="#LeetCode" class="headerlink" title="LeetCode"></a>LeetCode</h3><ul>
+<li><a href="https://leetcode.cn/?utm_source=LCUS&utm_medium=ip_redirect&utm_campaign=transfer2china">LeetCode 美国站</a></li>
+</ul>
+<p>首先推荐的是 <code>LeetCode</code> 美国站。当然，这需要你的英语基础比较好，如果你觉得你的英语还不错，那么优先推荐去这里。如果你英语不是那么好，那也没关系。<code>LeetCode</code> 也做了本土化，提供了中文站，你同样可以在这里刷题。</p>
+<ul>
+<li><a href="https://leetcode.cn/">LeetCode 中国站</a></li>
+</ul>
+<h3 id="牛客网-1"><a href="#牛客网-1" class="headerlink" title="牛客网"></a>牛客网</h3><p>没错，又是它。现在国内有很多企业都是在牛客笔试的，为了尽快适应招聘面试，推荐在这里刷算法题，这样在笔试时也不会因为环境而感到陌生，尽快上手。</p>
+<p>这里推荐几个题库，如果题库里的题目刷起来得心应手，那笔试还有啥怕的~~</p>
+<ol>
+<li><p><a href="https://www.nowcoder.com/exam/oj/ta?tpId=13"><strong>剑指 Offer</strong></a>：</p>
+</li>
+<li><p><a href="https://www.nowcoder.com/exam/oj?page=1&tab=%E5%90%8D%E4%BC%81%E7%9C%9F%E9%A2%98&topicId=182"><strong>名企真题</strong></a>：汇聚了字节跳动、美团、百度、腾讯、华为、京东、小米、网易、快手等一众大厂笔试真题，虽然笔试时刷到原题的概率较小，但摸索下大厂的出题的套路和设计的知识点也未尝不可！</p>
+</li>
+</ol>
+<p>除了以上两个题库，也可以去 <code>LeetCode</code> 刷下《剑指 Offer》后续版本的题目。</p>
+<ul>
+<li><a href="https://leetcode.cn/problemset/all/?page=1&listId=e8X3pBZi">《剑指 Offer（专线突击版）》</a></li>
+<li><a href="https://leetcode.cn/problemset/all/?page=1&listId=xb9nqhhg">《剑指 Offer（第 2 版）》</a></li>
+</ul>
+<h3 id="赛码网"><a href="#赛码网" class="headerlink" title="赛码网"></a>赛码网</h3><ul>
+<li><a href="https://www.acmcoder.com/#/home">赛码网</a></li>
+</ul>
+<p>智能在线考试专家，除开牛客之外，也有不少企业在这里进行招聘笔试，比如阿里、京东、头条、美团、滴滴、小米等公司校招考试都在用。</p>
+<h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>推荐仅限于推荐，最重要的还是要行动起来。就算一开始很吃力，那也要坚持！</p>
+<p>水滴石穿，非一日之功。我相信有付出，就一定会有收获的那一天！</p>
+<p>关注我，<code>Java</code> 学习不迷路！风里雨里，我在这里等你！</p>
+</div>
+
+			<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
+			<script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
+			<script>
+			var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
+			if (!isMobile) {
+				try {
+					var plugin = new ReadmorePlugin();
+					plugin.init({
+						"id": "readmore-container",
+						"blogId": "19397-0379198090489-062",
+						"name": "村雨遥",
+						"qrcode": "https://cunyu1943.github.io/JavaPark/personal/wechatpublic.png",
+						"keyword": "验证码",
+						"lockToc": "yes",
+						"type": "hexo",
+						"random": "1",
+						"interval": "60",
+						"expires": "365",
+						"height": "auto"
+					});
+				} catch(e) {
+					console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
+				}
+			}
+			</script>
+		]]></content>
+      <categories>
+        <category>你问我答</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>刷题</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>超详细 Hexo + Github Pages 博客搭建教程</title>
     <url>/blog-tutorial/20220401-hexo/</url>
     <content><![CDATA[<div id="readmore-container"><blockquote>
