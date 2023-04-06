@@ -460,8 +460,8 @@
 		]]></content>
   </entry>
   <entry>
-    <title>即刻短文</title>
-    <url>/says/index.html</url>
+    <title>友情链接</title>
+    <url>/links/index.html</url>
     <content><![CDATA[<div id="readmore-container"></div>
 
 			<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
@@ -492,8 +492,8 @@
 		]]></content>
   </entry>
   <entry>
-    <title>友情链接</title>
-    <url>/links/index.html</url>
+    <title>即刻短文</title>
+    <url>/says/index.html</url>
     <content><![CDATA[<div id="readmore-container"></div>
 
 			<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
