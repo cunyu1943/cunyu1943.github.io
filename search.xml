@@ -535,20 +535,16 @@
 <li><a href="https://cunyu1943.site/JavaPark">JavaPark</a>：PC 端推荐</li>
 <li><a href="/img/personal/wechatpublic.png">公众号</a>：移动端推荐</li>
 </ul>
-<p>如果你想推荐或自荐项目&#x2F;网站&#x2F;软件&#x2F;资源，欢迎提交<a href="https://github.com/cunyu1943/JavaPark/issues">issue</a>或者添加我 <strong><a href="/img/personal/wechat.png">个人微信：cunyu1943</a></strong> 和我交流。</p>
+<p>如果你想推荐或自荐项目&#x2F;网站&#x2F;软件&#x2F;资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues">issue</a></strong> 或者添加我 <strong><a href="/img/personal/wechat.png">个人微信：cunyu1943</a></strong> 和我交流。</p>
 <img src="/img/personal/wechat.png" width="150" />
 
-<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>在互联网时代，信息的<strong>过滤</strong>与<strong>聚合</strong>是非常重要的，作为一名程序员，我经常会浏览过程中看到各种有意思的项目、资源、软件以及一些网站，如果浏览目标让人眼前一亮，那就说明我<strong>过滤</strong>到了有意思的东西，一般我会选择相应的软件进行记录然后聚合起来慢慢看。</p>
-<p>但随着时间流逝，一些好的资源总是错过了，或者某个瞬间想起来这东西但是不知道在哪查找。</p>
-<p>看过即忘的感觉很不好，为什么不做一个自己的资源聚合呢？于是 <strong>好物周刊</strong> 项目诞生了，但不要以为这就结束了，周刊在我看来不过是一种分享的形式，算是我做的一次实验：</p>
-<ul>
-<li>第一步我想构建一个以周刊为载体的资源分享形式，实践下若将资源聚合来持续地分享会产生怎样的效果，毕竟资源除了持续积累，还需要搭配有效的分享才会产生价值；</li>
-<li>第二步是构建一套资源聚合分享流程，产生更多可玩的分享方式，让资源流动起来，让互联网上相关需求方的资源检索时间缩短；</li>
-</ul>
-<p>如果大家感兴趣，请持续关注我的的周刊专栏<a href="https://cunyu1943.site/weekly">https://cunyu1943.site/weekly</a>，也请移步<a href="https://github.com/cunyu1943/JavaPark/">cunyu1943&#x2F;JavaPark</a>给我一个<code>Star</code>支持下吧：</p>
-<p>好物周刊开始于 <strong>2023.04.15</strong>，如果你在看到这篇文章的时候，我依旧在更新，那么这就是最好的消息。</p>
+<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>互联网时代，各种信息层出不穷。而从众多信息中过滤出需要的，并将这些信息聚合起来就是一项十分重要的技能。</p>
+<p>作为一名程序员，每天在网上冲浪时经常会浏览到各种好玩的项目、资源、软件以及资源等。而久而久之，一些好的资源渐渐就淹没在信息流中了，后来想再去找也不知道该去哪儿查。</p>
+<p>针对这个问题，给我个人感觉非常不好，不知道你是否也会有这样的感觉呢？于是 <strong>好物周刊</strong> 诞生了，周刊于我而言既是一种留存，也是一种分享，希望我能一直坚持下去，欢迎大家监督。</p>
+<p>如果大家感兴趣，请持续关注我的的周刊专栏<a href="https://cunyu1943.site/weekly">https://cunyu1943.site/weekly</a>，也请移步<a href="https://github.com/cunyu1943/JavaPark/">cunyu1943&#x2F;JavaPark</a>给我一个<code>Star</code>支持下吧。</p>
+<p>好物周刊开始于 <strong>2023.04.15</strong>，如果看到这篇文章时我依旧在坚持更新，那就是最好的消息。</p>
 <h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><details><summary>2023年刊</summary><ul>
-<li><a href="/weekly/2023/0415-0421">好物周刊#1（0415~0421）</a></li>
+<li><a href="/weekly/2023/0415-0421">好物周刊#1（0415 ~ 0421）</a></li>
 </ul>
 </details>
 
