@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>最新版 IntelliJ IDEA 使用手册 | 程序员村雨遥</title>
+<title>原来大厂都是这么提交代码的 | 程序员村雨遥</title>
 <noscript>开启Javascript是必要的</noscript>
 <link rel="icon" type="image/x-icon" href="/img/logo.svg">
 <link rel="apple-touch-icon" href="/img/logo.svg">
@@ -388,7 +388,7 @@
         </div>
         <div id="page-name-mask">
             <div id="page-name">
-                <a id="page-name-text" onclick="acrylic.toTop()">最新版 IntelliJ IDEA 使用手册</a>
+                <a id="page-name-text" onclick="acrylic.toTop()">原来大厂都是这么提交代码的</a>
             </div>
         </div>
         <div id="menus">
@@ -557,7 +557,7 @@
 </nav>
     
         <div class="coverdiv" id="coverdiv">
-    <img id="post-cover" class="nolazyload" src="https://cdn.pixabay.com/photo/2020/01/04/14/28/youtube-4740743_1280.jpg" alt="cover">
+    <img id="post-cover" class="nolazyload" src="https://cdn.pixabay.com/photo/2022/10/14/21/08/code-7522129_1280.png" alt="cover">
 </div>
 <div id="post-info">
     <div id="post-firstinfo">
@@ -580,21 +580,16 @@
                             <span class="tags-name">IDEA 教程</span>
                         </a>
                     
-                        <a class="post-meta__tags" href="/tags/IDEA/">
-                            <span class="tags-punctuation">#</span>
-                            <span class="tags-name">IDEA</span>
-                        </a>
-                    
                 </div>
             </div>
         </div>
     </div>
-    <h1 class="post-title">最新版 IntelliJ IDEA 使用手册</h1>
+    <h1 class="post-title">原来大厂都是这么提交代码的</h1>
     <div id="post-meta">
         <div class="meta-secondline">
             <span class="post-meta-date" title="发布于">
                 <i class="post-meta-icon fa-fw fas fa-calendar"></i>
-                <time datetime="2022-02-01T16:00:00+00:00"></time>
+                <time datetime="2023-05-25T14:52:17+00:00"></time>
             </span>
             
                 <span class="post-meta-date" title="更新于">
@@ -612,13 +607,13 @@
                 
                     <span class="post-meta-wordcount">
                         <i class="fas fa-file-word fa-fw post-meta-icon" title="文章字数"></i>
-                        <span class="word-count">2.8k</span>
+                        <span class="word-count">2.2k</span>
                     </span>
                 
                 
                     <span class="post-meta-time">
                         <i class="fas fa-clock post-meta-icon" title="阅读耗时"></i>
-                        <span>10 min</span>
+                        <span>8 min</span>
                     </span>
                 
             
@@ -662,122 +657,197 @@
         <article class="post-content" id="article-container">
             <div id="readmore-container"><blockquote>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
+<p>原文：<a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/Mhc7tygE6Fl5_3h8mz7A9g">https://mp.weixin.qq.com/s/Mhc7tygE6Fl5_3h8mz7A9g</a></p>
 </blockquote>
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>因为自己电脑最近实在是太卡了，也一直提示更新，索性就直接重装了个系统。因为需要重装下 IDEA，而现在新版本的 IDEA 和之前的版本还是有很大变化的，所以在这里写一篇博客做个记录，方便自己后续配置，也顺便分享给大家。</p>
-<h2 id="IDEA-的优势"><a href="#IDEA-的优势" class="headerlink" title="IDEA 的优势"></a>IDEA 的优势</h2><p>为什么要使用 <code>IDEA</code> 呢？当然是因为它的强大。总结起来，<code>IDEA</code> 具有以下的主要优势：</p>
-<ol>
-<li><strong>功能强大</strong></li>
-</ol>
-<p>一方面体现在强大的整合能力，<code>IDEA</code>支持集成各种开发过程中的编程框架，最常见的有<code>git</code>、<code>JVM</code>系编程语言、<code>Spring</code> 系产品、移动开发语言框架、前端开发语言。而另一方面，通过集成版本控制系统、对多种编程语言框架的支持，同时无需额外安装插件，带给我们开箱即用的体验。</p>
-<ol start="2">
-<li><strong>符合人体工程学</strong></li>
-</ol>
-<p><code>IDEA</code> 的提示功能十分智能，提供了快速地智能代码补全、实时代码分析以及可靠的重构工具。此外 <code>IDAE</code> 的提示功能十分快速、便捷，而且提示范围也十分广泛。</p>
-<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p>既然要安装 <code>IDEA</code>，那么首先需要前往 <code>JetBrains</code> 的官网下载最新版的 <code>IDEA</code>，下载地址如下：</p>
-<p><a target="_blank" rel="noopener" href="https://www.jetbrains.com/idea/download/">https://www.jetbrains.com/idea/download/</a></p>
-<p><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/20220202-idea-guide/offcial-website.png"></p>
-<p>因为我有旗舰版的账号，所以这里就以旗舰版安装为例，其实社区版的安装也是一样的，只不过里边集成的东西有所不同。所以如果你安装的是社区版，参照此教程也是完全可以的！</p>
-<p><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/20220202-idea-guide/download.png"></p>
-<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>好了，完成下载后，我们就可以开始我们的安装过程了！</p>
-<ol>
-<li>双击我们的安装包之后，来到 <code>IDEA</code> 的欢迎界面，我们此时只需要 <code>Next</code> 即可。</li>
-</ol>
-<p><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/20220202-idea-guide/welcome.png"></p>
-<ol start="2">
-<li>接着就是选择我们要安装 <code>IDEA</code> 的位置，它默认的安装位置是 <code>C:\Program Files\JetBrains\IntelliJ IDEA 2021.1.2</code>，这里就是看大家自己的喜好了，你喜欢安在哪儿都可以，但是需要满足它所需要的内存。更加推荐大家安装到自己的非系统盘位置，比如我的安装位置是 <code>D:\SoftInstall\IntelliJ IDEA</code>。</li>
-</ol>
-<p><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/20220202-idea-guide/path-set.png"></p>
-<ol start="3">
-<li>选择安装的配置，这里主要选择创建 32 还是 64 位的桌面快捷方式、是否要将其加入到系统 <code>PATH</code> 环境变量、是否关联相关后缀文件等等。可以根据自己的使用习惯来进行选择，以我个人来说，因为不喜欢弄一些桌面快捷方式以及关联相关后缀文件等操作，所以我默认全都不勾选，直接 <code>Next</code>。</li>
-</ol>
-<p><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/20220202-idea-guide/install-options.png"></p>
-<ol start="4">
-<li>选择开始菜单中给 IDEA 的文件夹名，这里默认即可，直接点击 <code>Install</code>，然后就是漫长的等待安装过程了！</li>
-</ol>
-<p><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/20220202-idea-guide/start-menu.png"></p>
-<p><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/20220202-idea-guide/installing.png"></p>
-<ol start="5">
-<li>大功告成！显示此界面就说明我们的 <code>IDEA</code> 已经安装好了，直接点击 <code>Finish</code> 即可！</li>
-</ol>
-<p><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/20220202-idea-guide/finish.png"></p>
-<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>安装好之后，为了让我们的 IDEA 使用起来更顺手，推荐做一些个性化的配置，提高我们的工作效率。</p>
-<h3 id="激活"><a href="#激活" class="headerlink" title="激活"></a>激活</h3><p>首次打开旗舰版 <code>IDEA</code> 时，会让你激活，这里有 3 种选择：</p>
-<ul>
-<li><p>利用你的 <code>JetBrains</code> 账号登录激活；</p>
-</li>
-<li><p>利用你的 <code>IDEA</code> 激活码激活；</p>
-</li>
-<li><p>最后则是许可证服务器地址激活；</p>
-</li>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>在开发大型项目时，通常都是由团队来进行开发。此时，每个人有每个人的代码编写风格和提交习惯，如果放任自由发挥，那么代码质量和代码提交日志就难免风格各异，导致项目代码质量难以保持统一。针对这一问题，往往公司在以项目组进行开发时，在进入正式编码前，都会制定一个标准的流程，用来规范代码提交前的流程，同时对提交日志进行规范化。从而最大程度上保持项目的代码风格统一，提高代码可读性。</p>
+<p>以下就给大家介绍一下最常见的代码提交前的规范化流程，以及如何模板化我们的代码提交日志。</p>
+<h2 id="代码提交前检查流程"><a href="#代码提交前检查流程" class="headerlink" title="代码提交前检查流程"></a>代码提交前检查流程</h2><h3 id="推荐插件"><a href="#推荐插件" class="headerlink" title="推荐插件"></a>推荐插件</h3><h4 id="p3c"><a href="#p3c" class="headerlink" title="p3c"></a>p3c</h4><ul>
+<li><strong>下载地址</strong></li>
 </ul>
-<p>当然你也可以选择 <code>Evaluate for free</code>，它是有 30 天的试用期的，你只需要在这 30 天之内激活即可，否则 30 天之后将会弹窗不可用。对于社区版，应该没有激活这一说法，因为它是免费的，我们直接打开用就可以了。</p>
-<p><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/20220202-idea-guide/license.png"></p>
-<h3 id="编码设置"><a href="#编码设置" class="headerlink" title="编码设置"></a>编码设置</h3><p>一般 IDEA 的编码是和系统保持一致的，而为了通用，减少不必要的编码问题，所以一般统一设置为 UTF-8，设置入口如下，依次打开 <code>Settings -&gt; Editor -&gt; File Encodings</code>，然后将 <code>Global Encoding</code>、<code>Project Encoding</code>、<code>Default encoding for properties files</code> 均设置为 UTF-8。</p>
-<p><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/20220202-idea-guide/encode-setting.png"></p>
-<h3 id="外观设置"><a href="#外观设置" class="headerlink" title="外观设置"></a>外观设置</h3><h4 id="整体-UI"><a href="#整体-UI" class="headerlink" title="整体 UI"></a>整体 UI</h4><p>安装并激活之后，进入 IDEA 的主界面，新版本的主界面如下图所示：</p>
-<p><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/20220202-idea-guide/ui.png"></p>
-<p>点击 <code>Customize</code>，可以看到右侧我们可以设置主题和字体。其中主题有如下 4 种选择：</p>
-<ol>
-<li><p>IntelliJ Light</p>
-</li>
-<li><p>Windows 10 Light</p>
-</li>
-<li><p>Darcula</p>
-</li>
-<li><p>High contrast</p>
-</li>
-</ol>
-<p>这里可以根据自己的喜好进行主题选择，也可以勾选右方的 <code>Sync with OS</code> 选项，这样 IDEA 就会根据你系统的明亮还是黑暗主题进行自动切换了。</p>
-<p>而字体大小设置这边，我个人更喜欢稍微大一点（主要是小的看久了眼睛疼 😂），所以设置的是 16 号字体。</p>
-<p><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/20220202-idea-guide/theme.png"></p>
-<p>而关于更多设置，可以点击下方的 <code>All settings…</code>，进入更详细的设置。比如这里 IDEA 默认界面字体是微软雅黑，我们要改成自己喜欢的字体就可以在这里进行更改，这里推荐 JetBrains 自家推出的 <code>JetBrains Mono</code> 字体。</p>
-<p>设置入口，依次进入 <code>Settings -&gt; Appearance &amp; Behavior -&gt; Appearance</code>，然后在右边设置主题，字体以及字体大小即可。</p>
-<p><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/20220202-idea-guide/appearance.png"></p>
-<h4 id="编辑区"><a href="#编辑区" class="headerlink" title="编辑区"></a>编辑区</h4><p>上述设置只是针对于 IDEA 整体界面风格的设置，而如果我们要对我们的代码编辑区进行设置，那么就需要进入：<code>Settings -&gt; Editor -&gt; Font</code>，然后设置字体和大小。这里依然推荐使用 <code>JetBrains Mono</code> 字体，字号 16。</p>
-<p><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/20220202-idea-guide/font.png"></p>
-<p>除开上面设置编辑区字体大小的方法外，我们还可以按住 <code>Ctrl</code>，然后通过鼠标滚轮来实现字体大小的调整，但是前提是你要先打开相关设置。设置入口如下，依次进入 <code>Settings -&gt; Editor -&gt; General</code>，然后勾选 <code>Change font size with Ctrl+Mouse Wheel</code> 即可。</p>
-<p><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/20220202-idea-guide/mouse-wheel.png"></p>
-<h4 id="控制台"><a href="#控制台" class="headerlink" title="控制台"></a>控制台</h4><p>一般情况下无需调整，它会沿用编辑器一样的配置，但如果你需要自定义，可以去如下入口：<code>Settings -&gt; Editor -&gt; Color Scheme -&gt; Console Font</code>，然后勾选如下 <code>Use color scheme font instead of the default</code> 选项并进行设置即可。</p>
-<p><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/20220202-idea-guide/console.png"></p>
-<h3 id="扁平化显示及空包隐藏"><a href="#扁平化显示及空包隐藏" class="headerlink" title="扁平化显示及空包隐藏"></a>扁平化显示及空包隐藏</h3><p>有时候，我们项目的包结构会变成如下样式，有时会造成一定的不便，此时是因为开启了 <code>Flatten Packages</code> 所导致。</p>
-<p><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/20220202-idea-guide/flatten-pkg-on.png"></p>
-<p>如果我们关闭此功能，则项目包结构如下所示：</p>
-<p><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/20220202-idea-guide/flatten-pkg-off.png"></p>
-<p>其中 <code>Compact Middle Packages</code> 表示是否隐藏空包。</p>
-<h3 id="打开文件多行显示"><a href="#打开文件多行显示" class="headerlink" title="打开文件多行显示"></a>打开文件多行显示</h3><p>平常使用 IDEA 时，你可能没有注意到，一旦我们打开过多的文件时，默认会堆积在一行显示，就像浏览器打开了多个标签一样，此时需要通过右侧箭头筛选的方式来选择其他文件。为了解决这一问题，让我们打开的所有文件能以多行显示的方式方便查看。</p>
-<p>设置入口：依次打开 <code>Settings -&gt; Editor -&gt; General -&gt; Editor Tabs</code>，然后将 <code>Show tabs in</code> 勾选为 <code>Multiples rows</code>。</p>
-<p><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/20220202-idea-guide/mul-row.png"></p>
-<h3 id="行号和方法分隔符"><a href="#行号和方法分隔符" class="headerlink" title="行号和方法分隔符"></a>行号和方法分隔符</h3><p>日常为了方便定位 Bug 所在位置，我们通常需要打开代码所对应的行号，方便我们查找。另外，如果我们代码中方法较多时，最好是在每个方法之间加一个分隔符，方便我们知道一个方法的开始和结束。而这两个功能，IDEA 都是提供的。设置入口：依次打开 <code>Settings -&gt; Editor -&gt; General -&gt; Appearance</code>，然后勾选 <code>Show line numbers</code> 和 <code>Show method separators</code>。</p>
-<p><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/20220202-idea-guide/line-num.png"></p>
-<h3 id="自动导包"><a href="#自动导包" class="headerlink" title="自动导包"></a>自动导包</h3><p>日常工作中，我们会经常用到第三方的包，每次都需要我们通过手动（<code>Alt + Enter</code>） 的方式来导入，但实际上 IDEA 也是提供自动导包功能的，设置入口如下：<code>Settings -&gt; Editor -&gt; General -&gt; Auto Import</code>，将 <code>Insert imports on paste</code> 设置为 <code>Always</code>，再勾选 <code>Add unambiguous imports on the fly</code> 以及 <code>Optimize imports on the fly</code> 即可。</p>
-<p><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/20220202-idea-guide/auto-import.png"></p>
-<h3 id="忽略大小写"><a href="#忽略大小写" class="headerlink" title="忽略大小写"></a>忽略大小写</h3><p>通常 IDEA 在导入类时大小写是全匹配的，这样一样就极大影响了我们编码的速度。此时我们就可以通过设置 IDEA，让其忽略大小写字母，提高效率。设置入口如下，依次进入 <code>Settings -&gt; Editor -&gt; General -&gt; Code Completion</code>，取消勾选 <code>Match case</code>。</p>
-<p><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/20220202-idea-guide/match-case.png"></p>
-<h3 id="自动编译"><a href="#自动编译" class="headerlink" title="自动编译"></a>自动编译</h3><p>IDEA 默认是不会对代码自动编译的，需要我们手动配置。设置入口：依次打开 <code>Settings -&gt; Build,Execution,Deployment -&gt; Compiler</code>，然后勾选 <code>Build project automatically</code> 和 <code>Compole independent modules in parallel</code>。</p>
-<p><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/20220202-idea-guide/build-auto.png"></p>
-<h3 id="编译器设置"><a href="#编译器设置" class="headerlink" title="编译器设置"></a>编译器设置</h3><p>这里推荐使用 <code>Javac</code> 编译器，然后编译器版本最好保持和你本地使用的 JDK 版本相同。因为我本地使用的是 JDK11，所以这里版本我设置的是 11，这里最好根据你自己的实际情况进行设置。设置入口：依次打开 <code>Settings -&gt; Build,Execution,Deployment -&gt; Compiler -&gt; Java Compiler</code>，然后将 <code>Use compiler</code> 设置为 <code>Javac</code>，并将 <code>Project bytecode version</code> 设置为你本地使用的 JDK 的版本。</p>
-<p><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/20220202-idea-guide/compiler.png"></p>
-<h3 id="Maven-设置"><a href="#Maven-设置" class="headerlink" title="Maven 设置"></a>Maven 设置</h3><p>默认情况下，IDEA 是由绑定的 Maven 的，但是我们一般是自己设置自己所使用的 Maven。需要设置的主要有三点：</p>
-<ol>
-<li><p><strong>Maven home path</strong>：即自己本地的 Maven 所在目录；</p>
-</li>
-<li><p><strong>User settings file</strong>：即自己本地 Maven 环境下的 <code>settings.xml</code> 所在目录；</p>
-</li>
-<li><p><strong>Local repository</strong>：即自己本地的 Maven 仓库；</p>
-</li>
-</ol>
-<p>设置入口：依次打开 <code>Settings -&gt; Build,Execution,Deployment -&gt; Build Tools -&gt; Maven</code>，然后设置以上三点即可。</p>
-<p><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/20220202-idea-guide/maven-setting.png"></p>
-<h3 id="类模板"><a href="#类模板" class="headerlink" title="类模板"></a>类模板</h3><p>当我们创建一个类时，希望每个类的前边都已经一些注释的代码，用于标识这是我们自己所写的代码。此时就需要到 <code>Settings -&gt; Editor -&gt; File and Code Templates</code>，然后在右边的 <code>Includes -&gt; File Header</code> 右边的方框中，填入如下模板。设置完成之后，以后我们每次创建新的类文件时，IDEA 都会在文件的开头添加如下信息。</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Created with IntelliJ IDEA.</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Project</span>      : $&#123;PROJECT_NAME&#125;</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Package</span>      : $&#123;PACKAGE_NAME&#125;</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@ClassName</span>    : $&#123;CLASS_NAME&#125;.java</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@createTime</span>   : $&#123;DATE&#125; $&#123;TIME&#125;</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@version</span>      : 1.0</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span>       : 村雨遥</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Email</span>        : 747731461@qq.com</span></span><br><span class="line"><span class="comment"> * @公众号        : 村雨遥</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Website</span>      : https://cunyu1943.github.io/JavaPark</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Description</span>  :</span></span><br><span class="line"><span class="comment"> */</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p><a target="_blank" rel="noopener" href="https://plugins.jetbrains.com/plugin/10046-alibaba-java-coding-guidelines/versions">https://plugins.jetbrains.com/plugin/10046-alibaba-java-coding-guidelines/versions</a></p>
+</blockquote>
+<ul>
+<li><strong>安装及使用</strong></li>
+</ul>
+<blockquote>
+<p><a target="_blank" rel="noopener" href="https://github.com/alibaba/p3c/wiki/IDEA%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3">https://github.com/alibaba/p3c/wiki/IDEA%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3</a></p>
+</blockquote>
+<h4 id="SonarLint"><a href="#SonarLint" class="headerlink" title="SonarLint"></a>SonarLint</h4><ul>
+<li><strong>下载地址</strong></li>
+</ul>
+<blockquote>
+<p><a target="_blank" rel="noopener" href="https://plugins.jetbrains.com/plugin/7973-sonarlint/versions">https://plugins.jetbrains.com/plugin/7973-sonarlint/versions</a></p>
+</blockquote>
+<ul>
+<li><strong>安装及使用</strong></li>
+</ul>
+<blockquote>
+<p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/cocoxu1992/p/11336723.html">https://www.cnblogs.com/cocoxu1992/p/11336723.html</a></p>
+</blockquote>
+<h3 id="提交前的配置项"><a href="#提交前的配置项" class="headerlink" title="提交前的配置项"></a>提交前的配置项</h3><p><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/before-commit.png" alt="提交前的配置"></p>
+<h4 id="Alibaba-Code-Guidelines"><a href="#Alibaba-Code-Guidelines" class="headerlink" title="Alibaba Code Guidelines"></a>Alibaba Code Guidelines</h4><p>安装 <code>p3c</code> 插件后，才会有该选项。在提交代码改动之前，如果勾选此选项，则会去扫描代码中不符合 <code>p3c</code> 规则中的代码，然后弹窗提示存在可疑代码，此时可以到控制台查看存疑的代码。然后只需要根据控制台中提示的去修改代码即可。</p>
+<ul>
+<li>代码存疑弹窗<br><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/ali-code-analyze.png"></li>
+<li>控制台中存疑的代码提示<br><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/console-ali.png"></li>
+</ul>
+<h4 id="Reformat-code"><a href="#Reformat-code" class="headerlink" title="Reformat code"></a>Reformat code</h4><p>提交前格式化代码，假设我们在代码中写了如下代码：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> a=<span class="number">3</span>;</span><br></pre></td></tr></table></figure>
 
-<p><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/20220202-idea-guide/class-temp.png" alt="img"></p>
-<h3 id="导入导出设置"><a href="#导入导出设置" class="headerlink" title="导入导出设置"></a>导入导出设置</h3><p>经过我们一番调教，IDEA 用起来就十分顺手了。但这时候问题就来了，要是我们换个系统或者电脑使用啥的，难道我们又得重新设置一遍么？当然不是了！IDEA 是支持导入导出我们的配置的，我们只需要将我们的设置导出，然后换电脑或者重装系统使用时进行导入即可。</p>
-<h4 id="导出"><a href="#导出" class="headerlink" title="导出"></a>导出</h4><p>导出入口：依次打开 <code>File -&gt; Manage IDE Settings -&gt; Export Settings…</code>。</p>
-<p><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/20220202-idea-guide/export.png"></p>
-<h4 id="导入"><a href="#导入" class="headerlink" title="导入"></a>导入</h4><p>导入入口，依次打开 <code>File -&gt; Manage IDE Settings -&gt; Import Settings…</code>。</p>
-<p><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/20220202-idea-guide/import.png"></p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>好了，以上就是关于 IDEA 的安装以及安装之后的一些配置了。如果你觉得对你有用，那就点个赞再走吧！如果你还有更多关于 IDEA 的高级玩法，欢迎评论区留言，大家一起交流！</p>
+<p>如果我们在提交前勾选了此选项，提交时 <code>IDEA</code> 就会自动对此行代码进行格式化，变成以下的格式，从而大大提高代码可读性。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="variable">a</span> <span class="operator">=</span> <span class="number">3</span>;</span><br></pre></td></tr></table></figure>
+
+<h4 id="Rearrange-code"><a href="#Rearrange-code" class="headerlink" title="Rearrange code"></a>Rearrange code</h4><p>重新编排代码，IntelliJ IDEA 支持各种复杂的编排设置选项，当我们在 IDEA 中设置好了编码功能之后，这里就可以尝试勾选这个进行自动编排。不过一般没有去做特定的编码功能设置，因此建议不勾选。</p>
+<h4 id="Optimize-imports"><a href="#Optimize-imports" class="headerlink" title="Optimize imports"></a>Optimize imports</h4><p>优化导包（删除无用的导包）。假如在写代码时一开始引入了 <code>Scanner</code> 包，但后续又没有用到，此时勾选此选项 <code>IDEA</code> 就会自动将引入的 <code>Scanner</code> 包删除。</p>
+<ul>
+<li>勾选前</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.demo;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.Scanner;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Main</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello World!&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>勾选后</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.demo;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Main</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello World!&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="Analyze-code"><a href="#Analyze-code" class="headerlink" title="Analyze code"></a>Analyze code</h4><p>勾选该选项后，<code>IDEA</code> 会用默认的配置文件去扫描我们所写代码的质量。如果扫描发现问题，则会弹出以下类似的弹窗，此时只要点击 <code>Review</code> 就可以对代码中存在问题的地方进行 <code>Review</code>，根据所给提示对代码进行修改。<br><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/code-analysis.png"></p>
+<p><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/code-analysis-res.png"></p>
+<h4 id="Check-TODO"><a href="#Check-TODO" class="headerlink" title="Check TODO"></a>Check TODO</h4><p>检查代码中存在 <code>@todo</code> 注解的地方并给出提示。一般在代码中添加 <code>@todo</code> 表示此时代码中还有未完成的功能，此时可以提醒你去补全还未完成的功能代码。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Main</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello World!&quot;</span>);</span><br><span class="line">        <span class="comment">//@todo</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>如果我们新增的代码如上，此时如果在提交点前勾选 <code>Check TODO</code> 选项，就会弹窗提示。</p>
+<p><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/todo.png"></p>
+<p>此时点击 <code>Review</code> 就可以去查看对应分析结果，然后去找到对应 <code>todo</code> 所在的代码对它进行补充。<br><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/review.png"></p>
+<h4 id="Cleanup"><a href="#Cleanup" class="headerlink" title="Cleanup"></a>Cleanup</h4><p>清除下版本控制系统，去掉一些版本控制系统的错误信息，主要针对 SVN，Git 不适用，一般建议不勾选。</p>
+<h4 id="Update-copyright"><a href="#Update-copyright" class="headerlink" title="Update copyright"></a>Update copyright</h4><p>如果代码需要版权标识时，需要提前在 <code>IDEA</code> 中配置相关版权信息。配置的流程 <code>settings-&gt;Editor-&gt;copyright-&gt;copyright profiles</code>，然后添加类似于以下的版权信息：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Copyright(c)<span class="number">2002</span>-<span class="number">2022</span>, xxx 有限公司</span><br><span class="line">项目名称:$project.name</span><br><span class="line">文件名称:$file.fileName</span><br><span class="line">Date:$today</span><br><span class="line">Author:xxx</span><br></pre></td></tr></table></figure>
+
+<p>配置完成后，当提交你的代码更改时，勾选该选项可以检查更新版权，这样提交后更改的文件将有它们的版权更新。</p>
+<h4 id="Perform-SonarLint-analysis"><a href="#Perform-SonarLint-analysis" class="headerlink" title="Perform SonarLint analysis"></a>Perform SonarLint analysis</h4><p>安装 <code>SonarLint</code> 插件后才会有的选项。勾选该选项后，<code>SonarLint</code> 会对代码进行检查，发现代码中的一些 bug、漏洞、异味。然后根据控制台中的提示信息对代码进行修改后再次提交，能够一定程度上提高代码质量。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Main</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello World!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;demo&quot;</span>);</span><br><span class="line">        <span class="type">int</span> a;</span><br><span class="line">        <span class="type">boolean</span> <span class="variable">flag</span> <span class="operator">=</span> <span class="literal">false</span>;</span><br><span class="line">        <span class="comment">//@todo</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/review-sonar-res.png"></p>
+<p><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/sonar-res.png"></p>
+<h2 id="提交日志模板化（Git-Commit-Template）"><a href="#提交日志模板化（Git-Commit-Template）" class="headerlink" title="提交日志模板化（Git Commit Template）"></a>提交日志模板化（Git Commit Template）</h2><h3 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h3><p>通过使用该插件，能够规范在使用 <code>IDEA</code> 提交代码时的注释说明。通过模板化后的日志，便于快速查找，回溯之前的工作。</p>
+<h3 id="下载安装"><a href="#下载安装" class="headerlink" title="下载安装"></a>下载安装</h3><ol>
+<li><strong>下载地址</strong></li>
+</ol>
+<blockquote>
+<p><a target="_blank" rel="noopener" href="https://plugins.jetbrains.com/plugin/9861-git-commit-template/versions">https://plugins.jetbrains.com/plugin/9861-git-commit-template/versions</a></p>
+</blockquote>
+<ol start="2">
+<li><strong>安装</strong></li>
+</ol>
+<blockquote>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/m0_46636892/article/details/122116712">https://blog.csdn.net/m0_46636892/article/details/122116712</a></p>
+</blockquote>
+<h3 id="使用教程"><a href="#使用教程" class="headerlink" title="使用教程"></a>使用教程</h3><h4 id="提交信息的模板"><a href="#提交信息的模板" class="headerlink" title="提交信息的模板"></a>提交信息的模板</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;type 类型&gt;(&lt;scope 可选作用域&gt;): &lt;subject 描述&gt;</span><br><span class="line">// 空行</span><br><span class="line">&lt;body 可选的正文&gt;</span><br><span class="line">// 空行</span><br><span class="line">&lt;footer 可选的脚注&gt;</span><br></pre></td></tr></table></figure>
+
+<p>主要分为三部分：</p>
+<ul>
+<li>Head（<code>&lt;type 类型&gt;(&lt;scope 可选作用域&gt;): &lt;subject 描述&gt;</code>）</li>
+<li>Body（<code>&lt;body 可选的正文&gt;</code>）</li>
+<li>Footer（<code>&lt;footer 可选的脚注&gt;</code>）</li>
+</ul>
+<h4 id="Head-参数说明"><a href="#Head-参数说明" class="headerlink" title="Head 参数说明"></a>Head 参数说明</h4><ol>
+<li><strong>type（必填）</strong></li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th align="left">英文</th>
+<th>中文说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>feat</code></td>
+<td align="left"><code>A new feature</code></td>
+<td>新功能</td>
+</tr>
+<tr>
+<td><code>fix</code></td>
+<td align="left"><code>A bug fix</code></td>
+<td><code>bug</code> 修复</td>
+</tr>
+<tr>
+<td><code>docs</code></td>
+<td align="left"><code>Documention only</code></td>
+<td>文档注释</td>
+</tr>
+<tr>
+<td><code>style</code></td>
+<td align="left"><code>Changes that do not affect the meaning of the code(white-space、formatting、missing semi-colons、etc)</code></td>
+<td>不影响代码运行的变动（格式化、去空格等）</td>
+</tr>
+<tr>
+<td><code>refactor</code></td>
+<td align="left"><code>A code change that neither fixes a bug nor adds a feature</code></td>
+<td>重构、优化（既不增加新功能，也不是修复 <code>bug</code>）</td>
+</tr>
+<tr>
+<td><code>perf</code></td>
+<td align="left"><code>A code change that improves performance</code></td>
+<td>性能优化</td>
+</tr>
+<tr>
+<td><code>test</code></td>
+<td align="left"><code>Adding missing tests or correcting existing tests</code></td>
+<td>增加测试</td>
+</tr>
+<tr>
+<td><code>build</code></td>
+<td align="left"><code>Changes that affect the build system or external dependencies</code></td>
+<td>影响生成构建或外部依赖项的更改</td>
+</tr>
+<tr>
+<td><code>ci</code></td>
+<td align="left"><code>Changes to our CI configuration files and scripts</code></td>
+<td>对配置项配置文件和脚本的更改</td>
+</tr>
+<tr>
+<td><code>chore</code></td>
+<td align="left"><code>Other changes that don&#39;t modify src or test files</code></td>
+<td>其他不影响源码和测试的改动</td>
+</tr>
+<tr>
+<td><code>revert</code></td>
+<td align="left"><code>Reverts a previous commit</code></td>
+<td>回退版本</td>
+</tr>
+</tbody></table>
+<ol start="2">
+<li><strong>scope（可选）</strong></li>
+</ol>
+<p>用户说明此次提交所影响的范围，常见的有数据层、控制层、视图层等，这个需要根据自己的项目来具体定义。</p>
+<ol start="3">
+<li><strong>subject（必填）</strong></li>
+</ol>
+<p>此次提交的概括，一般建议不超过 50 字，结尾不加任何标点符号。</p>
+<h4 id="Body-参数说明"><a href="#Body-参数说明" class="headerlink" title="Body 参数说明"></a>Body 参数说明</h4><p>对此次提交的详细描述，可以分为多行，每行建议控制在 72 个字以内，以条目的形式给出，范例如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">- 修复 bug1</span><br><span class="line">- 修复 bug2</span><br></pre></td></tr></table></figure>
+
+<h4 id="Footer-参数说明"><a href="#Footer-参数说明" class="headerlink" title="Footer 参数说明"></a>Footer 参数说明</h4><p>主要用于两种情况：</p>
+<ol>
+<li>不兼容的变动，对应具体使用部分图中的 <code>Breaking changes</code>.</li>
+<li>关闭 <code>Issue</code>，对应具体使用部分图中的 <code>Closed issues</code>.</li>
+</ol>
+<h4 id="具体使用"><a href="#具体使用" class="headerlink" title="具体使用"></a>具体使用</h4><ol>
+<li>安装完成后，在代码提交界面会有以下图标，点击进行参数配置。</li>
+</ol>
+<p><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/para-setting.png"></p>
+<ol start="2">
+<li>根据自己的需求进行相关配置。</li>
+</ol>
+<p><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/para-fill.png"></p>
+<p><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/fix-setting.png"></p>
+<ol start="3">
+<li>完成配置之后，点击右下角的 <code>ok</code>，就会自动根据模板生成提交的具体信息，最后进行提交即可，一个自动生成的具体示例如下：</li>
+</ol>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">fix(改动生效的范围): 代码改动的简述</span><br><span class="line"></span><br><span class="line">代码改动的具体描述<span class="number">1</span></span><br><span class="line"></span><br><span class="line">BREAKING CHANGE: 不兼容的变更</span><br><span class="line"></span><br><span class="line">Closes 关闭的issue</span><br></pre></td></tr></table></figure>
+
+<p><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/gene-res.png"></p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>可能屏幕前的你所在的项目组并没有这么多的流程和提交规范，但养成良好的编码习惯总归是好的。代码不仅仅是写给自己看的，一个高手不仅仅是能够实现复杂的功能，能把代码编写得能让人看着简洁清爽也是一种艺术。</p>
+<p>好了，今天的文章到此就结束了，感谢大家赏脸阅读。对于文中如果有描述不清的地方，或者有什么建议我改进的建议，欢迎与我讨论交流。</p>
 </div>
 
 			<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
@@ -869,18 +939,18 @@
         </div>
         <div class="share-main">
             <div class="share-main-all">
-                <div id="qrcode" title="https://cunyu1943.site/idea-tutorial/20220202-idea-guide/">
+                <div id="qrcode" title="https://cunyu1943.site/idea-tutorial/20230525-code-commit/">
                 </div>
                 <div class="reward-dec">使用手机访问这篇文章</div>
             </div>
         </div>
         <script type="text/javascript">
-            new QRCode(document.getElementById("qrcode"), "https://cunyu1943.site/idea-tutorial/20220202-idea-guide/");
+            new QRCode(document.getElementById("qrcode"), "https://cunyu1943.site/idea-tutorial/20230525-code-commit/");
         </script>
     </div>
 </div>
                 <div class="share-link weibo"><a class="share-button" target="_blank"
-    href="https://service.weibo.com/share/share.php?title=最新版 IntelliJ IDEA 使用手册&amp;url=https://cunyu1943.site/idea-tutorial/20220202-idea-guide/&amp;pic=https://cdn.pixabay.com/photo/2020/01/04/14/28/youtube-4740743_1280.jpg"
+    href="https://service.weibo.com/share/share.php?title=原来大厂都是这么提交代码的&amp;url=https://cunyu1943.site/idea-tutorial/20230525-code-commit/&amp;pic=https://cdn.pixabay.com/photo/2022/10/14/21/08/code-7522129_1280.png"
     title="分享到微博" rel="noopener external nofollow noreferrer noopener">
     <i class="fab fa-weibo" style="font-size:22px"></i>
 </a>
@@ -901,12 +971,6 @@
                                 <span class="tagsPageCount">2</span>
                             </a>
                         
-                            <a href="/tags/IDEA/" class="post-meta__tags">
-                                <span class="tags-punctuation">#</span>
-                                IDEA
-                                <span class="tagsPageCount">1</span>
-                            </a>
-                        
                     </div>
                 </div>
             </div>
@@ -915,12 +979,12 @@
     <div class="post-copyright__author">
         <a class="post-copyright__original" title="该文章为原创文章，注意版权协议">原创</a>
         <a class="post-copyright-title" href="#">
-            <span>最新版 IntelliJ IDEA 使用手册</span>
+            <span>原来大厂都是这么提交代码的</span>
         </a>
     </div>
     <div class="post-copyright__type">
         <span class="post-copyright-info" id="post-copyright-url">
-            <a href="/idea-tutorial/20220202-idea-guide/">https://cunyu1943.site/idea-tutorial/20220202-idea-guide/</a>
+            <a href="/idea-tutorial/20230525-code-commit/">https://cunyu1943.site/idea-tutorial/20230525-code-commit/</a>
         </span>
         <button class="post-copyright-copybtn" onclick="acrylic.copyPageUrl()">
             <i class="fas fa-paste copy-btn"></i>
@@ -934,16 +998,16 @@
 </div>
         <nav class="pagination-post" id="pagination">
     
-                
         
-            <div class="prev-post pull-full">
-                <a href="/blog-tutorial/20220401-hexo/">
+            <div class="next-post pull-full">
+                <a href="/weekly/2023/0513-0519/">
                     <div class="pagination-info">
-                        <div class="label">上一篇</div>
-                        <div class="prev_info">超详细 Hexo + Github Pages 博客搭建教程</div>
+                        <div class="label">下一篇</div>
+                        <div class="next_info">好物周刊#5：前端开发必备资源站</div>
                     </div>
                 </a>
             </div>
+                
         
     
 </nav>
@@ -1033,7 +1097,7 @@
         <span>文章目录</span>
     </div>
     <div class="toc-content" id="toc-content">
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-text">前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#IDEA-%E7%9A%84%E4%BC%98%E5%8A%BF"><span class="toc-text">IDEA 的优势</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C"><span class="toc-text">准备工作</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E8%A3%85"><span class="toc-text">安装</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%85%8D%E7%BD%AE"><span class="toc-text">配置</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%BF%80%E6%B4%BB"><span class="toc-text">激活</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BC%96%E7%A0%81%E8%AE%BE%E7%BD%AE"><span class="toc-text">编码设置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A4%96%E8%A7%82%E8%AE%BE%E7%BD%AE"><span class="toc-text">外观设置</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%95%B4%E4%BD%93-UI"><span class="toc-text">整体 UI</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%BC%96%E8%BE%91%E5%8C%BA"><span class="toc-text">编辑区</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%8E%A7%E5%88%B6%E5%8F%B0"><span class="toc-text">控制台</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%89%81%E5%B9%B3%E5%8C%96%E6%98%BE%E7%A4%BA%E5%8F%8A%E7%A9%BA%E5%8C%85%E9%9A%90%E8%97%8F"><span class="toc-text">扁平化显示及空包隐藏</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%89%93%E5%BC%80%E6%96%87%E4%BB%B6%E5%A4%9A%E8%A1%8C%E6%98%BE%E7%A4%BA"><span class="toc-text">打开文件多行显示</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A1%8C%E5%8F%B7%E5%92%8C%E6%96%B9%E6%B3%95%E5%88%86%E9%9A%94%E7%AC%A6"><span class="toc-text">行号和方法分隔符</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%87%AA%E5%8A%A8%E5%AF%BC%E5%8C%85"><span class="toc-text">自动导包</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BF%BD%E7%95%A5%E5%A4%A7%E5%B0%8F%E5%86%99"><span class="toc-text">忽略大小写</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%87%AA%E5%8A%A8%E7%BC%96%E8%AF%91"><span class="toc-text">自动编译</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BC%96%E8%AF%91%E5%99%A8%E8%AE%BE%E7%BD%AE"><span class="toc-text">编译器设置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Maven-%E8%AE%BE%E7%BD%AE"><span class="toc-text">Maven 设置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B1%BB%E6%A8%A1%E6%9D%BF"><span class="toc-text">类模板</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AF%BC%E5%85%A5%E5%AF%BC%E5%87%BA%E8%AE%BE%E7%BD%AE"><span class="toc-text">导入导出设置</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AF%BC%E5%87%BA"><span class="toc-text">导出</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AF%BC%E5%85%A5"><span class="toc-text">导入</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-text">总结</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-text">前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E6%8F%90%E4%BA%A4%E5%89%8D%E6%A3%80%E6%9F%A5%E6%B5%81%E7%A8%8B"><span class="toc-text">代码提交前检查流程</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8E%A8%E8%8D%90%E6%8F%92%E4%BB%B6"><span class="toc-text">推荐插件</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#p3c"><span class="toc-text">p3c</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#SonarLint"><span class="toc-text">SonarLint</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8F%90%E4%BA%A4%E5%89%8D%E7%9A%84%E9%85%8D%E7%BD%AE%E9%A1%B9"><span class="toc-text">提交前的配置项</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Alibaba-Code-Guidelines"><span class="toc-text">Alibaba Code Guidelines</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Reformat-code"><span class="toc-text">Reformat code</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Rearrange-code"><span class="toc-text">Rearrange code</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Optimize-imports"><span class="toc-text">Optimize imports</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Analyze-code"><span class="toc-text">Analyze code</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Check-TODO"><span class="toc-text">Check TODO</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Cleanup"><span class="toc-text">Cleanup</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Update-copyright"><span class="toc-text">Update copyright</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Perform-SonarLint-analysis"><span class="toc-text">Perform SonarLint analysis</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8F%90%E4%BA%A4%E6%97%A5%E5%BF%97%E6%A8%A1%E6%9D%BF%E5%8C%96%EF%BC%88Git-Commit-Template%EF%BC%89"><span class="toc-text">提交日志模板化（Git Commit Template）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A6%82%E8%BF%B0"><span class="toc-text">概述</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85"><span class="toc-text">下载安装</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B"><span class="toc-text">使用教程</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%8F%90%E4%BA%A4%E4%BF%A1%E6%81%AF%E7%9A%84%E6%A8%A1%E6%9D%BF"><span class="toc-text">提交信息的模板</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Head-%E5%8F%82%E6%95%B0%E8%AF%B4%E6%98%8E"><span class="toc-text">Head 参数说明</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Body-%E5%8F%82%E6%95%B0%E8%AF%B4%E6%98%8E"><span class="toc-text">Body 参数说明</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Footer-%E5%8F%82%E6%95%B0%E8%AF%B4%E6%98%8E"><span class="toc-text">Footer 参数说明</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%85%B7%E4%BD%93%E4%BD%BF%E7%94%A8"><span class="toc-text">具体使用</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-text">总结</span></a></li></ol>
     </div>
 </div>
             
