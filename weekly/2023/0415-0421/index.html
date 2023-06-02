@@ -599,7 +599,7 @@
             
                 <span class="post-meta-date" title="更新于">
                     <i class="post-meta-icon fa-solid fa-clock-rotate-left"></i>
-                    <time datetime="2023-05-26T06:05:03+00:00"></time>
+                    <time datetime="2023-06-02T00:33:42+00:00"></time>
                 </span>
             
             
@@ -1271,27 +1271,29 @@
 <p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目&#x2F;网站&#x2F;软件&#x2F;资源，欢迎提交 <strong><a target="_blank" rel="noopener" href="https://github.com/cunyu1943/JavaPark/issues/21">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
 <h2 id="🎬️-广告"><a href="#🎬️-广告" class="headerlink" title="🎬️ 广告"></a>🎬️ 广告</h2><p>当前大环境下，就业形势严峻，尤其针对即将毕业的大学生。作为一个技术求职者，求职前应该做好哪些准备呢，一些面试实战技巧也十分有必要！而刚好最近掘金出了一本《技术人求职指南》小册，相信一定会对在找工作的你有所帮助。</p>
 <p>从求职到拿下 <code>Offer</code>，一本职场的全方位攻略，快来和我一起学习吧！</p>
-<img src= "/img/loading.svg" data-lazy-src="https://cunyu1943.github.io/img/course/programmer-offer-guide.png"/></div>
-
+<img src= "/img/loading.svg" data-lazy-src="https://cunyu1943.github.io/img/course/programmer-offer-guide.png"/><div id="readmore-expansion" class=""></div></div>
 			<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
-			<script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
-			<script>
+			<script data-pjax src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
+			<script data-pjax>
 			var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
-			if (!isMobile) {
+			var isEncrypt = document.getElementById('hexo-blog-encrypt');
+			var allowMobile = false;
+			if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
 				try {
 					var plugin = new ReadmorePlugin();
 					plugin.init({
+						"type": "hexo",
 						"id": "readmore-container",
-						"blogId": "19397-0379198090489-062",
 						"name": "村雨遥",
+						"blogId": "19397-0379198090489-062",
 						"qrcode": "https://cunyu1943.github.io/JavaPark/img/site/wechatpublic.png",
 						"keyword": "验证码",
-						"lockToc": "yes",
-						"type": "hexo",
 						"random": "1",
-						"interval": "60",
+						"height": "auto",
 						"expires": "365",
-						"height": "auto"
+						"lockToc": "yes",
+						"interval": "60",
+						"baseUrl": ""
 					});
 				} catch(e) {
 					console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);

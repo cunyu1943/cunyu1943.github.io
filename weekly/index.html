@@ -591,27 +591,29 @@
 
 <h2 id="交流"><a href="#交流" class="headerlink" title="交流"></a>交流</h2><p>欢迎关注<a href="/img/personal/wechatpublic.png">公众号</a>|<a href="https://cunyu1943.site/">博客</a>一起交流（每周在公众号首发）：</p>
 <img src= "/img/loading.svg" data-lazy-src="/img/personal/wechatpublic.png" width="150" />
-</div>
-
+<div id="readmore-expansion" class=""></div></div>
 			<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
-			<script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
-			<script>
+			<script data-pjax src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
+			<script data-pjax>
 			var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
-			if (!isMobile) {
+			var isEncrypt = document.getElementById('hexo-blog-encrypt');
+			var allowMobile = false;
+			if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
 				try {
 					var plugin = new ReadmorePlugin();
 					plugin.init({
+						"type": "hexo",
 						"id": "readmore-container",
-						"blogId": "19397-0379198090489-062",
 						"name": "村雨遥",
+						"blogId": "19397-0379198090489-062",
 						"qrcode": "https://cunyu1943.github.io/JavaPark/img/site/wechatpublic.png",
 						"keyword": "验证码",
-						"lockToc": "yes",
-						"type": "hexo",
 						"random": "1",
-						"interval": "60",
+						"height": "auto",
 						"expires": "365",
-						"height": "auto"
+						"lockToc": "yes",
+						"interval": "60",
+						"baseUrl": ""
 					});
 				} catch(e) {
 					console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
@@ -899,7 +901,7 @@
                 <i class="fa-solid fa-clock-rotate-left"></i>
                 <div class="item-name">最后更新 :</div>
             </div>
-            <time class="item-count" datetime="Fri May 26 2023 06:05:10 GMT+0000 (Coordinated Universal Time)">
+            <time class="item-count" datetime="Fri Jun 02 2023 00:33:53 GMT+0000 (Coordinated Universal Time)">
             </time>
         </div>
     
@@ -909,7 +911,7 @@
                 <i class="item-icon fas fa-font"></i>
                 <div class="item-name">全站字数 :</div>
             </div>
-            <div class="item-count">24.3k</div>
+            <div class="item-count">24.4k</div>
         </div>
     
 </div>

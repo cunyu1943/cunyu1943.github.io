@@ -58,27 +58,29 @@
 <h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>推荐仅限于推荐，最重要的还是要行动起来。就算一开始很吃力，那也要坚持！</p>
 <p>水滴石穿，非一日之功。我相信有付出，就一定会有收获的那一天！</p>
 <p>关注我，<code>Java</code> 学习不迷路！风里雨里，我在这里等你！</p>
-</div>
-
+<div id="readmore-expansion" class=""></div></div>
 			<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
-			<script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
-			<script>
+			<script data-pjax src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
+			<script data-pjax>
 			var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
-			if (!isMobile) {
+			var isEncrypt = document.getElementById('hexo-blog-encrypt');
+			var allowMobile = false;
+			if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
 				try {
 					var plugin = new ReadmorePlugin();
 					plugin.init({
+						"type": "hexo",
 						"id": "readmore-container",
-						"blogId": "19397-0379198090489-062",
 						"name": "村雨遥",
+						"blogId": "19397-0379198090489-062",
 						"qrcode": "https://cunyu1943.github.io/JavaPark/img/site/wechatpublic.png",
 						"keyword": "验证码",
-						"lockToc": "yes",
-						"type": "hexo",
 						"random": "1",
-						"interval": "60",
+						"height": "auto",
 						"expires": "365",
-						"height": "auto"
+						"lockToc": "yes",
+						"interval": "60",
+						"baseUrl": ""
 					});
 				} catch(e) {
 					console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
@@ -237,27 +239,29 @@
 <p>PS：我对于配置文件中的某些关键信息进行了隐藏，比如 <code>gitalk</code>、<code>gitment</code>、<code>Valine</code>、<code>baiduAnalytics</code> 等，这些需要你自己去注册并获取自己的信息，请记得修改，否则可能导致失败。</p>
 <h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>至此，我们的博客就搭建完成了，是不是很简单，赶紧去试试吧！</p>
 <p>对于文中不清楚的地方，欢迎留言，我会在看到的第一时间回复你！</p>
-</div>
-
+<div id="readmore-expansion" class=""></div></div>
 			<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
-			<script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
-			<script>
+			<script data-pjax src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
+			<script data-pjax>
 			var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
-			if (!isMobile) {
+			var isEncrypt = document.getElementById('hexo-blog-encrypt');
+			var allowMobile = false;
+			if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
 				try {
 					var plugin = new ReadmorePlugin();
 					plugin.init({
+						"type": "hexo",
 						"id": "readmore-container",
-						"blogId": "19397-0379198090489-062",
 						"name": "村雨遥",
+						"blogId": "19397-0379198090489-062",
 						"qrcode": "https://cunyu1943.github.io/JavaPark/img/site/wechatpublic.png",
 						"keyword": "验证码",
-						"lockToc": "yes",
-						"type": "hexo",
 						"random": "1",
-						"interval": "60",
+						"height": "auto",
 						"expires": "365",
-						"height": "auto"
+						"lockToc": "yes",
+						"interval": "60",
+						"baseUrl": ""
 					});
 				} catch(e) {
 					console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
@@ -514,27 +518,29 @@
 <li>对于特殊字符，可以通过转义字符 <code>\</code> 将其显示出来。</li>
 </ol>
 <h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>总而言之，<code>Markdown</code> 是一种非常实用的文档编辑和网页写作语言，在多种不同的场景中都有着广泛的应用。希望本教程能够帮助初学者快速掌握 <code>Markdown</code> 的基本语法，并在实用中不断深化自己的理解。如果你有任何问题或建议，欢迎给我们留言并共同探讨。让我们一起更好地运用 <code>Markdown</code>，让文档编辑和网页写作更加高效流畅！</p>
-</div>
-
+<div id="readmore-expansion" class=""></div></div>
 			<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
-			<script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
-			<script>
+			<script data-pjax src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
+			<script data-pjax>
 			var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
-			if (!isMobile) {
+			var isEncrypt = document.getElementById('hexo-blog-encrypt');
+			var allowMobile = false;
+			if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
 				try {
 					var plugin = new ReadmorePlugin();
 					plugin.init({
+						"type": "hexo",
 						"id": "readmore-container",
-						"blogId": "19397-0379198090489-062",
 						"name": "村雨遥",
+						"blogId": "19397-0379198090489-062",
 						"qrcode": "https://cunyu1943.github.io/JavaPark/img/site/wechatpublic.png",
 						"keyword": "验证码",
-						"lockToc": "yes",
-						"type": "hexo",
 						"random": "1",
-						"interval": "60",
+						"height": "auto",
 						"expires": "365",
-						"height": "auto"
+						"lockToc": "yes",
+						"interval": "60",
+						"baseUrl": ""
 					});
 				} catch(e) {
 					console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
@@ -671,27 +677,29 @@
 <h4 id="导入"><a href="#导入" class="headerlink" title="导入"></a>导入</h4><p>导入入口，依次打开 <code>File -&gt; Manage IDE Settings -&gt; Import Settings…</code>。</p>
 <p><img src="/img/article/idea-tutorial/20220202-idea-guide/import.png"></p>
 <h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>好了，以上就是关于 IDEA 的安装以及安装之后的一些配置了。如果你觉得对你有用，那就点个赞再走吧！如果你还有更多关于 IDEA 的高级玩法，欢迎评论区留言，大家一起交流！</p>
-</div>
-
+<div id="readmore-expansion" class=""></div></div>
 			<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
-			<script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
-			<script>
+			<script data-pjax src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
+			<script data-pjax>
 			var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
-			if (!isMobile) {
+			var isEncrypt = document.getElementById('hexo-blog-encrypt');
+			var allowMobile = false;
+			if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
 				try {
 					var plugin = new ReadmorePlugin();
 					plugin.init({
+						"type": "hexo",
 						"id": "readmore-container",
-						"blogId": "19397-0379198090489-062",
 						"name": "村雨遥",
+						"blogId": "19397-0379198090489-062",
 						"qrcode": "https://cunyu1943.github.io/JavaPark/img/site/wechatpublic.png",
 						"keyword": "验证码",
-						"lockToc": "yes",
-						"type": "hexo",
 						"random": "1",
-						"interval": "60",
+						"height": "auto",
 						"expires": "365",
-						"height": "auto"
+						"lockToc": "yes",
+						"interval": "60",
+						"baseUrl": ""
 					});
 				} catch(e) {
 					console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
@@ -903,27 +911,29 @@
 <p><img src="/img/article/idea-tutorial/gene-res.png"></p>
 <h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>可能屏幕前的你所在的项目组并没有这么多的流程和提交规范，但养成良好的编码习惯总归是好的。代码不仅仅是写给自己看的，一个高手不仅仅是能够实现复杂的功能，能把代码编写得能让人看着简洁清爽也是一种艺术。</p>
 <p>好了，今天的文章到此就结束了，感谢大家赏脸阅读。对于文中如果有描述不清的地方，或者有什么建议我改进的建议，欢迎与我讨论交流。</p>
-</div>
-
+<div id="readmore-expansion" class=""></div></div>
 			<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
-			<script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
-			<script>
+			<script data-pjax src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
+			<script data-pjax>
 			var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
-			if (!isMobile) {
+			var isEncrypt = document.getElementById('hexo-blog-encrypt');
+			var allowMobile = false;
+			if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
 				try {
 					var plugin = new ReadmorePlugin();
 					plugin.init({
+						"type": "hexo",
 						"id": "readmore-container",
-						"blogId": "19397-0379198090489-062",
 						"name": "村雨遥",
+						"blogId": "19397-0379198090489-062",
 						"qrcode": "https://cunyu1943.github.io/JavaPark/img/site/wechatpublic.png",
 						"keyword": "验证码",
-						"lockToc": "yes",
-						"type": "hexo",
 						"random": "1",
-						"interval": "60",
+						"height": "auto",
 						"expires": "365",
-						"height": "auto"
+						"lockToc": "yes",
+						"interval": "60",
+						"baseUrl": ""
 					});
 				} catch(e) {
 					console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
@@ -1552,27 +1562,29 @@
 <p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目&#x2F;网站&#x2F;软件&#x2F;资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues/21">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
 <h2 id="🎬️-广告"><a href="#🎬️-广告" class="headerlink" title="🎬️ 广告"></a>🎬️ 广告</h2><p>当前大环境下，就业形势严峻，尤其针对即将毕业的大学生。作为一个技术求职者，求职前应该做好哪些准备呢，一些面试实战技巧也十分有必要！而刚好最近掘金出了一本《技术人求职指南》小册，相信一定会对在找工作的你有所帮助。</p>
 <p>从求职到拿下 <code>Offer</code>，一本职场的全方位攻略，快来和我一起学习吧！</p>
-<img src="https://cunyu1943.github.io/img/course/programmer-offer-guide.png"/></div>
-
+<img src="https://cunyu1943.github.io/img/course/programmer-offer-guide.png"/><div id="readmore-expansion" class=""></div></div>
 			<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
-			<script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
-			<script>
+			<script data-pjax src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
+			<script data-pjax>
 			var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
-			if (!isMobile) {
+			var isEncrypt = document.getElementById('hexo-blog-encrypt');
+			var allowMobile = false;
+			if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
 				try {
 					var plugin = new ReadmorePlugin();
 					plugin.init({
+						"type": "hexo",
 						"id": "readmore-container",
-						"blogId": "19397-0379198090489-062",
 						"name": "村雨遥",
+						"blogId": "19397-0379198090489-062",
 						"qrcode": "https://cunyu1943.github.io/JavaPark/img/site/wechatpublic.png",
 						"keyword": "验证码",
-						"lockToc": "yes",
-						"type": "hexo",
 						"random": "1",
-						"interval": "60",
+						"height": "auto",
 						"expires": "365",
-						"height": "auto"
+						"lockToc": "yes",
+						"interval": "60",
+						"baseUrl": ""
 					});
 				} catch(e) {
 					console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
@@ -1791,27 +1803,29 @@
 </ul>
 <p>作者采用最适合工程师的学习方式，不拘泥于某一特定编程语言，从实际开发场景出发，由浅入深教你学习数据结构与算法的方法，帮你搞懂基本概念和核心理论，深入理解算法精髓，帮你提升使用数据结构和算法思维解决问题的能力。</p>
 <p>想要进一步提升自己的竞争力么，那就赶紧加入和我一起学习吧！</p>
-<img src="https://cunyu1943.github.io/img/course/datastructure-algo.png" width="30%" /></div>
-
+<img src="https://cunyu1943.github.io/img/course/datastructure-algo.png" width="30%" /><div id="readmore-expansion" class=""></div></div>
 			<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
-			<script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
-			<script>
+			<script data-pjax src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
+			<script data-pjax>
 			var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
-			if (!isMobile) {
+			var isEncrypt = document.getElementById('hexo-blog-encrypt');
+			var allowMobile = false;
+			if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
 				try {
 					var plugin = new ReadmorePlugin();
 					plugin.init({
+						"type": "hexo",
 						"id": "readmore-container",
-						"blogId": "19397-0379198090489-062",
 						"name": "村雨遥",
+						"blogId": "19397-0379198090489-062",
 						"qrcode": "https://cunyu1943.github.io/JavaPark/img/site/wechatpublic.png",
 						"keyword": "验证码",
-						"lockToc": "yes",
-						"type": "hexo",
 						"random": "1",
-						"interval": "60",
+						"height": "auto",
 						"expires": "365",
-						"height": "auto"
+						"lockToc": "yes",
+						"interval": "60",
+						"baseUrl": ""
 					});
 				} catch(e) {
 					console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
@@ -1939,27 +1953,29 @@
 <p>作者采用最适合工程师的学习方式，不拘泥于某一特定编程语言，从实际开发场景出发，由浅入深教你学习数据结构与算法的方法，帮你搞懂基本概念和核心理论，深入理解算法精髓，帮你提升使用数据结构和算法思维解决问题的能力。</p>
 <p>想要进一步提升自己的竞争力么，那就赶紧加入和我一起学习吧！</p>
 <img src="https://cunyu1943.github.io/img/course/datastructure-algo.png" width="40%" />
-</div>
-
+<div id="readmore-expansion" class=""></div></div>
 			<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
-			<script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
-			<script>
+			<script data-pjax src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
+			<script data-pjax>
 			var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
-			if (!isMobile) {
+			var isEncrypt = document.getElementById('hexo-blog-encrypt');
+			var allowMobile = false;
+			if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
 				try {
 					var plugin = new ReadmorePlugin();
 					plugin.init({
+						"type": "hexo",
 						"id": "readmore-container",
-						"blogId": "19397-0379198090489-062",
 						"name": "村雨遥",
+						"blogId": "19397-0379198090489-062",
 						"qrcode": "https://cunyu1943.github.io/JavaPark/img/site/wechatpublic.png",
 						"keyword": "验证码",
-						"lockToc": "yes",
-						"type": "hexo",
 						"random": "1",
-						"interval": "60",
+						"height": "auto",
 						"expires": "365",
-						"height": "auto"
+						"lockToc": "yes",
+						"interval": "60",
+						"baseUrl": ""
 					});
 				} catch(e) {
 					console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
@@ -2095,27 +2111,29 @@
 <hr>
 <h2 id="🎬️-广告"><a href="#🎬️-广告" class="headerlink" title="🎬️ 广告"></a>🎬️ 广告</h2><p>当前大环境下，就业形势严峻，尤其针对即将毕业的大学生。作为一个技术求职者，求职前应该做好哪些准备呢，一些面试实战技巧也十分有必要！而刚好最近掘金出了一本《技术人求职指南》小册，相信一定会对在找工作的你有所帮助。</p>
 <p>从求职到拿下 <code>Offer</code>，一本职场的全方位攻略，快来和我一起学习吧！</p>
-<img src="https://cunyu1943.github.io/img/course/programmer-offer-guide.png" width="30%" /></div>
-
+<img src="https://cunyu1943.github.io/img/course/programmer-offer-guide.png" width="30%" /><div id="readmore-expansion" class=""></div></div>
 			<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
-			<script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
-			<script>
+			<script data-pjax src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
+			<script data-pjax>
 			var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
-			if (!isMobile) {
+			var isEncrypt = document.getElementById('hexo-blog-encrypt');
+			var allowMobile = false;
+			if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
 				try {
 					var plugin = new ReadmorePlugin();
 					plugin.init({
+						"type": "hexo",
 						"id": "readmore-container",
-						"blogId": "19397-0379198090489-062",
 						"name": "村雨遥",
+						"blogId": "19397-0379198090489-062",
 						"qrcode": "https://cunyu1943.github.io/JavaPark/img/site/wechatpublic.png",
 						"keyword": "验证码",
-						"lockToc": "yes",
-						"type": "hexo",
 						"random": "1",
-						"interval": "60",
+						"height": "auto",
 						"expires": "365",
-						"height": "auto"
+						"lockToc": "yes",
+						"interval": "60",
+						"baseUrl": ""
 					});
 				} catch(e) {
 					console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
@@ -2219,27 +2237,29 @@
 <hr>
 <h2 id="🎬️-广告"><a href="#🎬️-广告" class="headerlink" title="🎬️ 广告"></a>🎬️ 广告</h2><p>当前大环境下，就业形势严峻，尤其针对即将毕业的大学生。作为一个技术求职者，求职前应该做好哪些准备呢，一些面试实战技巧也十分有必要！而刚好最近掘金出了一本《技术人求职指南》小册，相信一定会对在找工作的你有所帮助。</p>
 <p>从求职到拿下 <code>Offer</code>，一本职场的全方位攻略，快来和我一起学习吧！</p>
-<img src="https://cunyu1943.github.io/img/course/programmer-offer-guide.png" width="30%" /></div>
-
+<img src="https://cunyu1943.github.io/img/course/programmer-offer-guide.png" width="30%" /><div id="readmore-expansion" class=""></div></div>
 			<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
-			<script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
-			<script>
+			<script data-pjax src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
+			<script data-pjax>
 			var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
-			if (!isMobile) {
+			var isEncrypt = document.getElementById('hexo-blog-encrypt');
+			var allowMobile = false;
+			if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
 				try {
 					var plugin = new ReadmorePlugin();
 					plugin.init({
+						"type": "hexo",
 						"id": "readmore-container",
-						"blogId": "19397-0379198090489-062",
 						"name": "村雨遥",
+						"blogId": "19397-0379198090489-062",
 						"qrcode": "https://cunyu1943.github.io/JavaPark/img/site/wechatpublic.png",
 						"keyword": "验证码",
-						"lockToc": "yes",
-						"type": "hexo",
 						"random": "1",
-						"interval": "60",
+						"height": "auto",
 						"expires": "365",
-						"height": "auto"
+						"lockToc": "yes",
+						"interval": "60",
+						"baseUrl": ""
 					});
 				} catch(e) {
 					console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
@@ -2331,27 +2351,29 @@
 <h2 id="🎬️-广告"><a href="#🎬️-广告" class="headerlink" title="🎬️ 广告"></a>🎬️ 广告</h2><p>当前大环境下，就业形势严峻，尤其针对即将毕业的大学生。作为一个技术求职者，求职前应该做好哪些准备呢，一些面试实战技巧也十分有必要！而刚好最近掘金出了一本《技术人求职指南》小册，相信一定会对在找工作的你有所帮助。</p>
 <p>从求职到拿下 <code>Offer</code>，一本职场的全方位攻略，快来和我一起学习吧！</p>
 <img src="https://cunyu1943.github.io/img/course/programmer-offer-guide.png" width="30%" />
-</div>
-
+<div id="readmore-expansion" class=""></div></div>
 			<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
-			<script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
-			<script>
+			<script data-pjax src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
+			<script data-pjax>
 			var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
-			if (!isMobile) {
+			var isEncrypt = document.getElementById('hexo-blog-encrypt');
+			var allowMobile = false;
+			if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
 				try {
 					var plugin = new ReadmorePlugin();
 					plugin.init({
+						"type": "hexo",
 						"id": "readmore-container",
-						"blogId": "19397-0379198090489-062",
 						"name": "村雨遥",
+						"blogId": "19397-0379198090489-062",
 						"qrcode": "https://cunyu1943.github.io/JavaPark/img/site/wechatpublic.png",
 						"keyword": "验证码",
-						"lockToc": "yes",
-						"type": "hexo",
 						"random": "1",
-						"interval": "60",
+						"height": "auto",
 						"expires": "365",
-						"height": "auto"
+						"lockToc": "yes",
+						"interval": "60",
+						"baseUrl": ""
 					});
 				} catch(e) {
 					console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
@@ -2370,27 +2392,29 @@
   <entry>
     <title>关于本站</title>
     <url>/about/index.html</url>
-    <content><![CDATA[<div id="readmore-container"></div>
-
+    <content><![CDATA[<div id="readmore-container"><div id="readmore-expansion" class=""></div></div>
 			<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
-			<script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
-			<script>
+			<script data-pjax src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
+			<script data-pjax>
 			var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
-			if (!isMobile) {
+			var isEncrypt = document.getElementById('hexo-blog-encrypt');
+			var allowMobile = false;
+			if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
 				try {
 					var plugin = new ReadmorePlugin();
 					plugin.init({
+						"type": "hexo",
 						"id": "readmore-container",
-						"blogId": "19397-0379198090489-062",
 						"name": "村雨遥",
+						"blogId": "19397-0379198090489-062",
 						"qrcode": "https://cunyu1943.github.io/JavaPark/img/site/wechatpublic.png",
 						"keyword": "验证码",
-						"lockToc": "yes",
-						"type": "hexo",
 						"random": "1",
-						"interval": "60",
+						"height": "auto",
 						"expires": "365",
-						"height": "auto"
+						"lockToc": "yes",
+						"interval": "60",
+						"baseUrl": ""
 					});
 				} catch(e) {
 					console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
@@ -2402,27 +2426,29 @@
   <entry>
     <title>友情链接</title>
     <url>/links/index.html</url>
-    <content><![CDATA[<div id="readmore-container"></div>
-
+    <content><![CDATA[<div id="readmore-container"><div id="readmore-expansion" class=""></div></div>
 			<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
-			<script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
-			<script>
+			<script data-pjax src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
+			<script data-pjax>
 			var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
-			if (!isMobile) {
+			var isEncrypt = document.getElementById('hexo-blog-encrypt');
+			var allowMobile = false;
+			if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
 				try {
 					var plugin = new ReadmorePlugin();
 					plugin.init({
+						"type": "hexo",
 						"id": "readmore-container",
-						"blogId": "19397-0379198090489-062",
 						"name": "村雨遥",
+						"blogId": "19397-0379198090489-062",
 						"qrcode": "https://cunyu1943.github.io/JavaPark/img/site/wechatpublic.png",
 						"keyword": "验证码",
-						"lockToc": "yes",
-						"type": "hexo",
 						"random": "1",
-						"interval": "60",
+						"height": "auto",
 						"expires": "365",
-						"height": "auto"
+						"lockToc": "yes",
+						"interval": "60",
+						"baseUrl": ""
 					});
 				} catch(e) {
 					console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
@@ -2434,27 +2460,29 @@
   <entry>
     <title>即刻短文</title>
     <url>/says/index.html</url>
-    <content><![CDATA[<div id="readmore-container"></div>
-
+    <content><![CDATA[<div id="readmore-container"><div id="readmore-expansion" class=""></div></div>
 			<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
-			<script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
-			<script>
+			<script data-pjax src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
+			<script data-pjax>
 			var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
-			if (!isMobile) {
+			var isEncrypt = document.getElementById('hexo-blog-encrypt');
+			var allowMobile = false;
+			if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
 				try {
 					var plugin = new ReadmorePlugin();
 					plugin.init({
+						"type": "hexo",
 						"id": "readmore-container",
-						"blogId": "19397-0379198090489-062",
 						"name": "村雨遥",
+						"blogId": "19397-0379198090489-062",
 						"qrcode": "https://cunyu1943.github.io/JavaPark/img/site/wechatpublic.png",
 						"keyword": "验证码",
-						"lockToc": "yes",
-						"type": "hexo",
 						"random": "1",
-						"interval": "60",
+						"height": "auto",
 						"expires": "365",
-						"height": "auto"
+						"lockToc": "yes",
+						"interval": "60",
+						"baseUrl": ""
 					});
 				} catch(e) {
 					console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
@@ -2496,27 +2524,29 @@
 
 <h2 id="交流"><a href="#交流" class="headerlink" title="交流"></a>交流</h2><p>欢迎关注<a href="/img/personal/wechatpublic.png">公众号</a>|<a href="https://cunyu1943.site/">博客</a>一起交流（每周在公众号首发）：</p>
 <img src="/img/personal/wechatpublic.png" width="150" />
-</div>
-
+<div id="readmore-expansion" class=""></div></div>
 			<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
-			<script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
-			<script>
+			<script data-pjax src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
+			<script data-pjax>
 			var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
-			if (!isMobile) {
+			var isEncrypt = document.getElementById('hexo-blog-encrypt');
+			var allowMobile = false;
+			if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
 				try {
 					var plugin = new ReadmorePlugin();
 					plugin.init({
+						"type": "hexo",
 						"id": "readmore-container",
-						"blogId": "19397-0379198090489-062",
 						"name": "村雨遥",
+						"blogId": "19397-0379198090489-062",
 						"qrcode": "https://cunyu1943.github.io/JavaPark/img/site/wechatpublic.png",
 						"keyword": "验证码",
-						"lockToc": "yes",
-						"type": "hexo",
 						"random": "1",
-						"interval": "60",
+						"height": "auto",
 						"expires": "365",
-						"height": "auto"
+						"lockToc": "yes",
+						"interval": "60",
+						"baseUrl": ""
 					});
 				} catch(e) {
 					console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);

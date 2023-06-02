@@ -594,7 +594,7 @@
             
                 <span class="post-meta-date" title="更新于">
                     <i class="post-meta-icon fa-solid fa-clock-rotate-left"></i>
-                    <time datetime="2023-05-26T06:05:03+00:00"></time>
+                    <time datetime="2023-06-02T00:33:42+00:00"></time>
                 </span>
             
             
@@ -848,27 +848,29 @@
 <p><img src= "/img/loading.svg" data-lazy-src="/img/article/idea-tutorial/gene-res.png"></p>
 <h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>可能屏幕前的你所在的项目组并没有这么多的流程和提交规范，但养成良好的编码习惯总归是好的。代码不仅仅是写给自己看的，一个高手不仅仅是能够实现复杂的功能，能把代码编写得能让人看着简洁清爽也是一种艺术。</p>
 <p>好了，今天的文章到此就结束了，感谢大家赏脸阅读。对于文中如果有描述不清的地方，或者有什么建议我改进的建议，欢迎与我讨论交流。</p>
-</div>
-
+<div id="readmore-expansion" class=""></div></div>
 			<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
-			<script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
-			<script>
+			<script data-pjax src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
+			<script data-pjax>
 			var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
-			if (!isMobile) {
+			var isEncrypt = document.getElementById('hexo-blog-encrypt');
+			var allowMobile = false;
+			if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
 				try {
 					var plugin = new ReadmorePlugin();
 					plugin.init({
+						"type": "hexo",
 						"id": "readmore-container",
-						"blogId": "19397-0379198090489-062",
 						"name": "村雨遥",
+						"blogId": "19397-0379198090489-062",
 						"qrcode": "https://cunyu1943.github.io/JavaPark/img/site/wechatpublic.png",
 						"keyword": "验证码",
-						"lockToc": "yes",
-						"type": "hexo",
 						"random": "1",
-						"interval": "60",
+						"height": "auto",
 						"expires": "365",
-						"height": "auto"
+						"lockToc": "yes",
+						"interval": "60",
+						"baseUrl": ""
 					});
 				} catch(e) {
 					console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);

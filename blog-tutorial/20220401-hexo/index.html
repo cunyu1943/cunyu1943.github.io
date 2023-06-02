@@ -604,7 +604,7 @@
             
                 <span class="post-meta-date" title="更新于">
                     <i class="post-meta-icon fa-solid fa-clock-rotate-left"></i>
-                    <time datetime="2023-05-26T06:05:03+00:00"></time>
+                    <time datetime="2023-06-02T00:33:42+00:00"></time>
                 </span>
             
             
@@ -617,13 +617,13 @@
                 
                     <span class="post-meta-wordcount">
                         <i class="fas fa-file-word fa-fw post-meta-icon" title="文章字数"></i>
-                        <span class="word-count">2.9k</span>
+                        <span class="word-count">3k</span>
                     </span>
                 
                 
                     <span class="post-meta-time">
                         <i class="fas fa-clock post-meta-icon" title="阅读耗时"></i>
-                        <span>10 min</span>
+                        <span>11 min</span>
                     </span>
                 
             
@@ -805,27 +805,29 @@
 <p>PS：我对于配置文件中的某些关键信息进行了隐藏，比如 <code>gitalk</code>、<code>gitment</code>、<code>Valine</code>、<code>baiduAnalytics</code> 等，这些需要你自己去注册并获取自己的信息，请记得修改，否则可能导致失败。</p>
 <h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>至此，我们的博客就搭建完成了，是不是很简单，赶紧去试试吧！</p>
 <p>对于文中不清楚的地方，欢迎留言，我会在看到的第一时间回复你！</p>
-</div>
-
+<div id="readmore-expansion" class=""></div></div>
 			<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
-			<script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
-			<script>
+			<script data-pjax src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
+			<script data-pjax>
 			var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
-			if (!isMobile) {
+			var isEncrypt = document.getElementById('hexo-blog-encrypt');
+			var allowMobile = false;
+			if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
 				try {
 					var plugin = new ReadmorePlugin();
 					plugin.init({
+						"type": "hexo",
 						"id": "readmore-container",
-						"blogId": "19397-0379198090489-062",
 						"name": "村雨遥",
+						"blogId": "19397-0379198090489-062",
 						"qrcode": "https://cunyu1943.github.io/JavaPark/img/site/wechatpublic.png",
 						"keyword": "验证码",
-						"lockToc": "yes",
-						"type": "hexo",
 						"random": "1",
-						"interval": "60",
+						"height": "auto",
 						"expires": "365",
-						"height": "auto"
+						"lockToc": "yes",
+						"interval": "60",
+						"baseUrl": ""
 					});
 				} catch(e) {
 					console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
