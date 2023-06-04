@@ -1,0 +1,1551 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>如何用 Markdown 写出好看的文章 | 程序员村雨遥</title>
+<noscript>开启Javascript是必要的</noscript>
+<link rel="icon" type="image/x-icon" href="/img/logo.svg">
+<link rel="apple-touch-icon" href="/img/logo.svg">
+<meta name="apple-mobile-web-app-title" content="程序员村雨遥">
+<link rel="bookmark" href="/img/logo.svg">
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="/img/logo.svg">
+<meta name="description" content="一个分享技术与生活的博客">
+<meta name="theme-color" content="#1C1C1F">
+<link rel="stylesheet" href="/css/var.css">
+<link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="/css/custom.css">
+
+
+    <script data-pace-options="{ &quot;restartOnRequestAfter&quot;:false,&quot;eventLag&quot;:false}" src="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/pace/1.2.4/pace.min.js"></script>
+
+
+<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    
+
+<link rel="stylesheet" href="/lib/snackbar.min.css">
+
+
+<script src="/lib/qrcode.min.js"></script>
+
+
+    
+<script src="https://cdn.staticfile.org/twikoo/1.6.10/twikoo.all.min.js"></script>
+
+
+
+
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2559314297017327" rossorigin="anonymous"></script>
+
+<script>var GLOBALCONFIG = {"root":"/","runtime":"2018-01-01 00:00:00","lazyload":{"enable":true,"error":"/img/404.svg"},"hightlight":{"enable":true,"limit":200},"lightbox":true,"randomlinks":true,"lang":{"theme":{"dark":"已切换至深色模式","light":"已切换至浅色模式"},"copy":{"success":"复制成功","error":"复制失败"},"backtop":"返回顶部","time":{"recent":"最近","yesterday":"昨天","berforeyesterday":"前天","daybefore":"天前","runtime":"天"},"sayhello":{"morning":"早上好","noon":"中午好","afternoon":"下午好","night":"晚上好","goodnight":"晚安","iam":"!  我是"},"search":{"empty":"搜索结果为空","hit":"已为您找到 ${query} 条结果","placeholder":"输入关键词快速查找"}},"covercolor":true,"consolePlus":{"enable":true,"twikooUrl":"https://acrylic.zeabur.app/"},"localsearch":{"preload":false,"path":"/search.xml"}};</script><script id="site-config">var PAGECONFIG = {"is_home":false,"is_post":true,"is_page":false,"page":false,"toc":true,"comment":true};</script>
+    <meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="程序员村雨遥" type="application/atom+xml">
+</head>
+    <body id="body">
+        
+        <div id="console" style="zoom: 1;" class="">
+    <div class="close-btn" onclick="acrylic.hideConsole()" href="javascript:void(0);">
+        <i class="fas fa-circle-xmark"></i>
+    </div>
+    
+        <div class="console-card-group">
+            <div class="console-card-group-left">
+                <div class="console-card" id="card-newest-comments" onclick="acrylic.hideConsole()">
+                    <div class="card-content">
+                        <div class="author-content-item-tips">互动</div>
+                        <div class="author-content-item-title">最新评论</div>
+                    </div>
+                    <div class="aside-list"></div>
+                </div>
+    
+            </div>
+            <div class="console-card-group-right">
+                <div class="console-card tags" onclick="acrylic.hideConsole()">
+                    <div class="card-content">
+                        <div class="author-content-item-tips">标签</div>
+                        <div class="author-content-item-title">寻找感兴趣的领域</div>
+                    </div>
+                    <div class="card-tag-cloud">
+                        
+                            <a href="/tags/Java/" style="font-size: 0.8rem; color: #d3d3d3">Java<sup>1</sup></a>
+                        
+                            <a href="/tags/%E5%88%B7%E9%A2%98/" style="font-size: 0.8rem; color: #d3d3d3">刷题<sup>2</sup></a>
+                        
+                            <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" style="font-size: 0.8rem; color: #d3d3d3">博客搭建<sup>1</sup></a>
+                        
+                            <a href="/tags/Hexo/" style="font-size: 0.8rem; color: #d3d3d3">Hexo<sup>1</sup></a>
+                        
+                            <a href="/tags/Github-Pages/" style="font-size: 0.8rem; color: #d3d3d3">Github Pages<sup>1</sup></a>
+                        
+                            <a href="/tags/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/" style="font-size: 0.8rem; color: #d3d3d3">开发工具<sup>2</sup></a>
+                        
+                            <a href="/tags/CMD/" style="font-size: 0.8rem; color: #d3d3d3">CMD<sup>1</sup></a>
+                        
+                            <a href="/tags/Windows/" style="font-size: 0.8rem; color: #d3d3d3">Windows<sup>1</sup></a>
+                        
+                            <a href="/tags/Markdown/" style="font-size: 0.8rem; color: #d3d3d3">Markdown<sup>1</sup></a>
+                        
+                            <a href="/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/" style="font-size: 0.8rem; color: #d3d3d3">效率工具<sup>1</sup></a>
+                        
+                            <a href="/tags/IDEA-%E6%95%99%E7%A8%8B/" style="font-size: 0.8rem; color: #d3d3d3">IDEA 教程<sup>2</sup></a>
+                        
+                            <a href="/tags/IDEA/" style="font-size: 0.8rem; color: #d3d3d3">IDEA<sup>1</sup></a>
+                        
+                            <a href="/tags/%E9%A1%B9%E7%9B%AE/" style="font-size: 0.8rem; color: #d3d3d3">项目<sup>7</sup></a>
+                        
+                            <a href="/tags/%E8%B5%84%E6%BA%90/" style="font-size: 0.8rem; color: #d3d3d3">资源<sup>7</sup></a>
+                        
+                    </div>
+                </div>
+                <div class="console-card history" onclick="acrylic.hideConsole()">
+                    <ul class="card-archive-list">
+    
+     
+        <li class="card-archive-list-item"><a class="card-archive-list-link" onclick="pjax.loadUrl('/archives/2023-06/')" data-pjax-state=""><span
+            class="card-archive-list-date">2023-06</span>
+            <div class="card-archive-list-count-group"><span class="card-archive-list-count">3</span><span
+                    class="card-archive-list-count-unit">篇</span></div>
+            </a>
+        </li>
+     
+        <li class="card-archive-list-item"><a class="card-archive-list-link" onclick="pjax.loadUrl('/archives/2023-05/')" data-pjax-state=""><span
+            class="card-archive-list-date">2023-05</span>
+            <div class="card-archive-list-count-group"><span class="card-archive-list-count">5</span><span
+                    class="card-archive-list-count-unit">篇</span></div>
+            </a>
+        </li>
+     
+        <li class="card-archive-list-item"><a class="card-archive-list-link" onclick="pjax.loadUrl('/archives/2023-04/')" data-pjax-state=""><span
+            class="card-archive-list-date">2023-04</span>
+            <div class="card-archive-list-count-group"><span class="card-archive-list-count">4</span><span
+                    class="card-archive-list-count-unit">篇</span></div>
+            </a>
+        </li>
+     
+        <li class="card-archive-list-item"><a class="card-archive-list-link" onclick="pjax.loadUrl('/archives/2022-03/')" data-pjax-state=""><span
+            class="card-archive-list-date">2022-03</span>
+            <div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span
+                    class="card-archive-list-count-unit">篇</span></div>
+            </a>
+        </li>
+     
+        <li class="card-archive-list-item"><a class="card-archive-list-link" onclick="pjax.loadUrl('/archives/2022-02/')" data-pjax-state=""><span
+            class="card-archive-list-date">2022-02</span>
+            <div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span
+                    class="card-archive-list-count-unit">篇</span></div>
+            </a>
+        </li>
+        
+</ul>
+
+                </div>
+            </div>
+        </div>
+    
+    
+    <div class="button-group">
+        <div class="console-btn-item"> <a class="darkmode_switchbutton" onclick="acrylic.switchDarkMode()" title="显示模式切换"
+                href="javascript:void(0);" rel="external nofollow" data-pjax-state=""><i class="fas fa-moon"
+                    style="font-size: 1rem;"></i></a></div>
+        
+    </div>
+    <div class="console-mask" onclick="acrylic.hideConsole()" href="javascript:void(0);" rel="external nofollow"></div>
+</div>
+        <div id="sidebar" style="zoom: 1;">
+    <div id="menu-mask" style="display: none;"></div>
+    <div id="sidebar-menus" class>
+        <span class="sidebar-menu-item-title">功能</span>
+        <div class="sidebar-menu-item">
+            <a class="darkmode_switchbutton menu-child" onclick="acrylic.switchDarkMode()" title="显示模式切换"
+                href="javascript:void(0);" rel="external nofollow">
+                <i class="fas fa-moon" style="font-size: 1rem;"></i>
+                <span>显示模式</span>
+            </a>
+        </div>
+        
+            <div class="back-menu-list-groups">
+    
+      
+      <div class="back-menu-list-group">
+        <div class="back-menu-list-title">
+          我的
+        </div>
+        <div class="back-menu-list">
+          
+            
+            <a class="back-menu-item" href="/" rel="external nofollow" title="博客">
+              <img class="back-menu-item-icon" src= "/img/loading.svg" data-lazy-src="/img/personal/wechatpublic.png" loading="lazy">
+              <span class="back-menu-item-text">
+                博客
+              </span>
+            </a>
+          
+        </div>
+      </div>
+    
+  </div>
+  
+        
+        <div class="menus_items">
+    
+        <div class="menus_item">
+            
+                <a class="site-page" href="javascript:void(0);" rel="external nofollow">
+                    <span> 项目</span>
+                </a>
+                <ul class="menus_item_child">
+                    
+                        <li>
+                            <a class="site-page child" target="_blank" rel="noopener" href="https://github.com/cunyu1943/JavaPark">
+                                <i class="fa-brands fa-java"></i>
+                                <span> JavaPark</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a class="site-page child" target="_blank" rel="noopener" href="https://github.com/cunyu1943/ebooks">
+                                <i class="fa-solid fa-book-open"></i>
+                                <span> 免费书籍</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a class="site-page child" target="_blank" rel="noopener" href="https://github.com/cunyu1943/java-park-code-warehouse">
+                                <i class="fa-solid fa-code"></i>
+                                <span> 代码仓库</span>
+                            </a>
+                        </li>
+                    
+                </ul>
+             
+        </div>
+    
+        <div class="menus_item">
+            
+                <a class="site-page" href="javascript:void(0);" rel="external nofollow">
+                    <span> 专栏</span>
+                </a>
+                <ul class="menus_item_child">
+                    
+                        <li>
+                            <a class="site-page child" href="/categories/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B">
+                                <i class="fa-brands fa-java"></i>
+                                <span> 基础教程</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a class="site-page child" href="/weekly">
+                                <i class="fa-solid fa-book-open"></i>
+                                <span> 好物周刊</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a class="site-page child" href="/categories/%E4%BD%A0%E9%97%AE%E6%88%91%E7%AD%94">
+                                <i class="fa-solid fa-circle-question"></i>
+                                <span> 你问我答</span>
+                            </a>
+                        </li>
+                    
+                </ul>
+             
+        </div>
+    
+        <div class="menus_item">
+            
+                <a class="site-page" href="javascript:void(0);" rel="external nofollow">
+                    <span> 文库</span>
+                </a>
+                <ul class="menus_item_child">
+                    
+                        <li>
+                            <a class="site-page child" href="/archives/">
+                                <i class="fas fa-box-archive"></i>
+                                <span> 归档</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a class="site-page child" href="/categories/">
+                                <i class="fas fa-cube"></i>
+                                <span> 分类</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a class="site-page child" href="/tags/">
+                                <i class="fas fa-tags"></i>
+                                <span> 标签</span>
+                            </a>
+                        </li>
+                    
+                </ul>
+             
+        </div>
+    
+        <div class="menus_item">
+            
+                <a class="site-page" href="javascript:void(0);" rel="external nofollow">
+                    <span> 我的</span>
+                </a>
+                <ul class="menus_item_child">
+                    
+                        <li>
+                            <a class="site-page child" href="/links/">
+                                <i class="fa-solid fa-user-group"></i>
+                                <span> 友情链接</span>
+                            </a>
+                        </li>
+                    
+                </ul>
+             
+        </div>
+    
+</div>
+        <span class="sidebar-menu-item-title">标签</span>
+        <div class="card-widget card-tags card-archives card-webinfo card-allinfo">
+            <div class="item-headline">
+                <i class="fas fa-tags"></i>
+                <span>标签</span>
+            </div>
+            <div class="card-tag-cloud">
+                
+                    <a href="/tags/Java/" style="font-size: 1em; color: #d3d3d3">Java
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E5%88%B7%E9%A2%98/" style="font-size: 1em; color: #d3d3d3">刷题
+                        <sup>2</sup>
+                    </a>
+                
+                    <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" style="font-size: 1em; color: #d3d3d3">博客搭建
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/Hexo/" style="font-size: 1em; color: #d3d3d3">Hexo
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/Github-Pages/" style="font-size: 1em; color: #d3d3d3">Github Pages
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/" style="font-size: 1em; color: #d3d3d3">开发工具
+                        <sup>2</sup>
+                    </a>
+                
+                    <a href="/tags/CMD/" style="font-size: 1em; color: #d3d3d3">CMD
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/Windows/" style="font-size: 1em; color: #d3d3d3">Windows
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/Markdown/" style="font-size: 1em; color: #d3d3d3">Markdown
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/" style="font-size: 1em; color: #d3d3d3">效率工具
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/IDEA-%E6%95%99%E7%A8%8B/" style="font-size: 1em; color: #d3d3d3">IDEA 教程
+                        <sup>2</sup>
+                    </a>
+                
+                    <a href="/tags/IDEA/" style="font-size: 1em; color: #d3d3d3">IDEA
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E9%A1%B9%E7%9B%AE/" style="font-size: 1em; color: #d3d3d3">项目
+                        <sup>7</sup>
+                    </a>
+                
+                    <a href="/tags/%E8%B5%84%E6%BA%90/" style="font-size: 1em; color: #d3d3d3">资源
+                        <sup>7</sup>
+                    </a>
+                
+            </div>
+        </div>
+    </div>
+</div>    
+        
+            <div class="post" id="body-wrap">
+                <header class="post-bg" id="page-header">
+    <nav id="nav" class="show">
+    <div id="nav-group">
+        <div id="blog_name">
+            
+                <div class="back-home-button" tabindex="-1">
+                    <i class="back-home-button-icon fas fa-grip-vertical"></i>
+                    <div class="back-menu-list-groups">
+    
+      
+      <div class="back-menu-list-group">
+        <div class="back-menu-list-title">
+          我的
+        </div>
+        <div class="back-menu-list">
+          
+            
+            <a class="back-menu-item" href="/" rel="external nofollow" title="博客">
+              <img class="back-menu-item-icon" src= "/img/loading.svg" data-lazy-src="/img/personal/wechatpublic.png" loading="lazy">
+              <span class="back-menu-item-text">
+                博客
+              </span>
+            </a>
+          
+        </div>
+      </div>
+    
+  </div>
+  
+                </div>
+            
+            <a id="site-name" href="/" title="返回博客主页">
+                    
+                        <span class="heoicon">村雨遥</span>
+                    
+            </a>
+        </div>
+        <div id="page-name-mask">
+            <div id="page-name">
+                <a id="page-name-text" onclick="acrylic.toTop()">如何用 Markdown 写出好看的文章</a>
+            </div>
+        </div>
+        <div id="menus">
+            <div class="menus_items">
+    
+        <div class="menus_item">
+            
+                <a class="site-page" href="javascript:void(0);" rel="external nofollow">
+                    <span> 项目</span>
+                </a>
+                <ul class="menus_item_child">
+                    
+                        <li>
+                            <a class="site-page child" target="_blank" rel="noopener" href="https://github.com/cunyu1943/JavaPark">
+                                <i class="fa-brands fa-java"></i>
+                                <span> JavaPark</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a class="site-page child" target="_blank" rel="noopener" href="https://github.com/cunyu1943/ebooks">
+                                <i class="fa-solid fa-book-open"></i>
+                                <span> 免费书籍</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a class="site-page child" target="_blank" rel="noopener" href="https://github.com/cunyu1943/java-park-code-warehouse">
+                                <i class="fa-solid fa-code"></i>
+                                <span> 代码仓库</span>
+                            </a>
+                        </li>
+                    
+                </ul>
+             
+        </div>
+    
+        <div class="menus_item">
+            
+                <a class="site-page" href="javascript:void(0);" rel="external nofollow">
+                    <span> 专栏</span>
+                </a>
+                <ul class="menus_item_child">
+                    
+                        <li>
+                            <a class="site-page child" href="/categories/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B">
+                                <i class="fa-brands fa-java"></i>
+                                <span> 基础教程</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a class="site-page child" href="/weekly">
+                                <i class="fa-solid fa-book-open"></i>
+                                <span> 好物周刊</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a class="site-page child" href="/categories/%E4%BD%A0%E9%97%AE%E6%88%91%E7%AD%94">
+                                <i class="fa-solid fa-circle-question"></i>
+                                <span> 你问我答</span>
+                            </a>
+                        </li>
+                    
+                </ul>
+             
+        </div>
+    
+        <div class="menus_item">
+            
+                <a class="site-page" href="javascript:void(0);" rel="external nofollow">
+                    <span> 文库</span>
+                </a>
+                <ul class="menus_item_child">
+                    
+                        <li>
+                            <a class="site-page child" href="/archives/">
+                                <i class="fas fa-box-archive"></i>
+                                <span> 归档</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a class="site-page child" href="/categories/">
+                                <i class="fas fa-cube"></i>
+                                <span> 分类</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a class="site-page child" href="/tags/">
+                                <i class="fas fa-tags"></i>
+                                <span> 标签</span>
+                            </a>
+                        </li>
+                    
+                </ul>
+             
+        </div>
+    
+        <div class="menus_item">
+            
+                <a class="site-page" href="javascript:void(0);" rel="external nofollow">
+                    <span> 我的</span>
+                </a>
+                <ul class="menus_item_child">
+                    
+                        <li>
+                            <a class="site-page child" href="/links/">
+                                <i class="fa-solid fa-user-group"></i>
+                                <span> 友情链接</span>
+                            </a>
+                        </li>
+                    
+                </ul>
+             
+        </div>
+    
+</div>
+        </div>
+        <!-- <div id="nav-left">
+            <div id="fps-group">
+                <div id="fps">145</div><span class="fpsText">FPS</span>
+            </div>
+        </div> -->
+        <div id="nav-right">
+            
+
+    <div class="nav-button" id="randomPost_button">
+        <a class="site-page" onclick="toRandomPost()"
+            title="随机前往一个文章">
+            <i class="fas fa-shuffle" style="font-size: 1rem;"></i>
+        </a>
+    </div>
+
+
+    <div class="nav-button" id="search-button">
+        <a class="site-page social-icon search" title="站内搜索"
+            href="javascript:void(0);" rel="external nofollow">
+            <i class="fas fa-magnifying-glass" style="font-size: 1rem;"></i>
+        </a>
+    </div>
+
+
+    <div class="nav-button" id="nav-console">
+        <a class="console_switchbutton" onclick="acrylic.showConsole()"
+        title="显示中控台" href="javascript:void(0);" rel="external nofollow">
+        <i class="fas fa-bars-progress" style="font-size: 1rem;"></i>
+        </a>
+    </div>
+
+<div class="nav-button" id="nav-totop" onclick="acrylic.toTop()">
+    <a class="totopbtn">
+        <i class="fas fa-arrow-up"></i>
+        <span id="percent">0</span>
+    </a>
+</div>
+<div id="toggle-menu">
+    <a class="site-page">
+        <i class="fas fa-bars fa-fw" style="font-size: 1rem;"></i>
+    </a>
+</div>
+        </div>
+    </div>
+</nav>
+    
+        <div class="coverdiv" id="coverdiv">
+    <img id="post-cover" class="nolazyload" src="https://cdn.pixabay.com/photo/2017/07/31/14/45/code-2558220_960_720.jpg" alt="cover">
+</div>
+<div id="post-info">
+    <div id="post-firstinfo">
+        <div class="meta-firstline">
+            <a class="post-meta-original" title="该文章为原创文章，注意版权协议">
+                原创
+            </a>
+            
+            <span class="post-meta-categories">
+                
+                    <a class="post-meta-categories" href="/categories/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/">基础教程</a>
+                
+            </span>
+            
+            <div class="tag_share">
+                <div class="post-meta__tag-list">
+                    
+                        <a class="post-meta__tags" href="/tags/Markdown/">
+                            <span class="tags-punctuation">#</span>
+                            <span class="tags-name">Markdown</span>
+                        </a>
+                    
+                        <a class="post-meta__tags" href="/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/">
+                            <span class="tags-punctuation">#</span>
+                            <span class="tags-name">效率工具</span>
+                        </a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1 class="post-title">如何用 Markdown 写出好看的文章</h1>
+    <div id="post-meta">
+        <div class="meta-secondline">
+            <span class="post-meta-date" title="发布于">
+                <i class="post-meta-icon fa-fw fas fa-calendar"></i>
+                <time datetime="2023-04-25T00:07:06+00:00"></time>
+            </span>
+            
+                <span class="post-meta-date" title="更新于">
+                    <i class="post-meta-icon fa-solid fa-clock-rotate-left"></i>
+                    <time datetime="2023-06-04T12:56:40+00:00"></time>
+                </span>
+            
+            
+                <span class="post-meta-position" title="作者IP归属地为苏州">
+                    <i class="fas fa-location-dot post-meta-icon"></i>
+                    <span>苏州</span>
+                </span>
+            
+            
+                
+                    <span class="post-meta-wordcount">
+                        <i class="fas fa-file-word fa-fw post-meta-icon" title="文章字数"></i>
+                        <span class="word-count">2.5k</span>
+                    </span>
+                
+                
+                    <span class="post-meta-time">
+                        <i class="fas fa-clock post-meta-icon" title="阅读耗时"></i>
+                        <span>9 min</span>
+                    </span>
+                
+            
+            
+                <span class="post-meta-pv" title="文章热度">
+                    <i class="fab fa-hotjar fa-fw post-meta-icon"></i>
+                    
+                        <span id="busuanzi_value_page_pv"><i class="fas fa-spinner fa-pulse"></i></span>
+                            
+                </span>
+            
+            
+                <span class="post-meta-commentcount" title="评论数">
+                    <i class="fa-solid fa-message"></i>
+                    <a href="#post-comment">
+                        <span id="twikoo-count"><i class="fas fa-spinner fa-pulse"></i></span>
+                    </a>
+                </span>
+                
+        </div>
+    </div>
+</div>
+<section class="main-hero-waves-area waves-area"><svg class="waves-svg" xmlns="http://www.w3.org/2000/svg"
+    xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+    <defs>
+        <path id="gentle-wave"
+            d="M -160 44 c 30 0 58 -18 88 -18 s 58 18 88 18 s 58 -18 88 -18 s 58 18 88 18 v 44 h -352 Z"></path>
+    </defs>
+    <g class="parallax">
+        <use href="#gentle-wave" x="48" y="0"></use>
+        <use href="#gentle-wave" x="48" y="3"></use>
+        <use href="#gentle-wave" x="48" y="5"></use>
+        <use href="#gentle-wave" x="48" y="7"></use>
+    </g>
+</svg>
+</section>
+        
+</header>
+                <main class="layout" id="content-inner">
+    <div id="post">
+        <article class="post-content" id="article-container">
+            <div id="readmore-container"><blockquote>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+<p>原文：<a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/qIptV_MEGjsUjw_zqvGn_A">https://mp.weixin.qq.com/s/qIptV_MEGjsUjw_zqvGn_A</a></p>
+</blockquote>
+<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><h3 id="什么是-Markdown"><a href="#什么是-Markdown" class="headerlink" title="什么是 Markdown"></a>什么是 Markdown</h3><p>欢迎来到这篇 <code>Markdown</code> 语法教程！<code>Markdown</code> 是一种轻量级标记语言，很多写作者喜欢使用它来编写文档、博客、笔记等。<code>Markdown</code> 语法简单易懂、规范明确，适合快速书写和修改文本。学习 <code>Markdown</code> 语法可以帮助作者更好地组织文本结构、添加格式、插入图片等，让文本更加清晰易读。在这篇教程中，我们将一步步地介绍 <code>Markdown</code> 的基本语法和应用方法，帮助您更快地了解和掌握这种语言。无论您是初学者还是有经验的用户，都可以从这篇教程中获得新的知识和技能，加强你的学习和写作能力。</p>
+<h3 id="Markdown-的优点"><a href="#Markdown-的优点" class="headerlink" title="Markdown 的优点"></a>Markdown 的优点</h3><p>相比于其他格式，<code>Markdown</code> 具有以下优点：</p>
+<ul>
+<li>语法简洁易学，且功能比纯文本强大</li>
+<li>格式转换方便，兼容性强，可读性极好</li>
+<li>专注内容写作而不用关注排版样式</li>
+<li>能导出 <code>PDF</code>、<code>HTML</code> 等格式的文件</li>
+<li>迁移、反复编辑不会导致格式错乱</li>
+</ul>
+<h3 id="Markdown-的应用场景"><a href="#Markdown-的应用场景" class="headerlink" title="Markdown 的应用场景"></a>Markdown 的应用场景</h3><p>如果你经常逛 <code>Github</code>，你会发现大多数项目下边都会有一个 <code>README.md</code> 的项目说明文件，而它就是利用 <code>Markdown</code> 来进行编写的。而现在的大多数博客平台如 <code>CSDN</code>、博客园、掘金等，基本都支持 <code>Markdown</code> 格式，如果你有多平台发布文章的需求，那么学会用 <code>Markdown</code> 来编写内容未尝不是一个好的方法。</p>
+<p>而且就算微信公众号，我们也可以借助第三方工具来进行排版，比起之前用 <code>Word</code> 来排版的方式省去了很多麻烦，实现一文多发变得更加容易，不用再去调格式适应不同平台。</p>
+<h2 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h2><h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><p>在标题书写时不同数量的 <code>#</code> 对应不同的标题。一到六级标题如下，每多一级则多加一个<code>#</code>号。<strong>注意</strong>：符号和标题内容间的空格不能省略，而且最多支持到六级标题。具体语法格式及实例如下：</p>
+<ul>
+<li><strong>语法</strong></li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">不同数量的 # + 空格 + 标题内容</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>实例</strong></li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="section"># 一级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">## 二级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">### 三级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">#### 四级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">##### 五级标题</span></span><br><span class="line"></span><br><span class="line"><span class="section">###### 六级标题</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h3><p>列表又分为 <strong>有序列表</strong> 和 <strong>无序列表</strong>。</p>
+<ol>
+<li><strong>有序列表</strong></li>
+</ol>
+<p>有阿拉伯数字及英文句号 <code>.</code> 后加空格后输入内容即可。具体语法格式及实例如下：</p>
+<ul>
+<li><strong>语法</strong></li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">阿拉伯数字 + . + 空格 + 内容</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>实例</strong></li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">1.</span> 马刺</span><br><span class="line"><span class="bullet">2.</span> 湖人</span><br><span class="line"><span class="bullet">3.</span> 独行侠</span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li><strong>无序列表</strong></li>
+</ol>
+<p>在连线符号 <code>-</code> 后加空格后输入内容即可，具体格式以及实例如下：</p>
+<ul>
+<li><strong>语法</strong></li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> + 空格 + 内容</span><br></pre></td></tr></table></figure>
+
+
+<ul>
+<li><strong>实例</strong></li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> Apple</span><br><span class="line"><span class="bullet">-</span> 华为</span><br><span class="line"><span class="bullet">-</span> 小米</span><br></pre></td></tr></table></figure>
+
+<h3 id="粗体"><a href="#粗体" class="headerlink" title="粗体"></a>粗体</h3><p>在需要加粗的内容前后分别用两个 <code>*</code> 将其包围起来，具体格式以及实例如下：</p>
+<ul>
+<li><strong>语法</strong></li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">** + 内容 + <span class="strong">**</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>实例</strong></li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="strong">**公众号：村雨遥**</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="斜体"><a href="#斜体" class="headerlink" title="斜体"></a>斜体</h3><p>和加粗很类似，不过只需要将内容前后分别用一个 <code>*</code> 或者 <code>_</code> 包围起来即可，具体格式以及实例如下：</p>
+<ul>
+<li><strong>语法</strong></li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">*</span> + 内容 + *</span><br><span class="line">_ + 内容 + <span class="emphasis">_</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>实例</strong></li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="emphasis">*公众号：村雨遥*</span></span><br><span class="line"><span class="emphasis">_公众号：村雨遥_</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h3><p>要给内容加上删除线的效果，只需要在内容前后分别用两个 <code>~</code> 将其包围即可，具体格式以及实例如下：</p>
+<ul>
+<li><strong>语法</strong></li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">~~ + 内容 + ~~</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>实例</strong></li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">~~ 公众号：村雨遥 ~~</span><br></pre></td></tr></table></figure>
+
+<h3 id="下划线"><a href="#下划线" class="headerlink" title="下划线"></a>下划线</h3><p>Markdown 语法中是不支持下划线的，如果要实现下划线的效果，可以借助 <code>HTML</code> 语法，具体格式以及实例如下：</p>
+<ul>
+<li><strong>语法</strong></li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">u</span>&gt;</span> + 内容 + <span class="tag">&lt;/<span class="name">u</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>实例</strong></li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">u</span>&gt;</span></span>公众号：村雨遥<span class="language-xml"><span class="tag">&lt;/<span class="name">u</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+
+<h3 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h3><p>如果要将不同内容之间插入一条分割线，可以在一行中使用三个及以上减号 <code>-</code> 来建立一个分割线，同时需要在分割线的上面空上一行，具体格式以及实例如下：</p>
+<ul>
+<li><strong>语法</strong></li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>实例</strong></li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">公众号：村雨遥</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">个人博客：https://cunyu1943.site</span><br></pre></td></tr></table></figure>
+
+<h3 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h3><p>引用的格式是在大于符号 <code>&gt;</code> 后面接上空格以及要引用的内容即可，具体格式以及实例如下：</p>
+<ul>
+<li><strong>语法</strong></li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="quote">&gt; + 空格 + 内容</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>实例</strong></li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="quote">&gt; 不要哀求，学会争取。若是如此，终有所获。</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="上下标"><a href="#上下标" class="headerlink" title="上下标"></a>上下标</h3><p>当我们需要写化学公式或者需要标记上下标时，该怎么办呢？<code>Markdown</code> 同样是不支持的，所以仍然需要借助 <code>HTML</code> 的相关语法。</p>
+<ul>
+<li><strong>语法</strong></li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">1.</span> 上标</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">sup</span>&gt;</span></span> + 内容 + <span class="language-xml"><span class="tag">&lt;/<span class="name">sup</span>&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="bullet">2.</span> 下标</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">sub</span>&gt;</span></span> + 内容 + <span class="language-xml"><span class="tag">&lt;/<span class="name">sub</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>实例</strong></li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">1.</span> 上标</span><br><span class="line"></span><br><span class="line">H<span class="language-xml"><span class="tag">&lt;<span class="name">sup</span>&gt;</span></span>2<span class="language-xml"><span class="tag">&lt;/<span class="name">sup</span>&gt;</span></span>O</span><br><span class="line"></span><br><span class="line"><span class="bullet">2.</span> 下标</span><br><span class="line"></span><br><span class="line">H<span class="language-xml"><span class="tag">&lt;<span class="name">sub</span>&gt;</span></span>2<span class="language-xml"><span class="tag">&lt;/<span class="name">sub</span>&gt;</span></span>O</span><br></pre></td></tr></table></figure>
+
+<h3 id="高亮"><a href="#高亮" class="headerlink" title="高亮"></a>高亮</h3><p>高亮语法在有的 <code>Markdown</code> 标准中可能不支持，但在这里也给出其用法，具体格式以及实例如下：</p>
+<ul>
+<li><strong>语法</strong></li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">== + 内容 + ==</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>实例</strong></li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">==公众号：村雨遥==</span><br></pre></td></tr></table></figure>
+
+<h3 id="任务列表"><a href="#任务列表" class="headerlink" title="任务列表"></a>任务列表</h3><p>任务列表是我们经常接触到的东西，比如我们的备忘录，完成的事件和未完成事件，要在 <code>Markdown</code> 中实现同样效果，具体格式以及实例如下：</p>
+<ul>
+<li><strong>语法</strong></li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">已完成：[x] + 内容</span><br><span class="line">未完成：[] + 内容</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>实例</strong></li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">1.</span> 未完成</span><br><span class="line"><span class="bullet">-</span> [ ] 公众号：村雨遥</span><br><span class="line"><span class="bullet">-</span> [ ] 个人博客：https://cunyu1943.site</span><br><span class="line"></span><br><span class="line"><span class="bullet">2.</span> 已完成</span><br><span class="line"><span class="bullet">-</span> [x] 知乎：https://www.zhihu.com/people/cunyu1943</span><br><span class="line"><span class="bullet">-</span> [x] CSDN：https://blog.csdn.net/github<span class="emphasis">_39655029</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h3><p>当我们文章写完之后，想要像 <code>Word</code> 中那样自动生成目录，此时就可以使用 <code>[toc]</code> 单独占一行来实现，但是要注意，有的平台可能不支持该用法，具体格式如下：</p>
+<ul>
+<li><strong>语法</strong></li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[toc]</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>实例</strong></li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[toc]</span><br></pre></td></tr></table></figure>
+
+<h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><p>想在 <code>Markdown</code> 中使用表格也很方便，我们可以用 <code>:</code> 来调整表格对齐的方式，具体格式如下：</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">1.</span> 左对齐</span><br><span class="line"></span><br><span class="line">| 平台     | 链接                                   |</span><br><span class="line">| :------- | :------------------------------------- |</span><br><span class="line">| 公众号   | 村雨遥                                 |</span><br><span class="line">| 个人博客 | https://cunyu1943.github.io            |</span><br><span class="line">| 知乎     | https://www.zhihu.com/people/cunyu1943 |</span><br><span class="line"></span><br><span class="line"><span class="bullet">2.</span> 居中对齐</span><br><span class="line"></span><br><span class="line">|   平台   |                  链接                  |</span><br><span class="line">| :------: | :------------------------------------: |</span><br><span class="line">|  公众号  |                 村雨遥                 |</span><br><span class="line">| 个人博客 |      https://cunyu1943.github.io       |</span><br><span class="line">|   知乎   | https://www.zhihu.com/people/cunyu1943 |</span><br><span class="line"></span><br><span class="line"><span class="bullet">3.</span> 右对齐</span><br><span class="line"></span><br><span class="line">|     平台 |                                   链接 |</span><br><span class="line">| -------: | -------------------------------------: |</span><br><span class="line">|   公众号 |                                 村雨遥 |</span><br><span class="line">| 个人博客 |            https://cunyu1943.github.io |</span><br><span class="line">|     知乎 | https://www.zhihu.com/people/cunyu1943 |</span><br></pre></td></tr></table></figure>
+
+<h3 id="公式"><a href="#公式" class="headerlink" title="公式"></a>公式</h3><p><code>Markdown</code> 支持 <code>LaTeX</code> 语法，可以实现行间公式和独立公式块，公式的写法和 <code>LaTeX</code> 语法一样，具体格式如下</p>
+<ul>
+<li>行间公式：<code>$ + 公式 + $</code></li>
+<li>独立公式块：<code>$$ + 公式 + $$</code></li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">1.</span> 行间公式</span><br><span class="line"></span><br><span class="line">$x<span class="emphasis">_1+x_</span>2=0$</span><br><span class="line"></span><br><span class="line"><span class="bullet">2.</span> 独立公式块</span><br><span class="line"></span><br><span class="line">$$x^2+y^2=0$$</span><br></pre></td></tr></table></figure>
+
+<h3 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h3><p>同公式一样，代码块同样可以分为行间代码块和独立代码块，其区别在于用一个或多个 ` 将其括起来，具体语法及实例如下：</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">1.</span> 行间代码块</span><br><span class="line"></span><br><span class="line">这是一个行间代码：<span class="code">`print(&quot;公众号：村雨遥&quot;)`</span></span><br><span class="line"></span><br><span class="line"><span class="bullet">2.</span> 独立代码块</span><br><span class="line"></span><br><span class="line"><span class="code">```python</span></span><br><span class="line"><span class="code">print(&quot;公众号：村雨遥&quot;)</span></span><br><span class="line"><span class="code">```</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="链接与图片"><a href="#链接与图片" class="headerlink" title="链接与图片"></a>链接与图片</h3><p>链接和图片的唯一区别在于图片需要在最前面加上一个 <code>!</code>，两个具体格式如下：</p>
+<ul>
+<li><strong>链接</strong>：<code>[链接说明](链接 url)</code></li>
+<li><strong>图片</strong>：<code>![图片说明](图片 url)</code></li>
+<li><strong>实例</strong></li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">1.</span> 链接</span><br><span class="line"></span><br><span class="line">[<span class="string">村雨遥</span>](<span class="link">https://cunyu1943.site</span>)</span><br><span class="line"></span><br><span class="line"><span class="bullet">2.</span> 图片</span><br><span class="line"></span><br><span class="line">![<span class="string">村雨遥主页</span>](<span class="link">https://cdn.pixabay.com/photo/2016/05/10/02/09/blue-1382940_1280.jpg</span>)</span><br></pre></td></tr></table></figure>
+
+<h2 id="工具和资源"><a href="#工具和资源" class="headerlink" title="工具和资源"></a>工具和资源</h2><h3 id="Markdown-编辑器"><a href="#Markdown-编辑器" class="headerlink" title="Markdown 编辑器"></a>Markdown 编辑器</h3><p>好了，学习了上面的之后，是不是想马上动手试试。既然如此，那就再给大家推荐几款编辑器，让你的效率更上一层楼，<code>PS</code>：<strong>多学习快捷键使用，效果更佳哦！</strong></p>
+<ol>
+<li><a target="_blank" rel="noopener" href="https://www.typora.io/">Typora</a></li>
+</ol>
+<p>跨平台多功能编辑器，支持导出 <code>PDF</code>、<code>HTML</code> 等格式，不过目前已经开始收费，89 软妹币即可永久授权 3 台设备。</p>
+<p><img src= "/img/loading.svg" data-lazy-src="https://cunyu1943.github.io/img/article/efficiency-tools/typora.png"></p>
+<ol start="2">
+<li><a target="_blank" rel="noopener" href="https://marktext.app/">MarkText</a></li>
+</ol>
+<p>跨平台开源 <code>Markdown</code> 编辑器，支持斗图哦！</p>
+<p><img src= "/img/loading.svg" data-lazy-src="https://cunyu1943.github.io/img/article/efficiency-tools/marktext.png"></p>
+<ol start="3">
+<li><a target="_blank" rel="noopener" href="https://code.visualstudio.com/">Visual Studio Code</a></li>
+</ol>
+<p>微软出品，相信这是许多程序员电脑上必装的一个软件了。支持超多插件，需要插件使用效果更佳哦！</p>
+<p><img src= "/img/loading.svg" data-lazy-src="https://cunyu1943.github.io/img/article/efficiency-tools/vscode.png"></p>
+<h3 id="Markdown-插件"><a href="#Markdown-插件" class="headerlink" title="Markdown 插件"></a>Markdown 插件</h3><p>说到插件，就不得不推荐下浏览器插件 <a target="_blank" rel="noopener" href="https://markdown-here.com/get.html">Markdown Here</a> 了。</p>
+<p>通过该插件，可以用 <code>Markdown</code> 来写一封漂亮的电子邮件。通常邮件都是没有格式的，通过该插件，可以实现将 <code>Markdown</code> 语法的邮件转换为想要的效果。</p>
+<p>而使用步骤也很简单：</p>
+<ol>
+<li>在邮件客户端的富文本编辑器中编写 <code>Markdown</code> 格式的邮件内容。</li>
+<li>接着在编辑区右键后选择 <code>Markdown 转换</code> 即可。</li>
+</ol>
+<p><img src= "/img/loading.svg" data-lazy-src="https://cunyu1943.github.io/img/article/weekly-2023/Markdown-here.png"></p>
+<h3 id="Markdown-在线编辑器和转换器"><a href="#Markdown-在线编辑器和转换器" class="headerlink" title="Markdown 在线编辑器和转换器"></a>Markdown 在线编辑器和转换器</h3><ol>
+<li><a target="_blank" rel="noopener" href="https://editor.mdnice.com/">Markdown Nice</a></li>
+</ol>
+<p>支持自定义样式的 <code>Markdown</code> 编辑器，支持微信公众号、知乎和稀土掘金，也是我在日常运营公众号时使用最多的转换器之一了。</p>
+<p><img src= "/img/loading.svg" data-lazy-src="https://cunyu1943.github.io/img/article/efficiency-tools/markdownnice.png"></p>
+<ol start="2">
+<li><a target="_blank" rel="noopener" href="https://www.zybuluo.com/mdeditor">Cmd Markdown</a></li>
+</ol>
+<p>作业部落出品的在线 <code>Markdown</code> 编辑阅读器，支持以下功能：</p>
+<ul>
+<li>整理知识，学习笔记</li>
+<li>发布日记，杂文，所见所想</li>
+<li>撰写发布技术文稿（代码支持）</li>
+<li>撰写发布学术论文（<code>LaTeX</code> 公式支持）</li>
+</ul>
+<p><img src= "/img/loading.svg" data-lazy-src="https://cunyu1943.github.io/img/article/efficiency-tools/cmdmarkdown.png"></p>
+<ol start="3">
+<li><a target="_blank" rel="noopener" href="https://doocs.gitee.io/md">微信 Markdown 编辑器</a></li>
+</ol>
+<p><code>Doocs</code> 开源社区出品的一款高度简洁的微信 <code>Markdown</code> 编辑器。</p>
+<p><img src= "/img/loading.svg" data-lazy-src="https://cunyu1943.github.io/img/article/efficiency-tools/doocs.png"></p>
+<h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><ol>
+<li><code>Markdown</code> 兼容 <code>HTML</code> 相关语法。</li>
+<li>对于特殊字符，可以通过转义字符 <code>\</code> 将其显示出来。</li>
+</ol>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>总而言之，<code>Markdown</code> 是一种非常实用的文档编辑和网页写作语言，在多种不同的场景中都有着广泛的应用。希望本教程能够帮助初学者快速掌握 <code>Markdown</code> 的基本语法，并在实用中不断深化自己的理解。如果你有任何问题或建议，欢迎给我们留言并共同探讨。让我们一起更好地运用 <code>Markdown</code>，让文档编辑和网页写作更加高效流畅！</p>
+<div id="readmore-expansion" class=""></div></div>
+			<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
+			<script data-pjax src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
+			<script data-pjax>
+			var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
+			var isEncrypt = document.getElementById('hexo-blog-encrypt');
+			var allowMobile = false;
+			if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
+				try {
+					var plugin = new ReadmorePlugin();
+					plugin.init({
+						"type": "hexo",
+						"id": "readmore-container",
+						"name": "村雨遥",
+						"blogId": "19397-0379198090489-062",
+						"qrcode": "https://cunyu1943.github.io/JavaPark/img/site/wechatpublic.png",
+						"keyword": "验证码",
+						"random": "1",
+						"height": "auto",
+						"expires": "365",
+						"lockToc": "yes",
+						"interval": "60",
+						"baseUrl": ""
+					});
+				} catch(e) {
+					console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
+				}
+			}
+			</script>
+		
+        </article>
+        <div class="post-tools" id="post-tools">
+            <div class="post-tools-left">
+                
+                    <div class="post-reward">
+    <div class="reward-button button--animated" title="赞赏作者">
+        <script>
+            if (utils.isMobile()) { const showReward=()=> {
+                const rewardMain = document.querySelector('.reward-main');
+                rewardMain.style.display = 'flex';
+                document.addEventListener('touchstart', hideReward);
+                };
+                const hideReward = () => {
+                const rewardMain = document.querySelector('.reward-main');
+                rewardMain.style.display = 'none';
+                document.removeEventListener('touchstart', hideReward);
+                };
+                const rewardButton = document.querySelector('.reward-button');
+                rewardButton.addEventListener('touchstart', event => {
+                event.stopPropagation();
+                showReward();
+                });
+                }
+          </script>
+        <i class="fas fa-hamburger"></i> 
+        打赏作者
+    </div>
+    <div class="reward-main">
+        <ul class="reward-all">
+            <span class="reward-title">感谢你赐予我前进的力量</span>
+            <ul class="reward-group">
+                
+                    <li class="reward-item">
+                        <a href="/img/award/wechatpay.png" target="_blank">
+                            <img class="post-qr-code-img" src= "/img/loading.svg" data-lazy-src="/img/award/wechatpay.png" alt="微信">
+                        </a>
+                        <div class="post-qr-code-desc">微信</div>
+                    </li>
+                
+                
+                    <li class="reward-item">
+                        <a href="/img/award/alipay.png" target="_blank">
+                            <img class="post-qr-code-img" src= "/img/loading.svg" data-lazy-src="/img/award/alipay.png" alt="支付宝">
+                        </a>
+                        <div class="post-qr-code-desc">支付宝</div>
+                    </li>
+                
+            </ul>
+            <a class="reward-main-btn" href="/null">
+                <div class="reward-text">赞赏者名单</div>
+                <div class="reward-dec">因为你们的支持让我意识到写文章的价值🙏</div>
+            </a>
+        </ul>
+    </div>
+</div>
+                
+                <div class="share-link mobile">
+    <div class="share-qrcode">
+        <div class="share-button" title="使用手机访问这篇文章">
+            <i class="fas fa-qrcode"></i>
+        </div>
+        <div class="share-main">
+            <div class="share-main-all">
+                <div id="qrcode" title="https://cunyu1943.site/efficiency-tutorial/20230425-markdown-tutorial/">
+                </div>
+                <div class="reward-dec">使用手机访问这篇文章</div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            new QRCode(document.getElementById("qrcode"), "https://cunyu1943.site/efficiency-tutorial/20230425-markdown-tutorial/");
+        </script>
+    </div>
+</div>
+                <div class="share-link weibo"><a class="share-button" target="_blank"
+    href="https://service.weibo.com/share/share.php?title=如何用 Markdown 写出好看的文章&amp;url=https://cunyu1943.site/efficiency-tutorial/20230425-markdown-tutorial/&amp;pic=https://cdn.pixabay.com/photo/2017/07/31/14/45/code-2558220_960_720.jpg"
+    title="分享到微博" rel="noopener external nofollow noreferrer noopener">
+    <i class="fab fa-weibo" style="font-size:22px"></i>
+</a>
+</div>
+<div class="share-link copyurl">
+<div class="share-button" id="post-share-url" title="复制链接" onclick="acrylic.copyPageUrl()">
+    <i class="fas fa-link"></i>
+</div>
+</div>
+            </div>
+            <div class="post-tools-right">
+                <div class="tag_share">
+                    <div class="post-meta__tag-list">
+                        
+                            <a href="/tags/Markdown/" class="post-meta__tags">
+                                <span class="tags-punctuation">#</span>
+                                Markdown
+                                <span class="tagsPageCount">1</span>
+                            </a>
+                        
+                            <a href="/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/" class="post-meta__tags">
+                                <span class="tags-punctuation">#</span>
+                                效率工具
+                                <span class="tagsPageCount">1</span>
+                            </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="post-copyright">
+    <div class="post-copyright__author">
+        <a class="post-copyright__original" title="该文章为原创文章，注意版权协议">原创</a>
+        <a class="post-copyright-title" href="#">
+            <span>如何用 Markdown 写出好看的文章</span>
+        </a>
+    </div>
+    <div class="post-copyright__type">
+        <span class="post-copyright-info" id="post-copyright-url">
+            <a href="/efficiency-tutorial/20230425-markdown-tutorial/">https://cunyu1943.site/efficiency-tutorial/20230425-markdown-tutorial/</a>
+        </span>
+        <button class="post-copyright-copybtn" onclick="acrylic.copyPageUrl()">
+            <i class="fas fa-paste copy-btn"></i>
+        </button>
+    </div>
+    <div class="post-copyright__notice"><span class="post-copyright-info">本文是原创文章，采用 <a
+                href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a> 协议，完整转载请注明来自 <a
+                href="/">程序员村雨遥</a>
+            </span>
+        </div>
+</div>
+        <nav class="pagination-post" id="pagination">
+    
+        <div class="prev-post pull-left">
+            <a href="/weekly/2023/0422-0428/">
+                <div class="pagination-info">
+                    <div class="label">上一篇</div>
+                    <div class="prev_info">好物周刊#2：AI 写作助手</div>
+                </div>
+            </a>
+        </div>
+        <div class="next-post pull-right">
+            <a href="/weekly/2023/0415-0421/">
+                <div class="pagination-info">
+                    <div class="label">下一篇</div>
+                    <div class="next_info">好物周刊#1：提示工程师养成指南</div>
+                </div>
+            </a>
+        </div>
+    
+</nav>
+        
+            <div id="post-comment">
+    <div class="comment-head">
+        <div class="comment-headline">
+            <i class="fas fa-message fa-fw"></i>
+            <span> 评论</span>
+        </div>
+    </div>
+    <div class="comment-wrap">
+        <div id="comment"></div>
+        <script>
+    async function initComment(){
+        var initOptions = Object.assign(
+            {"envId":"https://acrylic.zeabur.app/","path":"window.location.pathname"},
+            {
+                el: '#comment',
+                onCommentLoaded: function() {
+                    GLOBALCONFIG.lightbox && acrylic.lightbox('#article-container img, #twikoo .tk-content img:not(.tk-owo-emotion)') 
+                }
+            }
+        )
+        await twikoo.init(initOptions)
+        
+            var countOptions = Object.assign(
+                {"envId":"https://acrylic.zeabur.app/","path":"window.location.pathname"},
+                { 
+                    urls: [window.location.pathname],
+                    includeReply: false
+                }
+            )
+            const res = await twikoo.getCommentsCount(countOptions)
+            try{
+                document.getElementById('twikoo-count').innerText = res[0].count
+            }catch (e) {
+                document.getElementById('twikoo-count').innerText = '加载错误'
+            }
+             
+    }
+</script>
+    </div>
+</div>
+            
+    </div>
+    <div class="aside-content" id="aside-content">
+    
+    
+        
+        <div class="card-widget card-info">
+    <div class="card-content">
+        <div class="card-info-avatar is-center">
+            <div class="author-info__sayhi" id="author-info__sayhi">
+            </div>
+            <div class="author-info__name">
+                村雨遥
+            </div>
+            <div class="author-info__description">这里有 Java 学习保姆级教程、面试总结、计算机基础、数据库、实战实践、效率工具、资源分享、程序人生等诸多内容……</div>
+        </div>
+    </div>
+    <div class="banner-button-group">
+        <a class="banner-button" target="_blank" rel="noopener" href="https://cunyu1943.blog.csdn.net">
+            <i class="fas fa-circle-chevron-right"></i>
+            <span class="banner-button-text">CSDN</span>
+        </a>
+    </div>
+    <div class="card-info-social-icons is-center">
+        
+            <a class="social-icon" href="/img/personal/wechat.png" title="微信">
+                <i class="fa-brands fa-weixin"></i>
+            </a>
+        
+            <a class="social-icon" target="_blank" rel="noopener" href="https://github.com/cunyu1943" title="Github">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        
+    </div>
+</div>
+     
+    
+    <div class="sticky_layout">
+        
+            <div class="card-widget" id="card-toc">
+    <div class="item-headline">
+        <i class="fas fa-bars"></i>
+        <span>文章目录</span>
+    </div>
+    <div class="toc-content" id="toc-content">
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AE%80%E4%BB%8B"><span class="toc-text">简介</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF-Markdown"><span class="toc-text">什么是 Markdown</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Markdown-%E7%9A%84%E4%BC%98%E7%82%B9"><span class="toc-text">Markdown 的优点</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Markdown-%E7%9A%84%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF"><span class="toc-text">Markdown 的应用场景</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95"><span class="toc-text">基本语法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A0%87%E9%A2%98"><span class="toc-text">标题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%97%E8%A1%A8"><span class="toc-text">列表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B2%97%E4%BD%93"><span class="toc-text">粗体</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%9C%E4%BD%93"><span class="toc-text">斜体</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%A0%E9%99%A4%E7%BA%BF"><span class="toc-text">删除线</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8B%E5%88%92%E7%BA%BF"><span class="toc-text">下划线</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%86%E5%89%B2%E7%BA%BF"><span class="toc-text">分割线</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BC%95%E7%94%A8"><span class="toc-text">引用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8A%E4%B8%8B%E6%A0%87"><span class="toc-text">上下标</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%AB%98%E4%BA%AE"><span class="toc-text">高亮</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%BB%E5%8A%A1%E5%88%97%E8%A1%A8"><span class="toc-text">任务列表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%9B%AE%E5%BD%95"><span class="toc-text">目录</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A1%A8%E6%A0%BC"><span class="toc-text">表格</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%AC%E5%BC%8F"><span class="toc-text">公式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E5%9D%97"><span class="toc-text">代码块</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%93%BE%E6%8E%A5%E4%B8%8E%E5%9B%BE%E7%89%87"><span class="toc-text">链接与图片</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B7%A5%E5%85%B7%E5%92%8C%E8%B5%84%E6%BA%90"><span class="toc-text">工具和资源</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Markdown-%E7%BC%96%E8%BE%91%E5%99%A8"><span class="toc-text">Markdown 编辑器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Markdown-%E6%8F%92%E4%BB%B6"><span class="toc-text">Markdown 插件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Markdown-%E5%9C%A8%E7%BA%BF%E7%BC%96%E8%BE%91%E5%99%A8%E5%92%8C%E8%BD%AC%E6%8D%A2%E5%99%A8"><span class="toc-text">Markdown 在线编辑器和转换器</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9"><span class="toc-text">注意事项</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-text">总结</span></a></li></ol>
+    </div>
+</div>
+            
+        
+            
+        <div class="card-widget heo-right-widget" id="card-wechat" style="background: #57bd6a ;">
+    <div id="flip-wrapper">
+        <div id="flip-content">
+            <div class="face">
+                <div class="left">
+                    <span class="title">公众号</span>
+                    <span class="desc">获取最新信息和文章 <i class="fa-solid fa-play"></i></span>
+                </div>
+            </div>
+            <div class="back face">
+                <div class="left">
+                    <span class="title">扫一扫</span>
+                    <span class="desc">精彩文章不容错过 <i class="fa-solid fa-play"></i></span>
+                </div>
+                <img class="nolazyload" src="/img/personal/wechatpublic.png">
+            </div>
+        </div>
+    </div>
+</div>
+     
+        
+            
+        <div class="card-widget card-recent-post">
+    <div class="item-headline">
+        <i class="fas fa-list-ol"></i>
+        <span>最近发布</span>
+    </div>
+    <div class="aside-list">
+        
+        
+            <div class="aside-list-item">
+                <a class="thumbnail" href="/dev-tutorial/20220731-exercise-websites/" title="计算机专业涨薪必备的几个网站，速看！">
+                    <img
+                        alt="计算机专业涨薪必备的几个网站，速看！"
+                        src="https://cdn.pixabay.com/photo/2016/06/15/16/16/man-1459246_1280.png">
+                </a>
+                <div class="content">
+                    
+                        <a class="article-recent_post_categories" href="/dev-tutorial/20220731-exercise-websites/">
+                            基础教程
+                        </a>
+                    
+                    <a class="title" href="/dev-tutorial/20220731-exercise-websites/" title="计算机专业涨薪必备的几个网站，速看！">
+                        计算机专业涨薪必备的几个网站，速看！
+                    </a>
+                </div>
+            </div>
+                
+        
+            <div class="aside-list-item">
+                <a class="thumbnail" href="/dev-tutorial/20221127-cmd/" title="连黑客大神也常用的一些 CMD 命令">
+                    <img
+                        alt="连黑客大神也常用的一些 CMD 命令"
+                        src="https://cdn.pixabay.com/photo/2017/06/05/11/01/airport-2373727_1280.jpg">
+                </a>
+                <div class="content">
+                    
+                        <a class="article-recent_post_categories" href="/dev-tutorial/20221127-cmd/">
+                            基础教程
+                        </a>
+                    
+                    <a class="title" href="/dev-tutorial/20221127-cmd/" title="连黑客大神也常用的一些 CMD 命令">
+                        连黑客大神也常用的一些 CMD 命令
+                    </a>
+                </div>
+            </div>
+                
+        
+            <div class="aside-list-item">
+                <a class="thumbnail" href="/weekly/2023/0527-0602/" title="好物周刊#7：浏览器标签页也可以这么酷">
+                    <img
+                        alt="好物周刊#7：浏览器标签页也可以这么酷"
+                        src="https://cdn.pixabay.com/photo/2016/10/27/10/36/arrow-1773950_1280.png">
+                </a>
+                <div class="content">
+                    
+                        <a class="article-recent_post_categories" href="/weekly/2023/0527-0602/">
+                            好物周刊
+                        </a>
+                    
+                    <a class="title" href="/weekly/2023/0527-0602/" title="好物周刊#7：浏览器标签页也可以这么酷">
+                        好物周刊#7：浏览器标签页也可以这么酷
+                    </a>
+                </div>
+            </div>
+                
+        
+            <div class="aside-list-item">
+                <a class="thumbnail" href="/weekly/2023/0520-0526/" title="好物周刊#6：系统下载最优解">
+                    <img
+                        alt="好物周刊#6：系统下载最优解"
+                        src="https://cdn.pixabay.com/photo/2021/07/01/11/20/windows-11-6379123_1280.png">
+                </a>
+                <div class="content">
+                    
+                        <a class="article-recent_post_categories" href="/weekly/2023/0520-0526/">
+                            好物周刊
+                        </a>
+                    
+                    <a class="title" href="/weekly/2023/0520-0526/" title="好物周刊#6：系统下载最优解">
+                        好物周刊#6：系统下载最优解
+                    </a>
+                </div>
+            </div>
+                
+        
+            <div class="aside-list-item">
+                <a class="thumbnail" href="/idea-tutorial/20230525-code-commit/" title="原来大厂都是这么提交代码的">
+                    <img
+                        alt="原来大厂都是这么提交代码的"
+                        src="https://cdn.pixabay.com/photo/2022/10/14/21/08/code-7522129_1280.png">
+                </a>
+                <div class="content">
+                    
+                        <a class="article-recent_post_categories" href="/idea-tutorial/20230525-code-commit/">
+                            基础教程
+                        </a>
+                    
+                    <a class="title" href="/idea-tutorial/20230525-code-commit/" title="原来大厂都是这么提交代码的">
+                        原来大厂都是这么提交代码的
+                    </a>
+                </div>
+            </div>
+            
+    </div>
+</div>
+     
+        
+    </div>
+</div> 
+</main>
+                <footer id="footer">
+                    <div id="footer_deal">
+    
+        <a class="deal_link" target="_blank" href="https://github.com/cunyu1943" rel="external nofollow noopener" title="Github">
+            <i class="fa-brands fa-github"></i>
+        </a>
+    
+        <a class="deal_link" target="_blank" href="https://gitee.com/cunyu1943" rel="external nofollow noopener" title="Gitee">
+            <i class="fa-solid fa-code-branch"></i>
+        </a>
+    
+        <a class="deal_link" href="mailto:747731461@qq.com" rel="external nofollow" title="Mail">
+            <i class="fa-solid fa-envelope"></i>
+        </a>
+    
+    <img class="footer_mini_logo" src= "/img/loading.svg" data-lazy-src="/img/personal/wechatpublic.png"
+        title="返回顶部" onclick="acrylic.toTop()">
+    
+        <a class="deal_link" target="_blank" href="https://cunyu1943.blog.csdn.net" rel="external nofollow noopener" title="CSDN">
+            <i class="fa-solid fa-c"></i>
+        </a>
+    
+        <a class="deal_link" target="_blank" href="https://www.nowcoder.com/users/806383223" rel="external nofollow noopener" title="牛客">
+            <i class="fa-solid fa-cow"></i>
+        </a>
+    
+        <a class="deal_link" target="_blank" href="https://www.zhihu.com/people/cunyu1943" rel="external nofollow noopener" title="知乎">
+            <i class="fa-brands fa-zhihu"></i>
+        </a>
+    
+</div>    
+<div id="heo-footer">
+    
+        <div class="footer-group">
+            <h3 class="footer-title">导航</h3>
+            <div class="footer-links">
+                
+                    <a class="footer-item" href="/archives/" title="归档" rel="noopener external nofollow noreferrer">归档</a>
+                
+                    <a class="footer-item" href="/categories/" title="分类" rel="noopener external nofollow noreferrer">分类</a>
+                
+                    <a class="footer-item" href="/tags/" title="标签" rel="noopener external nofollow noreferrer">标签</a>
+                    
+            </div>
+        </div>
+    
+        <div class="footer-group">
+            <h3 class="footer-title">专栏</h3>
+            <div class="footer-links">
+                
+                    <a class="footer-item" href="/categories/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B" title="基础教程" rel="noopener external nofollow noreferrer">基础教程</a>
+                
+                    <a class="footer-item" href="/categories/%E5%A5%BD%E7%89%A9%E5%91%A8%E5%88%8A" title="好物周刊" rel="noopener external nofollow noreferrer">好物周刊</a>
+                
+                    <a class="footer-item" href="/categories/%E4%BD%A0%E9%97%AE%E6%88%91%E7%AD%94" title="你问我答" rel="noopener external nofollow noreferrer">你问我答</a>
+                    
+            </div>
+        </div>
+    
+        <div class="footer-group">
+            <h3 class="footer-title">项目</h3>
+            <div class="footer-links">
+                
+                    <a class="footer-item" target="_blank" href="https://github.com/cunyu1943/JavaPark" title="JavaPark" rel="noopener external nofollow noreferrer noopener">JavaPark</a>
+                
+                    <a class="footer-item" target="_blank" href="https://github.com/cunyu1943/ebooks" title="免费书籍" rel="noopener external nofollow noreferrer noopener">免费书籍</a>
+                
+                    <a class="footer-item" target="_blank" href="https://github.com/cunyu1943/java-park-code-warehouse" title="代码仓库" rel="noopener external nofollow noreferrer noopener">代码仓库</a>
+                    
+            </div>
+        </div>
+    
+    
+        <div class="footer-group">
+            <div class="footer-title-group">
+                <h3 class="footer-title">友链</h3>
+                <a class="random-friends-btn" href="javascript:randomLinksList();" rel="external nofollow">
+                    <i class="fa-solid fa-arrow-rotate-right"></i>
+                </a>
+            </div>
+            <div class="footer-links" id="friend-links-in-footer">
+            </div>
+        </div>
+    
+</div>
+<div id="footer-section">
+    <div class="footer-section-links">
+        <div class="footer-section-left">
+            <div id="footer-section-tips">
+                <div class="copyright">©2018 - 2023 By 
+                    <a class="footer-section-link" href="/" rel="external nofollow">村雨遥</a>
+                    <a class="footer-section-link" href="https://github.com/hexo-theme-Acrylic/Hexo-Theme-Acrylic-Next" rel="external nofollow" target="_blank"> Theme By Acrylic-Next</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-section-right">
+            <a class="footer-section-link" href="/rss/">订阅</a>
+            
+            <a class="footer-section-link cc" target="_blank" href="https://creativecommons.org/licenses/by/4.0/" title="cc协议">
+                <i class="fa-solid fa-closed-captioning"></i>
+            </a>
+        </div>
+    </div>
+</div>
+                </footer>
+            </div>
+         
+        <div>
+    <script type="text/javascript" src="/js/utils.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
+    
+
+<script src="/lib/pjax.min.js"></script>
+
+
+    
+<script src="/lib/lazyload.min.js"></script>
+
+
+
+<script src="/lib/snackbar.min.js"></script>
+
+
+    
+<script src="/lib/view-image.min.js"></script>
+
+
+
+    
+<link rel="stylesheet" href="/lib/swiper.min.css">
+
+    
+<script src="/lib/swiper.min.js"></script>
+
+
+<div id="js-pjax">
+    
+    
+        <script async src="https://npm.elemecdn.com/penndu@1.0.0/bsz.js"></script>
+     
+</div>
+
+
+    
+<script src="/js/extend/covercolor/local.js"></script>
+
+        
+
+    <script>const links=[{"name":"Akilar","link":"https://akilar.top"},{"name":"Tianli","link":"https://tianli-blog.club"}];function travelling(){const link=links[utils.randomNum(links.length)];utils.snackbarShow('您即将前往 ⌈ '+link.name+' ⌋ , 安全性未知',false,3000);setTimeout(()=>{window.open(link.link,"_blank")},3000)};function randomLinksList(){let data='';for(let i=1;i<=3;i++){const link=links[utils.randomNum(links.length)];data+='<a class="footer-item" href="'+link.link+'" target="_blank" rel="noopener nofollow">'+link.name+'</a>'};document.getElementById('friend-links-in-footer').innerHTML=data + '<a class="footer-item" href="/links/">更多</a>'};</script>
+
+
+    
+<script src="/js/extend/console/console.js"></script>
+
+
+    <script>
+  let pjaxSelectors = [
+    'title',
+    '#body-wrap',
+    '#site-config',
+    'meta[name="description"]',
+    '#js-pjax'
+  ]
+  
+  const pjax = new Pjax({
+    elements: 'a:not([target="_blank"])',
+    selectors: pjaxSelectors,
+    cacheBust: false,
+    analytics: false,
+    scrollRestoration: false
+  })
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+      const newScript = document.createElement('script')
+      const content = item.text || item.textContent || item.innerHTML || ""
+      Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+      newScript.appendChild(document.createTextNode(content))
+      item.parentNode.replaceChild(newScript, item)
+  })
+
+  document.addEventListener('pjax:error', (e) => {
+    if (e.request.status === 404) {
+      pjax.loadUrl('/404.html')
+    }
+  })
+</script>
+    
+</div>
+        
+    <div id="local-search">
+    <div class="search-dialog">
+        <nav class="search-nav">
+            <span class="search-dialog-title">搜索</span>
+            <button class="search-close-button">
+                <i class="fas fa-times"></i>
+            </button>
+        </nav>
+        <div id="loading-database">
+            <i class="fas fa-spinner fa-pulse"></i>
+            <span>加载中</span>
+        </div>
+        <div class="search-wrap">
+            <div class="search-box">
+                <input class="search-box-input" placeholder="输入关键词快速查找" type="text" id="search-input" autocomplete="off" spellcheck="false" autocorrect="off" autocapitalize="off">
+            </div>
+            <div id="loading-status"></div>
+            <div id="search-results"></div>
+        </div>
+    </div>
+    <div id="search-mask"></div>
+</div>
+    
+<link rel="stylesheet" href="/css/search/local-search.css">
+
+    
+<script src="/js/extend/search/local-search.js"></script>
+
+
+     
+        <div class="needEndHide" id="nav-music" onclick="acrylic.musicToggle()">
+    <div id="nav-music-hoverTips">音乐已暂停</div>
+    <meting-js id="3792300832" server="tencent" type="playlist" mutex="true"
+        preload="none" data-lrctype="0" order="random" theme="var(--heo-main)"></meting-js>
+</div>
+    
+    </body>
+</html>
+<script>const posts=["dev-tutorial/20220731-exercise-websites/","dev-tutorial/20221127-cmd/","weekly/2023/0527-0602/","weekly/2023/0520-0526/","idea-tutorial/20230525-code-commit/","weekly/2023/0513-0519/","weekly/2023/0506-0512/","weekly/2023/0429-0505/","weekly/2023/0422-0428/","efficiency-tutorial/20230425-markdown-tutorial/","weekly/2023/0415-0421/","QA/20230402-java-basic-exercise/","blog-tutorial/20220401-hexo/","idea-tutorial/20220202-idea-guide/"];function toRandomPost(){ window.pjax ? pjax.loadUrl('/'+posts[Math.floor(Math.random()*posts.length)]) : window.open('/'+posts[Math.floor(Math.random()*posts.length)], "_self"); };</script>

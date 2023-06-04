@@ -279,8 +279,341 @@
       </tags>
   </entry>
   <entry>
+    <title>计算机专业涨薪必备的几个网站，速看！</title>
+    <url>/dev-tutorial/20220731-exercise-websites/</url>
+    <content><![CDATA[<div id="readmore-container"><blockquote>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+<p>原文：<a href="https://mp.weixin.qq.com/s/GGoYITwL0Symiqbi257kvA">https://mp.weixin.qq.com/s/GGoYITwL0Symiqbi257kvA</a></p>
+</blockquote>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>刚学习编程时，你是不是很烦恼该去哪儿找找题目来练习下，看看自己学的怎么样。有或者在找工作时，需要准备面试，但是又不知道该去哪儿刷题？针对这个情况，今天我就来给大家分享几个可以在线练习算法和面试题的网站，为大家找工作助力！</p>
+<h2 id="PTA"><a href="#PTA" class="headerlink" title="PTA"></a>PTA</h2><p><img src="https://cunyu1943.github.io/img/article/dev-tutorial/a6fcd5cf60758ffb36cb9af286268e9b.png"></p>
+<ul>
+<li><a href="https://pintia.cn/">地址</a></li>
+</ul>
+<p>程序设计类实验辅助教学平台，由 7594 位来自 889 高校老师共同创建，囊括了 215679 道高质量题目，而且截止本文写作时已有 3137414 位注册用户。不过里边主要是针对 C、C++ 语言来进行答题，关于更多语言答题，还在进一步扩展中。<br>如果你在学习 C&#x2F;C++ 语言，那么不妨进入他们，和各个高校的学子一起在线拼题吧。</p>
+<h2 id="LeetCode-美国站"><a href="#LeetCode-美国站" class="headerlink" title="LeetCode 美国站"></a>LeetCode 美国站</h2><p><img src="https://cunyu1943.github.io/img/article/dev-tutorial/360b7331438a65a9d9beb61aad44b197.png"></p>
+<ul>
+<li><a href="https://leetcode.com/">地址</a></li>
+</ul>
+<p>全球极客挚爱的技术成长平台，与其说国内在用，还不如说是因为国外一线科技公司如谷歌、评估、Meta 等公司都在这里选拔人才，所以才引入的国内。如果的英语能力还 OK，那么强烈推荐你来这里练习算法，和来自世界各地的程序员们 Battle 一下，谁才是王者！</p>
+<h2 id="LeetCode-中国站"><a href="#LeetCode-中国站" class="headerlink" title="LeetCode 中国站"></a>LeetCode 中国站</h2><p><img src="https://cunyu1943.github.io/img/article/dev-tutorial/e56959e6d975c8fb5e064eecb22152d5.png"></p>
+<ul>
+<li><a href="https://leetcode.cn/">地址</a></li>
+</ul>
+<p>当然了，除了美国站，LeetCode 还有中国站，相当于将美国站的内容翻译后搬运过来，但是又在此基础上进一步扩展了业务，加入了许多付费课程。如果你对自己的英语实在不自信，那么这里也不失为一个好去处。</p>
+<h2 id="牛客网"><a href="#牛客网" class="headerlink" title="牛客网"></a>牛客网</h2><p><img src="https://cunyu1943.github.io/img/article/dev-tutorial/e885b214e9203bfef740fef7a1a23c93.png"></p>
+<ul>
+<li><a href="https://www.nowcoder.com/">地址</a></li>
+</ul>
+<p>牛客网是一个集笔面试系统、题库、课程教育、社群交流、招聘内推于一体的招聘类网站。牛客向企业提供校园招聘&amp;技术人才招聘一站式解决方案服务，主要包括招聘渠道服务招聘SaaS工具服务（笔、面试，招聘传播服务（技术竞赛广告、线上招聘专场、牛客职播）等。<br>除此之外，牛客网题库中还包含了几万道题目，内容覆盖笔试题解析、面试技巧和机器学习等。<br>如果你正在准备校招或者准备换工作，那么强烈推荐你多去逛逛这个网站，不管是刷题也好，还是看看经验贴，没准儿面试的时候你就会在牛客进行。</p>
+<h2 id="炼码"><a href="#炼码" class="headerlink" title="炼码"></a>炼码</h2><p><img src="https://cunyu1943.github.io/img/article/dev-tutorial/ab94245a4e65ae241496f0a2a3c2340c.png"></p>
+<ul>
+<li><a href="https://www.lintcode.com/">地址</a></li>
+</ul>
+<p>通过在线实操的方式，提升你的编程能力，从而轻松斩获名企 Offer。<br>这里不仅有实操题目，还有各种精选题目集，更有针对热门编程语言如 Python、Java、SQL 等的学习教程，更有码力评测栏目，快来试试你的码里处于什么段位吧！</p>
+<h2 id="赛码"><a href="#赛码" class="headerlink" title="赛码"></a>赛码</h2><p><img src="https://cunyu1943.github.io/img/article/dev-tutorial/98bf365924b164df10001725fc432632.png"></p>
+<ul>
+<li><a href="https://www.acmcoder.com/">地址</a></li>
+</ul>
+<p>一个免费在线考试系统、在线面试系统，稳定专业且易用。里边汇聚了腾讯、阿里、字节跳动、百度、京东、小米、华为等一线互联网的真题，如果你参加过校招，那么你肯定不会陌生这个网站，因为会有好多公司都会选择在这里进行笔试。</p>
+<h2 id="百面网"><a href="#百面网" class="headerlink" title="百面网"></a>百面网</h2><p><img src="https://cunyu1943.github.io/img/article/dev-tutorial/3eb2af5af5884eea42a5636974291b08.png"></p>
+<ul>
+<li><a href="http://www.100mian.com/">地址</a></li>
+</ul>
+<p>IT 公司面试神器，这里不仅提供了 300 本计算机编程经典书籍免费下载，还有针对互联网各个岗位的面试题，如果你也刚好需要找工作，不妨来这里看看经验和面试题。</p>
+<h2 id="hihoCoder"><a href="#hihoCoder" class="headerlink" title="hihoCoder"></a>hihoCoder</h2><p><img src="https://cunyu1943.github.io/img/article/dev-tutorial/213c84cd7d25d1bd89170749c5d8b9c3.png"></p>
+<ul>
+<li><a href="http://hihocoder.com/">地址</a></li>
+</ul>
+<p>通过高水平的程序设计比赛提升编程水平，得到名企offer。致力于成为编程者与企业之间交流沟通的桥梁，同时也努力为编程爱好者提供提高自身编程水平的场所。</p>
+<h2 id="7-月在线"><a href="#7-月在线" class="headerlink" title="7 月在线"></a>7 月在线</h2><p>[外链图片转存失败,源站可能有防盗链机制,建议将图片保存下来直接上传(img-OBcSitlH-1655812857762)(<a href="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/29eb77b4d7d540dc8dd80d47c0fb07f0~tplv-k3u1fbpfcp-watermark.image?)%5D">https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/29eb77b4d7d540dc8dd80d47c0fb07f0~tplv-k3u1fbpfcp-watermark.image?)]</a></p>
+<ul>
+<li><a href="https://www.julyedu.com/question/index">地址</a></li>
+</ul>
+<p>一站式刷遍目前国内各大互联网公司人工智能笔试面试题，涵盖了所有考点，解析精准详尽。<br>站中主要分为笔试练习、面试大题、在线编程三大模块，而各个模块下又分别设置了：人工智能、数据结构与算法、数理逻辑、编程开发、计算机基础等子模块，可以说是非常详细了。</p>
+<h2 id="N-诺"><a href="#N-诺" class="headerlink" title="N 诺"></a>N 诺</h2><p><img src="https://cunyu1943.github.io/img/article/dev-tutorial/75a49bd80897f5102ecdf3a5e111abbb.png"></p>
+<ul>
+<li><a href="https://noobdream.com/">地址</a></li>
+</ul>
+<p>如果你有计算机学习考研方面的打算，那么推荐你一定要上去看看，这可以说是计算机学习考研的人所必备的神器。里面提供了许多免费的的学习资源。<br>网站设有有数学、英语、政治、C 语言、数据结构、操作系统、网络、组成原理、数据库等课程的专区，还有上岸的名校大佬来这里分享自己的考研经验。如果你苦于找考研方面的经验、试题等资料，那么不妨来这里看看吧！</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>以上就是我在日常冲浪中发现的几个刷题网站了，基本上是涵盖了学习和工作过程中的需求吧。而且针对不同需要可以选择不同的网站进去学习，如果你要考研学习，那么可以去看看 N 诺；如果你只是为了提升算法，那么 LeetCode 可能更适合你；而如果你要求职找工作，那么牛客网、赛码网等常见面试网站就可以多逛逛；而如果你是想找人工智能方面的面试题，那么不妨去七月在线瞅一眼。</p>
+<div id="readmore-expansion" class=""></div></div>
+			<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
+			<script data-pjax src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
+			<script data-pjax>
+			var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
+			var isEncrypt = document.getElementById('hexo-blog-encrypt');
+			var allowMobile = false;
+			if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
+				try {
+					var plugin = new ReadmorePlugin();
+					plugin.init({
+						"type": "hexo",
+						"id": "readmore-container",
+						"name": "村雨遥",
+						"blogId": "19397-0379198090489-062",
+						"qrcode": "https://cunyu1943.github.io/JavaPark/img/site/wechatpublic.png",
+						"keyword": "验证码",
+						"random": "1",
+						"height": "auto",
+						"expires": "365",
+						"lockToc": "yes",
+						"interval": "60",
+						"baseUrl": ""
+					});
+				} catch(e) {
+					console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
+				}
+			}
+			</script>
+		]]></content>
+      <categories>
+        <category>基础教程</category>
+      </categories>
+      <tags>
+        <tag>刷题</tag>
+        <tag>开发工具</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>连黑客大神也常用的一些 CMD 命令</title>
+    <url>/dev-tutorial/20221127-cmd/</url>
+    <content><![CDATA[<div id="readmore-container"><blockquote>
+<p>不要哀求，学会争取。若是如此，终有所获。<br>原文：<a href="https://mp.weixin.qq.com/s/LAZY7sMiwzNwimTpmlh0rw">https://mp.weixin.qq.com/s/LAZY7sMiwzNwimTpmlh0rw</a></p>
+</blockquote>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>作为一个程序员，可能更多的是在 <code>Linux</code> 中使用命令来操作。但在日常使用 <code>Windows</code> 的过程中，或多或少会使用到命令提示符窗口，也就是 <code>Windows</code> 中的 <code>CMD</code>。这个时候，掌握一些常用的命令就尤为重要了，一方面方便自己使用，另一方面，也方便给电脑小白露一手 👀。那接下来就来看看，<code>CMD</code> 中最常用的一些命令。</p>
+<h2 id="如何打开命令提示符窗口"><a href="#如何打开命令提示符窗口" class="headerlink" title="如何打开命令提示符窗口"></a>如何打开命令提示符窗口</h2><p>打开的方式很多，这里例举常用的 <code>5</code> 种。</p>
+<ol>
+<li><strong>方法 1</strong></li>
+</ol>
+<p><code>Win + R</code> 快捷键打开运行，输入 <code>cmd</code> 后回车。</p>
+<ol start="2">
+<li><strong>方法 2</strong></li>
+</ol>
+<p>依次打开开始菜单 -&gt; <code>Windows</code> 系统（<code>Windows</code> 工具） -&gt; 命令提示符。</p>
+<ol start="3">
+<li><strong>方法 3</strong></li>
+</ol>
+<p>打开资源管理器，然后在地址栏输入 <code>cmd</code> 后回车。</p>
+<ol start="4">
+<li><strong>方法 4</strong></li>
+</ol>
+<p>鼠标右键点击开始菜单的 <code>Win</code> 图标，找到命令提示符（终端）并进入。</p>
+<ol start="5">
+<li><strong>方法 5</strong></li>
+</ol>
+<p>在任务栏中的搜索栏中搜索 <code>cmd</code> 并打开。</p>
+<h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><h3 id="目录操作"><a href="#目录操作" class="headerlink" title="目录操作"></a>目录操作</h3><ol>
+<li><strong>磁盘切换</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">盘符 + 冒号</span><br></pre></td></tr></table></figure>
+
+<p>如 <code>D:</code> 就代码进入 <code>D</code> 盘。</p>
+<p><img src="https://cunyu1943.github.io/img/article/dev-tutorial/09414a722bdc4ecb919d9c12a20cbeff.png"></p>
+<ol start="2">
+<li><strong>进入指定目录</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd 目录</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://cunyu1943.github.io/img/article/dev-tutorial/1ef51757d619425383bb0e847186d46b.png"></p>
+<ol start="3">
+<li><strong>返回磁盘根目录</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd \</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://cunyu1943.github.io/img/article/dev-tutorial/9ab01d4d9b7c4ecea2deb6985bd3ba9e.png"></p>
+<ol start="4">
+<li><strong>返回上级目录</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ..</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://cunyu1943.github.io/img/article/dev-tutorial/5dea8e9f04c34e91869c7356b32bfab2.png"></p>
+<ol start="5">
+<li><strong>新建目录</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">md 目录名</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://cunyu1943.github.io/img/article/dev-tutorial/6617f0f262cd44b39bc6e75f7146e0e7.png"></p>
+<ol start="6">
+<li><strong>查看当前目录中内容</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">dir</span><br></pre></td></tr></table></figure>
+<p><img src="https://cunyu1943.github.io/img/article/dev-tutorial/bddda2e75fb6487b9e0631b00f52b5ff.png"></p>
+<ol start="7">
+<li><strong>查看指定目录结构</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">tree 目录</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://cunyu1943.github.io/img/article/dev-tutorial/aaf0e471c2434efa905e0d160b1b060e.png"></p>
+<ol start="8">
+<li><strong>删除目录</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">rd 目录名</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://cunyu1943.github.io/img/article/dev-tutorial/c422e4c274ba4e4eab773b94763c9f06.png"></p>
+<ol start="9">
+<li><strong>复制文件</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">copy 源文件 目标文件</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://cunyu1943.github.io/img/article/dev-tutorial/45336c8adbc94cb4ae00a8754280930e.png"></p>
+<ol start="10">
+<li><strong>删除文件</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">del 文件名</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://cunyu1943.github.io/img/article/dev-tutorial/98b36e84ffaf4292a6cd97bdc98aa4fd.png"></p>
+<h3 id="开关机操作"><a href="#开关机操作" class="headerlink" title="开关机操作"></a>开关机操作</h3><ol>
+<li><p><strong>关机</strong></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">shutdown /s</span><br></pre></td></tr></table></figure>
+
+</li>
+<li><p><strong>重启</strong></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">shutdown /r</span><br></pre></td></tr></table></figure>
+
+</li>
+<li><p><strong>注销</strong></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">shutdown /l</span><br></pre></td></tr></table></figure>
+
+</li>
+<li><p><strong>休眠</strong></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">shutdown /h /f</span><br></pre></td></tr></table></figure>
+
+</li>
+<li><p><strong>定时关机</strong></p>
+</li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">shutdown /s /t 时间（秒）</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://cunyu1943.github.io/img/article/dev-tutorial/e88262049fb2404894e0137de05d83b5.png"></p>
+<ol start="6">
+<li><strong>取消关机</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">shutdown /a</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://cunyu1943.github.io/img/article/dev-tutorial/e77917423cde4e07b1552897ee9497d7.png"></p>
+<h3 id="网络操作"><a href="#网络操作" class="headerlink" title="网络操作"></a>网络操作</h3><ol>
+<li><strong>测试网络延迟和丢包率</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">ping ip/域名</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://cunyu1943.github.io/img/article/dev-tutorial/b90c248998964ff79241b7d5a4a5dba9.png"></p>
+<ol start="2">
+<li><strong>查看本机 ip 地址</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">ipconfig</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://cunyu1943.github.io/img/article/dev-tutorial/68a68e8dc08745ee90b562feb5120de5.png"></p>
+<ol start="3">
+<li><strong>清除本地 DNS 缓存</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">ipconfig /flushdns</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://cunyu1943.github.io/img/article/dev-tutorial/2d7f861853f44810821c50208d9d88eb.png"></p>
+<ol start="4">
+<li><strong>路由追踪</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">tracert ip/域名</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://cunyu1943.github.io/img/article/dev-tutorial/280ecadf38664625b5be11c324f170c1.png"></p>
+<h3 id="进程-x2F-服务操作"><a href="#进程-x2F-服务操作" class="headerlink" title="进程&#x2F;服务操作"></a>进程&#x2F;服务操作</h3><ol>
+<li><strong>查看当前运行的进程</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">tasklist</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://cunyu1943.github.io/img/article/dev-tutorial/074848735de8420cab1ba252e95fa575.png"></p>
+<ol start="2">
+<li><strong>运行指定程序或命令</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">start 程序名</span><br></pre></td></tr></table></figure>
+
+
+
+<ol start="3">
+<li><strong>按名称结束进程</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">taskkill /im 进程名</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://cunyu1943.github.io/img/article/dev-tutorial/39d7659d45884808b26da56f85afca97.png"></p>
+<ol start="4">
+<li><strong>按 PID 结束进程</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">taskkill /pid PID</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://cunyu1943.github.io/img/article/dev-tutorial/fb1d63432bae44d18462e68655232300.png"></p>
+<ol start="5">
+<li><strong>查看当前运行的服务</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">net start</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://cunyu1943.github.io/img/article/dev-tutorial/925f0da34e374d1b8b27799209af0293.png"></p>
+<ol start="6">
+<li><strong>启动指定服务</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">net start 服务名</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://cunyu1943.github.io/img/article/dev-tutorial/4ff4342792f3439e934eb03776188aff.png"></p>
+<ol start="7">
+<li><strong>停止指定服务</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">net stop 服务名</span><br></pre></td></tr></table></figure>
+<p><img src="https://cunyu1943.github.io/img/article/dev-tutorial/867c5f3845c34e9e9332612406020dc1.png"></p>
+<h3 id="其他操作"><a href="#其他操作" class="headerlink" title="其他操作"></a>其他操作</h3><ol>
+<li><strong>清除屏幕</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cls</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://cunyu1943.github.io/img/article/dev-tutorial/89af78bbcd7a48d6be489b09a0505ea0.png" alt="清除前"><br><img src="https://cunyu1943.github.io/img/article/dev-tutorial/871450fabd614115ac62f4d8cc552871.png" alt="清楚后"></p>
+<ol start="2">
+<li><strong>退出</strong></li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">exit</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>以上就是今天所带来的 <code>Windows</code> 中常用的 <code>CMD</code> 命令了，对付日常使用完全够了，更多的一些命令用到的频率较低，可以在有需要的时候再去具体搜索。</p>
+<p>如果觉得对各位朋友有用的话，不妨点个赞再走呀 ~</p>
+<div id="readmore-expansion" class=""></div></div>
+			<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
+			<script data-pjax src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
+			<script data-pjax>
+			var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
+			var isEncrypt = document.getElementById('hexo-blog-encrypt');
+			var allowMobile = false;
+			if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
+				try {
+					var plugin = new ReadmorePlugin();
+					plugin.init({
+						"type": "hexo",
+						"id": "readmore-container",
+						"name": "村雨遥",
+						"blogId": "19397-0379198090489-062",
+						"qrcode": "https://cunyu1943.github.io/JavaPark/img/site/wechatpublic.png",
+						"keyword": "验证码",
+						"random": "1",
+						"height": "auto",
+						"expires": "365",
+						"lockToc": "yes",
+						"interval": "60",
+						"baseUrl": ""
+					});
+				} catch(e) {
+					console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
+				}
+			}
+			</script>
+		]]></content>
+      <categories>
+        <category>基础教程</category>
+      </categories>
+      <tags>
+        <tag>开发工具</tag>
+        <tag>CMD</tag>
+        <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>如何用 Markdown 写出好看的文章</title>
-    <url>/efficiency-tools/20230425-markdown-tutorial/</url>
+    <url>/efficiency-tutorial/20230425-markdown-tutorial/</url>
     <content><![CDATA[<div id="readmore-container"><blockquote>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
 <p>原文：<a href="https://mp.weixin.qq.com/s/qIptV_MEGjsUjw_zqvGn_A">https://mp.weixin.qq.com/s/qIptV_MEGjsUjw_zqvGn_A</a></p>
