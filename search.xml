@@ -3590,15 +3590,15 @@
 </thead>
 <tbody><tr>
 <td>cust10</td>
-<td><a href="mailto:&#99;&#117;&#115;&#116;&#x31;&#x30;&#64;&#99;&#117;&#x73;&#116;&#46;&#x63;&#111;&#109;">&#99;&#117;&#115;&#116;&#x31;&#x30;&#64;&#99;&#117;&#x73;&#116;&#46;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#x63;&#x75;&#x73;&#116;&#49;&#48;&#64;&#99;&#x75;&#115;&#116;&#x2e;&#x63;&#x6f;&#109;">&#x63;&#x75;&#x73;&#116;&#49;&#48;&#64;&#99;&#x75;&#115;&#116;&#x2e;&#x63;&#x6f;&#109;</a></td>
 </tr>
 <tr>
 <td>cust1</td>
-<td><a href="mailto:&#99;&#117;&#115;&#x74;&#49;&#64;&#99;&#x75;&#115;&#116;&#x2e;&#x63;&#x6f;&#x6d;">&#99;&#117;&#115;&#x74;&#49;&#64;&#99;&#x75;&#115;&#116;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x63;&#117;&#115;&#x74;&#49;&#x40;&#x63;&#x75;&#x73;&#116;&#46;&#x63;&#x6f;&#x6d;">&#x63;&#117;&#115;&#x74;&#49;&#x40;&#x63;&#x75;&#x73;&#116;&#46;&#x63;&#x6f;&#x6d;</a></td>
 </tr>
 <tr>
 <td>cust2</td>
-<td><a href="mailto:&#99;&#x75;&#115;&#116;&#50;&#x40;&#99;&#x75;&#115;&#x74;&#46;&#99;&#x6f;&#109;">&#99;&#x75;&#115;&#116;&#50;&#x40;&#99;&#x75;&#115;&#x74;&#46;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x63;&#x75;&#x73;&#x74;&#50;&#64;&#x63;&#117;&#x73;&#x74;&#46;&#99;&#x6f;&#x6d;">&#x63;&#x75;&#x73;&#x74;&#50;&#64;&#x63;&#117;&#x73;&#x74;&#46;&#99;&#x6f;&#x6d;</a></td>
 </tr>
 </tbody></table>
 <h3 id="问题-33"><a href="#问题-33" class="headerlink" title="问题"></a>问题</h3><p>返回购买 prod_id 为 BR01 的产品的所有顾客的电子邮件（Customers 表中的 cust_email），结果无需排序。 </p>
@@ -3611,13 +3611,13 @@
 </tr>
 </thead>
 <tbody><tr>
-<td><a href="mailto:&#99;&#117;&#115;&#x74;&#x31;&#48;&#64;&#99;&#117;&#115;&#116;&#46;&#x63;&#111;&#109;">&#99;&#117;&#115;&#x74;&#x31;&#48;&#64;&#99;&#117;&#115;&#116;&#46;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#x63;&#x75;&#115;&#116;&#x31;&#x30;&#64;&#x63;&#117;&#115;&#116;&#x2e;&#x63;&#111;&#109;">&#x63;&#x75;&#115;&#116;&#x31;&#x30;&#64;&#x63;&#117;&#115;&#116;&#x2e;&#x63;&#111;&#109;</a></td>
 </tr>
 <tr>
-<td><a href="mailto:&#x63;&#x75;&#115;&#116;&#49;&#64;&#x63;&#x75;&#115;&#x74;&#46;&#99;&#111;&#109;">&#x63;&#x75;&#115;&#116;&#49;&#64;&#x63;&#x75;&#115;&#x74;&#46;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#99;&#x75;&#x73;&#116;&#x31;&#64;&#99;&#x75;&#115;&#116;&#x2e;&#x63;&#111;&#109;">&#99;&#x75;&#x73;&#116;&#x31;&#64;&#99;&#x75;&#115;&#116;&#x2e;&#x63;&#111;&#109;</a></td>
 </tr>
 </tbody></table>
-<h3 id="示例解析-13"><a href="#示例解析-13" class="headerlink" title="示例解析"></a>示例解析</h3><p>产品 id 为 BR01 的订单 a0001 和 a002 的下单顾客 cust10 和 cust1 的顾客email cust_email 分别是：<a href="mailto:&#99;&#117;&#x73;&#116;&#49;&#48;&#x40;&#99;&#117;&#x73;&#116;&#46;&#x63;&#111;&#109;">&#99;&#117;&#x73;&#116;&#49;&#48;&#x40;&#99;&#117;&#x73;&#116;&#46;&#x63;&#111;&#109;</a> 、<a href="mailto:&#99;&#117;&#x73;&#116;&#49;&#x40;&#x63;&#117;&#x73;&#x74;&#x2e;&#99;&#x6f;&#109;">&#99;&#117;&#x73;&#116;&#49;&#x40;&#x63;&#117;&#x73;&#x74;&#x2e;&#99;&#x6f;&#109;</a></p>
+<h3 id="示例解析-13"><a href="#示例解析-13" class="headerlink" title="示例解析"></a>示例解析</h3><p>产品 id 为 BR01 的订单 a0001 和 a002 的下单顾客 cust10 和 cust1 的顾客email cust_email 分别是：<a href="mailto:&#99;&#x75;&#x73;&#116;&#49;&#48;&#64;&#99;&#x75;&#x73;&#x74;&#46;&#99;&#x6f;&#x6d;">&#99;&#x75;&#x73;&#116;&#49;&#48;&#64;&#99;&#x75;&#x73;&#x74;&#46;&#99;&#x6f;&#x6d;</a> 、<a href="mailto:&#99;&#x75;&#115;&#x74;&#x31;&#64;&#x63;&#117;&#115;&#116;&#x2e;&#x63;&#x6f;&#109;">&#99;&#x75;&#115;&#x74;&#x31;&#64;&#x63;&#117;&#115;&#116;&#x2e;&#x63;&#x6f;&#109;</a></p>
 <h3 id="示例-33"><a href="#示例-33" class="headerlink" title="示例"></a>示例</h3><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> IF <span class="keyword">EXISTS</span> `OrderItems`;</span><br><span class="line">  <span class="keyword">CREATE</span> <span class="keyword">TABLE</span> IF <span class="keyword">NOT</span> <span class="keyword">EXISTS</span> `OrderItems`(</span><br><span class="line">    prod_id <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;产品id&#x27;</span>,</span><br><span class="line">    order_num <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;商品订单号&#x27;</span></span><br><span class="line">  );</span><br><span class="line">  <span class="keyword">INSERT</span> `OrderItems` <span class="keyword">VALUES</span> (<span class="string">&#x27;BR01&#x27;</span>,<span class="string">&#x27;a0001&#x27;</span>),(<span class="string">&#x27;BR01&#x27;</span>,<span class="string">&#x27;a0002&#x27;</span>),(<span class="string">&#x27;BR02&#x27;</span>,<span class="string">&#x27;a0003&#x27;</span>),(<span class="string">&#x27;BR02&#x27;</span>,<span class="string">&#x27;a0013&#x27;</span>);</span><br><span class="line"></span><br><span class="line">  <span class="keyword">DROP</span> <span class="keyword">TABLE</span> IF <span class="keyword">EXISTS</span> `Orders`;</span><br><span class="line">  <span class="keyword">CREATE</span> <span class="keyword">TABLE</span> IF <span class="keyword">NOT</span> <span class="keyword">EXISTS</span> `Orders`(</span><br><span class="line">    order_num <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;商品订单号&#x27;</span>,</span><br><span class="line">    cust_id <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;顾客id&#x27;</span>,</span><br><span class="line">    order_date <span class="type">TIMESTAMP</span> <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;下单时间&#x27;</span></span><br><span class="line">  );</span><br><span class="line">  <span class="keyword">INSERT</span> `Orders` <span class="keyword">VALUES</span> (<span class="string">&#x27;a0001&#x27;</span>,<span class="string">&#x27;cust10&#x27;</span>,<span class="string">&#x27;2022-01-01 00:00:00&#x27;</span>),(<span class="string">&#x27;a0002&#x27;</span>,<span class="string">&#x27;cust1&#x27;</span>,<span class="string">&#x27;2022-01-01 00:01:00&#x27;</span>),(<span class="string">&#x27;a0003&#x27;</span>,<span class="string">&#x27;cust1&#x27;</span>,<span class="string">&#x27;2022-01-02 00:00:00&#x27;</span>),(<span class="string">&#x27;a0013&#x27;</span>,<span class="string">&#x27;cust2&#x27;</span>,<span class="string">&#x27;2022-01-01 00:20:00&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> IF <span class="keyword">EXISTS</span> `Customers`;</span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> IF <span class="keyword">NOT</span> <span class="keyword">EXISTS</span> `Customers`(</span><br><span class="line">    cust_id <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;顾客id&#x27;</span>,</span><br><span class="line">    cust_email <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;顾客email&#x27;</span></span><br><span class="line">  );</span><br><span class="line"><span class="keyword">INSERT</span> `Customers` <span class="keyword">VALUES</span> (<span class="string">&#x27;cust10&#x27;</span>,<span class="string">&#x27;cust10@cust.com&#x27;</span>),(<span class="string">&#x27;cust1&#x27;</span>,<span class="string">&#x27;cust1@cust.com&#x27;</span>),(<span class="string">&#x27;cust2&#x27;</span>,<span class="string">&#x27;cust2@cust.com&#x27;</span>);</span><br></pre></td></tr></table></figure>
 
 
@@ -4256,15 +4256,15 @@
 </thead>
 <tbody><tr>
 <td>cust10</td>
-<td><a href="mailto:&#x63;&#x75;&#x73;&#116;&#49;&#x30;&#x40;&#x63;&#117;&#115;&#x74;&#46;&#x63;&#x6f;&#x6d;">&#x63;&#x75;&#x73;&#116;&#49;&#x30;&#x40;&#x63;&#117;&#115;&#x74;&#46;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#99;&#117;&#x73;&#116;&#x31;&#48;&#x40;&#99;&#117;&#x73;&#x74;&#x2e;&#99;&#111;&#x6d;">&#99;&#117;&#x73;&#116;&#x31;&#48;&#x40;&#99;&#117;&#x73;&#x74;&#x2e;&#99;&#111;&#x6d;</a></td>
 </tr>
 <tr>
 <td>cust1</td>
-<td><a href="mailto:&#99;&#117;&#x73;&#x74;&#49;&#x40;&#99;&#117;&#x73;&#116;&#x2e;&#x63;&#x6f;&#x6d;">&#99;&#117;&#x73;&#x74;&#49;&#x40;&#99;&#117;&#x73;&#116;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x63;&#117;&#x73;&#116;&#49;&#64;&#99;&#117;&#x73;&#x74;&#x2e;&#x63;&#x6f;&#x6d;">&#x63;&#117;&#x73;&#116;&#49;&#64;&#99;&#117;&#x73;&#x74;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
 </tr>
 <tr>
 <td>cust2</td>
-<td><a href="mailto:&#99;&#117;&#115;&#x74;&#50;&#x40;&#99;&#x75;&#115;&#116;&#46;&#99;&#111;&#109;">&#99;&#117;&#115;&#x74;&#50;&#x40;&#99;&#x75;&#115;&#116;&#46;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#99;&#x75;&#115;&#x74;&#x32;&#64;&#99;&#117;&#115;&#116;&#x2e;&#x63;&#x6f;&#x6d;">&#99;&#x75;&#115;&#x74;&#x32;&#64;&#99;&#117;&#115;&#116;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
 </tr>
 </tbody></table>
 <h3 id="问题-39"><a href="#问题-39" class="headerlink" title="问题"></a>问题</h3><p>返回购买 prod_id 为BR01 的产品的所有顾客的电子邮件（Customers 表中的 cust_email），结果无需排序。 </p>
@@ -4277,13 +4277,13 @@
 </tr>
 </thead>
 <tbody><tr>
-<td><a href="mailto:&#x63;&#117;&#x73;&#116;&#49;&#48;&#x40;&#x63;&#117;&#115;&#x74;&#x2e;&#99;&#x6f;&#x6d;">&#x63;&#117;&#x73;&#116;&#49;&#48;&#x40;&#x63;&#117;&#115;&#x74;&#x2e;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x63;&#x75;&#115;&#116;&#x31;&#48;&#x40;&#99;&#117;&#115;&#116;&#x2e;&#x63;&#111;&#x6d;">&#x63;&#x75;&#115;&#116;&#x31;&#48;&#x40;&#99;&#117;&#115;&#116;&#x2e;&#x63;&#111;&#x6d;</a></td>
 </tr>
 <tr>
-<td><a href="mailto:&#x63;&#x75;&#115;&#x74;&#x31;&#64;&#99;&#117;&#115;&#116;&#x2e;&#99;&#x6f;&#x6d;">&#x63;&#x75;&#115;&#x74;&#x31;&#64;&#99;&#117;&#115;&#116;&#x2e;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#99;&#117;&#x73;&#x74;&#x31;&#x40;&#x63;&#x75;&#115;&#116;&#46;&#99;&#x6f;&#109;">&#99;&#117;&#x73;&#x74;&#x31;&#x40;&#x63;&#x75;&#115;&#116;&#46;&#99;&#x6f;&#109;</a></td>
 </tr>
 </tbody></table>
-<h3 id="示例解析-19"><a href="#示例解析-19" class="headerlink" title="示例解析"></a>示例解析</h3><p>产品 id 为 BR01 的订单 a0001 和 a002 的下单顾客 cust10 和 cust1 的顾客 email cust_email 分别是：<a href="mailto:&#x63;&#x75;&#x73;&#x74;&#49;&#48;&#64;&#99;&#117;&#115;&#116;&#x2e;&#99;&#111;&#109;">&#x63;&#x75;&#x73;&#x74;&#49;&#48;&#64;&#99;&#117;&#115;&#116;&#x2e;&#99;&#111;&#109;</a> 、<a href="mailto:&#x63;&#x75;&#x73;&#x74;&#x31;&#64;&#x63;&#x75;&#115;&#116;&#46;&#99;&#111;&#x6d;">&#x63;&#x75;&#x73;&#x74;&#x31;&#64;&#x63;&#x75;&#115;&#116;&#46;&#99;&#111;&#x6d;</a> </p>
+<h3 id="示例解析-19"><a href="#示例解析-19" class="headerlink" title="示例解析"></a>示例解析</h3><p>产品 id 为 BR01 的订单 a0001 和 a002 的下单顾客 cust10 和 cust1 的顾客 email cust_email 分别是：<a href="mailto:&#x63;&#117;&#115;&#116;&#x31;&#x30;&#x40;&#99;&#117;&#x73;&#x74;&#46;&#99;&#x6f;&#109;">&#x63;&#117;&#115;&#116;&#x31;&#x30;&#x40;&#99;&#117;&#x73;&#x74;&#46;&#99;&#x6f;&#109;</a> 、<a href="mailto:&#x63;&#117;&#115;&#116;&#49;&#x40;&#99;&#x75;&#115;&#x74;&#x2e;&#x63;&#x6f;&#x6d;">&#x63;&#117;&#115;&#116;&#49;&#x40;&#99;&#x75;&#115;&#x74;&#x2e;&#x63;&#x6f;&#x6d;</a> </p>
 <h3 id="示例-39"><a href="#示例-39" class="headerlink" title="示例"></a>示例</h3><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> IF <span class="keyword">EXISTS</span> `OrderItems`;</span><br><span class="line">  <span class="keyword">CREATE</span> <span class="keyword">TABLE</span> IF <span class="keyword">NOT</span> <span class="keyword">EXISTS</span> `OrderItems`(</span><br><span class="line">    prod_id <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;产品id&#x27;</span>,</span><br><span class="line">    order_num <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;商品订单号&#x27;</span></span><br><span class="line">  );</span><br><span class="line">  <span class="keyword">INSERT</span> `OrderItems` <span class="keyword">VALUES</span> (<span class="string">&#x27;BR01&#x27;</span>,<span class="string">&#x27;a0001&#x27;</span>),(<span class="string">&#x27;BR01&#x27;</span>,<span class="string">&#x27;a0002&#x27;</span>),(<span class="string">&#x27;BR02&#x27;</span>,<span class="string">&#x27;a0003&#x27;</span>),(<span class="string">&#x27;BR02&#x27;</span>,<span class="string">&#x27;a0013&#x27;</span>);</span><br><span class="line"></span><br><span class="line">  <span class="keyword">DROP</span> <span class="keyword">TABLE</span> IF <span class="keyword">EXISTS</span> `Orders`;</span><br><span class="line">  <span class="keyword">CREATE</span> <span class="keyword">TABLE</span> IF <span class="keyword">NOT</span> <span class="keyword">EXISTS</span> `Orders`(</span><br><span class="line">    order_num <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;商品订单号&#x27;</span>,</span><br><span class="line">    cust_id <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;顾客id&#x27;</span>,</span><br><span class="line">    order_date <span class="type">TIMESTAMP</span> <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;下单时间&#x27;</span></span><br><span class="line">  );</span><br><span class="line">  <span class="keyword">INSERT</span> `Orders` <span class="keyword">VALUES</span> (<span class="string">&#x27;a0001&#x27;</span>,<span class="string">&#x27;cust10&#x27;</span>,<span class="string">&#x27;2022-01-01 00:00:00&#x27;</span>),(<span class="string">&#x27;a0002&#x27;</span>,<span class="string">&#x27;cust1&#x27;</span>,<span class="string">&#x27;2022-01-01 00:01:00&#x27;</span>),(<span class="string">&#x27;a0003&#x27;</span>,<span class="string">&#x27;cust1&#x27;</span>,<span class="string">&#x27;2022-01-02 00:00:00&#x27;</span>),(<span class="string">&#x27;a0013&#x27;</span>,<span class="string">&#x27;cust2&#x27;</span>,<span class="string">&#x27;2022-01-01 00:20:00&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> IF <span class="keyword">EXISTS</span> `Customers`;</span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> IF <span class="keyword">NOT</span> <span class="keyword">EXISTS</span> `Customers`(</span><br><span class="line">    cust_id <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;顾客id&#x27;</span>,</span><br><span class="line">    cust_email <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;顾客email&#x27;</span></span><br><span class="line">  );</span><br><span class="line"><span class="keyword">INSERT</span> `Customers` <span class="keyword">VALUES</span> (<span class="string">&#x27;cust10&#x27;</span>,<span class="string">&#x27;cust10@cust.com&#x27;</span>),(<span class="string">&#x27;cust1&#x27;</span>,<span class="string">&#x27;cust1@cust.com&#x27;</span>),(<span class="string">&#x27;cust2&#x27;</span>,<span class="string">&#x27;cust2@cust.com&#x27;</span>);</span><br></pre></td></tr></table></figure>
 
 <h3 id="解答-39"><a href="#解答-39" class="headerlink" title="解答"></a>解答</h3><p>多个内联接的组合，先是筛选出 <code>OrderItems</code> 和 <code>Orders</code> 表中 <code>order_num</code> 相同的列，然后根据筛选出的结果列中的 <code>cust_id</code> 从 <code>Customers</code> 表中找对应的顾客信息即可。</p>
@@ -5209,19 +5209,19 @@
 <td>cust10</td>
 <td>8695192</td>
 <td>MI</td>
-<td><a href="mailto:&#x63;&#x75;&#115;&#x74;&#49;&#48;&#x40;&#x63;&#117;&#x73;&#x74;&#x2e;&#99;&#x6f;&#109;">&#x63;&#x75;&#115;&#x74;&#49;&#48;&#x40;&#x63;&#117;&#x73;&#x74;&#x2e;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#99;&#117;&#115;&#116;&#49;&#x30;&#64;&#x63;&#117;&#115;&#x74;&#46;&#99;&#111;&#x6d;">&#99;&#117;&#115;&#116;&#49;&#x30;&#64;&#x63;&#117;&#115;&#x74;&#46;&#99;&#111;&#x6d;</a></td>
 </tr>
 <tr>
 <td>cust1</td>
 <td>8695193</td>
 <td>MI</td>
-<td><a href="mailto:&#99;&#117;&#x73;&#116;&#x31;&#x40;&#x63;&#x75;&#x73;&#x74;&#x2e;&#99;&#111;&#x6d;">&#99;&#117;&#x73;&#116;&#x31;&#x40;&#x63;&#x75;&#x73;&#x74;&#x2e;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x63;&#117;&#115;&#116;&#49;&#64;&#x63;&#x75;&#x73;&#x74;&#46;&#x63;&#x6f;&#x6d;">&#x63;&#117;&#115;&#116;&#49;&#64;&#x63;&#x75;&#x73;&#x74;&#46;&#x63;&#x6f;&#x6d;</a></td>
 </tr>
 <tr>
 <td>cust2</td>
 <td>8695194</td>
 <td>IL</td>
-<td><a href="mailto:&#x63;&#x75;&#115;&#116;&#50;&#x40;&#x63;&#117;&#x73;&#x74;&#46;&#x63;&#x6f;&#109;">&#x63;&#x75;&#115;&#116;&#50;&#x40;&#x63;&#117;&#x73;&#x74;&#46;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#99;&#117;&#x73;&#116;&#50;&#x40;&#99;&#117;&#x73;&#116;&#x2e;&#99;&#x6f;&#109;">&#99;&#117;&#x73;&#116;&#50;&#x40;&#99;&#117;&#x73;&#116;&#x2e;&#99;&#x6f;&#109;</a></td>
 </tr>
 </tbody></table>
 <h3 id="问题-49"><a href="#问题-49" class="headerlink" title="问题"></a>问题</h3><p>修正下面错误的 SQL </p>
@@ -5239,17 +5239,17 @@
 <tbody><tr>
 <td>cust1</td>
 <td>8695193</td>
-<td><a href="mailto:&#x63;&#x75;&#115;&#116;&#x31;&#64;&#99;&#x75;&#x73;&#x74;&#46;&#99;&#111;&#x6d;">&#x63;&#x75;&#115;&#116;&#x31;&#64;&#99;&#x75;&#x73;&#x74;&#46;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x63;&#x75;&#115;&#116;&#x31;&#x40;&#x63;&#117;&#115;&#x74;&#x2e;&#x63;&#x6f;&#x6d;">&#x63;&#x75;&#115;&#116;&#x31;&#x40;&#x63;&#117;&#115;&#x74;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
 </tr>
 <tr>
 <td>cust10</td>
 <td>8695192</td>
-<td><a href="mailto:&#99;&#117;&#x73;&#x74;&#49;&#48;&#64;&#x63;&#117;&#115;&#x74;&#46;&#99;&#111;&#109;">&#99;&#117;&#x73;&#x74;&#49;&#48;&#64;&#x63;&#117;&#115;&#x74;&#46;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#x63;&#x75;&#115;&#x74;&#x31;&#48;&#x40;&#99;&#x75;&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x63;&#x75;&#115;&#x74;&#x31;&#48;&#x40;&#99;&#x75;&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a></td>
 </tr>
 <tr>
 <td>cust2</td>
 <td>8695194</td>
-<td><a href="mailto:&#99;&#x75;&#x73;&#x74;&#50;&#64;&#99;&#x75;&#115;&#x74;&#x2e;&#x63;&#111;&#x6d;">&#99;&#x75;&#x73;&#x74;&#50;&#64;&#99;&#x75;&#115;&#x74;&#x2e;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x63;&#117;&#x73;&#116;&#x32;&#64;&#x63;&#117;&#115;&#116;&#x2e;&#99;&#x6f;&#109;">&#x63;&#117;&#x73;&#116;&#x32;&#64;&#x63;&#117;&#115;&#116;&#x2e;&#99;&#x6f;&#109;</a></td>
 </tr>
 </tbody></table>
 <h3 id="示例解析-28"><a href="#示例解析-28" class="headerlink" title="示例解析"></a>示例解析</h3><p>返回住在 “IL” 和 “MI” 的顾客信息，最后根据顾客名称升序排序。 </p>
