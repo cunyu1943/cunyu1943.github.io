@@ -3590,15 +3590,15 @@
 </thead>
 <tbody><tr>
 <td>cust10</td>
-<td><a href="mailto:&#x63;&#x75;&#x73;&#116;&#49;&#48;&#64;&#99;&#x75;&#115;&#116;&#x2e;&#x63;&#x6f;&#109;">&#x63;&#x75;&#x73;&#116;&#49;&#48;&#64;&#99;&#x75;&#115;&#116;&#x2e;&#x63;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#99;&#x75;&#x73;&#116;&#49;&#48;&#x40;&#99;&#x75;&#115;&#116;&#46;&#x63;&#x6f;&#109;">&#99;&#x75;&#x73;&#116;&#49;&#48;&#x40;&#99;&#x75;&#115;&#116;&#46;&#x63;&#x6f;&#109;</a></td>
 </tr>
 <tr>
 <td>cust1</td>
-<td><a href="mailto:&#x63;&#117;&#115;&#x74;&#49;&#x40;&#x63;&#x75;&#x73;&#116;&#46;&#x63;&#x6f;&#x6d;">&#x63;&#117;&#115;&#x74;&#49;&#x40;&#x63;&#x75;&#x73;&#116;&#46;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x63;&#117;&#115;&#x74;&#x31;&#x40;&#x63;&#x75;&#x73;&#x74;&#46;&#x63;&#111;&#x6d;">&#x63;&#117;&#115;&#x74;&#x31;&#x40;&#x63;&#x75;&#x73;&#x74;&#46;&#x63;&#111;&#x6d;</a></td>
 </tr>
 <tr>
 <td>cust2</td>
-<td><a href="mailto:&#x63;&#x75;&#x73;&#x74;&#50;&#64;&#x63;&#117;&#x73;&#x74;&#46;&#99;&#x6f;&#x6d;">&#x63;&#x75;&#x73;&#x74;&#50;&#64;&#x63;&#117;&#x73;&#x74;&#46;&#99;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#99;&#x75;&#x73;&#x74;&#50;&#64;&#x63;&#117;&#x73;&#x74;&#x2e;&#x63;&#x6f;&#x6d;">&#99;&#x75;&#x73;&#x74;&#50;&#64;&#x63;&#117;&#x73;&#x74;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
 </tr>
 </tbody></table>
 <h3 id="问题-33"><a href="#问题-33" class="headerlink" title="问题"></a>问题</h3><p>返回购买 prod_id 为 BR01 的产品的所有顾客的电子邮件（Customers 表中的 cust_email），结果无需排序。 </p>
@@ -3611,13 +3611,13 @@
 </tr>
 </thead>
 <tbody><tr>
-<td><a href="mailto:&#x63;&#x75;&#115;&#116;&#x31;&#x30;&#64;&#x63;&#117;&#115;&#116;&#x2e;&#x63;&#111;&#109;">&#x63;&#x75;&#115;&#116;&#x31;&#x30;&#64;&#x63;&#117;&#115;&#116;&#x2e;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#99;&#117;&#115;&#116;&#49;&#48;&#64;&#99;&#x75;&#115;&#116;&#x2e;&#99;&#x6f;&#x6d;">&#99;&#117;&#115;&#116;&#49;&#48;&#64;&#99;&#x75;&#115;&#116;&#x2e;&#99;&#x6f;&#x6d;</a></td>
 </tr>
 <tr>
-<td><a href="mailto:&#99;&#x75;&#x73;&#116;&#x31;&#64;&#99;&#x75;&#115;&#116;&#x2e;&#x63;&#111;&#109;">&#99;&#x75;&#x73;&#116;&#x31;&#64;&#99;&#x75;&#115;&#116;&#x2e;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#x63;&#x75;&#x73;&#x74;&#x31;&#x40;&#x63;&#117;&#x73;&#x74;&#x2e;&#99;&#x6f;&#x6d;">&#x63;&#x75;&#x73;&#x74;&#x31;&#x40;&#x63;&#117;&#x73;&#x74;&#x2e;&#99;&#x6f;&#x6d;</a></td>
 </tr>
 </tbody></table>
-<h3 id="示例解析-13"><a href="#示例解析-13" class="headerlink" title="示例解析"></a>示例解析</h3><p>产品 id 为 BR01 的订单 a0001 和 a002 的下单顾客 cust10 和 cust1 的顾客email cust_email 分别是：<a href="mailto:&#99;&#x75;&#x73;&#116;&#49;&#48;&#64;&#99;&#x75;&#x73;&#x74;&#46;&#99;&#x6f;&#x6d;">&#99;&#x75;&#x73;&#116;&#49;&#48;&#64;&#99;&#x75;&#x73;&#x74;&#46;&#99;&#x6f;&#x6d;</a> 、<a href="mailto:&#99;&#x75;&#115;&#x74;&#x31;&#64;&#x63;&#117;&#115;&#116;&#x2e;&#x63;&#x6f;&#109;">&#99;&#x75;&#115;&#x74;&#x31;&#64;&#x63;&#117;&#115;&#116;&#x2e;&#x63;&#x6f;&#109;</a></p>
+<h3 id="示例解析-13"><a href="#示例解析-13" class="headerlink" title="示例解析"></a>示例解析</h3><p>产品 id 为 BR01 的订单 a0001 和 a002 的下单顾客 cust10 和 cust1 的顾客email cust_email 分别是：<a href="mailto:&#x63;&#117;&#x73;&#x74;&#x31;&#48;&#x40;&#99;&#117;&#115;&#116;&#46;&#x63;&#x6f;&#x6d;">&#x63;&#117;&#x73;&#x74;&#x31;&#48;&#x40;&#99;&#117;&#115;&#116;&#46;&#x63;&#x6f;&#x6d;</a> 、<a href="mailto:&#x63;&#x75;&#x73;&#x74;&#x31;&#x40;&#x63;&#117;&#115;&#x74;&#46;&#99;&#x6f;&#109;">&#x63;&#x75;&#x73;&#x74;&#x31;&#x40;&#x63;&#117;&#115;&#x74;&#46;&#99;&#x6f;&#109;</a></p>
 <h3 id="示例-33"><a href="#示例-33" class="headerlink" title="示例"></a>示例</h3><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> IF <span class="keyword">EXISTS</span> `OrderItems`;</span><br><span class="line">  <span class="keyword">CREATE</span> <span class="keyword">TABLE</span> IF <span class="keyword">NOT</span> <span class="keyword">EXISTS</span> `OrderItems`(</span><br><span class="line">    prod_id <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;产品id&#x27;</span>,</span><br><span class="line">    order_num <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;商品订单号&#x27;</span></span><br><span class="line">  );</span><br><span class="line">  <span class="keyword">INSERT</span> `OrderItems` <span class="keyword">VALUES</span> (<span class="string">&#x27;BR01&#x27;</span>,<span class="string">&#x27;a0001&#x27;</span>),(<span class="string">&#x27;BR01&#x27;</span>,<span class="string">&#x27;a0002&#x27;</span>),(<span class="string">&#x27;BR02&#x27;</span>,<span class="string">&#x27;a0003&#x27;</span>),(<span class="string">&#x27;BR02&#x27;</span>,<span class="string">&#x27;a0013&#x27;</span>);</span><br><span class="line"></span><br><span class="line">  <span class="keyword">DROP</span> <span class="keyword">TABLE</span> IF <span class="keyword">EXISTS</span> `Orders`;</span><br><span class="line">  <span class="keyword">CREATE</span> <span class="keyword">TABLE</span> IF <span class="keyword">NOT</span> <span class="keyword">EXISTS</span> `Orders`(</span><br><span class="line">    order_num <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;商品订单号&#x27;</span>,</span><br><span class="line">    cust_id <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;顾客id&#x27;</span>,</span><br><span class="line">    order_date <span class="type">TIMESTAMP</span> <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;下单时间&#x27;</span></span><br><span class="line">  );</span><br><span class="line">  <span class="keyword">INSERT</span> `Orders` <span class="keyword">VALUES</span> (<span class="string">&#x27;a0001&#x27;</span>,<span class="string">&#x27;cust10&#x27;</span>,<span class="string">&#x27;2022-01-01 00:00:00&#x27;</span>),(<span class="string">&#x27;a0002&#x27;</span>,<span class="string">&#x27;cust1&#x27;</span>,<span class="string">&#x27;2022-01-01 00:01:00&#x27;</span>),(<span class="string">&#x27;a0003&#x27;</span>,<span class="string">&#x27;cust1&#x27;</span>,<span class="string">&#x27;2022-01-02 00:00:00&#x27;</span>),(<span class="string">&#x27;a0013&#x27;</span>,<span class="string">&#x27;cust2&#x27;</span>,<span class="string">&#x27;2022-01-01 00:20:00&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> IF <span class="keyword">EXISTS</span> `Customers`;</span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> IF <span class="keyword">NOT</span> <span class="keyword">EXISTS</span> `Customers`(</span><br><span class="line">    cust_id <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;顾客id&#x27;</span>,</span><br><span class="line">    cust_email <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;顾客email&#x27;</span></span><br><span class="line">  );</span><br><span class="line"><span class="keyword">INSERT</span> `Customers` <span class="keyword">VALUES</span> (<span class="string">&#x27;cust10&#x27;</span>,<span class="string">&#x27;cust10@cust.com&#x27;</span>),(<span class="string">&#x27;cust1&#x27;</span>,<span class="string">&#x27;cust1@cust.com&#x27;</span>),(<span class="string">&#x27;cust2&#x27;</span>,<span class="string">&#x27;cust2@cust.com&#x27;</span>);</span><br></pre></td></tr></table></figure>
 
 
@@ -4256,15 +4256,15 @@
 </thead>
 <tbody><tr>
 <td>cust10</td>
-<td><a href="mailto:&#99;&#117;&#x73;&#116;&#x31;&#48;&#x40;&#99;&#117;&#x73;&#x74;&#x2e;&#99;&#111;&#x6d;">&#99;&#117;&#x73;&#116;&#x31;&#48;&#x40;&#99;&#117;&#x73;&#x74;&#x2e;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#99;&#x75;&#x73;&#x74;&#x31;&#x30;&#x40;&#99;&#117;&#115;&#x74;&#46;&#99;&#x6f;&#x6d;">&#99;&#x75;&#x73;&#x74;&#x31;&#x30;&#x40;&#99;&#117;&#115;&#x74;&#46;&#99;&#x6f;&#x6d;</a></td>
 </tr>
 <tr>
 <td>cust1</td>
-<td><a href="mailto:&#x63;&#117;&#x73;&#116;&#49;&#64;&#99;&#117;&#x73;&#x74;&#x2e;&#x63;&#x6f;&#x6d;">&#x63;&#117;&#x73;&#116;&#49;&#64;&#99;&#117;&#x73;&#x74;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x63;&#x75;&#x73;&#x74;&#x31;&#x40;&#x63;&#117;&#x73;&#x74;&#46;&#99;&#111;&#x6d;">&#x63;&#x75;&#x73;&#x74;&#x31;&#x40;&#x63;&#117;&#x73;&#x74;&#46;&#99;&#111;&#x6d;</a></td>
 </tr>
 <tr>
 <td>cust2</td>
-<td><a href="mailto:&#99;&#x75;&#115;&#x74;&#x32;&#64;&#99;&#117;&#115;&#116;&#x2e;&#x63;&#x6f;&#x6d;">&#99;&#x75;&#115;&#x74;&#x32;&#64;&#99;&#117;&#115;&#116;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#99;&#x75;&#x73;&#116;&#50;&#64;&#99;&#117;&#x73;&#x74;&#46;&#x63;&#111;&#x6d;">&#99;&#x75;&#x73;&#116;&#50;&#64;&#99;&#117;&#x73;&#x74;&#46;&#x63;&#111;&#x6d;</a></td>
 </tr>
 </tbody></table>
 <h3 id="问题-39"><a href="#问题-39" class="headerlink" title="问题"></a>问题</h3><p>返回购买 prod_id 为BR01 的产品的所有顾客的电子邮件（Customers 表中的 cust_email），结果无需排序。 </p>
@@ -4277,13 +4277,13 @@
 </tr>
 </thead>
 <tbody><tr>
-<td><a href="mailto:&#x63;&#x75;&#115;&#116;&#x31;&#48;&#x40;&#99;&#117;&#115;&#116;&#x2e;&#x63;&#111;&#x6d;">&#x63;&#x75;&#115;&#116;&#x31;&#48;&#x40;&#99;&#117;&#115;&#116;&#x2e;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x63;&#x75;&#x73;&#116;&#49;&#48;&#x40;&#99;&#117;&#x73;&#x74;&#46;&#99;&#x6f;&#x6d;">&#x63;&#x75;&#x73;&#116;&#49;&#48;&#x40;&#99;&#117;&#x73;&#x74;&#46;&#99;&#x6f;&#x6d;</a></td>
 </tr>
 <tr>
-<td><a href="mailto:&#99;&#117;&#x73;&#x74;&#x31;&#x40;&#x63;&#x75;&#115;&#116;&#46;&#99;&#x6f;&#109;">&#99;&#117;&#x73;&#x74;&#x31;&#x40;&#x63;&#x75;&#115;&#116;&#46;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#99;&#117;&#115;&#116;&#49;&#64;&#99;&#x75;&#x73;&#116;&#x2e;&#99;&#x6f;&#x6d;">&#99;&#117;&#115;&#116;&#49;&#64;&#99;&#x75;&#x73;&#116;&#x2e;&#99;&#x6f;&#x6d;</a></td>
 </tr>
 </tbody></table>
-<h3 id="示例解析-19"><a href="#示例解析-19" class="headerlink" title="示例解析"></a>示例解析</h3><p>产品 id 为 BR01 的订单 a0001 和 a002 的下单顾客 cust10 和 cust1 的顾客 email cust_email 分别是：<a href="mailto:&#x63;&#117;&#115;&#116;&#x31;&#x30;&#x40;&#99;&#117;&#x73;&#x74;&#46;&#99;&#x6f;&#109;">&#x63;&#117;&#115;&#116;&#x31;&#x30;&#x40;&#99;&#117;&#x73;&#x74;&#46;&#99;&#x6f;&#109;</a> 、<a href="mailto:&#x63;&#117;&#115;&#116;&#49;&#x40;&#99;&#x75;&#115;&#x74;&#x2e;&#x63;&#x6f;&#x6d;">&#x63;&#117;&#115;&#116;&#49;&#x40;&#99;&#x75;&#115;&#x74;&#x2e;&#x63;&#x6f;&#x6d;</a> </p>
+<h3 id="示例解析-19"><a href="#示例解析-19" class="headerlink" title="示例解析"></a>示例解析</h3><p>产品 id 为 BR01 的订单 a0001 和 a002 的下单顾客 cust10 和 cust1 的顾客 email cust_email 分别是：<a href="mailto:&#x63;&#x75;&#x73;&#x74;&#49;&#x30;&#64;&#99;&#117;&#115;&#116;&#46;&#99;&#x6f;&#x6d;">&#x63;&#x75;&#x73;&#x74;&#49;&#x30;&#64;&#99;&#117;&#115;&#116;&#46;&#99;&#x6f;&#x6d;</a> 、<a href="mailto:&#x63;&#117;&#115;&#x74;&#49;&#x40;&#99;&#x75;&#x73;&#x74;&#x2e;&#x63;&#111;&#109;">&#x63;&#117;&#115;&#x74;&#49;&#x40;&#99;&#x75;&#x73;&#x74;&#x2e;&#x63;&#111;&#109;</a> </p>
 <h3 id="示例-39"><a href="#示例-39" class="headerlink" title="示例"></a>示例</h3><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> IF <span class="keyword">EXISTS</span> `OrderItems`;</span><br><span class="line">  <span class="keyword">CREATE</span> <span class="keyword">TABLE</span> IF <span class="keyword">NOT</span> <span class="keyword">EXISTS</span> `OrderItems`(</span><br><span class="line">    prod_id <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;产品id&#x27;</span>,</span><br><span class="line">    order_num <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;商品订单号&#x27;</span></span><br><span class="line">  );</span><br><span class="line">  <span class="keyword">INSERT</span> `OrderItems` <span class="keyword">VALUES</span> (<span class="string">&#x27;BR01&#x27;</span>,<span class="string">&#x27;a0001&#x27;</span>),(<span class="string">&#x27;BR01&#x27;</span>,<span class="string">&#x27;a0002&#x27;</span>),(<span class="string">&#x27;BR02&#x27;</span>,<span class="string">&#x27;a0003&#x27;</span>),(<span class="string">&#x27;BR02&#x27;</span>,<span class="string">&#x27;a0013&#x27;</span>);</span><br><span class="line"></span><br><span class="line">  <span class="keyword">DROP</span> <span class="keyword">TABLE</span> IF <span class="keyword">EXISTS</span> `Orders`;</span><br><span class="line">  <span class="keyword">CREATE</span> <span class="keyword">TABLE</span> IF <span class="keyword">NOT</span> <span class="keyword">EXISTS</span> `Orders`(</span><br><span class="line">    order_num <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;商品订单号&#x27;</span>,</span><br><span class="line">    cust_id <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;顾客id&#x27;</span>,</span><br><span class="line">    order_date <span class="type">TIMESTAMP</span> <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;下单时间&#x27;</span></span><br><span class="line">  );</span><br><span class="line">  <span class="keyword">INSERT</span> `Orders` <span class="keyword">VALUES</span> (<span class="string">&#x27;a0001&#x27;</span>,<span class="string">&#x27;cust10&#x27;</span>,<span class="string">&#x27;2022-01-01 00:00:00&#x27;</span>),(<span class="string">&#x27;a0002&#x27;</span>,<span class="string">&#x27;cust1&#x27;</span>,<span class="string">&#x27;2022-01-01 00:01:00&#x27;</span>),(<span class="string">&#x27;a0003&#x27;</span>,<span class="string">&#x27;cust1&#x27;</span>,<span class="string">&#x27;2022-01-02 00:00:00&#x27;</span>),(<span class="string">&#x27;a0013&#x27;</span>,<span class="string">&#x27;cust2&#x27;</span>,<span class="string">&#x27;2022-01-01 00:20:00&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> IF <span class="keyword">EXISTS</span> `Customers`;</span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> IF <span class="keyword">NOT</span> <span class="keyword">EXISTS</span> `Customers`(</span><br><span class="line">    cust_id <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;顾客id&#x27;</span>,</span><br><span class="line">    cust_email <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;顾客email&#x27;</span></span><br><span class="line">  );</span><br><span class="line"><span class="keyword">INSERT</span> `Customers` <span class="keyword">VALUES</span> (<span class="string">&#x27;cust10&#x27;</span>,<span class="string">&#x27;cust10@cust.com&#x27;</span>),(<span class="string">&#x27;cust1&#x27;</span>,<span class="string">&#x27;cust1@cust.com&#x27;</span>),(<span class="string">&#x27;cust2&#x27;</span>,<span class="string">&#x27;cust2@cust.com&#x27;</span>);</span><br></pre></td></tr></table></figure>
 
 <h3 id="解答-39"><a href="#解答-39" class="headerlink" title="解答"></a>解答</h3><p>多个内联接的组合，先是筛选出 <code>OrderItems</code> 和 <code>Orders</code> 表中 <code>order_num</code> 相同的列，然后根据筛选出的结果列中的 <code>cust_id</code> 从 <code>Customers</code> 表中找对应的顾客信息即可。</p>
@@ -5209,19 +5209,19 @@
 <td>cust10</td>
 <td>8695192</td>
 <td>MI</td>
-<td><a href="mailto:&#99;&#117;&#115;&#116;&#49;&#x30;&#64;&#x63;&#117;&#115;&#x74;&#46;&#99;&#111;&#x6d;">&#99;&#117;&#115;&#116;&#49;&#x30;&#64;&#x63;&#117;&#115;&#x74;&#46;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#99;&#117;&#x73;&#116;&#49;&#x30;&#64;&#x63;&#117;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;">&#99;&#117;&#x73;&#116;&#49;&#x30;&#64;&#x63;&#117;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;</a></td>
 </tr>
 <tr>
 <td>cust1</td>
 <td>8695193</td>
 <td>MI</td>
-<td><a href="mailto:&#x63;&#117;&#115;&#116;&#49;&#64;&#x63;&#x75;&#x73;&#x74;&#46;&#x63;&#x6f;&#x6d;">&#x63;&#117;&#115;&#116;&#49;&#64;&#x63;&#x75;&#x73;&#x74;&#46;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#99;&#x75;&#115;&#x74;&#49;&#x40;&#99;&#x75;&#115;&#x74;&#x2e;&#99;&#111;&#x6d;">&#99;&#x75;&#115;&#x74;&#49;&#x40;&#99;&#x75;&#115;&#x74;&#x2e;&#99;&#111;&#x6d;</a></td>
 </tr>
 <tr>
 <td>cust2</td>
 <td>8695194</td>
 <td>IL</td>
-<td><a href="mailto:&#99;&#117;&#x73;&#116;&#50;&#x40;&#99;&#117;&#x73;&#116;&#x2e;&#99;&#x6f;&#109;">&#99;&#117;&#x73;&#116;&#50;&#x40;&#99;&#117;&#x73;&#116;&#x2e;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x63;&#117;&#115;&#x74;&#x32;&#x40;&#99;&#117;&#115;&#116;&#46;&#99;&#x6f;&#109;">&#x63;&#117;&#115;&#x74;&#x32;&#x40;&#99;&#117;&#115;&#116;&#46;&#99;&#x6f;&#109;</a></td>
 </tr>
 </tbody></table>
 <h3 id="问题-49"><a href="#问题-49" class="headerlink" title="问题"></a>问题</h3><p>修正下面错误的 SQL </p>
@@ -5239,17 +5239,17 @@
 <tbody><tr>
 <td>cust1</td>
 <td>8695193</td>
-<td><a href="mailto:&#x63;&#x75;&#115;&#116;&#x31;&#x40;&#x63;&#117;&#115;&#x74;&#x2e;&#x63;&#x6f;&#x6d;">&#x63;&#x75;&#115;&#116;&#x31;&#x40;&#x63;&#117;&#115;&#x74;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x63;&#117;&#x73;&#x74;&#49;&#64;&#x63;&#117;&#115;&#x74;&#46;&#99;&#111;&#109;">&#x63;&#117;&#x73;&#x74;&#49;&#64;&#x63;&#117;&#115;&#x74;&#46;&#99;&#111;&#109;</a></td>
 </tr>
 <tr>
 <td>cust10</td>
 <td>8695192</td>
-<td><a href="mailto:&#x63;&#x75;&#115;&#x74;&#x31;&#48;&#x40;&#99;&#x75;&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#x63;&#x75;&#115;&#x74;&#x31;&#48;&#x40;&#99;&#x75;&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#99;&#117;&#x73;&#x74;&#49;&#x30;&#64;&#99;&#x75;&#x73;&#x74;&#46;&#99;&#x6f;&#109;">&#99;&#117;&#x73;&#x74;&#49;&#x30;&#64;&#99;&#x75;&#x73;&#x74;&#46;&#99;&#x6f;&#109;</a></td>
 </tr>
 <tr>
 <td>cust2</td>
 <td>8695194</td>
-<td><a href="mailto:&#x63;&#117;&#x73;&#116;&#x32;&#64;&#x63;&#117;&#115;&#116;&#x2e;&#99;&#x6f;&#109;">&#x63;&#117;&#x73;&#116;&#x32;&#64;&#x63;&#117;&#115;&#116;&#x2e;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x63;&#117;&#x73;&#116;&#50;&#x40;&#99;&#x75;&#x73;&#x74;&#46;&#x63;&#x6f;&#109;">&#x63;&#117;&#x73;&#116;&#50;&#x40;&#99;&#x75;&#x73;&#x74;&#46;&#x63;&#x6f;&#109;</a></td>
 </tr>
 </tbody></table>
 <h3 id="示例解析-28"><a href="#示例解析-28" class="headerlink" title="示例解析"></a>示例解析</h3><p>返回住在 “IL” 和 “MI” 的顾客信息，最后根据顾客名称升序排序。 </p>
@@ -6993,6 +6993,134 @@
 <p>想要进一步提升自己的竞争力么，那就赶紧加入和我一起学习吧！</p>
 <img src="https://cunyu1943.github.io/img/course/datastructure-algo.png" width="33%" />
 
+<div id="readmore-expansion" class=""></div></div>
+			<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
+			<script data-pjax src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
+			<script data-pjax>
+			var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
+			var isEncrypt = document.getElementById('hexo-blog-encrypt');
+			var allowMobile = false;
+			if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
+				try {
+					var plugin = new ReadmorePlugin();
+					plugin.init({
+						"type": "hexo",
+						"id": "readmore-container",
+						"name": "村雨遥",
+						"blogId": "19397-0379198090489-062",
+						"qrcode": "https://cunyu1943.github.io/JavaPark/img/site/wechatpublic.png",
+						"keyword": "验证码",
+						"random": "1",
+						"height": "auto",
+						"expires": "365",
+						"lockToc": "yes",
+						"interval": "60",
+						"baseUrl": ""
+					});
+				} catch(e) {
+					console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
+				}
+			}
+			</script>
+		]]></content>
+      <categories>
+        <category>好物周刊</category>
+      </categories>
+      <tags>
+        <tag>项目</tag>
+        <tag>资源</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>好物周刊#9：AI 学习必备资料</title>
+    <url>/weekly/2023/0610-0616/</url>
+    <content><![CDATA[<div id="readmore-container"><h1 id="好物周刊-9：AI-学习必备资料"><a href="#好物周刊-9：AI-学习必备资料" class="headerlink" title="好物周刊#9：AI 学习必备资料"></a>好物周刊#9：AI 学习必备资料</h1><blockquote>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+<p>原文：<a href="https://mp.weixin.qq.com/s/qgnhS4UUnWWuKonROqMA7g">https://mp.weixin.qq.com/s/qgnhS4UUnWWuKonROqMA7g</a></p>
+</blockquote>
+<h2 id="🎈-项目"><a href="#🎈-项目" class="headerlink" title="🎈 项目"></a>🎈 项目</h2><h3 id="PicX"><a href="#PicX" class="headerlink" title="PicX"></a><a href="https://github.com/XPoet/picx">PicX</a></h3><p>一款基于 <code>GitHub</code> <code>API</code> 开发的图床工具，提供图片上传托管、生成图片链接和常用图片工具箱服务。只需要申请一个 <code>Github Token</code>，即可完成图床配置。</p>
+<p><img src="https://cunyu1943.github.io/img/article/weekly-2023/image.3nq8n01cbm40.webp"></p>
+<h3 id="Cloudreve"><a href="#Cloudreve" class="headerlink" title="Cloudreve"></a><a href="https://github.com/cloudreve/Cloudreve">Cloudreve</a></h3><p>支持多家云存储驱动的公有云文件系统，具有以下特性：</p>
+<ul>
+<li>☁️ 支持本机、从机、七牛、阿里云 <code>OSS</code>、腾讯云 <code>COS</code>、又拍云、<code>OneDrive</code> (包括世纪互联版) 、<code>S3</code> 兼容协议 作为存储端</li>
+<li>📤 上传&#x2F;下载 支持客户端直传，支持下载限速</li>
+<li>💾 可对接 <code>Aria2</code> 离线下载，可使用多个从机节点分担下载任务</li>
+<li>📚 在线 压缩&#x2F;解压缩、多文件打包下载</li>
+<li>💻 覆盖全部存储策略的 <code>WebDAV</code> 协议支持</li>
+<li>⚡ 拖拽上传、目录上传、流式上传处理</li>
+<li>🗃️ 文件拖拽管理</li>
+<li>👩‍👧‍👦 多用户、用户组、多存储策略</li>
+<li>🔗 创建文件、目录的分享链接，可设定自动过期</li>
+<li>👁️‍🗨️ 视频、图像、音频、 <code>ePub</code> 在线预览，文本、<code>Office</code> 文档在线编辑</li>
+<li>🎨 自定义配色、黑暗模式、<code>PWA</code> 应用、全站单页应用、国际化支持</li>
+<li>🚀 <code>All-In-One</code> 打包，开箱即用</li>
+</ul>
+<p><img src="https://cunyu1943.github.io/img/article/weekly-2023/image.5abc79kwe1g0.webp"></p>
+<h3 id="pinyin-pro"><a href="#pinyin-pro" class="headerlink" title="pinyin-pro"></a><a href="https://github.com/zh-lx/pinyin-pro">pinyin-pro</a></h3><p>一个专业的 <code>js</code> 汉字拼音转换库，功能丰富、准确率高、性能优异，具有以下特色功能：</p>
+<ul>
+<li>支持拼音&#x2F;声母&#x2F;韵母&#x2F;首字母&#x2F;音调&#x2F;全部信息</li>
+<li>支持人名姓氏模式</li>
+<li>支持文本和拼音匹配</li>
+<li>支持自定义拼音</li>
+<li>支持获取带拼音汉字的 <code>HTML</code> 字符串</li>
+<li>支持获取汉字的所有拼音</li>
+<li>极致的性能和极高的拼音识别准确率</li>
+</ul>
+<p><img src="https://cunyu1943.github.io/img/article/weekly-2023/image.4y3zqcri4ig0.webp"></p>
+<h2 id="💻-软件"><a href="#💻-软件" class="headerlink" title="💻 软件"></a>💻 软件</h2><h3 id="PDDON"><a href="#PDDON" class="headerlink" title="PDDON"></a><a href="https://pddon.com/">PDDON</a></h3><p>免费多功能专业在线画图(<code>Low Code</code>)工具，怕画不好图就用 <code>PDDON</code>，可用于绘制流程图、架构图、思维导图、<code>UML</code>、<code>BPMN</code>、网络拓扑图、韦恩图、鱼骨图等，并且支持对象建模、数据库建模、代码&#x2F;脚本生成，提供了丰富的定制化绘图功能组件库，带来更贴心易用的设计体验。</p>
+<p><img src="https://cunyu1943.github.io/img/article/weekly-2023/image.6edjheo1bo00.webp"></p>
+<h3 id="Kap"><a href="#Kap" class="headerlink" title="Kap"></a><a href="https://getkap.co/">Kap</a></h3><p>一款基于 <code>Web</code> 技术构建的开源录屏软件，不过仅支持 <code>macOS</code> 系统。支持以下功能：</p>
+<ul>
+<li>录制某个窗口</li>
+<li>全屏录制</li>
+<li>自定义录制区域</li>
+<li>显示鼠标点击位置</li>
+<li>支持导出 <code>Gif</code>、<code>MP4</code>、<code>WebM</code> 等格式</li>
+</ul>
+<p><img src="https://cunyu1943.github.io/img/article/weekly-2023/image.56bz424c1ns0.webp"></p>
+<h3 id="班迪录屏"><a href="#班迪录屏" class="headerlink" title="班迪录屏"></a><a href="https://www.bandicam.cn/">班迪录屏</a></h3><p>一款简单好用的电脑屏幕录制软件，录屏幕，录游戏，录视频的功能强大的录屏工具，比起其他软件其性能更加卓越。 与其他软件相比，用 <code>Bandicam</code> 录制的视频大小更小，同时保证了原文件的质量。</p>
+<p><img src="https://cunyu1943.github.io/img/article/weekly-2023/bandicam_cn.gif"></p>
+<h2 id="🕸️-网站"><a href="#🕸️-网站" class="headerlink" title="🕸️ 网站"></a>🕸️ 网站</h2><h3 id="TXT-文本处理工具"><a href="#TXT-文本处理工具" class="headerlink" title="TXT 文本处理工具"></a><a href="http://www.txttool.com/">TXT 文本处理工具</a></h3><p>在线高级文本工具箱，专注于各种文本处理。如果你的工作涉及到文本处理，不妨去这里试试这些小工具来提升下你的效率。 </p>
+<p><img src="https://cunyu1943.github.io/img/article/weekly-2023/image.4yal86iga6g0.webp"></p>
+<h3 id="Text-Image"><a href="#Text-Image" class="headerlink" title="Text-Image"></a><a href="https://www.text-image.com/convert/ascii.html">Text-Image</a></h3><p>在这里，只要上传一张图片，就能轻松地生成很酷的文本图像。</p>
+<p><img src="https://cunyu1943.github.io/img/article/weekly-2023/image.3jbikqgz5m80.webp"></p>
+<h3 id="一个工具箱"><a href="#一个工具箱" class="headerlink" title="一个工具箱"></a><a href="http://www.atoolbox.net/">一个工具箱</a></h3><p>众多在线工具集合网站，汇聚了视频音频、图形图像、日期时间、文本编辑、加密解密、编程开发、计算换算、金融理财、日常生活等方面共计 448 个在线工具。</p>
+<p><img src="https://cunyu1943.github.io/img/article/weekly-2023/image.1o2dufwo66hs.webp"></p>
+<h2 id="🔌-插件"><a href="#🔌-插件" class="headerlink" title="🔌 插件"></a>🔌 插件</h2><h3 id="Grammarly"><a href="#Grammarly" class="headerlink" title="Grammarly"></a><a href="https://www.grammarly.com/">Grammarly</a></h3><p>一款智能语法工具，可以帮助您在网上编写的任何其他地方避免书写错误，<code>Grammarly</code> 会智能分析语段中的错误用法，并用红色下划线标记所有待完善的词组，供你一键纠正。对于英语写作能力不太好的同学，简直是写论文必备。工具特色：</p>
+<ul>
+<li>上下文拼写检查</li>
+<li>语法检查</li>
+<li>……</li>
+</ul>
+<p><img src="https://cunyu1943.github.io/img/article/weekly-2023/image.548cs2tt65g0.webp"></p>
+<h3 id="Smart-TOC"><a href="#Smart-TOC" class="headerlink" title="Smart TOC"></a><a href="https://chrome.google.com/webstore/detail/smart-toc/lifgeihcfpkmmlfjbailfpfhbahhibba">Smart TOC</a></h3><p>根据打开网页的内容自动生成目录，便于我们浏览与跳转。</p>
+<ul>
+<li>按需使用</li>
+<li>生成的目录面板支持拖动</li>
+<li>点击标题可跳转对应位置</li>
+<li>高亮当前标题</li>
+<li>……</li>
+</ul>
+<p><img src="https://cunyu1943.github.io/img/article/weekly-2023/image.2ysxr06oyjm0.webp"></p>
+<h3 id="FeHelper"><a href="#FeHelper" class="headerlink" title="FeHelper"></a><a href="https://www.baidufe.com/fehelper/index/index.html">FeHelper</a></h3><p>一款为开发者开发的浏览器扩展，包括 <code>JSON</code> 自动&#x2F;手动格式化、<code>JSON</code> 内容比对、代码美化与压缩、信息编解码转换、二维码生成与解码、图片 <code>Base64</code> 编解码转换、<code>Markdown</code>、 网页油猴、网页取色器、脑图(<code>Xmind</code>)等贴心工具。</p>
+<p><img src="https://cunyu1943.github.io/img/article/weekly-2023/image.4g05sglqu1e0.webp"></p>
+<h2 id="📖-资料"><a href="#📖-资料" class="headerlink" title="📖 资料"></a>📖 资料</h2><h3 id="机器学习-100-天"><a href="#机器学习-100-天" class="headerlink" title="机器学习 100 天"></a><a href="https://github.com/MLEveryday/100-Days-Of-ML-Code">机器学习 100 天</a></h3><p><code>100-Days-Of-ML-Code</code> 中文版，包括了有监督学习和无监督学习两方面的内容，对于想要学习机器学习的同学是一个不错的入门教程。</p>
+<p><img src="https://cunyu1943.github.io/img/article/weekly-2023/image.6nxkoh5ihlw0.webp"></p>
+<h3 id="强化学习-100-题"><a href="#强化学习-100-题" class="headerlink" title="强化学习 100 题"></a><a href="https://p100.koki-saitoh.com/zh-CN">强化学习 100 题</a></h3><p>日本的 <code>AI</code> 畅销书作者斋藤康毅为其深度学习系列书籍创建的一个网站，最近推出了中文版。对于学习了强化学习的同学，可以用来对强化学习知识查漏补缺。</p>
+<p><img src="https://cunyu1943.github.io/img/article/weekly-2023/image.1nvrzzktlc7.webp"></p>
+<h3 id="深度学习-500-问"><a href="#深度学习-500-问" class="headerlink" title="深度学习 500 问"></a><a href="https://github.com/scutan90/DeepLearning-500-questions">深度学习 500 问</a></h3><p>深度学习 <code>500</code> 问，以问答形式对常用的概率知识、线性代数、机器学习、深度学习、计算机视觉等热点问题进行阐述，以帮助自己及有需要的读者。 全书分为 <code>18 </code>个章节，<code>50 </code>余万字。</p>
+<p>本书系统地描述了深度学习的基本理论算法及应用。全书共 14 章，第 1-3 章论述了数学基础、机器学习基础和深度学习基础；第 4-7 章介绍了一些经典网络及计算机视觉领域中常用的 <code>CNN</code>、<code>RNN</code>、<code>GAN</code> 等网络结构技术；第 8-9 章介绍了深度学习在计算机视觉领域的目标检测及图像分割两大应用；第 10-14 章介绍了计算机视觉领域主要的优化方法及思路等，包括迁移学习、网络架构及训练、网络优化技巧、超参数调整及模型的压缩和加速等。本书凝聚了众多一线科研人员及工程师的经验，旨在培养读者发现问题、解决问题、扩展问题的能力。</p>
+<p><img src="https://cunyu1943.github.io/img/article/weekly-2023/image.5snfwchkiv80.webp"></p>
+<h2 id="✍️-说明"><a href="#✍️-说明" class="headerlink" title="✍️ 说明"></a>✍️ 说明</h2><p>周刊专栏相关信息：</p>
+<ul>
+<li><strong>Github 地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/">cunyu1943&#x2F;JavaPark&#x2F;</a>，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.site/weekly">cunyu1943.site</a></li>
+</ul>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐或项目&#x2F;网站&#x2F;软件&#x2F;资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues/21">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<hr>
+<h2 id="🎬️-广告"><a href="#🎬️-广告" class="headerlink" title="🎬️ 广告"></a>🎬️ 广告</h2><p>当前大环境下，就业形势严峻，尤其针对即将毕业的大学生。作为一个技术求职者，求职前应该做好哪些准备呢，一些面试实战技巧也十分有必要！而刚好最近掘金出了一本《技术人求职指南》小册，相信一定会对在找工作的你有所帮助。</p>
+<p>从求职到拿下 <code>Offer</code>，一本职场的全方位攻略，快来和我一起学习吧！</p>
+<img src="https://cunyu1943.github.io/img/course/programmer-offer-guide.png" width="40%" />
 <div id="readmore-expansion" class=""></div></div>
 			<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
 			<script data-pjax src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
