@@ -97,188 +97,6 @@
       </tags>
   </entry>
   <entry>
-    <title>超详细 Hexo + Github Pages 博客搭建教程</title>
-    <url>/blog-tutorial/20220401-hexo/</url>
-    <content><![CDATA[<div id="readmore-container"><blockquote>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</blockquote>
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>现在市面上已经有许多博客了，比如 CSDN、掘金、博客园、简书等等。我们可以直接在上面发表内容，而且交互比较人性化，而且也能被搜索引擎检索到。但是总归是别人的平台，经常会受限，因此我们就希望能有自己的博客。之前也尝试过搭建过不同的博客类型，折腾了不少工作，最终决定定型，采用 Hexo + Github Pages 的方式。今天就带大家一起来搭建自己的博客。由于是采用 Hexo + Github Pages 的方式，所以都是免费的，只是需要有一定的动手能力！</p>
-<h2 id="Hexo-简介"><a href="#Hexo-简介" class="headerlink" title="Hexo 简介"></a>Hexo 简介</h2><p><a href="https://hexo.io/zh-cn/docs/" title="Hexo">Hexo</a> 是一个快速、简洁且高效的静态博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。我们只需要通过 Markdown 语法写好自己的博客内容，然后通过简单的命令就能够将生成的网页上传到 Github，然后大家都可以来访问你的网页了。既方便了自己，也给了自己一个展示自己成果的平台，是不是一举两得。</p>
-<h2 id="搭建步骤"><a href="#搭建步骤" class="headerlink" title="搭建步骤"></a>搭建步骤</h2><p>搭建之前，需要做一些准备工作，首先需要确保你的电脑上已经上安装好了 Git 和 Node.Js，然后才能开始安装 Hexo，那么首先我们先来看看如何准备这这些环境。</p>
-<h3 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h3><h4 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h4><ol>
-<li><strong>Window</strong>：<a href="https://git-scm.com/download/win" title="下载并安装">下载并安装</a></li>
-<li><strong>macOS</strong>：<a href="https://sourceforge.net/projects/git-osx-installer/" title="下载并安装">下载并安装</a></li>
-<li><strong>Linux（Debian，Ubuntu）</strong>：<code>sudo apt-get install git-core</code></li>
-<li><strong>Linux（Fedora、RedHat、CentOS）</strong>：<code>sudo yum install git-core</code></li>
-</ol>
-<h4 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h4><p>安装成功后，将 git 与 GitHub 账号绑定，右键打开 Git Bash，然后设置配置信息：</p>
-<p><img src="/img/article/blog-tutorial/20220401-hexo/gitbash-here.png"></p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">配置用户名和邮箱</span></span><br><span class="line">git config --global user.name &quot;github 用户名&quot;</span><br><span class="line">git config --global user.email &quot;github 注册邮箱&quot;</span><br></pre></td></tr></table></figure>
-
-<p>比如我的配置就是：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;cunyu1943&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;747731461@qq.com&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>接着生成 ssh 密钥文件，输入如下命令后直接三次回车即可，一般不需要设置密码；</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">生成 ssh 密钥</span></span><br><span class="line">ssh-keygen -t rsa -C &quot;github 注册邮箱&quot;</span><br></pre></td></tr></table></figure>
-
-<p>我生成秘钥的命令：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;747731461@qq.com&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p><img src="/img/article/blog-tutorial/20220401-hexo/ssh-key.png"></p>
-<p>一般执行上述命令之后，会生成 <code>id_rsa</code> 和 <code>id_rsa.pub</code> 两个文件，前者是我们私有的，而后者则是对外开放的。接着找到生成的 <code>.ssh</code> 的文件夹中的 id_rsa.pub 密钥，将内容复制；</p>
-<p><img src="/img/article/blog-tutorial/20220401-hexo/id-rsa.png"></p>
-<p>然后打开 <a href="https://github.com/settings/keys" title="GitHub-Settings-Keys">GitHub-Settings-Keys</a> 页面，创建一个新的 SSH key，填写 <code>Title</code> 和 <code>Key</code>，<code>Title</code> 可以随意，而 <code>Key</code> 的内容则是我们刚才复制的 <code>id_rsa.pub</code> 中的内容，最后点击 <code>Add SSH key</code> 即可；</p>
-<p><img src="/img/article/blog-tutorial/20220401-hexo/add-ssh-key.png"></p>
-<h3 id="Node-Js-安装"><a href="#Node-Js-安装" class="headerlink" title="Node.Js 安装"></a>Node.Js 安装</h3><h4 id="安装-1"><a href="#安装-1" class="headerlink" title="安装"></a>安装</h4><p>去官网下载最新的稳定版 <a href="https://nodejs.org/en/" title="Node.JS">Node.JS</a> ，一般推荐 64 位（大家应该现在用的电脑基本都是 64 位的吧），安装的话很简单，基本就是下一步下一步点击就好了。如果还是不知道如何安装，可以参考我的另一篇博客：<a href="https://blog.csdn.net/github_39655029/article/details/105397485" title="Windows 下 Node.js 的安装（多图版）">Windows 下 Node.js 的安装（多图版）</a></p>
-<h4 id="验证"><a href="#验证" class="headerlink" title="验证"></a>验证</h4><p>安装完成后，要查看我们是否安装成功，可以打开命令提示符（<code>Win + R</code>），输入 <code>cmd</code> 打开控制台，输入如下命令，如果出现对应版本号，说明安装成功了；</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure>
-
-<p><img src="/img/article/blog-tutorial/20220401-hexo/node-v.png"></p>
-<h4 id="设置-1"><a href="#设置-1" class="headerlink" title="设置"></a>设置</h4><p>由于下载包是从国外服务器，所以速度较慢，因此我们推荐用阿里的国内镜像进行设置；</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm config <span class="built_in">set</span> registry https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
-
-<h3 id="Hexo-安装"><a href="#Hexo-安装" class="headerlink" title="Hexo 安装"></a>Hexo 安装</h3><p>在你的硬盘上找个地儿，用来存放你的博客文件，比如我的就在 <code>D:personalFiles/github/blog</code>，这个文件夹你可以根据自己的喜好来设置。然后从命令台进入当前文件夹，接下来就是安装过程了；</p>
-<ol>
-<li>首先安装 Hexo</li>
-</ol>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm i hexo-cli -g</span><br></pre></td></tr></table></figure>
-
-<p><img src="/img/article/blog-tutorial/20220401-hexo/hexo-install.png"></p>
-<ol start="2">
-<li>新建一个文件夹用于存放你的博客，比如我的是 <code>blog</code>，然后进入该文件夹，并用如下命令进行初始化并安装必备组件；</li>
-</ol>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo init .</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
-
-<p><img src="/img/article/blog-tutorial/20220401-hexo/init-blog.png"></p>
-<ol start="3">
-<li>初始化后，目录结构如下；</li>
-</ol>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">.</span><br><span class="line">├── _config.yml # 网站配置信息</span><br><span class="line">├── package.json # 应用程序信息</span><br><span class="line">├── scaffolds # 模板文件夹</span><br><span class="line">├── source # 存放用户资源</span><br><span class="line">|   ├── _drafts</span><br><span class="line">|   └── _posts</span><br><span class="line">└── themes # 主题文件夹</span><br></pre></td></tr></table></figure>
-
-<ol start="4">
-<li>然后输入如下命令，然后在浏览器中打开 <code>http://localhost:4000</code>；</li>
-</ol>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">新建博客</span></span><br><span class="line">hexo new &quot;博客名&quot;</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">生成静态网页</span></span><br><span class="line">hexo g</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">打开本地服务器</span></span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
-
-<p>然后就可以看到如下的界面，不过我的是经过修改过的，所以和你的会不一样。</p>
-<p><img src="/img/article/blog-tutorial/20220401-hexo/blog-home.png"></p>
-<h3 id="Github-个人仓库"><a href="#Github-个人仓库" class="headerlink" title="Github 个人仓库"></a>Github 个人仓库</h3><p>完成上面的步骤之后，我们就能在本地进行预览了，不过我们如果想要发布到网上供别人看的话，那就得利用 Github Pages 的功能了，下边就来介绍如何结合 Hexo + Github Pages ，将我们的博客推送到网上去，方便大家在任何地方访问！</p>
-<blockquote>
-<p>首先你得有个 GitHub 账号，如果没有的，请出门 <a href="https://github.com/" title="右转">右转</a> 先去注册个账号；</p>
-</blockquote>
-<p>有了账号之后，新建一个仓库，而且得确保你的仓库是 <code>public</code>，你要搞个 <code>private</code>，谁能访问的了？？？同时，仓库名一定要是：</p>
-<blockquote>
-<p><strong>用户名.github.io</strong></p>
-<p><strong>用户名.github.io</strong></p>
-<p><strong>用户名.github.io</strong></p>
-</blockquote>
-<p>这个用户名建议不要太复杂，但是又要能体现你个人特点，因为后续让别人访问你的博客时，就要通过 <code>https://用户名.github.io</code> 这个域名来访问。比如我的用户名是 <strong>cunyu1943</strong>，所以我的仓库就是 <a href="https://github.com/cunyu1943/cunyu1943.github.io" title="cunyu1943.github.io">cunyu1943.github.io</a>：</p>
-<p><img src="/img/article/blog-tutorial/20220401-hexo/domain.png"></p>
-<h3 id="部署到-Github"><a href="#部署到-Github" class="headerlink" title="部署到 Github"></a>部署到 Github</h3><p>完成上面的步骤后，你应该能在本地进行预览了，接下来就是推送网站到 Github Pages 了，然后我们就能被其他人访问了。</p>
-<p>只需要在我们刚才的博客根目录中的站点配置文件 <code>_config.yml</code> ，设置为你的个人仓库名即可：</p>
-<p><img src="/img/article/blog-tutorial/20220401-hexo/config.png"></p>
-<p><img src="/img/article/blog-tutorial/20220401-hexo/repo-setting.png"></p>
-<p>完成上述步骤之后，主要使用如下命令，就能将我们本地的内容推送到远程 GitHub 仓库了，然后在浏览器中访问：</p>
-<blockquote>
-<p>https:&#x2F;&#x2F;用户名.github.io</p>
-</blockquote>
-<p>比如我的博客 <a href="https://cunyu1943.github.io/" title="村雨遥的博客">村雨遥的博客</a>；</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
-
-<p><img src="/img/article/blog-tutorial/20220401-hexo/blog-home.png"></p>
-<h3 id="Gitee-个人仓库"><a href="#Gitee-个人仓库" class="headerlink" title="Gitee 个人仓库"></a>Gitee 个人仓库</h3><p>上面说完部署到 Github，接下来就说说怎么部署到 Gitee，老规矩，首先你得需要一个 Gitee 账号，如果没有的，出门 <a href="https://gitee.com/" title="右转">右转</a> 先去注册个账号。</p>
-<p>然后新建一个仓库，同样有几点需要注意的：</p>
-<ol>
-<li>保证你的仓库是 <code>public</code>；</li>
-<li>仓库名是 <strong>你的用户名</strong>，这一点和 Github 略有不同，不需要是 <strong>用户名.gitee.io</strong>；</li>
-</ol>
-<p>比如我的用户名是 <code>cunyu1943</code>，所以我的仓库名就是 <a href="https://gitee.com/cunyu1943/cunyu1943" title="cunyu1943">cunyu1943</a>。</p>
-<p><img src="/img/article/blog-tutorial/20220401-hexo/gitee-repo.png"></p>
-<h3 id="部署到-Gitee"><a href="#部署到-Gitee" class="headerlink" title="部署到 Gitee"></a>部署到 Gitee</h3><p>完成上面的步骤后，你应该能在本地进行预览了，接下来就是推送网站到 Gitee Pages 了，然后我们就能被其他人访问了。这里需要注意的是，Gitee Pages 不像 Github Pages 会自动更新，它需要你每次推送后，去更新一下，如果想要自动更新，就需要开通 Gitee 的会员。</p>
-<p>然后需要在我们刚才的博客根目录中的站点配置文件 <code>_config.yml</code> ，设置为你的个人仓库名即可：</p>
-<p><img src="/img/article/blog-tutorial/20220401-hexo/config.png"></p>
-<p><img src="/img/article/blog-tutorial/20220401-hexo/repo-gitee.png"></p>
-<p>完成上述步骤之后，主要使用如下命令，就能将我们本地的内容推送到远程 Gitee 仓库了，去手动更新 Gitee Pages 后，然后在浏览器中访问：</p>
-<blockquote>
-<p>https:&#x2F;&#x2F;用户名.gitee.io</p>
-</blockquote>
-<p><img src="/img/article/blog-tutorial/20220401-hexo/gitee-home.png"></p>
-<h2 id="如何写新博客并推送到远程"><a href="#如何写新博客并推送到远程" class="headerlink" title="如何写新博客并推送到远程"></a>如何写新博客并推送到远程</h2><p>通过上面的步骤后，你的博客应该就已经搭建成功，而且能通过 <code>https://用户名.github.io</code> 的方式进行访问了。接下来如果我们要发一篇新的博客内容，又应该怎么办呢？接下来就详细讲一下如何操作。</p>
-<ol>
-<li>首先进入博客所在文件夹，然后右键进入控制台，用如下命令进行创建新的文章；</li>
-</ol>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">hexo n &quot;博客标题名&quot;</span><br></pre></td></tr></table></figure>
-
-<p><img src="/img/article/blog-tutorial/20220401-hexo/new-blog.png"></p>
-<ol start="2">
-<li>接着在 <code>blog/source/_posts</code> 目录下应该就会有创建好的以文章标题名命名的 Markdown 文件；</li>
-</ol>
-<p><img src="/img/article/blog-tutorial/20220401-hexo/article.png"></p>
-<ol start="3">
-<li>接着打开该文件，编写你自己想要的内容即可；</li>
-</ol>
-<p><img src="/img/article/blog-tutorial/20220401-hexo/arti-context.png"></p>
-<ol start="4">
-<li>接着在控制台使用如下命令，将其推送到远程 GitHub 仓库，等过一会儿之后，访问即可看到刚才推送的新文章了！</li>
-</ol>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
-
-<p><img src="/img/article/blog-tutorial/20220401-hexo/arti-demo.png"></p>
-<h2 id="如何绑定自定义域名"><a href="#如何绑定自定义域名" class="headerlink" title="如何绑定自定义域名"></a>如何绑定自定义域名</h2><p>通过 <code>用户名.github.io</code> 的方式来访问总归是有些不方便，如果我们需要自己的个性域名，又应该如何设置呢？那么在此之前，你需要有一个已经备案好的域名，如果没有的话，请到阿里云、腾讯云等场商购买自己的域名，然后通过该平台备案，然后添加两条解析记录，以我的腾讯云为例：</p>
-<p><img src="/img/article/blog-tutorial/20220401-hexo/doman-setting.png"></p>
-<p>备好案并设置解析之后，在 Github 的博客项目中，依次点击 <code>Settings-&gt;Pages</code>，然后在 <code>Custom domain</code> 添加你的域名即可，最后 <code>Save</code> 即可，此时你的博客根目录下应该会多一个 <code>CNAME</code> 的文件，然后你就可以通过自己的域名来访问你的博客了。</p>
-<p>当然，有时候可能经过上面的设置后，博客根目录下不会出现名为 <code>CNAME</code> 的文件，如果没有，我们可以通过在本地博客 <code>/source</code> 目录下手动建立一个 <code>CNAME</code> 文件（无后缀），然后把你的域名填进去并保存，最后依次执行如下命令将设置上传到 Github 即可 ~</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
-
-<p><img src="/img/article/blog-tutorial/20220401-hexo/page-setting.png"></p>
-<p>比如我的域名为 <code>cunyu1943.site</code>，通过设置之后，我们就可以通过 <a href="https://cunyu1943.site/">https://cunyu1943.site</a> 来访问我的博客了。</p>
-<p><img src="/img/article/blog-tutorial/20220401-hexo/blog-domain-home.png"></p>
-<h2 id="美化"><a href="#美化" class="headerlink" title="美化"></a>美化</h2><p>经过上面的设置之后，我们只是得到了一个简单地博客，如果你也想让你的博客像我的一样酷（zhuang）炫（bi），就要用到主题了，我采用的主题是 <a href="https://github.com/blinkfox/hexo-theme-matery" title="hexo-theme-matery">hexo-theme-matery</a>，一个基于材料设计和响应式设计而成的主题，而且关于如何设置它也有十分详细的文档，如果存在不懂得问题，还可以及时提交 issue，作者回复也十分及时。</p>
-<p>如果你不想过于折腾，那么你完成上面的步骤之后，也可以直接采用我的博客源代码，然后把里边的个人配置改一下就 ok 了，我的博客源码地址：<a href="https://github.com/cunyu1943/hexo-theme-matery-personal" title="cunyu1943/hexo-theme-matery-personal">hexo-theme-matery-personal</a></p>
-<p>大家直接下载下来，然后把 <code>node_modules.zip</code> 进行解压，然后修改其中的部分配置（也就是你的 Github、网名啥的呀个人信息），主要是修改根目录下的 <code>_config.yml</code> 和 <code>_config.hexo-theme-matery.yml</code>，然后就可以直接写博客了。当然，前提是你把环境啥的都搭建好了。</p>
-<p>PS：我对于配置文件中的某些关键信息进行了隐藏，比如 <code>gitalk</code>、<code>gitment</code>、<code>Valine</code>、<code>baiduAnalytics</code> 等，这些需要你自己去注册并获取自己的信息，请记得修改，否则可能导致失败。</p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>至此，我们的博客就搭建完成了，是不是很简单，赶紧去试试吧！</p>
-<p>对于文中不清楚的地方，欢迎留言，我会在看到的第一时间回复你！</p>
-<div id="readmore-expansion" class=""></div></div>
-			<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
-			<script data-pjax src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
-			<script data-pjax>
-			var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
-			var isEncrypt = document.getElementById('hexo-blog-encrypt');
-			var allowMobile = false;
-			if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
-				try {
-					var plugin = new ReadmorePlugin();
-					plugin.init({
-						"type": "hexo",
-						"id": "readmore-container",
-						"name": "村雨遥",
-						"blogId": "19397-0379198090489-062",
-						"qrcode": "https://cunyu1943.github.io/JavaPark/img/site/wechatpublic.png",
-						"keyword": "验证码",
-						"random": "1",
-						"height": "auto",
-						"expires": "365",
-						"lockToc": "yes",
-						"interval": "60",
-						"baseUrl": ""
-					});
-				} catch(e) {
-					console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
-				}
-			}
-			</script>
-		]]></content>
-      <categories>
-        <category>基础教程</category>
-      </categories>
-      <tags>
-        <tag>博客搭建</tag>
-        <tag>Hexo</tag>
-        <tag>Github Pages</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>网站访问太慢，不妨试试这些 CDN</title>
     <url>/dev-tutorial/20220729-cdn/</url>
     <content><![CDATA[<div id="readmore-container"><blockquote>
@@ -695,6 +513,188 @@
         <tag>开发工具</tag>
         <tag>CMD</tag>
         <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>超详细 Hexo + Github Pages 博客搭建教程</title>
+    <url>/blog-tutorial/20220401-hexo/</url>
+    <content><![CDATA[<div id="readmore-container"><blockquote>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</blockquote>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>现在市面上已经有许多博客了，比如 CSDN、掘金、博客园、简书等等。我们可以直接在上面发表内容，而且交互比较人性化，而且也能被搜索引擎检索到。但是总归是别人的平台，经常会受限，因此我们就希望能有自己的博客。之前也尝试过搭建过不同的博客类型，折腾了不少工作，最终决定定型，采用 Hexo + Github Pages 的方式。今天就带大家一起来搭建自己的博客。由于是采用 Hexo + Github Pages 的方式，所以都是免费的，只是需要有一定的动手能力！</p>
+<h2 id="Hexo-简介"><a href="#Hexo-简介" class="headerlink" title="Hexo 简介"></a>Hexo 简介</h2><p><a href="https://hexo.io/zh-cn/docs/" title="Hexo">Hexo</a> 是一个快速、简洁且高效的静态博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。我们只需要通过 Markdown 语法写好自己的博客内容，然后通过简单的命令就能够将生成的网页上传到 Github，然后大家都可以来访问你的网页了。既方便了自己，也给了自己一个展示自己成果的平台，是不是一举两得。</p>
+<h2 id="搭建步骤"><a href="#搭建步骤" class="headerlink" title="搭建步骤"></a>搭建步骤</h2><p>搭建之前，需要做一些准备工作，首先需要确保你的电脑上已经上安装好了 Git 和 Node.Js，然后才能开始安装 Hexo，那么首先我们先来看看如何准备这这些环境。</p>
+<h3 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h3><h4 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h4><ol>
+<li><strong>Window</strong>：<a href="https://git-scm.com/download/win" title="下载并安装">下载并安装</a></li>
+<li><strong>macOS</strong>：<a href="https://sourceforge.net/projects/git-osx-installer/" title="下载并安装">下载并安装</a></li>
+<li><strong>Linux（Debian，Ubuntu）</strong>：<code>sudo apt-get install git-core</code></li>
+<li><strong>Linux（Fedora、RedHat、CentOS）</strong>：<code>sudo yum install git-core</code></li>
+</ol>
+<h4 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h4><p>安装成功后，将 git 与 GitHub 账号绑定，右键打开 Git Bash，然后设置配置信息：</p>
+<p><img src="/img/article/blog-tutorial/20220401-hexo/gitbash-here.png"></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">配置用户名和邮箱</span></span><br><span class="line">git config --global user.name &quot;github 用户名&quot;</span><br><span class="line">git config --global user.email &quot;github 注册邮箱&quot;</span><br></pre></td></tr></table></figure>
+
+<p>比如我的配置就是：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;cunyu1943&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;747731461@qq.com&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>接着生成 ssh 密钥文件，输入如下命令后直接三次回车即可，一般不需要设置密码；</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">生成 ssh 密钥</span></span><br><span class="line">ssh-keygen -t rsa -C &quot;github 注册邮箱&quot;</span><br></pre></td></tr></table></figure>
+
+<p>我生成秘钥的命令：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;747731461@qq.com&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p><img src="/img/article/blog-tutorial/20220401-hexo/ssh-key.png"></p>
+<p>一般执行上述命令之后，会生成 <code>id_rsa</code> 和 <code>id_rsa.pub</code> 两个文件，前者是我们私有的，而后者则是对外开放的。接着找到生成的 <code>.ssh</code> 的文件夹中的 id_rsa.pub 密钥，将内容复制；</p>
+<p><img src="/img/article/blog-tutorial/20220401-hexo/id-rsa.png"></p>
+<p>然后打开 <a href="https://github.com/settings/keys" title="GitHub-Settings-Keys">GitHub-Settings-Keys</a> 页面，创建一个新的 SSH key，填写 <code>Title</code> 和 <code>Key</code>，<code>Title</code> 可以随意，而 <code>Key</code> 的内容则是我们刚才复制的 <code>id_rsa.pub</code> 中的内容，最后点击 <code>Add SSH key</code> 即可；</p>
+<p><img src="/img/article/blog-tutorial/20220401-hexo/add-ssh-key.png"></p>
+<h3 id="Node-Js-安装"><a href="#Node-Js-安装" class="headerlink" title="Node.Js 安装"></a>Node.Js 安装</h3><h4 id="安装-1"><a href="#安装-1" class="headerlink" title="安装"></a>安装</h4><p>去官网下载最新的稳定版 <a href="https://nodejs.org/en/" title="Node.JS">Node.JS</a> ，一般推荐 64 位（大家应该现在用的电脑基本都是 64 位的吧），安装的话很简单，基本就是下一步下一步点击就好了。如果还是不知道如何安装，可以参考我的另一篇博客：<a href="https://blog.csdn.net/github_39655029/article/details/105397485" title="Windows 下 Node.js 的安装（多图版）">Windows 下 Node.js 的安装（多图版）</a></p>
+<h4 id="验证"><a href="#验证" class="headerlink" title="验证"></a>验证</h4><p>安装完成后，要查看我们是否安装成功，可以打开命令提示符（<code>Win + R</code>），输入 <code>cmd</code> 打开控制台，输入如下命令，如果出现对应版本号，说明安装成功了；</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure>
+
+<p><img src="/img/article/blog-tutorial/20220401-hexo/node-v.png"></p>
+<h4 id="设置-1"><a href="#设置-1" class="headerlink" title="设置"></a>设置</h4><p>由于下载包是从国外服务器，所以速度较慢，因此我们推荐用阿里的国内镜像进行设置；</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm config <span class="built_in">set</span> registry https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
+
+<h3 id="Hexo-安装"><a href="#Hexo-安装" class="headerlink" title="Hexo 安装"></a>Hexo 安装</h3><p>在你的硬盘上找个地儿，用来存放你的博客文件，比如我的就在 <code>D:personalFiles/github/blog</code>，这个文件夹你可以根据自己的喜好来设置。然后从命令台进入当前文件夹，接下来就是安装过程了；</p>
+<ol>
+<li>首先安装 Hexo</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm i hexo-cli -g</span><br></pre></td></tr></table></figure>
+
+<p><img src="/img/article/blog-tutorial/20220401-hexo/hexo-install.png"></p>
+<ol start="2">
+<li>新建一个文件夹用于存放你的博客，比如我的是 <code>blog</code>，然后进入该文件夹，并用如下命令进行初始化并安装必备组件；</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo init .</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
+
+<p><img src="/img/article/blog-tutorial/20220401-hexo/init-blog.png"></p>
+<ol start="3">
+<li>初始化后，目录结构如下；</li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">.</span><br><span class="line">├── _config.yml # 网站配置信息</span><br><span class="line">├── package.json # 应用程序信息</span><br><span class="line">├── scaffolds # 模板文件夹</span><br><span class="line">├── source # 存放用户资源</span><br><span class="line">|   ├── _drafts</span><br><span class="line">|   └── _posts</span><br><span class="line">└── themes # 主题文件夹</span><br></pre></td></tr></table></figure>
+
+<ol start="4">
+<li>然后输入如下命令，然后在浏览器中打开 <code>http://localhost:4000</code>；</li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">新建博客</span></span><br><span class="line">hexo new &quot;博客名&quot;</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">生成静态网页</span></span><br><span class="line">hexo g</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">打开本地服务器</span></span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+
+<p>然后就可以看到如下的界面，不过我的是经过修改过的，所以和你的会不一样。</p>
+<p><img src="/img/article/blog-tutorial/20220401-hexo/blog-home.png"></p>
+<h3 id="Github-个人仓库"><a href="#Github-个人仓库" class="headerlink" title="Github 个人仓库"></a>Github 个人仓库</h3><p>完成上面的步骤之后，我们就能在本地进行预览了，不过我们如果想要发布到网上供别人看的话，那就得利用 Github Pages 的功能了，下边就来介绍如何结合 Hexo + Github Pages ，将我们的博客推送到网上去，方便大家在任何地方访问！</p>
+<blockquote>
+<p>首先你得有个 GitHub 账号，如果没有的，请出门 <a href="https://github.com/" title="右转">右转</a> 先去注册个账号；</p>
+</blockquote>
+<p>有了账号之后，新建一个仓库，而且得确保你的仓库是 <code>public</code>，你要搞个 <code>private</code>，谁能访问的了？？？同时，仓库名一定要是：</p>
+<blockquote>
+<p><strong>用户名.github.io</strong></p>
+<p><strong>用户名.github.io</strong></p>
+<p><strong>用户名.github.io</strong></p>
+</blockquote>
+<p>这个用户名建议不要太复杂，但是又要能体现你个人特点，因为后续让别人访问你的博客时，就要通过 <code>https://用户名.github.io</code> 这个域名来访问。比如我的用户名是 <strong>cunyu1943</strong>，所以我的仓库就是 <a href="https://github.com/cunyu1943/cunyu1943.github.io" title="cunyu1943.github.io">cunyu1943.github.io</a>：</p>
+<p><img src="/img/article/blog-tutorial/20220401-hexo/domain.png"></p>
+<h3 id="部署到-Github"><a href="#部署到-Github" class="headerlink" title="部署到 Github"></a>部署到 Github</h3><p>完成上面的步骤后，你应该能在本地进行预览了，接下来就是推送网站到 Github Pages 了，然后我们就能被其他人访问了。</p>
+<p>只需要在我们刚才的博客根目录中的站点配置文件 <code>_config.yml</code> ，设置为你的个人仓库名即可：</p>
+<p><img src="/img/article/blog-tutorial/20220401-hexo/config.png"></p>
+<p><img src="/img/article/blog-tutorial/20220401-hexo/repo-setting.png"></p>
+<p>完成上述步骤之后，主要使用如下命令，就能将我们本地的内容推送到远程 GitHub 仓库了，然后在浏览器中访问：</p>
+<blockquote>
+<p>https:&#x2F;&#x2F;用户名.github.io</p>
+</blockquote>
+<p>比如我的博客 <a href="https://cunyu1943.github.io/" title="村雨遥的博客">村雨遥的博客</a>；</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+
+<p><img src="/img/article/blog-tutorial/20220401-hexo/blog-home.png"></p>
+<h3 id="Gitee-个人仓库"><a href="#Gitee-个人仓库" class="headerlink" title="Gitee 个人仓库"></a>Gitee 个人仓库</h3><p>上面说完部署到 Github，接下来就说说怎么部署到 Gitee，老规矩，首先你得需要一个 Gitee 账号，如果没有的，出门 <a href="https://gitee.com/" title="右转">右转</a> 先去注册个账号。</p>
+<p>然后新建一个仓库，同样有几点需要注意的：</p>
+<ol>
+<li>保证你的仓库是 <code>public</code>；</li>
+<li>仓库名是 <strong>你的用户名</strong>，这一点和 Github 略有不同，不需要是 <strong>用户名.gitee.io</strong>；</li>
+</ol>
+<p>比如我的用户名是 <code>cunyu1943</code>，所以我的仓库名就是 <a href="https://gitee.com/cunyu1943/cunyu1943" title="cunyu1943">cunyu1943</a>。</p>
+<p><img src="/img/article/blog-tutorial/20220401-hexo/gitee-repo.png"></p>
+<h3 id="部署到-Gitee"><a href="#部署到-Gitee" class="headerlink" title="部署到 Gitee"></a>部署到 Gitee</h3><p>完成上面的步骤后，你应该能在本地进行预览了，接下来就是推送网站到 Gitee Pages 了，然后我们就能被其他人访问了。这里需要注意的是，Gitee Pages 不像 Github Pages 会自动更新，它需要你每次推送后，去更新一下，如果想要自动更新，就需要开通 Gitee 的会员。</p>
+<p>然后需要在我们刚才的博客根目录中的站点配置文件 <code>_config.yml</code> ，设置为你的个人仓库名即可：</p>
+<p><img src="/img/article/blog-tutorial/20220401-hexo/config.png"></p>
+<p><img src="/img/article/blog-tutorial/20220401-hexo/repo-gitee.png"></p>
+<p>完成上述步骤之后，主要使用如下命令，就能将我们本地的内容推送到远程 Gitee 仓库了，去手动更新 Gitee Pages 后，然后在浏览器中访问：</p>
+<blockquote>
+<p>https:&#x2F;&#x2F;用户名.gitee.io</p>
+</blockquote>
+<p><img src="/img/article/blog-tutorial/20220401-hexo/gitee-home.png"></p>
+<h2 id="如何写新博客并推送到远程"><a href="#如何写新博客并推送到远程" class="headerlink" title="如何写新博客并推送到远程"></a>如何写新博客并推送到远程</h2><p>通过上面的步骤后，你的博客应该就已经搭建成功，而且能通过 <code>https://用户名.github.io</code> 的方式进行访问了。接下来如果我们要发一篇新的博客内容，又应该怎么办呢？接下来就详细讲一下如何操作。</p>
+<ol>
+<li>首先进入博客所在文件夹，然后右键进入控制台，用如下命令进行创建新的文章；</li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">hexo n &quot;博客标题名&quot;</span><br></pre></td></tr></table></figure>
+
+<p><img src="/img/article/blog-tutorial/20220401-hexo/new-blog.png"></p>
+<ol start="2">
+<li>接着在 <code>blog/source/_posts</code> 目录下应该就会有创建好的以文章标题名命名的 Markdown 文件；</li>
+</ol>
+<p><img src="/img/article/blog-tutorial/20220401-hexo/article.png"></p>
+<ol start="3">
+<li>接着打开该文件，编写你自己想要的内容即可；</li>
+</ol>
+<p><img src="/img/article/blog-tutorial/20220401-hexo/arti-context.png"></p>
+<ol start="4">
+<li>接着在控制台使用如下命令，将其推送到远程 GitHub 仓库，等过一会儿之后，访问即可看到刚才推送的新文章了！</li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+
+<p><img src="/img/article/blog-tutorial/20220401-hexo/arti-demo.png"></p>
+<h2 id="如何绑定自定义域名"><a href="#如何绑定自定义域名" class="headerlink" title="如何绑定自定义域名"></a>如何绑定自定义域名</h2><p>通过 <code>用户名.github.io</code> 的方式来访问总归是有些不方便，如果我们需要自己的个性域名，又应该如何设置呢？那么在此之前，你需要有一个已经备案好的域名，如果没有的话，请到阿里云、腾讯云等场商购买自己的域名，然后通过该平台备案，然后添加两条解析记录，以我的腾讯云为例：</p>
+<p><img src="/img/article/blog-tutorial/20220401-hexo/doman-setting.png"></p>
+<p>备好案并设置解析之后，在 Github 的博客项目中，依次点击 <code>Settings-&gt;Pages</code>，然后在 <code>Custom domain</code> 添加你的域名即可，最后 <code>Save</code> 即可，此时你的博客根目录下应该会多一个 <code>CNAME</code> 的文件，然后你就可以通过自己的域名来访问你的博客了。</p>
+<p>当然，有时候可能经过上面的设置后，博客根目录下不会出现名为 <code>CNAME</code> 的文件，如果没有，我们可以通过在本地博客 <code>/source</code> 目录下手动建立一个 <code>CNAME</code> 文件（无后缀），然后把你的域名填进去并保存，最后依次执行如下命令将设置上传到 Github 即可 ~</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+
+<p><img src="/img/article/blog-tutorial/20220401-hexo/page-setting.png"></p>
+<p>比如我的域名为 <code>cunyu1943.site</code>，通过设置之后，我们就可以通过 <a href="https://cunyu1943.site/">https://cunyu1943.site</a> 来访问我的博客了。</p>
+<p><img src="/img/article/blog-tutorial/20220401-hexo/blog-domain-home.png"></p>
+<h2 id="美化"><a href="#美化" class="headerlink" title="美化"></a>美化</h2><p>经过上面的设置之后，我们只是得到了一个简单地博客，如果你也想让你的博客像我的一样酷（zhuang）炫（bi），就要用到主题了，我采用的主题是 <a href="https://github.com/blinkfox/hexo-theme-matery" title="hexo-theme-matery">hexo-theme-matery</a>，一个基于材料设计和响应式设计而成的主题，而且关于如何设置它也有十分详细的文档，如果存在不懂得问题，还可以及时提交 issue，作者回复也十分及时。</p>
+<p>如果你不想过于折腾，那么你完成上面的步骤之后，也可以直接采用我的博客源代码，然后把里边的个人配置改一下就 ok 了，我的博客源码地址：<a href="https://github.com/cunyu1943/hexo-theme-matery-personal" title="cunyu1943/hexo-theme-matery-personal">hexo-theme-matery-personal</a></p>
+<p>大家直接下载下来，然后把 <code>node_modules.zip</code> 进行解压，然后修改其中的部分配置（也就是你的 Github、网名啥的呀个人信息），主要是修改根目录下的 <code>_config.yml</code> 和 <code>_config.hexo-theme-matery.yml</code>，然后就可以直接写博客了。当然，前提是你把环境啥的都搭建好了。</p>
+<p>PS：我对于配置文件中的某些关键信息进行了隐藏，比如 <code>gitalk</code>、<code>gitment</code>、<code>Valine</code>、<code>baiduAnalytics</code> 等，这些需要你自己去注册并获取自己的信息，请记得修改，否则可能导致失败。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>至此，我们的博客就搭建完成了，是不是很简单，赶紧去试试吧！</p>
+<p>对于文中不清楚的地方，欢迎留言，我会在看到的第一时间回复你！</p>
+<div id="readmore-expansion" class=""></div></div>
+			<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
+			<script data-pjax src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
+			<script data-pjax>
+			var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
+			var isEncrypt = document.getElementById('hexo-blog-encrypt');
+			var allowMobile = false;
+			if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
+				try {
+					var plugin = new ReadmorePlugin();
+					plugin.init({
+						"type": "hexo",
+						"id": "readmore-container",
+						"name": "村雨遥",
+						"blogId": "19397-0379198090489-062",
+						"qrcode": "https://cunyu1943.github.io/JavaPark/img/site/wechatpublic.png",
+						"keyword": "验证码",
+						"random": "1",
+						"height": "auto",
+						"expires": "365",
+						"lockToc": "yes",
+						"interval": "60",
+						"baseUrl": ""
+					});
+				} catch(e) {
+					console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
+				}
+			}
+			</script>
+		]]></content>
+      <categories>
+        <category>基础教程</category>
+      </categories>
+      <tags>
+        <tag>博客搭建</tag>
+        <tag>Hexo</tag>
+        <tag>Github Pages</tag>
       </tags>
   </entry>
   <entry>
@@ -3590,15 +3590,15 @@
 </thead>
 <tbody><tr>
 <td>cust10</td>
-<td><a href="mailto:&#99;&#117;&#115;&#x74;&#x31;&#48;&#64;&#x63;&#x75;&#x73;&#x74;&#x2e;&#x63;&#111;&#109;">&#99;&#117;&#115;&#x74;&#x31;&#48;&#64;&#x63;&#x75;&#x73;&#x74;&#x2e;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#x63;&#117;&#x73;&#116;&#x31;&#48;&#x40;&#x63;&#117;&#115;&#116;&#x2e;&#x63;&#111;&#x6d;">&#x63;&#117;&#x73;&#116;&#x31;&#48;&#x40;&#x63;&#117;&#115;&#116;&#x2e;&#x63;&#111;&#x6d;</a></td>
 </tr>
 <tr>
 <td>cust1</td>
-<td><a href="mailto:&#x63;&#x75;&#115;&#116;&#x31;&#64;&#99;&#x75;&#x73;&#116;&#46;&#99;&#111;&#x6d;">&#x63;&#x75;&#115;&#116;&#x31;&#64;&#99;&#x75;&#x73;&#116;&#46;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x63;&#x75;&#115;&#116;&#49;&#64;&#99;&#117;&#x73;&#x74;&#46;&#99;&#111;&#x6d;">&#x63;&#x75;&#115;&#116;&#49;&#64;&#99;&#117;&#x73;&#x74;&#46;&#99;&#111;&#x6d;</a></td>
 </tr>
 <tr>
 <td>cust2</td>
-<td><a href="mailto:&#x63;&#117;&#115;&#x74;&#x32;&#64;&#x63;&#117;&#x73;&#x74;&#x2e;&#99;&#111;&#x6d;">&#x63;&#117;&#115;&#x74;&#x32;&#64;&#x63;&#117;&#x73;&#x74;&#x2e;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#99;&#117;&#x73;&#116;&#50;&#x40;&#99;&#x75;&#x73;&#116;&#x2e;&#99;&#111;&#x6d;">&#99;&#117;&#x73;&#116;&#50;&#x40;&#99;&#x75;&#x73;&#116;&#x2e;&#99;&#111;&#x6d;</a></td>
 </tr>
 </tbody></table>
 <h3 id="问题-33"><a href="#问题-33" class="headerlink" title="问题"></a>问题</h3><p>返回购买 prod_id 为 BR01 的产品的所有顾客的电子邮件（Customers 表中的 cust_email），结果无需排序。 </p>
@@ -3611,13 +3611,13 @@
 </tr>
 </thead>
 <tbody><tr>
-<td><a href="mailto:&#99;&#117;&#x73;&#116;&#x31;&#48;&#x40;&#99;&#117;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;">&#99;&#117;&#x73;&#116;&#x31;&#48;&#x40;&#99;&#117;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#99;&#x75;&#x73;&#116;&#x31;&#48;&#64;&#99;&#x75;&#115;&#x74;&#46;&#99;&#x6f;&#x6d;">&#99;&#x75;&#x73;&#116;&#x31;&#48;&#64;&#99;&#x75;&#115;&#x74;&#46;&#99;&#x6f;&#x6d;</a></td>
 </tr>
 <tr>
-<td><a href="mailto:&#99;&#x75;&#115;&#116;&#49;&#x40;&#99;&#117;&#115;&#x74;&#x2e;&#x63;&#111;&#109;">&#99;&#x75;&#115;&#116;&#49;&#x40;&#99;&#117;&#115;&#x74;&#x2e;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#99;&#117;&#115;&#x74;&#49;&#64;&#99;&#x75;&#115;&#116;&#x2e;&#x63;&#111;&#x6d;">&#99;&#117;&#115;&#x74;&#49;&#64;&#99;&#x75;&#115;&#116;&#x2e;&#x63;&#111;&#x6d;</a></td>
 </tr>
 </tbody></table>
-<h3 id="示例解析-13"><a href="#示例解析-13" class="headerlink" title="示例解析"></a>示例解析</h3><p>产品 id 为 BR01 的订单 a0001 和 a002 的下单顾客 cust10 和 cust1 的顾客email cust_email 分别是：<a href="mailto:&#99;&#117;&#x73;&#116;&#49;&#48;&#x40;&#99;&#117;&#x73;&#x74;&#x2e;&#99;&#111;&#109;">&#99;&#117;&#x73;&#116;&#49;&#48;&#x40;&#99;&#117;&#x73;&#x74;&#x2e;&#99;&#111;&#109;</a> 、<a href="mailto:&#x63;&#117;&#x73;&#x74;&#49;&#64;&#99;&#x75;&#x73;&#x74;&#46;&#x63;&#111;&#x6d;">&#x63;&#117;&#x73;&#x74;&#49;&#64;&#99;&#x75;&#x73;&#x74;&#46;&#x63;&#111;&#x6d;</a></p>
+<h3 id="示例解析-13"><a href="#示例解析-13" class="headerlink" title="示例解析"></a>示例解析</h3><p>产品 id 为 BR01 的订单 a0001 和 a002 的下单顾客 cust10 和 cust1 的顾客email cust_email 分别是：<a href="mailto:&#99;&#117;&#x73;&#116;&#x31;&#x30;&#64;&#99;&#117;&#x73;&#x74;&#46;&#99;&#111;&#x6d;">&#99;&#117;&#x73;&#116;&#x31;&#x30;&#64;&#99;&#117;&#x73;&#x74;&#46;&#99;&#111;&#x6d;</a> 、<a href="mailto:&#x63;&#x75;&#x73;&#116;&#49;&#64;&#99;&#117;&#x73;&#116;&#x2e;&#x63;&#111;&#109;">&#x63;&#x75;&#x73;&#116;&#49;&#64;&#99;&#117;&#x73;&#116;&#x2e;&#x63;&#111;&#109;</a></p>
 <h3 id="示例-33"><a href="#示例-33" class="headerlink" title="示例"></a>示例</h3><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> IF <span class="keyword">EXISTS</span> `OrderItems`;</span><br><span class="line">  <span class="keyword">CREATE</span> <span class="keyword">TABLE</span> IF <span class="keyword">NOT</span> <span class="keyword">EXISTS</span> `OrderItems`(</span><br><span class="line">    prod_id <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;产品id&#x27;</span>,</span><br><span class="line">    order_num <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;商品订单号&#x27;</span></span><br><span class="line">  );</span><br><span class="line">  <span class="keyword">INSERT</span> `OrderItems` <span class="keyword">VALUES</span> (<span class="string">&#x27;BR01&#x27;</span>,<span class="string">&#x27;a0001&#x27;</span>),(<span class="string">&#x27;BR01&#x27;</span>,<span class="string">&#x27;a0002&#x27;</span>),(<span class="string">&#x27;BR02&#x27;</span>,<span class="string">&#x27;a0003&#x27;</span>),(<span class="string">&#x27;BR02&#x27;</span>,<span class="string">&#x27;a0013&#x27;</span>);</span><br><span class="line"></span><br><span class="line">  <span class="keyword">DROP</span> <span class="keyword">TABLE</span> IF <span class="keyword">EXISTS</span> `Orders`;</span><br><span class="line">  <span class="keyword">CREATE</span> <span class="keyword">TABLE</span> IF <span class="keyword">NOT</span> <span class="keyword">EXISTS</span> `Orders`(</span><br><span class="line">    order_num <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;商品订单号&#x27;</span>,</span><br><span class="line">    cust_id <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;顾客id&#x27;</span>,</span><br><span class="line">    order_date <span class="type">TIMESTAMP</span> <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;下单时间&#x27;</span></span><br><span class="line">  );</span><br><span class="line">  <span class="keyword">INSERT</span> `Orders` <span class="keyword">VALUES</span> (<span class="string">&#x27;a0001&#x27;</span>,<span class="string">&#x27;cust10&#x27;</span>,<span class="string">&#x27;2022-01-01 00:00:00&#x27;</span>),(<span class="string">&#x27;a0002&#x27;</span>,<span class="string">&#x27;cust1&#x27;</span>,<span class="string">&#x27;2022-01-01 00:01:00&#x27;</span>),(<span class="string">&#x27;a0003&#x27;</span>,<span class="string">&#x27;cust1&#x27;</span>,<span class="string">&#x27;2022-01-02 00:00:00&#x27;</span>),(<span class="string">&#x27;a0013&#x27;</span>,<span class="string">&#x27;cust2&#x27;</span>,<span class="string">&#x27;2022-01-01 00:20:00&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> IF <span class="keyword">EXISTS</span> `Customers`;</span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> IF <span class="keyword">NOT</span> <span class="keyword">EXISTS</span> `Customers`(</span><br><span class="line">    cust_id <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;顾客id&#x27;</span>,</span><br><span class="line">    cust_email <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;顾客email&#x27;</span></span><br><span class="line">  );</span><br><span class="line"><span class="keyword">INSERT</span> `Customers` <span class="keyword">VALUES</span> (<span class="string">&#x27;cust10&#x27;</span>,<span class="string">&#x27;cust10@cust.com&#x27;</span>),(<span class="string">&#x27;cust1&#x27;</span>,<span class="string">&#x27;cust1@cust.com&#x27;</span>),(<span class="string">&#x27;cust2&#x27;</span>,<span class="string">&#x27;cust2@cust.com&#x27;</span>);</span><br></pre></td></tr></table></figure>
 
 
@@ -4256,15 +4256,15 @@
 </thead>
 <tbody><tr>
 <td>cust10</td>
-<td><a href="mailto:&#x63;&#x75;&#115;&#x74;&#49;&#x30;&#x40;&#x63;&#x75;&#x73;&#116;&#x2e;&#x63;&#111;&#109;">&#x63;&#x75;&#115;&#x74;&#49;&#x30;&#x40;&#x63;&#x75;&#x73;&#116;&#x2e;&#x63;&#111;&#109;</a></td>
+<td><a href="mailto:&#99;&#x75;&#x73;&#116;&#49;&#x30;&#x40;&#x63;&#117;&#x73;&#x74;&#46;&#99;&#111;&#x6d;">&#99;&#x75;&#x73;&#116;&#49;&#x30;&#x40;&#x63;&#117;&#x73;&#x74;&#46;&#99;&#111;&#x6d;</a></td>
 </tr>
 <tr>
 <td>cust1</td>
-<td><a href="mailto:&#x63;&#117;&#x73;&#x74;&#x31;&#64;&#x63;&#117;&#x73;&#116;&#x2e;&#99;&#111;&#x6d;">&#x63;&#117;&#x73;&#x74;&#x31;&#64;&#x63;&#117;&#x73;&#116;&#x2e;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#99;&#117;&#115;&#x74;&#49;&#x40;&#x63;&#x75;&#115;&#116;&#x2e;&#99;&#111;&#109;">&#99;&#117;&#115;&#x74;&#49;&#x40;&#x63;&#x75;&#115;&#116;&#x2e;&#99;&#111;&#109;</a></td>
 </tr>
 <tr>
 <td>cust2</td>
-<td><a href="mailto:&#99;&#x75;&#115;&#116;&#x32;&#x40;&#x63;&#117;&#x73;&#116;&#46;&#99;&#x6f;&#109;">&#99;&#x75;&#115;&#116;&#x32;&#x40;&#x63;&#117;&#x73;&#116;&#46;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#99;&#x75;&#x73;&#116;&#x32;&#64;&#x63;&#117;&#115;&#116;&#46;&#x63;&#x6f;&#109;">&#99;&#x75;&#x73;&#116;&#x32;&#64;&#x63;&#117;&#115;&#116;&#46;&#x63;&#x6f;&#109;</a></td>
 </tr>
 </tbody></table>
 <h3 id="问题-39"><a href="#问题-39" class="headerlink" title="问题"></a>问题</h3><p>返回购买 prod_id 为BR01 的产品的所有顾客的电子邮件（Customers 表中的 cust_email），结果无需排序。 </p>
@@ -4277,13 +4277,13 @@
 </tr>
 </thead>
 <tbody><tr>
-<td><a href="mailto:&#99;&#117;&#x73;&#x74;&#49;&#48;&#64;&#x63;&#117;&#115;&#x74;&#46;&#99;&#111;&#109;">&#99;&#117;&#x73;&#x74;&#49;&#48;&#64;&#x63;&#117;&#115;&#x74;&#46;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#x63;&#117;&#115;&#116;&#x31;&#x30;&#x40;&#99;&#x75;&#x73;&#116;&#x2e;&#99;&#x6f;&#109;">&#x63;&#117;&#115;&#116;&#x31;&#x30;&#x40;&#99;&#x75;&#x73;&#116;&#x2e;&#99;&#x6f;&#109;</a></td>
 </tr>
 <tr>
-<td><a href="mailto:&#x63;&#x75;&#115;&#116;&#x31;&#64;&#99;&#117;&#115;&#x74;&#46;&#99;&#111;&#109;">&#x63;&#x75;&#115;&#116;&#x31;&#64;&#99;&#117;&#115;&#x74;&#46;&#99;&#111;&#109;</a></td>
+<td><a href="mailto:&#99;&#117;&#x73;&#116;&#49;&#64;&#99;&#117;&#x73;&#x74;&#x2e;&#x63;&#x6f;&#x6d;">&#99;&#117;&#x73;&#116;&#49;&#64;&#99;&#117;&#x73;&#x74;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
 </tr>
 </tbody></table>
-<h3 id="示例解析-19"><a href="#示例解析-19" class="headerlink" title="示例解析"></a>示例解析</h3><p>产品 id 为 BR01 的订单 a0001 和 a002 的下单顾客 cust10 和 cust1 的顾客 email cust_email 分别是：<a href="mailto:&#99;&#x75;&#x73;&#116;&#49;&#x30;&#x40;&#99;&#x75;&#x73;&#x74;&#x2e;&#x63;&#111;&#x6d;">&#99;&#x75;&#x73;&#116;&#49;&#x30;&#x40;&#99;&#x75;&#x73;&#x74;&#x2e;&#x63;&#111;&#x6d;</a> 、<a href="mailto:&#x63;&#x75;&#x73;&#116;&#49;&#x40;&#99;&#117;&#115;&#x74;&#46;&#99;&#111;&#x6d;">&#x63;&#x75;&#x73;&#116;&#49;&#x40;&#99;&#117;&#115;&#x74;&#46;&#99;&#111;&#x6d;</a> </p>
+<h3 id="示例解析-19"><a href="#示例解析-19" class="headerlink" title="示例解析"></a>示例解析</h3><p>产品 id 为 BR01 的订单 a0001 和 a002 的下单顾客 cust10 和 cust1 的顾客 email cust_email 分别是：<a href="mailto:&#99;&#x75;&#x73;&#x74;&#x31;&#48;&#x40;&#x63;&#x75;&#x73;&#x74;&#46;&#x63;&#x6f;&#x6d;">&#99;&#x75;&#x73;&#x74;&#x31;&#48;&#x40;&#x63;&#x75;&#x73;&#x74;&#46;&#x63;&#x6f;&#x6d;</a> 、<a href="mailto:&#x63;&#117;&#115;&#116;&#x31;&#x40;&#x63;&#117;&#115;&#116;&#x2e;&#99;&#111;&#x6d;">&#x63;&#117;&#115;&#116;&#x31;&#x40;&#x63;&#117;&#115;&#116;&#x2e;&#99;&#111;&#x6d;</a> </p>
 <h3 id="示例-39"><a href="#示例-39" class="headerlink" title="示例"></a>示例</h3><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> IF <span class="keyword">EXISTS</span> `OrderItems`;</span><br><span class="line">  <span class="keyword">CREATE</span> <span class="keyword">TABLE</span> IF <span class="keyword">NOT</span> <span class="keyword">EXISTS</span> `OrderItems`(</span><br><span class="line">    prod_id <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;产品id&#x27;</span>,</span><br><span class="line">    order_num <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;商品订单号&#x27;</span></span><br><span class="line">  );</span><br><span class="line">  <span class="keyword">INSERT</span> `OrderItems` <span class="keyword">VALUES</span> (<span class="string">&#x27;BR01&#x27;</span>,<span class="string">&#x27;a0001&#x27;</span>),(<span class="string">&#x27;BR01&#x27;</span>,<span class="string">&#x27;a0002&#x27;</span>),(<span class="string">&#x27;BR02&#x27;</span>,<span class="string">&#x27;a0003&#x27;</span>),(<span class="string">&#x27;BR02&#x27;</span>,<span class="string">&#x27;a0013&#x27;</span>);</span><br><span class="line"></span><br><span class="line">  <span class="keyword">DROP</span> <span class="keyword">TABLE</span> IF <span class="keyword">EXISTS</span> `Orders`;</span><br><span class="line">  <span class="keyword">CREATE</span> <span class="keyword">TABLE</span> IF <span class="keyword">NOT</span> <span class="keyword">EXISTS</span> `Orders`(</span><br><span class="line">    order_num <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;商品订单号&#x27;</span>,</span><br><span class="line">    cust_id <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;顾客id&#x27;</span>,</span><br><span class="line">    order_date <span class="type">TIMESTAMP</span> <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;下单时间&#x27;</span></span><br><span class="line">  );</span><br><span class="line">  <span class="keyword">INSERT</span> `Orders` <span class="keyword">VALUES</span> (<span class="string">&#x27;a0001&#x27;</span>,<span class="string">&#x27;cust10&#x27;</span>,<span class="string">&#x27;2022-01-01 00:00:00&#x27;</span>),(<span class="string">&#x27;a0002&#x27;</span>,<span class="string">&#x27;cust1&#x27;</span>,<span class="string">&#x27;2022-01-01 00:01:00&#x27;</span>),(<span class="string">&#x27;a0003&#x27;</span>,<span class="string">&#x27;cust1&#x27;</span>,<span class="string">&#x27;2022-01-02 00:00:00&#x27;</span>),(<span class="string">&#x27;a0013&#x27;</span>,<span class="string">&#x27;cust2&#x27;</span>,<span class="string">&#x27;2022-01-01 00:20:00&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> IF <span class="keyword">EXISTS</span> `Customers`;</span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> IF <span class="keyword">NOT</span> <span class="keyword">EXISTS</span> `Customers`(</span><br><span class="line">    cust_id <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;顾客id&#x27;</span>,</span><br><span class="line">    cust_email <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span> COMMENT <span class="string">&#x27;顾客email&#x27;</span></span><br><span class="line">  );</span><br><span class="line"><span class="keyword">INSERT</span> `Customers` <span class="keyword">VALUES</span> (<span class="string">&#x27;cust10&#x27;</span>,<span class="string">&#x27;cust10@cust.com&#x27;</span>),(<span class="string">&#x27;cust1&#x27;</span>,<span class="string">&#x27;cust1@cust.com&#x27;</span>),(<span class="string">&#x27;cust2&#x27;</span>,<span class="string">&#x27;cust2@cust.com&#x27;</span>);</span><br></pre></td></tr></table></figure>
 
 <h3 id="解答-39"><a href="#解答-39" class="headerlink" title="解答"></a>解答</h3><p>多个内联接的组合，先是筛选出 <code>OrderItems</code> 和 <code>Orders</code> 表中 <code>order_num</code> 相同的列，然后根据筛选出的结果列中的 <code>cust_id</code> 从 <code>Customers</code> 表中找对应的顾客信息即可。</p>
@@ -5209,19 +5209,19 @@
 <td>cust10</td>
 <td>8695192</td>
 <td>MI</td>
-<td><a href="mailto:&#99;&#x75;&#x73;&#x74;&#49;&#x30;&#x40;&#99;&#x75;&#x73;&#x74;&#46;&#99;&#x6f;&#109;">&#99;&#x75;&#x73;&#x74;&#49;&#x30;&#x40;&#99;&#x75;&#x73;&#x74;&#46;&#99;&#x6f;&#109;</a></td>
+<td><a href="mailto:&#x63;&#117;&#115;&#116;&#x31;&#x30;&#64;&#x63;&#117;&#x73;&#116;&#46;&#99;&#x6f;&#109;">&#x63;&#117;&#115;&#116;&#x31;&#x30;&#64;&#x63;&#117;&#x73;&#116;&#46;&#99;&#x6f;&#109;</a></td>
 </tr>
 <tr>
 <td>cust1</td>
 <td>8695193</td>
 <td>MI</td>
-<td><a href="mailto:&#99;&#117;&#115;&#x74;&#49;&#64;&#x63;&#117;&#115;&#x74;&#x2e;&#99;&#111;&#x6d;">&#99;&#117;&#115;&#x74;&#49;&#64;&#x63;&#117;&#115;&#x74;&#x2e;&#99;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#99;&#117;&#115;&#x74;&#49;&#64;&#99;&#x75;&#x73;&#116;&#46;&#x63;&#111;&#109;">&#99;&#117;&#115;&#x74;&#49;&#64;&#99;&#x75;&#x73;&#116;&#46;&#x63;&#111;&#109;</a></td>
 </tr>
 <tr>
 <td>cust2</td>
 <td>8695194</td>
 <td>IL</td>
-<td><a href="mailto:&#x63;&#117;&#115;&#116;&#50;&#64;&#x63;&#x75;&#115;&#x74;&#46;&#x63;&#111;&#x6d;">&#x63;&#117;&#115;&#116;&#50;&#64;&#x63;&#x75;&#115;&#x74;&#46;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x63;&#117;&#115;&#116;&#50;&#64;&#99;&#117;&#x73;&#x74;&#x2e;&#x63;&#x6f;&#x6d;">&#x63;&#117;&#115;&#116;&#50;&#64;&#99;&#117;&#x73;&#x74;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
 </tr>
 </tbody></table>
 <h3 id="问题-49"><a href="#问题-49" class="headerlink" title="问题"></a>问题</h3><p>修正下面错误的 SQL </p>
@@ -5239,17 +5239,17 @@
 <tbody><tr>
 <td>cust1</td>
 <td>8695193</td>
-<td><a href="mailto:&#x63;&#x75;&#x73;&#x74;&#x31;&#64;&#99;&#x75;&#115;&#116;&#x2e;&#x63;&#x6f;&#x6d;">&#x63;&#x75;&#x73;&#x74;&#x31;&#64;&#99;&#x75;&#115;&#116;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#x63;&#x75;&#x73;&#x74;&#49;&#64;&#99;&#x75;&#x73;&#116;&#x2e;&#99;&#111;&#x6d;">&#x63;&#x75;&#x73;&#x74;&#49;&#64;&#99;&#x75;&#x73;&#116;&#x2e;&#99;&#111;&#x6d;</a></td>
 </tr>
 <tr>
 <td>cust10</td>
 <td>8695192</td>
-<td><a href="mailto:&#99;&#x75;&#115;&#x74;&#x31;&#x30;&#64;&#99;&#x75;&#x73;&#x74;&#x2e;&#x63;&#x6f;&#x6d;">&#99;&#x75;&#115;&#x74;&#x31;&#x30;&#64;&#99;&#x75;&#x73;&#x74;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
+<td><a href="mailto:&#99;&#117;&#x73;&#x74;&#x31;&#48;&#x40;&#99;&#117;&#x73;&#x74;&#x2e;&#x63;&#x6f;&#x6d;">&#99;&#117;&#x73;&#x74;&#x31;&#48;&#x40;&#99;&#117;&#x73;&#x74;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
 </tr>
 <tr>
 <td>cust2</td>
 <td>8695194</td>
-<td><a href="mailto:&#x63;&#x75;&#115;&#x74;&#50;&#x40;&#x63;&#x75;&#x73;&#x74;&#x2e;&#x63;&#111;&#x6d;">&#x63;&#x75;&#115;&#x74;&#50;&#x40;&#x63;&#x75;&#x73;&#x74;&#x2e;&#x63;&#111;&#x6d;</a></td>
+<td><a href="mailto:&#x63;&#x75;&#x73;&#x74;&#50;&#x40;&#x63;&#x75;&#x73;&#116;&#x2e;&#99;&#111;&#x6d;">&#x63;&#x75;&#x73;&#x74;&#50;&#x40;&#x63;&#x75;&#x73;&#116;&#x2e;&#99;&#111;&#x6d;</a></td>
 </tr>
 </tbody></table>
 <h3 id="示例解析-28"><a href="#示例解析-28" class="headerlink" title="示例解析"></a>示例解析</h3><p>返回住在 “IL” 和 “MI” 的顾客信息，最后根据顾客名称升序排序。 </p>
