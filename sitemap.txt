@@ -1,8 +1,0 @@
-http://cunyu1943.github.io/java-tutorial/index.html
-http://cunyu1943.github.io/link/index.html
-http://cunyu1943.github.io/springboot-tutorial/index.html
-http://cunyu1943.github.io/tags/index.html
-http://cunyu1943.github.io/posts/3f470e4f/
-http://cunyu1943.github.io/about/index.html
-http://cunyu1943.github.io/categories/index.html
-http://cunyu1943.github.io/
