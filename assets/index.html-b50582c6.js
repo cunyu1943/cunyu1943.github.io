@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-8daa1a0e","path":"/","title":"","lang":"en-US","frontmatter":{},"headers":[{"level":2,"title":"快速开始","slug":"快速开始","link":"#快速开始","children":[]}],"git":{"createdTime":1692710931000,"updatedTime":1692710931000,"contributors":[{"name":"cunyu1943","email":"747731461@qq.com","commits":1}]},"filePathRelative":"README.md"}');export{e as data};
