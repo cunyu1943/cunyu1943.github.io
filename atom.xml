@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习、面试求职、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2023-08-27T14:05:28.665Z</updated>
+  <updated>2023-08-27T14:07:49.638Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -10716,7 +10716,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#1：提示工程师养成指南</title>
     <id>https://cunyu1943.github.io/weekly/2023/0415-0421.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0415-0421.html"/>
-    <updated>2023-08-27T12:10:24.000Z</updated>
+    <updated>2023-08-27T14:04:20.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#1：提示工程师养成指南</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -10753,7 +10753,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>提示组件</li>
 <li>其他组件</li>
 </ul>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693144296484.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. <a href="https://github.com/zonemeen/netease-recent-profile" target="_blank" rel="noopener noreferrer">netease-recent-profile</a></h3>
 <p>通过使用该组件，可以在 <code>Github Profile</code> 上显示你在网易云音乐上的听歌记录。</p>
 <figure><figcaption></figcaption></figure>
@@ -10789,7 +10789,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://www.screentogif.com/" target="_blank" rel="noopener noreferrer">ScreenToGif</a></h3>
 <p>一款非常好用的免费开源 <code>Gif</code> 动画录制工具，集 <code>GIF</code> 录制、制作、编辑等多种功能为一身。具有录制屏幕、录制摄像头、录制画板、编辑器等功能，软件小巧、界面简洁但功能却很强大，而且操作也很简单。不过需要注意一点，它目前只支持在 <code>Windows</code> 系统中使用。</p>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693144871919.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. <a href="https://www.snipaste.com/" target="_blank" rel="noopener noreferrer">Snipaste</a></h3>
 <p>一款强大的免费截图 + 贴图软件，目前支持 <code>Windows</code> 和 <code>macOS</code> 系统。免费版功能对于日常截图贴图已经完全足够，同时还推出了专业版，比起免费版更为强大。</p>
 <p>专业版与免费版功能对比如下表，专业版目前定价 <code>99</code> 元，有需要的看官可以入手。</p>
@@ -11229,7 +11229,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 </tr>
 </tbody>
 </table>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693144474524.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://browserframe.com/" target="_blank" rel="noopener noreferrer">BrowserFrame</a></h3>
 <p>通过该网站，可以模拟在各大浏览器框架中的屏幕截图，支持 <code>Chrome</code>、<code>Safari</code>、<code>Firefox</code>、<code>Edge</code>、<code>Opera</code>等浏览器、<code>macOS</code>、<code>Windows</code> 系统以及 <code>Dark</code>、<code>Light</code> 主题。</p>
@@ -11381,7 +11381,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#2：AI 写作助手</title>
     <id>https://cunyu1943.github.io/weekly/2023/0422-0428.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0422-0428.html"/>
-    <updated>2023-08-27T12:34:48.000Z</updated>
+    <updated>2023-08-27T14:04:20.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#2：AI 写作助手</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -11566,7 +11566,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <ol start="9">
 <li><strong>可显示当前页面二维码</strong></li>
 </ol>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693144718679.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://simpread.pro/" target="_blank" rel="noopener noreferrer">简悦</a></h3>
 <p>提供如杂志版沉浸式阅读体验的浏览器插件，提供以下特色功能：</p>
 <ul>
@@ -11627,7 +11627,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#3：Java 学习面试指南</title>
     <id>https://cunyu1943.github.io/weekly/2023/0429-0505.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0429-0505.html"/>
-    <updated>2023-08-27T12:34:48.000Z</updated>
+    <updated>2023-08-27T14:04:20.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#3：Java 学习面试指南</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -11724,7 +11724,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>支持从 <code>zip</code> 文件导入和导出。</li>
 <li>同步到 <code>Dropbox</code> 和 <code>OneDrive</code>！</li>
 </ol>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693144437276.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. <a href="https://microsoftedge.microsoft.com/addons/detail/%E8%94%9A%E8%93%9D%E4%B8%BB%E9%A1%B5/epgghbgfoacieppkngapakodnbkhpldj" target="_blank" rel="noopener noreferrer">蔚蓝主页</a></h3>
 <p>蔚蓝主页是一款浏览器主页/新标签页，主要为用户提供搜索服务、网址导航服务。</p>
 <p>区别于传统的主页或网址导航，是一款独特、有所分别的产品。产品核心理念是简洁、存粹，采用了简洁的页面设计，对主要功能加以提炼，让用户能更纯粹的享受该浏览器主页插件所带来的便利。</p>
@@ -11748,7 +11748,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>……</li>
 </ul>
 <p>截止本文发布时，已经在 <code>Github</code> 收获 133k <code>star</code>，比起 <code>CS-Notes</code> 也是不遑多让。</p>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693144718679.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. <a href="https://github.com/doocs/advanced-java" target="_blank" rel="noopener noreferrer">advanced-java</a></h3>
 <p>互联网 <code>Java</code> 工程师进阶知识完全扫盲：涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识。截止本文发布时，已经在 <code>Github</code> 收获 69k <code>star</code>。</p>
 <figure><figcaption></figcaption></figure>
@@ -11781,7 +11781,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#4：每天一条 JS 小技巧</title>
     <id>https://cunyu1943.github.io/weekly/2023/0506-0512.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0506-0512.html"/>
-    <updated>2023-08-27T12:34:48.000Z</updated>
+    <updated>2023-08-27T14:04:20.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#4：每天一条 JS 小技巧</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -11814,7 +11814,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>搜索</li>
 <li>……</li>
 </ul>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693144675827.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://echarts.apache.org/zh/index.html" target="_blank" rel="noopener noreferrer">ECharts</a></h3>
 <p>最初由百度开源的一个基于 <code>JavaScript</code> 的开源可视化图表库，后于 2018 年捐赠给 <code>Apache</code> 基金会。最新推出的 <code>Apache ECharts 5</code> 通过五大模块、十五项特性的全面升级，围绕可视化作品的叙事表达能力，让图“表”更能传“达”数据背后的故事，帮助开发者更轻松地创造满足各种场景需求的可视化作品。</p>
 <p>五大模块，十五项特性分别是：</p>
@@ -11870,7 +11870,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>可发送各种 <code>AT</code> 指令</li>
 <li>……</li>
 </ul>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693144786483.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://www.alfredapp.com/" target="_blank" rel="noopener noreferrer">Alfred</a></h3>
 <p><code>Alfred</code> 是一款屡获殊荣的 <code>macOS</code> 应用程序，它通过热键、关键字、文本扩展等提高您的效率。搜索您的 <code>Mac</code> 和网络，并通过自定义操作来控制您的 <code>Mac</code>，从而提高工作效率。</p>
 <figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693139461978.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
@@ -11913,7 +11913,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <p>全球上百万用户选择的最佳新标签页，功能包括：网站图标，搜索引擎，高清壁纸，书签管理、天气、笔记、待办事项、扩展管理、历史记录等。<br>
 <code>Infinity</code> 新标签页 (<code>Pro</code>) 是一款基于 <code>html5</code> 开发的扩展程序，它能够替换浏览器的起始页与新标签页，提升其美观性与生产力。</p>
 <p><code>Infinity</code> 独创了多种强大且实用的功能，可以让您以任何喜欢的方式来打造新标签页。</p>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693144805646.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. <a href="https://microsoftedge.microsoft.com/addons/detail/dark-reader/ifoakfbpdcdoeenechcleahebpibofpc?hl=zh-CN" target="_blank" rel="noopener noreferrer">Dark Reader</a></h3>
 <p>一个护眼扩展程序，通过实时生成黑暗主题，为每一个网站启用夜间模式。<code>Dark Reader</code> 反转明亮的颜色，使网页内容具有高对比度并易于在夜间阅读。</p>
 <p>可以调整亮度、对比度，应用棕褐色滤镜、黑暗模式，设置字体和忽略的网站列表。</p>
@@ -11950,7 +11950,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#5：前端开发必备资源站</title>
     <id>https://cunyu1943.github.io/weekly/2023/0513-0519.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0513-0519.html"/>
-    <updated>2023-08-27T12:34:48.000Z</updated>
+    <updated>2023-08-27T14:04:20.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#5：前端开发必备资源站</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -12049,7 +12049,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>支持浅色和深色两种主题模式。</li>
 <li>待办事项让您随时保持专注。</li>
 </ul>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693144652561.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://github.com/landy8530/DesignPatterns" target="_blank" rel="noopener noreferrer">DesignPatterns</a></h3>
 <p>经典设计模式讲解以及项目实战（<code>Java</code> 版），主要内容有以下两方面：</p>
@@ -12086,7 +12086,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#6：系统下载最优解</title>
     <id>https://cunyu1943.github.io/weekly/2023/0520-0526.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0520-0526.html"/>
-    <updated>2023-08-27T12:10:24.000Z</updated>
+    <updated>2023-08-27T14:04:20.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#6：系统下载最优解</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -12108,7 +12108,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://halo.run/" target="_blank" rel="noopener noreferrer">Halo</a></h3>
 <p>强大易用的开源建站工具，配合上丰富的模板与插件，帮助你构建你心中的理想站点。如果想搭建属于自己的博客，那它不失为一个好的选择。</p>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693144995723.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://github.com/YunaiV/yudao-cloud" target="_blank" rel="noopener noreferrer">yudao-cloud</a></h3>
 <p><code>ruoyi-vue-pro</code> 全新 <code>Cloud</code> 版本，优化重构所有功能。基于 <code>Spring Cloud Alibaba + MyBatis Plus + Vue &amp; Element</code> 实现的后台管理系统 + 用户小程序，支持 <code>RBAC</code> 动态权限、多租户、数据权限、工作流、三方登录、支付、短信、商城等功能。</p>
 <figure><figcaption></figcaption></figure>
@@ -12136,7 +12136,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://tb.rg-adguard.net/public.php" target="_blank" rel="noopener noreferrer">TechBench</a></h3>
 <p>该项目将帮助您无需繁琐的搜索和注册即可直接从 <code>Microsoft</code> 服务器下载 <code>Windows</code> 操作系统、<code>Office</code> 应用程序、语言包和虚拟机。</p>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693144546217.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. <a href="https://files.rg-adguard.net/" target="_blank" rel="noopener noreferrer">rg-adguard</a></h3>
 <p><code>TechBench</code> 的后续版，截止目前 <code>TechBench</code> 已不再更新，后续更新都会到这里。除开提供了 <code>TechBench</code> 的功能外，还提供了主题、设计工具、应用等方面内容的下载。</p>
 <figure><figcaption></figcaption></figure>
@@ -12151,7 +12151,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>课程学习：双语课程完整记录，自动提取要点、问答，随时回顾知识点</li>
 <li>视频浏览：实时双语翻译字幕，英文视频随心看，信息获取更高效</li>
 </ul>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693144403780.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://chrome.google.com/webstore/detail/aitutu-chatgpt-sidebar-as/emlhccamlobhceppbjdaikinbamncbcl" target="_blank" rel="noopener noreferrer">AiTuTu ChatGPT侧边栏智能助手</a></h3>
 <p><code>AiTuTu</code> 是由 <code>OpenAI</code> 的 <code>ChatGPT</code> 提供支持，支持浏览网站可快速唤醒的人工智能助手；在网页侧边显示，支持自由提问，选中内容一键改写成不同类型文案。</p>
 <p>✅ 国内可用，无需科学，无需 <code>KEY</code>，欢迎推荐安装！</p>
@@ -12176,7 +12176,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <p>以上烦恼，字幕精灵-AI 字幕翻译插件都能帮您解决！</p>
 <p>字幕精灵由新译科技推出，可实时识别语音，自动翻译并展示双语字幕。</p>
 <p>借助先进的语音识别和 <code>AI</code> 翻译技术，无论是听演讲、看课程，还是追剧、听歌，字幕精灵都能快速识别、翻译，并自动生成字幕，让您无惧外语，不再不知所云。</p>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693144622188.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://springdoc.cn/" target="_blank" rel="noopener noreferrer">Spring 中文文档</a></h3>
 <p>提供最新的 <code>Spring Boot</code>, <code>Spring Cloud</code>, <code>Spring Security</code> 等 <code>Spring</code> 框架的官方中文文档。对于想及时追踪 <code>Spring</code> 最新更新，但英语基础不太好的同学是一个绝佳的选择。</p>
@@ -12207,7 +12207,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#7：炫酷的浏览器标签页</title>
     <id>https://cunyu1943.github.io/weekly/2023/0527-0602.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0527-0602.html"/>
-    <updated>2023-08-27T12:10:24.000Z</updated>
+    <updated>2023-08-27T14:04:20.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#7：炫酷的浏览器标签页</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -12276,7 +12276,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://www.aewz.com/" target="_blank" rel="noopener noreferrer">简视频</a></h3>
 <p>致力打造好用的视频创作导航，汇聚了视频创作时所需的视频素材、图片素材、制作工具、字幕配音、音乐素材等众多实用性网站。</p>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693144904313.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://starchart.cc/" target="_blank" rel="noopener noreferrer">Star Charts</a></h3>
 <p>根据输入的 <code>Github</code> 账户及仓库名，生成随时间推移绘制仓库收获的 <code>star</code> 数量。</p>
 <figure><figcaption></figcaption></figure>
