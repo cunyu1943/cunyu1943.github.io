@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习、面试求职、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 27 Aug 2023 12:36:21 GMT</pubDate>
-    <lastBuildDate>Sun, 27 Aug 2023 12:36:21 GMT</lastBuildDate>
+    <pubDate>Sun, 27 Aug 2023 12:37:08 GMT</pubDate>
+    <lastBuildDate>Sun, 27 Aug 2023 12:37:08 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>好物周刊</category>
@@ -11011,7 +11011,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>图片滤镜</li>
 <li>国际化</li>
 </ul>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693139631522.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://github.com/haixin-fang/starfish-vue3-lowcode" target="_blank" rel="noopener noreferrer">starfish-vue3-lowcode</a></h3>
 <p><code>Vue3</code> 可视化低代码表单设计器，方便快捷的完成各类表单设计！</p>
 <p>基于 <code>TypeScript</code> 开发，支持 <code>Vue3.0 API</code>。</p>
@@ -11206,6 +11206,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <p>想要进一步提升自己的竞争力么，那就赶紧加入和我一起学习吧！</p>
 <figure><figcaption></figcaption></figure>
 ]]></content:encoded>
+      <enclosure url="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693139631522.webp" type="image/webp"/>
     </item>
     <item>
       <title>好物周刊#3：Java 学习面试指南</title>
@@ -11281,7 +11282,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://www.tangrenjie.tv/" target="_blank" rel="noopener noreferrer">唐人街影视</a></h3>
 <p>致力于为海外华人提供影视观看的网站，站点不提供任何视听上传服务，所有内容均来自互联网其他分享站所提供的公开引用资源。</p>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693139529284.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://jsoncrack.com/editor" target="_blank" rel="noopener noreferrer">JSON Crack</a></h3>
 <p><code>JSON Crack</code> 是一个很方便的 <code>JSON</code> 数据可视化工具。该项目并非简单的展示 <code>JSON</code> 数据，而是将其转化为类似思维导图的形式，支持放大/缩小、展开/收缩、搜索节点、导出图片等操作，对于经常和 <code>JSON</code> 格式的数据打交道的人会非常有帮助。</p>
 <figure><figcaption></figcaption></figure>
@@ -11306,11 +11307,11 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <h3> 3. <a href="https://microsoftedge.microsoft.com/addons/detail/%E8%94%9A%E8%93%9D%E4%B8%BB%E9%A1%B5/epgghbgfoacieppkngapakodnbkhpldj" target="_blank" rel="noopener noreferrer">蔚蓝主页</a></h3>
 <p>蔚蓝主页是一款浏览器主页/新标签页，主要为用户提供搜索服务、网址导航服务。</p>
 <p>区别于传统的主页或网址导航，是一款独特、有所分别的产品。产品核心理念是简洁、存粹，采用了简洁的页面设计，对主要功能加以提炼，让用户能更纯粹的享受该浏览器主页插件所带来的便利。</p>
-<figure><img src="https://cunyu1943.github.io/static/imgs/article/weekly-2023/blue-homepage.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693139224051.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://github.com/CyC2018/CS-Notes" target="_blank" rel="noopener noreferrer">CS-Notes</a></h3>
 <p>技术面试必备，囊括算法、操作系统、网络、面向对象、数据库、<code>Java</code>、系统设计、工具、编码实践等诸多方面的内容，截止本文发布时在 <code>Github</code> 已经收获了 163k <code>star</code>，足以见得大家对它的认可。</p>
-<figure><img src="https://cunyu1943.github.io/static/imgs/article/weekly-2023/cs-notes.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://github.com/Snailclimb/JavaGuide" target="_blank" rel="noopener noreferrer">JavaGuide</a></h3>
 <p><code>Java</code> 学习+面试指南，一份涵盖大部分 <code>Java</code> 程序员所需要掌握的核心知识。主要有以下方面的知识点总结：</p>
 <ul>
@@ -11326,10 +11327,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>……</li>
 </ul>
 <p>截止本文发布时，已经在 <code>Github</code> 收获 133k <code>star</code>，比起 <code>CS-Notes</code> 也是不遑多让。</p>
-<figure><img src="https://cunyu1943.github.io/static/imgs/article/weekly-2023/java-guide.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://github.com/doocs/advanced-java" target="_blank" rel="noopener noreferrer">advanced-java</a></h3>
 <p>互联网 <code>Java</code> 工程师进阶知识完全扫盲：涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识。截止本文发布时，已经在 <code>Github</code> 收获 69k <code>star</code>。</p>
-<figure><img src="https://cunyu1943.github.io/static/imgs/article/weekly-2023/advanced-java.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <hr>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
@@ -11443,7 +11444,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://www.alfredapp.com/" target="_blank" rel="noopener noreferrer">Alfred</a></h3>
 <p><code>Alfred</code> 是一款屡获殊荣的 <code>macOS</code> 应用程序，它通过热键、关键字、文本扩展等提高您的效率。搜索您的 <code>Mac</code> 和网络，并通过自定义操作来控制您的 <code>Mac</code>，从而提高工作效率。</p>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693139461978.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. <a href="https://todo.microsoft.com/" target="_blank" rel="noopener noreferrer">Microsoft Todo</a></h3>
 <p>微软 <code>Todo</code> 是微软官方出品的一款轻量和智能的待办清单应用，它是 <code>Wunderlist</code> 的继任者，无论是工作计划，个人生活或家庭学习，它都一样可以帮助你更轻松地完成既定的计划。应用还支持 <code>iPhone</code>、安卓、<code>Windows</code> 和网页间无缝同步，多个设备也不必担心。</p>
 <figure><figcaption></figcaption></figure>
@@ -11488,7 +11489,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <p>一个护眼扩展程序，通过实时生成黑暗主题，为每一个网站启用夜间模式。<code>Dark Reader</code> 反转明亮的颜色，使网页内容具有高对比度并易于在夜间阅读。</p>
 <p>可以调整亮度、对比度，应用棕褐色滤镜、黑暗模式，设置字体和忽略的网站列表。</p>
 <p>最重要的一点，<code>Dark Reader</code> 无广告，也不会向任何地方发送用户的数据。</p>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693139180624.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://www.jstips.co/" target="_blank" rel="noopener noreferrer">Js Tips</a></h3>
 <p>每天一条 <code>JavaScript</code> 小技巧。只需要花上两分钟的时间，就能读到性能、框架、约定、技巧、面试问题等有助于提高编写代码效率的小技巧。</p>
@@ -11575,7 +11576,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <p>在信息碎片中，重获专注。<br>
 一站式信息收集、阅读、管理和回顾，善用网络碎片构建个人知识库。<br>
 适用于网页, <code>iOS</code>, <code>iPadOS</code>, <code>macOS</code>, <code>Android</code>, <code>Windows</code>, 微信等多个终端。</p>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693139064735.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://www.iconfont.cn/" target="_blank" rel="noopener noreferrer">iconfont</a></h3>
 <p>阿里巴巴矢量图标库。阿里妈妈 <code>MUX</code> 倾力打造的矢量图标管理、交流平台，设计师将图标上传到 <code>iconfont</code> 平台，用户可以自定义下载多种格式的 <code>icon</code>，平台也可将图标转换为字体，便于前端工程师自由调整与调用。</p>
@@ -11594,7 +11595,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <p><code>WeTab</code> 新标签页整合了 <code>ChatGPT</code>,自由使用 <code>ChatGPT</code>。<br>
 <code>Wetab</code> 是一款可以亲手打造属于自己的高颜值主页的小组件新标签页插件，跟 <code>Infinity New Tab</code> 新标签页一样美观大气，跟 <code>iTab</code> 新标签页一样主打小组件功能。<code>iOS</code> 苹果小组件卡片设计，内置倒计时、纪念日、天气、热搜、计算器、等超酷小组件，让信息一目了然，标签页整洁美观。<br>
 <code>Wetab</code> 好看、好用，还好玩，让你的标签页充满无限可能。</p>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693139598028.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. <a href="https://www.monknow.com/zh-CN" target="_blank" rel="noopener noreferrer">MONKNOW 新标签页</a></h3>
 <p>这是您梦寐以求的新标签页。支持网站网址 <code>URL</code> 分组管理，数据实时云同步，黑暗深色夜间主题模式。支持的功能如下：</p>
 <ul>
