@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习、面试求职、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 27 Aug 2023 14:15:29 GMT</pubDate>
-    <lastBuildDate>Sun, 27 Aug 2023 14:15:29 GMT</lastBuildDate>
+    <pubDate>Sun, 27 Aug 2023 14:34:40 GMT</pubDate>
+    <lastBuildDate>Sun, 27 Aug 2023 14:34:40 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>好物周刊</category>
@@ -39,7 +39,7 @@
 <p>一个简单漂亮的博客系统，基于 SSM（Spring、Spring MVC、MyBatis）开发，适合初学 SSM 和想要制作个人博客的朋友学习。最新版本已经支持用户注册，包含用户和管理员两种角色。</p>
 <h3> 2. <a href="https://github.com/auroral-ui/hexo-theme-aurora" target="_blank" rel="noopener noreferrer">hexo-theme-aurora</a></h3>
 <p>使用极光颜色和 UI 元素的下一代 Hexo 主题，基于 Vue3 开发，给你带来一种平滑流畅的色彩和未来感。</p>
-<h3> 3. <a href="https://github.com/more-strive/yft-design" target="_blank" rel="noopener noreferrer">yft-deign</a></h3>
+<h3> 3. <a href="https://github.com/more-strive/yft-design" target="_blank" rel="noopener noreferrer">yft-design</a></h3>
 <p>使用 Vue3 + TypeScript + Fabric.js + Pinia + Element-Plus，支持 文字、图片、形状、线条、二维码 、条形码几种最常用的元素类型，每一种元素都拥有高度可编辑能力，缩略图显示，模板，支持导出 JSON、SVG、Image 文件。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
@@ -68,14 +68,16 @@
 <p>让数据库管理变得更简单，适用于关系型数据库的现代、原生且友好的可视化管理工具，支持 MySQL、PostgreSQL、SQLite、SQLServer、Redis、mongoDB 等。</p>
 <figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://github.com/leovan/SciHubEVA" target="_blank" rel="noopener noreferrer">SciHubEVA</a></h3>
-<p>一款由 Python 和 Qt 提供支持的跨平台Sci-Hub GUI 应用程序。想必每个被论文折磨的朋友都不陌生，主需要输入 URL、PMID、DOI 就能下载到绝大部分论文，妥妥地下载论文利器。</p>
+<p>一款由 <code>Python</code> 和 <code>Qt</code> 提供支持的跨平台 <code>Sci-Hub GUI</code> 应用程序。想必每个被论文折磨的朋友都不陌生，主需要输入 <code>URL</code>、<code>PMID</code>、<code>DOI</code> 就能下载到绝大部分论文，妥妥地下载论文利器。</p>
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://codepen.io/" target="_blank" rel="noopener noreferrer">CodePen</a></h3>
+<p>一个前端在线开发工具，能够直接在线实时渲染代码效果。而且可以免费托管前端代码，用于制作和测试页面。</p>
 <figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://jsrun.net/" target="_blank" rel="noopener noreferrer">JSRUN</a></h3>
-<p>创建于 2016 年，专注于在线代码运行。</p>
+<p>创建于 2016 年，专注于在线代码运行，支持在移动端编写代码的编辑器，支持在线运行 <code>HTML</code>、<code>Node.JS</code>、<code>C</code>、<code>Python</code>、<code>PHP</code>、<code>Java</code>、<code>MySQL</code>、<code>C#</code>、<code>Go</code> 等语言。</p>
 <figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://codesandbox.io/" target="_blank" rel="noopener noreferrer">CodeSandbox</a></h3>
+<p>一个可以在线运行代码的编辑器，主要用于创建 <code>Web</code> 应用，支持 <code>JavaScript</code>、<code>TypeScript</code>、<code>CSS</code>、<code>Less</code>、<code>Sass</code>、<code>HTML</code> 等多种文件。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
@@ -13433,20 +13435,15 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <h3> 2. <a href="https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg" target="_blank" rel="noopener noreferrer">FireShot</a></h3>
 <p>捕捉网页截图，编辑并将它们保存为 PDF，JPEG，GIF，PNG 或 BMP。然后用于上传，打印，在 Photoshop 中打开，复制到剪贴板或电子邮件等操作。</p>
 <figure><figcaption></figcaption></figure>
-<h3> 3. <a href="https://chrome.google.com/webstore/detail/simpread-reader-view/ijllcpnolfcooahcekpamkbidhejabll?hl=zh-CN" target="_blank" rel="noopener noreferrer">简悦</a></h3>
-<p>让你瞬间进入沉浸式阅读的 Chrome 扩展，类似 Safari 的阅读模式。插件具有以下特点：</p>
+<h3> 3. <a href="https://chrome.google.com/webstore/detail/adobe-acrobat-pdf-edit-co/efaidnbmnnnibpcajpcglclefindmkaj?hl=zh-CN" target="_blank" rel="noopener noreferrer">Adobe Acrobat</a></h3>
+<p>利用 Adobe Acrobat PDF 工具在 Google Chrome 中完成更多任务：查看、填充、注释、签名，您还可以试试转换和压缩工具，支持如下功能：</p>
 <ul>
-<li>阅读模式</li>
-<li>聚焦模式</li>
-<li>丰富的导出功能</li>
-<li>定制化导出</li>
-<li>自动化</li>
-<li>标注</li>
-<li>同步</li>
-<li>每日回顾</li>
+<li>查看、下载、打印和存储 PDF</li>
+<li>免费添加备注编辑 PDF</li>
+<li>免费填写和签署表格</li>
 <li>……</li>
 </ul>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693145603095.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://github.com/shengxinjing/fe-advanced-interview" target="_blank" rel="noopener noreferrer">大圣前端进阶指南</a></h3>
 <p>一份前端进阶面试指南，解决前端进阶的难点。囊括了以下内容：</p>
