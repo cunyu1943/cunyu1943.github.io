@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习、面试求职、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2023-08-27T07:43:22.834Z</updated>
+  <updated>2023-08-27T08:09:28.118Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -20,7 +20,7 @@
     <title type="text">好物周刊#20</title>
     <id>https://cunyu1943.github.io/weekly/2023/0826-0901.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0826-0901.html"/>
-    <updated>2023-08-27T07:41:05.000Z</updated>
+    <updated>2023-08-27T08:06:22.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#20</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -100,10 +100,10 @@
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
-<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
-<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/weekly" target="_blank" rel="noopener noreferrer">电子书</a></li>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a></li>
 </ul>
-<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/weekly/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
 <hr>
 <h2> 🎬️ 广告</h2>
 <p>作为程序员，掌握数据结构与算法的重要性就不言而喻了。掌握了数据结构与算法，可以说你的编程能力就会有质的飞跃。任凭各种热门技术的如何变化，只要掌握了核心技能，那都可以见招拆招，做一个“赢家”。</p>
@@ -125,7 +125,7 @@
     <title type="text">好物周刊#21：</title>
     <id>https://cunyu1943.github.io/weekly/2023/0902-0908.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0902-0908.html"/>
-    <updated>2023-08-27T07:41:05.000Z</updated>
+    <updated>2023-08-27T08:06:22.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#21：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -163,10 +163,10 @@
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
-<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
-<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/weekly" target="_blank" rel="noopener noreferrer">电子书</a></li>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a></li>
 </ul>
-<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/weekly/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
 <hr>
 <h2> 🎬️ 广告</h2>
 <p>当前大环境下，就业形势严峻，尤其针对即将毕业的大学生。作为一个技术求职者，求职前应该做好哪些准备呢，一些面试实战技巧也十分有必要！而刚好最近掘金出了一本《技术人求职指南》小册，相信一定会对在找工作的你有所帮助。</p>
@@ -180,7 +180,7 @@
     <title type="text">好物周刊#22：</title>
     <id>https://cunyu1943.github.io/weekly/2023/0909-0915.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0909-0915.html"/>
-    <updated>2023-08-27T07:41:05.000Z</updated>
+    <updated>2023-08-27T08:06:22.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#22：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -218,10 +218,10 @@
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
-<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
-<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/weekly" target="_blank" rel="noopener noreferrer">电子书</a></li>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a></li>
 </ul>
-<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/weekly/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
 <hr>
 <h2> 🎬️ 广告</h2>
 <p>作为程序员，掌握数据结构与算法的重要性就不言而喻了。掌握了数据结构与算法，可以说你的编程能力就会有质的飞跃。任凭各种热门技术的如何变化，只要掌握了核心技能，那都可以见招拆招，做一个“赢家”。</p>
@@ -243,7 +243,7 @@
     <title type="text">好物周刊#23：</title>
     <id>https://cunyu1943.github.io/weekly/2023/0916-0922.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0916-0922.html"/>
-    <updated>2023-08-27T07:41:05.000Z</updated>
+    <updated>2023-08-27T08:06:22.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#23：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -275,10 +275,10 @@
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
-<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
-<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/weekly" target="_blank" rel="noopener noreferrer">电子书</a></li>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a></li>
 </ul>
-<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/weekly/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
 <hr>
 <h2> 🎬️ 广告</h2>
 <p>当前大环境下，就业形势严峻，尤其针对即将毕业的大学生。作为一个技术求职者，求职前应该做好哪些准备呢，一些面试实战技巧也十分有必要！而刚好最近掘金出了一本《技术人求职指南》小册，相信一定会对在找工作的你有所帮助。</p>
@@ -10715,7 +10715,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#1：提示工程师养成指南</title>
     <id>https://cunyu1943.github.io/weekly/2023/0415-0421.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0415-0421.html"/>
-    <updated>2023-08-27T01:05:55.000Z</updated>
+    <updated>2023-08-27T08:06:22.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#1：提示工程师养成指南</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -11364,10 +11364,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
-<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
-<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/weekly" target="_blank" rel="noopener noreferrer">电子书</a></li>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a></li>
 </ul>
-<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/weekly/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
 <h2> 🎬️ 广告</h2>
 <p>当前大环境下，就业形势严峻，尤其针对即将毕业的大学生。作为一个技术求职者，求职前应该做好哪些准备呢，一些面试实战技巧也十分有必要！而刚好最近掘金出了一本《技术人求职指南》小册，相信一定会对在找工作的你有所帮助。</p>
 <p>从求职到拿下 <code>Offer</code>，一本职场的全方位攻略，快来和我一起学习吧！</p>
@@ -11380,7 +11380,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#2：AI 写作助手</title>
     <id>https://cunyu1943.github.io/weekly/2023/0422-0428.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0422-0428.html"/>
-    <updated>2023-08-27T01:05:55.000Z</updated>
+    <updated>2023-08-27T08:06:22.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#2：AI 写作助手</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -11602,10 +11602,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
-<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
-<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/weekly" target="_blank" rel="noopener noreferrer">电子书</a></li>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a></li>
 </ul>
-<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/weekly/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
 <h2> 🎬️ 广告</h2>
 <p>作为程序员，掌握数据结构与算法的重要性就不言而喻了。掌握了数据结构与算法，可以说你的编程能力就会有质的飞跃。任凭各种热门技术的如何变化，只要掌握了核心技能，那都可以见招拆招，做一个“赢家”。</p>
 <p>专栏共分为 4 个由浅入深的模块：</p>
@@ -11626,7 +11626,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#3：Java 学习面试指南</title>
     <id>https://cunyu1943.github.io/weekly/2023/0429-0505.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0429-0505.html"/>
-    <updated>2023-08-27T01:05:55.000Z</updated>
+    <updated>2023-08-27T08:06:22.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#3：Java 学习面试指南</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -11755,10 +11755,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
-<li><strong>Github 地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">cunyu1943/JavaPark/</a>，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
-<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.site/weekly" target="_blank" rel="noopener noreferrer">cunyu1943.site</a></li>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a></li>
 </ul>
-<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐或项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues/21" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
 <hr>
 <h2> 🎬️ 广告</h2>
 <p>作为程序员，掌握数据结构与算法的重要性就不言而喻了。掌握了数据结构与算法，可以说你的编程能力就会有质的飞跃。任凭各种热门技术的如何变化，只要掌握了核心技能，那都可以见招拆招，做一个“赢家”。</p>
@@ -11780,7 +11780,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#4：每天一条 JS 小技巧</title>
     <id>https://cunyu1943.github.io/weekly/2023/0506-0512.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0506-0512.html"/>
-    <updated>2023-08-27T01:05:55.000Z</updated>
+    <updated>2023-08-27T08:06:22.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#4：每天一条 JS 小技巧</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -11932,10 +11932,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
-<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
-<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/weekly" target="_blank" rel="noopener noreferrer">电子书</a></li>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a></li>
 </ul>
-<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/weekly/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
 <hr>
 <h2> 🎬️ 广告</h2>
 <p>当前大环境下，就业形势严峻，尤其针对即将毕业的大学生。作为一个技术求职者，求职前应该做好哪些准备呢，一些面试实战技巧也十分有必要！而刚好最近掘金出了一本《技术人求职指南》小册，相信一定会对在找工作的你有所帮助。</p>
@@ -11949,7 +11949,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#5：前端开发必备资源站</title>
     <id>https://cunyu1943.github.io/weekly/2023/0513-0519.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0513-0519.html"/>
-    <updated>2023-08-27T01:05:55.000Z</updated>
+    <updated>2023-08-27T08:06:22.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#5：前端开发必备资源站</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -12068,10 +12068,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
-<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
-<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/weekly" target="_blank" rel="noopener noreferrer">电子书</a></li>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a></li>
 </ul>
-<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/weekly/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
 <hr>
 <h2> 🎬️ 广告</h2>
 <p>当前大环境下，就业形势严峻，尤其针对即将毕业的大学生。作为一个技术求职者，求职前应该做好哪些准备呢，一些面试实战技巧也十分有必要！而刚好最近掘金出了一本《技术人求职指南》小册，相信一定会对在找工作的你有所帮助。</p>
@@ -12085,7 +12085,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#6：系统下载最优解</title>
     <id>https://cunyu1943.github.io/weekly/2023/0520-0526.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0520-0526.html"/>
-    <updated>2023-08-27T01:05:55.000Z</updated>
+    <updated>2023-08-27T08:06:22.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#6：系统下载最优解</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -12189,10 +12189,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
-<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
-<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/weekly" target="_blank" rel="noopener noreferrer">电子书</a></li>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a></li>
 </ul>
-<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/weekly/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
 <hr>
 <h2> 🎬️ 广告</h2>
 <p>当前大环境下，就业形势严峻，尤其针对即将毕业的大学生。作为一个技术求职者，求职前应该做好哪些准备呢，一些面试实战技巧也十分有必要！而刚好最近掘金出了一本《技术人求职指南》小册，相信一定会对在找工作的你有所帮助。</p>
@@ -12206,7 +12206,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#7：炫酷的浏览器标签页</title>
     <id>https://cunyu1943.github.io/weekly/2023/0527-0602.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0527-0602.html"/>
-    <updated>2023-08-27T01:05:55.000Z</updated>
+    <updated>2023-08-27T08:06:22.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#7：炫酷的浏览器标签页</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -12360,10 +12360,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
-<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
-<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/weekly" target="_blank" rel="noopener noreferrer">电子书</a></li>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a></li>
 </ul>
-<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/weekly/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
 <hr>
 <h2> 🎬️ 广告</h2>
 <p>当前大环境下，就业形势严峻，尤其针对即将毕业的大学生。作为一个技术求职者，求职前应该做好哪些准备呢，一些面试实战技巧也十分有必要！而刚好最近掘金出了一本《技术人求职指南》小册，相信一定会对在找工作的你有所帮助。</p>
@@ -12377,7 +12377,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#8：开源镜像站</title>
     <id>https://cunyu1943.github.io/weekly/2023/0603-0609.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0603-0609.html"/>
-    <updated>2023-08-27T01:05:55.000Z</updated>
+    <updated>2023-08-27T08:06:22.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#8：开源镜像站</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -12494,10 +12494,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
-<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
-<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/weekly" target="_blank" rel="noopener noreferrer">电子书</a></li>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a></li>
 </ul>
-<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/weekly/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
 <hr>
 <h2> 🎬️ 广告</h2>
 <p>作为程序员，掌握数据结构与算法的重要性就不言而喻了。掌握了数据结构与算法，可以说你的编程能力就会有质的飞跃。任凭各种热门技术的如何变化，只要掌握了核心技能，那都可以见招拆招，做一个“赢家”。</p>
@@ -12519,7 +12519,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#9：AI 学习必备资料</title>
     <id>https://cunyu1943.github.io/weekly/2023/0610-0616.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0610-0616.html"/>
-    <updated>2023-08-27T01:05:55.000Z</updated>
+    <updated>2023-08-27T08:06:22.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#9：AI 学习必备资料</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -12634,10 +12634,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
-<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
-<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/weekly" target="_blank" rel="noopener noreferrer">电子书</a></li>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a></li>
 </ul>
-<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/weekly/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
 <hr>
 <h2> 🎬️ 广告</h2>
 <p>当前大环境下，就业形势严峻，尤其针对即将毕业的大学生。作为一个技术求职者，求职前应该做好哪些准备呢，一些面试实战技巧也十分有必要！而刚好最近掘金出了一本《技术人求职指南》小册，相信一定会对在找工作的你有所帮助。</p>
@@ -12651,7 +12651,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#10：算法学习必备</title>
     <id>https://cunyu1943.github.io/weekly/2023/0617-0623.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0617-0623.html"/>
-    <updated>2023-08-27T01:05:55.000Z</updated>
+    <updated>2023-08-27T08:06:22.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#10：算法学习必备</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -12764,10 +12764,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
-<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
-<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/weekly" target="_blank" rel="noopener noreferrer">电子书</a></li>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a></li>
 </ul>
-<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/weekly/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
 <hr>
 <h2> 🎬️ 广告</h2>
 <p>作为程序员，掌握数据结构与算法的重要性就不言而喻了。掌握了数据结构与算法，可以说你的编程能力就会有质的飞跃。任凭各种热门技术的如何变化，只要掌握了核心技能，那都可以见招拆招，做一个“赢家”。</p>
@@ -12789,7 +12789,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#11：远程桌面软件</title>
     <id>https://cunyu1943.github.io/weekly/2023/0624-0630.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0624-0630.html"/>
-    <updated>2023-08-27T01:05:55.000Z</updated>
+    <updated>2023-08-27T08:06:22.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#11：远程桌面软件</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -12935,10 +12935,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
-<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
-<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/weekly" target="_blank" rel="noopener noreferrer">电子书</a></li>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a></li>
 </ul>
-<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/weekly/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
 <hr>
 <h2> 🎬️ 广告</h2>
 <p>当前大环境下，就业形势严峻，尤其针对即将毕业的大学生。作为一个技术求职者，求职前应该做好哪些准备呢，一些面试实战技巧也十分有必要！而刚好最近掘金出了一本《技术人求职指南》小册，相信一定会对在找工作的你有所帮助。</p>
@@ -12952,7 +12952,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#12：计算机考研资料</title>
     <id>https://cunyu1943.github.io/weekly/2023/0701-0707.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0701-0707.html"/>
-    <updated>2023-08-27T01:05:55.000Z</updated>
+    <updated>2023-08-27T08:06:22.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#12：计算机考研资料</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -13059,10 +13059,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
-<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
-<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/weekly" target="_blank" rel="noopener noreferrer">电子书</a></li>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a></li>
 </ul>
-<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/weekly/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
 <hr>
 <h2> 🎬️ 广告</h2>
 <p>作为程序员，掌握数据结构与算法的重要性就不言而喻了。掌握了数据结构与算法，可以说你的编程能力就会有质的飞跃。任凭各种热门技术的如何变化，只要掌握了核心技能，那都可以见招拆招，做一个“赢家”。</p>
@@ -13084,7 +13084,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#13：免费下载软件</title>
     <id>https://cunyu1943.github.io/weekly/2023/0708-0714.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0708-0714.html"/>
-    <updated>2023-08-27T01:05:55.000Z</updated>
+    <updated>2023-08-27T08:06:22.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#13：免费下载软件</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -13202,10 +13202,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
-<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
-<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/weekly" target="_blank" rel="noopener noreferrer">电子书</a></li>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a></li>
 </ul>
-<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/weekly/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
 <hr>
 <h2> 🎬️ 广告</h2>
 <p>当前大环境下，就业形势严峻，尤其针对即将毕业的大学生。作为一个技术求职者，求职前应该做好哪些准备呢，一些面试实战技巧也十分有必要！而刚好最近掘金出了一本《技术人求职指南》小册，相信一定会对在找工作的你有所帮助。</p>
@@ -13219,7 +13219,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#14：壁纸下载网站</title>
     <id>https://cunyu1943.github.io/weekly/2023/0715-0721.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0715-0721.html"/>
-    <updated>2023-08-27T01:05:55.000Z</updated>
+    <updated>2023-08-27T08:06:22.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#14：壁纸下载网站</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -13332,10 +13332,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
-<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
-<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/weekly" target="_blank" rel="noopener noreferrer">电子书</a></li>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a></li>
 </ul>
-<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/weekly/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
 <hr>
 <h2> 🎬️ 广告</h2>
 <p>作为程序员，掌握数据结构与算法的重要性就不言而喻了。掌握了数据结构与算法，可以说你的编程能力就会有质的飞跃。任凭各种热门技术的如何变化，只要掌握了核心技能，那都可以见招拆招，做一个“赢家”。</p>
@@ -13357,7 +13357,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#15：远程控制软件</title>
     <id>https://cunyu1943.github.io/weekly/2023/0722-0728.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0722-0728.html"/>
-    <updated>2023-08-27T01:05:55.000Z</updated>
+    <updated>2023-08-27T08:06:22.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#15：远程控制软件</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -13459,10 +13459,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
-<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
-<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/weekly" target="_blank" rel="noopener noreferrer">电子书</a></li>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a></li>
 </ul>
-<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/weekly/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
 <hr>
 <h2> 🎬️ 广告</h2>
 <p>当前大环境下，就业形势严峻，尤其针对即将毕业的大学生。作为一个技术求职者，求职前应该做好哪些准备呢，一些面试实战技巧也十分有必要！而刚好最近掘金出了一本《技术人求职指南》小册，相信一定会对在找工作的你有所帮助。</p>
@@ -13476,7 +13476,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#16：别致的二维码</title>
     <id>https://cunyu1943.github.io/weekly/2023/0729-0804.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0729-0804.html"/>
-    <updated>2023-08-27T01:05:55.000Z</updated>
+    <updated>2023-08-27T08:06:22.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#16：别致的二维码</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -13859,10 +13859,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
-<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
-<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/weekly" target="_blank" rel="noopener noreferrer">电子书</a></li>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a></li>
 </ul>
-<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/weekly/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
 <hr>
 <h2> 🎬️ 广告</h2>
 <p>作为程序员，掌握数据结构与算法的重要性就不言而喻了。掌握了数据结构与算法，可以说你的编程能力就会有质的飞跃。任凭各种热门技术的如何变化，只要掌握了核心技能，那都可以见招拆招，做一个“赢家”。</p>
@@ -13884,7 +13884,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#17：美图合集 App</title>
     <id>https://cunyu1943.github.io/weekly/2023/0805-0811.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0805-0811.html"/>
-    <updated>2023-08-27T01:05:55.000Z</updated>
+    <updated>2023-08-27T08:06:22.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#17：美图合集 App</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -13989,10 +13989,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
-<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
-<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/weekly" target="_blank" rel="noopener noreferrer">电子书</a></li>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a></li>
 </ul>
-<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/weekly/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
 <hr>
 <h2> 🎬️ 广告</h2>
 <p>当前大环境下，就业形势严峻，尤其针对即将毕业的大学生。作为一个技术求职者，求职前应该做好哪些准备呢，一些面试实战技巧也十分有必要！而刚好最近掘金出了一本《技术人求职指南》小册，相信一定会对在找工作的你有所帮助。</p>
@@ -14006,7 +14006,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#18：灵感收集器</title>
     <id>https://cunyu1943.github.io/weekly/2023/0812-0818.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0812-0818.html"/>
-    <updated>2023-08-27T01:05:55.000Z</updated>
+    <updated>2023-08-27T08:06:22.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#18：灵感收集器</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -14120,10 +14120,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
-<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
-<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/weekly" target="_blank" rel="noopener noreferrer">电子书</a></li>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a></li>
 </ul>
-<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/weekly/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
 <hr>
 <h2> 🎬️ 广告</h2>
 <p>作为程序员，掌握数据结构与算法的重要性就不言而喻了。掌握了数据结构与算法，可以说你的编程能力就会有质的飞跃。任凭各种热门技术的如何变化，只要掌握了核心技能，那都可以见招拆招，做一个“赢家”。</p>
@@ -14145,7 +14145,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#19：开源指北</title>
     <id>https://cunyu1943.github.io/weekly/2023/0819-0825.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0819-0825.html"/>
-    <updated>2023-08-27T01:05:55.000Z</updated>
+    <updated>2023-08-27T08:06:22.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#19：开源指北</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -14260,10 +14260,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
-<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
-<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/weekly" target="_blank" rel="noopener noreferrer">电子书</a></li>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a></li>
 </ul>
-<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/weekly/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
 <hr>
 <h2> 🎬️ 广告</h2>
 <p>当前大环境下，就业形势严峻，尤其针对即将毕业的大学生。作为一个技术求职者，求职前应该做好哪些准备呢，一些面试实战技巧也十分有必要！而刚好最近掘金出了一本《技术人求职指南》小册，相信一定会对在找工作的你有所帮助。</p>
