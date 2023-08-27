@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习、面试求职、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2023-08-27T12:09:18.881Z</updated>
+  <updated>2023-08-27T12:12:57.806Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -20,7 +20,7 @@
     <title type="text">好物周刊#20</title>
     <id>https://cunyu1943.github.io/weekly/2023/0826-0901.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0826-0901.html"/>
-    <updated>2023-08-27T08:06:22.000Z</updated>
+    <updated>2023-08-27T12:10:24.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#20</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -30,7 +30,7 @@
 <p class="hint-container-title">原文</p>
 </div>
 <h2> 一、项目</h2>
-<h3> 1、<a href="https://github.com/saysky/ForestBlog" target="_blank" rel="noopener noreferrer">ForestBlog</a></h3>]]></summary>
+<h3> 1. <a href="https://github.com/saysky/ForestBlog" target="_blank" rel="noopener noreferrer">ForestBlog</a></h3>]]></summary>
     <content type="html"><![CDATA[<h1> 好物周刊#20</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -40,12 +40,15 @@
 <p class="hint-container-title">原文</p>
 </div>
 <h2> 一、项目</h2>
-<h3> 1、<a href="https://github.com/saysky/ForestBlog" target="_blank" rel="noopener noreferrer">ForestBlog</a></h3>
+<h3> 1. <a href="https://github.com/saysky/ForestBlog" target="_blank" rel="noopener noreferrer">ForestBlog</a></h3>
 <p>一个简单漂亮的博客系统，基于 SSM（Spring、Spring MVC、MyBatis）开发，适合初学 SSM 和想要制作个人博客的朋友学习。最新版本已经支持用户注册，包含用户和管理员两种角色。</p>
-<h3> 2、<a href="https://github.com/auroral-ui/hexo-theme-aurora" target="_blank" rel="noopener noreferrer">hexo-theme-aurora</a></h3>
+<h3> 2. <a href="https://github.com/auroral-ui/hexo-theme-aurora" target="_blank" rel="noopener noreferrer">hexo-theme-aurora</a></h3>
 <p>使用极光颜色和 UI 元素的下一代 Hexo 主题，基于 Vue3 开发，给你带来一种平滑流畅的色彩和未来感。</p>
+<h3> 3. <a href="https://github.com/more-strive/yft-design" target="_blank" rel="noopener noreferrer">yft-deign</a></h3>
+<p>使用 Vue3 + TypeScript + Fabric.js + Pinia + Element-Plus，支持 文字、图片、形状、线条、二维码 、条形码几种最常用的元素类型，每一种元素都拥有高度可编辑能力，缩略图显示，模板，支持导出 JSON、SVG、Image 文件。</p>
+<figure><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
-<h3> 1、<a href="https://nxshell.github.io/" target="_blank" rel="noopener noreferrer">NxShell</a></h3>
+<h3> 1. <a href="https://nxshell.github.io/" target="_blank" rel="noopener noreferrer">NxShell</a></h3>
 <p>一款跨平台的 SSH 新终端工具,就像当下流行的 PuTTY 终端一样。但 NxShell 随着后期功能的迭代完善,会生长出自己独有的终端工具超能力。</p>
 <p>软件支持如下功能：</p>
 <ul>
@@ -66,24 +69,24 @@
 <li>支持 lrz/lsz 文件传输</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> 2、<a href="https://tableplus.com/" target="_blank" rel="noopener noreferrer">TablePlus</a></h3>
+<h3> 2. <a href="https://tableplus.com/" target="_blank" rel="noopener noreferrer">TablePlus</a></h3>
 <p>让数据库管理变得更简单，适用于关系型数据库的现代、原生且友好的可视化管理工具，支持 MySQL、PostgreSQL、SQLite、SQLServer、Redis、mongoDB 等。</p>
 <figure><figcaption></figcaption></figure>
-<h3> 3、<a href="https://github.com/leovan/SciHubEVA" target="_blank" rel="noopener noreferrer">SciHubEVA</a></h3>
+<h3> 3. <a href="https://github.com/leovan/SciHubEVA" target="_blank" rel="noopener noreferrer">SciHubEVA</a></h3>
 <p>一款由 Python 和 Qt 提供支持的跨平台Sci-Hub GUI 应用程序。想必每个被论文折磨的朋友都不陌生，主需要输入 URL、PMID、DOI 就能下载到绝大部分论文，妥妥地下载论文利器。</p>
 <h2> 三、网站</h2>
-<h3> 1、<a href="https://codepen.io/" target="_blank" rel="noopener noreferrer">CodePen</a></h3>
+<h3> 1. <a href="https://codepen.io/" target="_blank" rel="noopener noreferrer">CodePen</a></h3>
 <figure><figcaption></figcaption></figure>
-<h3> 2、<a href="https://jsrun.net/" target="_blank" rel="noopener noreferrer">JSRUN</a></h3>
+<h3> 2. <a href="https://jsrun.net/" target="_blank" rel="noopener noreferrer">JSRUN</a></h3>
 <p>创建于 2016 年，专注于在线代码运行。</p>
 <figure><figcaption></figcaption></figure>
-<h3> 3、<a href="https://codesandbox.io/" target="_blank" rel="noopener noreferrer">CodeSandbox</a></h3>
+<h3> 3. <a href="https://codesandbox.io/" target="_blank" rel="noopener noreferrer">CodeSandbox</a></h3>
 <figure><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
-<h3> 1、<a href="https://github.com/LjyYano/Thinking_in_Java_MindMapping" target="_blank" rel="noopener noreferrer">Thinking_in_Java_MindMapping</a></h3>
+<h3> 1. <a href="https://github.com/LjyYano/Thinking_in_Java_MindMapping" target="_blank" rel="noopener noreferrer">Thinking_in_Java_MindMapping</a></h3>
 <p>一个包含了博主的编程笔记、观影指南、读书笔记、生活感悟、Switch 游戏等内容的仓库。</p>
-<h3> 2、<a href="https://github.com/dunwu/javacore" target="_blank" rel="noopener noreferrer">JavaCore</a></h3>
+<h3> 2. <a href="https://github.com/dunwu/javacore" target="_blank" rel="noopener noreferrer">JavaCore</a></h3>
 <p>一个 Java 核心技术教程，包含以下方面内容：</p>
 <ul>
 <li>Java 基础特性</li>
@@ -94,7 +97,7 @@
 <li>Java 虚拟机</li>
 <li>……</li>
 </ul>
-<h3> 3、<a href="https://github.com/polaris1119/golangweekly" target="_blank" rel="noopener noreferrer">Go 语言爱好者周刊</a></h3>
+<h3> 3. <a href="https://github.com/polaris1119/golangweekly" target="_blank" rel="noopener noreferrer">Go 语言爱好者周刊</a></h3>
 <p>随着 Go 受到越来越多的关注，相关的文章、软件、资源也越来越多。Go 语言爱好者周刊旨在为大家分享一周值得了解、学习的 Go 语言相关内容。每周日发布。</p>
 <p>周刊自 2019 年开始发布，截止目前已经持续到了 198 期。</p>
 <h2> ✍️ 说明</h2>
@@ -125,7 +128,7 @@
     <title type="text">好物周刊#21：</title>
     <id>https://cunyu1943.github.io/weekly/2023/0902-0908.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0902-0908.html"/>
-    <updated>2023-08-27T08:06:22.000Z</updated>
+    <updated>2023-08-27T12:10:24.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#21：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -137,7 +140,7 @@
 <h2> 一、项目</h2>
 <h2> 二、软件</h2>
 <h2> 三、网站</h2>
-<h3> <a href="https://www.wappalyzer.com/" target="_blank" rel="noopener noreferrer">Wappalyzer</a></h3>]]></summary>
+<h3> 1. <a href="https://www.wappalyzer.com/" target="_blank" rel="noopener noreferrer">Wappalyzer</a></h3>]]></summary>
     <content type="html"><![CDATA[<h1> 好物周刊#21：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -149,13 +152,13 @@
 <h2> 一、项目</h2>
 <h2> 二、软件</h2>
 <h2> 三、网站</h2>
-<h3> <a href="https://www.wappalyzer.com/" target="_blank" rel="noopener noreferrer">Wappalyzer</a></h3>
+<h3> 1. <a href="https://www.wappalyzer.com/" target="_blank" rel="noopener noreferrer">Wappalyzer</a></h3>
 <p>一个跨平台程序，能够发现网站上使用的技术。检测网站的内容管理系统、Web 框架、服务器软件、分析工具等等。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://www.photopea.com/" target="_blank" rel="noopener noreferrer">Photopea</a></h3>
+<h3> 2. <a href="https://www.photopea.com/" target="_blank" rel="noopener noreferrer">Photopea</a></h3>
 <p>一个在线版的 PhotoShop，支持 PSD、AI、XD、sketch、PDF、XCF、RAW 等多种图片格式。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://passer-by.com/relationship/" target="_blank" rel="noopener noreferrer">中国亲戚关系计算器</a></h3>
+<h3> 3. <a href="https://passer-by.com/relationship/" target="_blank" rel="noopener noreferrer">中国亲戚关系计算器</a></h3>
 <p>逢年过节遇到三姑六婆，拒绝叫不出口的尴尬！轻松搞定亲戚关系。当前亲戚称呼大全已收录约 <strong>76602</strong> 条亲戚关系。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
@@ -180,7 +183,7 @@
     <title type="text">好物周刊#22：</title>
     <id>https://cunyu1943.github.io/weekly/2023/0909-0915.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0909-0915.html"/>
-    <updated>2023-08-27T08:06:22.000Z</updated>
+    <updated>2023-08-27T12:10:24.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#22：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -192,7 +195,7 @@
 <h2> 一、项目</h2>
 <h2> 二、软件</h2>
 <h2> 三、网站</h2>
-<h3> <a href="http://ppchart.com/#/" target="_blank" rel="noopener noreferrer">PPChart</a></h3>]]></summary>
+<h3> 1. <a href="http://ppchart.com/#/" target="_blank" rel="noopener noreferrer">PPChart</a></h3>]]></summary>
     <content type="html"><![CDATA[<h1> 好物周刊#22：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -204,13 +207,13 @@
 <h2> 一、项目</h2>
 <h2> 二、软件</h2>
 <h2> 三、网站</h2>
-<h3> <a href="http://ppchart.com/#/" target="_blank" rel="noopener noreferrer">PPChart</a></h3>
+<h3> 1. <a href="http://ppchart.com/#/" target="_blank" rel="noopener noreferrer">PPChart</a></h3>
 <p>让图表更简单。PPChart 提供 Echarts 收录、图表制作等服务。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://madeapie.com/#/" target="_blank" rel="noopener noreferrer">Made A Pie</a></h3>
+<h3> 2. <a href="https://madeapie.com/#/" target="_blank" rel="noopener noreferrer">Made A Pie</a></h3>
 <p>Echarts 图表制作、案例分享、教程分享。汇聚了超多 Echarts 绘制案例，主要有以下类别：</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://www.isqqw.com/" target="_blank" rel="noopener noreferrer">ISQQW</a></h3>
+<h3> 3. <a href="https://www.isqqw.com/" target="_blank" rel="noopener noreferrer">ISQQW</a></h3>
 <p>一个 ECharts 图表集，ECharts demo 集，Echarts gallery 社区。同时，在这里还可以分享你的可视化作品。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
@@ -243,7 +246,7 @@
     <title type="text">好物周刊#23：</title>
     <id>https://cunyu1943.github.io/weekly/2023/0916-0922.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0916-0922.html"/>
-    <updated>2023-08-27T08:06:22.000Z</updated>
+    <updated>2023-08-27T12:10:24.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#23：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -255,7 +258,7 @@
 <h2> 一、项目</h2>
 <h2> 二、软件</h2>
 <h2> 三、网站</h2>
-<h3> <a href="http://hepengwei.cn/#/html/visualDesign" target="_blank" rel="noopener noreferrer">视觉效果集合</a></h3>]]></summary>
+<h3> 1. <a href="http://hepengwei.cn/#/html/visualDesign" target="_blank" rel="noopener noreferrer">视觉效果集合</a></h3>]]></summary>
     <content type="html"><![CDATA[<h1> 好物周刊#23：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -267,7 +270,7 @@
 <h2> 一、项目</h2>
 <h2> 二、软件</h2>
 <h2> 三、网站</h2>
-<h3> <a href="http://hepengwei.cn/#/html/visualDesign" target="_blank" rel="noopener noreferrer">视觉效果集合</a></h3>
+<h3> 1. <a href="http://hepengwei.cn/#/html/visualDesign" target="_blank" rel="noopener noreferrer">视觉效果集合</a></h3>
 <p>一个专注于前端视觉效果的集合应用，里面包含各种丰富的 css 动效、canvas 动画等上百个案例，而且是开源免费的。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
@@ -326,13 +329,13 @@
     <title type="text">想学好 Java 基础，应该去哪儿刷题</title>
     <id>https://cunyu1943.github.io/QA/20230402-where-exercise-java-basics.html</id>
     <link href="https://cunyu1943.github.io/QA/20230402-where-exercise-java-basics.html"/>
-    <updated>2023-08-27T01:05:55.000Z</updated>
+    <updated>2023-08-27T12:10:24.000Z</updated>
     <summary type="html"><![CDATA[<h1> 想学好 Java 基础，应该去哪儿刷题</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
 </div>
-<h2> 前言</h2>
+<h2> 一、前言</h2>
 <p>其实无论是哪门编程语言，只要把相关语法掌握之后，更重要的是一些算法、编程思想的提高。</p>
 <p>既然已经对 <code>Java</code> 有了一定的了解了，那肯定基本语法没啥问题了，那在这里就提名几个常用的刷题网站，用来巩固 Java 基础的同时锻炼自己的编程思想，提高自己的编程能力！</p>]]></summary>
     <content type="html"><![CDATA[<h1> 想学好 Java 基础，应该去哪儿刷题</h1>
@@ -340,11 +343,11 @@
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
 </div>
-<h2> 前言</h2>
+<h2> 一、前言</h2>
 <p>其实无论是哪门编程语言，只要把相关语法掌握之后，更重要的是一些算法、编程思想的提高。</p>
 <p>既然已经对 <code>Java</code> 有了一定的了解了，那肯定基本语法没啥问题了，那在这里就提名几个常用的刷题网站，用来巩固 Java 基础的同时锻炼自己的编程思想，提高自己的编程能力！</p>
-<h2> 网站推荐</h2>
-<h3> 牛客网</h3>
+<h2> 二、网站</h2>
+<h3> 1、牛客网</h3>
 <ul>
 <li><a href="https://www.nowcoder.com/" target="_blank" rel="noopener noreferrer">牛客网</a></li>
 </ul>
@@ -373,7 +376,7 @@
 </ol>
 <p>除了以上针对 <code>Java</code> 基础以及 <code>SQL</code> 的相关练习之外，还是以过来人的身份建议楼主不要仅局限于语言本身，还是要学一些数据结构 + 算法方面的知识的，这样能帮你在工作中提高不少的效率。同时，设想一下，假设在面试时，一个同样的算法题，你实现的复杂度为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">O(n)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">O</span><span class="mopen">(</span><span class="mord mathnormal">n</span><span class="mclose">)</span></span></span></span> ，而其他人实现的复杂度为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mo stretchy="false">(</mo><msup><mi>n</mi><mn>2</mn></msup><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">O(n^2)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">O</span><span class="mopen">(</span><span class="mord"><span class="mord mathnormal">n</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span> ，那你觉得最终企业会招谁呢？</p>
 <p>算法练习的网站也比较多了，这里就推荐几个最常用的。</p>
-<h3> LeetCode</h3>
+<h3> 2、LeetCode</h3>
 <ul>
 <li><a href="https://leetcode.cn/?utm_source=LCUS&amp;utm_medium=ip_redirect&amp;utm_campaign=transfer2china" target="_blank" rel="noopener noreferrer">LeetCode 美国站</a></li>
 </ul>
@@ -381,7 +384,7 @@
 <ul>
 <li><a href="https://leetcode.cn/" target="_blank" rel="noopener noreferrer">LeetCode 中国站</a></li>
 </ul>
-<h3> 牛客网</h3>
+<h3> 3、牛客网</h3>
 <p>没错，又是它。现在国内有很多企业都是在牛客笔试的，为了尽快适应招聘面试，推荐在这里刷算法题，这样在笔试时也不会因为环境而感到陌生，尽快上手。</p>
 <p>这里推荐几个题库，如果题库里的题目刷起来得心应手，那笔试还有啥怕的~~</p>
 <ol>
@@ -397,15 +400,13 @@
 <li><a href="https://leetcode.cn/problemset/all/?page=1&amp;listId=e8X3pBZi" target="_blank" rel="noopener noreferrer">《剑指 Offer（专线突击版）》</a></li>
 <li><a href="https://leetcode.cn/problemset/all/?page=1&amp;listId=xb9nqhhg" target="_blank" rel="noopener noreferrer">《剑指 Offer（第 2 版）》</a></li>
 </ul>
-<h3> 赛码网</h3>
+<h3> 4、赛码网</h3>
 <ul>
 <li><a href="https://www.acmcoder.com/#/home" target="_blank" rel="noopener noreferrer">赛码网</a></li>
 </ul>
 <p>智能在线考试专家，除开牛客之外，也有不少企业在这里进行招聘笔试，比如阿里、京东、头条、美团、滴滴、小米等公司校招考试都在用。</p>
-<h2> 最后</h2>
+<h2> 三、最后</h2>
 <p>推荐仅限于推荐，最重要的还是要行动起来。就算一开始很吃力，那也要坚持！</p>
-<p>水滴石穿，非一日之功。我相信有付出，就一定会有收获的那一天！</p>
-<p>关注我，<code>Java</code> 学习不迷路！风里雨里，我在这里等你！</p>
 ]]></content>
     <category term="你问我答"/>
     <published>2023-08-27T01:05:55.000Z</published>
@@ -10715,7 +10716,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#1：提示工程师养成指南</title>
     <id>https://cunyu1943.github.io/weekly/2023/0415-0421.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0415-0421.html"/>
-    <updated>2023-08-27T08:06:22.000Z</updated>
+    <updated>2023-08-27T12:10:24.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#1：提示工程师养成指南</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -10735,11 +10736,11 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <p><a href="https://mp.weixin.qq.com/s/tRCcFjolMuXqunWRQDgxGQ" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/tRCcFjolMuXqunWRQDgxGQ</a></p>
 </div>
 <h2> 一、项目</h2>
-<h3> 1、<a href="https://gitee.com/landalfyao/ddrun" target="_blank" rel="noopener noreferrer">ddrun</a></h3>
+<h3> 1. <a href="https://gitee.com/landalfyao/ddrun" target="_blank" rel="noopener noreferrer">ddrun</a></h3>
 <p>后端采用 <code>midway3.0</code>，后台采用 <code>nuxt2.x</code>，小程序采用 <code>uniapp</code> 实现的一套跑腿下单接单系统。</p>
 <p>适用于校园、社区、城市等场景，可提供打印服务、跑腿服务、搬家服务、清洁服务、维修服务、活动组织、快递代取、代买代送、软件安装、陪玩陪练等服务。</p>
 <figure><figcaption></figcaption></figure>
-<h3> 2、<a href="https://github.com/opentiny/tiny-vue" target="_blank" rel="noopener noreferrer">tiny-vue</a></h3>
+<h3> 2. <a href="https://github.com/opentiny/tiny-vue" target="_blank" rel="noopener noreferrer">tiny-vue</a></h3>
 <p><code>TinyVue</code> 是华为云出品的企业级设计体系，一个基于 <code>Vue</code> 的 <code>UI</code> 组件库，可以同时支持 <code>Vue 2.0</code> 和 <code>Vue 3.0</code>。</p>
 <p>组件丰富，主要提供以下组件：</p>
 <ul>
@@ -10753,11 +10754,11 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>其他组件</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> 3、<a href="https://github.com/zonemeen/netease-recent-profile" target="_blank" rel="noopener noreferrer">netease-recent-profile</a></h3>
+<h3> 3. <a href="https://github.com/zonemeen/netease-recent-profile" target="_blank" rel="noopener noreferrer">netease-recent-profile</a></h3>
 <p>通过使用该组件，可以在 <code>Github Profile</code> 上显示你在网易云音乐上的听歌记录。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
-<h3> 1、<a href="https://bobtranslate.com/" target="_blank" rel="noopener noreferrer">Bob</a></h3>
+<h3> 1. <a href="https://bobtranslate.com/" target="_blank" rel="noopener noreferrer">Bob</a></h3>
 <ol>
 <li><strong>使用场景</strong></li>
 </ol>
@@ -10786,10 +10787,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 </li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> 2、<a href="https://www.screentogif.com/" target="_blank" rel="noopener noreferrer">ScreenToGif</a></h3>
+<h3> 2. <a href="https://www.screentogif.com/" target="_blank" rel="noopener noreferrer">ScreenToGif</a></h3>
 <p>一款非常好用的免费开源 <code>Gif</code> 动画录制工具，集 <code>GIF</code> 录制、制作、编辑等多种功能为一身。具有录制屏幕、录制摄像头、录制画板、编辑器等功能，软件小巧、界面简洁但功能却很强大，而且操作也很简单。不过需要注意一点，它目前只支持在 <code>Windows</code> 系统中使用。</p>
 <figure><figcaption></figcaption></figure>
-<h3> 3、<a href="https://www.snipaste.com/" target="_blank" rel="noopener noreferrer">Snipaste</a></h3>
+<h3> 3. <a href="https://www.snipaste.com/" target="_blank" rel="noopener noreferrer">Snipaste</a></h3>
 <p>一款强大的免费截图 + 贴图软件，目前支持 <code>Windows</code> 和 <code>macOS</code> 系统。免费版功能对于日常截图贴图已经完全足够，同时还推出了专业版，比起免费版更为强大。</p>
 <p>专业版与免费版功能对比如下表，专业版目前定价 <code>99</code> 元，有需要的看官可以入手。</p>
 <table>
@@ -11230,18 +11231,18 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 </table>
 <figure><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
-<h3> 1、<a href="https://browserframe.com/" target="_blank" rel="noopener noreferrer">BrowserFrame</a></h3>
+<h3> 1. <a href="https://browserframe.com/" target="_blank" rel="noopener noreferrer">BrowserFrame</a></h3>
 <p>通过该网站，可以模拟在各大浏览器框架中的屏幕截图，支持 <code>Chrome</code>、<code>Safari</code>、<code>Firefox</code>、<code>Edge</code>、<code>Opera</code>等浏览器、<code>macOS</code>、<code>Windows</code> 系统以及 <code>Dark</code>、<code>Light</code> 主题。</p>
 <figure><figcaption></figcaption></figure>
-<h3> 2、<a href="https://docsmall.com/" target="_blank" rel="noopener noreferrer">docsmall</a></h3>
+<h3> 2. <a href="https://docsmall.com/" target="_blank" rel="noopener noreferrer">docsmall</a></h3>
 <p>一个提供图片压缩、<code>Gif</code> 压缩、<code>PDF</code> 压缩、<code>PDF</code> 合并、<code>PDF</code> 分隔等功能的在线网站，最重要的一点，完全免费！</p>
 <p>就像我文章里的图片，基本都是在这里压缩的。</p>
 <figure><figcaption></figcaption></figure>
-<h3> 3、<a href="https://dimmy.club/" target="_blank" rel="noopener noreferrer">Dimmy.club</a></h3>
+<h3> 3. <a href="https://dimmy.club/" target="_blank" rel="noopener noreferrer">Dimmy.club</a></h3>
 <p>模拟生成在各种设备模上的带壳屏幕截图，主要支持笔记本（<code>MacBook、Surface Book</code>）、一体机（<code>iMac</code>）、手机（<code>iPhone、Pixel、Nokia、Samsung</code>）、平板（<code>iPad、Nexus</code>）等设备。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
-<h3> 1、<a href="https://adguard.com/zh_cn/welcome.html" target="_blank" rel="noopener noreferrer">AdGuard</a></h3>
+<h3> 1. <a href="https://adguard.com/zh_cn/welcome.html" target="_blank" rel="noopener noreferrer">AdGuard</a></h3>
 <p>号称世界上最高级的广告拦截器，具有如下特点：</p>
 <ul>
 <li>拦截所有种类的广告</li>
@@ -11251,7 +11252,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>保持网站功能和外观</li>
 </ul>
 <figure><figcaption>AdGuard</figcaption></figure>
-<h3> 2、<a href="https://microsoftedge.microsoft.com/addons/detail/global-speed-%E8%A7%86%E9%A2%91%E9%80%9F%E5%BA%A6%E6%8E%A7%E5%88%B6/mjhlabbcmjflkpjknnicihkfnmbdfced" target="_blank" rel="noopener noreferrer">Global Speed: 视频速度控制</a></h3>
+<h3> 2. <a href="https://microsoftedge.microsoft.com/addons/detail/global-speed-%E8%A7%86%E9%A2%91%E9%80%9F%E5%BA%A6%E6%8E%A7%E5%88%B6/mjhlabbcmjflkpjknnicihkfnmbdfced" target="_blank" rel="noopener noreferrer">Global Speed: 视频速度控制</a></h3>
 <ol>
 <li><strong>速度控制</strong></li>
 </ol>
@@ -11304,7 +11305,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>学习教程视频时加速等</li>
 </ul>
 <figure><figcaption>Global Speed：视频速度控制</figcaption></figure>
-<h3> 3、<a href="https://microsoftedge.microsoft.com/addons/detail/supercopy-%E8%B6%85%E7%BA%A7%E5%A4%8D%E5%88%B6/nhiheekdcnmfbapkmpbhmplfddenhjic?hl=zh-CN" target="_blank" rel="noopener noreferrer">SuperCopy 超级复制</a></h3>
+<h3> 3. <a href="https://microsoftedge.microsoft.com/addons/detail/supercopy-%E8%B6%85%E7%BA%A7%E5%A4%8D%E5%88%B6/nhiheekdcnmfbapkmpbhmplfddenhjic?hl=zh-CN" target="_blank" rel="noopener noreferrer">SuperCopy 超级复制</a></h3>
 <ol>
 <li><strong>主要功能</strong></li>
 </ol>
@@ -11350,14 +11351,14 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 </ul>
 <figure><figcaption>SuperCopy 超级复制</figcaption></figure>
 <h2> 五、资料</h2>
-<h3> 1、<a href="https://cunyu1943.site/JavaPark/" target="_blank" rel="noopener noreferrer">JavaPark</a></h3>
+<h3> 1. <a href="https://cunyu1943.site/JavaPark/" target="_blank" rel="noopener noreferrer">JavaPark</a></h3>
 <p>这里有 <code>Java</code> 学习保姆级教程、面试总结、计算机基础、数据库、实战实践、效率工具、资源分享、程序人生等诸多内容，学习 <code>Java</code> 的小伙伴不容错过。</p>
 <figure><figcaption></figcaption></figure>
-<h3> 2、<a href="https://www.promptingguide.ai/zh" target="_blank" rel="noopener noreferrer">提示工程指南</a></h3>
+<h3> 2. <a href="https://www.promptingguide.ai/zh" target="_blank" rel="noopener noreferrer">提示工程指南</a></h3>
 <p><code>ChatGPT</code> 的横空出世，造就了一种新的职业 - <strong>人工智能提示工程师</strong>。而如何学习相关知识就很重要了，此刻你肯定无比需要一份入门指南，指引你学习的方向。</p>
 <p>而这个项目就提供了这样一份指南，介绍了大语言模型相关的论文研究、学习指南、模型、讲座、参考资料、大语言模型能力以及与其他与提示工程相关的工具。</p>
 <figure><figcaption></figcaption></figure>
-<h3> 3、<a href="https://learnprompting.org/zh-Hans/docs/intro" target="_blank" rel="noopener noreferrer">Learn Prompting</a></h3>
+<h3> 3. <a href="https://learnprompting.org/zh-Hans/docs/intro" target="_blank" rel="noopener noreferrer">Learn Prompting</a></h3>
 <p>随着 <code>ChatGPT</code> 的发布，人工智能不断进步，提示工程技能变得越来越重要。</p>
 <p>这套教程聚焦于如何使用提示工程，甚至学习者都不需要储备很多机器学习相关的知识。通过学习如何与人工智能交流，从而得到我们想要的结果。</p>
 <figure><figcaption></figcaption></figure>
@@ -11380,7 +11381,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#2：AI 写作助手</title>
     <id>https://cunyu1943.github.io/weekly/2023/0422-0428.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0422-0428.html"/>
-    <updated>2023-08-27T08:06:22.000Z</updated>
+    <updated>2023-08-27T12:10:24.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#2：AI 写作助手</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -11400,7 +11401,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <p><a href="https://mp.weixin.qq.com/s/PjyWCciDJoxW83N_MY92Dw" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/PjyWCciDJoxW83N_MY92Dw</a></p>
 </div>
 <h2> 一、项目</h2>
-<h3> 1、<a href="https://github.com/nihaojob/vue-fabric-editor" target="_blank" rel="noopener noreferrer">vue-fabric-editor</a></h3>
+<h3> 1. <a href="https://github.com/nihaojob/vue-fabric-editor" target="_blank" rel="noopener noreferrer">vue-fabric-editor</a></h3>
 <p>基于 <code>fabric.js</code> 和 <code>Vue</code> 的图片编辑器，可自定义字体、素材、设计模板。</p>
 <p>目前已支持以下功能：</p>
 <ul>
@@ -11425,11 +11426,11 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>国际化</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> 2、<a href="https://github.com/haixin-fang/starfish-vue3-lowcode" target="_blank" rel="noopener noreferrer">starfish-vue3-lowcode</a></h3>
+<h3> 2. <a href="https://github.com/haixin-fang/starfish-vue3-lowcode" target="_blank" rel="noopener noreferrer">starfish-vue3-lowcode</a></h3>
 <p><code>Vue3</code> 可视化低代码表单设计器，方便快捷的完成各类表单设计！</p>
 <p>基于 <code>TypeScript</code> 开发，支持 <code>Vue3.0 API</code>。</p>
 <figure><figcaption></figcaption></figure>
-<h3> 3、<a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope" target="_blank" rel="noopener noreferrer">vuepress-theme-hope</a></h3>
+<h3> 3. <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope" target="_blank" rel="noopener noreferrer">vuepress-theme-hope</a></h3>
 <p>一个功能强大的 <code>vuepress</code> 主题，支持 <code>vuepress V1.0</code> 和 <code>V2.0</code> 版本，支持文档站和博客两种形式，目前仍在活跃更新中。除开支持 <code>vuepress</code> 默认功能之外，还具备以下特色功能：</p>
 <ul>
 <li><code>Markdown</code> 增强</li>
@@ -11453,7 +11454,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 </ul>
 <figure><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
-<h3> 1、<a href="https://typoraio.cn/" target="_blank" rel="noopener noreferrer">Typora</a></h3>
+<h3> 1. <a href="https://typoraio.cn/" target="_blank" rel="noopener noreferrer">Typora</a></h3>
 <p>一款跨平台 <code>Markdown</code> 编辑器和阅读器，支持 <code>macOS</code>，<code>Windows</code> 及 <code>Linux</code> 三大平台，也是我写作文章时的软件。毫不夸张地说，它是目前本地 <code>Markdown</code> 编辑器的天花板。测试阶段免费，目前已转入收费阶段，89 元买断制，支持三台设备，而且后续升级免费。</p>
 <p>具有以下特点：</p>
 <ul>
@@ -11470,10 +11471,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>……</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> 2、<a href="https://app.diagrams.net/" target="_blank" rel="noopener noreferrer">diagrams.net</a></h3>
+<h3> 2. <a href="https://app.diagrams.net/" target="_blank" rel="noopener noreferrer">diagrams.net</a></h3>
 <p>一个免费的拖放式在线图表工具，允许用户创建流程图、生成网络和实体关系 (<code>ER</code>) 图，甚至设计数据库模式。包括其易用性以及与 <code>GitHub</code>、<code>OneDrive</code> 和 <code>Google Drive</code> 等常见平台的无缝集成。全平台支持，同时支持 <code>Web</code> 在线，而且支持导出到本地，不用担心数据隐私问题。在我其他文章中的一些图，基本都是用它来画的。</p>
 <figure><figcaption></figcaption></figure>
-<h3> 3、<a href="https://getsharex.com/" target="_blank" rel="noopener noreferrer">ShareX</a></h3>
+<h3> 3. <a href="https://getsharex.com/" target="_blank" rel="noopener noreferrer">ShareX</a></h3>
 <p>一款支持截图、文件分享、图片上传的生产力工具，不过目前仅支持 <code>Windows</code> 平台。</p>
 <p>具有如下特点：</p>
 <ul>
@@ -11487,7 +11488,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 </ul>
 <figure><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
-<h3> 1、<a href="https://web.baimiaoapp.com/" target="_blank" rel="noopener noreferrer">白描</a></h3>
+<h3> 1. <a href="https://web.baimiaoapp.com/" target="_blank" rel="noopener noreferrer">白描</a></h3>
 <p>一个高效准确的 <code>OCR</code> 文字识别、翻译与文件扫描工具，主要支持以下功能：</p>
 <ul>
 <li>图片文字提取</li>
@@ -11499,16 +11500,16 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 </ul>
 <p>目前普通用户每日限制 5 次识别次数，批量识别次数限制为 1 次，每日翻译不超过 3 次且每次翻译字数不超过 1000 字。而普通会员（付费 30 元）识别次数无限制，批量识别次数限制为 3 次，每日翻译不超过 3 次且每次翻译字数不超过 1000 字，而且一次付费永久有效，多设备同步。黄金会员（付费 40 元）则无以上限制。</p>
 <figure><figcaption></figcaption></figure>
-<h3> 2、<a href="https://www.writingo.net/" target="_blank" rel="noopener noreferrer">火山写作</a></h3>
+<h3> 2. <a href="https://www.writingo.net/" target="_blank" rel="noopener noreferrer">火山写作</a></h3>
 <p>字节跳动最新推出的写作助手，致力于帮助用户提升英语写作能力，更好地与世界沟通。</p>
 <p>支持学术论文、邮件、用户手册、个人陈述、学校申请、活动通知等类型的文章。点击一键优化还能让你选择目前在写作的文章类型、文章受众、修改风格、修改篇幅等类型，从而实现更精确的改写。目前，不登录情况下限制免费使用 3 次，有需要的小伙伴可以去试一下效果！</p>
 <figure><figcaption></figcaption></figure>
 <figure><figcaption></figcaption></figure>
-<h3> 3、<a href="https://bigjpg.com/" target="_blank" rel="noopener noreferrer">Bigjpg</a></h3>
+<h3> 3. <a href="https://bigjpg.com/" target="_blank" rel="noopener noreferrer">Bigjpg</a></h3>
 <p><code>AI</code> 人工智能图片无损放大工具。利用最新的人工智能深度学习技术，将图片噪点和锯齿部分进行补充，从而实现图片的无损放大。目前免费版可以上传 <code>3000 x 3000px</code> 图片, <code>5M</code> 以内，而付费版最大可支持 <code>50M</code>。而且登录后还提供 <code>API</code>，可以基于它来开发自己的应用。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
-<h3> 1、<a href="https://saladict.crimx.com/" target="_blank" rel="noopener noreferrer">沙拉查词</a></h3>
+<h3> 1. <a href="https://saladict.crimx.com/" target="_blank" rel="noopener noreferrer">沙拉查词</a></h3>
 <p>浏览器聚合词典专业划词翻译插件，具有以下特点：</p>
 <ol>
 <li><strong>词典丰富</strong></li>
@@ -11566,7 +11567,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li><strong>可显示当前页面二维码</strong></li>
 </ol>
 <figure><figcaption></figcaption></figure>
-<h3> 2、<a href="https://simpread.pro/" target="_blank" rel="noopener noreferrer">简悦</a></h3>
+<h3> 2. <a href="https://simpread.pro/" target="_blank" rel="noopener noreferrer">简悦</a></h3>
 <p>提供如杂志版沉浸式阅读体验的浏览器插件，提供以下特色功能：</p>
 <ul>
 <li>阅读模式</li>
@@ -11580,7 +11581,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>……</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> 3、<a href="https://markdown-here.com/get.html" target="_blank" rel="noopener noreferrer">Markdown Here</a></h3>
+<h3> 3. <a href="https://markdown-here.com/get.html" target="_blank" rel="noopener noreferrer">Markdown Here</a></h3>
 <p>通过使用该插件，可以用 <code>Markdown</code> 来写一封漂亮的电子邮件。通常邮件都是没有格式的，通过该插件，可以实现将 <code>Markdown</code> 语法的邮件转换为想要的效果。</p>
 <p>而使用步骤也很简单：</p>
 <ol>
@@ -11589,13 +11590,13 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 </ol>
 <figure><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
-<h3> 1、<a href="https://kuboard.cn/" target="_blank" rel="noopener noreferrer">Kuboard</a></h3>
+<h3> 1. <a href="https://kuboard.cn/" target="_blank" rel="noopener noreferrer">Kuboard</a></h3>
 <p><code>Kubernetes</code> 多集群管理界面，同时提供了 <code>Kubernetes</code> 教程，为使用 <code>Kubernetes</code>  落地 <code>Cloud</code> 微服务的任务提供实战经验。</p>
 <figure><figcaption></figcaption></figure>
-<h3> 2、<a href="https://pycharm.iswbm.com/" target="_blank" rel="noopener noreferrer">PyCharm 中文指南</a></h3>
+<h3> 2. <a href="https://pycharm.iswbm.com/" target="_blank" rel="noopener noreferrer">PyCharm 中文指南</a></h3>
 <p>作者使用 <code>PyCharm</code> 的多年经验总结，既包含面向初学者零基础的入门使用技巧，也提供了大量案例来讲解可提高工作效率的高级技巧。</p>
 <figure><figcaption></figcaption></figure>
-<h3> 3、<a href="https://github.com/hollischuang/toBeTopJavaer" target="_blank" rel="noopener noreferrer">toBeTopJavaer</a></h3>
+<h3> 3. <a href="https://github.com/hollischuang/toBeTopJavaer" target="_blank" rel="noopener noreferrer">toBeTopJavaer</a></h3>
 <p><code>Java</code> 工程师成神之路，作者是阿里巴巴技术专家 <code>Hollis</code>。总结了作为 <code>Java</code> 开发者需要掌握的基础知识点，主要包括面向对象、基础数据类型、自动拆装箱、字符串、序列化、反射等知识点，较为全面地覆盖了 <code>Java</code> 开发者日常工作中需要用到的大部分基础知识。</p>
 <p>目前也已经正式出版，在豆瓣开出了 <code>8.5</code> 的评分， 非常值得一读！</p>
 <figure><figcaption></figcaption></figure>
@@ -11626,7 +11627,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#3：Java 学习面试指南</title>
     <id>https://cunyu1943.github.io/weekly/2023/0429-0505.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0429-0505.html"/>
-    <updated>2023-08-27T08:06:22.000Z</updated>
+    <updated>2023-08-27T12:10:24.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#3：Java 学习面试指南</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -11646,7 +11647,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <p><a href="https://mp.weixin.qq.com/s/vNyT3cSSxUMy9LuD6t91ag" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/vNyT3cSSxUMy9LuD6t91ag</a></p>
 </div>
 <h2> 一、项目</h2>
-<h3> 1、<a href="https://github.com/Yidadaa/ChatGPT-Next-Web" target="_blank" rel="noopener noreferrer">ChatGPT-Next-Web</a></h3>
+<h3> 1. <a href="https://github.com/Yidadaa/ChatGPT-Next-Web" target="_blank" rel="noopener noreferrer">ChatGPT-Next-Web</a></h3>
 <p>只要能申请到 <code>OpenAI API</code> 的 <code>key</code>，就能够通过该项目一键拥有你自己的 <code>ChatGPT</code> 网页服务，主要有以下功能：</p>
 <ul>
 <li>在 1 分钟内使用 <code>Vercel</code> <strong>免费一键部署</strong></li>
@@ -11659,7 +11660,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>拥有自己的域名？好上加好，绑定后即可在任何地方无障碍快速访问</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> 2、<a href="https://github.com/Significant-Gravitas/Auto-GPT" target="_blank" rel="noopener noreferrer">Auto-GPT</a></h3>
+<h3> 2. <a href="https://github.com/Significant-Gravitas/Auto-GPT" target="_blank" rel="noopener noreferrer">Auto-GPT</a></h3>
 <p>一个实验性的开源项目，展示了 <code>GPT-4</code> 语言的模型。该项目由 <code>GPT-4</code> 驱动，将 <code>LLM</code> 的“思想”链接在一起，以自主地实现设定的任何目标。作为 <code>GPT-4</code> 完全自主运行的第一个例子，拓展了 <code>AI</code> 的可能性。</p>
 <p>主要特性如下：</p>
 <ul>
@@ -11670,15 +11671,15 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>利用 <code>GPT-3.5</code> 进行文件存储和摘要</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> 3、<a href="https://github.com/reworkd/AgentGPT" target="_blank" rel="noopener noreferrer">AgentGPT</a></h3>
+<h3> 3. <a href="https://github.com/reworkd/AgentGPT" target="_blank" rel="noopener noreferrer">AgentGPT</a></h3>
 <p>类似于 <code>ChatGPT-Next-Web</code>，拥有自己的 <code>OpenAI API</code> 的 <code>key</code> 之后，就能通部署自己的 <code>AI</code> 助理。该项目基于 <code>NextJs</code> + <code>Typescript</code> 技术栈开发，不仅支持自己手动部署，还支持 <code>Docker</code>，可以说是十分方便了！</p>
 <figure><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
-<h3> 1、<a href="https://www.yuque.com/" target="_blank" rel="noopener noreferrer">语雀</a></h3>
+<h3> 1. <a href="https://www.yuque.com/" target="_blank" rel="noopener noreferrer">语雀</a></h3>
 <p>新一代知识构建与分享工具。「语雀」是蚂蚁集团旗下的文档与知识库工具，源自蚂蚁集团和阿里巴巴内部文档协同需求，2018 年 1 月 8 日正式对外提供服务，现已服务于数十万企业组织和数百万个人用户。</p>
 <p>官方愿景从最初的为了给开发者提供一个好用的工具来撰写技术文档，逐渐发展为致力为每个人和团队提供一款顺手的工具，让知识得以记录、沉淀和交流，让大家都能在语雀中平等快乐地创作与交流知识。</p>
 <figure><figcaption></figcaption></figure>
-<h3> 2、<a href="https://www.ieway.cn/evcapture.html" target="_blank" rel="noopener noreferrer">EV 录屏</a></h3>
+<h3> 2. <a href="https://www.ieway.cn/evcapture.html" target="_blank" rel="noopener noreferrer">EV 录屏</a></h3>
 <p>一款免费无水印，集视频录制与直播功能于一身的桌面录屏软件。</p>
 <p>官方号称无水印、无限制，想录就录！承诺以下功能使用无限制，永久免费：</p>
 <ol>
@@ -11689,7 +11690,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>定时录制</li>
 </ol>
 <figure><figcaption></figcaption></figure>
-<h3> 3、<a href="https://minnote.v8cloud.cn/index.html" target="_blank" rel="noopener noreferrer">极简笔记</a></h3>
+<h3> 3. <a href="https://minnote.v8cloud.cn/index.html" target="_blank" rel="noopener noreferrer">极简笔记</a></h3>
 <p>一款现代化的 <code>Markdown</code> 笔记软件，能够在 <code>Windows</code>、<code>Linux</code>、<code>Mac</code> 系统、<code>iPhone</code> 以及安卓平台进行数据同步。</p>
 <p>分为基础版和 <code>Pro</code> 版，<code>Pro</code> 版本订阅一个月需 <code>$1.5</code> ，订阅一年仅需 <code>$15</code>.相比于基础版，提供更好的数据安全服务，具体功能如下：</p>
 <ol>
@@ -11700,20 +11701,20 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 </ol>
 <figure><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
-<h3> 1、<a href="https://www.tangrenjie.tv/" target="_blank" rel="noopener noreferrer">唐人街影视</a></h3>
+<h3> 1. <a href="https://www.tangrenjie.tv/" target="_blank" rel="noopener noreferrer">唐人街影视</a></h3>
 <p>致力于为海外华人提供影视观看的网站，站点不提供任何视听上传服务，所有内容均来自互联网其他分享站所提供的公开引用资源。</p>
 <figure><figcaption></figcaption></figure>
-<h3> 2、<a href="https://jsoncrack.com/editor" target="_blank" rel="noopener noreferrer">JSON Crack</a></h3>
+<h3> 2. <a href="https://jsoncrack.com/editor" target="_blank" rel="noopener noreferrer">JSON Crack</a></h3>
 <p><code>JSON Crack</code> 是一个很方便的 <code>JSON</code> 数据可视化工具。该项目并非简单的展示 <code>JSON</code> 数据，而是将其转化为类似思维导图的形式，支持放大/缩小、展开/收缩、搜索节点、导出图片等操作，对于经常和 <code>JSON</code> 格式的数据打交道的人会非常有帮助。</p>
 <figure><figcaption></figcaption></figure>
-<h3> 3、<a href="https://www.jsdelivr.com/" target="_blank" rel="noopener noreferrer">jsDelivr</a></h3>
+<h3> 3. <a href="https://www.jsdelivr.com/" target="_blank" rel="noopener noreferrer">jsDelivr</a></h3>
 <p><code>JSDelivr</code> 是一款开源的免费公共 <code>CDN</code>，是目前第二受欢迎的公共 <code>CDN</code>，并在 2020 年 10 月 14 日称为 <code>Bootstrap</code> 的官方 <code>CDN</code>，其稳定性不言而喻。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
-<h3> <a href="https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd" target="_blank" rel="noopener noreferrer">Tampermonkey</a></h3>
+<h3> 1. <a href="https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd" target="_blank" rel="noopener noreferrer">Tampermonkey</a></h3>
 <p>中文名又叫油猴，是一个用户脚本管理器。它本身是无法为我们发挥什么作用的，它主要依靠各大社区编写的扩展脚本（<code>JavaScript</code> 代码）运行在浏览器上，来改变被访问网页的功能，提升我们的网页浏览体验 。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://violentmonkey.github.io/" target="_blank" rel="noopener noreferrer">Violentmonkey</a></h3>
+<h3> 2. <a href="https://violentmonkey.github.io/" target="_blank" rel="noopener noreferrer">Violentmonkey</a></h3>
 <p>暴力猴是一款与 <code>Tampermonkey</code> 齐名的浏览器插件管理工具，为浏览器提供用户脚本支持。 它适用于支持 <code>WebExtensions</code> 的浏览器。支持 <code>Userscripts.org</code>、<code>GreasyFork</code>、<code>OpenUserJS</code> 三大脚本下载源，拥有丰富实用的油猴脚本。</p>
 <p>插件特点：</p>
 <ol>
@@ -11724,15 +11725,15 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>同步到 <code>Dropbox</code> 和 <code>OneDrive</code>！</li>
 </ol>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://microsoftedge.microsoft.com/addons/detail/%E8%94%9A%E8%93%9D%E4%B8%BB%E9%A1%B5/epgghbgfoacieppkngapakodnbkhpldj" target="_blank" rel="noopener noreferrer">蔚蓝主页</a></h3>
+<h3> 3. <a href="https://microsoftedge.microsoft.com/addons/detail/%E8%94%9A%E8%93%9D%E4%B8%BB%E9%A1%B5/epgghbgfoacieppkngapakodnbkhpldj" target="_blank" rel="noopener noreferrer">蔚蓝主页</a></h3>
 <p>蔚蓝主页是一款浏览器主页/新标签页，主要为用户提供搜索服务、网址导航服务。</p>
 <p>区别于传统的主页或网址导航，是一款独特、有所分别的产品。产品核心理念是简洁、存粹，采用了简洁的页面设计，对主要功能加以提炼，让用户能更纯粹的享受该浏览器主页插件所带来的便利。</p>
 <figure><img src="https://cunyu1943.github.io/static/imgs/article/weekly-2023/blue-homepage.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
-<h3> <a href="https://github.com/CyC2018/CS-Notes" target="_blank" rel="noopener noreferrer">CS-Notes</a></h3>
+<h3> 1. <a href="https://github.com/CyC2018/CS-Notes" target="_blank" rel="noopener noreferrer">CS-Notes</a></h3>
 <p>技术面试必备，囊括算法、操作系统、网络、面向对象、数据库、<code>Java</code>、系统设计、工具、编码实践等诸多方面的内容，截止本文发布时在 <code>Github</code> 已经收获了 163k <code>star</code>，足以见得大家对它的认可。</p>
 <figure><img src="https://cunyu1943.github.io/static/imgs/article/weekly-2023/cs-notes.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/Snailclimb/JavaGuide" target="_blank" rel="noopener noreferrer">JavaGuide</a></h3>
+<h3> 2. <a href="https://github.com/Snailclimb/JavaGuide" target="_blank" rel="noopener noreferrer">JavaGuide</a></h3>
 <p><code>Java</code> 学习+面试指南，一份涵盖大部分 <code>Java</code> 程序员所需要掌握的核心知识。主要有以下方面的知识点总结：</p>
 <ul>
 <li>Java</li>
@@ -11748,7 +11749,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 </ul>
 <p>截止本文发布时，已经在 <code>Github</code> 收获 133k <code>star</code>，比起 <code>CS-Notes</code> 也是不遑多让。</p>
 <figure><img src="https://cunyu1943.github.io/static/imgs/article/weekly-2023/java-guide.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/doocs/advanced-java" target="_blank" rel="noopener noreferrer">advanced-java</a></h3>
+<h3> 3. <a href="https://github.com/doocs/advanced-java" target="_blank" rel="noopener noreferrer">advanced-java</a></h3>
 <p>互联网 <code>Java</code> 工程师进阶知识完全扫盲：涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识。截止本文发布时，已经在 <code>Github</code> 收获 69k <code>star</code>。</p>
 <figure><img src="https://cunyu1943.github.io/static/imgs/article/weekly-2023/advanced-java.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <hr>
@@ -11780,7 +11781,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#4：每天一条 JS 小技巧</title>
     <id>https://cunyu1943.github.io/weekly/2023/0506-0512.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0506-0512.html"/>
-    <updated>2023-08-27T08:06:22.000Z</updated>
+    <updated>2023-08-27T12:10:24.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#4：每天一条 JS 小技巧</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -11800,7 +11801,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <p><a href="https://mp.weixin.qq.com/s/Tg3n71-R2ya4go_W1imIgw" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/Tg3n71-R2ya4go_W1imIgw</a></p>
 </div>
 <h2> 一、项目</h2>
-<h3> <a href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank" rel="noopener noreferrer">hexo-theme-butterfly</a></h3>
+<h3> 1. <a href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank" rel="noopener noreferrer">hexo-theme-butterfly</a></h3>
 <p>一款基于 <code>Hexo</code> 的主题，美观而又不失强大，支持以下功能：</p>
 <ul>
 <li>卡片化设计</li>
@@ -11814,7 +11815,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>……</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://echarts.apache.org/zh/index.html" target="_blank" rel="noopener noreferrer">ECharts</a></h3>
+<h3> 2. <a href="https://echarts.apache.org/zh/index.html" target="_blank" rel="noopener noreferrer">ECharts</a></h3>
 <p>最初由百度开源的一个基于 <code>JavaScript</code> 的开源可视化图表库，后于 2018 年捐赠给 <code>Apache</code> 基金会。最新推出的 <code>Apache ECharts 5</code> 通过五大模块、十五项特性的全面升级，围绕可视化作品的叙事表达能力，让图“表”更能传“达”数据背后的故事，帮助开发者更轻松地创造满足各种场景需求的可视化作品。</p>
 <p>五大模块，十五项特性分别是：</p>
 <ol>
@@ -11855,11 +11856,11 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 </li>
 </ol>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="http://www.magicalcoder.com/" target="_blank" rel="noopener noreferrer">Magic Coder</a></h3>
+<h3> 3. <a href="http://www.magicalcoder.com/" target="_blank" rel="noopener noreferrer">Magic Coder</a></h3>
 <p>低代码应用开发平台，面向零基础、拖拽式、可视化，甚至零基础的人员都能搭建出想要的效果。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
-<h3> <a href="https://github.com/SuperStudio/SuperCom" target="_blank" rel="noopener noreferrer">SuperCom</a></h3>
+<h3> 1. <a href="https://github.com/SuperStudio/SuperCom" target="_blank" rel="noopener noreferrer">SuperCom</a></h3>
 <p>超级串口调试工具，用于 <code>Window</code> 串口日志的采集、存储、可视化等功能，最重要的是免费开源，具有以下特点：</p>
 <ul>
 <li>可同时打开多个串口监听</li>
@@ -11870,18 +11871,18 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>……</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://www.alfredapp.com/" target="_blank" rel="noopener noreferrer">Alfred</a></h3>
+<h3> 2. <a href="https://www.alfredapp.com/" target="_blank" rel="noopener noreferrer">Alfred</a></h3>
 <p><code>Alfred</code> 是一款屡获殊荣的 <code>macOS</code> 应用程序，它通过热键、关键字、文本扩展等提高您的效率。搜索您的 <code>Mac</code> 和网络，并通过自定义操作来控制您的 <code>Mac</code>，从而提高工作效率。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://todo.microsoft.com/" target="_blank" rel="noopener noreferrer">Microsoft Todo</a></h3>
+<h3> 3. <a href="https://todo.microsoft.com/" target="_blank" rel="noopener noreferrer">Microsoft Todo</a></h3>
 <p>微软 <code>Todo</code> 是微软官方出品的一款轻量和智能的待办清单应用，它是 <code>Wunderlist</code> 的继任者，无论是工作计划，个人生活或家庭学习，它都一样可以帮助你更轻松地完成既定的计划。应用还支持 <code>iPhone</code>、安卓、<code>Windows</code> 和网页间无缝同步，多个设备也不必担心。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
-<h3> <a href="https://mirrors.cernet.edu.cn/" target="_blank" rel="noopener noreferrer">校园网联合镜像站</a></h3>
+<h3> 1. <a href="https://mirrors.cernet.edu.cn/" target="_blank" rel="noopener noreferrer">校园网联合镜像站</a></h3>
 <p>站点提供对校园网镜像站的索引和跳转服务，仅索引各镜像站的元数据信息，具体内容由各镜像站提供，而且站点还获得了中国教育和科研计算机网网络中心的支持和帮助。</p>
 <p>主要包含了操作系统、应用以及字体三方面资源的镜像，让下载更快一步！</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="http://www.alloyteam.com/nav/" target="_blank" rel="noopener noreferrer">Web 前端导航</a></h3>
+<h3> 2. <a href="http://www.alloyteam.com/nav/" target="_blank" rel="noopener noreferrer">Web 前端导航</a></h3>
 <p>汇集了众多前端资源的导航，主要包含了以下资源：</p>
 <ul>
 <li><code>IDE</code></li>
@@ -11895,11 +11896,11 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>……</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://badges.toozhao.com/" target="_blank" rel="noopener noreferrer">Badger</a></h3>
+<h3> 3. <a href="https://badges.toozhao.com/" target="_blank" rel="noopener noreferrer">Badger</a></h3>
 <p>为你的网站生成独一无二的 <code>SVG</code> 图片，只要将该图片放到你网站的对应界面，就能通过它统计出该页面被访问的次数，一般用在 <code>Github</code> 主页统计访客数。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
-<h3> <a href="https://microsoftedge.microsoft.com/addons/detail/microsoft-%E7%BC%96%E8%BE%91%E5%99%A8%E6%8B%BC%E5%86%99%E5%92%8C%E8%AF%AD%E6%B3%95%E6%A3%80%E6%9F%A5%E5%99%A8/hokifickgkhplphjiodbggjmoafhignh?hl=zh-CN" target="_blank" rel="noopener noreferrer">Microsoft 编辑器</a></h3>
+<h3> 1. <a href="https://microsoftedge.microsoft.com/addons/detail/microsoft-%E7%BC%96%E8%BE%91%E5%99%A8%E6%8B%BC%E5%86%99%E5%92%8C%E8%AF%AD%E6%B3%95%E6%A3%80%E6%9F%A5%E5%99%A8/hokifickgkhplphjiodbggjmoafhignh?hl=zh-CN" target="_blank" rel="noopener noreferrer">Microsoft 编辑器</a></h3>
 <p>你的智能写作助手。编辑器跨多个网站提供语法、拼写和风格建议，帮助你自信地写出清晰、简洁的文章和电子邮件。</p>
 <ul>
 <li>新增功能: 多语言校对、忽略选项。同时检查最多三种语言的拼写和语法。此外，拼写检查现在可用于泰语。还可通过选择“全部忽略”来轻松跳过所有拼写更正，或通过选择“忽略”跳过不需要的语法建议。</li>
@@ -11908,24 +11909,24 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>提供多种语言：编辑器检查 <code>80</code> 多种语言的拼写，并提供以这些语言的语法检查和书写风格改进。</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://microsoftedge.microsoft.com/addons/detail/infinity-%E6%96%B0%E6%A0%87%E7%AD%BE%E9%A1%B5-pro/hajlmbnnniemimmaehcefkamdadpjlfa?hl=zh-CN" target="_blank" rel="noopener noreferrer">Infinity Pro</a></h3>
+<h3> 2. <a href="https://microsoftedge.microsoft.com/addons/detail/infinity-%E6%96%B0%E6%A0%87%E7%AD%BE%E9%A1%B5-pro/hajlmbnnniemimmaehcefkamdadpjlfa?hl=zh-CN" target="_blank" rel="noopener noreferrer">Infinity Pro</a></h3>
 <p>全球上百万用户选择的最佳新标签页，功能包括：网站图标，搜索引擎，高清壁纸，书签管理、天气、笔记、待办事项、扩展管理、历史记录等。<br>
 <code>Infinity</code> 新标签页 (<code>Pro</code>) 是一款基于 <code>html5</code> 开发的扩展程序，它能够替换浏览器的起始页与新标签页，提升其美观性与生产力。</p>
 <p><code>Infinity</code> 独创了多种强大且实用的功能，可以让您以任何喜欢的方式来打造新标签页。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://microsoftedge.microsoft.com/addons/detail/dark-reader/ifoakfbpdcdoeenechcleahebpibofpc?hl=zh-CN" target="_blank" rel="noopener noreferrer">Dark Reader</a></h3>
+<h3> 3. <a href="https://microsoftedge.microsoft.com/addons/detail/dark-reader/ifoakfbpdcdoeenechcleahebpibofpc?hl=zh-CN" target="_blank" rel="noopener noreferrer">Dark Reader</a></h3>
 <p>一个护眼扩展程序，通过实时生成黑暗主题，为每一个网站启用夜间模式。<code>Dark Reader</code> 反转明亮的颜色，使网页内容具有高对比度并易于在夜间阅读。</p>
 <p>可以调整亮度、对比度，应用棕褐色滤镜、黑暗模式，设置字体和忽略的网站列表。</p>
 <p>最重要的一点，<code>Dark Reader</code> 无广告，也不会向任何地方发送用户的数据。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
-<h3> <a href="https://www.jstips.co/" target="_blank" rel="noopener noreferrer">Js Tips</a></h3>
+<h3> 1. <a href="https://www.jstips.co/" target="_blank" rel="noopener noreferrer">Js Tips</a></h3>
 <p>每天一条 <code>JavaScript</code> 小技巧。只需要花上两分钟的时间，就能读到性能、框架、约定、技巧、面试问题等有助于提高编写代码效率的小技巧。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://developer.mozilla.org/zh-CN/docs/Learn" target="_blank" rel="noopener noreferrer">MDN Web Docs</a></h3>
+<h3> 2. <a href="https://developer.mozilla.org/zh-CN/docs/Learn" target="_blank" rel="noopener noreferrer">MDN Web Docs</a></h3>
 <p>为零基础 <code>Web</code> 开发初学者提供指导和开始编写网站代码所需要掌握的所有内容。内容更偏向于帮助你入门，如果想要学习更加深入的内容，那就需要靠自己去钻研了。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/AobingJava/JavaFamily" target="_blank" rel="noopener noreferrer">JavaFamily</a></h3>
+<h3> 3. <a href="https://github.com/AobingJava/JavaFamily" target="_blank" rel="noopener noreferrer">JavaFamily</a></h3>
 <p>【<code>Java</code> 面试 + <code>Java</code> 学习指南】 一份涵盖大部分 <code>Java</code> 程序员所需要掌握的核心知识。包含学习路线、<code>Java</code> 基础、计算机操作系统、计算机网络、框架、数据库等多方面的内容。</p>
 <figure><figcaption></figcaption></figure>
 <hr>
@@ -11949,7 +11950,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#5：前端开发必备资源站</title>
     <id>https://cunyu1943.github.io/weekly/2023/0513-0519.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0513-0519.html"/>
-    <updated>2023-08-27T08:06:22.000Z</updated>
+    <updated>2023-08-27T12:10:24.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#5：前端开发必备资源站</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -11969,7 +11970,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <p><a href="https://mp.weixin.qq.com/s/kbKCzyn7OtG4iuJEWtQkWA" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/kbKCzyn7OtG4iuJEWtQkWA</a></p>
 </div>
 <h2> 一、项目</h2>
-<h3> <a href="https://fastapi.tiangolo.com/zh/" target="_blank" rel="noopener noreferrer">FastAPI</a></h3>
+<h3> 1. <a href="https://fastapi.tiangolo.com/zh/" target="_blank" rel="noopener noreferrer">FastAPI</a></h3>
 <p><code>FastAPI</code> 是一个用于构建 <code>API</code> 的现代、快速（高性能）的 <code>web</code> 框架，使用 <code>Python</code> 3.6+ 并基于标准的 <code>Python</code> 类型提示。关键特性如下:</p>
 <ul>
 <li><strong>快速</strong>：可与 <code>NodeJS</code> 和 <code>Go</code> 并肩的极高性能（归功于 <code>Starlette</code> 和 <code>Pydantic</code>），是最快的 <code>Python web</code> 框架之一。</li>
@@ -11982,10 +11983,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li><strong>标准化</strong>：基于（并完全兼容）<code>API</code> 的相关开放标准。</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/smart-doc-group/smart-doc" target="_blank" rel="noopener noreferrer">Smart-Doc</a></h3>
+<h3> 2. <a href="https://github.com/smart-doc-group/smart-doc" target="_blank" rel="noopener noreferrer">Smart-Doc</a></h3>
 <p><code>smart-doc</code> 是一款同时支持 <code>JAVA REST API</code>和 <code>Apache Dubbo RPC</code> 接口文档生成的工具，在业内率先提出基于 <code>Java</code> 泛型定义推导的理念， 完全基于接口源码来分析生成接口文档，不采用任何注解侵入到业务代码中。你只需要按照 <code>java-doc</code> 标准编写注释， <code>smart-doc</code> 就能帮你生成一个简易明了的 <code>Markdown</code>、<code>HTML5</code>、<code>Postman Collection2.0+</code>、<code>OpenAPI 3.0+</code> 的文档。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank" rel="noopener noreferrer">vuepress-theme-voding</a></h3>
+<h3> 3. <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank" rel="noopener noreferrer">vuepress-theme-voding</a></h3>
 <p>一款简洁高效的 <code>VuePress</code> 知识管理 &amp; 博客主题，具有以下三大特点：</p>
 <ol>
 <li><strong>知识管理</strong>：包含三种典型的知识管理形态：结构化、碎片化、体系化。轻松打造属于你自己的知识管理平台。</li>
@@ -11994,10 +11995,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 </ol>
 <figure><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
-<h3> <a href="https://github.com/Schniz/fnm" target="_blank" rel="noopener noreferrer">fnm</a></h3>
+<h3> 1. <a href="https://github.com/Schniz/fnm" target="_blank" rel="noopener noreferrer">fnm</a></h3>
 <p><code>fnm</code> 是一个基于 <code>Rust</code> 的 <code>Node.js</code> 版本管理工具，可用于替换 <code>Node Version Manager（nvm）</code>，跨平台支持（<code>macOS</code>、<code>Linux</code>、<code>Windows</code>）。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://inkscape.org/zh-hans/" target="_blank" rel="noopener noreferrer">Inkscape</a></h3>
+<h3> 2. <a href="https://inkscape.org/zh-hans/" target="_blank" rel="noopener noreferrer">Inkscape</a></h3>
 <p>一个强大，免费的设计工具<br>
 无论你是插画师，设计师，网页设计者还是仅想创作一些矢量图的新手，<code>Inkscape</code> 都适合你。</p>
 <p>该软件的开发目标是成为强大的绘图软件，且能完全遵循与支持 <code>XML</code>、<code>SVG</code> 及 <code>CSS</code> 等开放性的标准格式，而且是跨平台的应用程序，支持<code>Windows</code>、<code>macOS</code>、<code>Linux</code> 及类 <code>UNIX</code> 版等操作系统，具有以下特点：</p>
@@ -12008,31 +12009,31 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>贝塞尔曲线和螺旋线</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://cubox.pro/" target="_blank" rel="noopener noreferrer">Cubox</a></h3>
+<h3> 3. <a href="https://cubox.pro/" target="_blank" rel="noopener noreferrer">Cubox</a></h3>
 <p>在信息碎片中，重获专注。<br>
 一站式信息收集、阅读、管理和回顾，善用网络碎片构建个人知识库。<br>
 适用于网页, <code>iOS</code>, <code>iPadOS</code>, <code>macOS</code>, <code>Android</code>, <code>Windows</code>, 微信等多个终端。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
-<h3> <a href="https://www.iconfont.cn/" target="_blank" rel="noopener noreferrer">iconfont</a></h3>
+<h3> 1. <a href="https://www.iconfont.cn/" target="_blank" rel="noopener noreferrer">iconfont</a></h3>
 <p>阿里巴巴矢量图标库。阿里妈妈 <code>MUX</code> 倾力打造的矢量图标管理、交流平台，设计师将图标上传到 <code>iconfont</code> 平台，用户可以自定义下载多种格式的 <code>icon</code>，平台也可将图标转换为字体，便于前端工程师自由调整与调用。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://iconpark.oceanengine.com/" target="_blank" rel="noopener noreferrer">IconPark</a></h3>
+<h3> 2. <a href="https://iconpark.oceanengine.com/" target="_blank" rel="noopener noreferrer">IconPark</a></h3>
 <p><code>IconPark</code> 图标库是一个通过技术驱动矢量图标样式的开源图标库，由字节开源，可以实现根据单一 <code>SVG</code> 源文件变换出多种主题，具备丰富的分类、更轻量的代码和更灵活的使用场景；致力于构建高质量、统一化、可定义的图标资源，让大多数人都能够选择适合自己的风格图标。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://fontawesome.com/" target="_blank" rel="noopener noreferrer">Font Awesome</a></h3>
+<h3> 3. <a href="https://fontawesome.com/" target="_blank" rel="noopener noreferrer">Font Awesome</a></h3>
 <p><code>Font Awesome</code> 是一个基于 <code>CSS</code> 和 <code>LESS</code> 的字体和图标工具包。它由 <code>Dave Gandy</code> 制作，用于 <code>Twitter Bootstrap</code>，后来被集成到<code>BootstrapCDN</code> 中。<code>Font Awesome</code> 在使用第三方 <code>Font Scripts</code> 的网站中占有 <code>20％</code> 的市场份额，排在 <code>Google</code> 字体之后的第二位。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
-<h3> <a href="https://microsoftedge.microsoft.com/addons/detail/%E7%81%AB%E5%B1%B1%E7%BF%BB%E8%AF%91-%E5%88%92%E8%AF%8D%E5%92%8C%E7%BD%91%E9%A1%B5%E7%BF%BB%E8%AF%91/jmnhemdajboodicneejdlpanmijclhef" target="_blank" rel="noopener noreferrer">火山翻译</a></h3>
+<h3> 1. <a href="https://microsoftedge.microsoft.com/addons/detail/%E7%81%AB%E5%B1%B1%E7%BF%BB%E8%AF%91-%E5%88%92%E8%AF%8D%E5%92%8C%E7%BD%91%E9%A1%B5%E7%BF%BB%E8%AF%91/jmnhemdajboodicneejdlpanmijclhef" target="_blank" rel="noopener noreferrer">火山翻译</a></h3>
 <p>字节跳动旗下机器翻译产品，支持网页全文翻译、划词翻译、英语词典、管理生词本、吐司弹词记忆等丰富能力。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://microsoftedge.microsoft.com/addons/detail/wetab%E6%96%B0%E6%A0%87%E7%AD%BE%E9%A1%B5/bpelnogcookhocnaokfpoeinibimbeff" target="_blank" rel="noopener noreferrer">WeTab 新标签页</a></h3>
+<h3> 2. <a href="https://microsoftedge.microsoft.com/addons/detail/wetab%E6%96%B0%E6%A0%87%E7%AD%BE%E9%A1%B5/bpelnogcookhocnaokfpoeinibimbeff" target="_blank" rel="noopener noreferrer">WeTab 新标签页</a></h3>
 <p><code>WeTab</code> 新标签页整合了 <code>ChatGPT</code>,自由使用 <code>ChatGPT</code>。<br>
 <code>Wetab</code> 是一款可以亲手打造属于自己的高颜值主页的小组件新标签页插件，跟 <code>Infinity New Tab</code> 新标签页一样美观大气，跟 <code>iTab</code> 新标签页一样主打小组件功能。<code>iOS</code> 苹果小组件卡片设计，内置倒计时、纪念日、天气、热搜、计算器、等超酷小组件，让信息一目了然，标签页整洁美观。<br>
 <code>Wetab</code> 好看、好用，还好玩，让你的标签页充满无限可能。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://www.monknow.com/zh-CN" target="_blank" rel="noopener noreferrer">MONKNOW 新标签页</a></h3>
+<h3> 3. <a href="https://www.monknow.com/zh-CN" target="_blank" rel="noopener noreferrer">MONKNOW 新标签页</a></h3>
 <p>这是您梦寐以求的新标签页。支持网站网址 <code>URL</code> 分组管理，数据实时云同步，黑暗深色夜间主题模式。支持的功能如下：</p>
 <ul>
 <li>搜索 &amp; 快速拨号。</li>
@@ -12050,17 +12051,17 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 </ul>
 <figure><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
-<h3> <a href="https://github.com/landy8530/DesignPatterns" target="_blank" rel="noopener noreferrer">DesignPatterns</a></h3>
+<h3> 1. <a href="https://github.com/landy8530/DesignPatterns" target="_blank" rel="noopener noreferrer">DesignPatterns</a></h3>
 <p>经典设计模式讲解以及项目实战（<code>Java</code> 版），主要内容有以下两方面：</p>
 <ol>
 <li>设计模式简介：主要介绍各种设计模式的概念和运用场景等。</li>
 <li>设计模式综合运用：主要是笔者在实际工作中运用到的一些设计模式综合运用事例的提炼。</li>
 </ol>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/Tyson0314/Java-learning" target="_blank" rel="noopener noreferrer">Java-learning</a></h3>
+<h3> 2. <a href="https://github.com/Tyson0314/Java-learning" target="_blank" rel="noopener noreferrer">Java-learning</a></h3>
 <p><code>Java</code> 相关知识总结，包括 <code>Java</code> 基础、<code>MySQL</code>、<code>SpringBoot</code>、<code>Mybatis</code>、<code>Redis</code>、<code>RabbitMQ</code> 等等，面试必备！</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/scutan90/DeepLearning-500-questions" target="_blank" rel="noopener noreferrer">深度学习500问</a></h3>
+<h3> 3. <a href="https://github.com/scutan90/DeepLearning-500-questions" target="_blank" rel="noopener noreferrer">深度学习500问</a></h3>
 <p>深度学习 <code>500</code> 问，以问答形式对常用的概率知识、线性代数、机器学习、深度学习、计算机视觉等热点问题进行阐述，以帮助自己及有需要的读者。 全书分为 <code>18</code> 个章节，共计 <code>50</code> 余万字。</p>
 <p>项目系统地描述了深度学习的基本理论算法及应用，先是论述了数学基础、机器学习基础和深度学习基础，接着介绍了一些经典网络及计算机视觉领域中常用的 <code>CNN</code>、<code>RNN</code>、<code>GAN</code> 等网络结构技术，然后介绍了深度学习在计算机视觉领域的目标检测及图像分割两大应用，最后则是介绍了计算机视觉领域主要的优化方法及思路等，包括迁移学习、网络架构及训练、网络优化技巧、超参数调整及模型的压缩和加速等。</p>
 <figure><figcaption></figcaption></figure>
@@ -12085,7 +12086,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#6：系统下载最优解</title>
     <id>https://cunyu1943.github.io/weekly/2023/0520-0526.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0520-0526.html"/>
-    <updated>2023-08-27T08:06:22.000Z</updated>
+    <updated>2023-08-27T12:10:24.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#6：系统下载最优解</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -12105,42 +12106,42 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <p><a href="https://mp.weixin.qq.com/s/o6aLSsEfFcwgzbwQrKxqYg" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/o6aLSsEfFcwgzbwQrKxqYg</a></p>
 </div>
 <h2> 一、项目</h2>
-<h3> <a href="https://halo.run/" target="_blank" rel="noopener noreferrer">Halo</a></h3>
+<h3> 1. <a href="https://halo.run/" target="_blank" rel="noopener noreferrer">Halo</a></h3>
 <p>强大易用的开源建站工具，配合上丰富的模板与插件，帮助你构建你心中的理想站点。如果想搭建属于自己的博客，那它不失为一个好的选择。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/YunaiV/yudao-cloud" target="_blank" rel="noopener noreferrer">yudao-cloud</a></h3>
+<h3> 2. <a href="https://github.com/YunaiV/yudao-cloud" target="_blank" rel="noopener noreferrer">yudao-cloud</a></h3>
 <p><code>ruoyi-vue-pro</code> 全新 <code>Cloud</code> 版本，优化重构所有功能。基于 <code>Spring Cloud Alibaba + MyBatis Plus + Vue &amp; Element</code> 实现的后台管理系统 + 用户小程序，支持 <code>RBAC</code> 动态权限、多租户、数据权限、工作流、三方登录、支付、短信、商城等功能。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/YunaiV/ruoyi-vue-pro" target="_blank" rel="noopener noreferrer">ruoyi-vue-pro</a></h3>
+<h3> 3. <a href="https://github.com/YunaiV/ruoyi-vue-pro" target="_blank" rel="noopener noreferrer">ruoyi-vue-pro</a></h3>
 <p><code>RuoYi-Vue</code> 全新 <code>Pro</code> 版本，优化重构所有功能。基于 <code>Spring Boot + MyBatis Plus + Vue &amp; Element</code> 实现的后台管理系统 + 微信小程序，支持 <code>RBAC</code> 动态权限、数据权限、<code>SaaS</code> 多租户、<code>Flowable</code> 工作流、三方登录、支付、短信、商城等功能。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
-<h3> <a href="https://app.prntscr.com/zh-cn/" target="_blank" rel="noopener noreferrer">LightShot</a></h3>
+<h3> 1. <a href="https://app.prntscr.com/zh-cn/" target="_blank" rel="noopener noreferrer">LightShot</a></h3>
 <p><code>LightShot</code> 是一款跨平台屏幕截图工具，支持 <code>macOS</code> 和 <code>Windows</code>。使用它，轻点一下按键，便能存储屏幕上的一切内容。</p>
 <p>除了能将图片保存在电脑硬盘中，软件还支持通过 <code>LightShot</code> 服务器（免费提供）将截图上传至互联网。</p>
 <p>除了自定义截图和图片上传外，软件还支持 <code>Photoshop</code> 相类似的工具（支持图层、滤镜、色彩校正、笔刷等功能）在线编辑截图。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://www.faststonecapture.cn/" target="_blank" rel="noopener noreferrer">FastStone Capture</a></h3>
+<h3> 2. <a href="https://www.faststonecapture.cn/" target="_blank" rel="noopener noreferrer">FastStone Capture</a></h3>
 <p>一款超强大的截图软件，支持多种截图形式，包括捕获活动窗口、捕获窗口/对象、捕获矩形区域、捕获手绘区域、捕获全屏、滚动截屏。</p>
 <p>除了截图功能外，软件的图片编辑功能也非常丰富，支持调整大小、绘图、添加标题、图片裁剪、重点突出、模糊等。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://picpick.app/zh/" target="_blank" rel="noopener noreferrer">PicPick</a></h3>
+<h3> 3. <a href="https://picpick.app/zh/" target="_blank" rel="noopener noreferrer">PicPick</a></h3>
 <p>一款全能的设计工具，并且这款工具适宜每个人使用。</p>
 <p>一个全功能的屏幕截图工具,直观的图像编辑器,颜色选择器,颜色调色板,像素标尺,量角器,瞄准线和白板等等。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
-<h3> <a href="https://hellowindows.cn/#" target="_blank" rel="noopener noreferrer">Hello Windows</a></h3>
+<h3> 1. <a href="https://hellowindows.cn/#" target="_blank" rel="noopener noreferrer">Hello Windows</a></h3>
 <p>一个无广告、无登录限制、无收费下载的 <code>Windows</code> 系统仓储站，更简单，更直观，更极致。</p>
 <p>在这里可以找到全版本的 <code>Windows</code> 系统，而且均为官方原版，不用担心携带病毒等其它危害用户的问题。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://tb.rg-adguard.net/public.php" target="_blank" rel="noopener noreferrer">TechBench</a></h3>
+<h3> 2. <a href="https://tb.rg-adguard.net/public.php" target="_blank" rel="noopener noreferrer">TechBench</a></h3>
 <p>该项目将帮助您无需繁琐的搜索和注册即可直接从 <code>Microsoft</code> 服务器下载 <code>Windows</code> 操作系统、<code>Office</code> 应用程序、语言包和虚拟机。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://files.rg-adguard.net/" target="_blank" rel="noopener noreferrer">rg-adguard</a></h3>
+<h3> 3. <a href="https://files.rg-adguard.net/" target="_blank" rel="noopener noreferrer">rg-adguard</a></h3>
 <p><code>TechBench</code> 的后续版，截止目前 <code>TechBench</code> 已不再更新，后续更新都会到这里。除开提供了 <code>TechBench</code> 的功能外，还提供了主题、设计工具、应用等方面内容的下载。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
-<h3> <a href="https://www.tingwu.cn/" target="_blank" rel="noopener noreferrer">听悟</a></h3>
+<h3> 1. <a href="https://www.tingwu.cn/" target="_blank" rel="noopener noreferrer">听悟</a></h3>
 <p>实时双语翻译字幕，一键高亮要点，智能提炼总结，高效记录、整理和共享音视频内容。<br>
 多种字幕形态随心切换，自动区分发言人，总结关键词、议程、摘要、待办事项和问题。支持一键导出和公开分享。</p>
 <p>丰富场景，皆可听悟</p>
@@ -12151,7 +12152,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>视频浏览：实时双语翻译字幕，英文视频随心看，信息获取更高效</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://chrome.google.com/webstore/detail/aitutu-chatgpt-sidebar-as/emlhccamlobhceppbjdaikinbamncbcl" target="_blank" rel="noopener noreferrer">AiTuTu ChatGPT侧边栏智能助手</a></h3>
+<h3> 2. <a href="https://chrome.google.com/webstore/detail/aitutu-chatgpt-sidebar-as/emlhccamlobhceppbjdaikinbamncbcl" target="_blank" rel="noopener noreferrer">AiTuTu ChatGPT侧边栏智能助手</a></h3>
 <p><code>AiTuTu</code> 是由 <code>OpenAI</code> 的 <code>ChatGPT</code> 提供支持，支持浏览网站可快速唤醒的人工智能助手；在网页侧边显示，支持自由提问，选中内容一键改写成不同类型文案。</p>
 <p>✅ 国内可用，无需科学，无需 <code>KEY</code>，欢迎推荐安装！</p>
 <p>聊天：在浏览网页时，遇到任何问题，都可以向它提问，包括文案写作、代码生成、问题查找等。<br>
@@ -12164,7 +12165,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>将商品标题、介绍生成新的商品标题简介。</li>
 </ol>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://microsoftedge.microsoft.com/addons/detail/%E5%AD%97%E5%B9%95%E7%B2%BE%E7%81%B5-%E5%AE%9E%E6%97%B6%E8%AF%AD%E9%9F%B3%E8%AF%86%E5%88%AB%E3%80%81ai%E5%AD%97%E5%B9%95%E7%BF%BB%E8%AF%91/hodednmbnoemidigafhfpbfcafhjlkki?hl=zh-CN" target="_blank" rel="noopener noreferrer">字幕精灵</a></h3>
+<h3> 3. <a href="https://microsoftedge.microsoft.com/addons/detail/%E5%AD%97%E5%B9%95%E7%B2%BE%E7%81%B5-%E5%AE%9E%E6%97%B6%E8%AF%AD%E9%9F%B3%E8%AF%86%E5%88%AB%E3%80%81ai%E5%AD%97%E5%B9%95%E7%BF%BB%E8%AF%91/hodednmbnoemidigafhfpbfcafhjlkki?hl=zh-CN" target="_blank" rel="noopener noreferrer">字幕精灵</a></h3>
 <p>看海外网剧、学习两不误，新译字幕精灵来相助，基于浏览器的字幕翻译神器。<br>
 您是否遭遇过这些烦恼：</p>
 <ol>
@@ -12177,13 +12178,13 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <p>借助先进的语音识别和 <code>AI</code> 翻译技术，无论是听演讲、看课程，还是追剧、听歌，字幕精灵都能快速识别、翻译，并自动生成字幕，让您无惧外语，不再不知所云。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
-<h3> <a href="https://springdoc.cn/" target="_blank" rel="noopener noreferrer">Spring 中文文档</a></h3>
+<h3> 1. <a href="https://springdoc.cn/" target="_blank" rel="noopener noreferrer">Spring 中文文档</a></h3>
 <p>提供最新的 <code>Spring Boot</code>, <code>Spring Cloud</code>, <code>Spring Security</code> 等 <code>Spring</code> 框架的官方中文文档。对于想及时追踪 <code>Spring</code> 最新更新，但英语基础不太好的同学是一个绝佳的选择。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://mofanpy.com/" target="_blank" rel="noopener noreferrer">莫烦 Python</a></h3>
+<h3> 2. <a href="https://mofanpy.com/" target="_blank" rel="noopener noreferrer">莫烦 Python</a></h3>
 <p>汇聚了 <code>Python</code> 基础、机器学习、数据处理、效率工具等多方面内容。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://www.hello-algo.com/" target="_blank" rel="noopener noreferrer">Hello 算法</a></h3>
+<h3> 3. <a href="https://www.hello-algo.com/" target="_blank" rel="noopener noreferrer">Hello 算法</a></h3>
 <p>《Hello 算法》是一本动画图解、能运行、可提问的数据结构与算法入门书，支持 <code>Java</code>, <code>C++</code>, <code>Python</code>, <code>Go</code>, <code>JS</code>, <code>TS</code>, <code>C#</code>, <code>Swift</code>, <code>Zig</code> 等语言。</p>
 <figure><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
@@ -12206,7 +12207,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#7：炫酷的浏览器标签页</title>
     <id>https://cunyu1943.github.io/weekly/2023/0527-0602.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0527-0602.html"/>
-    <updated>2023-08-27T08:06:22.000Z</updated>
+    <updated>2023-08-27T12:10:24.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#7：炫酷的浏览器标签页</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -12226,7 +12227,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <p><a href="https://mp.weixin.qq.com/s/s3NpyL6JeybdJfHurlOakw" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/s3NpyL6JeybdJfHurlOakw</a></p>
 </div>
 <h2> 一、项目</h2>
-<h3> <a href="https://github.com/Qexo/Qexo" target="_blank" rel="noopener noreferrer">Qexo</a></h3>
+<h3> 1. <a href="https://github.com/Qexo/Qexo" target="_blank" rel="noopener noreferrer">Qexo</a></h3>
 <p>一个快速、强大、漂亮的在线 <code>Hexo</code> 编辑器，支持以下功能：</p>
 <ul>
 <li>自定义图床上传图片</li>
@@ -12241,7 +12242,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>自动填文章模板</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/imaegoo/twikoo" target="_blank" rel="noopener noreferrer">Twikoo</a></h3>
+<h3> 2. <a href="https://github.com/imaegoo/twikoo" target="_blank" rel="noopener noreferrer">Twikoo</a></h3>
 <p>一个简洁、安全、免费的静态网站评论系统，具有以下特点：</p>
 <ul>
 <li>简单</li>
@@ -12252,7 +12253,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>便捷管理</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/illacloud/illa-builder" target="_blank" rel="noopener noreferrer">ILLA Builder</a></h3>
+<h3> 3. <a href="https://github.com/illacloud/illa-builder" target="_blank" rel="noopener noreferrer">ILLA Builder</a></h3>
 <p><code>ILLA</code> 是一个强大的开源低代码平台，供开发人员构建内部工具。 通过使用 <code>ILLA</code> 的组件和操作库，开发人员可以节省大量构建工具的时间，具有以下特色功能：</p>
 <ul>
 <li>⚽ 实时协作： 我们可以一起实时创建内容。</li>
@@ -12263,67 +12264,49 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 </ul>
 <figure><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
-<h3> <a href="https://iina.io/" target="_blank" rel="noopener noreferrer">IINA</a></h3>
+<h3> 1. <a href="https://iina.io/" target="_blank" rel="noopener noreferrer">IINA</a></h3>
 <p>一款类 <code>macOS</code> 原生视频播放器，简洁优雅而不失强大。无论是视频解码还是字幕渲染，<code>IINA</code> 都无可挑剔。此外，<code>IINA</code> 支持在线字幕下载、画中画、视频串流等丰富的功能，充分满足你对一款视频播放器所有的幻想。而且最重要的一点，<code>IINA</code> 是完全免费的。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="http://ppduck.com/" target="_blank" rel="noopener noreferrer">PP 鸭</a></h3>
+<h3> 2. <a href="http://ppduck.com/" target="_blank" rel="noopener noreferrer">PP 鸭</a></h3>
 <p>PP鸭整合了业内最优秀的数种开源的图片压缩算法，会自动根据图片特征自动选择压缩参数。只需要将图片拖入 PP鸭，就能自动批量压缩，省时省心。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://photobulkeditor.com/" target="_blank" rel="noopener noreferrer">PhotoBulk</a></h3>
+<h3> 3. <a href="https://photobulkeditor.com/" target="_blank" rel="noopener noreferrer">PhotoBulk</a></h3>
 <p>PhotoBulk 是一款 <code>Mac</code> 平台的图片批量水印工具，无论是文字类还是图片类的水印，<code>PhotoBulk</code> 都能替你加上，通过两侧写着 <code>text</code> 和 <code>image</code> 的开关就能调节。对于水印，软件提供了一些最基本的设置，比如文字的字体、大小，图片的分辨率、透明度等。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
-<h3> <a href="https://www.aewz.com/" target="_blank" rel="noopener noreferrer">简视频</a></h3>
+<h3> 1. <a href="https://www.aewz.com/" target="_blank" rel="noopener noreferrer">简视频</a></h3>
 <p>致力打造好用的视频创作导航，汇聚了视频创作时所需的视频素材、图片素材、制作工具、字幕配音、音乐素材等众多实用性网站。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://starchart.cc/" target="_blank" rel="noopener noreferrer">Star Charts</a></h3>
+<h3> 2. <a href="https://starchart.cc/" target="_blank" rel="noopener noreferrer">Star Charts</a></h3>
 <p>根据输入的 <code>Github</code> 账户及仓库名，生成随时间推移绘制仓库收获的 <code>star</code> 数量。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://simpleicons.org/" target="_blank" rel="noopener noreferrer">Simple Icons</a></h3>
+<h3> 3. <a href="https://simpleicons.org/" target="_blank" rel="noopener noreferrer">Simple Icons</a></h3>
 <p>包含 2461 种流行品牌的免费 <code>SVG</code> 图标库，在我们前端开发需要找对应品牌 <code>Logo</code> 时绝对是不二之选。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
-<h3> <a href="https://toast.pub/washbaidu/" target="_blank" rel="noopener noreferrer">Washbaidu</a></h3>
+<h3> 1. <a href="https://toast.pub/washbaidu/" target="_blank" rel="noopener noreferrer">Washbaidu</a></h3>
 <p>优化百度搜索界面，移除过度广告，提升百度体验。</p>
 <p>简洁，隐私安全，无数据及网络权限要求。</p>
 <p>百度作为老牌搜索引擎，在中文搜索内容和可达性上还是有优势。但界面太复杂、广告偏多。</p>
 <p>插件简化了界面，轻度移除了广告，支持自定义头图，提升搜索体验。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://microsoftedge.microsoft.com/addons/detail/%E9%9D%92%E6%9F%A0%E8%B5%B7%E5%A7%8B%E9%A1%B5/pcpnigdkpcgemocnjhebmajldpjlbeom" target="_blank" rel="noopener noreferrer">青柠起始页</a></h3>
+<h3> 2. <a href="https://microsoftedge.microsoft.com/addons/detail/%E9%9D%92%E6%9F%A0%E8%B5%B7%E5%A7%8B%E9%A1%B5/pcpnigdkpcgemocnjhebmajldpjlbeom" target="_blank" rel="noopener noreferrer">青柠起始页</a></h3>
 <p>青柠起始页是一个简洁、美观、实用的浏览器起始页，以优雅的界面容纳了多引擎搜索、网站捷径、便笺、壁纸、天气等诸多功能。<br>
 您可依据喜好对青柠起始页进行高度自定义，让您的网上冲浪体验更加随心所欲。</p>
 <p>此扩展由青柠起始页官方开发，主要功能包括：</p>
 <ul>
-<li>
-<p>新标签页：将您的浏览器新标签页替换为青柠起始页。</p>
-</li>
-<li>
-<p>多引擎搜索：使用您喜欢的任意搜索引擎，或在百度、必应、谷歌等主流搜索引擎之间一键切换。</p>
-</li>
-<li>
-<p>网站捷径：添加您的常用网站，一键快捷访问。</p>
-</li>
-<li>
-<p>便笺：随时记录您的灵感、待办事项和备忘清单。还可将便笺固定到主屏幕，或创建倒数日计时。</p>
-</li>
-<li>
-<p>壁纸：将您喜爱的任意图片设为壁纸，或使用我们精心挑选的静态 / 动态风景壁纸、每日更新的必应壁纸。</p>
-</li>
-<li>
-<p>一言：每次打开新标签页时，随机显示一句诗词 / 格言。</p>
-</li>
-<li>
-<p>个性化设置：多达 30 余项自定义项目，打造专属于您的新标签页。</p>
-</li>
-<li>
-<p>云同步：网站捷径、便笺、个性化设置等支持跨设备云同步，帮助您在不同设备间流畅切换。</p>
-</li>
-<li>
-<p>美化百度搜索结果页面：为百度使用经过精心设计的界面样式和夜间模式 / 深色主题（默认关闭，可在扩展设置中开启）。</p>
-</li>
+<li>新标签页：将您的浏览器新标签页替换为青柠起始页。</li>
+<li>多引擎搜索：使用您喜欢的任意搜索引擎，或在百度、必应、谷歌等主流搜索引擎之间一键切换。</li>
+<li>网站捷径：添加您的常用网站，一键快捷访问。</li>
+<li>便笺：随时记录您的灵感、待办事项和备忘清单。还可将便笺固定到主屏幕，或创建倒数日计时。</li>
+<li>壁纸：将您喜爱的任意图片设为壁纸，或使用我们精心挑选的静态 / 动态风景壁纸、每日更新的必应壁纸。</li>
+<li>一言：每次打开新标签页时，随机显示一句诗词 / 格言。</li>
+<li>个性化设置：多达 30 余项自定义项目，打造专属于您的新标签页。</li>
+<li>云同步：网站捷径、便笺、个性化设置等支持跨设备云同步，帮助您在不同设备间流畅切换。</li>
+<li>美化百度搜索结果页面：为百度使用经过精心设计的界面样式和夜间模式 / 深色主题（默认关闭，可在扩展设置中开启）。</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://itab.link/?from=jjcj" target="_blank" rel="noopener noreferrer">iTab</a></h3>
+<h3> 3. <a href="https://itab.link/?from=jjcj" target="_blank" rel="noopener noreferrer">iTab</a></h3>
 <p><code>iTab</code> 是新一代组件式标签页的首创者，是您打造个人学习工作台的浏览器必备插件。简洁美观高效无广，获得了数百万用户的一致好评，支持如下功能：</p>
 <ul>
 <li><code>iOS</code> 式小组件</li>
@@ -12338,10 +12321,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 </ul>
 <figure><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
-<h3> <a href="https://oi-wiki.org/" target="_blank" rel="noopener noreferrer">OI Wiki</a></h3>
+<h3> 1. <a href="https://oi-wiki.org/" target="_blank" rel="noopener noreferrer">OI Wiki</a></h3>
 <p>致力于成为一个免费开放且持续更新的 <strong>编程竞赛（competitive programming）</strong> 知识整合站点，大家可以在这里获取与竞赛相关的、有趣又实用的知识。我们为大家准备了竞赛中的基础知识、常见题型、解题思路以及常用工具等内容，帮助大家更快速深入地学习编程竞赛中涉及到的知识。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://ctf-wiki.org/" target="_blank" rel="noopener noreferrer">CTF Wiki</a></h3>
+<h3> 2. <a href="https://ctf-wiki.org/" target="_blank" rel="noopener noreferrer">CTF Wiki</a></h3>
 <p><strong>CTF Wiki</strong> 主要包含 <strong>CTF</strong> 各大范畴的基础知识，并正在着力完善以下内容：</p>
 <ul>
 <li>CTF 竞赛中的进阶知识</li>
@@ -12353,7 +12336,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>更多地与安全实战结合</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://www.runoob.com/" target="_blank" rel="noopener noreferrer">菜鸟教程</a></h3>
+<h3> 3. <a href="https://www.runoob.com/" target="_blank" rel="noopener noreferrer">菜鸟教程</a></h3>
 <p>菜鸟教程提供了编程的基础技术教程, 介绍了 <code>HTML</code>、<code>CSS</code>、<code>Javascript</code>、<code>Python</code>、<code>Java</code>、<code>Ruby</code>、<code>C</code>、<code>PHP</code>、<code>MySQL</code> 等各种编程语言的基础知识。</p>
 <figure><figcaption></figcaption></figure>
 <hr>
@@ -12377,7 +12360,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#8：开源镜像站</title>
     <id>https://cunyu1943.github.io/weekly/2023/0603-0609.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0603-0609.html"/>
-    <updated>2023-08-27T08:06:22.000Z</updated>
+    <updated>2023-08-27T12:10:24.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#8：开源镜像站</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -12397,7 +12380,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <p><a href="https://mp.weixin.qq.com/s/4TMrFj2BR43zRIQ7H-8t2w" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/4TMrFj2BR43zRIQ7H-8t2w</a></p>
 </div>
 <h2> 一、项目</h2>
-<h3> <a href="https://github.com/Chanzhaoyu/chatgpt-web" target="_blank" rel="noopener noreferrer">ChatGPT Web</a></h3>
+<h3> 1. <a href="https://github.com/Chanzhaoyu/chatgpt-web" target="_blank" rel="noopener noreferrer">ChatGPT Web</a></h3>
 <p>用 <code>Express</code> 和 <code>Vue3</code> 搭建的 <code>ChatGPT</code> 演示网页，支持双模型，提供了两种非官方 <code>ChatGPT API</code> 方法。</p>
 <ul>
 <li>
@@ -12408,11 +12391,11 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 </li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/THUDM/ChatGLM-6B" target="_blank" rel="noopener noreferrer">ChatGLM-6B</a></h3>
+<h3> 2. <a href="https://github.com/THUDM/ChatGLM-6B" target="_blank" rel="noopener noreferrer">ChatGLM-6B</a></h3>
 <p>一个开源的、支持中英双语的对话语言模型，基于 <a href="https://github.com/THUDM/GLM" target="_blank" rel="noopener noreferrer">General Language Model (GLM)</a> 架构，具有 62 亿参数。结合模型量化技术，用户可以在消费级的显卡上进行本地部署（<code>INT4</code> 量化级别下最低只需 6GB 显存）。 <code>ChatGLM-6B</code> 使用了和 <code>ChatGPT</code> 相似的技术，针对中文问答和对话进行了优化。经过约 1T 标识符的中英双语训练，辅以监督微调、反馈自助、人类反馈强化学习等技术的加持，62 亿参数的 <code>ChatGLM-6B</code> 已经能生成相当符合人类偏好的回答。</p>
 <p>为了方便下游开发者针对自己的应用场景定制模型，同时实现了基于 <a href="https://github.com/THUDM/P-tuning-v2" target="_blank" rel="noopener noreferrer">P-Tuning v2</a> 的高效参数微调方法使用指南 ，<code>INT4</code> 量化级别下最低只需 7GB 显存即可启动微调。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/zhayujie/chatgpt-on-wechat" target="_blank" rel="noopener noreferrer">chatgpt-on-wechat</a></h3>
+<h3> 3. <a href="https://github.com/zhayujie/chatgpt-on-wechat" target="_blank" rel="noopener noreferrer">chatgpt-on-wechat</a></h3>
 <p>使用 <code>ChatGPT</code> 搭建微信聊天机器人，基于 <code>GPT3.5/4.0</code> <code>API</code> 实现，支持个人微信、公众号、企业微信部署，能处理文本、语音和图片，访问操作系统和互联网。目前，最新版本支持如下功能：</p>
 <ul>
 <li><strong>多端部署：</strong> 有多种部署方式可选择且功能完备，目前已支持个人微信，微信公众号和企业微信应用等部署方式</li>
@@ -12424,7 +12407,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 </ul>
 <figure><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
-<h3> <a href="https://www.voidtools.com/zh-cn/" target="_blank" rel="noopener noreferrer">Everything</a></h3>
+<h3> 1. <a href="https://www.voidtools.com/zh-cn/" target="_blank" rel="noopener noreferrer">Everything</a></h3>
 <p>本地文件搜索神器，本地文件名搜索软件战力天花板，不过当前仅支持 <code>Windows</code> 平台，具有如下特点：</p>
 <ul>
 <li>轻量安装文件</li>
@@ -12436,33 +12419,33 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>实时更新</li>
 </ul>
 <figure><figcaption>JavaPark-image</figcaption></figure>
-<h3> <a href="https://www.listary.com/" target="_blank" rel="noopener noreferrer">Listary</a></h3>
+<h3> 2. <a href="https://www.listary.com/" target="_blank" rel="noopener noreferrer">Listary</a></h3>
 <p><code>Listary</code> 是一款实用的搜索工具，专注于文件搜索管理 &amp; 快速启动程序。它能给“我的电脑”（资源管理器）加上许多智能命令，含有收藏文件夹，快速打开最近浏览的文件夹，快速显示/隐藏文件扩展名等等实用功能。给你日常的收藏和整理文件提高效率。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://www.sumatrapdfreader.org/free-pdf-reader" target="_blank" rel="noopener noreferrer">Sumatra PDF</a></h3>
+<h3> 3. <a href="https://www.sumatrapdfreader.org/free-pdf-reader" target="_blank" rel="noopener noreferrer">Sumatra PDF</a></h3>
 <p>一款开源、免费、体积小巧、启动极为迅速的 <code>Windows</code> 平台上经典的电子书阅读器软件。它不仅支持阅读 <code>PDF</code> 格式文档，同时还能支持 <code>ePub</code>、<code>Mobi</code>、<code>CHM</code>、<code>XPS</code>、<code>DjVu</code> 文档，<code>CBZ</code>、<code>CBR</code> 漫画等众多主流电子书格式。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
-<h3> <a href="https://mirrors.huaweicloud.com/home" target="_blank" rel="noopener noreferrer">华为开源镜像站</a></h3>
+<h3> 1. <a href="https://mirrors.huaweicloud.com/home" target="_blank" rel="noopener noreferrer">华为开源镜像站</a></h3>
 <p>华为云 <code>DevCloud</code> 团队提供的全类型镜像站服务，提供主流开发语言组件、操作系统、常用工具和库等镜像，极速下载，全站 <code>CDN</code>。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://developer.aliyun.com/mirror/" target="_blank" rel="noopener noreferrer">阿里巴巴开源镜像站</a></h3>
+<h3> 2. <a href="https://developer.aliyun.com/mirror/" target="_blank" rel="noopener noreferrer">阿里巴巴开源镜像站</a></h3>
 <figure><figcaption></figcaption></figure>
 <p>阿里巴巴开源镜像站，免费提供 <code>Linux</code> 镜像下载服务，拥有 <code>Ubuntu</code>、<code>CentOS</code>、<code>Deepin</code>、<code>MongoDB</code>、<code>Apache</code>、<code>Maven</code>、<code>Composer</code> 等多种开源软件镜像源。</p>
-<h3> <a href="https://mirrors.tuna.tsinghua.edu.cn/" target="_blank" rel="noopener noreferrer">清华大学开源软件镜像站</a></h3>
+<h3> 3. <a href="https://mirrors.tuna.tsinghua.edu.cn/" target="_blank" rel="noopener noreferrer">清华大学开源软件镜像站</a></h3>
 <figure><figcaption></figcaption></figure>
 <p>清华大学开源软件镜像站，致力于为国内和校内用户提供高质量的开源软件镜像、<code>Linux</code> 镜像源服务，帮助用户更方便地获取开源软件。</p>
 <h2> 四、插件</h2>
-<h3> <a href="https://microsoftedge.microsoft.com/addons/detail/%E8%85%BE%E8%AE%AF%E7%BF%BB%E8%AF%91/bcgpmkngbhpgdgbjgbaoddljkbabdkmm?hl=zh-CN" target="_blank" rel="noopener noreferrer">腾讯翻译</a></h3>
+<h3> 1. <a href="https://microsoftedge.microsoft.com/addons/detail/%E8%85%BE%E8%AE%AF%E7%BF%BB%E8%AF%91/bcgpmkngbhpgdgbjgbaoddljkbabdkmm?hl=zh-CN" target="_blank" rel="noopener noreferrer">腾讯翻译</a></h3>
 <p>腾讯发布的一款浏览器扩展，支持划词翻译、网页翻译、双语对照等功能。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://microsoftedge.microsoft.com/addons/detail/%E6%99%BA%E8%AF%91%E7%BD%91%E9%A1%B5%E7%BF%BB%E8%AF%91%E6%8F%92%E4%BB%B6/eejfecdbpopckihnmmcncghifajgcegh" target="_blank" rel="noopener noreferrer">智译</a></h3>
+<h3> 2. <a href="https://microsoftedge.microsoft.com/addons/detail/%E6%99%BA%E8%AF%91%E7%BD%91%E9%A1%B5%E7%BF%BB%E8%AF%91%E6%8F%92%E4%BB%B6/eejfecdbpopckihnmmcncghifajgcegh" target="_blank" rel="noopener noreferrer">智译</a></h3>
 <p>一款网页翻译插件，支持 <code>17</code> 种主流外语/少数民族语言，自动识别网页语言并翻译，带你享受前所未有的实时高效翻译体验！<br>
 浏览网页时，它可以自动检测页面的语言，并快速地翻译为您设置的目标语言，让您在浏览外文网站时，不再不知所云。</p>
 <p>智译支持十几种语言与中文的互译，既包括英语、俄语、德语、法语、西班牙语等欧美语言，也支持粤语、日语、韩语、越南语、阿拉伯语等亚洲语言；最最绝的，它还支持维语、藏语、蒙古语、壮语等少数民族语言。</p>
 <p>通过使用该插件，无论是查阅资料、浏览新闻，还是网上购物，相信一定会帮你节省大量时间，提升效率。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://microsoftedge.microsoft.com/addons/detail/%E5%8F%AF%E5%8F%AF%E7%BF%BB%E8%AF%91/ebkimaahhkeiplegpghijhgmlcdkeppf" target="_blank" rel="noopener noreferrer">可可翻译</a></h3>
+<h3> 3. <a href="https://microsoftedge.microsoft.com/addons/detail/%E5%8F%AF%E5%8F%AF%E7%BF%BB%E8%AF%91/ebkimaahhkeiplegpghijhgmlcdkeppf" target="_blank" rel="noopener noreferrer">可可翻译</a></h3>
 <p>一款多合一的翻译扩展，支持多个翻译源翻译所选择的文本，可以同时展示原文与译文的网页翻译，具有以下特性：</p>
 <ul>
 <li>多翻译源同时翻译</li>
@@ -12476,12 +12459,12 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 </ul>
 <figure><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
-<h3> <a href="https://github.com/apachecn/ailearning" target="_blank" rel="noopener noreferrer">AiLearning</a></h3>
+<h3> 1. <a href="https://github.com/apachecn/ailearning" target="_blank" rel="noopener noreferrer">AiLearning</a></h3>
 <p>数据分析 + 机器学习实战 + 线性代数 + <code>PyTorch</code> + <code>NLTK</code> + <code>TF2</code> 学习指南。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://potoyang.gitbook.io/spring-in-action-v5/" target="_blank" rel="noopener noreferrer">Spring 实战（第 5 版）</a></h3>
+<h3> 2. <a href="https://potoyang.gitbook.io/spring-in-action-v5/" target="_blank" rel="noopener noreferrer">Spring 实战（第 5 版）</a></h3>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://vuepress.mirror.docker-practice.com/" target="_blank" rel="noopener noreferrer">Docker 从入门到实践</a></h3>
+<h3> 3. <a href="https://vuepress.mirror.docker-practice.com/" target="_blank" rel="noopener noreferrer">Docker 从入门到实践</a></h3>
 <p>本书既适用于具备基础 <code>Linux</code> 知识的 <code>Docker</code> 初学者，也可供理解原理和实现的高级用户参考。同时，书中给出的实践案例，可供在进行实际部署时借鉴，大致内容如下：</p>
 <ul>
 <li>前 6 章为基础内容，供用户理解 <code>Docker</code> 的基本概念和操作；</li>
@@ -12519,7 +12502,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#9：AI 学习必备资料</title>
     <id>https://cunyu1943.github.io/weekly/2023/0610-0616.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0610-0616.html"/>
-    <updated>2023-08-27T08:06:22.000Z</updated>
+    <updated>2023-08-27T12:10:24.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#9：AI 学习必备资料</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -12539,10 +12522,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <p><a href="https://mp.weixin.qq.com/s/qgnhS4UUnWWuKonROqMA7g" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/qgnhS4UUnWWuKonROqMA7g</a></p>
 </div>
 <h2> 一、项目</h2>
-<h3> <a href="https://github.com/XPoet/picx" target="_blank" rel="noopener noreferrer">PicX</a></h3>
+<h3> 1. <a href="https://github.com/XPoet/picx" target="_blank" rel="noopener noreferrer">PicX</a></h3>
 <p>一款基于 <code>GitHub</code> <code>API</code> 开发的图床工具，提供图片上传托管、生成图片链接和常用图片工具箱服务。只需要申请一个 <code>Github Token</code>，即可完成图床配置。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/cloudreve/Cloudreve" target="_blank" rel="noopener noreferrer">Cloudreve</a></h3>
+<h3> 2. <a href="https://github.com/cloudreve/Cloudreve" target="_blank" rel="noopener noreferrer">Cloudreve</a></h3>
 <p>支持多家云存储驱动的公有云文件系统，具有以下特性：</p>
 <ul>
 <li>☁️ 支持本机、从机、七牛、阿里云 <code>OSS</code>、腾讯云 <code>COS</code>、又拍云、<code>OneDrive</code> (包括世纪互联版) 、<code>S3</code> 兼容协议 作为存储端</li>
@@ -12559,7 +12542,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>🚀 <code>All-In-One</code> 打包，开箱即用</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/zh-lx/pinyin-pro" target="_blank" rel="noopener noreferrer">pinyin-pro</a></h3>
+<h3> 3. <a href="https://github.com/zh-lx/pinyin-pro" target="_blank" rel="noopener noreferrer">pinyin-pro</a></h3>
 <p>一个专业的 <code>js</code> 汉字拼音转换库，功能丰富、准确率高、性能优异，具有以下特色功能：</p>
 <ul>
 <li>支持拼音/声母/韵母/首字母/音调/全部信息</li>
@@ -12572,10 +12555,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 </ul>
 <figure><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
-<h3> <a href="https://pddon.com/" target="_blank" rel="noopener noreferrer">PDDON</a></h3>
+<h3> 1. <a href="https://pddon.com/" target="_blank" rel="noopener noreferrer">PDDON</a></h3>
 <p>免费多功能专业在线画图(<code>Low Code</code>)工具，怕画不好图就用 <code>PDDON</code>，可用于绘制流程图、架构图、思维导图、<code>UML</code>、<code>BPMN</code>、网络拓扑图、韦恩图、鱼骨图等，并且支持对象建模、数据库建模、代码/脚本生成，提供了丰富的定制化绘图功能组件库，带来更贴心易用的设计体验。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://getkap.co/" target="_blank" rel="noopener noreferrer">Kap</a></h3>
+<h3> 2. <a href="https://getkap.co/" target="_blank" rel="noopener noreferrer">Kap</a></h3>
 <p>一款基于 <code>Web</code> 技术构建的开源录屏软件，不过仅支持 <code>macOS</code> 系统。支持以下功能：</p>
 <ul>
 <li>录制某个窗口</li>
@@ -12585,21 +12568,21 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>支持导出 <code>Gif</code>、<code>MP4</code>、<code>WebM</code> 等格式</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://www.bandicam.cn/" target="_blank" rel="noopener noreferrer">班迪录屏</a></h3>
+<h3> 3. <a href="https://www.bandicam.cn/" target="_blank" rel="noopener noreferrer">班迪录屏</a></h3>
 <p>一款简单好用的电脑屏幕录制软件，录屏幕，录游戏，录视频的功能强大的录屏工具，比起其他软件其性能更加卓越。 与其他软件相比，用 <code>Bandicam</code> 录制的视频大小更小，同时保证了原文件的质量。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
-<h3> <a href="http://www.txttool.com/" target="_blank" rel="noopener noreferrer">TXT 文本处理工具</a></h3>
+<h3> 1. <a href="http://www.txttool.com/" target="_blank" rel="noopener noreferrer">TXT 文本处理工具</a></h3>
 <p>在线高级文本工具箱，专注于各种文本处理。如果你的工作涉及到文本处理，不妨去这里试试这些小工具来提升下你的效率。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://www.text-image.com/convert/ascii.html" target="_blank" rel="noopener noreferrer">Text-Image</a></h3>
+<h3> 2. <a href="https://www.text-image.com/convert/ascii.html" target="_blank" rel="noopener noreferrer">Text-Image</a></h3>
 <p>在这里，只要上传一张图片，就能轻松地生成很酷的文本图像。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="http://www.atoolbox.net/" target="_blank" rel="noopener noreferrer">一个工具箱</a></h3>
+<h3> 3. <a href="http://www.atoolbox.net/" target="_blank" rel="noopener noreferrer">一个工具箱</a></h3>
 <p>众多在线工具集合网站，汇聚了视频音频、图形图像、日期时间、文本编辑、加密解密、编程开发、计算换算、金融理财、日常生活等方面共计 448 个在线工具。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
-<h3> <a href="https://www.grammarly.com/" target="_blank" rel="noopener noreferrer">Grammarly</a></h3>
+<h3> 1. <a href="https://www.grammarly.com/" target="_blank" rel="noopener noreferrer">Grammarly</a></h3>
 <p>一款智能语法工具，可以帮助您在网上编写的任何其他地方避免书写错误，<code>Grammarly</code> 会智能分析语段中的错误用法，并用红色下划线标记所有待完善的词组，供你一键纠正。对于英语写作能力不太好的同学，简直是写论文必备。工具特色：</p>
 <ul>
 <li>上下文拼写检查</li>
@@ -12607,7 +12590,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>……</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://chrome.google.com/webstore/detail/smart-toc/lifgeihcfpkmmlfjbailfpfhbahhibba" target="_blank" rel="noopener noreferrer">Smart TOC</a></h3>
+<h3> 2. <a href="https://chrome.google.com/webstore/detail/smart-toc/lifgeihcfpkmmlfjbailfpfhbahhibba" target="_blank" rel="noopener noreferrer">Smart TOC</a></h3>
 <p>根据打开网页的内容自动生成目录，便于我们浏览与跳转。</p>
 <ul>
 <li>按需使用</li>
@@ -12617,17 +12600,17 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>……</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://www.baidufe.com/fehelper/index/index.html" target="_blank" rel="noopener noreferrer">FeHelper</a></h3>
+<h3> 3. <a href="https://www.baidufe.com/fehelper/index/index.html" target="_blank" rel="noopener noreferrer">FeHelper</a></h3>
 <p>一款为开发者开发的浏览器扩展，包括 <code>JSON</code> 自动/手动格式化、<code>JSON</code> 内容比对、代码美化与压缩、信息编解码转换、二维码生成与解码、图片 <code>Base64</code> 编解码转换、<code>Markdown</code>、 网页油猴、网页取色器、脑图(<code>Xmind</code>)等贴心工具。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
-<h3> <a href="https://github.com/MLEveryday/100-Days-Of-ML-Code" target="_blank" rel="noopener noreferrer">机器学习 100 天</a></h3>
+<h3> 1. <a href="https://github.com/MLEveryday/100-Days-Of-ML-Code" target="_blank" rel="noopener noreferrer">机器学习 100 天</a></h3>
 <p><code>100-Days-Of-ML-Code</code> 中文版，包括了有监督学习和无监督学习两方面的内容，对于想要学习机器学习的同学是一个不错的入门教程。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://p100.koki-saitoh.com/zh-CN" target="_blank" rel="noopener noreferrer">强化学习 100 题</a></h3>
+<h3> 2. <a href="https://p100.koki-saitoh.com/zh-CN" target="_blank" rel="noopener noreferrer">强化学习 100 题</a></h3>
 <p>日本的 <code>AI</code> 畅销书作者斋藤康毅为其深度学习系列书籍创建的一个网站，最近推出了中文版。对于学习了强化学习的同学，可以用来对强化学习知识查漏补缺。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/scutan90/DeepLearning-500-questions" target="_blank" rel="noopener noreferrer">深度学习 500 问</a></h3>
+<h3> 3. <a href="https://github.com/scutan90/DeepLearning-500-questions" target="_blank" rel="noopener noreferrer">深度学习 500 问</a></h3>
 <p>深度学习 <code>500</code> 问，以问答形式对常用的概率知识、线性代数、机器学习、深度学习、计算机视觉等热点问题进行阐述，以帮助自己及有需要的读者。 全书分为 <code>18 </code>个章节，<code>50 </code>余万字。</p>
 <p>本书系统地描述了深度学习的基本理论算法及应用。全书共 14 章，第 1-3 章论述了数学基础、机器学习基础和深度学习基础；第 4-7 章介绍了一些经典网络及计算机视觉领域中常用的 <code>CNN</code>、<code>RNN</code>、<code>GAN</code> 等网络结构技术；第 8-9 章介绍了深度学习在计算机视觉领域的目标检测及图像分割两大应用；第 10-14 章介绍了计算机视觉领域主要的优化方法及思路等，包括迁移学习、网络架构及训练、网络优化技巧、超参数调整及模型的压缩和加速等。本书凝聚了众多一线科研人员及工程师的经验，旨在培养读者发现问题、解决问题、扩展问题的能力。</p>
 <figure><figcaption></figcaption></figure>
@@ -12651,7 +12634,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#10：算法学习必备</title>
     <id>https://cunyu1943.github.io/weekly/2023/0617-0623.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0617-0623.html"/>
-    <updated>2023-08-27T08:06:22.000Z</updated>
+    <updated>2023-08-27T12:10:24.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#10：算法学习必备</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -12671,7 +12654,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <p><a href="https://mp.weixin.qq.com/s/LHDwyFupkXWcEvVhOQb36A" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/LHDwyFupkXWcEvVhOQb36A</a></p>
 </div>
 <h2> 一、项目</h2>
-<h3> <a href="https://github.com/Licoy/ChatGPT-Midjourney" target="_blank" rel="noopener noreferrer">ChatGPT-Midjourney</a></h3>
+<h3> 1. <a href="https://github.com/Licoy/ChatGPT-Midjourney" target="_blank" rel="noopener noreferrer">ChatGPT-Midjourney</a></h3>
 <p>该项目基于 <code>ChatGPT-Next-Web</code> 开发，只要拥有自己的秘钥，就可以一键免费部署你的私人 <code>ChatGPT</code> + <code>Midjourney</code> 网页应用，支持以下功能：</p>
 <ul>
 <li>原 <code>ChatGPT-Next-Web</code> 所有功能</li>
@@ -12684,17 +12667,17 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>绘图进度百分比、实时图像显示</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/xtekky/gpt4free" target="_blank" rel="noopener noreferrer">GPT4-Free</a></h3>
+<h3> 2. <a href="https://github.com/xtekky/gpt4free" target="_blank" rel="noopener noreferrer">GPT4-Free</a></h3>
 <p>提供免费的 <code>OpenAI</code> <code>GPT-4</code> <code>API</code>。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/xiangsx/gpt4free-ts" target="_blank" rel="noopener noreferrer">GPT4Free TypeScript Version</a></h3>
+<h3> 3. <a href="https://github.com/xiangsx/gpt4free-ts" target="_blank" rel="noopener noreferrer">GPT4Free TypeScript Version</a></h3>
 <p>GPT4-Free 项目的 <code>TypeScript</code> 版本，同样提供了免费的 <code>API</code>。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
-<h3> <a href="https://potplayer.daum.net/?lang=zh_CN" target="_blank" rel="noopener noreferrer">PotPlayer</a></h3>
+<h3> 1. <a href="https://potplayer.daum.net/?lang=zh_CN" target="_blank" rel="noopener noreferrer">PotPlayer</a></h3>
 <p>拥有强大的硬件加速、全面支持高清影片流畅播放、界面整洁、操作简单、使用轻松、皮肤丰富多彩。能够满足不同用户的使用需求。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="http://www.bookxnote.com/" target="_blank" rel="noopener noreferrer">BookxNote</a></h3>
+<h3> 2. <a href="http://www.bookxnote.com/" target="_blank" rel="noopener noreferrer">BookxNote</a></h3>
 <p>支持打开 <code>PDF</code> 和 <code>EPUB</code> 两种格式的电子书，自动导入书籍目录，还能自定义阅读书签，被当作是 <code>Windows</code> 端的 <code>MarginNote</code>。主要包含以下五方面的的功能：</p>
 <ol>
 <li>导入书籍</li>
@@ -12704,14 +12687,14 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>辅助学习工具（康奈尔比较、学习卡片、取词翻译）</li>
 </ol>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/microsoft/PowerToys" target="_blank" rel="noopener noreferrer">PowerToys</a></h3>
+<h3> 3. <a href="https://github.com/microsoft/PowerToys" target="_blank" rel="noopener noreferrer">PowerToys</a></h3>
 <p><code>Microsoft PowerToys</code> 是一组免费的系统工具软件，由微软为 <code>Windows</code> 操作系统上的系统管理员设计。这些程序为系统加入或变更了一些功能，并加入更多自定义选项以提高生产力。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
-<h3> <a href="https://www.ixueshu.com/" target="_blank" rel="noopener noreferrer">爱学术</a></h3>
+<h3> 1. <a href="https://www.ixueshu.com/" target="_blank" rel="noopener noreferrer">爱学术</a></h3>
 <p>参考文献资料，毕业论文范文免费下载的网站。</p>
 <figure><img src="https://cunyu1943.github.io/static/imgs/article/weekly-2023/image.4idmle023ta0.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3> <a href="https://www.lunwendata.com/" target="_blank" rel="noopener noreferrer">中国免费论文网</a></h3>
+<h3> 2. <a href="https://www.lunwendata.com/" target="_blank" rel="noopener noreferrer">中国免费论文网</a></h3>
 <p>可以免费下载论文的网站，涵括了以下类别的论文：</p>
 <ul>
 <li>经济论文</li>
@@ -12727,12 +12710,12 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>哲学论文</li>
 </ul>
 <figure><img src="https://cunyu1943.github.io/static/imgs/article/weekly-2023/image.a0vxsoqjymo.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3> <a href="https://www.cnki.net/" target="_blank" rel="noopener noreferrer">知网</a></h3>
+<h3> 3. <a href="https://www.cnki.net/" target="_blank" rel="noopener noreferrer">知网</a></h3>
 <p>想必每个国内的大学生都不会陌生，没准儿你的毕业论文就在这里。集文献，资料，论文查找于一体的网站。</p>
 <p>不足的一点就是针对个人收费较贵，如果还学校购买了相关数据库倒还好。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
-<h3> <a href="https://microsoftedge.microsoft.com/addons/detail/flomoplus/edhipjmahjlkocleppfjoepmjnhjiokb" target="_blank" rel="noopener noreferrer">flomoplus</a></h3>
+<h3> 1. <a href="https://microsoftedge.microsoft.com/addons/detail/flomoplus/edhipjmahjlkocleppfjoepmjnhjiokb" target="_blank" rel="noopener noreferrer">flomoplus</a></h3>
 <ul>
 <li>支持从第三方网页圈选内容快速输入到 <code>flomo</code>（包含内容、网址、<code>tag</code>）</li>
 <li>支持一键存储网页标题及链接到 <code>flomo</code>（网站标题、网址、<code>tag</code>）</li>
@@ -12743,22 +12726,22 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>支持从「即刻」「微博」「饭否」「豆瓣」导入个人动态</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://microsoftedge.microsoft.com/addons/detail/abcd-pdf/kpmjajlmlpoindnjiajfhnmnboajakog" target="_blank" rel="noopener noreferrer">Abcd PDF</a></h3>
+<h3> 2. <a href="https://microsoftedge.microsoft.com/addons/detail/abcd-pdf/kpmjajlmlpoindnjiajfhnmnboajakog" target="_blank" rel="noopener noreferrer">Abcd PDF</a></h3>
 <p><code>Abcd PDF</code> 扩展是在线将 <code>PDF</code> 转换为 <code>Word</code> 和 <code>Excel</code>、<code>PPT</code> 和 <code>PDF</code> 编辑器 - 100% 免费。提高您的生产力。<br>
 <code>AbcdPDF</code> 扩展是一个 100% 免费的一体化 <code>PDF</code> 工具<br>
 我们将使用我们有用的 <code>PDF</code> 转换器工具包和在线办公套件来提高您的工作效率。</p>
 <figure><img src="https://cunyu1943.github.io/static/imgs/article/weekly-2023/image.5kb4juhp4vk0.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3> <a href="https://chrome.google.com/webstore/detail/smallpdf-edit-compress-an/ohfgljdgelakfkefopgklcohadegdpjf" target="_blank" rel="noopener noreferrer">Smallpdf</a></h3>
+<h3> 3. <a href="https://chrome.google.com/webstore/detail/smallpdf-edit-compress-an/ohfgljdgelakfkefopgklcohadegdpjf" target="_blank" rel="noopener noreferrer">Smallpdf</a></h3>
 <p>轻松易用的 <code>PDF</code> 工具，可用于编辑、转换、合并、拆分和压缩 <code>PDF</code> 文件。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
-<h3> <a href="https://bugstack.cn/" target="_blank" rel="noopener noreferrer">虫洞栈</a></h3>
+<h3> 1. <a href="https://bugstack.cn/" target="_blank" rel="noopener noreferrer">虫洞栈</a></h3>
 <p>包含: <code>Java</code> 基础，面经手册，<code>Netty4.x</code>，手写 <code>Spring</code>，用 <code>Java</code> 实现 <code>JVM</code>，重学 <code>Java</code> 设计模式，<code>SpringBoot</code> 中间件开发，<code>IDEA</code> 插件开发，<code>DDD</code> 系统架构项目开发，字节码编程等方面的内容。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://labuladong.github.io/algo/" target="_blank" rel="noopener noreferrer">labuladong 的算法小抄</a></h3>
+<h3> 2. <a href="https://labuladong.github.io/algo/" target="_blank" rel="noopener noreferrer">labuladong 的算法小抄</a></h3>
 <p>包含总共 60 多篇原创文章，都是基于 <code>LeetCode</code> 的题目，涵盖了所有题型和技巧，而且一定要做到举一反三，通俗易懂。</p>
 <figure><img src="https://cunyu1943.github.io/static/imgs/article/weekly-2023/web_intro1.yrsf6v2pohc.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/youngyangyang04/leetcode-master" target="_blank" rel="noopener noreferrer">代码随想录</a></h3>
+<h3> 3. <a href="https://github.com/youngyangyang04/leetcode-master" target="_blank" rel="noopener noreferrer">代码随想录</a></h3>
 <p><code>LeetCode</code> 刷题攻略：200 道经典题目刷题顺序，共 60w 字的详细图解，视频难点剖析，50 余张思维导图，支持 <code>C++</code>，<code>Java</code>，<code>Python</code>，<code>Go</code>，<code>JavaScript</code> 等多语言版本。</p>
 <figure><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
@@ -12789,7 +12772,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#11：远程桌面软件</title>
     <id>https://cunyu1943.github.io/weekly/2023/0624-0630.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0624-0630.html"/>
-    <updated>2023-08-27T08:06:22.000Z</updated>
+    <updated>2023-08-27T12:10:24.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#11：远程桌面软件</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -12809,7 +12792,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <p><a href="https://mp.weixin.qq.com/s/4az9STvM2jiwHhRa_k060Q" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/4az9STvM2jiwHhRa_k060Q</a></p>
 </div>
 <h2> 一、项目</h2>
-<h3> <a href="https://github.com/fanmingming/live" target="_blank" rel="noopener noreferrer">live</a></h3>
+<h3> 1. <a href="https://github.com/fanmingming/live" target="_blank" rel="noopener noreferrer">live</a></h3>
 <p>一个国内可直连的直播源分享项目，具有以下特点：</p>
 <ul>
 <li>永久免费</li>
@@ -12820,27 +12803,27 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>直播源支持 <code>IPv4</code>/<code>IPv6</code> 双栈访问</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/Cyril0563/lanjing_live" target="_blank" rel="noopener noreferrer">蓝鲸直播源</a></h3>
+<h3> 2. <a href="https://github.com/Cyril0563/lanjing_live" target="_blank" rel="noopener noreferrer">蓝鲸直播源</a></h3>
 <p>长期维护的电视直播源接口、<code>TVBox</code>、<code>Pluto Player</code>、猫影视 <code>TV</code>、<code>IPTV</code>、<code>BIUBIU TV</code>、<code>IPTV</code> 源、直播源、源享家、蓝鲸直播源、等影视及 <code>m3u8</code> 播放器通用接口都可观看。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/biancangming/wtv" target="_blank" rel="noopener noreferrer">wtv</a></h3>
+<h3> 3. <a href="https://github.com/biancangming/wtv" target="_blank" rel="noopener noreferrer">wtv</a></h3>
 <p>解决电脑、手机看电视直播的苦恼，收集各种直播源，电视直播网站。</p>
 <p>最新 <code>IPTV</code> 直播源 <code>m3u8</code> 下载，电视直播网站推荐，以中文频道为主。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
-<h3> <a href="https://www.todesk.com/" target="_blank" rel="noopener noreferrer">ToDesk</a></h3>
+<h3> 1. <a href="https://www.todesk.com/" target="_blank" rel="noopener noreferrer">ToDesk</a></h3>
 <p>一款稳定流畅的远程控制电脑手机连接软件，可远程桌面办公，远程协助运维。会话采用端对端加密，让每一次远程访问都安全可靠。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://sunlogin.oray.com/download?categ=personal" target="_blank" rel="noopener noreferrer">向日葵</a></h3>
+<h3> 2. <a href="https://sunlogin.oray.com/download?categ=personal" target="_blank" rel="noopener noreferrer">向日葵</a></h3>
 <p>一款免费远程桌面工具，既支持控制手机，也支持控制电脑，简单易用。</p>
 <p>软件还支持市面上的各种主流系统，如 <code>Windows</code>、<code>macOS</code>、<code>Linux</code>、<code>Android</code>、<code>iOS</code> 等。除了免费的远程桌面功能外，还有付费使用的摄像头、远程文件、桌面录像、远程开机等功能。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://www.teamviewer.cn/cn/" target="_blank" rel="noopener noreferrer">TeamViewer</a></h3>
+<h3> 3. <a href="https://www.teamviewer.cn/cn/" target="_blank" rel="noopener noreferrer">TeamViewer</a></h3>
 <p>一个能在任何防火墙和 <code>NAT</code> 代理的后台用于远程控制，桌面共享和文件传输的简单且快速的解决方案。为了连接到另一台计算机，只需要在两台计算机上同时运行 <code>TeamViewer</code> 即可，而不需要进行安装。该软件第一次启动在两台计算机上自动生成 <code>ID</code>。只需要输入对方 <code>ID</code> 到 <code>TeamViewer</code> 即可建立连接。</p>
 <p>目前，该软件面向个人使用免费，不过有广告弹窗，而且如果长期使用还会判定为商业行为，会在 5 分钟内强制断连。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
-<h3> <a href="https://tool.lu/" target="_blank" rel="noopener noreferrer">在线工具</a></h3>
+<h3> 1. <a href="https://tool.lu/" target="_blank" rel="noopener noreferrer">在线工具</a></h3>
 <p>主要有工具、文库、码库、软件、网址、话题等方面的内容。而其中，在线工具又可以分为以下类别：</p>
 <ul>
 <li>文本类</li>
@@ -12856,7 +12839,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>其他</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://naotu.baidu.com/" target="_blank" rel="noopener noreferrer">百度脑图</a></h3>
+<h3> 2. <a href="https://naotu.baidu.com/" target="_blank" rel="noopener noreferrer">百度脑图</a></h3>
 <p>百度旗下的一个在线思维导图工具，具有以下特点：</p>
 <ul>
 <li>免安装</li>
@@ -12866,7 +12849,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>丰富的功能</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://sight.youdao.com/" target="_blank" rel="noopener noreferrer">网易见外</a></h3>
+<h3> 3. <a href="https://sight.youdao.com/" target="_blank" rel="noopener noreferrer">网易见外</a></h3>
 <p>网易旗下 <code>AI</code> 智能语音转写听翻平台，主要提供以下服务：</p>
 <ul>
 <li>视频智能字幕</li>
@@ -12879,7 +12862,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 </ul>
 <figure><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
-<h3> <a href="https://chrome.google.com/webstore/detail/screen-recorder/jdopnakmnlnccgpfpmjmdjjohmcdgabp" target="_blank" rel="noopener noreferrer">屏幕录像机</a></h3>
+<h3> 1. <a href="https://chrome.google.com/webstore/detail/screen-recorder/jdopnakmnlnccgpfpmjmdjjohmcdgabp" target="_blank" rel="noopener noreferrer">屏幕录像机</a></h3>
 <p>免费的简单工具，用于从选项卡，页面区域和全屏捕获高质量视频，并带有麦克风，网络摄像头和系统音频。</p>
 <p>录制屏幕，镶边选项卡，色度选项卡区域，网络摄像头，语音和麦克风。</p>
 <p>一种智能屏幕录像机，可捕获台式机，浏览器/网络摄像头以及系统声音和/或麦克风。</p>
@@ -12893,7 +12876,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>……</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://chrome.google.com/webstore/detail/screenity-screen-recorder/kbbdabhdfibnancpjfhlkhafgdilcnji" target="_blank" rel="noopener noreferrer">Screenity</a></h3>
+<h3> 2. <a href="https://chrome.google.com/webstore/detail/screenity-screen-recorder/kbbdabhdfibnancpjfhlkhafgdilcnji" target="_blank" rel="noopener noreferrer">Screenity</a></h3>
 <p><code>Chrome</code> 最强大的屏幕录像机。 捕获，注释，编辑等。<br>
 借助 <code>Screenity</code>，您可以前所未有地录制和标注屏幕, 更好地录制工作、教育等内容，为学生提供情景反馈、详细的解释，或者只是向潜在客户展示您的产品。产品具有以下特点：</p>
 <ul>
@@ -12906,13 +12889,13 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>对您的录制做修剪或者移除片段</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://chrome.google.com/webstore/detail/vimeo-record-screen-webca/ejfmffkmeigkphomnpabpdabfddeadcb" target="_blank" rel="noopener noreferrer">Vimeo Record</a></h3>
+<h3> 3. <a href="https://chrome.google.com/webstore/detail/vimeo-record-screen-webca/ejfmffkmeigkphomnpabpdabfddeadcb" target="_blank" rel="noopener noreferrer">Vimeo Record</a></h3>
 <p>可以在浏览器网页直接录制和分享无限制的视频。无论是产品演示、设计反馈，还是知识传授，通过 <code>Vimeo</code> 的屏幕录像机，就能快速录制和分享无限的视频信息。</p>
 <p>不仅如此，还可以选择录制你的声音、脸部或组合。一旦你完成录制，立即就可以用私人链接分享你的视频。</p>
 <p>每个录制的视频都会自动上传到 <code>Vimeo</code>，它为你提供了各种工具，如组织和替换视频，定制播放器，与你的团队分享视频，添加章节标记，以及更多。全球加入超过 2 亿用户选择 <code>Vimeo</code> 作为他们视频录制软件。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
-<h3> <a href="https://github.com/ascoders/weekly" target="_blank" rel="noopener noreferrer">前端精读周刊</a></h3>
+<h3> 1. <a href="https://github.com/ascoders/weekly" target="_blank" rel="noopener noreferrer">前端精读周刊</a></h3>
 <p>前端精读周刊。帮你理解最前沿、实用的技术。主要包含以下方面的内容：</p>
 <ul>
 <li>前沿技术</li>
@@ -12926,10 +12909,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li><code>SQL</code></li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/ruanyf/weekly" target="_blank" rel="noopener noreferrer">科技爱好者周刊</a></h3>
+<h3> 2. <a href="https://github.com/ruanyf/weekly" target="_blank" rel="noopener noreferrer">科技爱好者周刊</a></h3>
 <p>科技大牛阮一峰创建的开源项目，记录每周值得分享的科技内容，周五发布。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/SwiftOldDriver/iOS-Weekly" target="_blank" rel="noopener noreferrer">iOS 周报</a></h3>
+<h3> 3. <a href="https://github.com/SwiftOldDriver/iOS-Weekly" target="_blank" rel="noopener noreferrer">iOS 周报</a></h3>
 <p>老司机 <code>iOS</code> 周报，只为你呈现有价值的信息。汇聚有关 <code>iOS</code> 开发相关的信息、文章、工具等。</p>
 <figure><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
@@ -12952,7 +12935,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#12：计算机考研资料</title>
     <id>https://cunyu1943.github.io/weekly/2023/0701-0707.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0701-0707.html"/>
-    <updated>2023-08-27T08:06:22.000Z</updated>
+    <updated>2023-08-27T12:10:24.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#12：计算机考研资料</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -12972,17 +12955,17 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <p><a href="https://mp.weixin.qq.com/s/-flJ1uEH5IPhxWp5J6Bexg" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/-flJ1uEH5IPhxWp5J6Bexg</a></p>
 </div>
 <h2> 一、项目</h2>
-<h3> <a href="https://github.com/jeecgboot/jeecg-boot" target="_blank" rel="noopener noreferrer">JEECG BOOT 低代码开发平台</a></h3>
+<h3> 1. <a href="https://github.com/jeecgboot/jeecg-boot" target="_blank" rel="noopener noreferrer">JEECG BOOT 低代码开发平台</a></h3>
 <p>一款基于代码生成器的低代码开发平台！前后端分离架构 <code>SpringBoot2.x</code>，<code>SpringCloud</code>，<code>Ant Design</code> &amp; <code>Vue</code>，<code>Mybatis-plus</code>，<code>Shiro</code>，<code>JWT</code>，支持微服务。强大的代码生成器让前后端代码一键生成，实现低代码开发! <code>JeecgBoot</code> 引领新的低代码开发模式(<code>OnlineCoding</code>-&gt; 代码生成器-&gt; 手工 <code>MERGE</code>)， 帮助解决 <code>Java</code> 项目 70% 的重复工作，让开发更多关注业务。既能快速提高效率，节省研发成本，同时又不失灵活性！</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/DerekYRC/mini-spring" target="_blank" rel="noopener noreferrer">mini-spring</a></h3>
+<h3> 2. <a href="https://github.com/DerekYRC/mini-spring" target="_blank" rel="noopener noreferrer">mini-spring</a></h3>
 <p>简化版的 <code>Spring</code> 框架，能帮助你快速熟悉 <code>Spring</code> 源码和掌握 <code>Spring</code> 的核心原理。抽取了 <code>Spring</code> 的核心逻辑，代码极度简化，保留 <code>Spring</code> 的核心功能，如 <code>IoC</code> 和 <code>AOP</code>、资源加载器、事件监听器、类型转换、容器扩展点、<code>Bean</code> 生命周期和作用域、应用上下文等核心功能。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/qiutiandefeng/yfexam-exam" target="_blank" rel="noopener noreferrer">云帆培训考试系统</a></h3>
+<h3> 3. <a href="https://github.com/qiutiandefeng/yfexam-exam" target="_blank" rel="noopener noreferrer">云帆培训考试系统</a></h3>
 <p>在线考试系统 云帆在线学习 <code>Vue</code> 培训 <code>Java</code> 考试系统是一款基于 <code>Java</code> 开发的，使用 <code>SpringBoot</code> + <code>Vue</code> 开发的一款多角色在线培训考试系统平台，系统集成了用户管理、角色管理、部门管理、题库管理、试题管理、试题导入导出、考试管理、在线考试、错题训练等功能。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
-<h3> <a href="https://www.foxitsoftware.cn/pdf-reader/" target="_blank" rel="noopener noreferrer">福昕 PDF 阅读器</a></h3>
+<h3> 1. <a href="https://www.foxitsoftware.cn/pdf-reader/" target="_blank" rel="noopener noreferrer">福昕 PDF 阅读器</a></h3>
 <p>全球用户超 7.5 亿，阅读 <code>PDF</code> 文档的最佳选择，具有以下特点：</p>
 <ul>
 <li>文档阅读</li>
@@ -12995,10 +12978,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>划词翻译</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://jisupdf.com/" target="_blank" rel="noopener noreferrer">极速 PDF</a></h3>
+<h3> 2. <a href="https://jisupdf.com/" target="_blank" rel="noopener noreferrer">极速 PDF</a></h3>
 <p>一款闪电般好用的 <code>PDF</code> 阅读器。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/troyeguo/koodo-reader" target="_blank" rel="noopener noreferrer">Koodo Reader</a></h3>
+<h3> 3. <a href="https://github.com/troyeguo/koodo-reader" target="_blank" rel="noopener noreferrer">Koodo Reader</a></h3>
 <p>一个跨平台的电子书阅读器，具有以下特点：</p>
 <ul>
 <li>支持多种阅读格式：
@@ -13024,36 +13007,36 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 </ul>
 <figure><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
-<h3> <a href="https://github.com/" target="_blank" rel="noopener noreferrer">Github</a></h3>
+<h3> 1. <a href="https://github.com/" target="_blank" rel="noopener noreferrer">Github</a></h3>
 <p>一个在线软件源代码托管服务平台，使用 <code>Git</code> 作为版本控制软件。想必每个开发者对它都不陌生，还亲切的称为“世界上最大的同性交友网站”。在这里，你不仅能找到各种各样的宝藏资源，还能结交各种好友，在开发的道路上一起远行。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://gitee.com/" target="_blank" rel="noopener noreferrer">Gitee</a></h3>
+<h3> 2. <a href="https://gitee.com/" target="_blank" rel="noopener noreferrer">Gitee</a></h3>
 <p><code>Gitee</code> 是开源中国（<code>OSChina</code>）推出的基于 <code>Git</code> 的代码托管服务。<br>
 共包括三个版本，分别是：社区版、企业版和高校版。可以看做是国内的 <code>Github</code>，对于难以访问 <code>Github</code> 的用户不失为另一种好的选择。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://about.gitlab.com/" target="_blank" rel="noopener noreferrer">Gitlab</a></h3>
+<h3> 3. <a href="https://about.gitlab.com/" target="_blank" rel="noopener noreferrer">Gitlab</a></h3>
 <p>一个用于仓库管理系统的开源项目，使用 <code>Git</code> 作为代码管理工具，并在此基础上搭建起来的 <code>Web</code> 服务。另外，<code>GitLab</code> 还具有 <code>wiki</code> 以及在线编辑、<code>issue</code> 跟踪功能、<code>CI</code>/<code>CD</code> 等功能。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
-<h3> <a href="https://chrome.google.com/webstore/detail/user-agent-switcher/kchfmpdcejfkipopnolndinkeoipnoia" target="_blank" rel="noopener noreferrer">User-Agent Switcher</a></h3>
+<h3> 1. <a href="https://chrome.google.com/webstore/detail/user-agent-switcher/kchfmpdcejfkipopnolndinkeoipnoia" target="_blank" rel="noopener noreferrer">User-Agent Switcher</a></h3>
 <p>在你的浏览器中切换 <code>User-Agents</code> 的最简单的方法!<br>
 <code>User-Agents</code> 切换器插件操作简单，功能强大。而且上网体验更丝滑，不再受到哪种浏览器或操作系统的限制。它增加了一个工具条按钮，你可以用它在不同的常用 <code>User-Agents</code> 字符串之间切换。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://www.webextensions.org/" target="_blank" rel="noopener noreferrer">Magic CSS</a></h3>
+<h3> 2. <a href="https://www.webextensions.org/" target="_blank" rel="noopener noreferrer">Magic CSS</a></h3>
 <p>允许用户在任意页面编写 <code>CSS</code>/<code>Less</code>/<code>Sass </code>代码，代码会立即生效，并将保存在浏览器扩展的存储空间或站点的本地存储中。</p>
 <p>您可以发挥您的脑洞，给任意网站改写样式！此外还提供各种快速选择等调试功能，更轻松上手。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://chrome.google.com/webstore/detail/json-viewer/efknglbfhoddmmfabeihlemgekhhnabb" target="_blank" rel="noopener noreferrer">JSON Viewer</a></h3>
+<h3> 3. <a href="https://chrome.google.com/webstore/detail/json-viewer/efknglbfhoddmmfabeihlemgekhhnabb" target="_blank" rel="noopener noreferrer">JSON Viewer</a></h3>
 <p>一款实用的 <code>JSON</code> 格式数据查看器。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
-<h3> <a href="https://github.com/CodePanda66/CSPostgraduate-408" target="_blank" rel="noopener noreferrer">CSPostgraduate-408</a></h3>
+<h3> 1. <a href="https://github.com/CodePanda66/CSPostgraduate-408" target="_blank" rel="noopener noreferrer">CSPostgraduate-408</a></h3>
 <p>计算机考研 408 专业课资料及真题资源。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/ddy-ddy/cs-408" target="_blank" rel="noopener noreferrer">cs-408</a></h3>
+<h3> 2. <a href="https://github.com/ddy-ddy/cs-408" target="_blank" rel="noopener noreferrer">cs-408</a></h3>
 <p>计算机考研专业课程 408 相关的复习经验，资源和 <code>OneNote</code> 笔记。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/csseky/cskaoyan" target="_blank" rel="noopener noreferrer">cs-kaoyan</a></h3>
+<h3> 3. <a href="https://github.com/csseky/cskaoyan" target="_blank" rel="noopener noreferrer">cs-kaoyan</a></h3>
 <p>提供各个学校计算机考研和软件工程考研专业的考研真题。</p>
 <figure><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
@@ -13084,7 +13067,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#13：免费下载软件</title>
     <id>https://cunyu1943.github.io/weekly/2023/0708-0714.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0708-0714.html"/>
-    <updated>2023-08-27T08:06:22.000Z</updated>
+    <updated>2023-08-27T12:10:24.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#13：免费下载软件</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -13104,21 +13087,21 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <p><a href="https://mp.weixin.qq.com/s/mGTQR1wyFWauahQ3PJ6jPA" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/mGTQR1wyFWauahQ3PJ6jPA</a></p>
 </div>
 <h2> 一、项目</h2>
-<h3> <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards" target="_blank" rel="noopener noreferrer">Github Profile Summary Cards</a></h3>
+<h3> 1. <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards" target="_blank" rel="noopener noreferrer">Github Profile Summary Cards</a></h3>
 <p>一个为个人资料自述文件生成 <code>Github</code> 摘要卡的工具。只需输入你的 <code>Github</code> 用户名，选择主题后就能生成关于 <code>Github</code> 的 <code>Commit</code>、<code>Top Languages</code>、<code>Stats</code> 等信息。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/tipsy/profile-summary-for-github" target="_blank" rel="noopener noreferrer">Profile Summary</a></h3>
+<h3> 2. <a href="https://github.com/tipsy/profile-summary-for-github" target="_blank" rel="noopener noreferrer">Profile Summary</a></h3>
 <p>一个统计 <code>Github Profile</code> 的可视化工具。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/ryo-ma/github-profile-trophy" target="_blank" rel="noopener noreferrer">GitHub Profile Trophy</a></h3>
+<h3> 3. <a href="https://github.com/ryo-ma/github-profile-trophy" target="_blank" rel="noopener noreferrer">GitHub Profile Trophy</a></h3>
 <p>在自述文件中添加动态生成的 <code>GitHub Stat</code> 奖杯，支持多种主题，还支持自定义大小。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
-<h3> <a href="https://motrix.app/zh-CN/" target="_blank" rel="noopener noreferrer">Motrix</a></h3>
+<h3> 1. <a href="https://motrix.app/zh-CN/" target="_blank" rel="noopener noreferrer">Motrix</a></h3>
 <p>一款全能的下载工具，支持下载 <code>HTTP</code>、<code>FTP</code>、<code>BT</code>、磁力链接等资源。最最重要的是，他完全跨平台且免费。</p>
 <p>软件界面设计简约清新，方便实用。用户可轻松监控、管理下载任务，并自由更改下载路径和速度限制。此外，还支持多点续传和流媒体下载，同时提供暂停、恢复、取消等快捷功能。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://www.xdown.org/" target="_blank" rel="noopener noreferrer">Xdown</a></h3>
+<h3> 2. <a href="https://www.xdown.org/" target="_blank" rel="noopener noreferrer">Xdown</a></h3>
 <p>专业的文件下载与分享工具(<code>BitTorrent</code>/<code>HTTP</code>/<code>FTP</code>)，具有以下功能：</p>
 <ul>
 <li>支持浏览器(<code>Chrome</code>/<code>Edge Chromium</code>/百分浏览器)接管下载</li>
@@ -13137,7 +13120,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>支持自定义全局代理设置</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://www.freedownloadmanager.org/zh/download.htm" target="_blank" rel="noopener noreferrer">Free Download Manager</a></h3>
+<h3> 3. <a href="https://www.freedownloadmanager.org/zh/download.htm" target="_blank" rel="noopener noreferrer">Free Download Manager</a></h3>
 <p>强大的下载工具，可以看做是免费版的 <code>IDM</code>，不过功能也比 <code>IDM</code> 功能略弱。</p>
 <ul>
 <li>支持 <code>FTP</code>，<code>HTTPS</code>，还有 <code>BT</code> 下载，当然你也可以添加代理。</li>
@@ -13147,17 +13130,17 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 </ul>
 <figure><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
-<h3> <a href="https://www.colorhunt.co/" target="_blank" rel="noopener noreferrer">Color Hunt</a></h3>
+<h3> 1. <a href="https://www.colorhunt.co/" target="_blank" rel="noopener noreferrer">Color Hunt</a></h3>
 <p>一个在线色彩搭配方案分享网站，在这里可以看到大家分享出来的各种配色方案，如果你是一个设计师，那你绝对不要错过！</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://webgradients.com/" target="_blank" rel="noopener noreferrer">WebGradients</a></h3>
+<h3> 2. <a href="https://webgradients.com/" target="_blank" rel="noopener noreferrer">WebGradients</a></h3>
 <p>汇聚了 180 个线性渐变的配色方案，可以将其用作网站任何部分的内容背景，只需要通过 <code>Copy CSS</code> 即可将渐变赋值为一段 <code>CSS</code> 代码，而且免费供商业或者个人使用。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://colordrop.io/" target="_blank" rel="noopener noreferrer">ColorDrop</a></h3>
+<h3> 3. <a href="https://colordrop.io/" target="_blank" rel="noopener noreferrer">ColorDrop</a></h3>
 <p>和 <code>Color Hunt</code> 类似的一个网站，只需要点击配色就会显示各个颜色的色值，但不同于 <code>Color Hunt</code> 的是，它不支持用户自己上传配色方案。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
-<h3> <a href="https://chrome.google.com/webstore/detail/octotree-github-code-tree/bkhaagjahfmjljalopjnoealnfndnagc?utm_campaign=en&amp;utm_source=en-et-na-us-oc-webstrext&amp;utm_medium=et" target="_blank" rel="noopener noreferrer">Octotree</a></h3>
+<h3> 1. <a href="https://chrome.google.com/webstore/detail/octotree-github-code-tree/bkhaagjahfmjljalopjnoealnfndnagc?utm_campaign=en&amp;utm_source=en-et-na-us-oc-webstrext&amp;utm_medium=et" target="_blank" rel="noopener noreferrer">Octotree</a></h3>
 <p>一款增强 <code>Github</code> 代码 <code>Review</code> 的浏览器插件。</p>
 <p>具有以下特性：</p>
 <ul>
@@ -13169,7 +13152,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>高性能，适用于各种大小的仓库。</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://chrome.google.com/webstore/detail/copy-as-markdown/nlaionblcaejecbkcillglodmmfhjhfi?utm_campaign=en&amp;utm_source=en-et-na-us-oc-webstrext&amp;utm_medium=et" target="_blank" rel="noopener noreferrer">Copy as Markdown</a></h3>
+<h3> 2. <a href="https://chrome.google.com/webstore/detail/copy-as-markdown/nlaionblcaejecbkcillglodmmfhjhfi?utm_campaign=en&amp;utm_source=en-et-na-us-oc-webstrext&amp;utm_medium=et" target="_blank" rel="noopener noreferrer">Copy as Markdown</a></h3>
 <p>通过该插件，以将超链接、图像和文本复制为 <code>Markdown</code> 格式，具有以下特点：</p>
 <ul>
 <li>能够将链接、图像和选定的文本复制为 <code>Markdown</code>。</li>
@@ -13180,7 +13163,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>可复制代码块，而且可识别对应编程语言</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://chrome.google.com/webstore/detail/sourcegraph/dgjhfomjieaadpoljlnidmbgkdffpack?utm_campaign=en&amp;utm_source=en-et-na-us-oc-webstrext&amp;utm_medium=et" target="_blank" rel="noopener noreferrer">Sourcegraph</a></h3>
+<h3> 3. <a href="https://chrome.google.com/webstore/detail/sourcegraph/dgjhfomjieaadpoljlnidmbgkdffpack?utm_campaign=en&amp;utm_source=en-et-na-us-oc-webstrext&amp;utm_medium=et" target="_blank" rel="noopener noreferrer">Sourcegraph</a></h3>
 <p>向 <code>GitHub</code>、<code>GitLab</code> 和其他主机添加代码智能：悬停、定义、引用。适用于 20 多种语言。</p>
 <p>开源 <code>Sourcegraph</code> 扩展为 <code>GitHub</code>、<code>GitHub Enterprise</code>、<code>GitLab</code>、<code>Bitbucket Server</code> 和 <code>Phabricator</code> 添加了代码导航和代码智能。</p>
 <ul>
@@ -13190,13 +13173,13 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 </ul>
 <figure><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
-<h3> <a href="https://changkun.de/modern-cpp/" target="_blank" rel="noopener noreferrer">现代 C++ 教程</a></h3>
+<h3> 1. <a href="https://changkun.de/modern-cpp/" target="_blank" rel="noopener noreferrer">现代 C++ 教程</a></h3>
 <p>从内容上对二十一世纪二十年代之前产生 <code>C++</code> 的相关特性做了非常相对全面的介绍，读者可以自行根据下面的目录选取感兴趣的内容进行学习，快速熟悉需要了解的内容。这些特性并不需要全部掌握，只需针对自己的使用需求和特定的应用场景，学习、查阅最适合自己的新特性即可。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://xiaolincoding.com/" target="_blank" rel="noopener noreferrer">小林 coding</a></h3>
+<h3> 2. <a href="https://xiaolincoding.com/" target="_blank" rel="noopener noreferrer">小林 coding</a></h3>
 <p>图解计算机网络、操作系统、计算机组成、数据库，共 1000 张图 + 50 万字，破除晦涩难懂的计算机基础知识，让天下没有难懂的八股文！</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://interview.huihut.com/#/" target="_blank" rel="noopener noreferrer">inteview</a></h3>
+<h3> 3. <a href="https://interview.huihut.com/#/" target="_blank" rel="noopener noreferrer">inteview</a></h3>
 <p><code>C/C++</code> 技术面试基础知识总结，包括语言、程序库、数据结构、算法、系统、网络、链接装载库等知识及面试经验、招聘、内推等信息。</p>
 <figure><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
@@ -13219,7 +13202,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#14：壁纸下载网站</title>
     <id>https://cunyu1943.github.io/weekly/2023/0715-0721.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0715-0721.html"/>
-    <updated>2023-08-27T08:06:22.000Z</updated>
+    <updated>2023-08-27T12:10:24.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#14：壁纸下载网站</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -13239,17 +13222,17 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <p><a href="https://mp.weixin.qq.com/s/RZeCM4qnAinMzC94SZupMg" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/RZeCM4qnAinMzC94SZupMg</a></p>
 </div>
 <h2> 一、项目</h2>
-<h3> <a href="https://github.com/Kchengz/k-form-design" target="_blank" rel="noopener noreferrer">k-form-design</a></h3>
+<h3> 1. <a href="https://github.com/Kchengz/k-form-design" target="_blank" rel="noopener noreferrer">k-form-design</a></h3>
 <p>基于 <code>Vue</code> 和 <code>Ant-design-Vue</code> 实现的表单设计器，样式使用 <code>less</code> 作为开发语言，主要功能是能通过简单操作来生成配置表单，生成可保存的 <code>JSON</code> 数据，并能将 <code>JSON</code> 还原成表单，使表单开发更简单更快速。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/lodash/lodash" target="_blank" rel="noopener noreferrer">lodash</a></h3>
+<h3> 2. <a href="https://github.com/lodash/lodash" target="_blank" rel="noopener noreferrer">lodash</a></h3>
 <p><code>Lodash</code> 是一个一致性、模块化、高性能的 <code>JavaScript</code> 实用工具库。遵循 <code>MIT</code> 开源协议发布，并且支持最新的运行环境。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/buqiyuan/vite-vue3-lowcode" target="_blank" rel="noopener noreferrer">vite-vue3-lowcode</a></h3>
+<h3> 3. <a href="https://github.com/buqiyuan/vite-vue3-lowcode" target="_blank" rel="noopener noreferrer">vite-vue3-lowcode</a></h3>
 <p><code>vue3.x</code> + <code>vite2.x</code> + <code>vant</code> + <code>element-plus</code> <code>H5</code> 移动端低代码平台。可视化拖拽，可视化编辑器。类似易企秀的 <code>H5</code> 制作、建站工具、可视化搭建工具。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
-<h3> <a href="https://jookdb.com/" target="_blank" rel="noopener noreferrer">JookDB</a></h3>
+<h3> 1. <a href="https://jookdb.com/" target="_blank" rel="noopener noreferrer">JookDB</a></h3>
 <p>免费通用的数据库管理工具，支持多种数据库：<code>MySQL</code>, <code>MariaDB</code>, <code>Oracle</code>, <code>PostgreSQL</code>, <code>SQLite</code>, <code>MongoDB</code>, 达梦, <code>OceanBase</code> 和 <code>SQLServer</code>。</p>
 <p>软件具有以下特性：</p>
 <ul>
@@ -13261,25 +13244,25 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>暗色主题模式</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://dbeaver.io/" target="_blank" rel="noopener noreferrer">DBeaver</a></h3>
+<h3> 2. <a href="https://dbeaver.io/" target="_blank" rel="noopener noreferrer">DBeaver</a></h3>
 <p>一款免费的跨平台数据库工具，适用于开发人员、数据库管理员、分析师和所有处理数据的人。它支持所有流行的 <code>SQL</code> 数据库，如 <code>MySQL</code>、<code>MariaDB</code>、<code>PostgreSQL</code>、<code>SQLite</code>、<code>Apache</code> 系列等。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://www.beekeeperstudio.io/" target="_blank" rel="noopener noreferrer">Beekeeper</a></h3>
+<h3> 3. <a href="https://www.beekeeperstudio.io/" target="_blank" rel="noopener noreferrer">Beekeeper</a></h3>
 <p>您梦想中的 <code>SQL</code> 编辑器和数据库管理器<br>
 一个现代、易于使用且美观的 <code>SQL</code> 客户端，适用于 <code>MySQL</code>、<code>Postgres</code>、<code>SQLite</code>、<code>SQL Server</code> 等。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
-<h3> <a href="http://pic.netbian.com/" target="_blank" rel="noopener noreferrer">彼岸图网</a></h3>
+<h3> 1. <a href="http://pic.netbian.com/" target="_blank" rel="noopener noreferrer">彼岸图网</a></h3>
 <p>提供高清免费壁纸下载，而且网站无广告，但每天仅提供一张壁纸免费下载额度，有更多下载需求的可以对站点进行赞助，从而获取网站会员。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://wall.alphacoders.com/?lang=Chinese" target="_blank" rel="noopener noreferrer">Wallpaper Abyss</a></h3>
+<h3> 2. <a href="https://wall.alphacoders.com/?lang=Chinese" target="_blank" rel="noopener noreferrer">Wallpaper Abyss</a></h3>
 <p>1008233 张壁纸的聚集地，提供免费壁纸下载，种类齐全，高清大图。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://hdqwalls.com/" target="_blank" rel="noopener noreferrer">HDQwalls</a></h3>
+<h3> 3. <a href="https://hdqwalls.com/" target="_blank" rel="noopener noreferrer">HDQwalls</a></h3>
 <p>高质量壁纸汇聚地，有 <code>4K</code>、<code>5K</code>、<code>8K</code> 等清晰度的壁纸下载，而且完全免费，更有各种尺寸壁纸供你选择。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
-<h3> <a href="https://chrome.google.com/webstore/detail/v2ex-polish/onnepejgdiojhiflfoemillegpgpabdm?utm_source=ext_app_menu" target="_blank" rel="noopener noreferrer">V2EX Polish</a></h3>
+<h3> 1. <a href="https://chrome.google.com/webstore/detail/v2ex-polish/onnepejgdiojhiflfoemillegpgpabdm?utm_source=ext_app_menu" target="_blank" rel="noopener noreferrer">V2EX Polish</a></h3>
 <p>专为 <code>V2EX</code> 用户设计，提供了丰富的扩展功能。<br>
 为原网站添加了众多便捷的功能，让你的 <code>V2EX</code> 页面焕然一新！插件具有以下特点：</p>
 <ul>
@@ -13296,7 +13279,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>“稍后阅读”功能：添加感兴趣的主题，方便日后浏览。</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://crxmouse.com/zh-hans/" target="_blank" rel="noopener noreferrer">CrxMouse</a></h3>
+<h3> 2. <a href="https://crxmouse.com/zh-hans/" target="_blank" rel="noopener noreferrer">CrxMouse</a></h3>
 <p>使用鼠标手势的轻松浏览器导航，通过直观和可自定义的鼠标手势提高您的效率。</p>
 <p>鼠标手势内置动作：按 + 按住右键（在屏幕上的任意位置）并拖动以执行以下操作：</p>
 <ul>
@@ -13315,18 +13298,18 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>↓→↓：关闭当前窗口</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://www.similarsites.com/" target="_blank" rel="noopener noreferrer">SimilarSites</a></h3>
+<h3> 3. <a href="https://www.similarsites.com/" target="_blank" rel="noopener noreferrer">SimilarSites</a></h3>
 <p>立即发现与您当前正在浏览的网站类似的网站。探索网络，了解更多信息。</p>
 <p>我们每天都有数以百万计的网站浏览，并且经常会发现自己正在寻找类似的网站来消费内容，购物或仅仅进行浏览。使用 <code>SimilarSites</code>，您可以在几秒钟内找到与您当前正在浏览的网站相关的网站！</p>
 <figure><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
-<h3> <a href="http://ife.baidu.com/" target="_blank" rel="noopener noreferrer">百度前端技术学园</a></h3>
+<h3> 1. <a href="http://ife.baidu.com/" target="_blank" rel="noopener noreferrer">百度前端技术学园</a></h3>
 <p>面向所有自驱成长，终身学习，热爱生活的人，打造的 <code>Web</code> 前端技术学习园地。由百度创办的免费前端技术学习实践、交流、分享平台。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://wangdoc.com/" target="_blank" rel="noopener noreferrer">网道</a></h3>
+<h3> 2. <a href="https://wangdoc.com/" target="_blank" rel="noopener noreferrer">网道</a></h3>
 <p>一个互联网开发文档网站，提供各种软件文档。目标是提供高质量、自主版权、可自由使用的中文软件文档。目前已有 <code>HTML</code>、<code>JavaScript</code>、<code>ES6</code>、<code>Web API</code>、<code>C 语言</code>、<code>Bash</code>、<code>SSH</code> 等诸多内容。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://www.f2er.com/" target="_blank" rel="noopener noreferrer">前端之家</a></h3>
+<h3> 3. <a href="https://www.f2er.com/" target="_blank" rel="noopener noreferrer">前端之家</a></h3>
 <p>提供各种基础教程的网站，包括 <code>Bootstrap</code>、<code>Node</code>、<code>Angular</code>、<code>ReactJs</code>、<code>JavaScript</code> 等各种前端开发编程语言。</p>
 <figure><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
@@ -13357,7 +13340,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#15：远程控制软件</title>
     <id>https://cunyu1943.github.io/weekly/2023/0722-0728.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0722-0728.html"/>
-    <updated>2023-08-27T08:06:22.000Z</updated>
+    <updated>2023-08-27T12:10:24.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#15：远程控制软件</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -13377,23 +13360,23 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <p><a href="https://mp.weixin.qq.com/s/XmW-JmHxZh8X9yiGvmWfqg" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/XmW-JmHxZh8X9yiGvmWfqg</a></p>
 </div>
 <h2> 一、项目</h2>
-<h3> <a href="https://github.com/pure-admin/vue-pure-admin" target="_blank" rel="noopener noreferrer">vue–pure-admin</a></h3>
+<h3> 1. <a href="https://github.com/pure-admin/vue-pure-admin" target="_blank" rel="noopener noreferrer">vue–pure-admin</a></h3>
 <p><code>Vue3</code> + <code>Vite4</code> + <code>Element-Plus</code> + <code>TypeScript</code> 编写的一款后台管理系统（兼容移动端）。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/TheRamU/Fay" target="_blank" rel="noopener noreferrer">Fay</a></h3>
+<h3> 2. <a href="https://github.com/TheRamU/Fay" target="_blank" rel="noopener noreferrer">Fay</a></h3>
 <p>一个完整的开源项目，包含 <code>Fay</code> 控制器及数字人模型，可灵活组合出不同的应用场景：虚拟主播、现场推销货、商品导购、语音助理、远程语音助理、数字人互动、数字人面试官及心理测评、贾维斯、<code>Her</code>。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/alibaba/higress" target="_blank" rel="noopener noreferrer">Higress</a></h3>
+<h3> 3. <a href="https://github.com/alibaba/higress" target="_blank" rel="noopener noreferrer">Higress</a></h3>
 <p>基于阿里内部两年多的 <code>Envoy</code> <code>Gateway</code> 实践沉淀，以开源 <code>Istio</code> 与 <code>Envoy</code> 为核心构建的下一代云原生网关。<code>Higress</code> 实现了安全防护网关、流量网关、微服务网关三层网关合一，可以显著降低网关的部署和运维成本。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
-<h3> <a href="https://www.raylink.live/" target="_blank" rel="noopener noreferrer">RayLink</a></h3>
+<h3> 1. <a href="https://www.raylink.live/" target="_blank" rel="noopener noreferrer">RayLink</a></h3>
 <p>一款免费的远程控制软件，专为视觉行业打造的真高清、超流畅远程控制软件！支持 <code>Windows</code>、<code>macOS</code>、<code>Linux</code>、<code>Android</code>、<code>iOS</code> 等主流操作系统。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://file-converter.org/" target="_blank" rel="noopener noreferrer">File Converter</a></h3>
+<h3> 2. <a href="https://file-converter.org/" target="_blank" rel="noopener noreferrer">File Converter</a></h3>
 <p>支持批量文件转换和压缩的软件，可集成到系统右键菜单中，支持电子书、视频、图片、文档、音频等多种类型文件转换。而且同时支持转换云端和离线文件，耗能少，速度也快，最重要的一点，完全免费！</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://www.wallpaperengine.io/zh-hans" target="_blank" rel="noopener noreferrer">Wallpaper Engine</a></h3>
+<h3> 3. <a href="https://www.wallpaperengine.io/zh-hans" target="_blank" rel="noopener noreferrer">Wallpaper Engine</a></h3>
 <p>让你的桌面变“好看”！在你的 <code>Windows</code> 桌面使用精美绝伦的动态壁纸，既可以将您自己的图像制作成动画以创建新壁纸或导入视频和网站，同时还可以分享给他人！具有以下特点：</p>
 <ul>
 <li>性能优化</li>
@@ -13405,17 +13388,17 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 </ul>
 <figure><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
-<h3> <a href="https://postcat.com/zh/" target="_blank" rel="noopener noreferrer">Postcat</a></h3>
+<h3> 1. <a href="https://postcat.com/zh/" target="_blank" rel="noopener noreferrer">Postcat</a></h3>
 <p>在线 <code>API</code> 开发测试工具，一款国产开源免费跨平台的开源 <code>API</code> 开发测试工具，超轻量级的接口测试工具，扩展性强。支持 <code>REST</code>、<code>Websocket</code> 等协议，加速完成 <code>API</code> 开发测试工作，十分适合个人及小团队使用。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://carbon.now.sh/" target="_blank" rel="noopener noreferrer">Carbon</a></h3>
+<h3> 2. <a href="https://carbon.now.sh/" target="_blank" rel="noopener noreferrer">Carbon</a></h3>
 <p>一个免费的在线代码截图工具，能够将你的代码生成各种主题的图片并分享，支持自动识别代码编程语言类型。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://www.hereitis.cn/" target="_blank" rel="noopener noreferrer">here it is</a></h3>
+<h3> 3. <a href="https://www.hereitis.cn/" target="_blank" rel="noopener noreferrer">here it is</a></h3>
 <p>一个资源站，免费下载软件、<code>PPT</code>、图片素材、精品小工具、小插件等超多资源。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
-<h3> <a href="https://chrome.google.com/webstore/detail/ticktick-todo-task-list/diankknpkndanachmlckaikddgcehkod?utm_source=ext_app_menu" target="_blank" rel="noopener noreferrer">滴答清单</a></h3>
+<h3> 1. <a href="https://chrome.google.com/webstore/detail/ticktick-todo-task-list/diankknpkndanachmlckaikddgcehkod?utm_source=ext_app_menu" target="_blank" rel="noopener noreferrer">滴答清单</a></h3>
 <p>滴答清单是 <code>Todo</code> 管理神器 <code>TickTick</code> 的中文版，能帮您随时随地记录和管理所有事项。您可以用它制定学习、工作计划，生成读书、购物、旅行清单，设置生日、约会、还款提醒等。</p>
 <p>具有以下特点：</p>
 <ul>
@@ -13429,21 +13412,21 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>与家人/朋友/同事分享协作完成重要任务</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://chrome.google.com/webstore/detail/focus-to-do-pomodoro-time/ngceodoilcgpmkijopinlkmohnfifjfb?utm_source=ext_app_menu" target="_blank" rel="noopener noreferrer">专注清单</a></h3>
+<h3> 2. <a href="https://chrome.google.com/webstore/detail/focus-to-do-pomodoro-time/ngceodoilcgpmkijopinlkmohnfifjfb?utm_source=ext_app_menu" target="_blank" rel="noopener noreferrer">专注清单</a></h3>
 <p>帮助您专注于当前的工作和学习，基于番茄工作法，待办任务清单结合番茄钟计时器，绝佳的时间管理效率工具，帮助提高自律，摆脱拖延。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://chrome.google.com/webstore/detail/new-tab-todo-list-checkli/hdkbnhcgfcokjhlfiicbphafdnipnhjf?utm_source=ext_app_menu" target="_blank" rel="noopener noreferrer">New Tab Todo List</a></h3>
+<h3> 3. <a href="https://chrome.google.com/webstore/detail/new-tab-todo-list-checkli/hdkbnhcgfcokjhlfiicbphafdnipnhjf?utm_source=ext_app_menu" target="_blank" rel="noopener noreferrer">New Tab Todo List</a></h3>
 <p>一个闪电般的新标签生产力页面和仪表板与惊人的背景，待办事项，任务，列表，等等。按照应有的方式制作新的标签页/开始页：快速，可定制，美观而高效！</p>
 <p>制作清单，轮廓，待办事项等。随着 <code>Chrome</code> 的新标签待办事项列表扩展，只需打开一个新的标签来捕捉你的想法，目标和日常任务。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
-<h3> <a href="https://github.com/chinesehuazhou/python-weekly" target="_blank" rel="noopener noreferrer">Python-Weekly</a></h3>
+<h3> 1. <a href="https://github.com/chinesehuazhou/python-weekly" target="_blank" rel="noopener noreferrer">Python-Weekly</a></h3>
 <p><code>Python</code> 潮流周刊，分享文章、教程、开源项目、软件工具、播客和视频、热门话题等内容。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/iamseancheney/python_for_data_analysis_2nd_chinese_version" target="_blank" rel="noopener noreferrer">《利用Python进行数据分析·第2版》</a></h3>
+<h3> 2. <a href="https://github.com/iamseancheney/python_for_data_analysis_2nd_chinese_version" target="_blank" rel="noopener noreferrer">《利用Python进行数据分析·第2版》</a></h3>
 <p>内容主要是利用 <code>Python</code> 进行数据控制、处理、整理、分析等方面的具体细节和基本要点。作者的目标是介绍 <code>Python</code> 编程和用于数据处理的库和工具环境，掌握这些，可以让你成为一个数据分析专家。虽然书的标题是“数据分析”，重点却是 <code>Python</code> 编程、库，以及用于数据分析的工具。这就是数据分析要用到的 <code>Python</code> 编程。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/Visualize-ML/Book4_Power-of-Matrix" target="_blank" rel="noopener noreferrer">矩阵力量</a></h3>
+<h3> 3. <a href="https://github.com/Visualize-ML/Book4_Power-of-Matrix" target="_blank" rel="noopener noreferrer">矩阵力量</a></h3>
 <p>全书共 25 章内容，可以归纳为 7 大板块：</p>
 <ul>
 <li>向量</li>
@@ -13476,7 +13459,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#16：别致的二维码</title>
     <id>https://cunyu1943.github.io/weekly/2023/0729-0804.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0729-0804.html"/>
-    <updated>2023-08-27T08:06:22.000Z</updated>
+    <updated>2023-08-27T12:10:24.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#16：别致的二维码</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -13496,277 +13479,100 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <p><a href="https://mp.weixin.qq.com/s/ERos0gfETiyjIpqNE_jBsA" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/ERos0gfETiyjIpqNE_jBsA</a></p>
 </div>
 <h2> 一、项目</h2>
-<h3> Hydro</h3>
-<ul>
-<li><strong>链接</strong></li>
-</ul>
-<blockquote>
-<p><a href="https://github.com/hydro-dev/Hydro" target="_blank" rel="noopener noreferrer">https://github.com/hydro-dev/Hydro</a></p>
-</blockquote>
-<ul>
-<li><strong>简介</strong></li>
-</ul>
+<h3> 1. <a href="https://github.com/hydro-dev/Hydro" target="_blank" rel="noopener noreferrer">Hydro</a></h3>
 <p>新一代高效强大的信息学在线测评系统，易安装，跨平台，多功能，可扩展，有题库。系统有如下特点：</p>
-<p>1、模块化设计，插件系统，功能热插拔</p>
-<p>2、跨平台兼容，数据一键备份/导入</p>
-<p>3、单系统多空间，不同班级/院校，分开管理</p>
-<p>4、粒度精细的权限系统，灵活调节</p>
-<p>5、规模化支持，上千用户无压力，伸缩组秒级自动扩展</p>
-<p>6、全题型支持，跟随时代潮流</p>
-<p>7、丰富的题库</p>
-<p>……</p>
 <ul>
-<li><strong>预览</strong></li>
+<li>模块化设计，插件系统，功能热插拔</li>
+<li>跨平台兼容，数据一键备份/导入</li>
+<li>单系统多空间，不同班级/院校，分开管理</li>
+<li>粒度精细的权限系统，灵活调节</li>
+<li>规模化支持，上千用户无压力，伸缩组秒级自动扩展</li>
+<li>全题型支持，跟随时代潮流</li>
+<li>丰富的题库</li>
+<li>……</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> kkFileView</h3>
-<ul>
-<li><strong>链接</strong></li>
-</ul>
-<blockquote>
-<p><a href="https://gitee.com/kekingcn/file-online-preview" target="_blank" rel="noopener noreferrer">https://gitee.com/kekingcn/file-online-preview</a></p>
-</blockquote>
-<ul>
-<li><strong>简介</strong></li>
-</ul>
+<h3> 2. <a href="https://gitee.com/kekingcn/file-online-preview" target="_blank" rel="noopener noreferrer">kkFileView</a></h3>
 <p>文档在线预览项目解决方案，项目使用流行的 Spring Boot 搭建，易上手和部署。万能的文件预览开源项目，基本支持主流文档格式预览。</p>
 <ul>
-<li>
-<p>支持 doc, docx, xls, xlsx, xlsm, ppt, pptx, csv, tsv, dotm, xlt, xltm, dot, dotx, xlam, xla, pages 等 Office 办公文档</p>
-</li>
-<li>
-<p>支持 wps, dps, et, ett, wpt 等国产 WPS Office 办公文档</p>
-</li>
-<li>
-<p>支持 odt, ods, ots, odp, otp, six, ott, fodt, fods 等OpenOffice、LibreOffice 办公文档</p>
-</li>
-<li>
-<p>支持 vsd, vsdx 等 Visio 流程图文件</p>
-</li>
-<li>
-<p>支持 wmf, emf 等 Windows 系统图像文件</p>
-</li>
-<li>
-<p>支持 psd, eps 等 Photoshop 软件模型文件</p>
-</li>
-<li>
-<p>支持 pdf ,ofd, rtf 等文档</p>
-</li>
-<li>
-<p>支持 xmind 软件模型文件</p>
-</li>
-<li>
-<p>支持 bpmn 工作流文件</p>
-</li>
-<li>
-<p>支持 eml 邮件文件</p>
-</li>
-<li>
-<p>支持 epub 图书文档</p>
-</li>
-<li>
-<p>支持 obj, 3ds, stl, ply, gltf, glb, off, 3dm, fbx, dae, wrl, 3mf, ifc, brep, step, iges, fcstd, bim 等 3D 模型文件</p>
-</li>
-<li>
-<p>支持 dwg, dxf, dwf, iges , igs, dwt, dng, ifc, dwfx, stl, cf2, plt 等 CAD 模型文件</p>
-</li>
-<li>
-<p>支持 txt, xml(渲染), md(渲染), java, php, py, js, css 等所有纯文本</p>
-</li>
-<li>
-<p>支持 zip, rar, jar, tar, gzip, 7z 等压缩包</p>
-</li>
-<li>
-<p>支持 jpg, jpeg, png, gif, bmp, ico, jfif, webp 等图片预览（翻转，缩放，镜像）</p>
-</li>
-<li>
-<p>支持 tif, tiff 图信息模型文件</p>
-</li>
-<li>
-<p>支持 tga 图像格式文件</p>
-</li>
-<li>
-<p>支持 svg 矢量图像格式文件</p>
-</li>
-<li>
-<p>支持 mp3,wav,mp4,flv 等音视频格式文件</p>
-</li>
-<li>
-<p>支持 avi,mov,rm,webm,ts,rm,mkv,mpeg,ogg,mpg,rmvb,wmv,3gp,ts,swf 等视频格式转码预览</p>
-</li>
-<li>
-<p>支持 dcm 等医疗数位影像预览</p>
-</li>
-<li>
-<p>支持 drawio 绘图预览</p>
-</li>
-<li>
-<p><strong>预览</strong></p>
-</li>
+<li>支持 doc, docx, xls, xlsx, xlsm, ppt, pptx, csv, tsv, dotm, xlt, xltm, dot, dotx, xlam, xla, pages 等 Office 办公文档</li>
+<li>支持 wps, dps, et, ett, wpt 等国产 WPS Office 办公文档</li>
+<li>支持 odt, ods, ots, odp, otp, six, ott, fodt, fods 等OpenOffice、LibreOffice 办公文档</li>
+<li>支持 vsd, vsdx 等 Visio 流程图文件</li>
+<li>支持 wmf, emf 等 Windows 系统图像文件</li>
+<li>支持 psd, eps 等 Photoshop 软件模型文件</li>
+<li>支持 pdf ,ofd, rtf 等文档</li>
+<li>支持 xmind 软件模型文件</li>
+<li>支持 bpmn 工作流文件</li>
+<li>支持 eml 邮件文件</li>
+<li>支持 epub 图书文档</li>
+<li>支持 obj, 3ds, stl, ply, gltf, glb, off, 3dm, fbx, dae, wrl, 3mf, ifc, brep, step, iges, fcstd, bim 等 3D 模型文件</li>
+<li>支持 dwg, dxf, dwf, iges , igs, dwt, dng, ifc, dwfx, stl, cf2, plt 等 CAD 模型文件</li>
+<li>支持 txt, xml(渲染), md(渲染), java, php, py, js, css 等所有纯文本</li>
+<li>支持 zip, rar, jar, tar, gzip, 7z 等压缩包</li>
+<li>支持 jpg, jpeg, png, gif, bmp, ico, jfif, webp 等图片预览（翻转，缩放，镜像）</li>
+<li>支持 tif, tiff 图信息模型文件</li>
+<li>支持 tga 图像格式文件</li>
+<li>支持 svg 矢量图像格式文件</li>
+<li>支持 mp3,wav,mp4,flv 等音视频格式文件</li>
+<li>支持 avi,mov,rm,webm,ts,rm,mkv,mpeg,ogg,mpg,rmvb,wmv,3gp,ts,swf 等视频格式转码预览</li>
+<li>支持 dcm 等医疗数位影像预览</li>
+<li>支持 drawio 绘图预览</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> 觅思文档</h3>
-<ul>
-<li><strong>链接</strong></li>
-</ul>
-<blockquote>
-<p><a href="https://gitee.com/zmister/MrDoc" target="_blank" rel="noopener noreferrer">https://gitee.com/zmister/MrDoc</a></p>
-</blockquote>
-<ul>
-<li><strong>简介</strong></li>
-</ul>
+<h3> 3. <a href="https://gitee.com/zmister/MrDoc" target="_blank" rel="noopener noreferrer">觅思文档</a></h3>
 <p>适合作为个人和中小型团队的私有云文档、云笔记和知识管理工具，致力于成为优秀的私有化在线文档部署方案。</p>
 <p>全系产品目前涵盖以下终端：</p>
 <ul>
-<li>
-<p>Web 端：开源版、专业版</p>
-</li>
-<li>
-<p>浏览器扩展：支持 Chromium 系列浏览器、Firefox 浏览器</p>
-</li>
-<li>
-<p>桌面客户端：支持 Windows、macOS、Linux</p>
-</li>
-<li>
-<p>移动客户端：支持 Android</p>
-</li>
-<li>
-<p><strong>预览</strong></p>
-</li>
+<li><code>Web</code> 端：开源版、专业版</li>
+<li>浏览器扩展：支持 <code>Chromium</code> 系列浏览器、<code>Firefox</code> 浏览器</li>
+<li>桌面客户端：支持 <code>Windows</code>、<code>macOS</code>、<code>Linux</code></li>
+<li>移动客户端：支持 <code>Android</code></li>
 </ul>
 <figure><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
-<h3> 微信输入法</h3>
-<ul>
-<li><strong>链接</strong></li>
-</ul>
-<blockquote>
-<p><a href="https://z.weixin.qq.com/" target="_blank" rel="noopener noreferrer">https://z.weixin.qq.com/</a></p>
-</blockquote>
-<ul>
-<li><strong>简介</strong></li>
-</ul>
+<h3> 1. <a href="https://z.weixin.qq.com/" target="_blank" rel="noopener noreferrer">微信输入法</a></h3>
 <p>微信团队出品的输入法，主打简洁、好用、打字快，目前还处于测试阶段，但是已经支持各大主流平台。具有以下特点：</p>
-<p>1、语音转文字</p>
-<p>2、智能推荐书影音</p>
-<p>3、表情推荐</p>
-<p>4、智能拼写</p>
-<p>5、手写找字</p>
-<p>6、边写边译</p>
-<p>7、拼写检查</p>
 <ul>
-<li><strong>预览</strong></li>
+<li>语音转文字</li>
+<li>智能推荐书影音</li>
+<li>表情推荐</li>
+<li>智能拼写</li>
+<li>手写找字</li>
+<li>边写边译</li>
+<li>拼写检查</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> Lively Wallpaper</h3>
-<ul>
-<li><strong>链接</strong></li>
-</ul>
-<blockquote>
-<p><a href="https://www.rocksdanister.com/lively/" target="_blank" rel="noopener noreferrer">https://www.rocksdanister.com/lively/</a></p>
-</blockquote>
-<ul>
-<li><strong>简介</strong></li>
-</ul>
-<p>免费开源软件，允许用户设置基于 WinUI 3 制作的动画桌面壁纸和屏幕保护程序。</p>
-<ul>
-<li><strong>预览</strong></li>
-</ul>
+<h3> 2. <a href="https://www.rocksdanister.com/lively/" target="_blank" rel="noopener noreferrer">Lively Wallpaper</a></h3>
+<p>免费开源软件，允许用户设置基于 <code>WinUI3</code> 制作的动画桌面壁纸和屏幕保护程序。</p>
 <figure><figcaption></figcaption></figure>
-<h3> 妙记多</h3>
-<ul>
-<li><strong>链接</strong></li>
-</ul>
-<blockquote>
-<p><a href="https://mojidoc.com/login?from=n58Zwp" target="_blank" rel="noopener noreferrer">https://mojidoc.com/login?from=n58Zwp</a></p>
-</blockquote>
-<ul>
-<li><strong>简介</strong></li>
-</ul>
+<h3> 3. <a href="https://mojidoc.com/login?from=n58Zwp" target="_blank" rel="noopener noreferrer">妙记多</a></h3>
 <p>致力于为新一代知识工作者提供服务，协助个人和团队提升协作效率，大幅解放生产力。</p>
-<ul>
-<li><strong>预览</strong></li>
-</ul>
 <figure><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
-<h3> 艺码</h3>
-<ul>
-<li><strong>链接</strong></li>
-</ul>
-<blockquote>
-<p><a href="https://yima.me/" target="_blank" rel="noopener noreferrer">https://yima.me/</a></p>
-</blockquote>
-<ul>
-<li><strong>简介</strong></li>
-</ul>
+<h3> 1. <a href="https://yima.me/" target="_blank" rel="noopener noreferrer">艺码</a></h3>
 <p>一款基于 <code>AI</code> 的二维码美化工具，能生成跟二维码深度融合的各种艺术风格的绘画，并且扫码后能跳转到指定的任意二维码/网站/公众号等。</p>
-<ul>
-<li><strong>预览</strong></li>
-</ul>
 <figure><figcaption></figcaption></figure>
-<h3> MewXAI 星月熊</h3>
-<ul>
-<li><strong>链接</strong></li>
-</ul>
-<blockquote>
-<p><a href="https://qr.mewx.art/" target="_blank" rel="noopener noreferrer">https://qr.mewx.art/</a></p>
-</blockquote>
-<ul>
-<li><strong>简介</strong></li>
-</ul>
+<h3> 2. <a href="https://qr.mewx.art/" target="_blank" rel="noopener noreferrer">MewXAI 星月熊</a></h3>
 <p>由 <code>AI</code> 驱动的下一代艺术二维码，通过该网站，能在短短数秒内创建出令人惊叹的下一代艺术二维码。从此告别单调的黑白二维码，给人留下深刻的印象！</p>
 <p>支持微信码、收款码、网站引流、广告 <code>ROI</code>、产品包装、展览引导、品牌推广、个人名片、扫描点餐、邀请函、二维码防伪等诸多使用场景。</p>
 <p>支持以下两种方式方式创建：</p>
-<p>1、上传原始二维码</p>
-<p>2、直接输入文本内容/链接</p>
 <ul>
-<li><strong>预览</strong></li>
+<li>上传原始二维码</li>
+<li>直接输入文本内容/链接</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> Quick QR Art</h3>
-<ul>
-<li><strong>链接</strong></li>
-</ul>
-<blockquote>
-<p><a href="https://quickqr.art/" target="_blank" rel="noopener noreferrer">https://quickqr.art/</a></p>
-</blockquote>
-<ul>
-<li><strong>简介</strong></li>
-</ul>
+<h3> 3. <a href="https://quickqr.art/" target="_blank" rel="noopener noreferrer">Quick QR Art</a></h3>
 <p>一款借助 <code>AI</code> 模型来生成艺术二维码的工具，原理是利用了 <code>Stable Diffusion</code> 中的 <code>Control Net</code> 模型。仅需几步，就能创建属于自己定制的艺术二维码。</p>
-<ul>
-<li><strong>预览</strong></li>
-</ul>
 <figure><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
-<h3> YouTube 双字幕</h3>
-<ul>
-<li><strong>链接</strong></li>
-</ul>
-<blockquote>
-<p><a href="https://chrome.google.com/webstore/detail/youtube-dual-subtitles/hkbdddpiemdeibjoknnofflfgbgnebcm?utm_source=ext_app_menu" target="_blank" rel="noopener noreferrer">https://chrome.google.com/webstore/detail/youtube-dual-subtitles/hkbdddpiemdeibjoknnofflfgbgnebcm?utm_source=ext_app_menu</a></p>
-</blockquote>
-<ul>
-<li><strong>简介</strong></li>
-</ul>
+<h3> 1. <a href="https://chrome.google.com/webstore/detail/youtube-dual-subtitles/hkbdddpiemdeibjoknnofflfgbgnebcm?utm_source=ext_app_menu" target="_blank" rel="noopener noreferrer">YouTube 双字幕</a></h3>
 <p>自动切换到本地语言，双语字幕，字幕下载，字幕配音，自定义字幕样式。</p>
 <p>默认字幕可设置为翻译语言，而且卡在双语字幕和单字幕之间切换。</p>
 <p>可下载视频字幕和翻译字幕，支持 .txt，.srt。</p>
 <p>还可以自定义字幕样式，字号，字体，颜色，背景，顺序，文字描边，间距等。</p>
-<ul>
-<li><strong>预览</strong></li>
-</ul>
 <figure><figcaption></figcaption></figure>
-<h3> 扩展管理器</h3>
-<ul>
-<li><strong>链接</strong></li>
-</ul>
-<blockquote>
-<p><a href="https://chrome.google.com/webstore/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco?utm_source=ext_app_menu" target="_blank" rel="noopener noreferrer">https://chrome.google.com/webstore/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco?utm_source=ext_app_menu</a></p>
-</blockquote>
-<ul>
-<li><strong>简介</strong></li>
-</ul>
+<h3> 2. <a href="https://chrome.google.com/webstore/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco?utm_source=ext_app_menu" target="_blank" rel="noopener noreferrer">扩展管理器</a></h3>
 <p>一键管理所有扩展，快速开启/禁用、批量闪电管理，智能排序，右键卸载、锁定、选项配置，角标提醒，大小布局随心配。快捷、简单、安全。<br>
 一键开启/禁用扩展</p>
 <ol>
@@ -13780,20 +13586,8 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>扩展命名：给扩展起一个你喜欢的别名</li>
 <li>自动匹配：可以根据不同的网站开启和关闭扩展</li>
 </ol>
-<ul>
-<li><strong>预览</strong></li>
-</ul>
 <figure><figcaption></figcaption></figure>
-<h3> Eagle for Chrome</h3>
-<ul>
-<li><strong>链接</strong></li>
-</ul>
-<blockquote>
-<p><a href="https://chrome.google.com/webstore/detail/eagle-for-chrome/lieogkinebikhdchceieedcigeafdkid?utm_source=ext_app_menu" target="_blank" rel="noopener noreferrer">https://chrome.google.com/webstore/detail/eagle-for-chrome/lieogkinebikhdchceieedcigeafdkid?utm_source=ext_app_menu</a></p>
-</blockquote>
-<ul>
-<li><strong>简介</strong></li>
-</ul>
+<h3> 3. <a href="https://chrome.google.com/webstore/detail/eagle-for-chrome/lieogkinebikhdchceieedcigeafdkid?utm_source=ext_app_menu" target="_blank" rel="noopener noreferrer">Eagle for Chrome</a></h3>
 <p>此扩展程序可以轻松保存图像并将屏幕截图保存到 Eagle App。逛网站时看到感兴趣的图片就能立即收藏到 Eagle 里，并迅速完成分类整理。</p>
 <ol>
 <li>拖拽收藏：拖曳网页图片立即收藏。</li>
@@ -13801,60 +13595,21 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>批量保存：一键收集网页所有图片。</li>
 <li>网页截图：快速将整页网页保存下来。</li>
 </ol>
-<ul>
-<li><strong>预览</strong></li>
-</ul>
 <figure><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
-<h3> 程序员做饭指南</h3>
-<ul>
-<li><strong>链接</strong></li>
-</ul>
-<blockquote>
-<p><a href="https://github.com/Anduin2017/HowToCook" target="_blank" rel="noopener noreferrer">https://github.com/Anduin2017/HowToCook</a></p>
-</blockquote>
-<ul>
-<li><strong>简介</strong></li>
-</ul>
+<h3> 1. <a href="https://github.com/Anduin2017/HowToCook" target="_blank" rel="noopener noreferrer">程序员做饭指南</a></h3>
 <p>网上找菜谱和做法，菜谱往往写法千奇百怪，经常中间莫名出来一些材料。对于习惯了形式语言的程序员来说极其不友好。于是作者自己搜寻菜谱并结合实际做菜的经验，用更清晰精准的描述来整理常见菜的做法，以方便程序员在家做饭。</p>
 <p>这是一个由社区驱动和维护的开源项目，使更多人能够一起做一个有趣的仓库。</p>
-<ul>
-<li><strong>预览</strong></li>
-</ul>
 <figure><figcaption></figcaption></figure>
-<h3> 猴子都能懂的 Git 入门</h3>
-<ul>
-<li><strong>链接</strong></li>
-</ul>
-<blockquote>
-<p><a href="https://backlog.com/git-tutorial/cn/" target="_blank" rel="noopener noreferrer">https://backlog.com/git-tutorial/cn/</a></p>
-</blockquote>
-<ul>
-<li><strong>简介</strong></li>
-</ul>
+<h3> 2. <a href="https://backlog.com/git-tutorial/cn/" target="_blank" rel="noopener noreferrer">猴子都能懂的 Git 入门</a></h3>
 <p>从名字就知道，一个超简单的 <code>Git</code> 入门教程。主要分为针对 <code>Git</code> 初学者的入门篇和有 <code>Git</code> 使用经验的高级篇。此外，还提供了 <code>Git</code> 索引，方便通过 <code>Git</code> 的操作来查找期具体方法。</p>
-<ul>
-<li><strong>预览</strong></li>
-</ul>
 <figure><figcaption></figcaption></figure>
-<h3> TeachYourselfCS-CN</h3>
-<ul>
-<li><strong>链接</strong></li>
-</ul>
-<blockquote>
-<p><a href="https://github.com/izackwu/TeachYourselfCS-CN" target="_blank" rel="noopener noreferrer">https://github.com/izackwu/TeachYourselfCS-CN</a></p>
-</blockquote>
-<ul>
-<li><strong>简介</strong></li>
-</ul>
+<h3> 3. <a href="https://github.com/izackwu/TeachYourselfCS-CN" target="_blank" rel="noopener noreferrer">TeachYourselfCS-CN</a></h3>
 <p>如果你是一个自学成才的工程师，或者从编程培训班毕业，那么你很有必要学习计算机科学。幸运的是，不必为此花上数年光阴和不菲费用去攻读一个学位：仅仅依靠自己，你就可以获得世界一流水平的教育。</p>
 <p>互联网上，到处都有许多的学习资源，然而精华与糟粕并存。</p>
 <p>我们时常疑惑应当学习哪些科目，为什么？</p>
 <p>对于这些科目，最好的书籍或者视频课程 是什么？</p>
 <p>在这份指引中，尝试对这些问题做出确定的回答。</p>
-<ul>
-<li><strong>预览</strong></li>
-</ul>
 <figure><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
@@ -13884,7 +13639,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#17：美图合集 App</title>
     <id>https://cunyu1943.github.io/weekly/2023/0805-0811.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0805-0811.html"/>
-    <updated>2023-08-27T08:06:22.000Z</updated>
+    <updated>2023-08-27T12:10:24.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#17：美图合集 App</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -13904,38 +13659,38 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <p><a href="https://mp.weixin.qq.com/s/bPh_VRqv_y1fFZUxfOT_GQ" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/bPh_VRqv_y1fFZUxfOT_GQ</a></p>
 </div>
 <h2> 一、项目</h2>
-<h3> <a href="https://github.com/codebdy/rxdrag" target="_blank" rel="noopener noreferrer">RxDrag</a></h3>
+<h3> 1. <a href="https://github.com/codebdy/rxdrag" target="_blank" rel="noopener noreferrer">RxDrag</a></h3>
 <p>一款开源企业级可视化低代码前端，目标是可以编辑所有 HTML 基础的组件。比如支持 React、VUE、小程序等，目前仅实现了 React 版。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/LHRUN/paint-board" target="_blank" rel="noopener noreferrer">paint-board</a></h3>
+<h3> 2. <a href="https://github.com/LHRUN/paint-board" target="_blank" rel="noopener noreferrer">paint-board</a></h3>
 <p>一款 Canvas 画板，功能包括动态画笔、橡皮擦、文本绘制、元素框选、画板拖拽、图层操作、撤销反撤销保存等内容。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/un-pany/v3-admin-vite" target="_blank" rel="noopener noreferrer">V3 Admin Vite</a></h3>
-<p>一个免费开源的中后台管理系统基础解决方案，基于 Vue3、TypeScript、Element Plus、Pinia 和 Vite 等主流技术。</p>
+<h3> 3. <a href="https://github.com/un-pany/v3-admin-vite" target="_blank" rel="noopener noreferrer">V3 Admin Vite</a></h3>
+<p>一个免费开源的中后台管理系统基础解决方案，基于 Vue3. TypeScript、Element Plus、Pinia 和 Vite 等主流技术。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
-<h3> <a href="https://jmmt.mmkj.tech/" target="_blank" rel="noopener noreferrer">集美美图</a></h3>
+<h3> 1. <a href="https://jmmt.mmkj.tech/" target="_blank" rel="noopener noreferrer">集美美图</a></h3>
 <p>一款简单纯粹主打每日高清美女写真纸精选的应用，每一张美图均为人工精心挑选和审核，每天只更新 10 张，我们觉得壁纸不在多而在精，我们不用机器操作，也不用算法推荐，我们希望做一款精致、克制、纯粹的超高品质应用。同时支持 <code>Android</code> 和 <code>iOS</code> 端。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://www.douyin.com/qishui/" target="_blank" rel="noopener noreferrer">汽水音乐</a></h3>
+<h3> 2. <a href="https://www.douyin.com/qishui/" target="_blank" rel="noopener noreferrer">汽水音乐</a></h3>
 <p>汽水音乐是抖音官方出品的一款音乐 APP，可以帮你发现更多好音乐。汽水音乐 APP 产品拥有千万量级曲库，支持海量音乐随心听，同时具备个性化推荐、分类电台、特色榜单等功能，汽水音乐官网帮助你发现小众好音乐拒绝千篇一律。用户还可以同步抖音音乐收藏，彰显个人音乐品味，下次听歌更方便。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://boardos.online/" target="_blank" rel="noopener noreferrer">BoardOS</a></h3>
+<h3> 3. <a href="https://boardos.online/" target="_blank" rel="noopener noreferrer">BoardOS</a></h3>
 <p>一款强大、免费且易于使用的在线多人实时白板协作系统，帮助您随时随地将团队聚集在一起。</p>
 <p>基于白板的在线实时协作系统，拥有多种扩展应用和插件，适用于团队协作、线上教学、在线会议、头脑风暴、在线设计等众多场景，一切为了高效!</p>
 <figure><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
-<h3> <a href="https://chenyating.github.io/art-qrcode/" target="_blank" rel="noopener noreferrer">QR-艺术二维码</a></h3>
+<h3> 1. <a href="https://chenyating.github.io/art-qrcode/" target="_blank" rel="noopener noreferrer">QR-艺术二维码</a></h3>
 <p>只需输入你要生成二维码的内容，点击开始生成即可生成你的艺术二维码。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://chinese-colors.heyfe.org/" target="_blank" rel="noopener noreferrer">中国色彩</a></h3>
+<h3> 2. <a href="https://chinese-colors.heyfe.org/" target="_blank" rel="noopener noreferrer">中国色彩</a></h3>
 <p>按照选择的颜色一键生成网站配色，懒人配色必备工具。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://bmm.lccl.cc/" target="_blank" rel="noopener noreferrer">BMM</a></h3>
+<h3> 3. <a href="https://bmm.lccl.cc/" target="_blank" rel="noopener noreferrer">BMM</a></h3>
 <p>一个设计精美的网址导航网站，收集了众多优质视频、图片、设计、编程、学习等网站；登录后可通过站点独有的标签系统，管理属于自己的网络书签。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
-<h3> <a href="https://chrome.google.com/webstore/detail/chathub-all-in-one-chatbo/iaakpnchhognanibcahlpcplchdfmgma?hl=zh-CN" target="_blank" rel="noopener noreferrer">ChatHub</a></h3>
+<h3> 1. <a href="https://chrome.google.com/webstore/detail/chathub-all-in-one-chatbo/iaakpnchhognanibcahlpcplchdfmgma?hl=zh-CN" target="_blank" rel="noopener noreferrer">ChatHub</a></h3>
 <p>一个 ChatBot 聚合客户端，可同时使用 ChatGPT、Bing、Bard 和更多机器人，支持如下功能：</p>
 <ul>
 <li>在一个应用里使用多种 ChatBot，目前支持 ChatGPT, Bing Chat, Google Bard, Claude, 讯飞星火及一些开源模型，并在持续集成更多机器人</li>
@@ -13949,7 +13704,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>联网搜索</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://chrome.google.com/webstore/detail/google-keep-chrome-extens/lpcaedmchfhocbbapmcbpinfpgnhiddi?hl=zh-CN" target="_blank" rel="noopener noreferrer">Google Keep</a></h3>
+<h3> 2. <a href="https://chrome.google.com/webstore/detail/google-keep-chrome-extens/lpcaedmchfhocbbapmcbpinfpgnhiddi?hl=zh-CN" target="_blank" rel="noopener noreferrer">Google Keep</a></h3>
 <p>想把特定的网页、图片或引用文字保存起来，方便日后使用吗？有了 Google Keep Chrome 扩展程序，您可以轻松将所需内容保存到 Keep，并可在您使用的所有平台同步，包括网页、Android 设备、iOS 设备和 Wear 设备。您还可以通过记事功能记录详细信息，并利用标签快速将记事分门别类，方便日后查找相关记事。</p>
 <p>插件支持如下功能：</p>
 <ul>
@@ -13959,7 +13714,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>自动保存到 Google Keep</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://chrome.google.com/webstore/detail/imtranslator-translator-d/noaijdpnepcgjemiklgfkcfbkokogabh?hl=zh-CN" target="_blank" rel="noopener noreferrer">ImTranslator</a></h3>
+<h3> 3. <a href="https://chrome.google.com/webstore/detail/imtranslator-translator-d/noaijdpnepcgjemiklgfkcfbkokogabh?hl=zh-CN" target="_blank" rel="noopener noreferrer">ImTranslator</a></h3>
 <p>支持选定文本、单词、短语和网页翻译，支持阅读高达 10 种语言的文字，主要有如下特点：</p>
 <ul>
 <li>在 91 种语言之间翻译</li>
@@ -13977,13 +13732,13 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 </ul>
 <figure><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
-<h3> <a href="https://github.com/wangdoc/typescript-tutorial" target="_blank" rel="noopener noreferrer">TypeScript 教程</a></h3>
+<h3> 1. <a href="https://github.com/wangdoc/typescript-tutorial" target="_blank" rel="noopener noreferrer">TypeScript 教程</a></h3>
 <p>TypeScript 开源教程，介绍基本概念和用法，面向初学者。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://gitee.com/moxi159753/LearningNotes" target="_blank" rel="noopener noreferrer">陌溪的学习笔记</a></h3>
+<h3> 2. <a href="https://gitee.com/moxi159753/LearningNotes" target="_blank" rel="noopener noreferrer">陌溪的学习笔记</a></h3>
 <p>陌溪的学习笔记，面试突击宝典，主要来源于 B 站上视频的学习，同时会记录平时一些学习和项目中遇到的问题。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://gitee.com/52itstyle/Python" target="_blank" rel="noopener noreferrer">从零学 Python</a></h3>
+<h3> 3. <a href="https://gitee.com/52itstyle/Python" target="_blank" rel="noopener noreferrer">从零学 Python</a></h3>
 <p>从零学 Python，各种开发案例，不定期更新。</p>
 <figure><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
@@ -14006,7 +13761,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#18：灵感收集器</title>
     <id>https://cunyu1943.github.io/weekly/2023/0812-0818.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0812-0818.html"/>
-    <updated>2023-08-27T08:06:22.000Z</updated>
+    <updated>2023-08-27T12:10:24.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#18：灵感收集器</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -14026,41 +13781,41 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <p><a href="https://mp.weixin.qq.com/s/6S1Lde5v64sI0R-UttKJgA" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/6S1Lde5v64sI0R-UttKJgA</a></p>
 </div>
 <h2> 一、项目</h2>
-<h3> <a href="https://gitee.com/layui/layui-vue" target="_blank" rel="noopener noreferrer">layui-vue</a></h3>
+<h3> 1. <a href="https://gitee.com/layui/layui-vue" target="_blank" rel="noopener noreferrer">layui-vue</a></h3>
 <p>一套 Vue 3.0 的桌面端组件库。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://gitee.com/dotnetchina/Furion" target="_blank" rel="noopener noreferrer">Furion</a></h3>
+<h3> 2. <a href="https://gitee.com/dotnetchina/Furion" target="_blank" rel="noopener noreferrer">Furion</a></h3>
 <p>一个应用程序框架，您可以将它集成到任何 .NET/C# 应用程序中，让 .NET 开发更简单，更通用，更流行。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://gitee.com/dromara/TLog" target="_blank" rel="noopener noreferrer">TLog</a></h3>
+<h3> 3. <a href="https://gitee.com/dromara/TLog" target="_blank" rel="noopener noreferrer">TLog</a></h3>
 <p>一个轻量级的分布式日志标记追踪神器，10 分钟即可接入，自动对日志打标签完成微服务的链路追踪。支持 log4j，log4j2，logback 三大日志框架，支持 Dubbo，Dubbox，Spring Cloud 三大 RPC 框架。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
-<h3> <a href="https://gitmind.cn/" target="_blank" rel="noopener noreferrer">GitMind</a></h3>
+<h3> 1. <a href="https://gitmind.cn/" target="_blank" rel="noopener noreferrer">GitMind</a></h3>
 <p>新一代<strong>免费</strong>思维导图协作软件，头脑风暴、思想共创，激发思想流动，让智慧自然涌现。</p>
 <p>一款全平台 在线思维导图脑图架构图制作软件工具，支持手机手机思维导图，Windows/Mac/Linux 多平台操作及内容同步。它提供有海量的架构图，流程图、思维导图模板可供用户直接使用，支持在线制作流程图、思维导图、组织结构图、类图、用例图、ER 图、网络拓扑图以及 UML 图等十多种图形。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://gridea.dev/" target="_blank" rel="noopener noreferrer">Gridea</a></h3>
+<h3> 2. <a href="https://gridea.dev/" target="_blank" rel="noopener noreferrer">Gridea</a></h3>
 <p>建造你的数字花园，让写作成为最佳谈话方式。</p>
 <p>提供撰写、托管、自定义域名的全功能 Blog 工具。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://withpinbox.com/" target="_blank" rel="noopener noreferrer">Pinbox</a></h3>
+<h3> 3. <a href="https://withpinbox.com/" target="_blank" rel="noopener noreferrer">Pinbox</a></h3>
 <p>一款跨平台的收藏工具，您可以用它来记录灵感，稍后阅读，保存资料甚至网络上的任何内容。</p>
 <p>登录输入邀请码 <strong>9eb4d</strong> 即可获得 7 天专业版免费使用权，还不快快行动起来！</p>
 <figure><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
-<h3> <a href="https://loading.io/" target="_blank" rel="noopener noreferrer">Loading.io</a></h3>
+<h3> 1. <a href="https://loading.io/" target="_blank" rel="noopener noreferrer">Loading.io</a></h3>
 <p>一个简单好用的 loading 制作网站，提供基于各种形式（Ajax Loader, Animated Icons, Live Background）和各种格式（GIF/SVG/APNG/CSS）的loading过渡动画。既有免费内容，也有付费内容，不过免费内容已经足够日常设计使用。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://undraw.co/illustrations" target="_blank" rel="noopener noreferrer">unDraw</a></h3>
+<h3> 2. <a href="https://undraw.co/illustrations" target="_blank" rel="noopener noreferrer">unDraw</a></h3>
 <p>免费可商用矢量插画图库，800 多张工作、生活原创插画。一键即可改变插画主色调，提供 png 和 svg 两种格式下载，目前仍在持续更新中。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://www.colorgg.com/" target="_blank" rel="noopener noreferrer">ColorGG</a></h3>
+<h3> 3. <a href="https://www.colorgg.com/" target="_blank" rel="noopener noreferrer">ColorGG</a></h3>
 <p>一个免费的颜色工具，提供有关颜色信息，为您生成互补色、类似色、分裂补色、三元、四元、单色等配色方案。<br>
 在搜索框中输入颜色值，提供关于该颜色的详细信息并自动生成十六进制、RGB、CMKY、HSL、HSV、CIE-LAB、LUV、LCH、Hunter-Lab、XYZ、xyY 等信息。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
-<h3> <a href="https://immersivetranslate.com/" target="_blank" rel="noopener noreferrer">沉浸式翻译</a></h3>
+<h3> 1. <a href="https://immersivetranslate.com/" target="_blank" rel="noopener noreferrer">沉浸式翻译</a></h3>
 <p>沉浸式网页双语翻译扩展，免费使用，支持 Deepl/Google/有道/腾讯翻译等多个翻译服务，支持 Firefox/Chrome/油猴脚本，亦可在 iOS Safari 上使用。</p>
 <p>一款免费的，好用的，没有废话的，革命性的，饱受赞誉的，AI 驱动的双语网页翻译扩展，帮助你有效地打破信息差，在手机上也可以用！</p>
 <p>主要特性：</p>
@@ -14074,7 +13829,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>支持 10+ 种翻译服务</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://chrome.google.com/webstore/detail/toucan-language-learning/lokjgaehpcnlmkebpmjiofccpklbmoci?hl=zh-CN" target="_blank" rel="noopener noreferrer">Toucan</a></h3>
+<h3> 2. <a href="https://chrome.google.com/webstore/detail/toucan-language-learning/lokjgaehpcnlmkebpmjiofccpklbmoci?hl=zh-CN" target="_blank" rel="noopener noreferrer">Toucan</a></h3>
 <p>当您访问网站时，Toucan 会自动将页面上的某些单词和短语翻译成您希望学习的语言。通过这种方式，您就可以在自己熟悉语言的语境中，学习新语言中的单词，支持以下语言：</p>
 <ul>
 <li>英语（适用于讲西班牙母语用户）</li>
@@ -14091,7 +13846,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>印地语</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://chrome.google.com/webstore/detail/blocksite-block-websites/eiimnmioipafcokbfikbljfdeojpcgbh?hl=zh-CN" target="_blank" rel="noopener noreferrer">BlockSite</a></h3>
+<h3> 3. <a href="https://chrome.google.com/webstore/detail/blocksite-block-websites/eiimnmioipafcokbfikbljfdeojpcgbh?hl=zh-CN" target="_blank" rel="noopener noreferrer">BlockSite</a></h3>
 <p>保持专注并提高生产力：自定义组织列表、计划的站点组织和密码保护，主要具有以下特点：</p>
 <ul>
 <li>保持专注扩展</li>
@@ -14107,14 +13862,14 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 </ul>
 <figure><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
-<h3> <a href="https://github.com/Mr-xn/RedTeam_BlueTeam_HW" target="_blank" rel="noopener noreferrer">RedTeam_BlueTeam_HW</a></h3>
+<h3> 1. <a href="https://github.com/Mr-xn/RedTeam_BlueTeam_HW" target="_blank" rel="noopener noreferrer">RedTeam_BlueTeam_HW</a></h3>
 <p>红蓝对抗以及护网相关工具和资料，内存 shellcode（cs + msf）和内存马查杀工具。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/dunwu/nginx-tutorial" target="_blank" rel="noopener noreferrer">Nginx 极简教程</a></h3>
+<h3> 2. <a href="https://github.com/dunwu/nginx-tutorial" target="_blank" rel="noopener noreferrer">Nginx 极简教程</a></h3>
 <p>一个 Nginx 极简教程，目的在于帮助新手快速入门 Nginx。</p>
 <p>而且仓库中模拟了工作中的一些常用实战场景，并且都可以通过脚本一键式启动，可以快速看到演示效果。</p>
 <figure><figcaption></figcaption></figure>
-<h3> <a href="https://github.com/dunwu/linux-tutorial" target="_blank" rel="noopener noreferrer">Linux 教程</a></h3>
+<h3> 3. <a href="https://github.com/dunwu/linux-tutorial" target="_blank" rel="noopener noreferrer">Linux 教程</a></h3>
 <p>主要涵盖以下内容：Linux 命令、Linux 系统运维、软件运维、精选常用 Shell 脚本等。</p>
 <figure><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
@@ -14145,7 +13900,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#19：开源指北</title>
     <id>https://cunyu1943.github.io/weekly/2023/0819-0825.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0819-0825.html"/>
-    <updated>2023-08-27T08:06:22.000Z</updated>
+    <updated>2023-08-27T12:10:24.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#19：开源指北</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -14165,13 +13920,13 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <p><a href="https://mp.weixin.qq.com/s/tqZW3qavO8WfYLAgHQANiA" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/tqZW3qavO8WfYLAgHQANiA</a></p>
 </div>
 <h2> 一、项目</h2>
-<h3> 1、<a href="https://github.com/Vanessa219/vditor" target="_blank" rel="noopener noreferrer">Vditor</a></h3>
+<h3> 1. <a href="https://github.com/Vanessa219/vditor" target="_blank" rel="noopener noreferrer">Vditor</a></h3>
 <p>一款浏览器端的 Markdown 编辑器，支持所见即所得、即时渲染（类似 Typora）和分屏预览模式。它使用 TypeScript 实现，支持原生 JavaScript 以及 Vue、React、Angular 和 Svelte 等框架。</p>
 <figure><figcaption></figcaption></figure>
-<h3> 2、<a href="https://gitee.com/jeffvon/xxzsource" target="_blank" rel="noopener noreferrer">小玄猪商城</a></h3>
+<h3> 2. <a href="https://gitee.com/jeffvon/xxzsource" target="_blank" rel="noopener noreferrer">小玄猪商城</a></h3>
 <p>小玄猪商城是一套基于前后端分离的 B2B、B2C 商城系统，支持微信小程序、支付宝小程序、H5 商城、APP 商城。支持多商户入驻、适用于直播商城、社交电商、团购、拼团、秒杀、砍价、活动报名、客户管理、知识付费、积分商城、抽奖活动、会员卡、权益卡、成长值、预售、任务中心等场景。商城采用 TP6、VUE、element-vue-admin、uniapp 等技术栈，代码简洁，易于二次开发。</p>
 <figure><figcaption></figcaption></figure>
-<h3> 3、<a href="https://gitee.com/ruitao_admin/gododb" target="_blank" rel="noopener noreferrer">godoDb</a></h3>
+<h3> 3. <a href="https://gitee.com/ruitao_admin/gododb" target="_blank" rel="noopener noreferrer">godoDb</a></h3>
 <p>一款 MySQL 数据库管理工具，具有以下特性：</p>
 <ul>
 <li>支持数据库备份还原，支持添加数据库；</li>
@@ -14187,10 +13942,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 </ul>
 <figure><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
-<h3> 1、<a href="https://github.com/marktext/marktext" target="_blank" rel="noopener noreferrer">MarkText</a></h3>
+<h3> 1. <a href="https://github.com/marktext/marktext" target="_blank" rel="noopener noreferrer">MarkText</a></h3>
 <p>一个简单优雅的开源 Markdown 编辑器，专注于速度和可用性。而且跨平台，在 Windows、macOS 以及 Linux 平台均可使用。</p>
 <figure><figcaption></figcaption></figure>
-<h3> 2、<a href="https://www.apps.vip/" target="_blank" rel="noopener noreferrer">想天工作台</a></h3>
+<h3> 2. <a href="https://www.apps.vip/" target="_blank" rel="noopener noreferrer">想天工作台</a></h3>
 <p>你的副屏操作系统，集效率辅助、游戏娱乐、桌面美化于一身，让你的老设备再次就业，让屏幕解锁更多玩法。此外还支持以下特性：</p>
 <ul>
 <li>浅/暗色模式切换</li>
@@ -14204,28 +13959,28 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>轻聊</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> 3、<a href="https://wanglin2.github.io/mind-map/#/index" target="_blank" rel="noopener noreferrer">SimpleMindMap</a></h3>
+<h3> 3. <a href="https://wanglin2.github.io/mind-map/#/index" target="_blank" rel="noopener noreferrer">SimpleMindMap</a></h3>
 <p>一个思维导图库，同时也是一个思维导图软件。开源、免费、强大...</p>
 <p>无论你是开发者，还是使用者，只要喜欢思维导图，都能在这个项目里找到你需要的。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
-<h3> 1、<a href="https://img.logosc.cn/" target="_blank" rel="noopener noreferrer">改图神器</a></h3>
+<h3> 1. <a href="https://img.logosc.cn/" target="_blank" rel="noopener noreferrer">改图神器</a></h3>
 <p>AI 万能图片编辑器，在线修改图片颜色尺寸、智能抠图去水印，AI/EPS/PSD/SVG 全格式支持的在线图片编辑器。</p>
 <figure><figcaption></figcaption></figure>
-<h3> 2、<a href="https://jsfiddle.net/" target="_blank" rel="noopener noreferrer">JSFiddle</a></h3>
+<h3> 2. <a href="https://jsfiddle.net/" target="_blank" rel="noopener noreferrer">JSFiddle</a></h3>
 <p>一个在线 IDE 服务和在线社区，用于测试和展示用户创建的协作 HTML，CSS 和 JavaScript 代码段。</p>
 <figure><figcaption></figcaption></figure>
-<h3> 3、<a href="http://www.lsjgcx.com/" target="_blank" rel="noopener noreferrer">历史价格查询</a></h3>
+<h3> 3. <a href="http://www.lsjgcx.com/" target="_blank" rel="noopener noreferrer">历史价格查询</a></h3>
 <p>输入商品对应网址链接，就能查询商品的历史价格走势，让你不再被商家的各种促销活动忽悠，更清晰的了解商家活动是否为虚假促销以及促销力度。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
-<h3> 1、<a href="https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall" target="_blank" rel="noopener noreferrer">OneTab</a></h3>
+<h3> 1. <a href="https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall" target="_blank" rel="noopener noreferrer">OneTab</a></h3>
 <p>当您发现自己有太多的标签页时，单击 OneTab 图标，将所有标签页转换成一个列表。当您需要再次访问这些标签页时，可以单独或全部恢复它们，从而节省高达 95％ 的内存。</p>
 <figure><figcaption></figcaption></figure>
-<h3> 2、<a href="https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg" target="_blank" rel="noopener noreferrer">FireShot</a></h3>
+<h3> 2. <a href="https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg" target="_blank" rel="noopener noreferrer">FireShot</a></h3>
 <p>捕捉网页截图，编辑并将它们保存为 PDF，JPEG，GIF，PNG 或 BMP。然后用于上传，打印，在 Photoshop 中打开，复制到剪贴板或电子邮件等操作。</p>
 <figure><figcaption></figcaption></figure>
-<h3> 3、<a href="https://chrome.google.com/webstore/detail/simpread-reader-view/ijllcpnolfcooahcekpamkbidhejabll?hl=zh-CN" target="_blank" rel="noopener noreferrer">简悦</a></h3>
+<h3> 3. <a href="https://chrome.google.com/webstore/detail/simpread-reader-view/ijllcpnolfcooahcekpamkbidhejabll?hl=zh-CN" target="_blank" rel="noopener noreferrer">简悦</a></h3>
 <p>让你瞬间进入沉浸式阅读的 Chrome 扩展，类似 Safari 的阅读模式。插件具有以下特点：</p>
 <ul>
 <li>阅读模式</li>
@@ -14240,7 +13995,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 </ul>
 <figure><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
-<h3> 1、<a href="https://github.com/shengxinjing/fe-advanced-interview" target="_blank" rel="noopener noreferrer">大圣前端进阶指南</a></h3>
+<h3> 1. <a href="https://github.com/shengxinjing/fe-advanced-interview" target="_blank" rel="noopener noreferrer">大圣前端进阶指南</a></h3>
 <p>一份前端进阶面试指南，解决前端进阶的难点。囊括了以下内容：</p>
 <ul>
 <li>React + TS 企业级实战 + 组件库</li>
@@ -14251,10 +14006,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li>大圣前端私教课</li>
 </ul>
 <figure><figcaption></figcaption></figure>
-<h3> 2、<a href="https://gitee.com/gitee-community/opensource-guide" target="_blank" rel="noopener noreferrer">开源指北</a></h3>
+<h3> 2. <a href="https://gitee.com/gitee-community/opensource-guide" target="_blank" rel="noopener noreferrer">开源指北</a></h3>
 <p>一份给开源新手的保姆级开源百科，如果你还不知道如何开源该从何做起，不妨参考下这份指南。</p>
 <figure><figcaption></figcaption></figure>
-<h3> 3、<a href="https://gitee.com/jishupang/vue3-knowledge-map" target="_blank" rel="noopener noreferrer">Vue3.x 知识图谱</a></h3>
+<h3> 3. <a href="https://gitee.com/jishupang/vue3-knowledge-map" target="_blank" rel="noopener noreferrer">Vue3.x 知识图谱</a></h3>
 <p>Vue3.x 知识地图，使用这个图可以大大加快开发效率，轻松记忆知识点，对于学习 Vue3 很有帮助。</p>
 <figure><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
