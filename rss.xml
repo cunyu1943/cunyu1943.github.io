@@ -6,10 +6,11 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习、面试求职、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 27 Aug 2023 01:32:32 GMT</pubDate>
-    <lastBuildDate>Sun, 27 Aug 2023 01:32:32 GMT</lastBuildDate>
+    <pubDate>Sun, 27 Aug 2023 07:43:22 GMT</pubDate>
+    <lastBuildDate>Sun, 27 Aug 2023 07:43:22 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>好物周刊</category>
     <category>你问我答</category>
     <category>Java 基础</category>
     <category>MySQL 教程</category>
@@ -17,7 +18,262 @@
     <category>开发工具</category>
     <category>效率工具</category>
     <category>IDEA 教程</category>
-    <category>好物周刊</category>
+    <item>
+      <title>好物周刊#20</title>
+      <link>https://cunyu1943.github.io/weekly/2023/0826-0901.html</link>
+      <guid>https://cunyu1943.github.io/weekly/2023/0826-0901.html</guid>
+      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#20</source>
+      <description>好物周刊#20 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1、ForestBlog</description>
+      <category>好物周刊</category>
+      <pubDate>Sun, 27 Aug 2023 07:41:05 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 好物周刊#20</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">原文</p>
+</div>
+<h2> 一、项目</h2>
+<h3> 1、<a href="https://github.com/saysky/ForestBlog" target="_blank" rel="noopener noreferrer">ForestBlog</a></h3>
+<p>一个简单漂亮的博客系统，基于 SSM（Spring、Spring MVC、MyBatis）开发，适合初学 SSM 和想要制作个人博客的朋友学习。最新版本已经支持用户注册，包含用户和管理员两种角色。</p>
+<h3> 2、<a href="https://github.com/auroral-ui/hexo-theme-aurora" target="_blank" rel="noopener noreferrer">hexo-theme-aurora</a></h3>
+<p>使用极光颜色和 UI 元素的下一代 Hexo 主题，基于 Vue3 开发，给你带来一种平滑流畅的色彩和未来感。</p>
+<h2> 二、软件</h2>
+<h3> 1、<a href="https://nxshell.github.io/" target="_blank" rel="noopener noreferrer">NxShell</a></h3>
+<p>一款跨平台的 SSH 新终端工具,就像当下流行的 PuTTY 终端一样。但 NxShell 随着后期功能的迭代完善,会生长出自己独有的终端工具超能力。</p>
+<p>软件支持如下功能：</p>
+<ul>
+<li>支持 SSH/Sftp/ftp/Serial/VNC 协议</li>
+<li>支持 Linux/Windows/macOS 多端平台</li>
+<li>支持中文和英文两种语言</li>
+<li>支持 SSH 隧道 Socks v5，当前开启后默认监听在 localhost:10080</li>
+<li>支持会话管理,导入和导出功能等</li>
+<li>支持 SSH rz/sz 命令文件上传下载</li>
+<li>支持终端主题配置</li>
+<li>支持终端日志管理</li>
+<li>支持分组分屏展示</li>
+<li>支持全屏模式</li>
+<li>支持同时发送命令到多个打开的 SSH 会话中</li>
+<li>支持会话锁定</li>
+<li>支持快捷键操作</li>
+<li>支持 Sftp 在线编辑器</li>
+<li>支持 lrz/lsz 文件传输</li>
+</ul>
+<figure><figcaption></figcaption></figure>
+<h3> 2、<a href="https://tableplus.com/" target="_blank" rel="noopener noreferrer">TablePlus</a></h3>
+<p>让数据库管理变得更简单，适用于关系型数据库的现代、原生且友好的可视化管理工具，支持 MySQL、PostgreSQL、SQLite、SQLServer、Redis、mongoDB 等。</p>
+<figure><figcaption></figcaption></figure>
+<h3> 3、<a href="https://github.com/leovan/SciHubEVA" target="_blank" rel="noopener noreferrer">SciHubEVA</a></h3>
+<p>一款由 Python 和 Qt 提供支持的跨平台Sci-Hub GUI 应用程序。想必每个被论文折磨的朋友都不陌生，主需要输入 URL、PMID、DOI 就能下载到绝大部分论文，妥妥地下载论文利器。</p>
+<h2> 三、网站</h2>
+<h3> 1、<a href="https://codepen.io/" target="_blank" rel="noopener noreferrer">CodePen</a></h3>
+<figure><figcaption></figcaption></figure>
+<h3> 2、<a href="https://jsrun.net/" target="_blank" rel="noopener noreferrer">JSRUN</a></h3>
+<p>创建于 2016 年，专注于在线代码运行。</p>
+<figure><figcaption></figcaption></figure>
+<h3> 3、<a href="https://codesandbox.io/" target="_blank" rel="noopener noreferrer">CodeSandbox</a></h3>
+<figure><figcaption></figcaption></figure>
+<h2> 四、插件</h2>
+<h2> 五、资料</h2>
+<h3> 1、<a href="https://github.com/LjyYano/Thinking_in_Java_MindMapping" target="_blank" rel="noopener noreferrer">Thinking_in_Java_MindMapping</a></h3>
+<p>一个包含了博主的编程笔记、观影指南、读书笔记、生活感悟、Switch 游戏等内容的仓库。</p>
+<h3> 2、<a href="https://github.com/dunwu/javacore" target="_blank" rel="noopener noreferrer">JavaCore</a></h3>
+<p>一个 Java 核心技术教程，包含以下方面内容：</p>
+<ul>
+<li>Java 基础特性</li>
+<li>Java 高级特性</li>
+<li>Java 容器</li>
+<li>Java IO</li>
+<li>Java 并发</li>
+<li>Java 虚拟机</li>
+<li>……</li>
+</ul>
+<h3> 3、<a href="https://github.com/polaris1119/golangweekly" target="_blank" rel="noopener noreferrer">Go 语言爱好者周刊</a></h3>
+<p>随着 Go 受到越来越多的关注，相关的文章、软件、资源也越来越多。Go 语言爱好者周刊旨在为大家分享一周值得了解、学习的 Go 语言相关内容。每周日发布。</p>
+<p>周刊自 2019 年开始发布，截止目前已经持续到了 198 期。</p>
+<h2> ✍️ 说明</h2>
+<p>周刊专栏相关信息：</p>
+<ul>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/weekly" target="_blank" rel="noopener noreferrer">电子书</a></li>
+</ul>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/weekly/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<hr>
+<h2> 🎬️ 广告</h2>
+<p>作为程序员，掌握数据结构与算法的重要性就不言而喻了。掌握了数据结构与算法，可以说你的编程能力就会有质的飞跃。任凭各种热门技术的如何变化，只要掌握了核心技能，那都可以见招拆招，做一个“赢家”。</p>
+<p>专栏共分为 4 个由浅入深的模块：</p>
+<ul>
+<li>入门篇</li>
+<li>基础篇</li>
+<li>高级篇</li>
+<li>实战篇</li>
+</ul>
+<p>作者采用最适合工程师的学习方式，不拘泥于某一特定编程语言，从实际开发场景出发，由浅入深教你学习数据结构与算法的方法，帮你搞懂基本概念和核心理论，深入理解算法精髓，帮你提升使用数据结构和算法思维解决问题的能力。</p>
+<p>想要进一步提升自己的竞争力么，那就赶紧加入和我一起学习吧！</p>
+<figure><figcaption></figcaption></figure>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>好物周刊#21：</title>
+      <link>https://cunyu1943.github.io/weekly/2023/0902-0908.html</link>
+      <guid>https://cunyu1943.github.io/weekly/2023/0902-0908.html</guid>
+      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#21：</source>
+      <description>好物周刊#21： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 二、软件 三、网站 Wappalyzer</description>
+      <category>好物周刊</category>
+      <pubDate>Sun, 27 Aug 2023 07:41:05 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 好物周刊#21：</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">原文</p>
+</div>
+<h2> 一、项目</h2>
+<h2> 二、软件</h2>
+<h2> 三、网站</h2>
+<h3> <a href="https://www.wappalyzer.com/" target="_blank" rel="noopener noreferrer">Wappalyzer</a></h3>
+<p>一个跨平台程序，能够发现网站上使用的技术。检测网站的内容管理系统、Web 框架、服务器软件、分析工具等等。</p>
+<figure><figcaption></figcaption></figure>
+<h3> <a href="https://www.photopea.com/" target="_blank" rel="noopener noreferrer">Photopea</a></h3>
+<p>一个在线版的 PhotoShop，支持 PSD、AI、XD、sketch、PDF、XCF、RAW 等多种图片格式。</p>
+<figure><figcaption></figcaption></figure>
+<h3> <a href="https://passer-by.com/relationship/" target="_blank" rel="noopener noreferrer">中国亲戚关系计算器</a></h3>
+<p>逢年过节遇到三姑六婆，拒绝叫不出口的尴尬！轻松搞定亲戚关系。当前亲戚称呼大全已收录约 <strong>76602</strong> 条亲戚关系。</p>
+<figure><figcaption></figcaption></figure>
+<h2> 四、插件</h2>
+<h2> 五、资料</h2>
+<h2> ✍️ 说明</h2>
+<p>周刊专栏相关信息：</p>
+<ul>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/weekly" target="_blank" rel="noopener noreferrer">电子书</a></li>
+</ul>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/weekly/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<hr>
+<h2> 🎬️ 广告</h2>
+<p>当前大环境下，就业形势严峻，尤其针对即将毕业的大学生。作为一个技术求职者，求职前应该做好哪些准备呢，一些面试实战技巧也十分有必要！而刚好最近掘金出了一本《技术人求职指南》小册，相信一定会对在找工作的你有所帮助。</p>
+<p>从求职到拿下 <code>Offer</code>，一本职场的全方位攻略，快来和我一起学习吧！</p>
+<figure><figcaption></figcaption></figure>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>好物周刊#22：</title>
+      <link>https://cunyu1943.github.io/weekly/2023/0909-0915.html</link>
+      <guid>https://cunyu1943.github.io/weekly/2023/0909-0915.html</guid>
+      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#22：</source>
+      <description>好物周刊#22： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 二、软件 三、网站 PPChart</description>
+      <category>好物周刊</category>
+      <pubDate>Sun, 27 Aug 2023 07:41:05 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 好物周刊#22：</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">原文</p>
+</div>
+<h2> 一、项目</h2>
+<h2> 二、软件</h2>
+<h2> 三、网站</h2>
+<h3> <a href="http://ppchart.com/#/" target="_blank" rel="noopener noreferrer">PPChart</a></h3>
+<p>让图表更简单。PPChart 提供 Echarts 收录、图表制作等服务。</p>
+<figure><figcaption></figcaption></figure>
+<h3> <a href="https://madeapie.com/#/" target="_blank" rel="noopener noreferrer">Made A Pie</a></h3>
+<p>Echarts 图表制作、案例分享、教程分享。汇聚了超多 Echarts 绘制案例，主要有以下类别：</p>
+<figure><figcaption></figcaption></figure>
+<h3> <a href="https://www.isqqw.com/" target="_blank" rel="noopener noreferrer">ISQQW</a></h3>
+<p>一个 ECharts 图表集，ECharts demo 集，Echarts gallery 社区。同时，在这里还可以分享你的可视化作品。</p>
+<figure><figcaption></figcaption></figure>
+<h2> 四、插件</h2>
+<h2> 五、资料</h2>
+<h2> ✍️ 说明</h2>
+<p>周刊专栏相关信息：</p>
+<ul>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/weekly" target="_blank" rel="noopener noreferrer">电子书</a></li>
+</ul>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/weekly/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<hr>
+<h2> 🎬️ 广告</h2>
+<p>作为程序员，掌握数据结构与算法的重要性就不言而喻了。掌握了数据结构与算法，可以说你的编程能力就会有质的飞跃。任凭各种热门技术的如何变化，只要掌握了核心技能，那都可以见招拆招，做一个“赢家”。</p>
+<p>专栏共分为 4 个由浅入深的模块：</p>
+<ul>
+<li>入门篇</li>
+<li>基础篇</li>
+<li>高级篇</li>
+<li>实战篇</li>
+</ul>
+<p>作者采用最适合工程师的学习方式，不拘泥于某一特定编程语言，从实际开发场景出发，由浅入深教你学习数据结构与算法的方法，帮你搞懂基本概念和核心理论，深入理解算法精髓，帮你提升使用数据结构和算法思维解决问题的能力。</p>
+<p>想要进一步提升自己的竞争力么，那就赶紧加入和我一起学习吧！</p>
+<figure><figcaption></figcaption></figure>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>好物周刊#23：</title>
+      <link>https://cunyu1943.github.io/weekly/2023/0916-0922.html</link>
+      <guid>https://cunyu1943.github.io/weekly/2023/0916-0922.html</guid>
+      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#23：</source>
+      <description>好物周刊#23： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 二、软件 三、网站 视觉效果集合</description>
+      <category>好物周刊</category>
+      <pubDate>Sun, 27 Aug 2023 07:41:05 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 好物周刊#23：</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">原文</p>
+</div>
+<h2> 一、项目</h2>
+<h2> 二、软件</h2>
+<h2> 三、网站</h2>
+<h3> <a href="http://hepengwei.cn/#/html/visualDesign" target="_blank" rel="noopener noreferrer">视觉效果集合</a></h3>
+<p>一个专注于前端视觉效果的集合应用，里面包含各种丰富的 css 动效、canvas 动画等上百个案例，而且是开源免费的。</p>
+<figure><figcaption></figcaption></figure>
+<h2> 四、插件</h2>
+<h2> 五、资料</h2>
+<h2> ✍️ 说明</h2>
+<p>周刊专栏相关信息：</p>
+<ul>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/weekly" target="_blank" rel="noopener noreferrer">电子书</a></li>
+</ul>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/weekly/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<hr>
+<h2> 🎬️ 广告</h2>
+<p>当前大环境下，就业形势严峻，尤其针对即将毕业的大学生。作为一个技术求职者，求职前应该做好哪些准备呢，一些面试实战技巧也十分有必要！而刚好最近掘金出了一本《技术人求职指南》小册，相信一定会对在找工作的你有所帮助。</p>
+<p>从求职到拿下 <code>Offer</code>，一本职场的全方位攻略，快来和我一起学习吧！</p>
+<figure><figcaption></figcaption></figure>
+]]></content:encoded>
+    </item>
+    <item>
+      <title></title>
+      <link>https://cunyu1943.github.io/frontmatter.html</link>
+      <guid>https://cunyu1943.github.io/frontmatter.html</guid>
+      <source url="https://cunyu1943.github.io/rss.xml"></source>
+      <description>共勉 不要哀求，学会争取。若是如此，终有所获。 原文</description>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
+      <content:encoded><![CDATA[<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">原文</p>
+</div>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>JavaPark(Java 自学指南)</title>
+      <link>https://cunyu1943.github.io/home.html</link>
+      <guid>https://cunyu1943.github.io/home.html</guid>
+      <source url="https://cunyu1943.github.io/rss.xml">JavaPark(Java 自学指南)</source>
+      <description>JavaPark(Java 自学指南)</description>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> JavaPark(Java 自学指南)</h1>
+]]></content:encoded>
+    </item>
     <item>
       <title>想学好 Java 基础，应该去哪儿刷题</title>
       <link>https://cunyu1943.github.io/QA/20230402-where-exercise-java-basics.html</link>
@@ -25,7 +281,7 @@
       <source url="https://cunyu1943.github.io/rss.xml">想学好 Java 基础，应该去哪儿刷题</source>
       <description>想学好 Java 基础，应该去哪儿刷题 共勉 不要哀求，学会争取。若是如此，终有所获。 前言 其实无论是哪门编程语言，只要把相关语法掌握之后，更重要的是一些算法、编程思想的提高。 既然已经对 Java 有了一定的了解了，那肯定基本语法没啥问题了，那在这里就提名几个常用的刷题网站，用来巩固 Java 基础的同时锻炼自己的编程思想，提高自己的编程能力！</description>
       <category>你问我答</category>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 想学好 Java 基础，应该去哪儿刷题</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -104,7 +360,7 @@
       <link>https://cunyu1943.github.io/QA/</link>
       <guid>https://cunyu1943.github.io/QA/</guid>
       <source url="https://cunyu1943.github.io/rss.xml">你问我答</source>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
     </item>
     <item>
       <title>创刊寄语</title>
@@ -112,7 +368,7 @@
       <guid>https://cunyu1943.github.io/weekly/</guid>
       <source url="https://cunyu1943.github.io/rss.xml">创刊寄语</source>
       <description>创刊寄语 共勉 不要哀求，学会争取。若是如此，终有所获。 一、前言 村雨遥的好物周刊，记录每周看到的有价值的信息，主要针对计算机领域，每周五发布。专栏目的在于记录让自己有印象的信息做一个备份及分享，阅读渠道如下： 博客 | 博客(国内) JavaPark 公众号：移动端推荐</description>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 创刊寄语</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -158,7 +414,7 @@
       <source url="https://cunyu1943.github.io/rss.xml">Java 入门简介</source>
       <description>Java 入门简介 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/aGz8CBOK5mW8xjAlstlMQw</description>
       <category>Java 基础</category>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Java 入门简介</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -347,7 +603,7 @@
       <source url="https://cunyu1943.github.io/rss.xml">JDK 安装及入门实例</source>
       <description>JDK 安装及入门实例 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/geOWlAwVMhtmmIMvFvjSpQ</description>
       <category>Java 基础</category>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> JDK 安装及入门实例</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -531,7 +787,7 @@
       <source url="https://cunyu1943.github.io/rss.xml">利用 IDEA 进行 Java 开发</source>
       <description>利用 IDEA 进行 Java 开发 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/Pkf1WTj-x6JH4Jo8mOr8SQ</description>
       <category>Java 基础</category>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 利用 IDEA 进行 Java 开发</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -674,7 +930,7 @@
       <source url="https://cunyu1943.github.io/rss.xml">变量与数据类型</source>
       <description>变量与数据类型 共勉 不要哀求，学会争取。若是如此，终有所获。 提示 原文：https://mp.weixin.qq.com/s/Yz41IdWSNTgqgj0R-Ffgqw</description>
       <category>Java 基础</category>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 变量与数据类型</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -1102,7 +1358,7 @@
       <source url="https://cunyu1943.github.io/rss.xml">常用进制转换</source>
       <description>常用进制转换 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/2f_dODoVco-tSS66lF0U5A</description>
       <category>Java 基础</category>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 常用进制转换</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -1205,7 +1461,7 @@
       <source url="https://cunyu1943.github.io/rss.xml">操作符</source>
       <description>操作符 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/49KRDz8bpcGdPlU15OJD0g</description>
       <category>Java 基础</category>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 操作符</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -1545,7 +1801,7 @@
       <source url="https://cunyu1943.github.io/rss.xml">流程控制</source>
       <description>流程控制 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/3WU5l37DpPkR6o7CnFiStA</description>
       <category>Java 基础</category>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 流程控制</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -1793,7 +2049,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">数组操作的奇技淫巧</source>
       <description>数组操作的奇技淫巧 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/2Ff14d3cwjVflhtz67k3vQ</description>
       <category>Java 基础</category>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 数组操作的奇技淫巧</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -1916,7 +2172,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">面向对象的 3、5 知识点</source>
       <description>面向对象的 3、5 知识点 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/Z4F7tsjLkPbTGy4_gJPQTw</description>
       <category>Java 基础</category>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 面向对象的 3、5 知识点</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -2017,7 +2273,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">类的相关知识</source>
       <description>类的相关知识 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/1BPFnyNuC3fdYBVxP7J3VA</description>
       <category>Java 基础</category>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 类的相关知识</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -2218,7 +2474,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">包和 jar 文件的创建</source>
       <description>包和 jar 文件的创建 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/l4O4bhDMgHamQ5DVPcqUYA</description>
       <category>Java 基础</category>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 包和 jar 文件的创建</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -2348,7 +2604,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">成员变量、实例变量、静态变量、局部变量</source>
       <description>成员变量、实例变量、静态变量、局部变量 共勉 不要哀求，学会争取。若是如此，终有所获。 前言 学习 Java 的过程中，一开始很容易被这些各种变量绕晕，这篇博客主要介绍了这几种变量之间的关系和区别。 实例 package com.cunyu.demo public class Demo { private String name; //成员变量、实例变量 private int age; //成员变量、实例变量 private int ID; //成员变量、实例变量 public static final String school = &amp;quot;卡塞尔学院&amp;quot;; //成员变量、静态变量(类变量) public static String level = &amp;quot;SSS&amp;quot;; //成员变量、静态变量(类变量) public int getAge() { return age; } public int getId() { return ID; } public String getName() { return name; } public void setAge(int age) { this.age = age; } public void setId(int ID) { this.ID = ID; } public void setName(String name) { this.name = name; } public void study(){ String subject1 = &amp;quot;屠龙&amp;quot;; //局部变量 String subject2 = &amp;quot;炼金术&amp;quot;; //局部变量 System.out.println(&amp;quot;学习科目： &amp;quot; + subject1 + &amp;quot;、&amp;quot; + subject2); } public static void main(String[] args) { Demo demo = new Demo(); demo.setAge(23); demo.setId(14000001); demo.setName(&amp;quot;楚子航&amp;quot;); System.out.println(&amp;quot;ID: &amp;quot; + demo.getId() + &amp;quot;Age: &amp;quot; + demo.getAge() + &amp;quot;Name: &amp;quot; + demo.getName()); System.out.print(&amp;quot;主修科目： &amp;quot;); demo.study(); System.out.println(&amp;quot;学院：&amp;quot; + Demo.school); System.out.println(&amp;quot;等级：&amp;quot; + Demo.level); } }</description>
       <category>Java 基础</category>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 成员变量、实例变量、静态变量、局部变量</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -2418,7 +2674,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">String 详解</source>
       <description>String 详解 共勉 不要哀求，学会争取。若是如此，终有所获。 概述 String 类代表字符串，定义的变量可以用来指向字符串对象，然后操作该字符串，同时还提供了许多用于操作字符串的功能。Java 中，所有的字符串都用双引号 &amp;quot;&amp;quot; 括起来。 此外，String 是不可变的字符串类型，它的对象一旦创建，就不能够再被更改。</description>
       <category>Java 基础</category>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> String 详解</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -2643,7 +2899,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">ArrayList 详解</source>
       <description>ArrayList 详解 共勉 不要哀求，学会争取。若是如此，终有所获。 概述 ArrayList 代表的是集合类，集合是一种容器，类似于数组。不同的是数组一旦定义后，其类型和长度就固定了，但集合的大小却是动态变化的，而且其中的元素类型也是动态的。 因此，数组更适合数据个数和类型确定的场景，而集合则更适合数据个数不确定，且需要做增删元素的场景。</description>
       <category>Java 基础</category>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> ArrayList 详解</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -2796,7 +3052,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">输入输出流</source>
       <description>输入输出流 共勉 不要哀求，学会争取。若是如此，终有所获。 前言 我们日常开发过程中，有许多方面都涉及到 IO 流，比如上传下载、传输、设计模式等等。而所有的一切都是基于 IO 流来进行，所以今天就来看看 Java 中 IO 流的相关知识点。 本文主要内容安排如下： 文件对象 流简介 字节流 字符流</description>
       <category>Java 基础</category>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 输入输出流</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -3171,7 +3427,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">反射机制详解</source>
       <description>反射机制详解 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/f0sJpAhgI6B7oirsJfv9jQ</description>
       <category>Java 基础</category>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 反射机制详解</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -3409,7 +3665,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">JDBC 入门指南</source>
       <description>JDBC 入门指南 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/DOXFxk5dk9WBfAVK0UJUng</description>
       <category>Java 基础</category>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> JDBC 入门指南</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -3746,7 +4002,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">是时候拥抱 Junit 单元测试了</source>
       <description>是时候拥抱 Junit 单元测试了 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/_FWd0Bj3DlbCReex6pqJKQ</description>
       <category>Java 基础</category>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 是时候拥抱 Junit 单元测试了</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -3973,7 +4229,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">Lombok 安装及使用指南</source>
       <description>Lombok 安装及使用指南 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/t4h5VRfbYqNIRZVlMaqPEg</description>
       <category>Java 基础</category>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Lombok 安装及使用指南</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -4149,7 +4405,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">Fastjson V2 简单使用手册</source>
       <description>Fastjson V2 简单使用手册 共勉 不要哀求，学会争取。若是如此，终有所获。 前言 在日常 Java 企业级开发中，可能避不开 JSON 这个格式。 JSON 源于 1999 年的 JS 语言规范 ECMA262 的一个子集，然后又在 2003 年作为一种数据格式 ECMA404 发布，到了 2006 年，又作为 rfc4627 发布。直到现在，JSON 的应用已经十分广泛了。</description>
       <category>Java 基础</category>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Fastjson V2 简单使用手册</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -4198,7 +4454,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">深入浅出 Java 注解</source>
       <description>深入浅出 Java 注解 共勉 不要哀求，学会争取。若是如此，终有所获。 注解简介 所谓注解，其实就像一种拥有特定作用的注释，自 JDK1.5 及之后版本所引入的特性，它是放在 Java 源码的类、方法、字段、参数前的一种用作标注的“元数据”，与类、接口、枚举处于同一个层次中。 通过其作用的不同，我们常常将注解分为如下 3 类： 编写文档：通过代码中标识的注解生成对应文档（即类似于 Java doc 的文档）； 代码分析：通过代码中标识的注解对代码进行分析（使用反射）； 编译检查：通过代码中标识的注解让编译器能实现基本的编译检查（@Override）；</description>
       <category>Java 基础</category>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 深入浅出 Java 注解</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -4390,7 +4646,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">流程控制知识大闯关</source>
       <description>流程控制知识大闯关 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/K4aL8o_ND7R_W0mooNhusw</description>
       <category>Java 基础</category>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 流程控制知识大闯关</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -4538,7 +4794,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">static 和 final 小课堂</source>
       <description>static 和 final 小课堂 共勉 不要哀求，学会争取。若是如此，终有所获。 前言 学习了面向对象的一些知识点后，在看别人的代码中经常会看到 static 和 final 两个关键字，那你知道它俩都是做什么用的么，使用的时候需要注意啥呢？ 今天的内容就来一起了解下，static 和 final 关键字的使用。</description>
       <category>Java 基础</category>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> static 和 final 小课堂</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -4597,7 +4853,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">抽象、接口和内部类</source>
       <description>抽象、接口和内部类 共勉 不要哀求，学会争取。若是如此，终有所获。 抽象方法 定义 所谓抽象方法，就是将公共的行为（方法）抽取到一个父类后，由于每个子类中执行的内容是不一致的，所以父类中无法确认具体的方法体，此时就可以将该方法定义为抽象方法。 格式 要定义一个抽象方法，那么需要遵循以下的格式，要注意，抽象方法一般都是没有定义</description>
       <category>Java 基础</category>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 抽象、接口和内部类</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -4730,7 +4986,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <link>https://cunyu1943.github.io/java-tutorial/javase-series/</link>
       <guid>https://cunyu1943.github.io/java-tutorial/javase-series/</guid>
       <source url="https://cunyu1943.github.io/rss.xml">Java 基础</source>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
     </item>
     <item>
       <title>《SQL 必知必会》全解析</title>
@@ -4739,7 +4995,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">《SQL 必知必会》全解析</source>
       <description>《SQL 必知必会》全解析 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/zbOqyAtsWsocarsFIGdGgw</description>
       <category>MySQL 教程</category>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 《SQL 必知必会》全解析</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -8720,7 +8976,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <link>https://cunyu1943.github.io/java-tutorial/mysql-series/</link>
       <guid>https://cunyu1943.github.io/java-tutorial/mysql-series/</guid>
       <source url="https://cunyu1943.github.io/rss.xml">MySQL 教程</source>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
     </item>
     <item>
       <title>Hexo+Github Pages博客搭建教程</title>
@@ -8729,7 +8985,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">Hexo+Github Pages博客搭建教程</source>
       <description>Hexo+Github Pages博客搭建教程 共勉 不要哀求，学会争取。若是如此，终有所获。 前言 现在市面上已经有许多博客了，比如 CSDN、掘金、博客园、简书等等。我们可以直接在上面发表内容，而且交互比较人性化，而且也能被搜索引擎检索到。但是总归是别人的平台，经常会受限，因此我们就希望能有自己的博客。之前也尝试过搭建过不同的博客类型，折腾了不少工作，最终决定定型，采用 Hexo + Github Pages 的方式。今天就带大家一起来搭建自己的博客。由于是采用 Hexo + Github Pages 的方式，所以都是免费的，只是需要有一定的动手能力！</description>
       <category>博客搭建</category>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Hexo+Github Pages博客搭建教程</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -8870,7 +9126,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <link>https://cunyu1943.github.io/tutorial/blog-series/</link>
       <guid>https://cunyu1943.github.io/tutorial/blog-series/</guid>
       <source url="https://cunyu1943.github.io/rss.xml">博客搭建</source>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
     </item>
     <item>
       <title>网站访问太慢，不妨试试这些 CDN</title>
@@ -8879,7 +9135,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">网站访问太慢，不妨试试这些 CDN</source>
       <description>网站访问太慢，不妨试试这些 CDN 相关信息 不要哀求，学会争取。若是如此，终有所获。 提示 原文：https://mp.weixin.qq.com/s/WDOc5kI0jVtsbxgWwCoJkQ</description>
       <category>开发工具</category>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 网站访问太慢，不妨试试这些 CDN</h1>
 <div class="hint-container info">
 <p class="hint-container-title">相关信息</p>
@@ -8946,7 +9202,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">计算机专业涨薪必备的几个网站</source>
       <description>计算机专业涨薪必备的几个网站 相关信息 不要哀求，学会争取。若是如此，终有所获。 提示 原文：https://mp.weixin.qq.com/s/GGoYITwL0Symiqbi257kvA</description>
       <category>开发工具</category>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 计算机专业涨薪必备的几个网站</h1>
 <div class="hint-container info">
 <p class="hint-container-title">相关信息</p>
@@ -9035,7 +9291,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">黑客大神也常用的一些 CMD 命令</source>
       <description>黑客大神也常用的一些 CMD 命令 相关信息 不要哀求，学会争取。若是如此，终有所获。 提示 原文：https://mp.weixin.qq.com/s/LAZY7sMiwzNwimTpmlh0rw</description>
       <category>开发工具</category>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 黑客大神也常用的一些 CMD 命令</h1>
 <div class="hint-container info">
 <p class="hint-container-title">相关信息</p>
@@ -9199,7 +9455,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">如何在浏览器中安装插件</source>
       <description>如何在浏览器中安装插件 相关信息 不要哀求，学会争取。若是如此，终有所获。 提示 原文：https://mp.weixin.qq.com/s/KNiUsB_yMNjjmKXrcSjrXg</description>
       <category>开发工具</category>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 如何在浏览器中安装插件</h1>
 <div class="hint-container info">
 <p class="hint-container-title">相关信息</p>
@@ -9285,7 +9541,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <link>https://cunyu1943.github.io/tutorial/dev-series/</link>
       <guid>https://cunyu1943.github.io/tutorial/dev-series/</guid>
       <source url="https://cunyu1943.github.io/rss.xml">开发工具</source>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
     </item>
     <item>
       <title>10 个神奇的网站，助力带薪摸鱼</title>
@@ -9294,7 +9550,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">10 个神奇的网站，助力带薪摸鱼</source>
       <description>10 个神奇的网站，助力带薪摸鱼 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/X4rj6RHMzr3TeYrS0Nj-Dg</description>
       <category>效率工具</category>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 10 个神奇的网站，助力带薪摸鱼</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -9377,7 +9633,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">Emoji 表情大作战</source>
       <description>Emoji 表情大作战 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/TZMiXLTsHqVl3VMp2Dcdlg</description>
       <category>效率工具</category>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Emoji 表情大作战</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -9449,7 +9705,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">如何用 Markdown 写出好看的文章</source>
       <description>如何用 Markdown 写出好看的文章 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/qIptV_MEGjsUjw_zqvGn_A</description>
       <category>效率工具</category>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 如何用 Markdown 写出好看的文章</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -9665,7 +9921,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <link>https://cunyu1943.github.io/tutorial/efficiency-series/</link>
       <guid>https://cunyu1943.github.io/tutorial/efficiency-series/</guid>
       <source url="https://cunyu1943.github.io/rss.xml">效率工具</source>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
     </item>
     <item>
       <title>最新版 IntelliJ IDEA 使用手册</title>
@@ -9674,7 +9930,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">最新版 IntelliJ IDEA 使用手册</source>
       <description>最新版 IntelliJ IDEA 使用手册 共勉 不要哀求，学会争取。若是如此，终有所获。 前言 因为自己电脑最近实在是太卡了，也一直提示更新，索性就直接重装了个系统。因为需要重装下 IDEA，而现在新版本的 IDEA 和之前的版本还是有很大变化的，所以在这里写一篇博客做个记录，方便自己后续配置，也顺便分享给大家。 IDEA 的优势 为什么要使用 IDEA 呢？当然是因为它的强大。总结起来，IDEA 具有以下的主要优势：</description>
       <category>IDEA 教程</category>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 最新版 IntelliJ IDEA 使用手册</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -9836,7 +10092,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">原来大厂都是这么提交代码的</source>
       <description>原来大厂都是这么提交代码的 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/Mhc7tygE6Fl5_3h8mz7A9g</description>
       <category>IDEA 教程</category>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 原来大厂都是这么提交代码的</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -10053,394 +10309,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <link>https://cunyu1943.github.io/tutorial/idea-series/</link>
       <guid>https://cunyu1943.github.io/tutorial/idea-series/</guid>
       <source url="https://cunyu1943.github.io/rss.xml">IDEA 教程</source>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>2023 年刊</title>
-      <link>https://cunyu1943.github.io/weekly/2023/</link>
-      <guid>https://cunyu1943.github.io/weekly/2023/</guid>
-      <source url="https://cunyu1943.github.io/rss.xml">2023 年刊</source>
-      <pubDate>Sat, 26 Aug 2023 15:36:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>好物周刊#20</title>
-      <link>https://cunyu1943.github.io/weekly/2023/0826-0901.html</link>
-      <guid>https://cunyu1943.github.io/weekly/2023/0826-0901.html</guid>
-      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#20</source>
-      <description>好物周刊#20 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1、ForestBlog</description>
-      <category>好物周刊</category>
-      <pubDate>Fri, 25 Aug 2023 16:28:36 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 好物周刊#20</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<div class="hint-container tip">
-<p class="hint-container-title">原文</p>
-</div>
-<h2> 一、项目</h2>
-<h3> 1、<a href="https://github.com/saysky/ForestBlog" target="_blank" rel="noopener noreferrer">ForestBlog</a></h3>
-<p>一个简单漂亮的博客系统，基于 SSM（Spring、Spring MVC、MyBatis）开发，适合初学 SSM 和想要制作个人博客的朋友学习。最新版本已经支持用户注册，包含用户和管理员两种角色。</p>
-<h3> 2、<a href="https://github.com/auroral-ui/hexo-theme-aurora" target="_blank" rel="noopener noreferrer">hexo-theme-aurora</a></h3>
-<p>使用极光颜色和 UI 元素的下一代 Hexo 主题，基于 Vue3 开发，给你带来一种平滑流畅的色彩和未来感。</p>
-<h2> 二、软件</h2>
-<h3> 1、<a href="https://nxshell.github.io/" target="_blank" rel="noopener noreferrer">NxShell</a></h3>
-<p>一款跨平台的 SSH 新终端工具,就像当下流行的 PuTTY 终端一样。但 NxShell 随着后期功能的迭代完善,会生长出自己独有的终端工具超能力。</p>
-<p>软件支持如下功能：</p>
-<ul>
-<li>支持 SSH/Sftp/ftp/Serial/VNC 协议</li>
-<li>支持 Linux/Windows/macOS 多端平台</li>
-<li>支持中文和英文两种语言</li>
-<li>支持 SSH 隧道 Socks v5，当前开启后默认监听在 localhost:10080</li>
-<li>支持会话管理,导入和导出功能等</li>
-<li>支持 SSH rz/sz 命令文件上传下载</li>
-<li>支持终端主题配置</li>
-<li>支持终端日志管理</li>
-<li>支持分组分屏展示</li>
-<li>支持全屏模式</li>
-<li>支持同时发送命令到多个打开的 SSH 会话中</li>
-<li>支持会话锁定</li>
-<li>支持快捷键操作</li>
-<li>支持 Sftp 在线编辑器</li>
-<li>支持 lrz/lsz 文件传输</li>
-</ul>
-<figure><figcaption></figcaption></figure>
-<h3> 2、<a href="https://tableplus.com/" target="_blank" rel="noopener noreferrer">TablePlus</a></h3>
-<p>让数据库管理变得更简单，适用于关系型数据库的现代、原生且友好的可视化管理工具，支持 MySQL、PostgreSQL、SQLite、SQLServer、Redis、mongoDB 等。</p>
-<figure><figcaption></figcaption></figure>
-<h3> 3、<a href="https://github.com/leovan/SciHubEVA" target="_blank" rel="noopener noreferrer">SciHubEVA</a></h3>
-<p>一款由 Python 和 Qt 提供支持的跨平台Sci-Hub GUI 应用程序。想必每个被论文折磨的朋友都不陌生，主需要输入 URL、PMID、DOI 就能下载到绝大部分论文，妥妥地下载论文利器。</p>
-<h2> 三、网站</h2>
-<h3> 1、<a href="https://codepen.io/" target="_blank" rel="noopener noreferrer">CodePen</a></h3>
-<figure><figcaption></figcaption></figure>
-<h3> 2、<a href="https://jsrun.net/" target="_blank" rel="noopener noreferrer">JSRUN</a></h3>
-<p>创建于 2016 年，专注于在线代码运行。</p>
-<figure><figcaption></figcaption></figure>
-<h3> 3、<a href="https://codesandbox.io/" target="_blank" rel="noopener noreferrer">CodeSandbox</a></h3>
-<figure><figcaption></figcaption></figure>
-<h2> 四、插件</h2>
-<h2> 五、资料</h2>
-<h3> 1、<a href="https://github.com/LjyYano/Thinking_in_Java_MindMapping" target="_blank" rel="noopener noreferrer">Thinking_in_Java_MindMapping</a></h3>
-<p>一个包含了博主的编程笔记、观影指南、读书笔记、生活感悟、Switch 游戏等内容的仓库。</p>
-<h3> 2、<a href="https://github.com/dunwu/javacore" target="_blank" rel="noopener noreferrer">JavaCore</a></h3>
-<p>一个 Java 核心技术教程，包含以下方面内容：</p>
-<ul>
-<li>Java 基础特性</li>
-<li>Java 高级特性</li>
-<li>Java 容器</li>
-<li>Java IO</li>
-<li>Java 并发</li>
-<li>Java 虚拟机</li>
-<li>……</li>
-</ul>
-<h3> 3、<a href="https://github.com/polaris1119/golangweekly" target="_blank" rel="noopener noreferrer">Go 语言爱好者周刊</a></h3>
-<p>随着 Go 受到越来越多的关注，相关的文章、软件、资源也越来越多。Go 语言爱好者周刊旨在为大家分享一周值得了解、学习的 Go 语言相关内容。每周日发布。</p>
-<p>周刊自 2019 年开始发布，截止目前已经持续到了 198 期。</p>
-<h2> ✍️ 说明</h2>
-<p>周刊专栏相关信息：</p>
-<ul>
-<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
-<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/weekly" target="_blank" rel="noopener noreferrer">电子书</a></li>
-</ul>
-<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/weekly/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
-<hr>
-<h2> 🎬️ 广告</h2>
-<p>作为程序员，掌握数据结构与算法的重要性就不言而喻了。掌握了数据结构与算法，可以说你的编程能力就会有质的飞跃。任凭各种热门技术的如何变化，只要掌握了核心技能，那都可以见招拆招，做一个“赢家”。</p>
-<p>专栏共分为 4 个由浅入深的模块：</p>
-<ul>
-<li>入门篇</li>
-<li>基础篇</li>
-<li>高级篇</li>
-<li>实战篇</li>
-</ul>
-<p>作者采用最适合工程师的学习方式，不拘泥于某一特定编程语言，从实际开发场景出发，由浅入深教你学习数据结构与算法的方法，帮你搞懂基本概念和核心理论，深入理解算法精髓，帮你提升使用数据结构和算法思维解决问题的能力。</p>
-<p>想要进一步提升自己的竞争力么，那就赶紧加入和我一起学习吧！</p>
-<figure><figcaption></figcaption></figure>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>好物周刊#21：</title>
-      <link>https://cunyu1943.github.io/weekly/2023/0902-0908.html</link>
-      <guid>https://cunyu1943.github.io/weekly/2023/0902-0908.html</guid>
-      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#21：</source>
-      <description>好物周刊#21： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 二、软件 三、网站 Wappalyzer</description>
-      <category>好物周刊</category>
-      <pubDate>Fri, 25 Aug 2023 16:28:36 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 好物周刊#21：</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<div class="hint-container tip">
-<p class="hint-container-title">原文</p>
-</div>
-<h2> 一、项目</h2>
-<h2> 二、软件</h2>
-<h2> 三、网站</h2>
-<h3> <a href="https://www.wappalyzer.com/" target="_blank" rel="noopener noreferrer">Wappalyzer</a></h3>
-<p>一个跨平台程序，能够发现网站上使用的技术。检测网站的内容管理系统、Web 框架、服务器软件、分析工具等等。</p>
-<figure><figcaption></figcaption></figure>
-<h3> <a href="https://www.photopea.com/" target="_blank" rel="noopener noreferrer">Photopea</a></h3>
-<p>一个在线版的 PhotoShop，支持 PSD、AI、XD、sketch、PDF、XCF、RAW 等多种图片格式。</p>
-<figure><figcaption></figcaption></figure>
-<h3> <a href="https://passer-by.com/relationship/" target="_blank" rel="noopener noreferrer">中国亲戚关系计算器</a></h3>
-<p>逢年过节遇到三姑六婆，拒绝叫不出口的尴尬！轻松搞定亲戚关系。当前亲戚称呼大全已收录约 <strong>76602</strong> 条亲戚关系。</p>
-<figure><figcaption></figcaption></figure>
-<h2> 四、插件</h2>
-<h2> 五、资料</h2>
-<h2> ✍️ 说明</h2>
-<p>周刊专栏相关信息：</p>
-<ul>
-<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
-<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/weekly" target="_blank" rel="noopener noreferrer">电子书</a></li>
-</ul>
-<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/weekly/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
-<hr>
-<h2> 🎬️ 广告</h2>
-<p>当前大环境下，就业形势严峻，尤其针对即将毕业的大学生。作为一个技术求职者，求职前应该做好哪些准备呢，一些面试实战技巧也十分有必要！而刚好最近掘金出了一本《技术人求职指南》小册，相信一定会对在找工作的你有所帮助。</p>
-<p>从求职到拿下 <code>Offer</code>，一本职场的全方位攻略，快来和我一起学习吧！</p>
-<figure><figcaption></figcaption></figure>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>好物周刊#22：</title>
-      <link>https://cunyu1943.github.io/weekly/2023/0909-0915.html</link>
-      <guid>https://cunyu1943.github.io/weekly/2023/0909-0915.html</guid>
-      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#22：</source>
-      <description>好物周刊#22： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 二、软件 三、网站 PPChart</description>
-      <category>好物周刊</category>
-      <pubDate>Fri, 25 Aug 2023 16:28:36 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 好物周刊#22：</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<div class="hint-container tip">
-<p class="hint-container-title">原文</p>
-</div>
-<h2> 一、项目</h2>
-<h2> 二、软件</h2>
-<h2> 三、网站</h2>
-<h3> <a href="http://ppchart.com/#/" target="_blank" rel="noopener noreferrer">PPChart</a></h3>
-<p>让图表更简单。PPChart 提供 Echarts 收录、图表制作等服务。</p>
-<figure><figcaption></figcaption></figure>
-<h3> <a href="https://madeapie.com/#/" target="_blank" rel="noopener noreferrer">Made A Pie</a></h3>
-<p>Echarts 图表制作、案例分享、教程分享。汇聚了超多 Echarts 绘制案例，主要有以下类别：</p>
-<figure><figcaption></figcaption></figure>
-<h3> <a href="https://www.isqqw.com/" target="_blank" rel="noopener noreferrer">ISQQW</a></h3>
-<p>一个 ECharts 图表集，ECharts demo 集，Echarts gallery 社区。同时，在这里还可以分享你的可视化作品。</p>
-<figure><figcaption></figcaption></figure>
-<h2> 四、插件</h2>
-<h2> 五、资料</h2>
-<h2> ✍️ 说明</h2>
-<p>周刊专栏相关信息：</p>
-<ul>
-<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
-<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/weekly" target="_blank" rel="noopener noreferrer">电子书</a></li>
-</ul>
-<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/weekly/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
-<hr>
-<h2> 🎬️ 广告</h2>
-<p>作为程序员，掌握数据结构与算法的重要性就不言而喻了。掌握了数据结构与算法，可以说你的编程能力就会有质的飞跃。任凭各种热门技术的如何变化，只要掌握了核心技能，那都可以见招拆招，做一个“赢家”。</p>
-<p>专栏共分为 4 个由浅入深的模块：</p>
-<ul>
-<li>入门篇</li>
-<li>基础篇</li>
-<li>高级篇</li>
-<li>实战篇</li>
-</ul>
-<p>作者采用最适合工程师的学习方式，不拘泥于某一特定编程语言，从实际开发场景出发，由浅入深教你学习数据结构与算法的方法，帮你搞懂基本概念和核心理论，深入理解算法精髓，帮你提升使用数据结构和算法思维解决问题的能力。</p>
-<p>想要进一步提升自己的竞争力么，那就赶紧加入和我一起学习吧！</p>
-<figure><figcaption></figcaption></figure>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>好物周刊#23：</title>
-      <link>https://cunyu1943.github.io/weekly/2023/0916-0922.html</link>
-      <guid>https://cunyu1943.github.io/weekly/2023/0916-0922.html</guid>
-      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#23：</source>
-      <description>好物周刊#23： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 二、软件 三、网站 视觉效果集合</description>
-      <category>好物周刊</category>
-      <pubDate>Fri, 25 Aug 2023 16:28:36 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 好物周刊#23：</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<div class="hint-container tip">
-<p class="hint-container-title">原文</p>
-</div>
-<h2> 一、项目</h2>
-<h2> 二、软件</h2>
-<h2> 三、网站</h2>
-<h3> <a href="http://hepengwei.cn/#/html/visualDesign" target="_blank" rel="noopener noreferrer">视觉效果集合</a></h3>
-<p>一个专注于前端视觉效果的集合应用，里面包含各种丰富的 css 动效、canvas 动画等上百个案例，而且是开源免费的。</p>
-<figure><figcaption></figcaption></figure>
-<h2> 四、插件</h2>
-<h2> 五、资料</h2>
-<h2> ✍️ 说明</h2>
-<p>周刊专栏相关信息：</p>
-<ul>
-<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
-<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/weekly" target="_blank" rel="noopener noreferrer">电子书</a></li>
-</ul>
-<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/weekly/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
-<hr>
-<h2> 🎬️ 广告</h2>
-<p>当前大环境下，就业形势严峻，尤其针对即将毕业的大学生。作为一个技术求职者，求职前应该做好哪些准备呢，一些面试实战技巧也十分有必要！而刚好最近掘金出了一本《技术人求职指南》小册，相信一定会对在找工作的你有所帮助。</p>
-<p>从求职到拿下 <code>Offer</code>，一本职场的全方位攻略，快来和我一起学习吧！</p>
-<figure><figcaption></figcaption></figure>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>好物周刊#19：开源指北</title>
-      <link>https://cunyu1943.github.io/weekly/2023/0819-0825.html</link>
-      <guid>https://cunyu1943.github.io/weekly/2023/0819-0825.html</guid>
-      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#19：开源指北</source>
-      <description>好物周刊#19：开源指北 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/tqZW3qavO8WfYLAgHQANiA</description>
-      <category>好物周刊</category>
-      <pubDate>Fri, 25 Aug 2023 15:05:50 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 好物周刊#19：开源指北</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<div class="hint-container tip">
-<p class="hint-container-title">原文</p>
-<p><a href="https://mp.weixin.qq.com/s/tqZW3qavO8WfYLAgHQANiA" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/tqZW3qavO8WfYLAgHQANiA</a></p>
-</div>
-<h2> 一、项目</h2>
-<h3> 1、<a href="https://github.com/Vanessa219/vditor" target="_blank" rel="noopener noreferrer">Vditor</a></h3>
-<p>一款浏览器端的 Markdown 编辑器，支持所见即所得、即时渲染（类似 Typora）和分屏预览模式。它使用 TypeScript 实现，支持原生 JavaScript 以及 Vue、React、Angular 和 Svelte 等框架。</p>
-<figure><figcaption></figcaption></figure>
-<h3> 2、<a href="https://gitee.com/jeffvon/xxzsource" target="_blank" rel="noopener noreferrer">小玄猪商城</a></h3>
-<p>小玄猪商城是一套基于前后端分离的 B2B、B2C 商城系统，支持微信小程序、支付宝小程序、H5 商城、APP 商城。支持多商户入驻、适用于直播商城、社交电商、团购、拼团、秒杀、砍价、活动报名、客户管理、知识付费、积分商城、抽奖活动、会员卡、权益卡、成长值、预售、任务中心等场景。商城采用 TP6、VUE、element-vue-admin、uniapp 等技术栈，代码简洁，易于二次开发。</p>
-<figure><figcaption></figcaption></figure>
-<h3> 3、<a href="https://gitee.com/ruitao_admin/gododb" target="_blank" rel="noopener noreferrer">godoDb</a></h3>
-<p>一款 MySQL 数据库管理工具，具有以下特性：</p>
-<ul>
-<li>支持数据库备份还原，支持添加数据库；</li>
-<li>支持自动生成数据库设计文档，md 格式以及实时预览，可以下载成 pdf/word 文件；</li>
-<li>支持数据表名/注释/autoid 的更改，支持优化表/修复表/删除表/清空表；</li>
-<li>可查看/编辑/新增/复制任意表数据；</li>
-<li>可执行 sql 文件，并查看执行后的数据结果；</li>
-<li>可更改字段名/注释/默认值/排序，可拖拽排序字段，可删除字段；</li>
-<li>支持连接/管理多个外部数据库，可通过 ssh 连接外部数据库，可导入 pem 文件连接；</li>
-<li>支持数据库表保护；</li>
-<li>精细化的权限控制，多角色多用户管理；</li>
-<li>可查询每个用户的操作记录，方便回查；</li>
-</ul>
-<figure><figcaption></figcaption></figure>
-<h2> 二、软件</h2>
-<h3> 1、<a href="https://github.com/marktext/marktext" target="_blank" rel="noopener noreferrer">MarkText</a></h3>
-<p>一个简单优雅的开源 Markdown 编辑器，专注于速度和可用性。而且跨平台，在 Windows、macOS 以及 Linux 平台均可使用。</p>
-<figure><figcaption></figcaption></figure>
-<h3> 2、<a href="https://www.apps.vip/" target="_blank" rel="noopener noreferrer">想天工作台</a></h3>
-<p>你的副屏操作系统，集效率辅助、游戏娱乐、桌面美化于一身，让你的老设备再次就业，让屏幕解锁更多玩法。此外还支持以下特性：</p>
-<ul>
-<li>浅/暗色模式切换</li>
-<li>多屏联动</li>
-<li>内置浏览器</li>
-<li>启动器</li>
-<li>创意市场</li>
-<li>剪贴板</li>
-<li>弹幕</li>
-<li>壁纸</li>
-<li>轻聊</li>
-</ul>
-<figure><figcaption></figcaption></figure>
-<h3> 3、<a href="https://wanglin2.github.io/mind-map/#/index" target="_blank" rel="noopener noreferrer">SimpleMindMap</a></h3>
-<p>一个思维导图库，同时也是一个思维导图软件。开源、免费、强大...</p>
-<p>无论你是开发者，还是使用者，只要喜欢思维导图，都能在这个项目里找到你需要的。</p>
-<figure><figcaption></figcaption></figure>
-<h2> 三、网站</h2>
-<h3> 1、<a href="https://img.logosc.cn/" target="_blank" rel="noopener noreferrer">改图神器</a></h3>
-<p>AI 万能图片编辑器，在线修改图片颜色尺寸、智能抠图去水印，AI/EPS/PSD/SVG 全格式支持的在线图片编辑器。</p>
-<figure><figcaption></figcaption></figure>
-<h3> 2、<a href="https://jsfiddle.net/" target="_blank" rel="noopener noreferrer">JSFiddle</a></h3>
-<p>一个在线 IDE 服务和在线社区，用于测试和展示用户创建的协作 HTML，CSS 和 JavaScript 代码段。</p>
-<figure><figcaption></figcaption></figure>
-<h3> 3、<a href="http://www.lsjgcx.com/" target="_blank" rel="noopener noreferrer">历史价格查询</a></h3>
-<p>输入商品对应网址链接，就能查询商品的历史价格走势，让你不再被商家的各种促销活动忽悠，更清晰的了解商家活动是否为虚假促销以及促销力度。</p>
-<figure><figcaption></figcaption></figure>
-<h2> 四、插件</h2>
-<h3> 1、<a href="https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall" target="_blank" rel="noopener noreferrer">OneTab</a></h3>
-<p>当您发现自己有太多的标签页时，单击 OneTab 图标，将所有标签页转换成一个列表。当您需要再次访问这些标签页时，可以单独或全部恢复它们，从而节省高达 95％ 的内存。</p>
-<figure><figcaption></figcaption></figure>
-<h3> 2、<a href="https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg" target="_blank" rel="noopener noreferrer">FireShot</a></h3>
-<p>捕捉网页截图，编辑并将它们保存为 PDF，JPEG，GIF，PNG 或 BMP。然后用于上传，打印，在 Photoshop 中打开，复制到剪贴板或电子邮件等操作。</p>
-<figure><figcaption></figcaption></figure>
-<h3> 3、<a href="https://chrome.google.com/webstore/detail/simpread-reader-view/ijllcpnolfcooahcekpamkbidhejabll?hl=zh-CN" target="_blank" rel="noopener noreferrer">简悦</a></h3>
-<p>让你瞬间进入沉浸式阅读的 Chrome 扩展，类似 Safari 的阅读模式。插件具有以下特点：</p>
-<ul>
-<li>阅读模式</li>
-<li>聚焦模式</li>
-<li>丰富的导出功能</li>
-<li>定制化导出</li>
-<li>自动化</li>
-<li>标注</li>
-<li>同步</li>
-<li>每日回顾</li>
-<li>……</li>
-</ul>
-<figure><figcaption></figcaption></figure>
-<h2> 五、资料</h2>
-<h3> 1、<a href="https://github.com/shengxinjing/fe-advanced-interview" target="_blank" rel="noopener noreferrer">大圣前端进阶指南</a></h3>
-<p>一份前端进阶面试指南，解决前端进阶的难点。囊括了以下内容：</p>
-<ul>
-<li>React + TS 企业级实战 + 组件库</li>
-<li>Vue3 + TS 企业级实战 + 组件库</li>
-<li>前端工程师的算法课</li>
-<li>源码漫游</li>
-<li>前端面试课</li>
-<li>大圣前端私教课</li>
-</ul>
-<figure><figcaption></figcaption></figure>
-<h3> 2、<a href="https://gitee.com/gitee-community/opensource-guide" target="_blank" rel="noopener noreferrer">开源指北</a></h3>
-<p>一份给开源新手的保姆级开源百科，如果你还不知道如何开源该从何做起，不妨参考下这份指南。</p>
-<figure><figcaption></figcaption></figure>
-<h3> 3、<a href="https://gitee.com/jishupang/vue3-knowledge-map" target="_blank" rel="noopener noreferrer">Vue3.x 知识图谱</a></h3>
-<p>Vue3.x 知识地图，使用这个图可以大大加快开发效率，轻松记忆知识点，对于学习 Vue3 很有帮助。</p>
-<figure><figcaption></figcaption></figure>
-<h2> ✍️ 说明</h2>
-<p>周刊专栏相关信息：</p>
-<ul>
-<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
-<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/weekly" target="_blank" rel="noopener noreferrer">电子书</a></li>
-</ul>
-<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/weekly/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
-<hr>
-<h2> 🎬️ 广告</h2>
-<p>当前大环境下，就业形势严峻，尤其针对即将毕业的大学生。作为一个技术求职者，求职前应该做好哪些准备呢，一些面试实战技巧也十分有必要！而刚好最近掘金出了一本《技术人求职指南》小册，相信一定会对在找工作的你有所帮助。</p>
-<p>从求职到拿下 <code>Offer</code>，一本职场的全方位攻略，快来和我一起学习吧！</p>
-<figure><figcaption></figcaption></figure>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>JavaPark(Java 自学指南)</title>
-      <link>https://cunyu1943.github.io/home.html</link>
-      <guid>https://cunyu1943.github.io/home.html</guid>
-      <source url="https://cunyu1943.github.io/rss.xml">JavaPark(Java 自学指南)</source>
-      <description>JavaPark(Java 自学指南)</description>
-      <pubDate>Thu, 24 Aug 2023 09:25:45 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> JavaPark(Java 自学指南)</h1>
-]]></content:encoded>
-    </item>
-    <item>
-      <title></title>
-      <link>https://cunyu1943.github.io/frontmatter.html</link>
-      <guid>https://cunyu1943.github.io/frontmatter.html</guid>
-      <source url="https://cunyu1943.github.io/rss.xml"></source>
-      <description>共勉 不要哀求，学会争取。若是如此，终有所获。 原文</description>
-      <pubDate>Wed, 23 Aug 2023 14:55:09 GMT</pubDate>
-      <content:encoded><![CDATA[<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<div class="hint-container tip">
-<p class="hint-container-title">原文</p>
-</div>
-]]></content:encoded>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
     </item>
     <item>
       <title>好物周刊#1：提示工程师养成指南</title>
@@ -10449,7 +10318,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#1：提示工程师养成指南</source>
       <description>好物周刊#1：提示工程师养成指南 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/tRCcFjolMuXqunWRQDgxGQ</description>
       <category>好物周刊</category>
-      <pubDate>Wed, 23 Aug 2023 14:55:09 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#1：提示工程师养成指南</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -11106,7 +10975,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#2：AI 写作助手</source>
       <description>好物周刊#2：AI 写作助手 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/PjyWCciDJoxW83N_MY92Dw</description>
       <category>好物周刊</category>
-      <pubDate>Wed, 23 Aug 2023 14:55:09 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#2：AI 写作助手</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -11344,7 +11213,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#3：Java 学习面试指南</source>
       <description>好物周刊#3：Java 学习面试指南 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/vNyT3cSSxUMy9LuD6t91ag</description>
       <category>好物周刊</category>
-      <pubDate>Wed, 23 Aug 2023 14:55:09 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#3：Java 学习面试指南</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -11490,7 +11359,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#4：每天一条 JS 小技巧</source>
       <description>好物周刊#4：每天一条 JS 小技巧 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/Tg3n71-R2ya4go_W1imIgw</description>
       <category>好物周刊</category>
-      <pubDate>Wed, 23 Aug 2023 14:55:09 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#4：每天一条 JS 小技巧</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -11651,7 +11520,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#5：前端开发必备资源站</source>
       <description>好物周刊#5：前端开发必备资源站 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/kbKCzyn7OtG4iuJEWtQkWA</description>
       <category>好物周刊</category>
-      <pubDate>Wed, 23 Aug 2023 14:55:09 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#5：前端开发必备资源站</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -11779,7 +11648,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#6：系统下载最优解</source>
       <description>好物周刊#6：系统下载最优解 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/o6aLSsEfFcwgzbwQrKxqYg</description>
       <category>好物周刊</category>
-      <pubDate>Wed, 23 Aug 2023 14:55:09 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#6：系统下载最优解</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -11892,7 +11761,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#7：炫酷的浏览器标签页</source>
       <description>好物周刊#7：炫酷的浏览器标签页 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/s3NpyL6JeybdJfHurlOakw</description>
       <category>好物周刊</category>
-      <pubDate>Wed, 23 Aug 2023 14:55:09 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#7：炫酷的浏览器标签页</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -12055,7 +11924,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#8：开源镜像站</source>
       <description>好物周刊#8：开源镜像站 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/4TMrFj2BR43zRIQ7H-8t2w</description>
       <category>好物周刊</category>
-      <pubDate>Wed, 23 Aug 2023 14:55:09 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#8：开源镜像站</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -12189,7 +12058,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#9：AI 学习必备资料</source>
       <description>好物周刊#9：AI 学习必备资料 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/qgnhS4UUnWWuKonROqMA7g</description>
       <category>好物周刊</category>
-      <pubDate>Wed, 23 Aug 2023 14:55:09 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#9：AI 学习必备资料</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -12313,7 +12182,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#10：算法学习必备</source>
       <description>好物周刊#10：算法学习必备 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/LHDwyFupkXWcEvVhOQb36A</description>
       <category>好物周刊</category>
-      <pubDate>Wed, 23 Aug 2023 14:55:09 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#10：算法学习必备</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -12443,7 +12312,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#11：远程桌面软件</source>
       <description>好物周刊#11：远程桌面软件 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/4az9STvM2jiwHhRa_k060Q</description>
       <category>好物周刊</category>
-      <pubDate>Wed, 23 Aug 2023 14:55:09 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#11：远程桌面软件</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -12598,7 +12467,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#12：计算机考研资料</source>
       <description>好物周刊#12：计算机考研资料 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/-flJ1uEH5IPhxWp5J6Bexg</description>
       <category>好物周刊</category>
-      <pubDate>Wed, 23 Aug 2023 14:55:09 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#12：计算机考研资料</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -12722,7 +12591,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#13：免费下载软件</source>
       <description>好物周刊#13：免费下载软件 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/mGTQR1wyFWauahQ3PJ6jPA</description>
       <category>好物周刊</category>
-      <pubDate>Wed, 23 Aug 2023 14:55:09 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#13：免费下载软件</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -12849,7 +12718,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#14：壁纸下载网站</source>
       <description>好物周刊#14：壁纸下载网站 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/RZeCM4qnAinMzC94SZupMg</description>
       <category>好物周刊</category>
-      <pubDate>Wed, 23 Aug 2023 14:55:09 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#14：壁纸下载网站</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -12979,7 +12848,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#15：远程控制软件</source>
       <description>好物周刊#15：远程控制软件 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/XmW-JmHxZh8X9yiGvmWfqg</description>
       <category>好物周刊</category>
-      <pubDate>Wed, 23 Aug 2023 14:55:09 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#15：远程控制软件</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -13090,7 +12959,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#16：别致的二维码</source>
       <description>好物周刊#16：别致的二维码 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/ERos0gfETiyjIpqNE_jBsA</description>
       <category>好物周刊</category>
-      <pubDate>Wed, 23 Aug 2023 14:55:09 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#16：别致的二维码</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -13490,7 +13359,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#17：美图合集 App</source>
       <description>好物周刊#17：美图合集 App 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/bPh_VRqv_y1fFZUxfOT_GQ</description>
       <category>好物周刊</category>
-      <pubDate>Wed, 23 Aug 2023 14:55:09 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#17：美图合集 App</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -13604,7 +13473,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#18：灵感收集器</source>
       <description>好物周刊#18：灵感收集器 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/6S1Lde5v64sI0R-UttKJgA</description>
       <category>好物周刊</category>
-      <pubDate>Wed, 23 Aug 2023 14:55:09 GMT</pubDate>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#18：灵感收集器</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -13727,6 +13596,137 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <p>想要进一步提升自己的竞争力么，那就赶紧加入和我一起学习吧！</p>
 <figure><figcaption></figcaption></figure>
 ]]></content:encoded>
+    </item>
+    <item>
+      <title>好物周刊#19：开源指北</title>
+      <link>https://cunyu1943.github.io/weekly/2023/0819-0825.html</link>
+      <guid>https://cunyu1943.github.io/weekly/2023/0819-0825.html</guid>
+      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#19：开源指北</source>
+      <description>好物周刊#19：开源指北 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/tqZW3qavO8WfYLAgHQANiA</description>
+      <category>好物周刊</category>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 好物周刊#19：开源指北</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">原文</p>
+<p><a href="https://mp.weixin.qq.com/s/tqZW3qavO8WfYLAgHQANiA" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/tqZW3qavO8WfYLAgHQANiA</a></p>
+</div>
+<h2> 一、项目</h2>
+<h3> 1、<a href="https://github.com/Vanessa219/vditor" target="_blank" rel="noopener noreferrer">Vditor</a></h3>
+<p>一款浏览器端的 Markdown 编辑器，支持所见即所得、即时渲染（类似 Typora）和分屏预览模式。它使用 TypeScript 实现，支持原生 JavaScript 以及 Vue、React、Angular 和 Svelte 等框架。</p>
+<figure><figcaption></figcaption></figure>
+<h3> 2、<a href="https://gitee.com/jeffvon/xxzsource" target="_blank" rel="noopener noreferrer">小玄猪商城</a></h3>
+<p>小玄猪商城是一套基于前后端分离的 B2B、B2C 商城系统，支持微信小程序、支付宝小程序、H5 商城、APP 商城。支持多商户入驻、适用于直播商城、社交电商、团购、拼团、秒杀、砍价、活动报名、客户管理、知识付费、积分商城、抽奖活动、会员卡、权益卡、成长值、预售、任务中心等场景。商城采用 TP6、VUE、element-vue-admin、uniapp 等技术栈，代码简洁，易于二次开发。</p>
+<figure><figcaption></figcaption></figure>
+<h3> 3、<a href="https://gitee.com/ruitao_admin/gododb" target="_blank" rel="noopener noreferrer">godoDb</a></h3>
+<p>一款 MySQL 数据库管理工具，具有以下特性：</p>
+<ul>
+<li>支持数据库备份还原，支持添加数据库；</li>
+<li>支持自动生成数据库设计文档，md 格式以及实时预览，可以下载成 pdf/word 文件；</li>
+<li>支持数据表名/注释/autoid 的更改，支持优化表/修复表/删除表/清空表；</li>
+<li>可查看/编辑/新增/复制任意表数据；</li>
+<li>可执行 sql 文件，并查看执行后的数据结果；</li>
+<li>可更改字段名/注释/默认值/排序，可拖拽排序字段，可删除字段；</li>
+<li>支持连接/管理多个外部数据库，可通过 ssh 连接外部数据库，可导入 pem 文件连接；</li>
+<li>支持数据库表保护；</li>
+<li>精细化的权限控制，多角色多用户管理；</li>
+<li>可查询每个用户的操作记录，方便回查；</li>
+</ul>
+<figure><figcaption></figcaption></figure>
+<h2> 二、软件</h2>
+<h3> 1、<a href="https://github.com/marktext/marktext" target="_blank" rel="noopener noreferrer">MarkText</a></h3>
+<p>一个简单优雅的开源 Markdown 编辑器，专注于速度和可用性。而且跨平台，在 Windows、macOS 以及 Linux 平台均可使用。</p>
+<figure><figcaption></figcaption></figure>
+<h3> 2、<a href="https://www.apps.vip/" target="_blank" rel="noopener noreferrer">想天工作台</a></h3>
+<p>你的副屏操作系统，集效率辅助、游戏娱乐、桌面美化于一身，让你的老设备再次就业，让屏幕解锁更多玩法。此外还支持以下特性：</p>
+<ul>
+<li>浅/暗色模式切换</li>
+<li>多屏联动</li>
+<li>内置浏览器</li>
+<li>启动器</li>
+<li>创意市场</li>
+<li>剪贴板</li>
+<li>弹幕</li>
+<li>壁纸</li>
+<li>轻聊</li>
+</ul>
+<figure><figcaption></figcaption></figure>
+<h3> 3、<a href="https://wanglin2.github.io/mind-map/#/index" target="_blank" rel="noopener noreferrer">SimpleMindMap</a></h3>
+<p>一个思维导图库，同时也是一个思维导图软件。开源、免费、强大...</p>
+<p>无论你是开发者，还是使用者，只要喜欢思维导图，都能在这个项目里找到你需要的。</p>
+<figure><figcaption></figcaption></figure>
+<h2> 三、网站</h2>
+<h3> 1、<a href="https://img.logosc.cn/" target="_blank" rel="noopener noreferrer">改图神器</a></h3>
+<p>AI 万能图片编辑器，在线修改图片颜色尺寸、智能抠图去水印，AI/EPS/PSD/SVG 全格式支持的在线图片编辑器。</p>
+<figure><figcaption></figcaption></figure>
+<h3> 2、<a href="https://jsfiddle.net/" target="_blank" rel="noopener noreferrer">JSFiddle</a></h3>
+<p>一个在线 IDE 服务和在线社区，用于测试和展示用户创建的协作 HTML，CSS 和 JavaScript 代码段。</p>
+<figure><figcaption></figcaption></figure>
+<h3> 3、<a href="http://www.lsjgcx.com/" target="_blank" rel="noopener noreferrer">历史价格查询</a></h3>
+<p>输入商品对应网址链接，就能查询商品的历史价格走势，让你不再被商家的各种促销活动忽悠，更清晰的了解商家活动是否为虚假促销以及促销力度。</p>
+<figure><figcaption></figcaption></figure>
+<h2> 四、插件</h2>
+<h3> 1、<a href="https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall" target="_blank" rel="noopener noreferrer">OneTab</a></h3>
+<p>当您发现自己有太多的标签页时，单击 OneTab 图标，将所有标签页转换成一个列表。当您需要再次访问这些标签页时，可以单独或全部恢复它们，从而节省高达 95％ 的内存。</p>
+<figure><figcaption></figcaption></figure>
+<h3> 2、<a href="https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg" target="_blank" rel="noopener noreferrer">FireShot</a></h3>
+<p>捕捉网页截图，编辑并将它们保存为 PDF，JPEG，GIF，PNG 或 BMP。然后用于上传，打印，在 Photoshop 中打开，复制到剪贴板或电子邮件等操作。</p>
+<figure><figcaption></figcaption></figure>
+<h3> 3、<a href="https://chrome.google.com/webstore/detail/simpread-reader-view/ijllcpnolfcooahcekpamkbidhejabll?hl=zh-CN" target="_blank" rel="noopener noreferrer">简悦</a></h3>
+<p>让你瞬间进入沉浸式阅读的 Chrome 扩展，类似 Safari 的阅读模式。插件具有以下特点：</p>
+<ul>
+<li>阅读模式</li>
+<li>聚焦模式</li>
+<li>丰富的导出功能</li>
+<li>定制化导出</li>
+<li>自动化</li>
+<li>标注</li>
+<li>同步</li>
+<li>每日回顾</li>
+<li>……</li>
+</ul>
+<figure><figcaption></figcaption></figure>
+<h2> 五、资料</h2>
+<h3> 1、<a href="https://github.com/shengxinjing/fe-advanced-interview" target="_blank" rel="noopener noreferrer">大圣前端进阶指南</a></h3>
+<p>一份前端进阶面试指南，解决前端进阶的难点。囊括了以下内容：</p>
+<ul>
+<li>React + TS 企业级实战 + 组件库</li>
+<li>Vue3 + TS 企业级实战 + 组件库</li>
+<li>前端工程师的算法课</li>
+<li>源码漫游</li>
+<li>前端面试课</li>
+<li>大圣前端私教课</li>
+</ul>
+<figure><figcaption></figcaption></figure>
+<h3> 2、<a href="https://gitee.com/gitee-community/opensource-guide" target="_blank" rel="noopener noreferrer">开源指北</a></h3>
+<p>一份给开源新手的保姆级开源百科，如果你还不知道如何开源该从何做起，不妨参考下这份指南。</p>
+<figure><figcaption></figcaption></figure>
+<h3> 3、<a href="https://gitee.com/jishupang/vue3-knowledge-map" target="_blank" rel="noopener noreferrer">Vue3.x 知识图谱</a></h3>
+<p>Vue3.x 知识地图，使用这个图可以大大加快开发效率，轻松记忆知识点，对于学习 Vue3 很有帮助。</p>
+<figure><figcaption></figcaption></figure>
+<h2> ✍️ 说明</h2>
+<p>周刊专栏相关信息：</p>
+<ul>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/weekly" target="_blank" rel="noopener noreferrer">电子书</a></li>
+</ul>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/weekly/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<hr>
+<h2> 🎬️ 广告</h2>
+<p>当前大环境下，就业形势严峻，尤其针对即将毕业的大学生。作为一个技术求职者，求职前应该做好哪些准备呢，一些面试实战技巧也十分有必要！而刚好最近掘金出了一本《技术人求职指南》小册，相信一定会对在找工作的你有所帮助。</p>
+<p>从求职到拿下 <code>Offer</code>，一本职场的全方位攻略，快来和我一起学习吧！</p>
+<figure><figcaption></figcaption></figure>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>2023 年刊</title>
+      <link>https://cunyu1943.github.io/weekly/2023/</link>
+      <guid>https://cunyu1943.github.io/weekly/2023/</guid>
+      <source url="https://cunyu1943.github.io/rss.xml">2023 年刊</source>
+      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
     </item>
   </channel>
 </rss>
