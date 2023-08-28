@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习、面试求职、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 28 Aug 2023 13:56:58 GMT</pubDate>
-    <lastBuildDate>Mon, 28 Aug 2023 13:56:58 GMT</lastBuildDate>
+    <pubDate>Mon, 28 Aug 2023 15:27:38 GMT</pubDate>
+    <lastBuildDate>Mon, 28 Aug 2023 15:27:38 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>好物周刊</category>
@@ -205,6 +205,8 @@
 <li>拥抱开源</li>
 <li>……</li>
 </ul>
+<h3> 3. <a href="https://github.com/qianguyihao/Web" target="_blank" rel="noopener noreferrer">Web</a></h3>
+<p>千古前端图文教程，超详细的前端入门到进阶知识库。从零开始学前端，做一名精致优雅的前端工程师。</p>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
