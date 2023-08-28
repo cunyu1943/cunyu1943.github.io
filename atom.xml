@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习、面试求职、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2023-08-28T05:28:35.224Z</updated>
+  <updated>2023-08-28T05:30:36.800Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -20,7 +20,7 @@
     <title type="text">好物周刊#20</title>
     <id>https://cunyu1943.github.io/weekly/2023/0826-0901.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0826-0901.html"/>
-    <updated>2023-08-27T14:31:39.000Z</updated>
+    <updated>2023-08-28T05:27:17.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#20</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -42,8 +42,10 @@
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://github.com/saysky/ForestBlog" target="_blank" rel="noopener noreferrer">ForestBlog</a></h3>
 <p>一个简单漂亮的博客系统，基于 SSM（Spring、Spring MVC、MyBatis）开发，适合初学 SSM 和想要制作个人博客的朋友学习。最新版本已经支持用户注册，包含用户和管理员两种角色。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693200076553.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://github.com/auroral-ui/hexo-theme-aurora" target="_blank" rel="noopener noreferrer">hexo-theme-aurora</a></h3>
 <p>使用极光颜色和 UI 元素的下一代 Hexo 主题，基于 Vue3 开发，给你带来一种平滑流畅的色彩和未来感。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693200183918.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. <a href="https://github.com/more-strive/yft-design" target="_blank" rel="noopener noreferrer">yft-design</a></h3>
 <p>使用 Vue3 + TypeScript + Fabric.js + Pinia + Element-Plus，支持 文字、图片、形状、线条、二维码 、条形码几种最常用的元素类型，每一种元素都拥有高度可编辑能力，缩略图显示，模板，支持导出 JSON、SVG、Image 文件。</p>
 <figure><figcaption></figcaption></figure>
@@ -74,6 +76,7 @@
 <figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://github.com/leovan/SciHubEVA" target="_blank" rel="noopener noreferrer">SciHubEVA</a></h3>
 <p>一款由 <code>Python</code> 和 <code>Qt</code> 提供支持的跨平台 <code>Sci-Hub GUI</code> 应用程序。想必每个被论文折磨的朋友都不陌生，主需要输入 <code>URL</code>、<code>PMID</code>、<code>DOI</code> 就能下载到绝大部分论文，妥妥地下载论文利器。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693200234101.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://codepen.io/" target="_blank" rel="noopener noreferrer">CodePen</a></h3>
 <p>一个前端在线开发工具，能够直接在线实时渲染代码效果。而且可以免费托管前端代码，用于制作和测试页面。</p>
@@ -88,6 +91,7 @@
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://github.com/LjyYano/Thinking_in_Java_MindMapping" target="_blank" rel="noopener noreferrer">Thinking_in_Java_MindMapping</a></h3>
 <p>一个包含了博主的编程笔记、观影指南、读书笔记、生活感悟、Switch 游戏等内容的仓库。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693200276259.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://github.com/dunwu/javacore" target="_blank" rel="noopener noreferrer">JavaCore</a></h3>
 <p>一个 Java 核心技术教程，包含以下方面内容：</p>
 <ul>
@@ -99,9 +103,11 @@
 <li>Java 虚拟机</li>
 <li>……</li>
 </ul>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693200314558.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. <a href="https://github.com/polaris1119/golangweekly" target="_blank" rel="noopener noreferrer">Go 语言爱好者周刊</a></h3>
 <p>随着 Go 受到越来越多的关注，相关的文章、软件、资源也越来越多。Go 语言爱好者周刊旨在为大家分享一周值得了解、学习的 Go 语言相关内容。每周日发布。</p>
 <p>周刊自 2019 年开始发布，截止目前已经持续到了 198 期。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693200352218.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
