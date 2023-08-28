@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习、面试求职、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2023-08-28T13:54:05.808Z</updated>
+  <updated>2023-08-28T13:56:58.701Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -20,7 +20,7 @@
     <title type="text">好物周刊#20</title>
     <id>https://cunyu1943.github.io/weekly/2023/0826-0901.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0826-0901.html"/>
-    <updated>2023-08-28T05:27:17.000Z</updated>
+    <updated>2023-08-28T12:44:59.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#20</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -48,7 +48,7 @@
 <figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693200183918.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. <a href="https://github.com/more-strive/yft-design" target="_blank" rel="noopener noreferrer">yft-design</a></h3>
 <p>使用 Vue3 + TypeScript + Fabric.js + Pinia + Element-Plus，支持 文字、图片、形状、线条、二维码 、条形码几种最常用的元素类型，每一种元素都拥有高度可编辑能力，缩略图显示，模板，支持导出 JSON、SVG、Image 文件。</p>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693138016247.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
 <h3> 1. <a href="https://nxshell.github.io/" target="_blank" rel="noopener noreferrer">NxShell</a></h3>
 <p>一款跨平台的 SSH 新终端工具,就像当下流行的 PuTTY 终端一样。但 NxShell 随着后期功能的迭代完善,会生长出自己独有的终端工具超能力。</p>
@@ -70,23 +70,23 @@
 <li>支持 Sftp 在线编辑器</li>
 <li>支持 lrz/lsz 文件传输</li>
 </ul>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/image.1cpyex0565pc.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://tableplus.com/" target="_blank" rel="noopener noreferrer">TablePlus</a></h3>
 <p>让数据库管理变得更简单，适用于关系型数据库的现代、原生且友好的可视化管理工具，支持 MySQL、PostgreSQL、SQLite、SQLServer、Redis、mongoDB 等。</p>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1690811656100.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. <a href="https://github.com/leovan/SciHubEVA" target="_blank" rel="noopener noreferrer">SciHubEVA</a></h3>
 <p>一款由 <code>Python</code> 和 <code>Qt</code> 提供支持的跨平台 <code>Sci-Hub GUI</code> 应用程序。想必每个被论文折磨的朋友都不陌生，主需要输入 <code>URL</code>、<code>PMID</code>、<code>DOI</code> 就能下载到绝大部分论文，妥妥地下载论文利器。</p>
 <figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693200234101.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://codepen.io/" target="_blank" rel="noopener noreferrer">CodePen</a></h3>
 <p>一个前端在线开发工具，能够直接在线实时渲染代码效果。而且可以免费托管前端代码，用于制作和测试页面。</p>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1690768321171.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://jsrun.net/" target="_blank" rel="noopener noreferrer">JSRUN</a></h3>
 <p>创建于 2016 年，专注于在线代码运行，支持在移动端编写代码的编辑器，支持在线运行 <code>HTML</code>、<code>Node.JS</code>、<code>C</code>、<code>Python</code>、<code>PHP</code>、<code>Java</code>、<code>MySQL</code>、<code>C#</code>、<code>Go</code> 等语言。</p>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1690768349594.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. <a href="https://codesandbox.io/" target="_blank" rel="noopener noreferrer">CodeSandbox</a></h3>
 <p>一个可以在线运行代码的编辑器，主要用于创建 <code>Web</code> 应用，支持 <code>JavaScript</code>、<code>TypeScript</code>、<code>CSS</code>、<code>Less</code>、<code>Sass</code>、<code>HTML</code> 等多种文件。</p>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1690768437267.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://github.com/LjyYano/Thinking_in_Java_MindMapping" target="_blank" rel="noopener noreferrer">Thinking_in_Java_MindMapping</a></h3>
@@ -136,7 +136,7 @@
     <title type="text">好物周刊#21：</title>
     <id>https://cunyu1943.github.io/weekly/2023/0902-0908.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0902-0908.html"/>
-    <updated>2023-08-27T12:10:24.000Z</updated>
+    <updated>2023-08-28T13:54:16.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#21：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -146,9 +146,7 @@
 <p class="hint-container-title">原文</p>
 </div>
 <h2> 一、项目</h2>
-<h2> 二、软件</h2>
-<h2> 三、网站</h2>
-<h3> 1. <a href="https://www.wappalyzer.com/" target="_blank" rel="noopener noreferrer">Wappalyzer</a></h3>]]></summary>
+<h3> 1. <a href="https://github.com/Nepxion/Discovery" target="_blank" rel="noopener noreferrer">Discovery</a></h3>]]></summary>
     <content type="html"><![CDATA[<h1> 好物周刊#21：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -158,7 +156,41 @@
 <p class="hint-container-title">原文</p>
 </div>
 <h2> 一、项目</h2>
+<h3> 1. <a href="https://github.com/Nepxion/Discovery" target="_blank" rel="noopener noreferrer">Discovery</a></h3>
+<p>云原生微服务解决方案，支持蓝绿灰度发布、路由、限流、熔断、降级、隔离、追踪、流量染色、故障转移、多活。</p>
 <h2> 二、软件</h2>
+<h3> 1. <a href="https://github.com/Tatsu-syo/noMeiryoUI" target="_blank" rel="noopener noreferrer">noMeiryoUI</a></h3>
+<p>Windows 系统字体修改工具，支持 Windows 8/8.1/10/11 系统的的字体修改，软件只是对主题字体风格设置进行修改，而不是对系统字体本身的渲染、修改，所以无风险，无占用，渲染美化系统字体风格。</p>
+<h3> 2. <a href="https://tabby.sh/" target="_blank" rel="noopener noreferrer">Tabby</a></h3>
+<p>一个可高度配置的终端模拟器和 SSH 或串口客户端，支持 Windows，macOS 和 Linux，支持如下功能：</p>
+<ul>
+<li>集成 SSH，Telnet 客户端和连接管理器</li>
+<li>集成串行终端</li>
+<li>定制主题和配色方案</li>
+<li>完全可配置的快捷键和多键快捷键</li>
+<li>分体式窗格</li>
+<li>自动保存标签页</li>
+<li>支持 PowerShell（和 PS Core）、WSL、Git-Bash、Cygwin、MSYS2、Cmder 和 CMD</li>
+<li>在 SSH 会话中通过 Zmodem 进行直接文件传输</li>
+<li>完整的 Unicode 支持，包括双角字符</li>
+<li>不会因快速的输出而卡住</li>
+<li>Windows 上舒适的 shell 体验，包括 tab 自动补全（通过 Clink）</li>
+<li>为 SSH secrets 和设置集成了加密容器</li>
+<li>SSH、SFTP 和 Telnet 客户端可用作 Web 应用（也可托管）</li>
+</ul>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693227832276.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://github.com/Molunerfinn/PicGo" target="_blank" rel="noopener noreferrer">PicGo</a></h3>
+<p>一个用于快速上传图片并获取图片 URL 链接的工具，目前支持如下图床：</p>
+<ul>
+<li>七牛图床</li>
+<li>腾讯云 COS</li>
+<li>又拍云</li>
+<li>Github</li>
+<li><a href="http://SM.MS" target="_blank" rel="noopener noreferrer">SM.MS</a></li>
+<li>阿里云 OSS</li>
+<li>Imgur</li>
+</ul>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693230661300.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://www.wappalyzer.com/" target="_blank" rel="noopener noreferrer">Wappalyzer</a></h3>
 <p>一个跨平台程序，能够发现网站上使用的技术。检测网站的内容管理系统、Web 框架、服务器软件、分析工具等等。</p>
@@ -171,6 +203,21 @@
 <figure><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
+<h3> 1. <a href="https://github.com/hehonghui/awesome-english-ebooks" target="_blank" rel="noopener noreferrer">awesome-english-ebooks</a></h3>
+<p>经济学人(含音频)、纽约客、卫报、连线、大西洋月刊等英语杂志免费下载,支持 epub、mobi、pdf 格式, 每周更新。</p>
+<h3> 2. <a href="https://github.com/chodocs/chodocs" target="_blank" rel="noopener noreferrer">ChoDocs</a></h3>
+<p>一站式前端内容网站，包括学习路线、知识体系。用专栏形式更新，主要包含以下方面内容：</p>
+<ul>
+<li>面试专栏</li>
+<li>编程学习</li>
+<li>前端算法</li>
+<li>备忘录</li>
+<li>学习圈子</li>
+<li>编程工具</li>
+<li>技术视野</li>
+<li>拥抱开源</li>
+<li>……</li>
+</ul>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
@@ -485,7 +532,7 @@
     <title type="text">Java 入门简介</title>
     <id>https://cunyu1943.github.io/java-tutorial/javase-series/20220701-intro-to-java.html</id>
     <link href="https://cunyu1943.github.io/java-tutorial/javase-series/20220701-intro-to-java.html"/>
-    <updated>2023-08-27T01:05:55.000Z</updated>
+    <updated>2023-08-28T13:54:16.000Z</updated>
     <summary type="html"><![CDATA[<h1> Java 入门简介</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -504,9 +551,9 @@
 <p class="hint-container-title">原文</p>
 <p><a href="https://mp.weixin.qq.com/s/aGz8CBOK5mW8xjAlstlMQw" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/aGz8CBOK5mW8xjAlstlMQw</a></p>
 </div>
-<h2> 1. 前言</h2>
+<h2> 一、前言</h2>
 <p>既然要学习一门技术，那么就先来了解下它的历史，我们为什么要使用它，以及我们能用它来干啥。</p>
-<h2> 2. 历史背景</h2>
+<h2> 二、历史背景</h2>
 <p>1990 年代初，<code>Sun</code> 公司的詹姆斯·高斯林等人为了实现电视机、电话、闹钟等家用电器的控制和通信，开发了一套用于设置在家用电器等小型系统中的编程语言。在当时，这门语言被命名为 <code>Oka</code>。但由于市场需求不高，所以该计划被逐渐放弃。</p>
 <p>随着 1990 年代互联网的发展，<code>Sun</code> 公司发现 <code>Oka</code> 语言在互联网中的应用前景广泛。于是决定对 <code>Oka</code> 进行改造，并在 1995 年 5 月以 <code>Java</code> 的名义正式发布。</p>
 <p>随着互联网的迅猛发展，Java 也得以逐渐成为重要的网络编程语言，詹姆斯·高斯林也被大家公认为 <code>Java</code> 之父。</p>
@@ -623,7 +670,7 @@
 </tr>
 </tbody>
 </table>
-<h2> 3. 为什么使用 Java</h2>
+<h2> 三、为什么使用 Java</h2>
 <p>既然编程语言有那么多，那我们为什么要使用 Java 语言呢？以下就来看看 Java 被广泛使用的几个原因。</p>
 <ol>
 <li><strong>世界范围内流行，国内使用最为广泛的编程语言之一。</strong></li>
@@ -639,7 +686,7 @@
 <li><strong>开发社区完善</strong></li>
 </ol>
 <p>社区完善也是 Java 为什么使用多的原因，各种封装 API，比起 C、C++ 语言使用起来更加方便。虽然 <code>Python</code> 的封装程度更高，但是其效率比起 <code>Java</code> 却打了折扣。毕竟封装程度和效率是成反比的，<code>Java</code> 兼具了效率高和使用方便的特点，所以更受人们青睐。</p>
-<h2> 4. Java 能做什么</h2>
+<h2> 四、Java 能做什么</h2>
 <p>Java 应用广泛，在我们日常中就能经常见到由 Java 所开发的程序。常见的的应用应用领域如下：</p>
 <ol>
 <li><strong>桌面 GUI 应用开发</strong></li>
@@ -650,7 +697,7 @@
 <li><strong>游戏开发</strong></li>
 <li>……</li>
 </ol>
-<h2> 5. Java 技术体系</h2>
+<h2> 五、Java 技术体系</h2>
 <p>根据传统意义上 Sun 官方定义， Java 技术体系的组成主要就是我们常说的 JDK，即以下三部分：</p>
 <ol>
 <li><strong>Java 程序设计语言</strong></li>
@@ -672,7 +719,7 @@
 </ol>
 <p>Java Micro Edition，即 Java 小型版。主要是 Java 针对移动设备应用所提供的一套解决方案，主要运行在手机、pad 等移动端。</p>
 <figure><figcaption></figcaption></figure>
-<h2> 6. 总结</h2>
+<h2> 六、总结</h2>
 <p>本文主要从 Java 历史背景、选择 Java 的理由、Java 能做什么、Java 技术体系等 4 方面对 Java 语言做了一个简单介绍。接下来的文章我们就来看看，如何搭建 Java 的开发环境以及实现一个简单的入门程序。</p>
 ]]></content>
     <category term="Java 基础"/>
