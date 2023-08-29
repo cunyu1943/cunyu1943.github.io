@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习、面试求职、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 29 Aug 2023 00:29:43 GMT</pubDate>
-    <lastBuildDate>Tue, 29 Aug 2023 00:29:43 GMT</lastBuildDate>
+    <pubDate>Tue, 29 Aug 2023 00:31:37 GMT</pubDate>
+    <lastBuildDate>Tue, 29 Aug 2023 00:31:37 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>好物周刊</category>
@@ -145,9 +145,11 @@
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://github.com/Nepxion/Discovery" target="_blank" rel="noopener noreferrer">Discovery</a></h3>
 <p>云原生微服务解决方案，支持蓝绿灰度发布、路由、限流、熔断、降级、隔离、追踪、流量染色、故障转移、多活。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693268061437.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
 <h3> 1. <a href="https://github.com/Tatsu-syo/noMeiryoUI" target="_blank" rel="noopener noreferrer">noMeiryoUI</a></h3>
 <p>Windows 系统字体修改工具，支持 Windows 8/8.1/10/11 系统的的字体修改，软件只是对主题字体风格设置进行修改，而不是对系统字体本身的渲染、修改，所以无风险，无占用，渲染美化系统字体风格。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693268208239.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://tabby.sh/" target="_blank" rel="noopener noreferrer">Tabby</a></h3>
 <p>一个可高度配置的终端模拟器和 SSH 或串口客户端，支持 Windows，macOS 和 Linux，支持如下功能：</p>
 <ul>
@@ -192,6 +194,7 @@
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://github.com/hehonghui/awesome-english-ebooks" target="_blank" rel="noopener noreferrer">awesome-english-ebooks</a></h3>
 <p>经济学人(含音频)、纽约客、卫报、连线、大西洋月刊等英语杂志免费下载,支持 epub、mobi、pdf 格式, 每周更新。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693268253046.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://github.com/chodocs/chodocs" target="_blank" rel="noopener noreferrer">ChoDocs</a></h3>
 <p>一站式前端内容网站，包括学习路线、知识体系。用专栏形式更新，主要包含以下方面内容：</p>
 <ul>
@@ -205,8 +208,10 @@
 <li>拥抱开源</li>
 <li>……</li>
 </ul>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693268778391.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. <a href="https://github.com/qianguyihao/Web" target="_blank" rel="noopener noreferrer">Web</a></h3>
 <p>千古前端图文教程，超详细的前端入门到进阶知识库。从零开始学前端，做一名精致优雅的前端工程师。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693268832733.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
@@ -220,7 +225,7 @@
 <p>从求职到拿下 <code>Offer</code>，一本职场的全方位攻略，快来和我一起学习吧！</p>
 <figure><figcaption></figcaption></figure>
 ]]></content:encoded>
-      <enclosure url="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693227832276.webp" type="image/webp"/>
+      <enclosure url="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693268061437.webp" type="image/webp"/>
     </item>
     <item>
       <title>好物周刊#22：</title>
