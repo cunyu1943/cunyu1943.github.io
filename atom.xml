@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习、面试求职、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2023-08-30T00:19:49.424Z</updated>
+  <updated>2023-08-30T00:38:25.483Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -95,11 +95,11 @@
     <published>2023-08-29T15:08:10.000Z</published>
   </entry>
   <entry>
-    <title type="text">好物周刊#20</title>
+    <title type="text">好物周刊#20：写作辅助插件</title>
     <id>https://cunyu1943.github.io/weekly/2023/0826-0901.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0826-0901.html"/>
-    <updated>2023-08-29T12:59:56.000Z</updated>
-    <summary type="html"><![CDATA[<h1> 好物周刊#20</h1>
+    <updated>2023-08-30T00:21:04.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 好物周刊#20：写作辅助插件</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
@@ -109,7 +109,7 @@
 </div>
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://github.com/saysky/ForestBlog" target="_blank" rel="noopener noreferrer">ForestBlog</a></h3>]]></summary>
-    <content type="html"><![CDATA[<h1> 好物周刊#20</h1>
+    <content type="html"><![CDATA[<h1> 好物周刊#20：写作辅助插件</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
@@ -167,9 +167,11 @@
 <figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1690768437267.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
 <h3> 1. <a href="https://linguix.com/" target="_blank" rel="noopener noreferrer">Linguix</a></h3>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693354588749.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>通过 <code>Linguix</code> 多语种语法检查和改写工具来提升您的写作水平并创作引人入胜的内容。其功能包括语法检查、标点符号检查、改写以及 <code>ChatGPT</code> 写作。</p>
 <p>提供实时语法检查和改写，以即时提高各大网站上的内容质量。从撰写电子邮件到准备大型文档，解决您的写作任务。生成式人工智能功能和 <code>OpenAI</code>/<code>ChatGPT</code> 集成还可以立即修复错误，让内容变短/长等。</p>
 <h3> 2. <a href="https://languagetool.org/" target="_blank" rel="noopener noreferrer">LanguageTool</a></h3>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693354621982.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>使用 LanguageTool 的语法检查器和释义工具立即增强您的文本，具有以下特点：</p>
 <ul>
 <li>无需注册</li>
@@ -177,6 +179,7 @@
 <li>应用范围广，几乎包含所有网站</li>
 </ul>
 <h3> 3. <a href="https://chromewebstore.google.com/detail/rememberry-%E7%BF%BB%E8%AF%91%E5%92%8C%E8%AE%B0%E4%BD%8F/dipiagiiohfljcicegpgffpbnjmgjcnf" target="_blank" rel="noopener noreferrer">Rememberry</a></h3>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693354558650.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>在浏览网页时翻译单词和短语，并使用抽认卡轻松补充属于自己的外语词典，插件具有以下特点：</p>
 <ul>
 <li>简便但强大的翻译扩展</li>
