@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习、面试求职、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 30 Aug 2023 14:48:42 GMT</pubDate>
-    <lastBuildDate>Wed, 30 Aug 2023 14:48:42 GMT</lastBuildDate>
+    <pubDate>Thu, 31 Aug 2023 14:47:00 GMT</pubDate>
+    <lastBuildDate>Thu, 31 Aug 2023 14:47:00 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Web 前端教程</category>
@@ -68,7 +68,142 @@
 <div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>在日常使用时需要注意，一个网页中 <code>h1</code> 一般只能使用一次，而 <code>h2~h6</code> 则没有使用次数的限制。</p>
 <h3> 6. 段落</h3>
 <p>一般用于文章段落、产品描述信息等。该标签会自动在其前后创建一些空白，浏览器将自动添加这些空间。</p>
-<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div>]]></content:encoded>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 7. 换行 &amp; 水平线</h3>
+<ul>
+<li><strong>换行</strong></li>
+</ul>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ul>
+<li><strong>水平线</strong></li>
+</ul>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>不同于其他双标签，这两个标签都属于单标签，用于实现文本换行和在文本中间添加水平线。</p>
+<h3> 8. 文本格式化</h3>
+<p>可以给文本添加特殊格式，比如加粗、斜体、下划线、删除线等效果。</p>
+<ul>
+<li><strong>加粗</strong></li>
+</ul>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><ul>
+<li><strong>斜体</strong></li>
+</ul>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><ul>
+<li><strong>下划线</strong></li>
+</ul>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><ul>
+<li><strong>删除线</strong></li>
+</ul>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><h3> 9. 图片</h3>
+<p>为了在网页中插入图片，可以使用图像标签，其使用语法如下：</p>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>其中，<code>src</code> 属性用于指定图片位置和名称，是 <code>img</code> 标签不可缺少的属性。</p>
+<p>除开 <code>src</code> 属性之外， <code>img</code> 最常用的标签还有下表中的几个。</p>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>作用</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>alt</code></td>
+<td>替换文本</td>
+<td>图片无法显示时展示的文字</td>
+</tr>
+<tr>
+<td><code>title</code></td>
+<td>提示文本</td>
+<td>鼠标悬停时显示的文字</td>
+</tr>
+<tr>
+<td><code>width</code></td>
+<td>设置图片宽度</td>
+<td>值一般是数字</td>
+</tr>
+<tr>
+<td><code>height</code></td>
+<td>设置图片高度</td>
+<td>值一般是数字</td>
+</tr>
+</tbody>
+</table>
+<p>注意，标签中存在多个属性时，属性之间用空格隔开，且没有先后顺序之分。</p>
+<h3> 10. 超链接</h3>
+<p>通过使用超链接，能够实现鼠标点击后跳转到其他页面的效果。</p>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>其中，<code>href</code> 是必需属性，用于指定跳转的页面地址，当 <code>href</code> 属性的值为 <code>#</code>，则表示该链接为空链接，点击后不会进行跳转。除此之外，<code>a</code> 标签还有 <code>target</code> 属性，用于指定是否在新窗口中打开跳转页面。当属性值为 <code>_blank</code> 时，表示在新窗口打开。默认情况下，表示在当前窗口打开。</p>
+<h3> 11. 音频</h3>
+<p>使用该标签往网页中添加音频，使用语法如下。</p>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>常见属性如下表：</p>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>作用</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>src</code></td>
+<td>音频地址</td>
+<td>必需属性，支持 <code>MP3</code>、<code>Wav</code></td>
+</tr>
+<tr>
+<td><code>controls</code></td>
+<td>是否显示音频控制面板</td>
+<td></td>
+</tr>
+<tr>
+<td><code>loop</code></td>
+<td>是否循环播放</td>
+<td></td>
+</tr>
+<tr>
+<td><code>autoplay</code></td>
+<td>是否自动播放</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3> 12. 视频</h3>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><table>
+<thead>
+<tr>
+<th>属性</th>
+<th>作用</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>src</code></td>
+<td>视频地址</td>
+<td>必需属性，支持 <code>MP4</code>、<code>WebM</code></td>
+</tr>
+<tr>
+<td><code>controls</code></td>
+<td>是否显示视频控制面板</td>
+<td></td>
+</tr>
+<tr>
+<td><code>loop</code></td>
+<td>是否循环播放</td>
+<td></td>
+</tr>
+<tr>
+<td><code>muted</code></td>
+<td>是否静音播放</td>
+<td></td>
+</tr>
+<tr>
+<td><code>autoplay</code></td>
+<td>是否自动播放</td>
+<td>必须在开启静音播放的前提下才能生效</td>
+</tr>
+</tbody>
+</table>
+<h3> 13. 列表</h3>
+<h3> 14. 表格</h3>
+<h3> 15. 表单</h3>
+]]></content:encoded>
     </item>
     <item>
       <title>开发环境搭建</title>
