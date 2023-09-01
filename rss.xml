@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习、面试求职、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 01 Sep 2023 08:45:36 GMT</pubDate>
-    <lastBuildDate>Fri, 01 Sep 2023 08:45:36 GMT</lastBuildDate>
+    <pubDate>Fri, 01 Sep 2023 08:46:00 GMT</pubDate>
+    <lastBuildDate>Fri, 01 Sep 2023 08:46:00 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Web 前端教程</category>
@@ -478,6 +478,23 @@
 <p>逢年过节遇到三姑六婆，拒绝叫不出口的尴尬！轻松搞定亲戚关系。当前亲戚称呼大全已收录约 <strong>76602</strong> 条亲戚关系。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
+<h3> 1. <a href="https://www.youtube-dubbing.com/" target="_blank" rel="noopener noreferrer">YouTube Dubbing</a></h3>
+<p>一个帮你把外语视频变成中文视频的神奇插件，具有如下特点：</p>
+<ul>
+<li><strong>中文优化</strong></li>
+<li><strong>多语种支持</strong></li>
+<li><strong>更自然的声音</strong></li>
+<li><strong>多种语音风格</strong></li>
+<li><strong>多平台支持</strong></li>
+<li><strong>视频下载</strong></li>
+</ul>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693556784310.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://microsoftedge.microsoft.com/addons/detail/pt-plugin-plus/ekhingnlcjebipkdcgkkheigmljefepn" target="_blank" rel="noopener noreferrer">PT Plugin Plus</a></h3>
+<p>一款浏览器插件，主要用于辅助下载 <code>PT</code> 站的种子。适用于各 <code>PT</code> 站，可使下载种子等各项操作变化更简单、快捷。配合下载服务器（如 <code>Transmission</code>、<code>µTorrent</code> 等），可一键下载指定的种子。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693557437416.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://chrome.google.com/webstore/detail/%E7%BD%91%E8%AF%BE%E5%B0%8F%E5%B7%A5%E5%85%B7/kkicgcijebblepmephnfganiiochecfl?hl=zh-CN" target="_blank" rel="noopener noreferrer">网课小工具</a></h3>
+<p>一个超星(学习通)/智慧树(知到)/中国大学 <code>mooc</code> 学习工具。支持火狐、谷歌油猴。全自动完成任务，视频倍速秒过，作业考试题库，验证码自动打码。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693557757726.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://github.com/hehonghui/awesome-english-ebooks" target="_blank" rel="noopener noreferrer">awesome-english-ebooks</a></h3>
 <p>经济学人(含音频)、纽约客、卫报、连线、大西洋月刊等英语杂志免费下载,支持 epub、mobi、pdf 格式, 每周更新。</p>
