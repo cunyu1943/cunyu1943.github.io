@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习、面试求职、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2023-09-01T00:21:39.223Z</updated>
+  <updated>2023-09-01T00:24:47.067Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -301,7 +301,7 @@
     <title type="text">好物周刊#20：写作辅助插件</title>
     <id>https://cunyu1943.github.io/weekly/2023/0826-0901.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0826-0901.html"/>
-    <updated>2023-08-30T00:21:04.000Z</updated>
+    <updated>2023-09-01T00:21:43.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#20：写作辅助插件</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -309,9 +309,8 @@
 </div>
 <div class="hint-container tip">
 <p class="hint-container-title">原文</p>
-</div>
-<h2> 一、项目</h2>
-<h3> 1. <a href="https://github.com/saysky/ForestBlog" target="_blank" rel="noopener noreferrer">ForestBlog</a></h3>]]></summary>
+<p><a href="https://mp.weixin.qq.com/s/zvn977rKj31sJ6QUvMOqwA" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/zvn977rKj31sJ6QUvMOqwA</a></p>
+</div>]]></summary>
     <content type="html"><![CDATA[<h1> 好物周刊#20：写作辅助插件</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -319,6 +318,7 @@
 </div>
 <div class="hint-container tip">
 <p class="hint-container-title">原文</p>
+<p><a href="https://mp.weixin.qq.com/s/zvn977rKj31sJ6QUvMOqwA" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/zvn977rKj31sJ6QUvMOqwA</a></p>
 </div>
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://github.com/saysky/ForestBlog" target="_blank" rel="noopener noreferrer">ForestBlog</a></h3>
@@ -550,7 +550,7 @@
     <title type="text">好物周刊#22：</title>
     <id>https://cunyu1943.github.io/weekly/2023/0909-0915.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0909-0915.html"/>
-    <updated>2023-08-27T12:10:24.000Z</updated>
+    <updated>2023-09-01T00:21:43.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#22：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -561,8 +561,7 @@
 </div>
 <h2> 一、项目</h2>
 <h2> 二、软件</h2>
-<h2> 三、网站</h2>
-<h3> 1. <a href="http://ppchart.com/#/" target="_blank" rel="noopener noreferrer">PPChart</a></h3>]]></summary>
+<h3> 1. <a href="https://github.com/mylxsw/aidea-server" target="_blank" rel="noopener noreferrer">AIdea</a></h3>]]></summary>
     <content type="html"><![CDATA[<h1> 好物周刊#22：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -573,6 +572,9 @@
 </div>
 <h2> 一、项目</h2>
 <h2> 二、软件</h2>
+<h3> 1. <a href="https://github.com/mylxsw/aidea-server" target="_blank" rel="noopener noreferrer">AIdea</a></h3>
+<p>一款支持 GPT 以及国产大语言模型通义千问、文心一言等，支持 Stable Diffusion 文生图、图生图、 SDXL1.0、超分辨率、图片上色的全能型 APP。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693527566834.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
 <h3> 1. <a href="http://ppchart.com/#/" target="_blank" rel="noopener noreferrer">PPChart</a></h3>
 <p>让图表更简单。PPChart 提供 Echarts 收录、图表制作等服务。</p>
@@ -585,6 +587,18 @@
 <figure><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
+<h3> 1. <a href="https://github.com/byoungd/English-level-up-tips" target="_blank" rel="noopener noreferrer">English-level-up-tips</a></h3>
+<p>可能是让你受益匪浅的英语进阶指南，项目具有以下特点：</p>
+<ul>
+<li>结构化</li>
+<li>阶段化</li>
+<li>针对化</li>
+<li>实用性高</li>
+<li>操作性强</li>
+<li>低成本</li>
+<li>……</li>
+</ul>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693527386371.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
