@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习、面试求职、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 03 Sep 2023 07:32:44 GMT</pubDate>
-    <lastBuildDate>Sun, 03 Sep 2023 07:32:44 GMT</lastBuildDate>
+    <pubDate>Sun, 03 Sep 2023 14:20:18 GMT</pubDate>
+    <lastBuildDate>Sun, 03 Sep 2023 14:20:18 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Web 前端教程</category>
@@ -19,6 +19,87 @@
     <category>开发工具</category>
     <category>效率工具</category>
     <category>IDEA 教程</category>
+    <item>
+      <title>CSS 教程</title>
+      <link>https://cunyu1943.github.io/java-tutorial/web-front-series/20230903-css.html</link>
+      <guid>https://cunyu1943.github.io/java-tutorial/web-front-series/20230903-css.html</guid>
+      <source url="https://cunyu1943.github.io/rss.xml">CSS 教程</source>
+      <description>CSS 教程 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、前言 二、概念 1. 什么是 CSS CSS（Cascading Style Sheets），中文译为 层叠样式表。它是一种样式表语言，用于美化 HTML 文档的呈现。一般位于 &amp;lt;head&amp;gt; 头部，&amp;lt;title&amp;gt; 标签下添加 &amp;lt;style&amp;gt; 标签，CSS 代码就放在 &amp;lt;style&amp;gt; 中。</description>
+      <category>Web 前端教程</category>
+      <pubDate>Sun, 03 Sep 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> CSS 教程</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">原文</p>
+</div>
+<h2> 一、前言</h2>
+<h2> 二、概念</h2>
+<h3> 1. 什么是 CSS</h3>
+<p><code>CSS</code>（<code>Cascading Style Sheets</code>），中文译为 <strong>层叠样式表</strong>。它是一种样式表语言，用于美化 <code>HTML</code> 文档的呈现。一般位于 <code>&lt;head&gt;</code> 头部，<code>&lt;title&gt;</code> 标签下添加 <code>&lt;style&gt;</code> 标签，<code>CSS</code> 代码就放在 <code>&lt;style&gt;</code> 中。</p>
+<h3> 2. CSS 引入方式</h3>
+<p><code>CSS</code> 引入方式有三种，分别是：</p>
+<ul>
+<li><strong>内部样式表</strong></li>
+<li><strong>外部样式表</strong></li>
+<li><strong>行内样式</strong></li>
+</ul>
+<p><strong>（1）内部样式表</strong></p>
+<p>将样式代码写在 <code>style</code> 标签中，<a href="https://code.juejin.cn/pen/7274512428615303226" target="_blank" rel="noopener noreferrer">效果预览</a>。</p>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>（2）外部样式表</strong></p>
+<p>将样式代码写在单独的 <code>CSS</code> 文件中（后缀为 <code>.css</code>），接着在 <code>HTML</code> 中通过 <code>&lt;link&gt;</code> 标签引入即可，<a href="https://code.juejin.cn/pen/7274578705379229759" target="_blank" rel="noopener noreferrer">效果预览</a>。</p>
+<div class="language-css-demo.css line-numbers-mode" data-ext="css-demo.css"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>（3）行内样式</strong></p>
+<p>在 <code>HTML</code>&nbsp;基础标签中添加 <code>style</code>&nbsp;属性，<code>style</code>&nbsp;属性的值为 <code>CSS</code>&nbsp;代码，<a href="https://code.juejin.cn/pen/7274579350450602045" target="_blank" rel="noopener noreferrer">效果预览</a>。</p>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2> 三、选择器</h2>
+<h3> 1. 基础选择器</h3>
+<p>使用标签名作为选择器，然后为其设置相同的样式。比如选择器如果为 <code>a</code>，则代表所有链接标签都将具有 <code>a</code> 选择器所设置的样式。</p>
+<h3> 2. 类选择器</h3>
+<p>查找标签，差异化设置标签的显示效果。</p>
+<p>使用类选择器的步骤如下，<a href="https://code.juejin.cn/pen/7274579791225815095" target="_blank" rel="noopener noreferrer">效果预览</a>：</p>
+<ul>
+<li>定义类选择器，一般是 <code>.类名</code></li>
+<li>使用类选择器，在标签中添加 <code>class="类名"</code></li>
+</ul>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>注意，一个标签中可以使用多个类选择器，只需要将各个选择器用空格隔开就好。类选择器名自定义，注意不要用纯数字或者中文，尽量用英文。</p>
+<h3> 3. id 选择器</h3>
+<p>类似于类选择器，用于查找标签，差异化设置标签的显示效果。一般是配合 <code>JavaScript</code> 使用，很少用来设置 <code>CSS</code> 样式。</p>
+<p>使用 <code>id</code> 选择器的步骤如下，<a href="https://code.juejin.cn/pen/7274586257244553273" target="_blank" rel="noopener noreferrer">效果预览</a>：</p>
+<ul>
+<li>定义 <code>id</code> 选择器，一般是 <code>#id名</code></li>
+<li>使用 <code>id</code> 选择器，在表其中添加 <code>id="id名"</code></li>
+</ul>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>注意，同一个 <code>id</code> 选择器，在一个页面中通常只能使用一次。</p>
+<h3> 4. 通配符选择器</h3>
+<p>用于查找页面中所有的标签，然后给它们设置相同的样式。通配符选择器为 <code>*</code>，无需调用浏览器就会自动查找页面中的所有标签，设置统一样式，<a href="https://code.juejin.cn/pen/7274588738708537403" target="_blank" rel="noopener noreferrer">效果预览</a>。</p>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 三、画盒子</h2>
+<p>利用合适的选择器画盒子，常用属性如下表，<a href="https://code.juejin.cn/pen/7274599388759916603" target="_blank" rel="noopener noreferrer">效果预览</a>。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">属性</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>width</code></td>
+<td>设置盒子宽度</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>height</code></td>
+<td>设置盒子高度</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>background-color</code></td>
+<td>设置背景色</td>
+</tr>
+</tbody>
+</table>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 文字控制属性</h2>
+]]></content:encoded>
+    </item>
     <item>
       <title>HTML 大揭秘</title>
       <link>https://cunyu1943.github.io/java-tutorial/web-front-series/20230829-html.html</link>
