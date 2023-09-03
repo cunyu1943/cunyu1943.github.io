@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习、面试求职、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2023-09-03T05:28:18.778Z</updated>
+  <updated>2023-09-03T07:32:44.607Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -21,7 +21,7 @@
     <title type="text">HTML 大揭秘</title>
     <id>https://cunyu1943.github.io/java-tutorial/web-front-series/20230829-html.html</id>
     <link href="https://cunyu1943.github.io/java-tutorial/web-front-series/20230829-html.html"/>
-    <updated>2023-09-03T05:25:56.000Z</updated>
+    <updated>2023-09-03T07:30:22.000Z</updated>
     <summary type="html"><![CDATA[<h1> HTML 大揭秘</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -342,7 +342,7 @@
 <div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p><strong>（4）label</strong></p>
 <p>网页中对于某个标签的说明文本。一般可以用 <code>&lt;label&gt;</code> 标签绑定文字和表单控件的关系，从而增大表单控件的点击范围。实现以上功能有两种方式：</p>
 <ul>
-<li>方式一：<code>&lt;label&gt;</code>&nbsp;只包裹内容，不包裹表单控件。设置 <code>&lt;label&gt;</code>&nbsp;的 <code>for</code>&nbsp;属性值和表单控件的 <code>id</code>&nbsp;属性值一致。</li>
+<li>方式一：<code>&lt;label&gt;</code> 只包裹内容，不包裹表单控件。设置 <code>&lt;label&gt;</code> 的 <code>for</code> 属性值和表单控件的 <code>id</code> 属性值一致。</li>
 </ul>
 <div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><ul>
 <li>方式二：用 <code>&lt;label&gt;</code> 直接包裹文字和表单控件，此时无需设置额外属性。</li>

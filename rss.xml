@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习、面试求职、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 03 Sep 2023 05:28:18 GMT</pubDate>
-    <lastBuildDate>Sun, 03 Sep 2023 05:28:18 GMT</lastBuildDate>
+    <pubDate>Sun, 03 Sep 2023 07:32:44 GMT</pubDate>
+    <lastBuildDate>Sun, 03 Sep 2023 07:32:44 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Web 前端教程</category>
@@ -337,7 +337,7 @@
 <div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p><strong>（4）label</strong></p>
 <p>网页中对于某个标签的说明文本。一般可以用 <code>&lt;label&gt;</code> 标签绑定文字和表单控件的关系，从而增大表单控件的点击范围。实现以上功能有两种方式：</p>
 <ul>
-<li>方式一：<code>&lt;label&gt;</code>&nbsp;只包裹内容，不包裹表单控件。设置 <code>&lt;label&gt;</code>&nbsp;的 <code>for</code>&nbsp;属性值和表单控件的 <code>id</code>&nbsp;属性值一致。</li>
+<li>方式一：<code>&lt;label&gt;</code> 只包裹内容，不包裹表单控件。设置 <code>&lt;label&gt;</code> 的 <code>for</code> 属性值和表单控件的 <code>id</code> 属性值一致。</li>
 </ul>
 <div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><ul>
 <li>方式二：用 <code>&lt;label&gt;</code> 直接包裹文字和表单控件，此时无需设置额外属性。</li>
