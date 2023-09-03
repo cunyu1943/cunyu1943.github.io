@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习、面试求职、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2023-09-02T06:20:54.598Z</updated>
+  <updated>2023-09-03T05:28:18.778Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -21,7 +21,7 @@
     <title type="text">HTML 大揭秘</title>
     <id>https://cunyu1943.github.io/java-tutorial/web-front-series/20230829-html.html</id>
     <link href="https://cunyu1943.github.io/java-tutorial/web-front-series/20230829-html.html"/>
-    <updated>2023-08-31T14:44:29.000Z</updated>
+    <updated>2023-09-03T05:25:56.000Z</updated>
     <summary type="html"><![CDATA[<h1> HTML 大揭秘</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -206,8 +206,204 @@
 </tbody>
 </table>
 <h3> 13. 列表</h3>
+<p>用于布局内容排列整齐的区域，主要分为：<strong>无序列表</strong>、<strong>有序列表</strong>、<strong>定义列表</strong>。</p>
+<p><strong>（1）无序列表</strong></p>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>用于布局排列整齐的无序规定顺序的区域，语法为 <code>&lt;ul&gt;</code> 标签嵌套 <code>&lt;li&gt;</code> 标签，其中 <code>&lt;ul&gt;</code> 标签表示无序列表，而 <code>&lt;li&gt;</code> 则代表无序列表中的条目。需要注意， <code>&lt;ul&gt;</code> 标签中只能包裹 <code>&lt;li&gt;</code> 标签。</p>
+<p><strong>（2）有序列表</strong></p>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>用于布局排列整齐的规定顺序的区域，语法为 <code>&lt;ol&gt;</code> 标签嵌套 <code>&lt;li&gt;</code> 标签，其中 <code>&lt;ol&gt;</code> 标签表示无序列表，而 <code>&lt;li&gt;</code> 则代表无序列表中的条目。而且需要注意， <code>&lt;ol&gt;</code> 标签中只能包裹 <code>&lt;li&gt;</code> 标签。</p>
+<p><strong>（3）定义列表</strong></p>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>语法为 <code>&lt;dl&gt;</code> 嵌套 <code>&lt;dt&gt;</code> 和 <code>&lt;dd&gt;</code> 标签，其中 <code>&lt;dl&gt;</code> 用于定义列表，<code>&lt;dt&gt;</code> 用于定义列表标题，<code>&lt;dd&gt;</code> 则用于定义列表的描述/详情。注意， <code>&lt;dl&gt;</code> 标签中只能包裹 <code>dt&gt;</code> 和 <code>&lt;dd&gt;</code> 标签。</p>
 <h3> 14. 表格</h3>
+<p>类似于日常使用中的 <code>Excel</code>，主要用于展示数据。注意，默认情况下，网页中的表格是没有边框线的，需要使用<code>border</code> 属性添加。</p>
+<table>
+<thead>
+<tr>
+<th>标签</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>table</code></td>
+<td>表格</td>
+</tr>
+<tr>
+<td><code>tr</code></td>
+<td>行</td>
+</tr>
+<tr>
+<td><code>th</code></td>
+<td>表头单元格</td>
+</tr>
+<tr>
+<td><code>td</code></td>
+<td>内容单元格</td>
+</tr>
+</tbody>
+</table>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>为了让表格结构和语义更加清晰，通常还是用表格结构标签用来划分区域。下表是表格结构标签的说明。</p>
+<table>
+<thead>
+<tr>
+<th>标签</th>
+<th>含义</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>thead</code></td>
+<td>表格头部</td>
+<td>表格头部内容</td>
+</tr>
+<tr>
+<td><code>tbody</code></td>
+<td>表格主体</td>
+<td>主要内容区域</td>
+</tr>
+<tr>
+<td><code>tfoot</code></td>
+<td>表格底部</td>
+<td>汇总信息区域</td>
+</tr>
+</tbody>
+</table>
+<p><strong>合并单元格</strong>：将多个单元格合并为一个单元格，用于合并同类信息。又可以分为跨行合并和跨列合并，合并步骤如下：</p>
+<ul>
+<li>保留最左最上的单元格，添加属性（值为数字，表示需要合并的单元格数量）
+<ul>
+<li>跨行合并：保留最上的单元格，添加属性 <code>rowspan</code></li>
+<li>跨列合并：保留最左的单元格，添加属性 <code>colspan</code></li>
+</ul>
+</li>
+</ul>
 <h3> 15. 表单</h3>
+<p><strong>（1）input</strong></p>
+<p>用于在网页中收集信息。</p>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>根据标签中 <code>type</code> 属性的值不同，从而具备不同的功能。</p>
+<table>
+<thead>
+<tr>
+<th>type 属性值</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>text</code></td>
+<td>文本框，用于输入单行文本</td>
+</tr>
+<tr>
+<td><code>password</code></td>
+<td>密码框</td>
+</tr>
+<tr>
+<td><code>radio</code></td>
+<td>单元框</td>
+</tr>
+<tr>
+<td><code>checkbox</code></td>
+<td>多选框</td>
+</tr>
+<tr>
+<td><code>file</code></td>
+<td>上传文件</td>
+</tr>
+</tbody>
+</table>
+<p>为了在输入时更加友好，可以在文本框和密码框中使用 <code>placeholder</code> 来进行提示。</p>
+<p>针对单选框，常用属性如下表。</p>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>作用</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>name</code></td>
+<td>控件名</td>
+<td>控件分组，一组只能选一个</td>
+</tr>
+<tr>
+<td><code>checked</code></td>
+<td>默认选中</td>
+<td>属性名和属性值相同，简写为一个单词</td>
+</tr>
+</tbody>
+</table>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>文件上传时，默认上传表单控件只能上传一个文件，如果要实现文件多选功能，需要添加 <code>multiple</code> 属性。</p>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p><strong>（2）下拉菜单</strong></p>
+<p><code>&lt;select&gt;</code> 嵌套 <code>&lt;option&gt;</code>，其中 <code>&lt;select&gt;</code> 表示下拉菜单整体，而 <code>&lt;option&gt;</code> 则是下来菜单中的每一项，<code>selected</code> 属性表示默认选中项目。</p>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>（3）文本域</strong></p>
+<p>用于输入多行文本的表单控件，默认可拖拽。</p>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p><strong>（4）label</strong></p>
+<p>网页中对于某个标签的说明文本。一般可以用 <code>&lt;label&gt;</code> 标签绑定文字和表单控件的关系，从而增大表单控件的点击范围。实现以上功能有两种方式：</p>
+<ul>
+<li>方式一：<code>&lt;label&gt;</code>&nbsp;只包裹内容，不包裹表单控件。设置 <code>&lt;label&gt;</code>&nbsp;的 <code>for</code>&nbsp;属性值和表单控件的 <code>id</code>&nbsp;属性值一致。</li>
+</ul>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><ul>
+<li>方式二：用 <code>&lt;label&gt;</code> 直接包裹文字和表单控件，此时无需设置额外属性。</li>
+</ul>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p><strong>（5）按钮</strong></p>
+<table>
+<thead>
+<tr>
+<th>属性值</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>submit</code></td>
+<td>提交，点击后将数据提交到后台，默认功能</td>
+</tr>
+<tr>
+<td><code>reset</code></td>
+<td>重置，点击后将表单控件恢复默认值</td>
+</tr>
+<tr>
+<td><code>button</code></td>
+<td>普通按钮，默认无功能，需要配合 <code>JavaScript</code> 使用</td>
+</tr>
+</tbody>
+</table>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 16. 布局</h3>
+<p>用于划分网页区域摆放内容，实现网页布局。</p>
+<p><strong>（1）div</strong></p>
+<p>独占一行，又叫大盒子。</p>
+<p><strong>（2）span</strong></p>
+<p>不单独另起一行，又叫小盒子。</p>
+<h3> 17. 字符</h3>
+<p>用于在网页中显示预留字符。</p>
+<table>
+<thead>
+<tr>
+<th>显示</th>
+<th>描述</th>
+<th>实体名</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code> </code></td>
+<td>空格</td>
+<td><code>&amp;nbsp;</code></td>
+</tr>
+<tr>
+<td><code>&gt;</code></td>
+<td>大于</td>
+<td><code>&amp;gt;</code></td>
+</tr>
+<tr>
+<td><code>&lt;</code></td>
+<td>小于</td>
+<td><code>&amp;lt;</code></td>
+</tr>
+</tbody>
+</table>
 ]]></content>
     <category term="Web 前端教程"/>
     <published>2023-08-29T00:00:00.000Z</published>
@@ -441,7 +637,7 @@
     <title type="text">好物周刊#21：</title>
     <id>https://cunyu1943.github.io/weekly/2023/0902-0908.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0902-0908.html"/>
-    <updated>2023-09-01T08:43:45.000Z</updated>
+    <updated>2023-09-02T07:53:40.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#21：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -464,6 +660,12 @@
 <h3> 1. <a href="https://github.com/Nepxion/Discovery" target="_blank" rel="noopener noreferrer">Discovery</a></h3>
 <p>云原生微服务解决方案，支持蓝绿灰度发布、路由、限流、熔断、降级、隔离、追踪、流量染色、故障转移、多活。</p>
 <figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693268061437.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://gitee.com/oschina/tide" target="_blank" rel="noopener noreferrer">Tide</a></h3>
+<p>开箱即用、扩展性强、支持 <code>Markdown</code> 语法、基础功能完善的 <code>React</code> 富文本编辑器。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693635105652.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://gitee.com/tamlok/vnote" target="_blank" rel="noopener noreferrer">VNote</a></h3>
+<p>一个专注于 <code>Markdown</code> 的基于 <code>Qt</code> 的开源免费的笔记应用，愿景是希望能提供一个拥有完美编辑体验的舒适的笔记平台。支持 <code>macOS</code>、<code>Windows</code>、<code>Linux</code> 三大平台。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693635519202.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
 <h3> 1. <a href="https://github.com/Tatsu-syo/noMeiryoUI" target="_blank" rel="noopener noreferrer">noMeiryoUI</a></h3>
 <p>Windows 系统字体修改工具，支持 Windows 8/8.1/10/11 系统的的字体修改，软件只是对主题字体风格设置进行修改，而不是对系统字体本身的渲染、修改，所以无风险，无占用，渲染美化系统字体风格。</p>
@@ -501,13 +703,13 @@
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://www.wappalyzer.com/" target="_blank" rel="noopener noreferrer">Wappalyzer</a></h3>
 <p>一个跨平台程序，能够发现网站上使用的技术。检测网站的内容管理系统、Web 框架、服务器软件、分析工具等等。</p>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1690768605419.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://www.photopea.com/" target="_blank" rel="noopener noreferrer">Photopea</a></h3>
 <p>一个在线版的 PhotoShop，支持 PSD、AI、XD、sketch、PDF、XCF、RAW 等多种图片格式。</p>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1690768504751.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. <a href="https://passer-by.com/relationship/" target="_blank" rel="noopener noreferrer">中国亲戚关系计算器</a></h3>
 <p>逢年过节遇到三姑六婆，拒绝叫不出口的尴尬！轻松搞定亲戚关系。当前亲戚称呼大全已收录约 <strong>76602</strong> 条亲戚关系。</p>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1691367608073.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
 <h3> 1. <a href="https://www.youtube-dubbing.com/" target="_blank" rel="noopener noreferrer">YouTube Dubbing</a></h3>
 <p>一个帮你把外语视频变成中文视频的神奇插件，具有如下特点：</p>
@@ -567,7 +769,7 @@
     <title type="text">好物周刊#22：</title>
     <id>https://cunyu1943.github.io/weekly/2023/0909-0915.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0909-0915.html"/>
-    <updated>2023-09-01T00:21:43.000Z</updated>
+    <updated>2023-09-02T07:53:40.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#22：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -595,13 +797,13 @@
 <h2> 三、网站</h2>
 <h3> 1. <a href="http://ppchart.com/#/" target="_blank" rel="noopener noreferrer">PPChart</a></h3>
 <p>让图表更简单。PPChart 提供 Echarts 收录、图表制作等服务。</p>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/image.zns5lxxti7.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://madeapie.com/#/" target="_blank" rel="noopener noreferrer">Made A Pie</a></h3>
 <p>Echarts 图表制作、案例分享、教程分享。汇聚了超多 Echarts 绘制案例，主要有以下类别：</p>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/image.3au9zsyy08m0.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. <a href="https://www.isqqw.com/" target="_blank" rel="noopener noreferrer">ISQQW</a></h3>
 <p>一个 ECharts 图表集，ECharts demo 集，Echarts gallery 社区。同时，在这里还可以分享你的可视化作品。</p>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1690768631894.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://github.com/byoungd/English-level-up-tips" target="_blank" rel="noopener noreferrer">English-level-up-tips</a></h3>
