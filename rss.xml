@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习、面试求职、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 06 Sep 2023 13:45:24 GMT</pubDate>
-    <lastBuildDate>Wed, 06 Sep 2023 13:45:24 GMT</lastBuildDate>
+    <pubDate>Wed, 06 Sep 2023 14:55:04 GMT</pubDate>
+    <lastBuildDate>Wed, 06 Sep 2023 14:55:04 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>好物周刊</category>
@@ -438,7 +438,28 @@
 <blockquote>
 <p><strong>效果预览</strong>：<a href="https://code.juejin.cn/pen/7275351160939577405" target="_blank" rel="noopener noreferrer">https://code.juejin.cn/pen/7275351160939577405</a></p>
 </blockquote>
-<div class="language-css line-numbers-mode" data-ext="css"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
+<div class="language-css line-numbers-mode" data-ext="css"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 3. 字体倾斜</h3>
+<p>设置文字倾斜效果。</p>
+<blockquote>
+<p><strong>效果预览</strong>：<a href="https://code.juejin.cn/pen/7275713613934329914" target="_blank" rel="noopener noreferrer">https://code.juejin.cn/pen/7275713613934329914</a></p>
+</blockquote>
+<div class="language-css line-numbers-mode" data-ext="css"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 4. 行高</h3>
+<p>设置多行文本的间距，属性值有两种写法，一种是 数字 + <code>px</code> 的方式，而另一种则是直接数字的方式，表示为标签 <code>font-size</code> 属性值的倍数。</p>
+<blockquote>
+<p><strong>预览效果</strong>：<a href="https://code.juejin.cn/pen/7275715629028802616" target="_blank" rel="noopener noreferrer">https://code.juejin.cn/pen/7275715629028802616</a></p>
+</blockquote>
+<div class="language-css line-numbers-mode" data-ext="css"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 5. 字体族</h3>
+<p>设置文本字体，属性值为字体名。注意，属性值可以有多个字体名，只需要用逗号隔开即可，执行顺序是从左往右依次查找。</p>
+<blockquote>
+<p><strong>效果预览</strong>：<a href="https://code.juejin.cn/pen/7275720518836158523" target="_blank" rel="noopener noreferrer">https://code.juejin.cn/pen/7275720518836158523</a></p>
+</blockquote>
+<div class="language-css line-numbers-mode" data-ext="css"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 6. 复合属性</h3>
+<p>用于设置网页文字的公共样式，使用语法如下：</p>
+<div class="language-css line-numbers-mode" data-ext="css"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>使用时，属性一定要按照顺序写，而且字号和字体必须要有，否则 <code>font</code>&nbsp;属性将无效。</p>
+<blockquote>
+<p><strong>效果预览</strong>：<a href="https://code.juejin.cn/pen/7275723268651548709" target="_blank" rel="noopener noreferrer">https://code.juejin.cn/pen/7275723268651548709</a></p>
+</blockquote>
+<div class="language-css line-numbers-mode" data-ext="css"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
     </item>
     <item>
       <title>HTML 大揭秘</title>
