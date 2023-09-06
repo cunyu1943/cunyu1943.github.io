@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习、面试求职、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 06 Sep 2023 08:46:58 GMT</pubDate>
-    <lastBuildDate>Wed, 06 Sep 2023 08:46:58 GMT</lastBuildDate>
+    <pubDate>Wed, 06 Sep 2023 08:48:57 GMT</pubDate>
+    <lastBuildDate>Wed, 06 Sep 2023 08:48:57 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>好物周刊</category>
@@ -1195,7 +1195,7 @@
       <link>https://cunyu1943.github.io/weekly/2023/0916-0922.html</link>
       <guid>https://cunyu1943.github.io/weekly/2023/0916-0922.html</guid>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#23：</source>
-      <description>好物周刊#23： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 二、软件 三、网站 1. 视觉效果集合</description>
+      <description>好物周刊#23： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1. pnpm</description>
       <category>好物周刊</category>
       <pubDate>Sun, 27 Aug 2023 07:41:05 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#23：</h1>
@@ -1207,6 +1207,15 @@
 <p class="hint-container-title">原文</p>
 </div>
 <h2> 一、项目</h2>
+<h3> 1. <a href="https://github.com/pnpm/pnpm" target="_blank" rel="noopener noreferrer">pnpm</a></h3>
+<p>快速的，节省磁盘空间的包管理工具，具有如下特点：</p>
+<ul>
+<li>快速：<code>pnpm</code> 比其他包管理器快 2 倍</li>
+<li>高效：<code>node_modules</code> 中的文件为复制或链接自特定的内容寻址存储库</li>
+<li>支持 <code>monorepos</code>：<code>pnpm</code> 内置支持单仓多包</li>
+<li>严格：<code>pnpm</code> 默认创建了一个非平铺的 <code>node_modules</code>，因此代码无法访问任意包</li>
+</ul>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693989839748.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
 <h2> 三、网站</h2>
 <h3> 1. <a href="http://hepengwei.cn/#/html/visualDesign" target="_blank" rel="noopener noreferrer">视觉效果集合</a></h3>
@@ -1233,6 +1242,7 @@
 <p>从求职到拿下 <code>Offer</code>，一本职场的全方位攻略，快来和我一起学习吧！</p>
 <figure><figcaption></figcaption></figure>
 ]]></content:encoded>
+      <enclosure url="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693989839748.webp" type="image/webp"/>
     </item>
     <item>
       <title></title>

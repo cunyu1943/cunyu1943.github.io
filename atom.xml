@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习、面试求职、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2023-09-06T08:46:58.597Z</updated>
+  <updated>2023-09-06T08:48:57.991Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -1302,7 +1302,7 @@
     <title type="text">好物周刊#23：</title>
     <id>https://cunyu1943.github.io/weekly/2023/0916-0922.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0916-0922.html"/>
-    <updated>2023-09-05T00:30:39.000Z</updated>
+    <updated>2023-09-06T08:45:19.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#23：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -1312,9 +1312,7 @@
 <p class="hint-container-title">原文</p>
 </div>
 <h2> 一、项目</h2>
-<h2> 二、软件</h2>
-<h2> 三、网站</h2>
-<h3> 1. <a href="http://hepengwei.cn/#/html/visualDesign" target="_blank" rel="noopener noreferrer">视觉效果集合</a></h3>]]></summary>
+<h3> 1. <a href="https://github.com/pnpm/pnpm" target="_blank" rel="noopener noreferrer">pnpm</a></h3>]]></summary>
     <content type="html"><![CDATA[<h1> 好物周刊#23：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -1324,6 +1322,15 @@
 <p class="hint-container-title">原文</p>
 </div>
 <h2> 一、项目</h2>
+<h3> 1. <a href="https://github.com/pnpm/pnpm" target="_blank" rel="noopener noreferrer">pnpm</a></h3>
+<p>快速的，节省磁盘空间的包管理工具，具有如下特点：</p>
+<ul>
+<li>快速：<code>pnpm</code> 比其他包管理器快 2 倍</li>
+<li>高效：<code>node_modules</code> 中的文件为复制或链接自特定的内容寻址存储库</li>
+<li>支持 <code>monorepos</code>：<code>pnpm</code> 内置支持单仓多包</li>
+<li>严格：<code>pnpm</code> 默认创建了一个非平铺的 <code>node_modules</code>，因此代码无法访问任意包</li>
+</ul>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693989839748.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
 <h2> 三、网站</h2>
 <h3> 1. <a href="http://hepengwei.cn/#/html/visualDesign" target="_blank" rel="noopener noreferrer">视觉效果集合</a></h3>
