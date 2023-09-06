@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习、面试求职、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 06 Sep 2023 13:41:41 GMT</pubDate>
-    <lastBuildDate>Wed, 06 Sep 2023 13:41:41 GMT</lastBuildDate>
+    <pubDate>Wed, 06 Sep 2023 13:45:24 GMT</pubDate>
+    <lastBuildDate>Wed, 06 Sep 2023 13:45:24 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>好物周刊</category>
@@ -19,6 +19,47 @@
     <category>开发工具</category>
     <category>效率工具</category>
     <category>IDEA 教程</category>
+    <item>
+      <title>好物周刊#29：</title>
+      <link>https://cunyu1943.github.io/weekly/2023/1028-1103.html</link>
+      <guid>https://cunyu1943.github.io/weekly/2023/1028-1103.html</guid>
+      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#29：</source>
+      <description>好物周刊#29： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 二、软件 三、网站 1. 人人影视</description>
+      <category>好物周刊</category>
+      <pubDate>Wed, 06 Sep 2023 13:42:10 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 好物周刊#29：</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">原文</p>
+</div>
+<h2> 一、项目</h2>
+<h2> 二、软件</h2>
+<h2> 三、网站</h2>
+<h3> 1. <a href="https://yyets.com/" target="_blank" rel="noopener noreferrer">人人影视</a></h3>
+<p>由爱好者成员成立的网站，免费提供最新影视剧介绍和影评，发布最新的字幕包括美剧、日剧、电影、动漫等。</p>
+<h3> 2. <a href="https://kuaizi.cc/" target="_blank" rel="noopener noreferrer">筷子视频</a></h3>
+<p>筷子视频，为您提供最新电影、美剧天堂、电影排行榜、最新美剧、韩剧、日剧、泰剧、最快最全的美剧在线视频网站，为广大美剧迷推荐精彩的美剧视频，是广大美剧迷必收藏的美剧网站！</p>
+<h3> 3. <a href="https://www.mvcat.com/" target="_blank" rel="noopener noreferrer">MVCAT</a></h3>
+<p>一个专门的电影推荐平台，通过收集经典电影，电影专题以及网友互动分享好看电影，为广大电影爱好者提供优质的电影推荐服务。不过要注意，这里仅仅是推荐，如果你想观看/下载相关影视资源，还请移步其他平台。</p>
+<h2> 四、插件</h2>
+<h2> 五、资料</h2>
+<h2> ✍️ 说明</h2>
+<p>周刊专栏相关信息：</p>
+<ul>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a></li>
+</ul>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<hr>
+<h2> 🎬️ 广告</h2>
+<p>当前大环境下，就业形势严峻，尤其针对即将毕业的大学生。作为一个技术求职者，求职前应该做好哪些准备呢，一些面试实战技巧也十分有必要！而刚好最近掘金出了一本《技术人求职指南》小册，相信一定会对在找工作的你有所帮助。</p>
+<p>从求职到拿下 <code>Offer</code>，一本职场的全方位攻略，快来和我一起学习吧！</p>
+<figure><figcaption></figcaption></figure>
+]]></content:encoded>
+    </item>
     <item>
       <title>好物周刊#26：</title>
       <link>https://cunyu1943.github.io/weekly/2023/1007-1013.html</link>
@@ -69,7 +110,7 @@
       <link>https://cunyu1943.github.io/weekly/2023/1014-1020.html</link>
       <guid>https://cunyu1943.github.io/weekly/2023/1014-1020.html</guid>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#27：</source>
-      <description>好物周刊#27： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 二、软件 三、网站 四、插件 五、资料 ✍️ 说明 周刊专栏相关信息：</description>
+      <description>好物周刊#27： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 二、软件 三、网站 1. Google 指数</description>
       <category>好物周刊</category>
       <pubDate>Tue, 05 Sep 2023 15:19:41 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#27：</h1>
@@ -83,6 +124,12 @@
 <h2> 一、项目</h2>
 <h2> 二、软件</h2>
 <h2> 三、网站</h2>
+<h3> 1. <a href="https://trends.google.com/trends/" target="_blank" rel="noopener noreferrer">Google 指数</a></h3>
+<p>基于 <code>Google</code> 搜索数据的数据分享平台，可以展示不同关键词、主题、时间段或区域的搜索热度和趋势，还能查看时下流行每日/实时搜索趋势。</p>
+<h3> 2. <a href="https://index.baidu.com/v2/index.html#/" target="_blank" rel="noopener noreferrer">百度指数</a></h3>
+<p>百度指数是以百度海量网民行为数据为基础的数据分享平台。在这里，你可以研究关键词搜索趋势、洞察网民兴趣和需求、监测舆情动向、定位受众特征。</p>
+<h3> 3. <a href="https://index.chinaz.com/" target="_blank" rel="noopener noreferrer">站长指数</a></h3>
+<p>站长全网指数查询是以各大搜索引擎海量网民搜索行为数据为基础的数据分享平台。在这里，你可以研究关键词在各大搜索引擎的趋势、洞察网民需求变化、监测媒体舆情趋势、定位数字消费者特征；还可以从行业的角度，分析市场特点。</p>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
 <h2> ✍️ 说明</h2>
@@ -104,7 +151,7 @@
       <link>https://cunyu1943.github.io/weekly/2023/1021-1027.html</link>
       <guid>https://cunyu1943.github.io/weekly/2023/1021-1027.html</guid>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#28：</source>
-      <description>好物周刊#28： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 二、软件 三、网站 四、插件 五、资料 ✍️ 说明 周刊专栏相关信息：</description>
+      <description>好物周刊#28： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 二、软件 三、网站 1. 国家数据</description>
       <category>好物周刊</category>
       <pubDate>Tue, 05 Sep 2023 15:19:41 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#28：</h1>
@@ -118,6 +165,12 @@
 <h2> 一、项目</h2>
 <h2> 二、软件</h2>
 <h2> 三、网站</h2>
+<h3> 1. <a href="https://data.stats.gov.cn/" target="_blank" rel="noopener noreferrer">国家数据</a></h3>
+<p>数据源于国家统计局，包含了我国经济民生等多个方面的数据，包含普查数据、地区数据、部门数据、国际数据等多方面内容，并且在月度、季度、年度都有覆盖，十分全面。</p>
+<h3> 2. <a href="https://www.ceicdata.com/zh-hans" target="_blank" rel="noopener noreferrer">CEIC</a></h3>
+<p>前所未有地覆盖全球超过 213 个国家和地区的经济数据（宏观经济、<code>GDP</code>、进出口、能源等）。<code>CEIC</code> 帮助您一站式获取来自上千个数据源的百万级的时间序列数据，客服团队帮助您寻找或解释您想要的数据信息。</p>
+<h3> 3. <a href="https://www.un.org/zh/library/page/databases" target="_blank" rel="noopener noreferrer">联合国数据库</a></h3>
+<p>包含发展、裁军、经济和金融、国际法、国际关系、和平与安全、社会事务等多个方面的内容。</p>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
 <h2> ✍️ 说明</h2>
@@ -1137,6 +1190,9 @@
 <h3> 1. <a href="https://github.com/mylxsw/aidea-server" target="_blank" rel="noopener noreferrer">AIdea</a></h3>
 <p>一款支持 GPT 以及国产大语言模型通义千问、文心一言等，支持 Stable Diffusion 文生图、图生图、 SDXL1.0、超分辨率、图片上色的全能型 APP。</p>
 <figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693527566834.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://www.edrawsoft.cn/mindmaster/wb-zhihu.html" target="_blank" rel="noopener noreferrer">MindMaster</a></h3>
+<p>专业思维导图软件，云同步跨平台、海量脑图模板、功能全易上手。</p>
+<p>使用软件可以将纷繁复杂的想法、知识和信息，如学习笔记、会议纪要、项目需求等简化成一张张清晰的思维导图，以结构化有序化的方式呈现，提高归纳、学习和记忆的效率，方便展示和讲解。</p>
 <h2> 三、网站</h2>
 <h3> 1. <a href="http://ppchart.com/#/" target="_blank" rel="noopener noreferrer">PPChart</a></h3>
 <p>让图表更简单。PPChart 提供 Echarts 收录、图表制作等服务。</p>
@@ -1216,13 +1272,17 @@
 <li>严格：<code>pnpm</code> 默认创建了一个非平铺的 <code>node_modules</code>，因此代码无法访问任意包</li>
 </ul>
 <figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693989839748.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://github.com/chaitin/SafeLine" target="_blank" rel="noopener noreferrer">雷池</a></h3>
+<p>一款足够简单、足够好用、足够强的免费 <code>WAF</code>。基于业界领先的语义引擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。</p>
+<p>核心检测能力由智能语义分析算法驱动，专为社区而生，不让黑客越雷池半步。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694007548056.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
 <h2> 三、网站</h2>
 <h3> 1. <a href="http://hepengwei.cn/#/html/visualDesign" target="_blank" rel="noopener noreferrer">视觉效果集合</a></h3>
 <p>一个专注于前端视觉效果的集合应用，里面包含各种丰富的 <code>css</code> 动效、<code>canvas</code> 动画等上百个案例，而且是开源免费的。</p>
 <figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://www.filehorse.com/" target="_blank" rel="noopener noreferrer">FileHorse</a></h3>
-<p>提供了大量软件的下载和介绍，包括 <code>Windows</code>&nbsp;和 <code>macOS</code>&nbsp;平台。</p>
+<p>提供了大量软件的下载和介绍，包括 <code>Windows</code> 和 <code>macOS</code> 平台。</p>
 <figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693806555043.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. <a href="https://www.producthunt.com/" target="_blank" rel="noopener noreferrer">Product Hunt</a></h3>
 <p>推荐每天新兴的移动应用程序、网站和技术产品等。</p>
