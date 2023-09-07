@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习、面试求职、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2023-09-07T00:22:57.253Z</updated>
+  <updated>2023-09-07T00:24:35.382Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -21,7 +21,7 @@
     <title type="text">好物周刊#29：</title>
     <id>https://cunyu1943.github.io/weekly/2023/1028-1103.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/1028-1103.html"/>
-    <updated>2023-09-06T13:42:10.000Z</updated>
+    <updated>2023-09-07T00:21:33.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#29：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -47,10 +47,13 @@
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://yyets.com/" target="_blank" rel="noopener noreferrer">人人影视</a></h3>
 <p>由爱好者成员成立的网站，免费提供最新影视剧介绍和影评，发布最新的字幕包括美剧、日剧、电影、动漫等。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694046035369.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://kuaizi.cc/" target="_blank" rel="noopener noreferrer">筷子视频</a></h3>
 <p>筷子视频，为您提供最新电影、美剧天堂、电影排行榜、最新美剧、韩剧、日剧、泰剧、最快最全的美剧在线视频网站，为广大美剧迷推荐精彩的美剧视频，是广大美剧迷必收藏的美剧网站！</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694046003402.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. <a href="https://www.mvcat.com/" target="_blank" rel="noopener noreferrer">MVCAT</a></h3>
 <p>一个专门的电影推荐平台，通过收集经典电影，电影专题以及网友互动分享好看电影，为广大电影爱好者提供优质的电影推荐服务。不过要注意，这里仅仅是推荐，如果你想观看/下载相关影视资源，还请移步其他平台。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694045950763.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
 <h2> ✍️ 说明</h2>
@@ -128,7 +131,7 @@
     <title type="text">好物周刊#27：</title>
     <id>https://cunyu1943.github.io/weekly/2023/1014-1020.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/1014-1020.html"/>
-    <updated>2023-09-06T13:42:10.000Z</updated>
+    <updated>2023-09-07T00:21:33.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#27：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -154,10 +157,13 @@
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://trends.google.com/trends/" target="_blank" rel="noopener noreferrer">Google 指数</a></h3>
 <p>基于 <code>Google</code> 搜索数据的数据分享平台，可以展示不同关键词、主题、时间段或区域的搜索热度和趋势，还能查看时下流行每日/实时搜索趋势。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694045669849.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://index.baidu.com/v2/index.html#/" target="_blank" rel="noopener noreferrer">百度指数</a></h3>
 <p>百度指数是以百度海量网民行为数据为基础的数据分享平台。在这里，你可以研究关键词搜索趋势、洞察网民兴趣和需求、监测舆情动向、定位受众特征。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694045709392.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. <a href="https://index.chinaz.com/" target="_blank" rel="noopener noreferrer">站长指数</a></h3>
 <p>站长全网指数查询是以各大搜索引擎海量网民搜索行为数据为基础的数据分享平台。在这里，你可以研究关键词在各大搜索引擎的趋势、洞察网民需求变化、监测媒体舆情趋势、定位数字消费者特征；还可以从行业的角度，分析市场特点。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694045739609.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
 <h2> ✍️ 说明</h2>
@@ -180,7 +186,7 @@
     <title type="text">好物周刊#28：</title>
     <id>https://cunyu1943.github.io/weekly/2023/1021-1027.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/1021-1027.html"/>
-    <updated>2023-09-06T13:42:10.000Z</updated>
+    <updated>2023-09-07T00:21:33.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#28：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -206,10 +212,13 @@
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://data.stats.gov.cn/" target="_blank" rel="noopener noreferrer">国家数据</a></h3>
 <p>数据源于国家统计局，包含了我国经济民生等多个方面的数据，包含普查数据、地区数据、部门数据、国际数据等多方面内容，并且在月度、季度、年度都有覆盖，十分全面。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694045793670.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://www.ceicdata.com/zh-hans" target="_blank" rel="noopener noreferrer">CEIC</a></h3>
 <p>前所未有地覆盖全球超过 213 个国家和地区的经济数据（宏观经济、<code>GDP</code>、进出口、能源等）。<code>CEIC</code> 帮助您一站式获取来自上千个数据源的百万级的时间序列数据，客服团队帮助您寻找或解释您想要的数据信息。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694045837586.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. <a href="https://www.un.org/zh/library/page/databases" target="_blank" rel="noopener noreferrer">联合国数据库</a></h3>
 <p>包含发展、裁军、经济和金融、国际法、国际关系、和平与安全、社会事务等多个方面的内容。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694045873807.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
 <h2> ✍️ 说明</h2>
