@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习、面试求职、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2023-09-07T01:59:54.773Z</updated>
+  <updated>2023-09-07T15:26:12.705Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -352,7 +352,7 @@
     <title type="text">CSS 教程</title>
     <id>https://cunyu1943.github.io/java-tutorial/web-front-series/20230903-css.html</id>
     <link href="https://cunyu1943.github.io/java-tutorial/web-front-series/20230903-css.html"/>
-    <updated>2023-09-06T14:52:21.000Z</updated>
+    <updated>2023-09-07T15:22:52.000Z</updated>
     <summary type="html"><![CDATA[<h1> CSS 教程</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -499,7 +499,7 @@
 </tr>
 <tr>
 <td><code>text-decoration</code></td>
-<td>修实现</td>
+<td>文本修饰线</td>
 </tr>
 <tr>
 <td><code>color</code></td>
@@ -538,7 +538,106 @@
 <blockquote>
 <p><strong>效果预览</strong>：<a href="https://code.juejin.cn/pen/7275723268651548709" target="_blank" rel="noopener noreferrer">https://code.juejin.cn/pen/7275723268651548709</a></p>
 </blockquote>
-<div class="language-css line-numbers-mode" data-ext="css"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content>
+<div class="language-css line-numbers-mode" data-ext="css"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 7. 文本缩进</h3>
+<p>设置文本首行缩进效果，属性值可以是两种形式，一种是 <strong>数字 + <code>px</code></strong>，而另一种则是 <strong>数字 + <code>em</code></strong> 的形式，其中 <code>1em</code> = 当前标签的字号大小。</p>
+<blockquote>
+<p><strong>效果预览</strong>：<a href="https://code.juejin.cn/pen/7276092884367966269" target="_blank" rel="noopener noreferrer">https://code.juejin.cn/pen/7276092884367966269</a></p>
+</blockquote>
+<div class="language-css line-numbers-mode" data-ext="css"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 8. 文本对齐</h3>
+<p>控制文本水平对齐方式，主要有左对齐、居中对齐、右对齐等形式，其中默认效果是左对齐。各属性值说明如下：</p>
+<table>
+<thead>
+<tr>
+<th>属性值</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>left</code></td>
+<td>左对齐</td>
+</tr>
+<tr>
+<td><code>center</code></td>
+<td>居中对齐</td>
+</tr>
+<tr>
+<td><code>right</code></td>
+<td>右对齐</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>效果预览</strong>：<a href="https://code.juejin.cn/pen/7276094993277091852" target="_blank" rel="noopener noreferrer">https://code.juejin.cn/pen/7276094993277091852</a></p>
+</blockquote>
+<div class="language-css line-numbers-mode" data-ext="css"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 9. 修饰线</h3>
+<p>用于给文本添加修饰线，常用的有以下几个属性值：</p>
+<table>
+<thead>
+<tr>
+<th>属性值</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>none</code></td>
+<td>无效果</td>
+</tr>
+<tr>
+<td><code>underline</code></td>
+<td>下划线</td>
+</tr>
+<tr>
+<td><code>line-through</code></td>
+<td>删除线</td>
+</tr>
+<tr>
+<td><code>overline</code></td>
+<td>上划线</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>预览地址</strong>：<a href="https://code.juejin.cn/pen/7276097261292945408" target="_blank" rel="noopener noreferrer">https://code.juejin.cn/pen/7276097261292945408</a></p>
+</blockquote>
+<div class="language-css line-numbers-mode" data-ext="css"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 10. 颜色</h3>
+<p>设置文本颜色，属性值主要有 4 种表示方式：</p>
+<table>
+<thead>
+<tr>
+<th>表示方式</th>
+<th>属性值</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>颜色关键字</td>
+<td>英文单词</td>
+<td><code>green</code>、<code>blue</code>、<code>red</code></td>
+</tr>
+<tr>
+<td><code>rgb</code></td>
+<td><code>rgb(r, g, b)</code></td>
+<td><code>r</code>、<code>g</code>、<code>b</code> 表示红绿蓝三原色，取值范围是：<code>0 -255</code></td>
+</tr>
+<tr>
+<td><code>rgba</code></td>
+<td><code>rgba(r, g, b, a)</code></td>
+<td>相比于 <code>rgb</code> 表示法多了一个 <code>a</code>，用于表示透明度，取值范围是：<code>0 - 1</code></td>
+</tr>
+<tr>
+<td>十六进制</td>
+<td><code>#RRGGBB</code></td>
+<td>如 <code>#000000</code> 表示黑色，<code>#FFFFFF</code> 表示白色</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>效果预览</strong>：<a href="https://code.juejin.cn/pen/7276102359267639331" target="_blank" rel="noopener noreferrer">https://code.juejin.cn/pen/7276102359267639331</a></p>
+</blockquote>
+<div class="language-css line-numbers-mode" data-ext="css"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content>
     <category term="Web 前端教程"/>
     <published>2023-09-03T00:00:00.000Z</published>
   </entry>
