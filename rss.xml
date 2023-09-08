@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习、面试求职、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 07 Sep 2023 23:57:42 GMT</pubDate>
-    <lastBuildDate>Thu, 07 Sep 2023 23:57:42 GMT</lastBuildDate>
+    <pubDate>Fri, 08 Sep 2023 02:45:02 GMT</pubDate>
+    <lastBuildDate>Fri, 08 Sep 2023 02:45:02 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>好物周刊</category>
@@ -204,7 +204,7 @@
       <link>https://cunyu1943.github.io/weekly/2023/0923-0929.html</link>
       <guid>https://cunyu1943.github.io/weekly/2023/0923-0929.html</guid>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#24：</source>
-      <description>好物周刊#24： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 二、软件 三、网站 1. 小众软件</description>
+      <description>好物周刊#24： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 二、软件 1. 33 台词</description>
       <category>好物周刊</category>
       <pubDate>Tue, 05 Sep 2023 00:30:39 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#24：</h1>
@@ -217,6 +217,15 @@
 </div>
 <h2> 一、项目</h2>
 <h2> 二、软件</h2>
+<h3> 1. <a href="https://33-app.agilestudio.cn/" target="_blank" rel="noopener noreferrer">33 台词</a></h3>
+<p>通过台词找影片素材，视频创作者、自媒体、英语/日语学习者的必备利器。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694130232043.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://www.yingdev.com/projects/wgestures2" target="_blank" rel="noopener noreferrer">WGestures</a></h3>
+<p>优秀实用的全局鼠标手势应用，支持重新定义手势、自定义菜单、脚本支持、黑/白名单等多项功能。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694130586104.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://www.onenote.com/" target="_blank" rel="noopener noreferrer">One&nbsp;Note</a></h3>
+<p>是 <code>Microsoft</code> 推出的一款数字笔记本软件，Office 365 包的一部分。最常用于笔记本电脑或台式电脑，但这套软件更适合用于支持手写笔操作的平板电脑，在这类设备上可使用触笔、声音或视频创建笔记。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694130876606.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://www.appinn.com/" target="_blank" rel="noopener noreferrer">小众软件</a></h3>
 <p>一个分享、体验、评测电脑软件、手机应用、互联网产品的网站。</p>
@@ -242,7 +251,7 @@
 <p>从求职到拿下 <code>Offer</code>，一本职场的全方位攻略，快来和我一起学习吧！</p>
 <figure><figcaption></figcaption></figure>
 ]]></content:encoded>
-      <enclosure url="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693873231875.webp" type="image/webp"/>
+      <enclosure url="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694130232043.webp" type="image/webp"/>
     </item>
     <item>
       <title>好物周刊#25：</title>
@@ -1169,20 +1178,21 @@
       <enclosure url="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693200076553.webp" type="image/webp"/>
     </item>
     <item>
-      <title>好物周刊#21：</title>
+      <title>好物周刊#21：前端学习资料</title>
       <link>https://cunyu1943.github.io/weekly/2023/0902-0908.html</link>
       <guid>https://cunyu1943.github.io/weekly/2023/0902-0908.html</guid>
-      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#21：</source>
-      <description>好物周刊#21： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1. Discovery</description>
+      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#21：前端学习资料</source>
+      <description>好物周刊#21：前端学习资料 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/p-tN_OM8nbh6IbjF5d6nyw</description>
       <category>好物周刊</category>
       <pubDate>Sun, 27 Aug 2023 07:41:05 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 好物周刊#21：</h1>
+      <content:encoded><![CDATA[<h1> 好物周刊#21：前端学习资料</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
 </div>
 <div class="hint-container tip">
 <p class="hint-container-title">原文</p>
+<p><a href="https://mp.weixin.qq.com/s/p-tN_OM8nbh6IbjF5d6nyw" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/p-tN_OM8nbh6IbjF5d6nyw</a></p>
 </div>
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://github.com/Nepxion/Discovery" target="_blank" rel="noopener noreferrer">Discovery</a></h3>
@@ -1325,6 +1335,10 @@
 <h3> 2. <a href="https://www.edrawsoft.cn/mindmaster/wb-zhihu.html" target="_blank" rel="noopener noreferrer">MindMaster</a></h3>
 <p>专业思维导图软件，云同步跨平台、海量脑图模板、功能全易上手。</p>
 <p>使用软件可以将纷繁复杂的想法、知识和信息，如学习笔记、会议纪要、项目需求等简化成一张张清晰的思维导图，以结构化有序化的方式呈现，提高归纳、学习和记忆的效率，方便展示和讲解。</p>
+<figure><figcaption></figcaption></figure>
+<h3> 3. <a href="https://codemap.info/index.html" target="_blank" rel="noopener noreferrer">Codemap</a></h3>
+<p>一款辅助阅读源代码的工具，通过连线展示代码调用关系、高亮、备注、代码量统计、等一系列功能、方法帮助用户理解代码，解析软件项目结构。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694128985102.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
 <h3> 1. <a href="http://ppchart.com/#/" target="_blank" rel="noopener noreferrer">PPChart</a></h3>
 <p>让图表更简单。PPChart 提供 Echarts 收录、图表制作等服务。</p>
@@ -1409,6 +1423,15 @@
 <p>核心检测能力由智能语义分析算法驱动，专为社区而生，不让黑客越雷池半步。</p>
 <figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694007548056.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
+<h3> 1. <a href="http://adkiller.360drm.com/index.html" target="_blank" rel="noopener noreferrer">弹窗广告拦截器</a></h3>
+<p>弹窗广告拦截器是一款完全免费的弹窗广告拦截软件,智能屏蔽各种弹窗广告！</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694129504604.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://cmder.app/" target="_blank" rel="noopener noreferrer">Cmder</a></h3>
+<p><code>Windows</code>&nbsp;平台下美观又强劲的一款利器，为 <code>CMD</code> / <code>PowerShell</code> 提供绝佳用户体验。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694129558790.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://www.xshell.com/zh/xshell/" target="_blank" rel="noopener noreferrer">XShell</a></h3>
+<p>非常优秀的终端软件，连接服务器必备，自称业界最强大的 <code>SHH</code>&nbsp;客户机。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694129639443.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
 <h3> 1. <a href="http://hepengwei.cn/#/html/visualDesign" target="_blank" rel="noopener noreferrer">视觉效果集合</a></h3>
 <p>一个专注于前端视觉效果的集合应用，里面包含各种丰富的 <code>css</code> 动效、<code>canvas</code> 动画等上百个案例，而且是开源免费的。</p>
