@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习、面试求职、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2023-09-11T00:23:37.475Z</updated>
+  <updated>2023-09-11T15:04:07.534Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -76,7 +76,7 @@
     <title type="text">好物周刊#26：</title>
     <id>https://cunyu1943.github.io/weekly/2023/1007-1013.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/1007-1013.html"/>
-    <updated>2023-09-11T00:20:53.000Z</updated>
+    <updated>2023-09-11T15:01:35.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#26：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -86,8 +86,7 @@
 <p class="hint-container-title">原文</p>
 </div>
 <h2> 一、项目</h2>
-<h2> 二、软件</h2>
-<h3> 1. <a href="https://www.glasswire.com/" target="_blank" rel="noopener noreferrer">GlassWire</a></h3>]]></summary>
+<h3> 1. <a href="https://github.com/lss233/chatgpt-mirai-qq-bot" target="_blank" rel="noopener noreferrer">ChatGPT for Bot</a></h3>]]></summary>
     <content type="html"><![CDATA[<h1> 好物周刊#26：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -97,11 +96,17 @@
 <p class="hint-container-title">原文</p>
 </div>
 <h2> 一、项目</h2>
+<h3> 1. <a href="https://github.com/lss233/chatgpt-mirai-qq-bot" target="_blank" rel="noopener noreferrer">ChatGPT for Bot</a></h3>
+<p>一键部署！真正的 <code>AI</code> 聊天机器人！支持 <code>ChatGPT</code>、文心一言、讯飞星火、<code>Bing</code>、<code>Bard</code>、<code>ChatGLM</code>、<code>POE</code>，多账号，人设调教，虚拟女仆、图片渲染、语音发送 | 支持 <code>QQ</code>、<code>Telegram</code>、<code>Discord</code>、微信等平台。</p>
+<h3> 2. <a href="https://github.com/coderzcr/JavaWeb-Project-Source-Share" target="_blank" rel="noopener noreferrer">JavaWeb-Project-Source-Share</a></h3>
+<p>分享基于 <code>Servlet</code>、<code>SSH</code>、<code>SSM</code>、<code>SpringBoot</code>、<code>SpringCloud</code> 等流行技术实现的 <code>JavaWeb</code> 项目，难度分为 5 个等级，帮助小白入门 <code>JavaWeb</code> 开发，协助 <code>JavaWeb</code> 开发者熟悉最新技术。</p>
+<h3> 3. <a href="https://github.com/maliangnansheng/bbs-springboot" target="_blank" rel="noopener noreferrer">南生论坛</a></h3>
+<p>仿掘金之南生论坛基于 <code>SpringBoot</code>&nbsp;+ <code>Vue</code>&nbsp;框架实现前后端分离（大厂微服务架构设计；代码简洁、高效无冗余；注释详细易阅读），自适应手机端和电脑端，界面简洁美观，功能完善，性能高效。</p>
 <h2> 二、软件</h2>
 <h3> 1. <a href="https://www.glasswire.com/" target="_blank" rel="noopener noreferrer">GlassWire</a></h3>
 <p>用户体验优秀的全能网络流量监控工具，同时具备防火墙功能。</p>
 <figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694390519558.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3> 2. <a href="https://www.scootersoftware.com/" target="_blank" rel="noopener noreferrer">Beyond&nbsp;Compare</a></h3>
+<h3> 2. <a href="https://www.scootersoftware.com/" target="_blank" rel="noopener noreferrer">Beyond Compare</a></h3>
 <p>一款专业的文本文件对比工具，可以高效的针对文件、文件夹、表格、<code>mp3</code>、图片、数据、注册表等文件并进行比较、合并、同步分析，并把相差的每一个字节用颜色加以表示，查看方便。</p>
 <figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694390548096.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. <a href="https://www.ipip.net/product/client.html" target="_blank" rel="noopener noreferrer">BestTrace</a></h3>
@@ -139,7 +144,7 @@
     <title type="text">好物周刊#27：</title>
     <id>https://cunyu1943.github.io/weekly/2023/1014-1020.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/1014-1020.html"/>
-    <updated>2023-09-07T00:21:33.000Z</updated>
+    <updated>2023-09-11T15:01:35.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#27：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -149,9 +154,7 @@
 <p class="hint-container-title">原文</p>
 </div>
 <h2> 一、项目</h2>
-<h2> 二、软件</h2>
-<h2> 三、网站</h2>
-<h3> 1. <a href="https://trends.google.com/trends/" target="_blank" rel="noopener noreferrer">Google 指数</a></h3>]]></summary>
+<h3> 1. <a href="https://github.com/dromara/lamp-cloud" target="_blank" rel="noopener noreferrer">lamp 快速开发平台</a></h3>]]></summary>
     <content type="html"><![CDATA[<h1> 好物周刊#27：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -161,7 +164,22 @@
 <p class="hint-container-title">原文</p>
 </div>
 <h2> 一、项目</h2>
+<h3> 1. <a href="https://github.com/dromara/lamp-cloud" target="_blank" rel="noopener noreferrer">lamp 快速开发平台</a></h3>
+<p><code>lamp-cloud</code> 基于 <code>Jdk11</code> + <code>SpringCloud</code> + <code>SpringBoot</code> 开发的微服务中后台快速开发平台，专注于多租户(<code>SaaS</code> 架构)解决方案，亦可作为普通项目（非 <code>SaaS</code> 架构）的基础开发框架使用，目前已实现插拔式数据库隔离、<code>SCHEMA</code> 隔离、字段隔离 等租户隔离方案。</p>
+<h3> 2. <a href="https://github.com/valarchie/AgileBoot-Back-End" target="_blank" rel="noopener noreferrer">AgileBoot</a></h3>
+<p>规范易于二开的全栈基础快速开发脚手架。采用 <code>SpringBoot</code> + <code>Vue3</code> + <code>Typescript</code> + <code>Mybatis Plus</code> + <code>Redis</code> + 更面向对象的业务建模 + 面向生产的项目。</p>
+<h3> 3. <a href="https://github.com/dromara/RuoYi-Vue-Plus" target="_blank" rel="noopener noreferrer">RuoYi-Vue-Plus</a></h3>
+<p>基于 <code>RuoYi-Vue</code>&nbsp;集成 <code>Lombok</code>&nbsp;+ <code>Mybatis-Plus</code>&nbsp;+ <code>Undertow</code>&nbsp;+ <code>knife4j</code> + <code>Hutool</code> + <code>Feign</code> 重写所有原生业务 定期与 <code>RuoYi-Vue</code>&nbsp;同步。</p>
 <h2> 二、软件</h2>
+<h3> 1. <a href="https://github.com/maotoumao/MusicFree" target="_blank" rel="noopener noreferrer">MusicFree</a></h3>
+<p>一个插件化、定制化、无广告的免费音乐播放器，目前只支持 <code>Android</code> 和 <code>Harmony OS</code>。具有以下特性：</p>
+<ul>
+<li>插件化</li>
+<li>插件支持搜索、播放、查看专辑等功能</li>
+<li>定制化、无广告</li>
+<li>隐私</li>
+<li>歌词关联</li>
+</ul>
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://trends.google.com/trends/" target="_blank" rel="noopener noreferrer">Google 指数</a></h3>
 <p>基于 <code>Google</code> 搜索数据的数据分享平台，可以展示不同关键词、主题、时间段或区域的搜索热度和趋势，还能查看时下流行每日/实时搜索趋势。</p>
@@ -249,7 +267,7 @@
     <title type="text">好物周刊#24：</title>
     <id>https://cunyu1943.github.io/weekly/2023/0923-0929.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0923-0929.html"/>
-    <updated>2023-09-11T00:20:53.000Z</updated>
+    <updated>2023-09-11T15:01:35.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#24：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -312,6 +330,8 @@
 <figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693873680114.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
+<h3> 1. <a href="https://github.com/itwanger/toBeBetterJavaer" target="_blank" rel="noopener noreferrer">toBeBetterJavaer</a></h3>
+<p>一份通俗易懂、风趣幽默的 <code>Java</code> 学习指南，内容涵盖 <code>Java</code> 基础、<code>Java</code> 并发编程、<code>Java</code> 虚拟机、<code>Java</code> 企业级开发、<code>Java</code> 面试等核心知识点。</p>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
@@ -332,7 +352,7 @@
     <title type="text">好物周刊#25：</title>
     <id>https://cunyu1943.github.io/weekly/2023/0930-1006.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0930-1006.html"/>
-    <updated>2023-09-11T00:20:53.000Z</updated>
+    <updated>2023-09-11T15:01:35.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#25：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -355,9 +375,29 @@
 <h3> 1. <a href="https://github.com/bage2014/study" target="_blank" rel="noopener noreferrer">study</a></h3>
 <p><code>Java</code> 全栈工程师学习笔记；<code>Spring</code>、<code>shiro</code>、<code>CAS</code>、<code>oauth2</code> 单点登录；<code>cache </code>、<code>Redis</code>; <code>web</code> 安全及解决思路；<code>mq</code>、<code>quartz</code>、<code>Docker</code>；<code>Docker</code> 各种组件实践等；<code>MyBatis</code>、<code>Spring</code>、<code>Spring Boot</code> 实践；分布式锁；基于分库分表等等。</p>
 <figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694391373421.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://github.com/MaaAssistantArknights/MaaAssistantArknights" target="_blank" rel="noopener noreferrer">MaaAssistantArknights</a></h3>
+<p>一款明日方舟游戏小助手，基于图像识别技术，一键完成全部日常任务！</p>
+<h3> 3. <a href="https://github.com/dushixiang/next-terminal" target="_blank" rel="noopener noreferrer">Next Terminal</a></h3>
+<p>一个简单好用安全的开源交互审计系统，支持 <code>RDP</code>、<code>SSH</code>、<code>VNC</code>、<code>Telnet</code>、<code>Kubernetes</code> 协议。目前支持的功能有：</p>
+<ul>
+<li>授权凭证管理</li>
+<li>资产管理（支持 <code>RDP</code>、<code>SSH</code>、<code>VNC</code>、<code>TELNET</code>&nbsp;协议）</li>
+<li>指令管理</li>
+<li>批量执行命令</li>
+<li>在线会话管理（监控、强制断开）</li>
+<li>离线会话管理（查看录屏）</li>
+<li>双因素认证</li>
+<li>资产标签</li>
+<li>资产授权</li>
+<li>多用户&amp;用户分组</li>
+<li>计划任务</li>
+<li>ssh server</li>
+<li>登录策略</li>
+<li>系统监控</li>
+</ul>
 <h2> 二、软件</h2>
 <h3> 1. <a href="https://www.flowlauncher.com/" target="_blank" rel="noopener noreferrer">Flow Launcher</a></h3>
-<p>快搜搜索文件和启动 <code>app</code>，取代 <code>Windows</code> 自带搜索的必备神器，类似于 <code>macOS</code>&nbsp;中的 <code>Alfred</code>。</p>
+<p>快搜搜索文件和启动 <code>app</code>，取代 <code>Windows</code> 自带搜索的必备神器，类似于 <code>macOS</code> 中的 <code>Alfred</code>。</p>
 <figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694388736952.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://geekuninstaller.com/" target="_blank" rel="noopener noreferrer">Geek Uninstaller</a></h3>
 <p>是一款 100% 免费且高效、快速、小而便携电脑清理卸载软件，易于使用的用户界面，执行深度和快速扫描并删除所有残留信息。保持你的电脑干净！支持卸载 <code>Windows</code> 8/8.1/10 上的 <code>Windows</code> 应用商店应用。</p>
@@ -1559,7 +1599,7 @@
     <title type="text">好物周刊#23：</title>
     <id>https://cunyu1943.github.io/weekly/2023/0916-0922.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0916-0922.html"/>
-    <updated>2023-09-11T00:20:53.000Z</updated>
+    <updated>2023-09-11T15:01:35.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#23：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -1620,6 +1660,10 @@
 <h3> 1. <a href="https://github.com/Charles7c/charles7c.github.io" target="_blank" rel="noopener noreferrer">查尔斯的知识库</a></h3>
 <p>基于 <code>VitePress</code> 构建的个人知识库/博客。查尔斯的个人技术知识库，记录 &amp; 分享个人碎片化、结构化、体系化的技术知识内容。</p>
 <figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694388392866.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://github.com/jaywcjlove/linux-command" target="_blank" rel="noopener noreferrer">Linux Command</a></h3>
+<p><code>Linux</code> 命令大全搜索工具，内容包含 <code>Linux</code> 命令手册、详解、学习。目前仓库搜集了 580 多个 <code>Linux</code> 命令，是一个非盈利性的仓库。</p>
+<h3> 3. <a href="https://github.com/SYaoJun/CPPInterview" target="_blank" rel="noopener noreferrer">CPPInterview</a></h3>
+<p>C/C++ 高频面试题合集，包含面试篇、笔试篇、书单、课程、刷题网站、面试问题六大模块。既有面试时需要掌握的基础知识和行业知识，也有笔试时遇到的高频算法类型和笔试技巧。</p>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
