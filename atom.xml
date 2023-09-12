@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习、面试求职、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2023-09-12T03:13:38.701Z</updated>
+  <updated>2023-09-12T08:14:21.227Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -21,7 +21,7 @@
     <title type="text">好物周刊#29：</title>
     <id>https://cunyu1943.github.io/weekly/2023/1028-1103.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/1028-1103.html"/>
-    <updated>2023-09-07T00:21:33.000Z</updated>
+    <updated>2023-09-12T08:10:36.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#29：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -31,9 +31,7 @@
 <p class="hint-container-title">原文</p>
 </div>
 <h2> 一、项目</h2>
-<h2> 二、软件</h2>
-<h2> 三、网站</h2>
-<h3> 1. <a href="https://yyets.com/" target="_blank" rel="noopener noreferrer">人人影视</a></h3>]]></summary>
+<h3> 1. <a href="https://github.com/521xueweihan/HelloGitHub" target="_blank" rel="noopener noreferrer">HelloGithub</a></h3>]]></summary>
     <content type="html"><![CDATA[<h1> 好物周刊#29：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -43,6 +41,9 @@
 <p class="hint-container-title">原文</p>
 </div>
 <h2> 一、项目</h2>
+<h3> 1. <a href="https://github.com/521xueweihan/HelloGitHub" target="_blank" rel="noopener noreferrer">HelloGithub</a></h3>
+<p>分享 <code>GitHub</code> 上有趣、入门级的开源项目。每月 28 号以月刊的形式更新发布，内容包括：有趣、入门级的开源项目、开源书籍、实战项目、企业级项目等，让你用很短时间感受到开源的魅力，爱上开源！</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694488288681.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://yyets.com/" target="_blank" rel="noopener noreferrer">人人影视</a></h3>
@@ -147,7 +148,7 @@
     <title type="text">好物周刊#27：</title>
     <id>https://cunyu1943.github.io/weekly/2023/1014-1020.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/1014-1020.html"/>
-    <updated>2023-09-12T00:03:27.000Z</updated>
+    <updated>2023-09-12T08:10:36.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#27：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -187,6 +188,9 @@
 <li>歌词关联</li>
 </ul>
 <figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694476868291.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://gitee.com/dromara/redisfront" target="_blank" rel="noopener noreferrer">RedisFront</a></h3>
+<p>一款基于 <code>Java Swing</code> 开发的跨平台 <code>Redis</code> 桌面客户端工具，简单易用，功能完善，支持单机模式, 集群模式, 哨兵模式以及 <code>SSH</code> 隧道连接。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694479428453.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://trends.google.com/trends/" target="_blank" rel="noopener noreferrer">Google 指数</a></h3>
 <p>基于 <code>Google</code> 搜索数据的数据分享平台，可以展示不同关键词、主题、时间段或区域的搜索热度和趋势，还能查看时下流行每日/实时搜索趋势。</p>
@@ -219,7 +223,7 @@
     <title type="text">好物周刊#28：</title>
     <id>https://cunyu1943.github.io/weekly/2023/1021-1027.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/1021-1027.html"/>
-    <updated>2023-09-07T00:21:33.000Z</updated>
+    <updated>2023-09-12T08:10:36.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#28：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -229,9 +233,7 @@
 <p class="hint-container-title">原文</p>
 </div>
 <h2> 一、项目</h2>
-<h2> 二、软件</h2>
-<h2> 三、网站</h2>
-<h3> 1. <a href="https://data.stats.gov.cn/" target="_blank" rel="noopener noreferrer">国家数据</a></h3>]]></summary>
+<h3> 1. <a href="https://github.com/ashutosh00710/github-readme-activity-graph" target="_blank" rel="noopener noreferrer">github-readme-activity-graph</a></h3>]]></summary>
     <content type="html"><![CDATA[<h1> 好物周刊#28：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -241,6 +243,15 @@
 <p class="hint-container-title">原文</p>
 </div>
 <h2> 一、项目</h2>
+<h3> 1. <a href="https://github.com/ashutosh00710/github-readme-activity-graph" target="_blank" rel="noopener noreferrer">github-readme-activity-graph</a></h3>
+<p>动态生成的活动图表，显示您过去 31 天的 <code>GitHub</code> 活动。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694477896036.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://github.com/dotnetcore/FastGithub" target="_blank" rel="noopener noreferrer">FastGithub</a></h3>
+<p>访问 <code>Github</code> 的加速神器，解决 <code>Github</code> 打不开、用户头像无法加载、<code>releases</code> 无法上传下载、<code>git-clone</code>、<code>git-pull</code>、<code>git-push</code> 失败等问题。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694478496664.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://github.com/SocialSisterYi/bilibili-API-collect" target="_blank" rel="noopener noreferrer">bilibili-API-collect</a></h3>
+<p>对 B 站 <code>WEB</code>、<code>APP</code>、<code>TV</code> 等客户端中，散落在世界各地的野生 <code>API</code> 进行收集整理，研究使用方法并对其进行说明，运用了黑箱法、控制变量法、代码逆向分析、拆包及反编译法、网络抓包法等研究办法。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694488059398.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://data.stats.gov.cn/" target="_blank" rel="noopener noreferrer">国家数据</a></h3>
@@ -274,7 +285,7 @@
     <title type="text">好物周刊#24：</title>
     <id>https://cunyu1943.github.io/weekly/2023/0923-0929.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0923-0929.html"/>
-    <updated>2023-09-12T00:03:27.000Z</updated>
+    <updated>2023-09-12T08:10:36.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#24：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -340,6 +351,9 @@
 <h3> 1. <a href="https://github.com/itwanger/toBeBetterJavaer" target="_blank" rel="noopener noreferrer">toBeBetterJavaer</a></h3>
 <p>一份通俗易懂、风趣幽默的 <code>Java</code> 学习指南，内容涵盖 <code>Java</code> 基础、<code>Java</code> 并发编程、<code>Java</code> 虚拟机、<code>Java</code> 企业级开发、<code>Java</code> 面试等核心知识点。</p>
 <figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694476546323.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://github.com/d2l-ai/d2l-zh" target="_blank" rel="noopener noreferrer">动手学深度学习</a></h3>
+<p>面向中文读者、能运行、可讨论。中英文版被 70 多个国家的 500 多所大学用于教学。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/image.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
@@ -15162,7 +15176,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#18：灵感收集器</title>
     <id>https://cunyu1943.github.io/weekly/2023/0812-0818.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0812-0818.html"/>
-    <updated>2023-08-27T12:10:24.000Z</updated>
+    <updated>2023-09-12T08:10:36.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#18：灵感收集器</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -15189,12 +15203,12 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <p>一个应用程序框架，您可以将它集成到任何 .NET/C# 应用程序中，让 .NET 开发更简单，更通用，更流行。</p>
 <figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://gitee.com/dromara/TLog" target="_blank" rel="noopener noreferrer">TLog</a></h3>
-<p>一个轻量级的分布式日志标记追踪神器，10 分钟即可接入，自动对日志打标签完成微服务的链路追踪。支持 log4j，log4j2，logback 三大日志框架，支持 Dubbo，Dubbox，Spring Cloud 三大 RPC 框架。</p>
+<p>一个轻量级的分布式日志标记追踪神器，10 分钟即可接入，自动对日志打标签完成微服务的链路追踪。支持 <code>log4j</code>，<code>log4j2</code>，<code>logback</code> 三大日志框架，支持 <code>Dubbo</code>，<code>Dubbox</code>，<code>Spring Cloud</code> 三大 <code>RPC</code> 框架。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
 <h3> 1. <a href="https://gitmind.cn/" target="_blank" rel="noopener noreferrer">GitMind</a></h3>
-<p>新一代<strong>免费</strong>思维导图协作软件，头脑风暴、思想共创，激发思想流动，让智慧自然涌现。</p>
-<p>一款全平台 在线思维导图脑图架构图制作软件工具，支持手机手机思维导图，Windows/Mac/Linux 多平台操作及内容同步。它提供有海量的架构图，流程图、思维导图模板可供用户直接使用，支持在线制作流程图、思维导图、组织结构图、类图、用例图、ER 图、网络拓扑图以及 UML 图等十多种图形。</p>
+<p>新一代 <strong>免费</strong> 思维导图协作软件，头脑风暴、思想共创，激发思想流动，让智慧自然涌现。</p>
+<p>一款全平台 在线思维导图脑图架构图制作软件工具，支持手机手机思维导图，<code>Windows</code>/<code>Mac</code>/<code>Linux</code> 多平台操作及内容同步。它提供有海量的架构图，流程图、思维导图模板可供用户直接使用，支持在线制作流程图、思维导图、组织结构图、类图、用例图、<code>ER</code> 图、网络拓扑图以及 <code>UML</code> 图等十多种图形。</p>
 <figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://gridea.dev/" target="_blank" rel="noopener noreferrer">Gridea</a></h3>
 <p>建造你的数字花园，让写作成为最佳谈话方式。</p>
