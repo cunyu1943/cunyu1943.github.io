@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习、面试求职、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2023-09-13T00:32:44.786Z</updated>
+  <updated>2023-09-13T14:42:51.357Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -498,7 +498,7 @@
     <title type="text">CSS 教程</title>
     <id>https://cunyu1943.github.io/java-tutorial/web-front-series/20230903-css.html</id>
     <link href="https://cunyu1943.github.io/java-tutorial/web-front-series/20230903-css.html"/>
-    <updated>2023-09-07T15:22:52.000Z</updated>
+    <updated>2023-09-13T14:40:17.000Z</updated>
     <summary type="html"><![CDATA[<h1> CSS 教程</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -575,7 +575,25 @@
 <blockquote>
 <p><strong>效果预览</strong>：<a href="https://code.juejin.cn/pen/7274588738708537403" target="_blank" rel="noopener noreferrer">https://code.juejin.cn/pen/7274588738708537403</a></p>
 </blockquote>
-<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 三、画盒子</h2>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 5. 复合选择器</h3>
+<p>由两个或多个基础选择器通过不同的方式组合而成的选择器，能够更加准确高效地选择目标元素。</p>
+<p>可以分为后代选择器、子代选择器、并集选择器。</p>
+<p>（1）<strong>后代选择器</strong></p>
+<p>用于选中某元素的后代元素，书写语法如下，其中，父选择器和子选择器之间用空格分隔。</p>
+<div class="language-css line-numbers-mode" data-ext="css"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><blockquote>
+<p><strong>效果预览</strong>：<a href="https://code.juejin.cn/pen/7278316108086509583" target="_blank" rel="noopener noreferrer">https://code.juejin.cn/pen/7278316108086509583</a></p>
+</blockquote>
+<div class="language-css line-numbers-mode" data-ext="css"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>（2）<strong>子代选择器</strong></p>
+<p>用于选中某元素的子代元素，书写语法如下，其中，父选择器和子选择器之间用 <code>&gt;</code> 分隔。</p>
+<div class="language-css line-numbers-mode" data-ext="css"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><blockquote>
+<p><strong>效果预览</strong>：<a href="https://code.juejin.cn/pen/7278317640706162748" target="_blank" rel="noopener noreferrer">https://code.juejin.cn/pen/7278317640706162748</a></p>
+</blockquote>
+<div class="language-css line-numbers-mode" data-ext="css"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>（3）<strong>并集选择器</strong></p>
+<p>用于选中多组标签，设置相同的样式。书写语法如下，选择器之间用 <code>,</code> 分隔。</p>
+<div class="language-css line-numbers-mode" data-ext="css"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><blockquote>
+<p><strong>效果预览</strong>：<a href="https://code.juejin.cn/pen/7278319757644005376" target="_blank" rel="noopener noreferrer">https://code.juejin.cn/pen/7278319757644005376</a></p>
+</blockquote>
+<div class="language-css line-numbers-mode" data-ext="css"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 四、画盒子</h2>
 <p>利用合适的选择器画盒子，常用属性如下表。</p>
 <blockquote>
 <p><strong>效果预览</strong>：<a href="https://code.juejin.cn/pen/7274599388759916603" target="_blank" rel="noopener noreferrer">https://code.juejin.cn/pen/7274599388759916603</a></p>
@@ -602,7 +620,7 @@
 </tr>
 </tbody>
 </table>
-<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 四、文字控制属性</h2>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 五、文字控制属性</h2>
 <table>
 <thead>
 <tr>
@@ -680,7 +698,7 @@
 </blockquote>
 <div class="language-css line-numbers-mode" data-ext="css"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 6. 复合属性</h3>
 <p>用于设置网页文字的公共样式，使用语法如下：</p>
-<div class="language-css line-numbers-mode" data-ext="css"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>使用时，属性一定要按照顺序写，而且字号和字体必须要有，否则 <code>font</code>&nbsp;属性将无效。</p>
+<div class="language-css line-numbers-mode" data-ext="css"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>使用时，属性一定要按照顺序写，而且字号和字体必须要有，否则 <code>font</code> 属性将无效。</p>
 <blockquote>
 <p><strong>效果预览</strong>：<a href="https://code.juejin.cn/pen/7275723268651548709" target="_blank" rel="noopener noreferrer">https://code.juejin.cn/pen/7275723268651548709</a></p>
 </blockquote>
@@ -1182,7 +1200,7 @@
     <title type="text">开发环境搭建</title>
     <id>https://cunyu1943.github.io/java-tutorial/web-front-series/20230829-environment.html</id>
     <link href="https://cunyu1943.github.io/java-tutorial/web-front-series/20230829-environment.html"/>
-    <updated>2023-09-04T00:33:27.000Z</updated>
+    <updated>2023-09-13T14:40:17.000Z</updated>
     <summary type="html"><![CDATA[<h1> 开发环境搭建</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -1251,7 +1269,7 @@
 <blockquote>
 <p><a href="https://www.google.com/chrome/" target="_blank" rel="noopener noreferrer">https://www.google.com/chrome/</a></p>
 </blockquote>
-<p>这个时候，我们就必须退而求其次，去找找我们能正常下载 <code>Chrome</code> 的地址了。这里推荐去异次元软件世界进行下载，网站提供 Windows 7/8/10/11、macOS 等平台稳定版、测试版、金丝雀版的离线包的下载，还区分 32/64 位安装包，可以说是非常良心了。</p>
+<p>这个时候，我们就必须退而求其次，去找找我们能正常下载 <code>Chrome</code> 的地址了。这里推荐去异次元软件世界进行下载，网站提供 <code>Windows</code> 7/8/10/11、<code>macOS</code> 等平台稳定版、测试版、金丝雀版的离线包的下载，还区分 32/64 位安装包，可以说是非常良心了。</p>
 <blockquote>
 <p><a href="https://www.iplaysoft.com/tools/chrome/" target="_blank" rel="noopener noreferrer">https://www.iplaysoft.com/tools/chrome/</a></p>
 </blockquote>
