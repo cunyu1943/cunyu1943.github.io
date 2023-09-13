@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习、面试求职、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 13 Sep 2023 00:26:47 GMT</pubDate>
-    <lastBuildDate>Wed, 13 Sep 2023 00:26:47 GMT</lastBuildDate>
+    <pubDate>Wed, 13 Sep 2023 00:32:44 GMT</pubDate>
+    <lastBuildDate>Wed, 13 Sep 2023 00:32:44 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>好物周刊</category>
@@ -39,6 +39,17 @@
 <h3> 1. <a href="https://github.com/521xueweihan/HelloGitHub" target="_blank" rel="noopener noreferrer">HelloGithub</a></h3>
 <p>分享 <code>GitHub</code> 上有趣、入门级的开源项目。每月 28 号以月刊的形式更新发布，内容包括：有趣、入门级的开源项目、开源书籍、实战项目、企业级项目等，让你用很短时间感受到开源的魅力，爱上开源！</p>
 <figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694488288681.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://gitee.com/xiaoym/knife4j" target="_blank" rel="noopener noreferrer">knife4j</a></h3>
+<p>为 <code>Java</code> <code>MVC</code> 框架集成 <code>Swagger</code> 生成 <code>Api</code> 文档的增强解决方案，前身是 <code>swagger-bootstrap-ui</code>，取名 <code>knife4j</code> 是希望她能像一把匕首一样小巧，轻量，并且功能强悍！主要提供如下功能：</p>
+<ul>
+<li>前后端 <code>Java</code> 代码以及前端 <code>UI</code> 模块进行分离,在微服务架构下使用更加灵活</li>
+<li>提供专注于 <code>Swagger</code> 的增强解决方案,不同于只是改善增强前端 <code>UI</code> 部分</li>
+<li>提供更多灵活的中间件方案\工具</li>
+</ul>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694517818971.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://github.com/PlexPt/awesome-chatgpt-prompts-zh" target="_blank" rel="noopener noreferrer">ChatGPT 中文调教指南</a></h3>
+<p><code>ChatGPT</code> 中文调教指南。各种场景使用指南，学习怎么让它听你的话。支持如下功能：</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694518963641.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://yyets.com/" target="_blank" rel="noopener noreferrer">人人影视</a></h3>
@@ -310,6 +321,19 @@
 <p>极具人气和特色的软件网站！专注于推荐优秀软件、<code>APP</code> 应用和互联网资源，每篇图文评测都极其用心，并提供大量软件资源下载。</p>
 <figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693873680114.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
+<h3> 1. <a href="https://chromewebstore.google.com/detail/%E8%B4%AD%E7%89%A9%E5%85%9A%E8%87%AA%E5%8A%A8%E6%AF%94%E4%BB%B7%E5%B7%A5%E5%85%B7/jgphnjokjhjlcnnajmfjlacjnjkhleah" target="_blank" rel="noopener noreferrer">购物党自动比价工具</a></h3>
+<p>浏览商品页面时，自动查询 180 天历史价格、比较同款商品的全网最低价、提示促销和隐藏优惠券、一旦降价还能通过微信提醒你，海淘、二手房和 <code>Steam</code> 游戏也能比价！插件具有以下特性：</p>
+<ul>
+<li>180 天历史价格跟踪，识别虚假促销（历史促销信息也能跟踪）</li>
+<li>自动货比三家，帮你找到全网最低价，防止买贵</li>
+<li>自动提示促销活动和隐藏优惠券，能省则省</li>
+<li>支持全网收藏，一旦降价可以通过微信提醒</li>
+<li>支持比价的网站包括淘宝、京东、天猫、苏宁、当当、亚马逊（含美亚日亚德亚英亚）、<code>Steam</code>&nbsp;游戏、链家贝壳我爱我家二手房等数百家，网上能买的东西都能比！</li>
+</ul>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694564249865.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://chromewebstore.google.com/detail/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%A0%E4%BB%AC%E5%B0%B1%E6%98%AF%E4%B8%8D%E8%83%BD%E5%8A%A0%E4%B8%AA%E7%A9%BA%E6%A0%BC%E5%91%A2%EF%BC%9F/paphcfdffjnbcgkokihcdjliihicmbpd" target="_blank" rel="noopener noreferrer">为什么你们就是不能加个空格呢？</a></h3>
+<p>自动在网页中所有的中文字和半形的英文、数字、符号之间插入空白。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694564655510.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://github.com/itwanger/toBeBetterJavaer" target="_blank" rel="noopener noreferrer">toBeBetterJavaer</a></h3>
 <p>一份通俗易懂、风趣幽默的 <code>Java</code> 学习指南，内容涵盖 <code>Java</code> 基础、<code>Java</code> 并发编程、<code>Java</code> 虚拟机、<code>Java</code> 企业级开发、<code>Java</code> 面试等核心知识点。</p>
@@ -317,6 +341,9 @@
 <h3> 2. <a href="https://github.com/d2l-ai/d2l-zh" target="_blank" rel="noopener noreferrer">动手学深度学习</a></h3>
 <p>面向中文读者、能运行、可讨论。中英文版被 70 多个国家的 500 多所大学用于教学。</p>
 <figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/image.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://github.com/YSGStudyHards/DotNetGuide" target="_blank" rel="noopener noreferrer">DotNetGuide</a></h3>
+<p>记录、收集和总结 <code>C#/.NET/.NET Core</code> 基础知识、学习路线、开发实战、学习视频、文章、书籍、项目框架、社区组织、开发必备工具、常见面试题、面试须知、简历模板、以及自己在学习和工作中的一些微薄见解。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694518048137.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
@@ -397,6 +424,15 @@
 <figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693958840698.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
+<h3> 1. <a href="https://learn.microsoft.com/zh-cn/dotnet/csharp/" target="_blank" rel="noopener noreferrer">C# 文档</a></h3>
+<p>面向新手开发人员、刚开始接触 <code>C#</code> 的开发人员、以及经验丰富的 <code>C#/.NET</code> 开发人员。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694518162388.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://learn.microsoft.com/zh-cn/dotnet/" target="_blank" rel="noopener noreferrer">.NET&nbsp;文档</a></h3>
+<p>了解如何使用 <code>.NET</code> 在任何使用 <code>C#</code>、<code>F#</code> 和 <code>Visual Basic</code> 的平台上创建应用程序。 浏览 <code>API</code> 引用、代码示例、教程以及其他内容。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694518376166.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://github.com/ljinkai/weekly" target="_blank" rel="noopener noreferrer">独立开发变现周刊</a></h3>
+<p>分享独立开发变现人物志、产品周刊、工具集，每周五发布。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694518686460.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
@@ -1416,14 +1452,14 @@
       <enclosure url="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693268061437.webp" type="image/webp"/>
     </item>
     <item>
-      <title>好物周刊#22：</title>
+      <title>好物周刊#22：代码阅读辅助工具</title>
       <link>https://cunyu1943.github.io/weekly/2023/0909-0915.html</link>
       <guid>https://cunyu1943.github.io/weekly/2023/0909-0915.html</guid>
-      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#22：</source>
-      <description>好物周刊#22： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1. PaoPao</description>
+      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#22：代码阅读辅助工具</source>
+      <description>好物周刊#22：代码阅读辅助工具 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1. PaoPao</description>
       <category>好物周刊</category>
       <pubDate>Sun, 27 Aug 2023 07:41:05 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 好物周刊#22：</h1>
+      <content:encoded><![CDATA[<h1> 好物周刊#22：代码阅读辅助工具</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
@@ -1576,6 +1612,24 @@
 <p>推荐每天新兴的移动应用程序、网站和技术产品等。</p>
 <figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693872900975.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
+<h3> 1. <a href="https://chromewebstore.google.com/detail/laookkfknpbbblfpciffpaejjkokdgca" target="_blank" rel="noopener noreferrer">Momentum</a></h3>
+<p>将新标签页替换为个人仪表板，以帮助您集中注意力、保持井井有条并保持动力来实现您的目标。</p>
+<p>页面包含待办事项列表、天气、每日照片和鼓舞人心的名言。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694563407366.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://chromewebstore.google.com/detail/adblock-plus-%E5%85%8D%E8%B4%B9%E7%9A%84%E5%B9%BF%E5%91%8A%E6%8B%A6%E6%88%AA%E5%99%A8/cfhdojbkjhnklbpkdaibdccddilifddb" target="_blank" rel="noopener noreferrer">Adblock&nbsp;Plus</a></h3>
+<p>阻止 <code>YouTube™</code> 广告、弹出窗口并抵御恶意软件！</p>
+<p>享受没有恼人广告的网络世界，插件会屏蔽以下内容</p>
+<ul>
+<li>横幅</li>
+<li><code>YouTube</code> 视频广告</li>
+<li><code>Facebook</code> 广告</li>
+<li>弹出窗口</li>
+<li>所有其他显眼的广告</li>
+</ul>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694563749220.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://chromewebstore.google.com/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd" target="_blank" rel="noopener noreferrer">LastPass</a></h3>
+<p>全球知名在线密码管理工具之一，采用军事级加密算法，支持自动填充网站用户名和密码，与朋友分享登录信息等实用功能，且在全平台同步免费，无需订阅即可在手机、网页、电脑多端同步信息。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694563887081.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://github.com/Charles7c/charles7c.github.io" target="_blank" rel="noopener noreferrer">查尔斯的知识库</a></h3>
 <p>基于 <code>VitePress</code> 构建的个人知识库/博客。查尔斯的个人技术知识库，记录 &amp; 分享个人碎片化、结构化、体系化的技术知识内容。</p>
