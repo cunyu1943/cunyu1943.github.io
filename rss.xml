@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习、面试求职、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 14 Sep 2023 01:13:00 GMT</pubDate>
-    <lastBuildDate>Thu, 14 Sep 2023 01:13:00 GMT</lastBuildDate>
+    <pubDate>Thu, 14 Sep 2023 10:20:08 GMT</pubDate>
+    <lastBuildDate>Thu, 14 Sep 2023 10:20:08 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>好物周刊</category>
@@ -24,7 +24,7 @@
       <link>https://cunyu1943.github.io/weekly/2023/1104-1110.html</link>
       <guid>https://cunyu1943.github.io/weekly/2023/1104-1110.html</guid>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#30：</source>
-      <description>好物周刊#30： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 二、软件 三、网站 1. FreeCodeCamp</description>
+      <description>好物周刊#30： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1. Fighting Design</description>
       <category>好物周刊</category>
       <pubDate>Thu, 14 Sep 2023 00:39:56 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#30：</h1>
@@ -36,6 +36,9 @@
 <p class="hint-container-title">原文</p>
 </div>
 <h2> 一、项目</h2>
+<h3> 1. <a href="https://github.com/FightingDesign/fighting-design" target="_blank" rel="noopener noreferrer">Fighting Design</a></h3>
+<p>一款灵活、优质的组件库，可在 <code>vue3</code> 应用程序中快速构建交互界面。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694653832104.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://www.freecodecamp.org/chinese/learn" target="_blank" rel="noopener noreferrer">FreeCodeCamp</a></h3>
@@ -60,7 +63,7 @@
 <p>扫一扫，探索另一个全新的世界。</p>
 <figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
-      <enclosure url="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694650845929.webp" type="image/webp"/>
+      <enclosure url="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694653832104.webp" type="image/webp"/>
     </item>
     <item>
       <title>好物周刊#31：</title>

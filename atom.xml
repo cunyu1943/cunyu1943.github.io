@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习、面试求职、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2023-09-14T01:13:00.749Z</updated>
+  <updated>2023-09-14T10:20:08.313Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -21,7 +21,7 @@
     <title type="text">好物周刊#30：</title>
     <id>https://cunyu1943.github.io/weekly/2023/1104-1110.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/1104-1110.html"/>
-    <updated>2023-09-14T00:39:56.000Z</updated>
+    <updated>2023-09-14T10:16:48.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#30：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -31,9 +31,7 @@
 <p class="hint-container-title">原文</p>
 </div>
 <h2> 一、项目</h2>
-<h2> 二、软件</h2>
-<h2> 三、网站</h2>
-<h3> 1. <a href="https://www.freecodecamp.org/chinese/learn" target="_blank" rel="noopener noreferrer">FreeCodeCamp</a></h3>]]></summary>
+<h3> 1. <a href="https://github.com/FightingDesign/fighting-design" target="_blank" rel="noopener noreferrer">Fighting Design</a></h3>]]></summary>
     <content type="html"><![CDATA[<h1> 好物周刊#30：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -43,6 +41,9 @@
 <p class="hint-container-title">原文</p>
 </div>
 <h2> 一、项目</h2>
+<h3> 1. <a href="https://github.com/FightingDesign/fighting-design" target="_blank" rel="noopener noreferrer">Fighting Design</a></h3>
+<p>一款灵活、优质的组件库，可在 <code>vue3</code> 应用程序中快速构建交互界面。</p>
+<figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694653832104.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://www.freecodecamp.org/chinese/learn" target="_blank" rel="noopener noreferrer">FreeCodeCamp</a></h3>
