@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习、面试求职、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 14 Sep 2023 10:20:08 GMT</pubDate>
-    <lastBuildDate>Thu, 14 Sep 2023 10:20:08 GMT</lastBuildDate>
+    <pubDate>Fri, 15 Sep 2023 00:02:35 GMT</pubDate>
+    <lastBuildDate>Fri, 15 Sep 2023 00:02:35 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>好物周刊</category>
@@ -2522,7 +2522,7 @@
 <p>在使用变量时，需要注意以下的几个问题。</p>
 <ol>
 <li>变量一定要先声明然后再使用。</li>
-<li>声明一个变量的类型后，不能用它来存储其类型的数据。</li>
+<li>声明一个变量的类型后，不能用它来存储其他类型的数据。</li>
 <li>变量定义时可以不赋初始值，但是在使用时必须赋值。</li>
 <li>变量是有使用范围的，在同一使用范围内，不能重复定义同一个变量。</li>
 <li>变量最重要的一个特点就是可以重新赋值。</li>
@@ -2645,7 +2645,7 @@
 <li><code>char</code> 是用 <strong>单引号 <code>''</code></strong> 将内容括起来，<strong>只能存放一个字符</strong>，相当于一个整型值（ASCII 值），能够参加表达式运算；而 <code>String</code> 是用 <strong>双引号 <code>""</code></strong> 将内容括起来，代表的是一个地址值。</li>
 <li><code>Java</code> 在内存中是采用 <code>Unicode</code> 表示，所以无论是一个中文字符还是英文字符，都能用 <code>char</code> 来表示。</li>
 </ol>
-<p>那么如何个一个基本类型变量赋值呢？</p>
+<p>那么如何给一个基本类型变量赋值呢？</p>
 <p>在 <code>Java</code> 中，基本数据类型属于 <code>Java</code> 的一种内置的特殊数据类型，不属于任何类，所以可以直接对其进行赋值；给基本类型的变量赋值的方式就叫做 <strong>字面值</strong>；</p>
 <div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><h3> 引用数据类型</h3>
 <h4> 常见引用数据类型</h4>
