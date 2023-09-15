@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习、面试求职、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 15 Sep 2023 00:02:35 GMT</pubDate>
-    <lastBuildDate>Fri, 15 Sep 2023 00:02:35 GMT</lastBuildDate>
+    <pubDate>Fri, 15 Sep 2023 05:40:16 GMT</pubDate>
+    <lastBuildDate>Fri, 15 Sep 2023 05:40:16 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>好物周刊</category>
@@ -858,7 +858,12 @@
 <blockquote>
 <p><strong>效果预览</strong>：<a href="https://code.juejin.cn/pen/7276102359267639331" target="_blank" rel="noopener noreferrer">https://code.juejin.cn/pen/7276102359267639331</a></p>
 </blockquote>
-<div class="language-css line-numbers-mode" data-ext="css"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
+<div class="language-css line-numbers-mode" data-ext="css"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+]]></content:encoded>
+      <enclosure url="https://cunyu1943.github.io/contact/wechatpublic.png =150x" type="image/"/>
     </item>
     <item>
       <title>HTML 大揭秘</title>
@@ -1240,7 +1245,12 @@
 </tr>
 </tbody>
 </table>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
+      <enclosure url="https://cunyu1943.github.io/contact/wechatpublic.png =150x" type="image/"/>
     </item>
     <item>
       <title>开发环境搭建</title>
@@ -1313,6 +1323,10 @@
 </blockquote>
 <h3> 2. 安装</h3>
 <p>相对与下载而言，<code>Chrome</code> 的安装就十分简单了，只需要双击打开安装包，它就会自动开始安装。</p>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
       <enclosure url="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/java-tutorial/web-front-series/assets/1693786691442.webp" type="image/webp"/>
     </item>
@@ -1594,7 +1608,7 @@
       <link>https://cunyu1943.github.io/weekly/2023/0909-0915.html</link>
       <guid>https://cunyu1943.github.io/weekly/2023/0909-0915.html</guid>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#22：代码阅读辅助工具</source>
-      <description>好物周刊#22：代码阅读辅助工具 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1. PaoPao</description>
+      <description>好物周刊#22：代码阅读辅助工具 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/nxRy7y81YYbQwbvdWCVB_w</description>
       <category>好物周刊</category>
       <pubDate>Sun, 27 Aug 2023 07:41:05 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#22：代码阅读辅助工具</h1>
@@ -1604,6 +1618,7 @@
 </div>
 <div class="hint-container tip">
 <p class="hint-container-title">原文</p>
+<p><a href="https://mp.weixin.qq.com/s/nxRy7y81YYbQwbvdWCVB_w" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/nxRy7y81YYbQwbvdWCVB_w</a></p>
 </div>
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://github.com/rocboss/paopao-ce" target="_blank" rel="noopener noreferrer">PaoPao</a></h3>
@@ -1909,7 +1924,12 @@
 <p>智能在线考试专家，除开牛客之外，也有不少企业在这里进行招聘笔试，比如阿里、京东、头条、美团、滴滴、小米等公司校招考试都在用。</p>
 <h2> 三、最后</h2>
 <p>推荐仅限于推荐，最重要的还是要行动起来。就算一开始很吃力，那也要坚持！</p>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
+      <enclosure url="https://cunyu1943.github.io/contact/wechatpublic.png =150x" type="image/"/>
     </item>
     <item>
       <title>你问我答</title>
@@ -2150,6 +2170,10 @@
 <figure><figcaption></figcaption></figure>
 <h2> 六、总结</h2>
 <p>本文主要从 Java 历史背景、选择 Java 的理由、Java 能做什么、Java 技术体系等 4 方面对 Java 语言做了一个简单介绍。接下来的文章我们就来看看，如何搭建 Java 的开发环境以及实现一个简单的入门程序。</p>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
     </item>
     <item>
@@ -2169,13 +2193,13 @@
 <p class="hint-container-title">原文</p>
 <p><a href="https://mp.weixin.qq.com/s/geOWlAwVMhtmmIMvFvjSpQ" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/geOWlAwVMhtmmIMvFvjSpQ</a></p>
 </div>
-<h2> 前言</h2>
+<h2> 一、前言</h2>
 <p>作为一个入门的学习者，要进行 Java 开发，那怎么能少得了 JDK 呢，本文就先来看看如何安装并配置 JDK，为后续的学习做好铺垫。</p>
-<h2> 下载并安装 JDK</h2>
+<h2> 二、下载并安装 JDK</h2>
 <p>什么是 JDK 呢？JDK（Java Development Kit）即 Java 开发者工具包，使我们学习 Java 语言必须安装的一个工具。</p>
 <p>这里主要以 Windows 和 macOS 系统中 JDK 的安装为例，一来因为考虑到大家用的最多的还是 Windows 和 macOS 系统，二来则是因为手边没有安装 Linux 图形化系统。如果恰好你使用的是 Linux 系统，那么推荐你参考一下其他的资料，同样你也可以参考我的另一篇文章：<a href="https://cunyu1943.blog.csdn.net/article/details/105648148" target="_blank" rel="noopener noreferrer">手把手带你玩转 Ubuntu</a>。</p>
-<h3> Windows</h3>
-<h4> 安装</h4>
+<h3> 1. Windows</h3>
+<h4> 1.1 安装</h4>
 <ol>
 <li>首先进入 <a href="https://www.oracle.com/java/technologies/javase-downloads.html" target="_blank" rel="noopener noreferrer">Oracle 官网</a>，然后找到自己想要的 JDK 版本，这边以 JDK 11 为例；</li>
 </ol>
@@ -2193,7 +2217,7 @@
 <li>下载完成后，进行安装即可，安装流程和我们平常安装软件的一样，就再赘述，需要注意的是要记住如下的安装路径，因为一般我们都不会安装到默认路径，所以一定要记住你所安装到的路径，这关系到后续的配置步骤；</li>
 </ol>
 <figure><figcaption></figcaption></figure>
-<h4> 配置 JDK</h4>
+<h4> 1.2 配置 JDK</h4>
 <p>好了，经过上面的配置，我们的 JDK 就已经安装好了，但是这个使用你是用不了的，我们还需要进一步的配置；</p>
 <p>打开系统属性来进行环境变量配置，打开系统属性并进行配置的方式如下：</p>
 <ol>
@@ -2215,14 +2239,14 @@
 <ol start="5">
 <li>各种确定，然后突出系统属性即可，到这一步，理论上我们的 JDK 就安装并配置成功了，接下来我们就去确认一下到底安装好了没；</li>
 </ol>
-<h4> 验证 JDK</h4>
+<h4> 1.3 验证 JDK</h4>
 <p>按照上述步骤操作完成之后，接下来就是验证了，一般我们可以通过如下三个命令来进行验证；</p>
 <div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>打开命令控制台（<strong>Windows + R，然后输入 cmd 回车</strong>），然后输入如上三个命令，如果安装成功，一般是会出现如下内容的；</p>
 <figure><figcaption></figcaption></figure>
 <figure><figcaption></figcaption></figure>
 <figure><figcaption></figcaption></figure>
-<h3> macOS</h3>
-<h4> 安装</h4>
+<h3> 2. macOS</h3>
+<h4> 2.1 安装</h4>
 <ol>
 <li>首先去 <a href="https://www.oracle.com/java/technologies/javase-jdk11-downloads.html" target="_blank" rel="noopener noreferrer">官网下载</a> 对应安装包；</li>
 </ol>
@@ -2244,7 +2268,7 @@
 <li>安装成功；</li>
 </ol>
 <figure><figcaption></figcaption></figure>
-<h4> 验证</h4>
+<h4> 2.2 验证</h4>
 <p>不同于 Windows，macOS 下不用再去配置了，它会给你自动配置好，我们只需要去验证即可；</p>
 <ol>
 <li>查看 JDK 版本；</li>
@@ -2258,7 +2282,7 @@
 <li>运行命令；</li>
 </ol>
 <figure><figcaption></figcaption></figure>
-<h3> 安装目录详解</h3>
+<h3> 3. 安装目录详解</h3>
 <p>安装好 <code>JDK</code> 之后，打开安装路径，通常情况下会有如下的目录结构：</p>
 <table>
 <thead>
@@ -2294,7 +2318,7 @@
 </tr>
 </tbody>
 </table>
-<h2> 你的第一个 Java 程序：HelloWorld</h2>
+<h2> 三、你的第一个 Java 程序：HelloWorld</h2>
 <p>好了，经过上面的安装配置，我们就可以开始我们的第一个 Java 程序编写了。</p>
 <p>要开发一个 Java 程序，主要分成 3 个步骤：</p>
 <ol>
@@ -2316,7 +2340,7 @@
 <li>运行，使用如下命令进行运行，然后就可以看到打印出的最终结果了！</li>
 </ol>
 <div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
-<h2> 知识点说明</h2>
+<h2> 四、知识点说明</h2>
 <p>我们的 Hello World 是打印出来了，但是你肯定对里边的代码很感兴趣，这一节就主要针对我们的 Hello World 程序进行说明；</p>
 <div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>完整的程序代码如上：</p>
 <ul>
@@ -2326,7 +2350,7 @@
 <li><code>public static void main(String[] args){}</code>：主方法，这是我们以后最常接触到的一个方法，每个主类当中都必须有一个 <code>main</code> 方法；</li>
 <li><code>System.out.println("Hello World!")</code>：控制台输出语句，执行该语句会在控制台中输出字符串，字符串要用双引号 <code>""</code> 括起来，你可以把其中的 <code>Hello Wolrd!</code> 换成你想要打印的内容试试看。</li>
 </ul>
-<h2> 总结</h2>
+<h2> 五、总结</h2>
 <p>好了，今天的内容到此就结束了，主要介绍了如何在 Windows 和 macOS 中安装 JDK，具体过程可以总结如下：</p>
 <ul>
 <li>安装</li>
@@ -2334,6 +2358,10 @@
 <li>验证</li>
 </ul>
 <p>然后编写了我们的第一个 <code>Hello World</code> 程序，并利用安装好的的 JDK 对其进行编译和运行。最后，则是对我们的 <code>Hello World</code> 程序中的相关知识进行了介绍。</p>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
     </item>
     <item>
@@ -2353,19 +2381,19 @@
 <p class="hint-container-title">原文</p>
 <p><a href="https://mp.weixin.qq.com/s/Pkf1WTj-x6JH4Jo8mOr8SQ" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/Pkf1WTj-x6JH4Jo8mOr8SQ</a></p>
 </div>
-<h2> 前言</h2>
+<h2> 一、前言</h2>
 <p>上一篇中，我们讲了 <a href="https://mp.weixin.qq.com/s/geOWlAwVMhtmmIMvFvjSpQ" target="_blank" rel="noopener noreferrer">如何搭建 Java 开发环境</a>。不过既然确定了要从事 Java 开发，那怎么能少得了一个趁手的 IDE 呢。正所谓工欲善其事。必先利其器，一个趁手的 IDE 就像电视剧里的神兵利器，能让我们功力大增，大大提高我们的效率。</p>
 <p>但是目前市场上那么多的 IDE，有 Eclipse、IntelliJ IDEA、NetBeans …… 我们究竟该选择哪一个呢？既然做不了决定，那我就替你选择吧！要是都没接触过，那就直接 IDEA 吧，要是你之前是个 Eclipse 的忠实粉丝，也推荐你用一下 IDEA 试试，你只需要把 IDEA 的快捷键方式设置为 Eclipse 方式即可，相信过了一开始的阵痛期之后，就会喜欢上 IDEA 这一神器。那接下来，我们就来进行 IDEA 的安装工作！</p>
-<h2> 安装前的准备工作</h2>
+<h2> 二、安装前的准备工作</h2>
 <p>开始安装之前，我们需要进行一些准备，首先是<strong>社区版和旗舰版该选谁</strong>，接着是<strong>软硬件的支持</strong>。</p>
-<h3> 旗舰版 VS 社区版</h3>
+<h3> 1. 旗舰版 VS 社区版</h3>
 <p>对于旗舰版和社区版，我从官网给出的对比从而摘选了如下图所示的区别。可以看出旗舰版无论在 <strong>语言支持、框架支持、Build 工具、部署工具、版本控制</strong> 等多方面都比社区版更加强大，但是最大的区别也是我们最为关心的一点：<strong>旗舰版收费，而社区版免费</strong>， 所以可以根据自己的需求进行选择。</p>
 <figure><figcaption></figcaption></figure>
-<h3> 软件</h3>
+<h3> 2. 软件</h3>
 <ul>
 <li>IntelliJ IDEA 安装包，下载地址：<a href="https://www.jetbrains.com/idea/download/%EF%BC%8C%E9%80%89%E6%8B%A9%E8%87%AA%E5%B7%B1%E7%B3%BB%E7%BB%9F%E5%AF%B9%E5%BA%94%E5%AE%89%E8%A3%85%E5%8C%85%E5%8D%B3%E5%8F%AF%E3%80%82" target="_blank" rel="noopener noreferrer">https://www.jetbrains.com/idea/download/，选择自己系统对应安装包即可。</a></li>
 </ul>
-<h3> 硬件</h3>
+<h3> 3. 硬件</h3>
 <table>
 <thead>
 <tr>
@@ -2397,9 +2425,9 @@
 </tr>
 </tbody>
 </table>
-<h2> 安装工作</h2>
-<h3> Ubuntu</h3>
-<h4> 安装</h4>
+<h2> 三、安装工作</h2>
+<h3> 1. Ubuntu</h3>
+<h4> 1.1 安装</h4>
 <ol>
 <li>下载安装包，根据自己的需求选择旗舰版或是社区版</li>
 </ol>
@@ -2424,16 +2452,16 @@
 <figure><figcaption>图片源自 IDEA 官网</figcaption></figure>
 <p>选择额外的插件支持，按需安装，默认不勾选，后续也可以自行安装。</p>
 <figure><figcaption>图片源自 IDEA 官网</figcaption></figure>
-<h4> 卸载</h4>
+<h4> 1.2 卸载</h4>
 <p>Linux 下卸载只需要将对应目录（即刚才解压后的目录）删除即可。</p>
-<h3> Windows</h3>
-<h4> 安装</h4>
+<h3> 2. Windows</h3>
+<h4> 2.1 安装</h4>
 <p>安装过程和 Ubuntu 大致相同，只是 Windows 中的安装包是可执行文件，只需要双击进行安装即可，然后后面选择自己的安装路径即可，安装好之后的设置和 Ubuntu 一致。</p>
-<h4> 卸载</h4>
+<h4> 2.2 卸载</h4>
 <p>进入 Windows 设置，然后进入应用，然后搜索 IDEA，选择卸载即可。</p>
 <figure><figcaption></figcaption></figure>
-<h3> macOS</h3>
-<h4> 安装</h4>
+<h3> 3. macOS</h3>
+<h4> 3.1 安装</h4>
 <ol>
 <li>首先去 <a href="https://www.jetbrains.com/idea/download/#section=mac" target="_blank" rel="noopener noreferrer">官网下载</a> 对应安装包；</li>
 </ol>
@@ -2446,10 +2474,10 @@
 <li>安装成功，打开的主页面如下图所示；</li>
 </ol>
 <figure><figcaption></figcaption></figure>
-<h4> 卸载</h4>
+<h4> 3.2 卸载</h4>
 <p>打开访达中的 <strong>应用程序</strong>，然后找到 IDEA，将其拖到 <strong>🗑️ 废纸篓</strong> 即可，也可以单击鼠标右键，然后 <strong>移到废纸篓</strong>；</p>
 <figure><figcaption></figcaption></figure>
-<h2> 创建 Java 项目</h2>
+<h2> 四、创建 Java 项目</h2>
 <p><a href="https://mp.weixin.qq.com/s/geOWlAwVMhtmmIMvFvjSpQ" target="_blank" rel="noopener noreferrer">上一篇</a> 文章中，我们介绍了如何利用编辑器写我们的 <code>Hello World</code>，接下来就讲讲如何利用 IDEA 来创建并书写我们的 <code>Hello World</code> 程序。</p>
 <ol>
 <li>依次进入 <code>File -&gt; New -&gt; Project</code>，然后选择左侧 Java，配置项目 JDK；</li>
@@ -2474,9 +2502,13 @@
 <ol start="6">
 <li>最后运行我们刚才写的代码，可以看到输出了 <code>Hello World</code>，和我们在上一篇文章中通过控制台打印出的一样！</li>
 </ol>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2> 总结</h2>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2> 五、总结</h2>
 <p>今天的内容就到此为止了，主要介绍了 IDEA 的不同版本之间的区别，以及 IDEA 在不同系统中的安装和卸载工作，最后则是给大家演示了如何利用 IDEA 创建一个项目，编写我们最简单的 <code>Hello World!</code> 程序。</p>
 <p>这里如果您想了解 IDEA 的更多使用技巧，可以关注一下，后边我会抽空写一个完整的教程系列，敬请期待吧！您要是等不及了，那就加我微信来催我更文吧！</p>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
     </item>
     <item>
@@ -2903,7 +2935,10 @@
 <h2> 总结</h2>
 <p>以上就是本期文章的所有内容了，集中介绍了 Java 中的变量、数据类型、变量作用域以及常量等主要知识点。内容虽然蛮多的，但如果大家能够静下心来慢慢学习，掌握起来还是不难的。</p>
 <p>最后，码字不易，如果觉得本文对您有所帮助，可以点赞关注，帮忙分享一波哦！🙏</p>
-<p><strong>关注公众号，获取最新文章更新</strong></p>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
       <enclosure url="https://img-blog.csdnimg.cn/9f8fed4aeeda4dea9d1de0ff7677ca4a.png" type="image/png"/>
     </item>
@@ -3008,6 +3043,10 @@
 <div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
 <h2> 总结</h2>
 <p>以上就是有关二进制、十进制、八进制、十六进制相关的知识点了。此外还介绍了 Java 中如何进行十进制向其他进制的转换方法，以及如何将其他进制转换为十进制。如果你刚好这些内容对你有所帮助，那就来个一键三连吧！</p>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
     </item>
     <item>
@@ -3348,6 +3387,10 @@
 <div style="text-align:center">
 <figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" alt="" width="200" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 </div>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
     </item>
     <item>
@@ -3596,6 +3639,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <div style="text-align:center">
 <figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" alt="" width="200" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 </div>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
     </item>
     <item>
@@ -3719,6 +3766,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <div style="text-align:center">
 <figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" alt="" width="200" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 </div>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
     </item>
     <item>
@@ -3820,7 +3871,12 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 </ol>
 <h2> 总结</h2>
 <p>以上就是关于面向对象编程思想的一些简单知识介绍了，主要讲了面向对象的概念，面向对象的 3 大特性以及面向对象的 5 大原则。如果觉得本文对你有所帮助，那就来个一键三连再走吧！</p>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
+      <enclosure url="https://cunyu1943.github.io/contact/wechatpublic.png =150x" type="image/"/>
     </item>
     <item>
       <title>类的相关知识</title>
@@ -4021,6 +4077,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 </ul>
 <h2> 总结</h2>
 <p>今天的内容就到此结束了，主要对面向对象中的类、对象、属性、方法、构造方法以及引用做了介绍，关于更多面向对象的知识，我们下一篇文章再见！</p>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
     </item>
     <item>
@@ -4151,6 +4211,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <div style="text-align:center">
 <figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" alt="" width="200" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 </div>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
     </item>
     <item>
@@ -4221,6 +4285,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <div style="text-align:center">
 <figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" alt="" width="200" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 </div>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
     </item>
     <item>
@@ -4446,6 +4514,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
 <h2> 总结</h2>
 <p>以上就是关于 <code>Java</code> 中字符串的相关知识点了，主要介绍了 <code>String</code> 类创建对象的两种方式以及常用 <code>API</code>。此外，为了提高字符串的操作效率，还了解 <code>StringBuilder</code> 和 <code>StringJoiner</code> 的构造方法以及常用方法，方便后续编程中使用。</p>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
     </item>
     <item>
@@ -4599,7 +4671,12 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 </ol>
 <div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 总结</h2>
 <p>本文主要讲解了 <code>ArrayList</code> 的定义、泛型支持、构造方法以及常用方法等。主要针对的是日常中的使用，更多关于 <code>ArrayList</code>&nbsp; 底层原理的一些知识，抽个时间再聊吧！</p>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
+      <enclosure url="https://cunyu1943.github.io/contact/wechatpublic.png =150x" type="image/"/>
     </item>
     <item>
       <title>输入输出流</title>
@@ -4974,6 +5051,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <div style="text-align:center">
 <figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" alt="" width="200" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 </div>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
     </item>
     <item>
@@ -5212,6 +5293,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <div style="text-align:center">
 <figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" alt="" width="200" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 </div>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
     </item>
     <item>
@@ -5549,6 +5634,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <div style="text-align:center">
 <figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" alt="" width="200" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 </div>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
     </item>
     <item>
@@ -5776,6 +5865,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <h2> 总结</h2>
 <p>好了，以上就是有关单元测试 Junit 的简单使用指南了。虽说大家现在还是有很多人在使用 Junit4，但如果你之前并未接触过 Junit，个人建议那就直接学习 Junit5 吧。当然了，Junit4 了解也是很有必要的，毕竟技多不压身，多一份技能少求人嘛。</p>
 <p><strong>关注公众号，获取最新文章更新</strong></p>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
     </item>
     <item>
@@ -5952,6 +6045,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li><a href="https://projectlombok.org/features/all" target="_blank" rel="noopener noreferrer">https://projectlombok.org/features/all</a></li>
 </ol>
 <p><strong>关注公众号，获取最新文章更新</strong></p>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
     </item>
     <item>
@@ -6001,6 +6098,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
 <h2> 总结</h2>
 <p>以上就是日常开发中常见的 4 种其他格式和 <code>JSON</code> 格式之间的转换过程了，其中，最常用的应该莫过于 <code>JSON</code> 和 Java 对象之间的相互转换了，一定要熟练掌握！关于 <code>Fastjson V2</code> 的简单使用就介绍到这里了，关于更多 <code>Fastjson V2</code> 的高级使用技巧，等待我们后续文章再见吧！</p>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
     </item>
     <item>
@@ -6193,6 +6294,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <div style="text-align:center">
 <figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" alt="" width="200" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 </div>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
     </item>
     <item>
@@ -6341,7 +6446,12 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <blockquote>
 <p>传送门：<a href="https://gitee.com/cunyu1943/java-in-practice" target="_blank" rel="noopener noreferrer">https://gitee.com/cunyu1943/java-in-practice</a></p>
 </blockquote>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
+      <enclosure url="https://cunyu1943.github.io/contact/wechatpublic.png =150x" type="image/"/>
     </item>
     <item>
       <title>static 和 final 小课堂</title>
@@ -6400,7 +6510,12 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 总结</h2>
 <p>今天的内容到此就结束了，首先介绍了 <code>static</code> 用来修饰符变量和方法的应用场景，还额外补充了静态代码块相关的知识点。另外，我们也对 <code>final</code> 用来修饰变量、方法和类时的场景进行了回顾。</p>
 <p>码字不易，如果本文对你所有帮助，那就来个一键三连吧！</p>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
+      <enclosure url="https://cunyu1943.github.io/contact/wechatpublic.png =150x" type="image/"/>
     </item>
     <item>
       <title>抽象、接口和内部类</title>
@@ -6535,7 +6650,12 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <p>如果一个类被定义在方法中，那么这个类就叫做局部内部类。外界是无法直接使用局部内部类，需要在方法内部创建对象并使用。同时，这个内部类既可以访问外部类的成员，也可以访问方法中的局部变量。</p>
 <div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4> 匿名内部类</h4>
 <p>匿名内部类就是没有名字的内部类，也正因为名字，所以匿名内部类只能使用一次。而且使用匿名内部类还有个前提条件：必须继承一个父类或者实现一个接口。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+]]></content:encoded>
+      <enclosure url="https://cunyu1943.github.io/contact/wechatpublic.png =150x" type="image/"/>
     </item>
     <item>
       <title>Java 基础</title>
@@ -10525,6 +10645,10 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <p>第二则是只主要对 <code>cust_name</code> 排序一次即可，放在 <code>UNION</code> 前的 <code>ORDER BY</code> 关键字显然位置不对。</p>
 <div class="language-sql line-numbers-mode" data-ext="sql"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 致谢</h2>
 <p>感谢<a href="http://nowcoder.com/" target="_blank" rel="noopener noreferrer">牛客网</a>提供的题目列表。</p>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
     </item>
     <item>
