@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习、面试求职、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 15 Sep 2023 05:40:16 GMT</pubDate>
-    <lastBuildDate>Fri, 15 Sep 2023 05:40:16 GMT</lastBuildDate>
+    <pubDate>Sun, 17 Sep 2023 14:25:03 GMT</pubDate>
+    <lastBuildDate>Sun, 17 Sep 2023 14:25:03 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>好物周刊</category>
@@ -277,6 +277,18 @@
 <h3> 2. <a href="https://gitee.com/dromara/redisfront" target="_blank" rel="noopener noreferrer">RedisFront</a></h3>
 <p>一款基于 <code>Java Swing</code> 开发的跨平台 <code>Redis</code> 桌面客户端工具，简单易用，功能完善，支持单机模式, 集群模式, 哨兵模式以及 <code>SSH</code> 隧道连接。</p>
 <figure><img src="https://cdn.staticaly.com/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694479428453.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://github.com/lyswhut/lx-music-desktop" target="_blank" rel="noopener noreferrer">洛雪音乐助手</a></h3>
+<p>一个基于 <code>Electron</code> + <code>Vue</code> 开发的音乐软件。使用到的技术栈：</p>
+<ul>
+<li><code>Electron 15+</code></li>
+<li><code>Vue 3</code></li>
+</ul>
+<p>已支持如下平台：</p>
+<ul>
+<li><code>Windows</code> 7 及以上</li>
+<li><code>macOS</code></li>
+<li><code>Linux</code></li>
+</ul>
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://trends.google.com/trends/" target="_blank" rel="noopener noreferrer">Google 指数</a></h3>
 <p>基于 <code>Google</code> 搜索数据的数据分享平台，可以展示不同关键词、主题、时间段或区域的搜索热度和趋势，还能查看时下流行每日/实时搜索趋势。</p>
