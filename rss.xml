@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习、面试求职、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 18 Sep 2023 07:26:15 GMT</pubDate>
-    <lastBuildDate>Mon, 18 Sep 2023 07:26:15 GMT</lastBuildDate>
+    <pubDate>Mon, 18 Sep 2023 09:01:36 GMT</pubDate>
+    <lastBuildDate>Mon, 18 Sep 2023 09:01:36 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>好物周刊</category>
@@ -218,6 +218,9 @@
 <h3> 1. <a href="https://github.com/javascript-tutorial/zh.javascript.info/" target="_blank" rel="noopener noreferrer">现代 JavaScript 教程</a></h3>
 <p>依托于 <code>learn.javascript.ru</code> 而来，它是俄罗斯最大的 <code>JavaScript</code> 教程和学习平台之一，质量有保障，而且是在线学习，教程都是实时更新且免费的，不像书籍可能存在看的技术过时的问题。现代 <code>JavaScript</code> 教程是 <code>React</code> 官方文档中与 <code>MDN</code> 共同推荐的 <code>JavaScript</code> 学习教程，质量有保障。</p>
 <figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694648658881.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://github.com/Wei-Xia/most-frequent-technology-english-words" target="_blank" rel="noopener noreferrer">程序员英语词汇宝典</a></h3>
+<p>本列表中的单词是英语类计算机书籍、文档、文章中高频常见的技术词汇，也是程序员工作中常见的英语词汇，最终目的是希望程序员集合自身的英语基础，在掌握列表中的词汇后，可以无障碍阅读英语技术文章和文档。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695021839312.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
