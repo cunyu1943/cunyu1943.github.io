@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习、面试求职、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2023-09-19T00:21:06.148Z</updated>
+  <updated>2023-09-19T00:34:53.663Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -21,7 +21,7 @@
     <title type="text">好物周刊#30：</title>
     <id>https://cunyu1943.github.io/weekly/2023/1104-1110.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/1104-1110.html"/>
-    <updated>2023-09-18T07:04:08.000Z</updated>
+    <updated>2023-09-19T00:32:31.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#30：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -44,6 +44,18 @@
 <h3> 1. <a href="https://github.com/FightingDesign/fighting-design" target="_blank" rel="noopener noreferrer">Fighting Design</a></h3>
 <p>一款灵活、优质的组件库，可在 <code>vue3</code> 应用程序中快速构建交互界面。</p>
 <figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694653832104.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://github.com/whyour/qinglong" target="_blank" rel="noopener noreferrer">青龙</a></h3>
+<p>支持 <code>Python3</code>、<code>JavaScript</code>、<code>Shell</code>、<code>Typescript</code> 的定时任务管理平台，支持如下功能：</p>
+<ul>
+<li>支持多种脚本语言</li>
+<li>支持在线管理脚本、环境变量、配置文件</li>
+<li>支持在线查看任务日志</li>
+<li>支持秒级任务设置</li>
+<li>支持系统级通知</li>
+<li>支持暗黑模式</li>
+<li>支持手机端操作</li>
+</ul>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695081830349.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://www.freecodecamp.org/chinese/learn" target="_blank" rel="noopener noreferrer">FreeCodeCamp</a></h3>
@@ -199,7 +211,7 @@
     <title type="text">好物周刊#26：</title>
     <id>https://cunyu1943.github.io/weekly/2023/1007-1013.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/1007-1013.html"/>
-    <updated>2023-09-18T08:59:09.000Z</updated>
+    <updated>2023-09-19T00:32:31.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#26：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -256,6 +268,9 @@
 <h3> 2. <a href="https://github.com/Wei-Xia/most-frequent-technology-english-words" target="_blank" rel="noopener noreferrer">程序员英语词汇宝典</a></h3>
 <p>本列表中的单词是英语类计算机书籍、文档、文章中高频常见的技术词汇，也是程序员工作中常见的英语词汇，最终目的是希望程序员集合自身的英语基础，在掌握列表中的词汇后，可以无障碍阅读英语技术文章和文档。</p>
 <figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695021839312.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://github.com/yuesong-feng/30dayMakeCppServer" target="_blank" rel="noopener noreferrer">30 天自制 C++ 服务器</a></h3>
+<p>30 天自制 <code>C++</code> 服务器，包含教程和源代码。教程模仿《30 天自制操作系统》，面向零经验的新手，教你在 30 天内入门 <code>Linux</code> 服务器开发。教程更偏向实践，将会把重点放在如何写代码上，而不会花太多的篇幅讲解背后的计算机基础原理，涉及到的地方会给出相应书籍的具体章节。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695081640931.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
@@ -372,7 +387,7 @@
     <title type="text">好物周刊#28：</title>
     <id>https://cunyu1943.github.io/weekly/2023/1021-1027.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/1021-1027.html"/>
-    <updated>2023-09-18T07:04:08.000Z</updated>
+    <updated>2023-09-19T00:32:31.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#28：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -402,6 +417,9 @@
 <p>对 B 站 <code>WEB</code>、<code>APP</code>、<code>TV</code> 等客户端中，散落在世界各地的野生 <code>API</code> 进行收集整理，研究使用方法并对其进行说明，运用了黑箱法、控制变量法、代码逆向分析、拆包及反编译法、网络抓包法等研究办法。</p>
 <figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694488059398.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
+<h3> 1. <a href="https://github.com/cuifengcn/TAICHI-flet" target="_blank" rel="noopener noreferrer">TAICHI-flet</a></h3>
+<p>基于 <code>flet</code> 的一款 <code>Windows</code> 桌面应用，实现了浏览图片、音乐、小说、漫画、各种资源的功能。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695082724336.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://data.stats.gov.cn/" target="_blank" rel="noopener noreferrer">国家数据</a></h3>
 <p>数据源于国家统计局，包含了我国经济民生等多个方面的数据，包含普查数据、地区数据、部门数据、国际数据等多方面内容，并且在月度、季度、年度都有覆盖，十分全面。</p>
