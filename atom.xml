@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习、面试求职、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2023-09-20T02:39:39.536Z</updated>
+  <updated>2023-09-20T12:07:47.196Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -143,7 +143,7 @@
     <title type="text">好物周刊#31：</title>
     <id>https://cunyu1943.github.io/weekly/2023/1111-1117.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/1111-1117.html"/>
-    <updated>2023-09-20T00:26:16.000Z</updated>
+    <updated>2023-09-20T12:04:45.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#31：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -169,6 +169,15 @@
 <h3> 2. <a href="https://github.com/chao921125/vue-vite" target="_blank" rel="noopener noreferrer">vue-vite</a></h3>
 <p><code>vue3</code> + <code>vite4</code> + <code>vue-router</code> + <code>pinia</code>，动态路由、权限管理、<code>vw</code> 适配，路由切换 <code>PC</code> 与移动端，学习商用均可，配置简单，各种实用的插件库及对应示例。</p>
 <figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695168150961.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://github.com/tw93/Pake" target="_blank" rel="noopener noreferrer">Pake</a></h3>
+<p>利用 <code>Rust</code> 轻松构建轻量级多端桌面应用，支持 <code>Mac</code>/ <code>Windows</code>/<code>Linux</code>，具有以下特性：</p>
+<ul>
+<li>相比传统的 <code>Electron</code> 套壳打包，要小将近 20 倍，5M 上下。</li>
+<li><code>Pake</code> 的底层使用的 <code>Rust Tauri</code> 框架，性能体验较 <code>JS</code> 框架要轻快不少，内存小很多。</li>
+<li>不是单纯打包，实现了快捷键的透传、沉浸式的窗口、拖动、样式改写、去广告、产品的极简风格定制。</li>
+<li>只是一个很简单的小玩具，用 <code>Rust</code> 替代之前套壳网页打包的老思路，其实 <code>PWA</code> 也很好。</li>
+</ul>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695175329694.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
 <h2> 三、网站</h2>
 <h2> 四、插件</h2>
@@ -467,7 +476,7 @@
     <title type="text">好物周刊#28：</title>
     <id>https://cunyu1943.github.io/weekly/2023/1021-1027.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/1021-1027.html"/>
-    <updated>2023-09-20T00:26:16.000Z</updated>
+    <updated>2023-09-20T12:04:45.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#28：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -503,6 +512,9 @@
 <h3> 2. <a href="https://github.com/JoeanAmier/TikTokDownloader" target="_blank" rel="noopener noreferrer">TikTokDownloader</a></h3>
 <p>完全开源，基于 <code>Requests</code> 模块实现；批量下载抖音账号发布、喜欢、收藏的作品；单独下载抖音链接或 TikTok 链接对应的作品；获取抖音直播推流地址；下载抖音直播视频；采集抖音作品评论数据；批量下载抖音合集作品；采集抖音账号详细数据；采集抖音用户 / 作品搜索结果；采集抖音热榜数据。</p>
 <figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695132672885.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://github.com/hiroi-sora/Umi-OCR" target="_blank" rel="noopener noreferrer">Umi-OCR</a></h3>
+<p><code>OCR</code> 图片转文字识别软件，完全离线。截屏/批量导入图片，支持多国语言、合并段落、竖排文字。可排除水印区域，提取干净的文本，基于 <code>PaddleOCR</code> 。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695177438928.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://data.stats.gov.cn/" target="_blank" rel="noopener noreferrer">国家数据</a></h3>
 <p>数据源于国家统计局，包含了我国经济民生等多个方面的数据，包含普查数据、地区数据、部门数据、国际数据等多方面内容，并且在月度、季度、年度都有覆盖，十分全面。</p>
@@ -1955,7 +1967,7 @@
     <title type="text">好物周刊#23：Win 12 来了！</title>
     <id>https://cunyu1943.github.io/weekly/2023/0916-0922.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0916-0922.html"/>
-    <updated>2023-09-19T14:30:40.000Z</updated>
+    <updated>2023-09-20T12:04:45.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#23：Win 12 来了！</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -1983,39 +1995,39 @@
 <li>支持 <code>monorepos</code>：<code>pnpm</code> 内置支持单仓多包</li>
 <li>严格：<code>pnpm</code> 默认创建了一个非平铺的 <code>node_modules</code>，因此代码无法访问任意包</li>
 </ul>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693989839748.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://github.com/chaitin/SafeLine" target="_blank" rel="noopener noreferrer">雷池</a></h3>
 <p>一款足够简单、足够好用、足够强的免费 <code>WAF</code>。基于业界领先的语义引擎检测技术，作为反向代理接入，保护你的网站不受黑客攻击。</p>
 <p>核心检测能力由智能语义分析算法驱动，专为社区而生，不让黑客越雷池半步。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694007548056.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://github.com/tjy-gitnub/win12" target="_blank" rel="noopener noreferrer">win12</a></h3>
 <p>开发者看到 <code>Windows 12</code> 概念版后深受启发，决定做一个 <code>Windows12</code> 网页版。最重要的是，几个开发者还是初中生！</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694152475926.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
 <h3> 1. <a href="http://adkiller.360drm.com/index.html" target="_blank" rel="noopener noreferrer">弹窗广告拦截器</a></h3>
 <p>弹窗广告拦截器是一款完全免费的弹窗广告拦截软件,智能屏蔽各种弹窗广告！</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694129504604.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://cmder.app/" target="_blank" rel="noopener noreferrer">Cmder</a></h3>
 <p><code>Windows</code> 平台下美观又强劲的一款利器，为 <code>CMD</code> / <code>PowerShell</code> 提供绝佳用户体验。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694129558790.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://www.xshell.com/zh/xshell/" target="_blank" rel="noopener noreferrer">XShell</a></h3>
 <p>非常优秀的终端软件，连接服务器必备，自称业界最强大的 <code>SHH</code> 客户机。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694129639443.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
 <h3> 1. <a href="http://hepengwei.cn/#/html/visualDesign" target="_blank" rel="noopener noreferrer">视觉效果集合</a></h3>
 <p>一个专注于前端视觉效果的集合应用，里面包含各种丰富的 <code>css</code> 动效、<code>canvas</code> 动画等上百个案例，而且是开源免费的。</p>
 <figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://www.filehorse.com/" target="_blank" rel="noopener noreferrer">FileHorse</a></h3>
 <p>提供了大量软件的下载和介绍，包括 <code>Windows</code> 和 <code>macOS</code> 平台。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693806555043.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://www.producthunt.com/" target="_blank" rel="noopener noreferrer">Product Hunt</a></h3>
 <p>推荐每天新兴的移动应用程序、网站和技术产品等。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693872900975.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
 <h3> 1. <a href="https://chromewebstore.google.com/detail/laookkfknpbbblfpciffpaejjkokdgca" target="_blank" rel="noopener noreferrer">Momentum</a></h3>
 <p>将新标签页替换为个人仪表板，以帮助您集中注意力、保持井井有条并保持动力来实现您的目标。</p>
 <p>页面包含待办事项列表、天气、每日照片和鼓舞人心的名言。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694563407366.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://chromewebstore.google.com/detail/adblock-plus-%E5%85%8D%E8%B4%B9%E7%9A%84%E5%B9%BF%E5%91%8A%E6%8B%A6%E6%88%AA%E5%99%A8/cfhdojbkjhnklbpkdaibdccddilifddb" target="_blank" rel="noopener noreferrer">Adblock Plus</a></h3>
 <p>阻止 <code>YouTube™</code> 广告、弹出窗口并抵御恶意软件！</p>
 <p>享受没有恼人广告的网络世界，插件会屏蔽以下内容</p>
@@ -2026,20 +2038,20 @@
 <li>弹出窗口</li>
 <li>所有其他显眼的广告</li>
 </ul>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694563749220.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://chromewebstore.google.com/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd" target="_blank" rel="noopener noreferrer">LastPass</a></h3>
 <p>全球知名在线密码管理工具之一，采用军事级加密算法，支持自动填充网站用户名和密码，与朋友分享登录信息等实用功能，且在全平台同步免费，无需订阅即可在手机、网页、电脑多端同步信息。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694563887081.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://github.com/Charles7c/charles7c.github.io" target="_blank" rel="noopener noreferrer">查尔斯的知识库</a></h3>
 <p>基于 <code>VitePress</code> 构建的个人知识库/博客。查尔斯的个人技术知识库，记录 &amp; 分享个人碎片化、结构化、体系化的技术知识内容。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694388392866.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://github.com/jaywcjlove/linux-command" target="_blank" rel="noopener noreferrer">Linux Command</a></h3>
 <p><code>Linux</code> 命令大全搜索工具，内容包含 <code>Linux</code> 命令手册、详解、学习。目前仓库搜集了 580 多个 <code>Linux</code> 命令，是一个非盈利性的仓库。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694476451647.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://github.com/SYaoJun/CPPInterview" target="_blank" rel="noopener noreferrer">CPPInterview</a></h3>
 <p>C/C++ 高频面试题合集，包含面试篇、笔试篇、书单、课程、刷题网站、面试问题六大模块。既有面试时需要掌握的基础知识和行业知识，也有笔试时遇到的高频算法类型和笔试技巧。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694476494321.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
@@ -12595,7 +12607,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#1：提示工程师养成指南</title>
     <id>https://cunyu1943.github.io/weekly/2023/0415-0421.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0415-0421.html"/>
-    <updated>2023-09-19T02:38:58.000Z</updated>
+    <updated>2023-09-20T12:04:45.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#1：提示工程师养成指南</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -12646,24 +12658,12 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li><strong>常用功能</strong></li>
 </ol>
 <ul>
-<li>
-<p><strong>划词翻译</strong>：选中需要翻译的文本，按下划词翻译快捷键（默认 <code>⌥ + D</code>）即可翻译。</p>
-</li>
-<li>
-<p><strong>截图翻译</strong>：按下截图翻译快捷键（默认 <code>⌥ + S</code>），截取需要翻译的区域即可翻译。</p>
-</li>
-<li>
-<p><strong>输入翻译</strong>：按下输入翻译快捷键（默认 <code>⌥ + A</code>），输入需要翻译的文本，<code>Enter</code> 键翻译。</p>
-</li>
-<li>
-<p><strong>截图 OCR</strong>：按下截图 <code>OCR</code> 快捷键（默认 <code>⇧ + ⌥ + S</code>），截取需要识别的区域即可识别文本。</p>
-</li>
-<li>
-<p><strong>静默截图 OCR</strong>：按下静默截图 <code>OCR</code> 快捷键（无默认快捷键），截取需要识别的区域即可后台识别文本。</p>
-</li>
-<li>
-<p><strong>访达选图 OCR</strong>：按下访达选图 <code>OCR</code> 快捷键（无默认快捷键），在访达窗口选中图片文件即可识别文本。</p>
-</li>
+<li><strong>划词翻译</strong>：选中需要翻译的文本，按下划词翻译快捷键（默认 <code>⌥ + D</code>）即可翻译。</li>
+<li><strong>截图翻译</strong>：按下截图翻译快捷键（默认 <code>⌥ + S</code>），截取需要翻译的区域即可翻译。</li>
+<li><strong>输入翻译</strong>：按下输入翻译快捷键（默认 <code>⌥ + A</code>），输入需要翻译的文本，<code>Enter</code> 键翻译。</li>
+<li><strong>截图 OCR</strong>：按下截图 <code>OCR</code> 快捷键（默认 <code>⇧ + ⌥ + S</code>），截取需要识别的区域即可识别文本。</li>
+<li><strong>静默截图 OCR</strong>：按下静默截图 <code>OCR</code> 快捷键（无默认快捷键），截取需要识别的区域即可后台识别文本。</li>
+<li><strong>访达选图 OCR</strong>：按下访达选图 <code>OCR</code> 快捷键（无默认快捷键），在访达窗口选中图片文件即可识别文本。</li>
 </ul>
 <figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://www.screentogif.com/" target="_blank" rel="noopener noreferrer">ScreenToGif</a></h3>
@@ -13145,15 +13145,9 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <li><strong>媒体热键</strong></li>
 </ol>
 <ul>
-<li>
-<p>倒带/前进，逐帧分析，调整音量，设置标记，转到标记，<code>AB</code> 重复等。</p>
-</li>
-<li>
-<p>选择您要优先用于媒体热键的视频/音频。</p>
-</li>
-<li>
-<p>热键可以处于全局模式，该模式允许您在使用其他程序时控制背景音乐或 <code>PiP</code> 视频。</p>
-</li>
+<li>倒带/前进，逐帧分析，调整音量，设置标记，转到标记，<code>AB</code> 重复等。</li>
+<li>选择您要优先用于媒体热键的视频/音频。</li>
+<li>热键可以处于全局模式，该模式允许您在使用其他程序时控制背景音乐或 <code>PiP</code> 视频。</li>
 </ul>
 <ol start="3">
 <li><strong>筛选器</strong></li>
