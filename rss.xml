@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习、面试求职、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 20 Sep 2023 00:16:25 GMT</pubDate>
-    <lastBuildDate>Wed, 20 Sep 2023 00:16:25 GMT</lastBuildDate>
+    <pubDate>Wed, 20 Sep 2023 00:29:58 GMT</pubDate>
+    <lastBuildDate>Wed, 20 Sep 2023 00:29:58 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>好物周刊</category>
@@ -92,7 +92,7 @@
 <figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695081830349.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3.<a href="https://github.com/rev1si0n/lamda" target="_blank" rel="noopener noreferrer">LAMDA</a></h3>
 <p><code>LAMDA</code> 是一个用于逆向及自动化的辅助框架，它设计为减少安全分析以及应用测试人员的时间及琐碎问题，以编程化的接口替代大量手动操作，它并不是一个单一功能的框架。</p>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/demo.gif" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://www.freecodecamp.org/chinese/learn" target="_blank" rel="noopener noreferrer">FreeCodeCamp</a></h3>
@@ -139,6 +139,9 @@
 <h3> 1. <a href="https://github.com/honghuangdc/soybean-admin" target="_blank" rel="noopener noreferrer">Soybean Admin</a></h3>
 <p>一个基于 <code>Vue3</code>、<code>Vite3</code>、<code>TypeScript</code>、<code>NaiveUI</code>、<code>Pinia</code> 和 <code>UnoCSS</code> 的清新优雅的中后台模版，它使用了最新流行的前端技术栈，内置丰富的主题配置，有着极高的代码规范，基于文件的路由系统以及基于 <code>Mock</code> 的动态权限路由，开箱即用的中后台前端解决方案，也可用于学习参考。</p>
 <figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695133235107.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://github.com/chao921125/vue-vite" target="_blank" rel="noopener noreferrer">vue-vite</a></h3>
+<p><code>vue3</code> + <code>vite4</code> + <code>vue-router</code> + <code>pinia</code>，动态路由、权限管理、<code>vw</code> 适配，路由切换 <code>PC</code> 与移动端，学习商用均可，配置简单，各种实用的插件库及对应示例。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695168150961.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
 <h2> 三、网站</h2>
 <h2> 四、插件</h2>
@@ -375,8 +378,20 @@
 <li>模板补充内容（常见题型中的额外代码、建模技巧等）</li>
 <li>相关题目链接（模板题、经典题、思维转换题等）</li>
 </ul>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695167550597.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://github.com/cbamls/AI_Tutorial" target="_blank" rel="noopener noreferrer">AI_Tutorial</a></h3>
 <p>全面整理高质量的人工智能、机器学习、大数据等技术资料。内容主要来自开源项目官网、综合技术网站（<code>AIQ</code> 、<code>InfoQ</code>、<code>Stackoverflow</code>、<code>Github</code> 等、国内外知名互联网公司技术博客 (<code>FAANG</code>、<code>Alibaba</code>、<code>Meituan etc</code>)、知名技术公众号 (<code>DatafunTalk</code>、阿里技术等)。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695167590367.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://github.com/Visualize-ML/Book3_Elements-of-Mathematics" target="_blank" rel="noopener noreferrer">数学要素</a></h3>
+<p>为了让大家学数学、用数学，甚至爱上数学，作者颇费心机。尽量克服了传统数学教材的各种弊端，让大家学习时有兴趣、能看懂、有思考、更自信。丛书内容具有以下特点：</p>
+<ul>
+<li>数学 + 艺术</li>
+<li>零基础</li>
+<li>知识网络</li>
+<li>理论 + 实践</li>
+<li>学习生态</li>
+</ul>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695168676584.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
@@ -441,6 +456,9 @@
 <figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694045873807.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
+<h3> 1. <a href="https://github.com/AmazingAng/WTF-Solidity" target="_blank" rel="noopener noreferrer">WTF Solidity</a></h3>
+<p><code>Solidity</code> 极简入门教程，供小白们使用，每周更新 1-3 讲。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695168807414.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
