@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习、面试求职、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2023-09-21T14:23:57.125Z</updated>
+  <updated>2023-09-21T14:35:17.028Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -14293,7 +14293,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#8：开源镜像站</title>
     <id>https://cunyu1943.github.io/weekly/2023/0603-0609.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0603-0609.html"/>
-    <updated>2023-09-14T00:39:56.000Z</updated>
+    <updated>2023-09-21T14:32:18.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#8：开源镜像站</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -14396,6 +14396,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <p>数据分析 + 机器学习实战 + 线性代数 + <code>PyTorch</code> + <code>NLTK</code> + <code>TF2</code> 学习指南。</p>
 <figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://potoyang.gitbook.io/spring-in-action-v5/" target="_blank" rel="noopener noreferrer">Spring 实战（第 5 版）</a></h3>
+<p><code>Spring</code> 实战第五版中文翻译。</p>
 <figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://vuepress.mirror.docker-practice.com/" target="_blank" rel="noopener noreferrer">Docker 从入门到实践</a></h3>
 <p>本书既适用于具备基础 <code>Linux</code> 知识的 <code>Docker</code> 初学者，也可供理解原理和实现的高级用户参考。同时，书中给出的实践案例，可供在进行实际部署时借鉴，大致内容如下：</p>

@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习、面试求职、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 21 Sep 2023 14:23:57 GMT</pubDate>
-    <lastBuildDate>Thu, 21 Sep 2023 14:23:57 GMT</lastBuildDate>
+    <pubDate>Thu, 21 Sep 2023 14:35:17 GMT</pubDate>
+    <lastBuildDate>Thu, 21 Sep 2023 14:35:17 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>好物周刊</category>
@@ -13842,6 +13842,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <p>数据分析 + 机器学习实战 + 线性代数 + <code>PyTorch</code> + <code>NLTK</code> + <code>TF2</code> 学习指南。</p>
 <figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://potoyang.gitbook.io/spring-in-action-v5/" target="_blank" rel="noopener noreferrer">Spring 实战（第 5 版）</a></h3>
+<p><code>Spring</code> 实战第五版中文翻译。</p>
 <figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://vuepress.mirror.docker-practice.com/" target="_blank" rel="noopener noreferrer">Docker 从入门到实践</a></h3>
 <p>本书既适用于具备基础 <code>Linux</code> 知识的 <code>Docker</code> 初学者，也可供理解原理和实现的高级用户参考。同时，书中给出的实践案例，可供在进行实际部署时借鉴，大致内容如下：</p>
