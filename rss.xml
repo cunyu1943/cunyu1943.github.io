@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习、面试求职、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 21 Sep 2023 07:38:23 GMT</pubDate>
-    <lastBuildDate>Thu, 21 Sep 2023 07:38:23 GMT</lastBuildDate>
+    <pubDate>Thu, 21 Sep 2023 08:47:20 GMT</pubDate>
+    <lastBuildDate>Thu, 21 Sep 2023 08:47:20 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>好物周刊</category>
@@ -94,6 +94,20 @@
 <p><code>LAMDA</code> 是一个用于逆向及自动化的辅助框架，它设计为减少安全分析以及应用测试人员的时间及琐碎问题，以编程化的接口替代大量手动操作，它并不是一个单一功能的框架。</p>
 <figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/demo.gif" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
+<h3> 1. <a href="https://github.com/Dreamer365/topspeed-image-compressor" target="_blank" rel="noopener noreferrer">极速图片压缩器</a></h3>
+<p>压缩速度极快的图片压缩软件，具有以下特点：</p>
+<ul>
+<li>具有超快的压缩速度</li>
+<li>支持压缩 <code>GB</code> 级别的超大体积的图片</li>
+<li>支持 7 种图片格式</li>
+<li>支持深、浅色主题模式</li>
+<li>可对原始图片进行预览</li>
+<li>可通过【鼠标拖拽】【点击选择】【<code>ctrl + v</code> 粘贴】 等多种方式添加图片</li>
+<li>支持添加文件夹，可自动解析文件夹内所有符合要求的图片</li>
+<li>实时显示压缩进度</li>
+<li>完全在本地执行压缩，有无网络均可，不上传图片，充分保证隐私安全</li>
+</ul>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695279363267.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://www.freecodecamp.org/chinese/learn" target="_blank" rel="noopener noreferrer">FreeCodeCamp</a></h3>
 <p>免费学习编程 - <code>Python</code>、<code>JavaScript</code>、<code>Java</code>、<code>Git</code> 等。</p>
@@ -175,14 +189,14 @@
       <enclosure url="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695133235107.webp" type="image/webp"/>
     </item>
     <item>
-      <title>好物周刊#29：</title>
+      <title>好物周刊#29：项目管理软件</title>
       <link>https://cunyu1943.github.io/weekly/2023/1028-1103.html</link>
       <guid>https://cunyu1943.github.io/weekly/2023/1028-1103.html</guid>
-      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#29：</source>
-      <description>好物周刊#29： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1. HelloGithub</description>
+      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#29：项目管理软件</source>
+      <description>好物周刊#29：项目管理软件 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1. HelloGithub</description>
       <category>好物周刊</category>
       <pubDate>Wed, 06 Sep 2023 13:42:10 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 好物周刊#29：</h1>
+      <content:encoded><![CDATA[<h1> 好物周刊#29：项目管理软件</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
@@ -206,6 +220,15 @@
 <p><code>ChatGPT</code> 中文调教指南。各种场景使用指南，学习怎么让它听你的话。支持如下功能：</p>
 <figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694518963641.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
+<h3> 1. <a href="https://pingcode.com/" target="_blank" rel="noopener noreferrer">PingCode</a></h3>
+<p>简单易用的新一代研发管理工具，覆盖敏捷开发、测试管理、项目集和知识库，让研发管理自动化、数据化、智能化，帮助企业提升研发效能。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695275359711.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://trello.com/" target="_blank" rel="noopener noreferrer">Trello</a></h3>
+<p>终极的项目管理工具，在几秒钟内启动看板，自动执行繁琐的任务，并在任何地方（甚至在移动设备上）进行协作。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695275910133.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://worktile.com/" target="_blank" rel="noopener noreferrer">Worktile</a></h3>
+<p>深度整合项目与任务管理、<code>OKR</code>、网盘、在线沟通等应用，支持丰富的自定义功能，满足各行业各场景的个性化工作需求，助力企业提高管理效能。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695276074424.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://yyets.com/" target="_blank" rel="noopener noreferrer">人人影视</a></h3>
 <p>由爱好者成员成立的网站，免费提供最新影视剧介绍和影评，发布最新的字幕包括美剧、日剧、电影、动漫等。</p>
@@ -471,6 +494,12 @@
 <h3> 1. <a href="https://github.com/AmazingAng/WTF-Solidity" target="_blank" rel="noopener noreferrer">WTF Solidity</a></h3>
 <p><code>Solidity</code> 极简入门教程，供小白们使用，每周更新 1-3 讲。</p>
 <figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695168807414.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://github.com/zotero-chinese/wiki" target="_blank" rel="noopener noreferrer">Zotero 中文文档仓库</a></h3>
+<p><code>Zotero</code> 中文用户文档、中文开发文档、<code>CSL</code> 文档中文译文。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695254544777.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://github.com/xdite/note-hack" target="_blank" rel="noopener noreferrer">打造超人笔记</a></h3>
+<p>一本关于如何有效记录和整理笔记的书籍。作者认为，笔记是一个看起来复杂但实际上比学习和阅读更简单的问题。通过拆解笔记的流程，作者发现主要问题的结构变得非常简单。此外，随着科技的发展，许多快速记录工具和笔记整理软件已经被发明出来，使笔记搜索变得更加容易。在本书中，作者探讨了如何通过做笔记和整理笔记来挖掘和整理自己对一个领域的各种答案。通过阅读本书，读者可以学习到如何使用各种工具和方法来提高自己的笔记能力，成为一个笔记超人。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695278993808.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
@@ -562,6 +591,9 @@
 <h3> 2. <a href="https://chromewebstore.google.com/detail/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%A0%E4%BB%AC%E5%B0%B1%E6%98%AF%E4%B8%8D%E8%83%BD%E5%8A%A0%E4%B8%AA%E7%A9%BA%E6%A0%BC%E5%91%A2%EF%BC%9F/paphcfdffjnbcgkokihcdjliihicmbpd" target="_blank" rel="noopener noreferrer">为什么你们就是不能加个空格呢？</a></h3>
 <p>自动在网页中所有的中文字和半形的英文、数字、符号之间插入空白。</p>
 <figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694564655510.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://chromewebstore.google.com/detail/%E6%97%A0%E5%90%8D%E5%9B%BE%E4%B9%A6/phdenkfgmlepeekcelnaijpophlbcnoa" target="_blank" rel="noopener noreferrer">无名图书</a></h3>
+<p>图书搜索并下载，便捷的图书搜索平台，大部分图书基本都能搜到并且可以免费下载图书。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695281733436.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://github.com/itwanger/toBeBetterJavaer" target="_blank" rel="noopener noreferrer">toBeBetterJavaer</a></h3>
 <p>一份通俗易懂、风趣幽默的 <code>Java</code> 学习指南，内容涵盖 <code>Java</code> 基础、<code>Java</code> 并发编程、<code>Java</code> 虚拟机、<code>Java</code> 企业级开发、<code>Java</code> 面试等核心知识点。</p>
