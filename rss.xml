@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习、面试求职、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 21 Sep 2023 14:35:17 GMT</pubDate>
-    <lastBuildDate>Thu, 21 Sep 2023 14:35:17 GMT</lastBuildDate>
+    <pubDate>Fri, 22 Sep 2023 01:17:38 GMT</pubDate>
+    <lastBuildDate>Fri, 22 Sep 2023 01:17:38 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>好物周刊</category>
@@ -1873,7 +1873,7 @@
       <link>https://cunyu1943.github.io/weekly/2023/0916-0922.html</link>
       <guid>https://cunyu1943.github.io/weekly/2023/0916-0922.html</guid>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#23：Win 12 来了！</source>
-      <description>好物周刊#23：Win 12 来了！ 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1. pnpm</description>
+      <description>好物周刊#23：Win 12 来了！ 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/gbYeoZNICI0TogjrBEBdQA</description>
       <category>好物周刊</category>
       <pubDate>Sun, 27 Aug 2023 07:41:05 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#23：Win 12 来了！</h1>
@@ -1883,6 +1883,7 @@
 </div>
 <div class="hint-container tip">
 <p class="hint-container-title">原文</p>
+<p><a href="https://mp.weixin.qq.com/s/gbYeoZNICI0TogjrBEBdQA" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/gbYeoZNICI0TogjrBEBdQA</a></p>
 </div>
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://github.com/pnpm/pnpm" target="_blank" rel="noopener noreferrer">pnpm</a></h3>
