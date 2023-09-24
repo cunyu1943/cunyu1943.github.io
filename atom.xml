@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习、面试求职、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2023-09-24T13:10:13.869Z</updated>
+  <updated>2023-09-24T14:38:51.377Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -18,11 +18,11 @@
   <category term="效率工具"/>
   <category term="IDEA 教程"/>
   <entry>
-    <title type="text">好物周刊#32：</title>
-    <id>https://cunyu1943.github.io/weekly/2023/1118-1124.html</id>
-    <link href="https://cunyu1943.github.io/weekly/2023/1118-1124.html"/>
-    <updated>2023-09-19T14:30:40.000Z</updated>
-    <summary type="html"><![CDATA[<h1> 好物周刊#32：</h1>
+    <title type="text">好物周刊#33：</title>
+    <id>https://cunyu1943.github.io/weekly/2023/1125-1201.html</id>
+    <link href="https://cunyu1943.github.io/weekly/2023/1125-1201.html"/>
+    <updated>2023-09-24T14:35:44.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 好物周刊#33：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
@@ -37,6 +37,54 @@
 <h2> 五、资料</h2>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>]]></summary>
+    <content type="html"><![CDATA[<h1> 好物周刊#33：</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">原文</p>
+</div>
+<h2> 一、项目</h2>
+<h2> 二、软件</h2>
+<h2> 三、网站</h2>
+<h2> 四、插件</h2>
+<h2> 五、资料</h2>
+<h2> ✍️ 说明</h2>
+<p>周刊专栏相关信息：</p>
+<ul>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a></li>
+</ul>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<hr>
+<h2> 🎬️ 广告</h2>
+<p>当前大环境下，就业形势严峻，尤其针对即将毕业的大学生。作为一个技术求职者，求职前应该做好哪些准备呢，一些面试实战技巧也十分有必要！而刚好最近掘金出了一本《技术人求职指南》小册，相信一定会对在找工作的你有所帮助。</p>
+<p>从求职到拿下 <code>Offer</code>，一本职场的全方位攻略，快来和我一起学习吧！</p>
+<figure><figcaption></figcaption></figure>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+]]></content>
+    <category term="好物周刊"/>
+    <published>2023-09-24T14:35:44.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">好物周刊#32：</title>
+    <id>https://cunyu1943.github.io/weekly/2023/1118-1124.html</id>
+    <link href="https://cunyu1943.github.io/weekly/2023/1118-1124.html"/>
+    <updated>2023-09-24T14:35:44.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 好物周刊#32：</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">原文</p>
+</div>
+<h2> 一、项目</h2>
+<h3> 1. <a href="https://github.com/Evil0ctal/Douyin_TikTok_Download_API" target="_blank" rel="noopener noreferrer">抖音/TikTok API</a></h3>]]></summary>
     <content type="html"><![CDATA[<h1> 好物周刊#32：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -46,6 +94,15 @@
 <p class="hint-container-title">原文</p>
 </div>
 <h2> 一、项目</h2>
+<h3> 1. <a href="https://github.com/Evil0ctal/Douyin_TikTok_Download_API" target="_blank" rel="noopener noreferrer">抖音/TikTok API</a></h3>
+<p>一个开箱即用的高性能异步抖音 | <code>TikTok</code> 数据爬取工具，支持 <code>API</code> 调用，在线批量解析及下载。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/weekly2023-32-1.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://github.com/didi/LogicFlow" target="_blank" rel="noopener noreferrer">LogicFlow</a></h3>
+<p>一款流程图编辑框架，提供了一系列流程图交互、编辑所必需的功能和灵活的节点自定义、插件等拓展机制。<code>LogicFlow</code> 支持前端研发自定义开发各种逻辑编排场景，如流程图、<code>ER</code> 图、<code>BPMN</code> 流程等。在工作审批配置、机器人逻辑编排、无代码平台流程配置都有较好的应用。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/weekly2023-32-2.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://github.com/LorisYounger/VPet" target="_blank" rel="noopener noreferrer">VPet</a></h3>
+<p>一个开源的桌宠软件，可以内置到任何 <code>WPF</code> 应用程序。支持各种互动投喂，开源免费并且支持创意工坊。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/weekly2023-32-3.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
 <h2> 三、网站</h2>
 <h2> 四、插件</h2>
