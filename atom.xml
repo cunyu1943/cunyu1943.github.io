@@ -4,10 +4,11 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习、面试求职、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2023-09-24T14:38:51.377Z</updated>
+  <updated>2023-09-25T14:36:21.937Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
+  <category term="Java 基础系列"/>
   <category term="好物周刊"/>
   <category term="Web 前端教程"/>
   <category term="你问我答"/>
@@ -17,6 +18,412 @@
   <category term="开发工具"/>
   <category term="效率工具"/>
   <category term="IDEA 教程"/>
+  <entry>
+    <title type="text">计算机软硬件</title>
+    <id>https://cunyu1943.github.io/java-tutorial/javase-series/20230920-cs-hard-soft.html</id>
+    <link href="https://cunyu1943.github.io/java-tutorial/javase-series/20230920-cs-hard-soft.html"/>
+    <updated>2023-09-25T14:33:35.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 计算机软硬件</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">原文</p>
+</div>
+<h2> 一、计算机组成</h2>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>]]></summary>
+    <content type="html"><![CDATA[<h1> 计算机软硬件</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">原文</p>
+</div>
+<h2> 一、计算机组成</h2>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+]]></content>
+    <category term="Java 基础系列"/>
+    <published>2023-09-25T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Java 简介</title>
+    <id>https://cunyu1943.github.io/java-tutorial/javase-series/20230921-intro.html</id>
+    <link href="https://cunyu1943.github.io/java-tutorial/javase-series/20230921-intro.html"/>
+    <updated>2023-09-25T14:33:35.000Z</updated>
+    <summary type="html"><![CDATA[<h1> Java 简介</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">原文</p>
+</div>
+<h2> 一、前言</h2>
+<p>本章节中，主要介绍 <code>Java</code> 中的主要特性和发展历史。以及作为新手，日常学习中对 <code>Java</code> 语言的误解。</p>]]></summary>
+    <content type="html"><![CDATA[<h1> Java 简介</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">原文</p>
+</div>
+<h2> 一、前言</h2>
+<p>本章节中，主要介绍 <code>Java</code> 中的主要特性和发展历史。以及作为新手，日常学习中对 <code>Java</code> 语言的误解。</p>
+<h2> 二、主要特性</h2>
+<h3> 1. 简单性</h3>
+<p>语法类似于 <code>C++</code> 语言，方便大多程序开发者能够简单地学习和实践。此外，抛弃了 <code>C++</code> 中复杂的语言特性，如操作符重载、多继承、自动强类型转换等，降低了程序开发者上手难度。<code>Java</code> 中移除了指针的概念，也提供了内容空间的自动分配与回收，使得内存管理也更加方便。</p>
+<h3> 2. 面向对象</h3>
+<p>面向对象是一种程序设计技术，将重点从过程集中到对象和对象的接口上。<code>Java</code> 提供类、接口和集成等面向对象的特性，抛弃了类之间复杂的多继承，仅支持单继承，但同时支持接口的多继承。</p>
+<h3> 3. 分布式</h3>
+<p><code>Java</code> 拥有丰富的类库，可处理 <code>HTTP</code> 和 <code>FTP</code> 类的协议请求。因此，<code>Java</code> 能够访问和打开网络上的资源，开发网络应用。</p>
+<h3> 4. 健壮性</h3>
+<p><code>Java</code> 中，没有了 <code>C++</code> 中类的多继承、指针等概念。同时它的强类型机制、异常处理机制、垃圾回收机制等都为 <code>Java</code> 程序的健壮性提供了重要保障。</p>
+<h3> 5. 安全性</h3>
+<p>开发网络应用时，安全性十分重要。利用 <code>Java</code>&nbsp;的诸多安全特性能够构建防病毒、防篡改系统。</p>
+<h3> 6. 体系结构中立</h3>
+<p><code>Java</code> 源代码经编译后成为字节码，字节码能够在实现了 <code>Java</code> 虚拟机的各种系统中运行，无视系统差异。</p>
+<h3> 7. 可移植性</h3>
+<p>正是由于 <code>Java</code>&nbsp;的体系结构中立，才有了适合分发和高度可移植的特点。</p>
+<h3> 8. 解释型</h3>
+<p><code>Java</code> 经编译后形成字节码文件，然后由虚拟机来解释这些字节码并执行，因此说 <code>Java</code> 是一门解释型语言。</p>
+<h3> 9. 高性能</h3>
+<p>相比于其他编译型编程语言，<code>Java</code>&nbsp;性能毋庸置疑，同时，引入即时编译器，其性能已经和 <code>C++</code> 相差不大，在某些场景下甚至更胜一筹。</p>
+<h3> 10. 多线程</h3>
+<p>大量请求的场景下，单线程的交互响应和实时行为变得十分缓慢。随着摩尔定律的终结，多线程的引入，无疑会带来更加快速的交互响应和实时行为，大大提升体验。</p>
+<h3> 11. 动态性</h3>
+<p>随着各种应用场景的不断涌现，<code>Java</code>&nbsp;也在动态适应变化的环境。<code>Java</code>&nbsp;中所需的类既能动态加载到内存中，也能通过网络来载入，也更有利于软件的迭代升级。</p>
+<h2> 三、发展简史</h2>
+<p>1990 年代初，<code>Sun</code> 公司的詹姆斯·高斯林等人为了实现电视机、电话、闹钟等家用电器的控制和通信，开发了一套用于设置在家用电器等小型系统中的编程语言。在当时，这门语言被命名为 <code>Oka</code>。但由于市场需求不高，所以该计划被逐渐放弃。</p>
+<p>随着 1990 年代互联网的发展，<code>Sun</code> 公司发现 <code>Oka</code> 语言在互联网中的应用前景广泛。于是决定对 <code>Oka</code> 进行改造，并在 1995 年 5 月以 <code>Java</code> 的名义正式发布。</p>
+<p>随着互联网的迅猛发展，Java 也得以逐渐成为重要的网络编程语言，詹姆斯·高斯林也被大家公认为 <code>Java</code> 之父。</p>
+<p>到了 2009 年， <code>Sun</code> 公司被 <code>Oracle</code> 公司所收购，自此 <code>Java</code> 成为 <code>Oracle</code> 公司的一大产品直至今日。</p>
+<p>以下是截止到本文写作时间 <code>Java</code> 的历史年表，累计经过了 21 次主要版本更新，目前来到了 <code>JDK</code> 21。不过虽然 <code>Java</code> 已经经历了这么多版本的更新，但国内目前用的最多的应该还是 <code>JDK</code> 1.8 版本。而出于对稳定性的考虑，企业开发更喜欢 <code>LTS</code> 版本，这也是为什么至今 <code>JDK</code> 1.8 还占有如此高的市场比例。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">版本</th>
+<th style="text-align:left">发布日期</th>
+<th style="text-align:left">主要事件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">JDK Beta</td>
+<td style="text-align:left">1995</td>
+<td style="text-align:left"><code>Java</code> 语言发布，用 <code>Java</code> 实现的浏览器和 <code>Java Applet</code> 被大量应用</td>
+</tr>
+<tr>
+<td style="text-align:left">JDK 1.0</td>
+<td style="text-align:left">1996 年 1 月</td>
+<td style="text-align:left">奠定了 <code>JDK</code>、<code>JRE</code>、<code>JVM</code> 的体系结构</td>
+</tr>
+<tr>
+<td style="text-align:left">JDK 1.1</td>
+<td style="text-align:left">1997 年 2 月</td>
+<td style="text-align:left">加入 <code>JIT</code>，提升 <code>JDK</code> 效率</td>
+</tr>
+<tr>
+<td style="text-align:left">J2SE 1.2</td>
+<td style="text-align:left">1998 年 12 月</td>
+<td style="text-align:left">确立 <code>J2SE</code>、<code>J2EE</code>、<code>J2ME</code> 产品结构</td>
+</tr>
+<tr>
+<td style="text-align:left">J2SE 1.3</td>
+<td style="text-align:left">2000 年 5 月</td>
+<td style="text-align:left">内置 <code>HotSpot JVM</code></td>
+</tr>
+<tr>
+<td style="text-align:left">J2SE 1.4</td>
+<td style="text-align:left">2002 年 2 月</td>
+<td style="text-align:left"><code>XML</code> 处理、断言、支持正则表达式</td>
+</tr>
+<tr>
+<td style="text-align:left">J2SE 5.0</td>
+<td style="text-align:left">2004 年 9 月</td>
+<td style="text-align:left">静态导入、泛型、<code>for-each</code> 循环、自动拆，装箱、枚举、可变参数</td>
+</tr>
+<tr>
+<td style="text-align:left">JDK 6</td>
+<td style="text-align:left">2006 年 12 月</td>
+<td style="text-align:left">提供动态语言支持、同步垃圾回收</td>
+</tr>
+<tr>
+<td style="text-align:left">JDK 7</td>
+<td style="text-align:left">2011 年 7 月</td>
+<td style="text-align:left">字符串的 <code>switch</code> 语句、多异常捕抓</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>JDK  8 (LTS)</strong></td>
+<td style="text-align:left">2014 年 3 月</td>
+<td style="text-align:left"><code>Lambda</code> 表达式</td>
+</tr>
+<tr>
+<td style="text-align:left">JDK 9</td>
+<td style="text-align:left">2017 年 9 月</td>
+<td style="text-align:left">轻量级 <code>json API</code>、垃圾收集机制更新</td>
+</tr>
+<tr>
+<td style="text-align:left">JDK 10</td>
+<td style="text-align:left">2018 年 3 月</td>
+<td style="text-align:left">局部变量类型推断，<code>Java</code> 后续版本快速迭代更新</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>JDK 11 (LTS)</strong></td>
+<td style="text-align:left">2018 年 9 月</td>
+<td style="text-align:left">常用类增强，<code>JDK</code> 11 是继 <code>JDK</code> 8 之后的首个长期支持本版</td>
+</tr>
+<tr>
+<td style="text-align:left">JDK 12</td>
+<td style="text-align:left">2019 年 3 月</td>
+<td style="text-align:left"><code>switch</code> 表达式增强</td>
+</tr>
+<tr>
+<td style="text-align:left">JDK 13</td>
+<td style="text-align:left">2019 年 9 月</td>
+<td style="text-align:left">文本块支持</td>
+</tr>
+<tr>
+<td style="text-align:left">JDK 14</td>
+<td style="text-align:left">2020 年 3 月</td>
+<td style="text-align:left"><code>instanceof</code> 支持模式匹配</td>
+</tr>
+<tr>
+<td style="text-align:left">JDK 15</td>
+<td style="text-align:left">2020 年 9 月</td>
+<td style="text-align:left"><code>EdDSA</code> 数字签名算法、 密封类、隐藏类</td>
+</tr>
+<tr>
+<td style="text-align:left">JDK 16</td>
+<td style="text-align:left">2021 年 3 月</td>
+<td style="text-align:left">启用 <code>C++ 14</code> 语言特性、向量 <code>API</code></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>JDK 17 (LTS)</strong></td>
+<td style="text-align:left">2021 年 9 月</td>
+<td style="text-align:left">恢复总是严格的浮点语义、增强型伪随机数生成器</td>
+</tr>
+<tr>
+<td style="text-align:left">JDK 18</td>
+<td style="text-align:left">2022 年 3 月</td>
+<td style="text-align:left">默认 <code>UTF-8</code> 编码、代码片段、简单的网络服务器</td>
+</tr>
+<tr>
+<td style="text-align:left">JDK 19</td>
+<td style="text-align:left">2022 年 9 月</td>
+<td style="text-align:left">记录模式、外部函数与内存 <code>API</code>、<code>Linux</code>/<code>RISC-V</code> 移植、虚拟线程、结构化并发</td>
+</tr>
+<tr>
+<td style="text-align:left">JDK 20</td>
+<td style="text-align:left">2023 年 3 月</td>
+<td style="text-align:left">1. 作用域值<br>2. 记录模式<br>3. <code>switch</code> 模式匹配<br>4. 外部函数和内存 <code>API</code><br>5. 虚拟线程<br>6. 结构化并发<br>7. 向量 <code>API</code></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>JDK 21（LTS）</strong></td>
+<td style="text-align:left">2023 年 9 月</td>
+<td style="text-align:left">1. 分代 <code>ZGC</code><br>2. 序列集合<br>3. 弃用 <code>Windows</code> 32 位 <code>x86</code><br>4. 密钥封装机制 <code>API</code><br>5. 字符串模板<br>6. 未命名类和实例主方法</td>
+</tr>
+</tbody>
+</table>
+<h2> 四、常见误解</h2>
+<h3> 1. JavaScript 是 Java 的子集</h3>
+<p>两个东西完全不沾边，<code>JavaScript</code> 是一种可以在网页中使用的脚本语言，而 <code>Java</code> 是完全的强类型语言，两者除了名字很像，其他方面可以说没有一点关系。</p>
+<h3> 2. Java 是解释型语言，所以效率较低</h3>
+<p>早期版本的 <code>Java</code> 的确是解释型的，但随着 <code>Java</code> 虚拟机中采用了即时编译器，其性能已经和 <code>C++</code> 相差不大，在某些场景下甚至更胜一筹。</p>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+]]></content>
+    <category term="Java 基础系列"/>
+    <published>2023-09-25T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">开发环境配置</title>
+    <id>https://cunyu1943.github.io/java-tutorial/javase-series/20230922-environment.html</id>
+    <link href="https://cunyu1943.github.io/java-tutorial/javase-series/20230922-environment.html"/>
+    <updated>2023-09-25T14:33:35.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 开发环境配置</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">原文</p>
+</div>
+<h2> 一、前言</h2>
+<p>学习完 <code>Java</code>&nbsp;的主要特性、发展历程以及常见误解之后。本篇文章再来学习，如何在当前主流操作系统下搭建 <code>Java</code>&nbsp;开发环境，为接下来的开发做好准备。</p>]]></summary>
+    <content type="html"><![CDATA[<h1> 开发环境配置</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">原文</p>
+</div>
+<h2> 一、前言</h2>
+<p>学习完 <code>Java</code>&nbsp;的主要特性、发展历程以及常见误解之后。本篇文章再来学习，如何在当前主流操作系统下搭建 <code>Java</code>&nbsp;开发环境，为接下来的开发做好准备。</p>
+<h2> 二、Windows 环境配置</h2>
+<h3> 1. 安装</h3>
+<ol>
+<li>首先进入 <a href="https://www.oracle.com/java/technologies/javase-downloads.html" target="_blank" rel="noopener noreferrer">Oracle 官网</a>，然后找到自己想要的 <code>JDK</code> 版本，这边以 <code>JDK</code> 11 为例。</li>
+</ol>
+<figure><figcaption></figcaption></figure>
+<ol start="2">
+<li>点击 JDK Download 后，它会跳转到具体下载页面，然后根据自己的系统来进行选择，此处以 Windows 10 64 位为例。</li>
+</ol>
+<figure><figcaption></figcaption></figure>
+<ol start="3">
+<li>点击最后的连接后，它会让你同意协议，勾选同意，然后登陆你的 <code>Oracle</code> 账户即可开始下载，若是没有 <code>Oracle</code> 账户，点击下面的创建一个就可以了。</li>
+</ol>
+<figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+<ol start="4">
+<li>下载完成后，进行安装即可，安装流程和我们平常安装软件的一样，就再赘述，需要注意的是要记住如下的安装路径，因为一般我们都不会安装到默认路径，所以一定要记住你所安装到的路径，这关系到后续的配置步骤。</li>
+</ol>
+<figure><figcaption></figcaption></figure>
+<h3> 2. 配置</h3>
+<p>好了，经过上面的配置，我们的 JDK 就已经安装好了，但是这个使用你是用不了的，我们还需要进一步的配置；</p>
+<p>打开系统属性来进行环境变量配置，打开系统属性并进行配置的方式如下：</p>
+<ol>
+<li><strong>Windows + R</strong> 快捷键组合唤醒 Windows 运行窗口，然后输入 <code>sysdm.cpl</code>，紧接着回车即可，一般会打开如下界面，然后点击最上方的 <strong>高级</strong>；</li>
+</ol>
+<figure><figcaption></figcaption></figure>
+<ol start="2">
+<li>点击高级后，就会打开如下界面，然后打开环境变量。</li>
+</ol>
+<figure><figcaption></figcaption></figure>
+<ol start="3">
+<li>新建环境变量 <strong>JAVA_HOME</strong>，然后变量值填入刚才安装 JDK 的路径（刚才提醒过要记住！）。</li>
+</ol>
+<figure><figcaption></figcaption></figure>
+<ol start="4">
+<li>编辑 <strong>Path</strong> 环境变量，然后新建一个变量值，填入如下内容：<code>%JAVA_HOME%\bin</code>。</li>
+</ol>
+<figure><figcaption></figcaption></figure>
+<ol start="5">
+<li>各种确定，然后突出系统属性即可，到这一步，理论上我们的 JDK 就安装并配置成功了，接下来我们就去确认一下到底安装好了没有。</li>
+</ol>
+<h3> 3. 验证</h3>
+<p>按照上述步骤操作完成之后，接下来就是验证了，一般我们可以通过如下三个命令来进行验证；</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>打开命令控制台（<strong>Windows + R，然后输入 cmd 回车</strong>），然后输入如上三个命令，如果安装成功，一般是会出现如下内容的；</p>
+<figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+<h2> 三、macOS 环境配置</h2>
+<h3> 1. 安装</h3>
+<ol>
+<li>首先去 <a href="https://www.oracle.com/java/technologies/javase-jdk11-downloads.html" target="_blank" rel="noopener noreferrer">官网下载</a> 对应安装包；</li>
+</ol>
+<figure><figcaption></figcaption></figure>
+<ol start="2">
+<li>
+<p>接受相关协议并登录下载；</p>
+</li>
+<li>
+<p>双击下载好的 <code>.dmg</code> 安装包，然后开始安装；</p>
+</li>
+</ol>
+<figure><figcaption></figcaption></figure>
+<ol start="4">
+<li>安装过程中会让你输入密码，也就是你本机的密码。</li>
+</ol>
+<figure><figcaption></figcaption></figure>
+<ol start="5">
+<li>安装成功；</li>
+</ol>
+<figure><figcaption></figcaption></figure>
+<h3> 2. 验证</h3>
+<p>不同于 Windows，macOS 下不用再去配置了，它会给你自动配置好，我们只需要去验证即可；</p>
+<ol>
+<li>查看 JDK 版本；</li>
+</ol>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<ol start="2">
+<li>编译命令；</li>
+</ol>
+<figure><figcaption></figcaption></figure>
+<ol start="3">
+<li>运行命令；</li>
+</ol>
+<figure><figcaption></figcaption></figure>
+<h2> 四、Linux 环境配置</h2>
+<h3> 1. 安装</h3>
+<ol>
+<li>先去 <a href="https://www.oracle.com/java/technologies/javase-downloads.html" target="_blank" rel="noopener noreferrer">下载</a> 要安装的 JDK 版本，然后解压到本地，移到你要存放的位置；</li>
+</ol>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+<h3> 2. 配置</h3>
+<p>打开配置文件 <code>/etc/profile</code>，然后加入如下内容；</p>
+<div class="language-profile line-numbers-mode" data-ext="profile"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+<h3> 3. 验证</h3>
+<p>安装和配置之后，在终端中输入如下命令进行验证是否成功。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<h2> 五、安装目录详解</h2>
+<p>安装好 <code>JDK</code> 之后，打开安装路径，通常情况下会有如下的目录结构，而各个模块的功能则如下表所示。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><table>
+<thead>
+<tr>
+<th>目录</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>bin</code></td>
+<td>用于存放各种工具命令，比如我们最常用的 <code>javac</code>、<code>java</code> 等</td>
+</tr>
+<tr>
+<td><code>lib</code></td>
+<td>存放工具的一些补充 <code>jar</code> 包</td>
+</tr>
+<tr>
+<td><code>conf</code></td>
+<td>存放相关配置文件</td>
+</tr>
+<tr>
+<td><code>include</code></td>
+<td>存放一些平台特定的头文件，比如 <code>Windows</code>、<code>macOS</code>、<code>Linux</code> 平台下这里的头文件是有所不同的</td>
+</tr>
+<tr>
+<td><code>legal</code></td>
+<td>存放各模块的授权文件</td>
+</tr>
+<tr>
+<td><code>jmods</code></td>
+<td>存放各种模块</td>
+</tr>
+<tr>
+<td><code>release</code></td>
+<td>版本发布内容以及版本信息</td>
+</tr>
+<tr>
+<td><code>README</code></td>
+<td><code>JDK</code> 信息</td>
+</tr>
+<tr>
+<td><code>LICENSE</code></td>
+<td>版权和签证相关的说明文档</td>
+</tr>
+</tbody>
+</table>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+]]></content>
+    <category term="Java 基础系列"/>
+    <published>2023-09-25T00:00:00.000Z</published>
+  </entry>
   <entry>
     <title type="text">好物周刊#33：</title>
     <id>https://cunyu1943.github.io/weekly/2023/1125-1201.html</id>
@@ -637,11 +1044,11 @@
     <published>2023-09-05T15:19:41.000Z</published>
   </entry>
   <entry>
-    <title type="text">好物周刊#24：</title>
+    <title type="text">好物周刊#24：动手学深度学习</title>
     <id>https://cunyu1943.github.io/weekly/2023/0923-0929.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0923-0929.html"/>
-    <updated>2023-09-21T08:43:46.000Z</updated>
-    <summary type="html"><![CDATA[<h1> 好物周刊#24：</h1>
+    <updated>2023-09-25T02:11:59.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 好物周刊#24：动手学深度学习</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
@@ -651,7 +1058,7 @@
 </div>
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://gitee.com/dromara/x-easypdf" target="_blank" rel="noopener noreferrer">x-easypdf</a></h3>]]></summary>
-    <content type="html"><![CDATA[<h1> 好物周刊#24：</h1>
+    <content type="html"><![CDATA[<h1> 好物周刊#24：动手学深度学习</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
@@ -749,11 +1156,11 @@
     <published>2023-09-05T00:30:39.000Z</published>
   </entry>
   <entry>
-    <title type="text">好物周刊#25：</title>
+    <title type="text">好物周刊#25：PPT 超级市场</title>
     <id>https://cunyu1943.github.io/weekly/2023/0930-1006.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0930-1006.html"/>
-    <updated>2023-09-23T12:27:42.000Z</updated>
-    <summary type="html"><![CDATA[<h1> 好物周刊#25：</h1>
+    <updated>2023-09-25T08:51:44.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 好物周刊#25：PPT 超级市场</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
@@ -763,7 +1170,7 @@
 </div>
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://github.com/bage2014/study" target="_blank" rel="noopener noreferrer">study</a></h3>]]></summary>
-    <content type="html"><![CDATA[<h1> 好物周刊#25：</h1>
+    <content type="html"><![CDATA[<h1> 好物周刊#25：PPT 超级市场</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
@@ -824,8 +1231,10 @@
 <p>专用于 <code>Chrome</code> – 无需安装 <code>Microsoft</code> 365 应用即可使用 <code>Word</code>、<code>Excel</code>、<code>PowerPoint</code>、<code>OneNote</code> 和 <code>Sway Online</code>。</p>
 <p>熟练地创建文件 – 使用熟悉的格式和布局选项来完全忠实地表达你的想法。</p>
 <p>随时随地开展工作 – 与 <code>OneDrive</code> 和 <code>OneDrive for Business</code> 集成，可从任意位置获取文件。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695607160427.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://www.turnoffthelights.com/zh-cn/" target="_blank" rel="noopener noreferrer">关灯看视频</a></h3>
 <p>一个免费的开源浏览器扩展，允许用户将除 <code>HTML5</code> 视频以外的所有部分变暗。适用于所有网络浏览器，例如 <code>Google Chrome</code>、<code>Microsoft Edge</code> 等。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695607160706.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. <a href="https://www.awesomescreenshot.com/" target="_blank" rel="noopener noreferrer">Awesome Screenshot</a></h3>
 <p>超级截图录屏大师是一款录屏神器，也是一款截屏神器．屏幕截图 &amp; 图片编辑，屏幕录像 ＆ 视频编辑，所有这些截图，录屏功能，都被一气呵成的集成到插件和对应的网站服务中。支持如下功能：</p>
 <ul>
@@ -857,6 +1266,7 @@
 <li>选择你所需要的尺寸</li>
 <li>方框，圆圈，箭头等各种尺寸的批注</li>
 </ol>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695607160427.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://learn.microsoft.com/zh-cn/dotnet/csharp/" target="_blank" rel="noopener noreferrer">C# 文档</a></h3>
 <p>面向新手开发人员、刚开始接触 <code>C#</code> 的开发人员、以及经验丰富的 <code>C#/.NET</code> 开发人员。</p>
@@ -2203,7 +2613,7 @@
     <title type="text"></title>
     <id>https://cunyu1943.github.io/frontmatter.html</id>
     <link href="https://cunyu1943.github.io/frontmatter.html"/>
-    <updated>2023-09-14T00:39:56.000Z</updated>
+    <updated>2023-09-25T00:29:59.000Z</updated>
     <summary type="html"><![CDATA[<div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
@@ -13635,7 +14045,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#3：Java 学习面试指南</title>
     <id>https://cunyu1943.github.io/weekly/2023/0429-0505.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0429-0505.html"/>
-    <updated>2023-09-19T02:38:58.000Z</updated>
+    <updated>2023-09-25T00:29:59.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#3：Java 学习面试指南</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -15830,7 +16240,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#18：灵感收集器</title>
     <id>https://cunyu1943.github.io/weekly/2023/0812-0818.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0812-0818.html"/>
-    <updated>2023-09-14T00:39:56.000Z</updated>
+    <updated>2023-09-25T00:29:59.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#18：灵感收集器</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -15973,7 +16383,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">好物周刊#19：开源指北</title>
     <id>https://cunyu1943.github.io/weekly/2023/0819-0825.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0819-0825.html"/>
-    <updated>2023-09-19T02:38:58.000Z</updated>
+    <updated>2023-09-25T00:29:59.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#19：开源指北</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
