@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习、面试求职、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2023-09-26T00:10:10.427Z</updated>
+  <updated>2023-09-26T00:22:47.045Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -249,7 +249,7 @@
     <title type="text">开发环境配置</title>
     <id>https://cunyu1943.github.io/java-tutorial/javase-series/20230922-environment.html</id>
     <link href="https://cunyu1943.github.io/java-tutorial/javase-series/20230922-environment.html"/>
-    <updated>2023-09-25T14:35:50.000Z</updated>
+    <updated>2023-09-26T00:19:07.000Z</updated>
     <summary type="html"><![CDATA[<h1> 开发环境配置</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -259,7 +259,7 @@
 <p class="hint-container-title">原文</p>
 </div>
 <h2> 一、前言</h2>
-<p>学习完 <code>Java</code>&nbsp;的主要特性、发展历程以及常见误解之后。本篇文章再来学习，如何在当前主流操作系统下搭建 <code>Java</code>&nbsp;开发环境，为接下来的开发做好准备。</p>]]></summary>
+<p>学习完 <code>Java</code> 的主要特性、发展历程以及常见误解之后。本篇文章来学习，如何在当前主流操作系统下搭建 <code>Java</code> 开发环境，为接下来的开发做好准备。</p>]]></summary>
     <content type="html"><![CDATA[<h1> 开发环境配置</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -269,7 +269,7 @@
 <p class="hint-container-title">原文</p>
 </div>
 <h2> 一、前言</h2>
-<p>学习完 <code>Java</code>&nbsp;的主要特性、发展历程以及常见误解之后。本篇文章再来学习，如何在当前主流操作系统下搭建 <code>Java</code>&nbsp;开发环境，为接下来的开发做好准备。</p>
+<p>学习完 <code>Java</code> 的主要特性、发展历程以及常见误解之后。本篇文章来学习，如何在当前主流操作系统下搭建 <code>Java</code> 开发环境，为接下来的开发做好准备。</p>
 <h2> 二、Windows 环境配置</h2>
 <h3> 1. 安装</h3>
 <ol>
@@ -277,11 +277,11 @@
 </ol>
 <figure><figcaption></figcaption></figure>
 <ol start="2">
-<li>点击 JDK Download 后，它会跳转到具体下载页面，然后根据自己的系统来进行选择，此处以 Windows 10 64 位为例。</li>
+<li>点击 JDK Download 后，它会跳转到具体下载页面，然后根据自己的系统来进行选择，此处以 <code>Windows</code> 64 位系统为例。</li>
 </ol>
 <figure><figcaption></figcaption></figure>
 <ol start="3">
-<li>点击最后的连接后，它会让你同意协议，勾选同意，然后登陆你的 <code>Oracle</code> 账户即可开始下载，若是没有 <code>Oracle</code> 账户，点击下面的创建一个就可以了。</li>
+<li>点击最后的链接后，它会让你同意协议，勾选同意，然后登陆你的 <code>Oracle</code> 账户即可开始下载，若是没有 <code>Oracle</code> 账户，点击下面的创建一个就可以了。</li>
 </ol>
 <figure><figcaption></figcaption></figure>
 <figure><figcaption></figcaption></figure>
@@ -295,11 +295,11 @@
 <ol>
 <li><strong>Windows + R</strong> 快捷键组合唤醒 Windows 运行窗口，然后输入 <code>sysdm.cpl</code>，紧接着回车即可，一般会打开如下界面，然后点击最上方的 <strong>高级</strong>；</li>
 </ol>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/java-tutorial/javase-series/assets/1695686767330.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <ol start="2">
 <li>点击高级后，就会打开如下界面，然后打开环境变量。</li>
 </ol>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/java-tutorial/javase-series/assets/1695686806548.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <ol start="3">
 <li>新建环境变量 <strong>JAVA_HOME</strong>，然后变量值填入刚才安装 JDK 的路径（刚才提醒过要记住！）。</li>
 </ol>
@@ -311,24 +311,26 @@
 <ol start="5">
 <li>各种确定，然后突出系统属性即可，到这一步，理论上我们的 JDK 就安装并配置成功了，接下来我们就去确认一下到底安装好了没有。</li>
 </ol>
-<h3> 3. 验证</h3>
-<p>按照上述步骤操作完成之后，接下来就是验证了，一般我们可以通过如下三个命令来进行验证；</p>
+<h3> 3. 注意</h3>
+<p>自 <code>JDK</code> 11 之后，安装完成后就无需在配置环境变量，安装完成即可去验证是否安装成功。</p>
+<h3> 4. 验证</h3>
+<p>按照上述步骤操作完成之后，接下来就是验证了，一般我们可以通过如下三个命令来进行验证。</p>
 <div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>打开命令控制台（<strong>Windows + R，然后输入 cmd 回车</strong>），然后输入如上三个命令，如果安装成功，一般是会出现如下内容的；</p>
-<figure><figcaption></figcaption></figure>
-<figure><figcaption></figcaption></figure>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/java-tutorial/javase-series/assets/1695686544052.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/java-tutorial/javase-series/assets/1695686583197.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/java-tutorial/javase-series/assets/1695686620882.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 三、macOS 环境配置</h2>
 <h3> 1. 安装</h3>
 <ol>
-<li>首先去 <a href="https://www.oracle.com/java/technologies/javase-jdk11-downloads.html" target="_blank" rel="noopener noreferrer">官网下载</a> 对应安装包；</li>
+<li>首先去 <a href="https://www.oracle.com/java/technologies/javase-jdk11-downloads.html" target="_blank" rel="noopener noreferrer">官网下载</a> 对应安装包。</li>
 </ol>
 <figure><figcaption></figcaption></figure>
 <ol start="2">
 <li>
-<p>接受相关协议并登录下载；</p>
+<p>接受相关协议并登录下载。</p>
 </li>
 <li>
-<p>双击下载好的 <code>.dmg</code> 安装包，然后开始安装；</p>
+<p>双击下载好的 <code>.dmg</code> 安装包，然后开始安装。</p>
 </li>
 </ol>
 <figure><figcaption></figcaption></figure>
@@ -337,27 +339,27 @@
 </ol>
 <figure><figcaption></figcaption></figure>
 <ol start="5">
-<li>安装成功；</li>
+<li>安装成功。</li>
 </ol>
 <figure><figcaption></figcaption></figure>
 <h3> 2. 验证</h3>
-<p>不同于 Windows，macOS 下不用再去配置了，它会给你自动配置好，我们只需要去验证即可；</p>
+<p>不同于 <code>Windows</code>，<code>macOS</code> 下不用再手动配置环境变量了，它会给你自动配置好，我们只需要去验证即可；</p>
 <ol>
-<li>查看 JDK 版本；</li>
+<li>查看 <code>JDK</code> 版本。</li>
 </ol>
 <div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
 <ol start="2">
-<li>编译命令；</li>
+<li>编译命令。</li>
 </ol>
 <figure><figcaption></figcaption></figure>
 <ol start="3">
-<li>运行命令；</li>
+<li>运行验证命令。</li>
 </ol>
 <figure><figcaption></figcaption></figure>
 <h2> 四、Linux 环境配置</h2>
 <h3> 1. 安装</h3>
 <ol>
-<li>先去 <a href="https://www.oracle.com/java/technologies/javase-downloads.html" target="_blank" rel="noopener noreferrer">下载</a> 要安装的 JDK 版本，然后解压到本地，移到你要存放的位置；</li>
+<li>先去 <a href="https://www.oracle.com/java/technologies/javase-downloads.html" target="_blank" rel="noopener noreferrer">下载</a> 要安装的 <code>JDK</code> 版本，然后解压到本地存放的位置。</li>
 </ol>
 <div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
 <figure><figcaption></figcaption></figure>
@@ -416,6 +418,24 @@
 </tr>
 </tbody>
 </table>
+<h2> 六、API 文档</h2>
+<p><code>API（Application Programming Interface）</code>，应用程序编程接口，是 <code>Java</code> 提供的基本编程接口。<code>Java</code> 语言提供了大量的基础类，为了给开发者提供相应的说明文档，于是便有了 <code>Java API</code> 文档。它类似于我们日常生活中的字典，如果遇到什么不认识的字，那么就可以去这里找。而对应到 <code>Java</code> 语言中，就是当我们遇到未使用过的基础类或方法，可以去 <code>Java API</code> 中寻找。</p>
+<p>为了方便大家，在这里贴出目前最常用的几个长期版本 <code>Java</code> 的在线阅读地址和离线下载地址，有需要的小伙伴可以自行去下载。</p>
+<p>温馨提示：这里无论是在线阅读还是离线下载后的文档，都是纯英文的。</p>
+<h3> 1. 在线阅读</h3>
+<ul>
+<li><strong><code>JDK 8 API</code></strong>：<a href="https://docs.oracle.com/javase/8/docs/api/index.html" target="_blank" rel="noopener noreferrer">https://docs.oracle.com/javase/8/docs/api/index.html</a></li>
+<li><strong><code>JDK 11 API</code></strong>：<a href="https://docs.oracle.com/en/java/javase/11/docs/api/" target="_blank" rel="noopener noreferrer">https://docs.oracle.com/en/java/javase/11/docs/api/</a></li>
+<li><strong><code>JDK 17 API</code></strong>：<a href="https://docs.oracle.com/en/java/javase/17/docs/api/" target="_blank" rel="noopener noreferrer">https://docs.oracle.com/en/java/javase/17/docs/api/</a></li>
+<li><strong><code>JDK 21 API</code></strong>：<a href="https://docs.oracle.com/en/java/javase/21/docs/api/" target="_blank" rel="noopener noreferrer">https://docs.oracle.com/en/java/javase/21/docs/api/</a></li>
+</ul>
+<h3> 2. 离线下载</h3>
+<ul>
+<li><strong><code>JDK 8 API</code></strong>：<a href="https://www.oracle.com/java/technologies/javase-jdk8-doc-downloads.html" target="_blank" rel="noopener noreferrer">https://www.oracle.com/java/technologies/javase-jdk8-doc-downloads.html</a></li>
+<li><strong><code>JDK 11 API</code></strong>：<a href="https://www.oracle.com/java/technologies/javase-jdk11-doc-downloads.html" target="_blank" rel="noopener noreferrer">https://www.oracle.com/java/technologies/javase-jdk11-doc-downloads.html</a></li>
+<li><strong><code>JDK 17 API</code></strong>：<a href="https://www.oracle.com/java/technologies/javase-jdk17-doc-downloads.html" target="_blank" rel="noopener noreferrer">https://www.oracle.com/java/technologies/javase-jdk17-doc-downloads.html</a></li>
+<li><strong><code>JDK 21 API</code></strong>：<a href="https://www.oracle.com/java/technologies/javase-jdk21-doc-downloads.html" target="_blank" rel="noopener noreferrer">https://www.oracle.com/java/technologies/javase-jdk21-doc-downloads.html</a></li>
+</ul>
 <h2> ⏳ 联系</h2>
 <p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
 <p>扫一扫，探索另一个全新的世界。</p>
