@@ -4,13 +4,17 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习、面试求职、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2023-09-26T14:11:45.954Z</updated>
+  <updated>2023-09-26T23:58:27.345Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
+  <category term="Java 入门练习"/>
+  <category term="Web 前端教程"/>
+  <category term="C 语言教程"/>
+  <category term="Nginx 教程"/>
+  <category term="软件设计师"/>
   <category term="Java 基础系列"/>
   <category term="好物周刊"/>
-  <category term="Web 前端教程"/>
   <category term="你问我答"/>
   <category term="Java 基础"/>
   <category term="MySQL 教程"/>
@@ -19,11 +23,437 @@
   <category term="效率工具"/>
   <category term="IDEA 教程"/>
   <entry>
-    <title type="text"></title>
+    <title type="text">Nginx 教程</title>
+    <id>https://cunyu1943.github.io/java-tutorial/nginx-series/</id>
+    <link href="https://cunyu1943.github.io/java-tutorial/nginx-series/"/>
+    <updated>2023-09-26T15:06:57.000Z</updated>
+    <published>2023-09-26T15:06:57.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Java 入门练习：1 - 5</title>
+    <id>https://cunyu1943.github.io/java-tutorial/se-exercise-series/20220625-1-5.html</id>
+    <link href="https://cunyu1943.github.io/java-tutorial/se-exercise-series/20220625-1-5.html"/>
+    <updated>2023-09-26T23:55:14.000Z</updated>
+    <summary type="html"><![CDATA[<h1> Java 入门练习：1 - 5</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<h2> JAVA1 类型转换</h2>
+<h3> 描述</h3>
+<p>设计一个方法，将一个小于2147483647的double类型变量以截断取整方式转化为int类型</p>
+<h4> 输入描述</h4>
+<p>随机 double 类型变量</p>
+<h4> 输出描述</h4>
+<p>转化后的 int 类型变量</p>
+<h3> 示例 1</h3>]]></summary>
+    <content type="html"><![CDATA[<h1> Java 入门练习：1 - 5</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<h2> JAVA1 类型转换</h2>
+<h3> 描述</h3>
+<p>设计一个方法，将一个小于2147483647的double类型变量以截断取整方式转化为int类型</p>
+<h4> 输入描述</h4>
+<p>随机 double 类型变量</p>
+<h4> 输出描述</h4>
+<p>转化后的 int 类型变量</p>
+<h3> 示例 1</h3>
+<p>输入：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 示例 2</h3>
+<p>输入：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 解答</h3>
+<p>要将 <code>double</code> 类型转换为 <code>int</code> 类型，而且是以截断取整的方式，所以直接通过强制转换即可。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> JAVA2 简单运算</h2>
+<h3> 描述</h3>
+<p>输入两个正整数 a 和 b，输出这两个正整数的和，差，积，商，模（若 a &gt; b 则输出 a - b，a / b，a % b 的值反之输出 b-a，b/a，b%a 的值，不考虑小数，请使用 int 类型）</p>
+<h4> 输入描述</h4>
+<p>两个正整数</p>
+<h4> 输出描述</h4>
+<p>它们的和，差，积，商，模。每个值之间用空格隔开</p>
+<h3> 示例 1</h3>
+<p>输入：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 解答</h3>
+<p>主要考察条件语句 <code>if...else...</code>，当 <code>a &gt; b</code> 时，执行 <code>if</code> 中的逻辑，否则就执行 <code>else</code> 中的逻辑。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> JAVA3 四舍五入</h2>
+<h3> 描述</h3>
+<p>定义一个 int 类型变量 i, i 为由浮点数变量 d 四舍五入后的整数类型，请将转换后的i进行输出</p>
+<h4> 输入描述</h4>
+<p>用户随机输入的浮点数</p>
+<h4> 输出描述</h4>
+<p>四舍五入之后的整数（小数点后一位 &gt;=5 则进一，否则舍去）</p>
+<h3> 示例 1</h3>
+<p>输入：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 解答</h3>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> JAVA4 交换变量值</h2>
+<h3> 描述</h3>
+<p>在不使用第三个变量的情况下交换两个 int 类型变量的值</p>
+<h4> 输入描述</h4>
+<p>a 变量和 b 变量的值</p>
+<h4> 输出描述</h4>
+<p>交换后 a 变量和 b 变量的值，中间用空格隔开</p>
+<h3> 示例 1</h3>
+<p>输入：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 解答</h3>
+<p>先将 <code>a</code>、<code>b</code> 之和赋给 <code>a</code>，接着将 <code>a</code> 和 <code>b</code> 的差赋值给 <code>b</code>，此时 <code>b = a + b - b = a</code>，此时就交换了 <code>a</code>、<code>b</code> 的值，然后再将 <code>a</code>、<code>b</code> 的差赋值给 <code>a</code>，此时 <code>a = a + b - a</code>，此时就将 <code>b</code> 的值赋给了 <code>a</code>。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> JAVA5 计算商场折扣</h2>
+<h3> 描述</h3>
+<p>牛牛商场促销活动：</p>
+<p>满 100 全额打 9 折；</p>
+<p>满 500 全额打 8 折；</p>
+<p>满 2000 全额打 7 折；</p>
+<p>满 5000 全额打 6 折；</p>
+<p>且商场有抹零活动，不足一元的部分不需要付款（类型强制转换）</p>
+<p>牛大姨算不清楚自己应该付多少钱，请你帮忙算一下</p>
+<h4> 输入描述</h4>
+<p>牛大姨账单钱数（int 类型）</p>
+<h4> 输出描述</h4>
+<p>参加活动后，牛大姨应付钱数(int 类型)</p>
+<h3> 示例 1</h3>
+<p>输入：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 解答</h3>
+<p>多分支条件判断，根据题意，将原价分为 5 个档次，然后通过价格所处档次乘以对应折扣，就得到打折后的价格，但是要注意，由于有抹零活动，所以需要强转一下。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+]]></content>
+    <category term="Java 入门练习"/>
+    <published>2022-06-25T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Java 入门练习：6 - 10</title>
+    <id>https://cunyu1943.github.io/java-tutorial/se-exercise-series/20220626-6-10.html</id>
+    <link href="https://cunyu1943.github.io/java-tutorial/se-exercise-series/20220626-6-10.html"/>
+    <updated>2023-09-26T23:55:14.000Z</updated>
+    <summary type="html"><![CDATA[<h1> Java 入门练习：6 - 10</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<h2> JAVA6 判断体重指数</h2>
+<h3> 描述</h3>
+<p>体重指数 = 体重 (kg) / ( 身高 (m) × 身高 (m) )，小于18.5属于偏瘦，介于18.5和20.9之间（左闭右开）属于苗条，介于20.9和24.9之间（左闭右闭）属于适中，超过24.9属于偏胖。下面由你来编写一段逻辑，算出输入了身高和体重的用户的体重指数，并返回他们的身材状态。(体重指数请使用double类型)</p>]]></summary>
+    <content type="html"><![CDATA[<h1> Java 入门练习：6 - 10</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<h2> JAVA6 判断体重指数</h2>
+<h3> 描述</h3>
+<p>体重指数 = 体重 (kg) / ( 身高 (m) × 身高 (m) )，小于18.5属于偏瘦，介于18.5和20.9之间（左闭右开）属于苗条，介于20.9和24.9之间（左闭右闭）属于适中，超过24.9属于偏胖。下面由你来编写一段逻辑，算出输入了身高和体重的用户的体重指数，并返回他们的身材状态。(体重指数请使用double类型)</p>
+<h4> 输入描述：</h4>
+<p>用户的身高（m）和用户的体重（kg）</p>
+<h4> 输出描述：</h4>
+<p>体重指数代表的用户身材状态</p>
+<h3> 示例1</h3>
+<p>输入：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 示例2</h3>
+<p>输入：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 示例3</h3>
+<p>输入：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 示例4</h3>
+<p>输入：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 解答</h3>
+<p>首先计算出体重指数 <code>bim = weight / height / height</code>，然后再用条件语句找出对应区间即可。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> JAVA7 判断学生成绩等级</h2>
+<h3> 描述</h3>
+<p>现有如下成绩等级A,B,C,D。其中A代表优秀，B代表良好，C代表及格，D代表不及格。现在请你来为学生的成绩进行分级，如果用户输入错误则输出未知等级。</p>
+<h4> 输入描述</h4>
+<p>成绩等级对应的中文表述</p>
+<h4> 输出描述</h4>
+<p>优秀，良好，及格，不及格，未知等级</p>
+<h3> 示例1</h3>
+<p>输入：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 示例2</h3>
+<p>输入：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 示例3</h3>
+<p>输入：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 示例4</h3>
+<p>输入：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 示例5</h3>
+<p>输入：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 解答</h3>
+<p>可以使用 <code>switch</code> 来匹配对应成绩等级，但是需要注意的是 <code>switch</code> 用来 <code>String</code> 需要 Java 8 及之后才行，否则可能会出错。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> JAVA8 邮箱验证</h2>
+<h3> 描述</h3>
+<p>请根据给出的正则表达式来验证邮箱格式是否合法，如果用户输入的格式合法则输出「邮箱格式合法」，否则输出「邮箱格式不合法」。</p>
+<h4> 输入描述</h4>
+<p>任意字符串</p>
+<h4> 输出描述</h4>
+<p>根据输入的邮箱格式判断其合法于不合法，若输入字符串符合邮箱格式则输出邮箱格式合法，否则输出邮箱格式不合法</p>
+<h3> 示例1</h3>
+<p>输入：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 示例2</h3>
+<p>输入：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 解答</h3>
+<p>利用 <code>String</code> 的 <code>matches()</code> 方法来讲输入的字符串和正则表达式进行匹配，然后根据匹配后的结果输出对应结果。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> JAVA9 数列求和</h2>
+<h3> 描述</h3>
+<p>有数列为：9，99，999，...，9999999999。要求使用程序计算此数列的和，并在控制台输出结果。（请尝试使用循环的方式生成这个数列并同时在循环中求和）</p>
+<h4> 输入描述</h4>
+<p>无</p>
+<h4> 输出描述</h4>
+<p>将该数列的和直接输出</p>
+<h3> 解答</h3>
+<p>假设数列第一个数为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>a</mi><mn>1</mn></msub><mo>=</mo><mn>9</mn></mrow><annotation encoding="application/x-tex">a_1 = 9</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5806em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">9</span></span></span></span>，那么后续递推公式 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>a</mi><mi>i</mi></msub><mo>=</mo><msub><mi>a</mi><mrow><mi>i</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>∗</mo><mn>10</mn><mo>+</mo><mn>9</mn></mrow><annotation encoding="application/x-tex">a_i = a_{i-1} * 10 + 9</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5806em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3117em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6736em;vertical-align:-0.2083em;"></span><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3117em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">i</span><span class="mbin mtight">−</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2083em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">10</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">9</span></span></span></span>，然后利用循环求和即可。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> JAVA10 统计输入正数个数</h2>
+<h3> 描述</h3>
+<p>控制台输入整数，请设计一个死循环，当用户输入非正数时停止输入。请给出用户输入的正整数个数（默认输入个数不超过 2147483647）</p>
+<h4> 输入描述</h4>
+<p>若干整数，整数之间用空格隔开</p>
+<h4> 输出描述</h4>
+<p>控制台输入的正整数个数</p>
+<h3> 示例1</h3>
+<p>输入：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 解答</h3>
+<p>要设计一个死循环，那么可以使用 <code>while</code> 语句，此外，要统计正整数个数，则利用 <code>count</code> 进行叠加即可。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+]]></content>
+    <category term="Java 入门练习"/>
+    <published>2022-06-26T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Java 入门练习</title>
+    <id>https://cunyu1943.github.io/java-tutorial/se-exercise-series/</id>
+    <link href="https://cunyu1943.github.io/java-tutorial/se-exercise-series/"/>
+    <updated>2023-09-26T15:06:57.000Z</updated>
+    <published>2023-09-26T15:06:57.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Axios 简单使用指南</title>
+    <id>https://cunyu1943.github.io/java-tutorial/web-front-series/20230926-axios.html</id>
+    <link href="https://cunyu1943.github.io/java-tutorial/web-front-series/20230926-axios.html"/>
+    <updated>2023-09-26T15:06:57.000Z</updated>
+    <summary type="html"><![CDATA[<h1> Axios 简单使用指南</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<h2> 一、概述</h2>
+<h3> 1. 什么是 Axios ？</h3>
+<p><code>Axios</code> 是一个开源的基于 <code>promise</code> 的 <code>HTTP</code> 请求库，一般常用于浏览器和 <code>node.js</code> 中。它能够在具有相同代码库的浏览器和 <code>nodejs</code> 中同时运行，在服务器侧，它利用服务器端原生的 <code>node.js</code>  <code>http</code> 模块，而在客户端侧（一般是浏览器），则使用的是 <code>XMLHttpRequest</code>。</p>]]></summary>
+    <content type="html"><![CDATA[<h1> Axios 简单使用指南</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<h2> 一、概述</h2>
+<h3> 1. 什么是 Axios ？</h3>
+<p><code>Axios</code> 是一个开源的基于 <code>promise</code> 的 <code>HTTP</code> 请求库，一般常用于浏览器和 <code>node.js</code> 中。它能够在具有相同代码库的浏览器和 <code>nodejs</code> 中同时运行，在服务器侧，它利用服务器端原生的 <code>node.js</code>  <code>http</code> 模块，而在客户端侧（一般是浏览器），则使用的是 <code>XMLHttpRequest</code>。</p>
+<p>从 <code>Vue 2.0</code> 版本开始，就极力推荐使用 <code>Axios</code> 来进行 <code>ajax</code> 请求，其源码仓库为：</p>
+<blockquote>
+<p><code>https://github.com/axios/axios</code></p>
+</blockquote>
+<h3> 2. 特性</h3>
+<ul>
+<li>从浏览器中创建 <code>XMLHttpRequests</code></li>
+<li>从 <code>node.js</code> 创建 <code>http</code> 请求</li>
+<li>支持 <code>Promise API</code></li>
+<li>拦截请求和响应</li>
+<li>转换请求数据和响应数据</li>
+<li>取消请求</li>
+<li>支持自动转换 <code>JSON</code> 数据</li>
+<li>客户端侧支持防御 <code>XSRF</code></li>
+</ul>
+<h3> 3. Axios 的安装</h3>
+<p><code>Axios</code> 安装主要有两种方式，一种是通过引入 <code>CDN</code>，另一种则是通过 <code>npm</code> 进行安装，两中安装的方式介绍如下。</p>
+<ol>
+<li>使用 CDN</li>
+</ol>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ol start="2">
+<li>使用 npm</li>
+</ol>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 4. 支持的浏览器</h3>
+<figure><img src="https://github.com/alrra/browser-logos/raw/main/src/main-desktop-browser-logos.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h2> 二、Axios 的使用</h2>
+<p><code>Axios</code> 提供了两种不同的方式来发送 <code>HTTP</code> 请求，其中一种是直接通过 <code>axios()</code> 方法，而另一种则是通过 <code>axios</code> 对象提供的跟 <code>HTTP</code> 方法对应起来的方法来发起请求，例如：</p>
+<ul>
+<li><code>axios.get()</code></li>
+<li><code>axios.post()</code></li>
+<li><code>axios.update()</code></li>
+<li><code>axios.put()</code></li>
+<li>……</li>
+</ul>
+<h3> 1. get 请求</h3>
+<ul>
+<li>语法</li>
+</ul>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ul>
+<li>实例</li>
+</ul>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 2. post 请求</h3>
+<ul>
+<li>语法：</li>
+</ul>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ul>
+<li>实例</li>
+</ul>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 3. put 请求</h3>
+<ul>
+<li>语法</li>
+</ul>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ul>
+<li>实例</li>
+</ul>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 4. delete 请求</h3>
+<ul>
+<li>语法</li>
+</ul>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ul>
+<li>实例</li>
+</ul>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 三、总结</h2>
+<p>以上就是本文的所有内容了，主要介绍了 <code>Axios</code> 的定义、特性、如何安装以及所支持的浏览器，然后介绍了如何使用 <code>Axios</code> 来模拟发起最常用的 <code>GET</code>、<code>POST</code>、<code>PUT</code> 以及 <code>DELETE</code> 请求。</p>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+]]></content>
+    <category term="Web 前端教程"/>
+    <published>2023-09-26T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">C++ 语言</title>
+    <id>https://cunyu1943.github.io/program-language/c__-series/</id>
+    <link href="https://cunyu1943.github.io/program-language/c__-series/"/>
+    <updated>2023-09-26T15:06:57.000Z</updated>
+    <published>2023-09-26T15:06:57.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">内存管理函数</title>
+    <id>https://cunyu1943.github.io/program-language/c-series/20180308-memory-manage.html</id>
+    <link href="https://cunyu1943.github.io/program-language/c-series/20180308-memory-manage.html"/>
+    <updated>2023-09-26T15:06:57.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 内存管理函数</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<h2> malloc函数</h2>
+<ul>
+<li>
+<p>原型：<code>extern void* malloc(unsigned int size)</code>；</p>
+</li>
+<li>
+<p>功能：动态分配内存；</p>
+</li>
+<li>
+<p>注意：<code>size</code> 仅仅为申请内存字节大小，与申请内存块中存储的数据类型无关，故编程时需要通过以下方式给出：<code>长度 * sizeof(数据类型)</code>；</p>
+</li>
+<li>
+<p>示例：</p>
+</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[<h1> 内存管理函数</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<h2> malloc函数</h2>
+<ul>
+<li>
+<p>原型：<code>extern void* malloc(unsigned int size)</code>；</p>
+</li>
+<li>
+<p>功能：动态分配内存；</p>
+</li>
+<li>
+<p>注意：<code>size</code> 仅仅为申请内存字节大小，与申请内存块中存储的数据类型无关，故编程时需要通过以下方式给出：<code>长度 * sizeof(数据类型)</code>；</p>
+</li>
+<li>
+<p>示例：</p>
+</li>
+</ul>
+<div class="language-c line-numbers-mode" data-ext="c"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> free函数</h2>
+<ul>
+<li>原型：<code>void free(void * ptr)</code>；</li>
+<li>功能：搭配 <code>malloc()</code> 函数，释放 <code>malloc</code> 函数申请的动态内存；</li>
+<li>注意：对于 <code>free(ptr)</code>，若 <code>ptr</code> 为 <code>NULL</code>，则可进行多次释放，若 <code>ptr</code> 是非空指针，则 <code>free</code> 对 <code>ptr</code> 只能进行一次操作，否则程序将崩溃；</li>
+<li>示例：见 <code>malloc</code> 函数；</li>
+<li>结果：见 <code>malloc</code> 函数；</li>
+</ul>
+<h2> realloc函数</h2>
+<ul>
+<li>
+<p>原型： <code>void* realloc(void * ptr,unsigned int size)</code>；</p>
+</li>
+<li>
+<p>功能：先判断当前指针是否有足够的连续空间，若足够，扩大 <code>ptr</code> 指向的地址并返回，若不够，怎按<code>size</code> 指定的大小分配空间，将原数据 <code>copy</code> 到新分配的内存中，然后释放原 <code>ptr</code> 所指向区域；</p>
+</li>
+<li>
+<p>注意：内存使用完毕后，应使用 <code>free()</code> 函数释放，但原来的指针是自动释放，不需要使用free；</p>
+</li>
+<li>
+<p>示例：</p>
+</li>
+</ul>
+<div class="language-c line-numbers-mode" data-ext="c"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> calloc函数</h2>
+<ul>
+<li>
+<p>原型：<code>void* calloc（unsigned int num，unsigned int size）</code>；</p>
+</li>
+<li>
+<p>功能：为已经分配的内存重新分配空间并复制内容；</p>
+</li>
+<li>
+<p>注意：<code>num</code>：对象个数，<code>size</code>：对象占据的内存字节数，相较于 <code>malloc</code> 函数，<code>calloc</code> 函数会自动将内存初始化为 0；</p>
+</li>
+<li>
+<p>示例：</p>
+</li>
+</ul>
+<div class="language-c line-numbers-mode" data-ext="c"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+]]></content>
+    <category term="C 语言教程"/>
+    <published>2018-03-08T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">C 语言</title>
+    <id>https://cunyu1943.github.io/program-language/c-series/</id>
+    <link href="https://cunyu1943.github.io/program-language/c-series/"/>
+    <updated>2023-09-26T15:06:57.000Z</updated>
+    <published>2023-09-26T15:06:57.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">软件设计师</title>
+    <id>https://cunyu1943.github.io/tutorial/software-designer-series/</id>
+    <link href="https://cunyu1943.github.io/tutorial/software-designer-series/"/>
+    <updated>2023-09-26T15:06:57.000Z</updated>
+    <published>2023-09-26T15:06:57.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">简介与环境搭建</title>
     <id>https://cunyu1943.github.io/java-tutorial/nginx-series/20221016-intro-install.html</id>
     <link href="https://cunyu1943.github.io/java-tutorial/nginx-series/20221016-intro-install.html"/>
-    <updated>2023-09-26T13:49:43.000Z</updated>
-    <summary type="html"><![CDATA[<div class="hint-container info">
+    <updated>2023-09-26T15:06:57.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 简介与环境搭建</h1>
+<div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
 </div>
@@ -31,7 +461,8 @@
 <p class="hint-container-title">原文</p>
 <p><a href="https://mp.weixin.qq.com/s/Fx4AAS5pUqSGtui4Z-LYXA" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/Fx4AAS5pUqSGtui4Z-LYXA</a></p>
 </div>]]></summary>
-    <content type="html"><![CDATA[<div class="hint-container info">
+    <content type="html"><![CDATA[<h1> 简介与环境搭建</h1>
+<div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
 </div>
@@ -122,29 +553,26 @@
 <p>扫一扫，探索另一个全新的世界。</p>
 <figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content>
+    <category term="Nginx 教程"/>
     <published>2022-10-16T00:00:00.000Z</published>
   </entry>
   <entry>
-    <title type="text"></title>
+    <title type="text">计算机系统</title>
     <id>https://cunyu1943.github.io/tutorial/software-designer-series/20221024-computer-system.html</id>
     <link href="https://cunyu1943.github.io/tutorial/software-designer-series/20221024-computer-system.html"/>
-    <updated>2023-09-26T13:49:43.000Z</updated>
-    <summary type="html"><![CDATA[<div class="hint-container info">
+    <updated>2023-09-26T15:06:57.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 计算机系统</h1>
+<div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<div class="hint-container tip">
-<p class="hint-container-title">原文</p>
 </div>
 <h2> CPU</h2>
 <h3> 计算机系统硬件组成</h3>
 <p>计算机系统是由软硬件共同组成，协同运行程序。计算机的基本硬件由 <strong>运算器、控制器、存储器、输入设备、输出设备</strong> 5 大部件组成。其中，运算器和控制器等部件集成到一起的部分称为中央处理器（<code>CPU</code>）。<code>CPU</code> 是硬件系统的核心，用于加工处理各种数据，能完成各种算术、逻辑运算以及控制功能。</p>]]></summary>
-    <content type="html"><![CDATA[<div class="hint-container info">
+    <content type="html"><![CDATA[<h1> 计算机系统</h1>
+<div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<div class="hint-container tip">
-<p class="hint-container-title">原文</p>
 </div>
 <h2> CPU</h2>
 <h3> 计算机系统硬件组成</h3>
@@ -245,24 +673,24 @@
 <h3> 原码</h3>
 <p>原码表示法中，最高位是符号位，其中 <code>0</code> 表示正号，<code>1</code> 表示负号，其余的 <code>n - 1</code> 为则表示数值的绝对值。这里要注意 <code>0</code> 比较特殊，它的原码有两种表示形式：</p>
 <p class="katex-block"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mo stretchy="false">[</mo><mo>+</mo><mn>0</mn><msub><mo stretchy="false">]</mo><mtext>原</mtext></msub><mo>=</mo><mn>00000000</mn></mrow><annotation encoding="application/x-tex">
-[+0]_原 = 00000000
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord">+</span><span class="mord">0</span><span class="mclose"><span class="mclose">]</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord cjk_fallback mtight">原</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">00000000</span></span></span></span></span></p>
+[+0]_\text{原} = 00000000
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord">+</span><span class="mord">0</span><span class="mclose"><span class="mclose">]</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord text mtight"><span class="mord cjk_fallback mtight">原</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">00000000</span></span></span></span></span></p>
 <p class="katex-block"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mo stretchy="false">[</mo><mo>−</mo><mn>0</mn><msub><mo stretchy="false">]</mo><mtext>原</mtext></msub><mo>=</mo><mn>10000000</mn></mrow><annotation encoding="application/x-tex">
-[-0]_原 = 10000000
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord">−</span><span class="mord">0</span><span class="mclose"><span class="mclose">]</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord cjk_fallback mtight">原</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">10000000</span></span></span></span></span></p>
+[-0]_\text{原} = 10000000
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord">−</span><span class="mord">0</span><span class="mclose"><span class="mclose">]</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord text mtight"><span class="mord cjk_fallback mtight">原</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">10000000</span></span></span></span></span></p>
 <h3> 反码</h3>
 <p>同样的，反码表示中，最高位仍然是符号位，<code>0</code> 表示正号，<code>1</code> 表示负号。如果该数是一个正数，那么它的反码和原码相同。而如果该数是一个负数，那么它的反码则是原码除符号位之外的其他位按位取反。<code>0</code> 的反码也有两种表示形式：</p>
 <p class="katex-block"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mo stretchy="false">[</mo><mo>+</mo><mn>0</mn><msub><mo stretchy="false">]</mo><mtext>反</mtext></msub><mo>=</mo><mn>00000000</mn></mrow><annotation encoding="application/x-tex">
-[+0]_反 = 00000000
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord">+</span><span class="mord">0</span><span class="mclose"><span class="mclose">]</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord cjk_fallback mtight">反</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">00000000</span></span></span></span></span></p>
+[+0]_\text{反} = 00000000
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord">+</span><span class="mord">0</span><span class="mclose"><span class="mclose">]</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord text mtight"><span class="mord cjk_fallback mtight">反</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">00000000</span></span></span></span></span></p>
 <p class="katex-block"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mo stretchy="false">[</mo><mo>−</mo><mn>0</mn><msub><mo stretchy="false">]</mo><mtext>反</mtext></msub><mo>=</mo><mn>11111111</mn></mrow><annotation encoding="application/x-tex">
-[-0]_反 = 11111111
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord">−</span><span class="mord">0</span><span class="mclose"><span class="mclose">]</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord cjk_fallback mtight">反</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">11111111</span></span></span></span></span></p>
+[-0]_\text{反} = 11111111
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord">−</span><span class="mord">0</span><span class="mclose"><span class="mclose">]</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord text mtight"><span class="mord cjk_fallback mtight">反</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">11111111</span></span></span></span></span></p>
 <h3> 补码</h3>
 <p>补码中，最高位为符号位，<code>0</code> 表示正号，<code>1</code> 表示负号。如果一个数是正数，那么它的补码与原码和反码一样。而如果一个数为负数，则补码为反码末位加 <code>1</code>。此时 <code>0</code> 有惟一的编码表示。</p>
 <p class="katex-block"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mo stretchy="false">[</mo><mo>+</mo><mn>0</mn><msub><mo stretchy="false">]</mo><mtext>补</mtext></msub><mo>=</mo><mo stretchy="false">[</mo><mo>−</mo><mn>0</mn><msub><mo stretchy="false">]</mo><mtext>补</mtext></msub><mo>=</mo><mn>00000000</mn></mrow><annotation encoding="application/x-tex">
-[+0]_补 = [-0]_补 = 00000000
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord">+</span><span class="mord">0</span><span class="mclose"><span class="mclose">]</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord cjk_fallback mtight">补</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord">−</span><span class="mord">0</span><span class="mclose"><span class="mclose">]</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord cjk_fallback mtight">补</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">00000000</span></span></span></span></span></p>
+[+0]_\text{补} = [-0]_\text{补} = 00000000
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord">+</span><span class="mord">0</span><span class="mclose"><span class="mclose">]</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord text mtight"><span class="mord cjk_fallback mtight">补</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord">−</span><span class="mord">0</span><span class="mclose"><span class="mclose">]</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord text mtight"><span class="mord cjk_fallback mtight">补</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">00000000</span></span></span></span></span></p>
 <h3> 移码</h3>
 <p>移码的表示与补码有很大关系，它就是将一个数的补码的符号位取反即可。如 <code>+1</code> 的补码为 <code>00000001</code>，那么它的移码为 <code>10000001</code>。</p>
 <h3> 注意</h3>
@@ -401,7 +829,8 @@ N = 2^E×F
 <p>扫一扫，探索另一个全新的世界。</p>
 <figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content>
-    <published>2023-09-26T13:49:43.000Z</published>
+    <category term="软件设计师"/>
+    <published>2022-10-24T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">计算机软硬件</title>
