@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习、面试求职、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2023-09-29T14:38:36.971Z</updated>
+  <updated>2023-10-06T10:37:25.821Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -3679,6 +3679,104 @@ salary <span class="token operator">=</span> <span class="token builtin">input</
     <published>2023-09-27T07:28:16.000Z</published>
   </entry>
   <entry>
+    <title type="text">内存管理函数</title>
+    <id>https://cunyu1943.github.io/program-language/c-series/20180308-memory-manage.html</id>
+    <link href="https://cunyu1943.github.io/program-language/c-series/20180308-memory-manage.html"/>
+    <updated>2023-09-26T15:06:57.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 内存管理函数</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<h2> malloc函数</h2>
+<ul>
+<li>
+<p>原型：<code>extern void* malloc(unsigned int size)</code>；</p>
+</li>
+<li>
+<p>功能：动态分配内存；</p>
+</li>
+<li>
+<p>注意：<code>size</code> 仅仅为申请内存字节大小，与申请内存块中存储的数据类型无关，故编程时需要通过以下方式给出：<code>长度 * sizeof(数据类型)</code>；</p>
+</li>
+<li>
+<p>示例：</p>
+</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[<h1> 内存管理函数</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<h2> malloc函数</h2>
+<ul>
+<li>
+<p>原型：<code>extern void* malloc(unsigned int size)</code>；</p>
+</li>
+<li>
+<p>功能：动态分配内存；</p>
+</li>
+<li>
+<p>注意：<code>size</code> 仅仅为申请内存字节大小，与申请内存块中存储的数据类型无关，故编程时需要通过以下方式给出：<code>长度 * sizeof(数据类型)</code>；</p>
+</li>
+<li>
+<p>示例：</p>
+</li>
+</ul>
+<div class="language-c line-numbers-mode" data-ext="c"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> free函数</h2>
+<ul>
+<li>原型：<code>void free(void * ptr)</code>；</li>
+<li>功能：搭配 <code>malloc()</code> 函数，释放 <code>malloc</code> 函数申请的动态内存；</li>
+<li>注意：对于 <code>free(ptr)</code>，若 <code>ptr</code> 为 <code>NULL</code>，则可进行多次释放，若 <code>ptr</code> 是非空指针，则 <code>free</code> 对 <code>ptr</code> 只能进行一次操作，否则程序将崩溃；</li>
+<li>示例：见 <code>malloc</code> 函数；</li>
+<li>结果：见 <code>malloc</code> 函数；</li>
+</ul>
+<h2> realloc函数</h2>
+<ul>
+<li>
+<p>原型： <code>void* realloc(void * ptr,unsigned int size)</code>；</p>
+</li>
+<li>
+<p>功能：先判断当前指针是否有足够的连续空间，若足够，扩大 <code>ptr</code> 指向的地址并返回，若不够，怎按<code>size</code> 指定的大小分配空间，将原数据 <code>copy</code> 到新分配的内存中，然后释放原 <code>ptr</code> 所指向区域；</p>
+</li>
+<li>
+<p>注意：内存使用完毕后，应使用 <code>free()</code> 函数释放，但原来的指针是自动释放，不需要使用free；</p>
+</li>
+<li>
+<p>示例：</p>
+</li>
+</ul>
+<div class="language-c line-numbers-mode" data-ext="c"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> calloc函数</h2>
+<ul>
+<li>
+<p>原型：<code>void* calloc（unsigned int num，unsigned int size）</code>；</p>
+</li>
+<li>
+<p>功能：为已经分配的内存重新分配空间并复制内容；</p>
+</li>
+<li>
+<p>注意：<code>num</code>：对象个数，<code>size</code>：对象占据的内存字节数，相较于 <code>malloc</code> 函数，<code>calloc</code> 函数会自动将内存初始化为 0；</p>
+</li>
+<li>
+<p>示例：</p>
+</li>
+</ul>
+<div class="language-c line-numbers-mode" data-ext="c"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+]]></content>
+    <category term="C 语言教程"/>
+    <published>2018-03-08T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">C 系列</title>
+    <id>https://cunyu1943.github.io/program-language/c-series/</id>
+    <link href="https://cunyu1943.github.io/program-language/c-series/"/>
+    <updated>2023-09-27T07:28:16.000Z</updated>
+    <published>2023-09-26T15:06:57.000Z</published>
+  </entry>
+  <entry>
     <title type="text">Nginx 教程</title>
     <id>https://cunyu1943.github.io/java-tutorial/nginx-series/</id>
     <link href="https://cunyu1943.github.io/java-tutorial/nginx-series/"/>
@@ -3777,104 +3875,6 @@ salary <span class="token operator">=</span> <span class="token builtin">input</
 ]]></content>
     <category term="Web 前端教程"/>
     <published>2023-09-26T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">内存管理函数</title>
-    <id>https://cunyu1943.github.io/program-language/c-series/20180308-memory-manage.html</id>
-    <link href="https://cunyu1943.github.io/program-language/c-series/20180308-memory-manage.html"/>
-    <updated>2023-09-26T15:06:57.000Z</updated>
-    <summary type="html"><![CDATA[<h1> 内存管理函数</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<h2> malloc函数</h2>
-<ul>
-<li>
-<p>原型：<code>extern void* malloc(unsigned int size)</code>；</p>
-</li>
-<li>
-<p>功能：动态分配内存；</p>
-</li>
-<li>
-<p>注意：<code>size</code> 仅仅为申请内存字节大小，与申请内存块中存储的数据类型无关，故编程时需要通过以下方式给出：<code>长度 * sizeof(数据类型)</code>；</p>
-</li>
-<li>
-<p>示例：</p>
-</li>
-</ul>]]></summary>
-    <content type="html"><![CDATA[<h1> 内存管理函数</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<h2> malloc函数</h2>
-<ul>
-<li>
-<p>原型：<code>extern void* malloc(unsigned int size)</code>；</p>
-</li>
-<li>
-<p>功能：动态分配内存；</p>
-</li>
-<li>
-<p>注意：<code>size</code> 仅仅为申请内存字节大小，与申请内存块中存储的数据类型无关，故编程时需要通过以下方式给出：<code>长度 * sizeof(数据类型)</code>；</p>
-</li>
-<li>
-<p>示例：</p>
-</li>
-</ul>
-<div class="language-c line-numbers-mode" data-ext="c"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> free函数</h2>
-<ul>
-<li>原型：<code>void free(void * ptr)</code>；</li>
-<li>功能：搭配 <code>malloc()</code> 函数，释放 <code>malloc</code> 函数申请的动态内存；</li>
-<li>注意：对于 <code>free(ptr)</code>，若 <code>ptr</code> 为 <code>NULL</code>，则可进行多次释放，若 <code>ptr</code> 是非空指针，则 <code>free</code> 对 <code>ptr</code> 只能进行一次操作，否则程序将崩溃；</li>
-<li>示例：见 <code>malloc</code> 函数；</li>
-<li>结果：见 <code>malloc</code> 函数；</li>
-</ul>
-<h2> realloc函数</h2>
-<ul>
-<li>
-<p>原型： <code>void* realloc(void * ptr,unsigned int size)</code>；</p>
-</li>
-<li>
-<p>功能：先判断当前指针是否有足够的连续空间，若足够，扩大 <code>ptr</code> 指向的地址并返回，若不够，怎按<code>size</code> 指定的大小分配空间，将原数据 <code>copy</code> 到新分配的内存中，然后释放原 <code>ptr</code> 所指向区域；</p>
-</li>
-<li>
-<p>注意：内存使用完毕后，应使用 <code>free()</code> 函数释放，但原来的指针是自动释放，不需要使用free；</p>
-</li>
-<li>
-<p>示例：</p>
-</li>
-</ul>
-<div class="language-c line-numbers-mode" data-ext="c"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> calloc函数</h2>
-<ul>
-<li>
-<p>原型：<code>void* calloc（unsigned int num，unsigned int size）</code>；</p>
-</li>
-<li>
-<p>功能：为已经分配的内存重新分配空间并复制内容；</p>
-</li>
-<li>
-<p>注意：<code>num</code>：对象个数，<code>size</code>：对象占据的内存字节数，相较于 <code>malloc</code> 函数，<code>calloc</code> 函数会自动将内存初始化为 0；</p>
-</li>
-<li>
-<p>示例：</p>
-</li>
-</ul>
-<div class="language-c line-numbers-mode" data-ext="c"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> ⏳ 联系</h2>
-<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
-<p>扫一扫，探索另一个全新的世界。</p>
-<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-]]></content>
-    <category term="C 语言教程"/>
-    <published>2018-03-08T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">C 系列</title>
-    <id>https://cunyu1943.github.io/program-language/c-series/</id>
-    <link href="https://cunyu1943.github.io/program-language/c-series/"/>
-    <updated>2023-09-27T07:28:16.000Z</updated>
-    <published>2023-09-26T15:06:57.000Z</published>
   </entry>
   <entry>
     <title type="text">软件设计师</title>
@@ -5460,7 +5460,7 @@ N = 2^E×F
     <title type="text">好物周刊#25：PPT 超级市场</title>
     <id>https://cunyu1943.github.io/weekly/2023/0930-1006.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/0930-1006.html"/>
-    <updated>2023-09-25T08:51:44.000Z</updated>
+    <updated>2023-10-06T10:33:40.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#25：PPT 超级市场</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -5468,9 +5468,8 @@ N = 2^E×F
 </div>
 <div class="hint-container tip">
 <p class="hint-container-title">原文</p>
-</div>
-<h2> 一、项目</h2>
-<h3> 1. <a href="https://github.com/bage2014/study" target="_blank" rel="noopener noreferrer">study</a></h3>]]></summary>
+<p><a href="https://mp.weixin.qq.com/s/vdKsUXuj5vdEDKso9OJ4eQ" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/vdKsUXuj5vdEDKso9OJ4eQ</a></p>
+</div>]]></summary>
     <content type="html"><![CDATA[<h1> 好物周刊#25：PPT 超级市场</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -5478,6 +5477,7 @@ N = 2^E×F
 </div>
 <div class="hint-container tip">
 <p class="hint-container-title">原文</p>
+<p><a href="https://mp.weixin.qq.com/s/vdKsUXuj5vdEDKso9OJ4eQ" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/vdKsUXuj5vdEDKso9OJ4eQ</a></p>
 </div>
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://github.com/bage2014/study" target="_blank" rel="noopener noreferrer">study</a></h3>
