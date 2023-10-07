@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习、面试求职、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2023-10-07T03:16:51.385Z</updated>
+  <updated>2023-10-07T09:02:50.852Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -4909,7 +4909,7 @@ N = 2^E×F
     <title type="text">好物周刊#31：</title>
     <id>https://cunyu1943.github.io/weekly/2023/1111-1117.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/1111-1117.html"/>
-    <updated>2023-09-20T12:04:45.000Z</updated>
+    <updated>2023-10-07T08:59:41.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#31：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -4945,6 +4945,9 @@ N = 2^E×F
 </ul>
 <figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695175329694.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
+<h3> 1. <a href="https://github.com/chat2db/Chat2DB" target="_blank" rel="noopener noreferrer">Chat2DB</a></h3>
+<p>一款开源免费的多数据库客户端工具，支持 <code>windows</code>、mac 本地安装，也支持服务器端部署，web 网页访问。 和传统的数据库客户端软件 Navicat、DBeaver 相比 Chat2DB 集成了 AIGC 的能力，能够将自然语言转换为 SQL， 也可以将 SQL 转换为自然语言，可以给出研发人员 SQL 的优化建议，极大的提升人员的效率，是 AI 时代数据库研发人员的利器， 不懂 SQL 的运营或业务也可以轻松使用快速查询业务数据、生成报表的能力。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1696648457125.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
