@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习、面试求职、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 08 Oct 2023 09:26:54 GMT</pubDate>
-    <lastBuildDate>Sun, 08 Oct 2023 09:26:54 GMT</lastBuildDate>
+    <pubDate>Sun, 08 Oct 2023 14:55:23 GMT</pubDate>
+    <lastBuildDate>Sun, 08 Oct 2023 14:55:23 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Java 入门练习</category>
@@ -3731,19 +3731,19 @@ N = 2^E×F
 <h3> 4. 健壮性</h3>
 <p><code>Java</code> 中，没有了 <code>C++</code> 中类的多继承、指针等概念。同时它的强类型机制、异常处理机制、垃圾回收机制等都为 <code>Java</code> 程序的健壮性提供了重要保障。</p>
 <h3> 5. 安全性</h3>
-<p>开发网络应用时，安全性十分重要。利用 <code>Java</code>&nbsp;的诸多安全特性能够构建防病毒、防篡改系统。</p>
+<p>开发网络应用时，安全性十分重要。利用 <code>Java</code> 的诸多安全特性能够构建防病毒、防篡改系统。</p>
 <h3> 6. 体系结构中立</h3>
 <p><code>Java</code> 源代码经编译后成为字节码，字节码能够在实现了 <code>Java</code> 虚拟机的各种系统中运行，无视系统差异。</p>
 <h3> 7. 可移植性</h3>
-<p>正是由于 <code>Java</code>&nbsp;的体系结构中立，才有了适合分发和高度可移植的特点。</p>
+<p>正是由于 <code>Java</code> 的体系结构中立，才有了适合分发和高度可移植的特点。</p>
 <h3> 8. 解释型</h3>
 <p><code>Java</code> 经编译后形成字节码文件，然后由虚拟机来解释这些字节码并执行，因此说 <code>Java</code> 是一门解释型语言。</p>
 <h3> 9. 高性能</h3>
-<p>相比于其他编译型编程语言，<code>Java</code>&nbsp;性能毋庸置疑，同时，引入即时编译器，其性能已经和 <code>C++</code> 相差不大，在某些场景下甚至更胜一筹。</p>
+<p>相比于其他编译型编程语言，<code>Java</code> 性能毋庸置疑，同时，引入即时编译器，其性能已经和 <code>C++</code> 相差不大，在某些场景下甚至更胜一筹。</p>
 <h3> 10. 多线程</h3>
 <p>大量请求的场景下，单线程的交互响应和实时行为变得十分缓慢。随着摩尔定律的终结，多线程的引入，无疑会带来更加快速的交互响应和实时行为，大大提升体验。</p>
 <h3> 11. 动态性</h3>
-<p>随着各种应用场景的不断涌现，<code>Java</code>&nbsp;也在动态适应变化的环境。<code>Java</code>&nbsp;中所需的类既能动态加载到内存中，也能通过网络来载入，也更有利于软件的迭代升级。</p>
+<p>随着各种应用场景的不断涌现，<code>Java</code> 也在动态适应变化的环境。<code>Java</code> 中所需的类既能动态加载到内存中，也能通过网络来载入，也更有利于软件的迭代升级。</p>
 <h2> 三、发展简史</h2>
 <p>1990 年代初，<code>Sun</code> 公司的詹姆斯·高斯林等人为了实现电视机、电话、闹钟等家用电器的控制和通信，开发了一套用于设置在家用电器等小型系统中的编程语言。在当时，这门语言被命名为 <code>Oka</code>。但由于市场需求不高，所以该计划被逐渐放弃。</p>
 <p>随着 1990 年代互联网的发展，<code>Sun</code> 公司发现 <code>Oka</code> 语言在互联网中的应用前景广泛。于是决定对 <code>Oka</code> 进行改造，并在 1995 年 5 月以 <code>Java</code> 的名义正式发布。</p>
@@ -3911,20 +3911,20 @@ N = 2^E×F
 <ol>
 <li>首先进入 <a href="https://www.oracle.com/java/technologies/javase-downloads.html" target="_blank" rel="noopener noreferrer">Oracle 官网</a>，然后找到自己想要的 <code>JDK</code> 版本，这边以 <code>JDK</code> 11 为例。</li>
 </ol>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/java-tutorial/javase-series/assets/20220702-jdk-install-and-hello-world/jdk11.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <ol start="2">
 <li>点击 JDK Download 后，它会跳转到具体下载页面，然后根据自己的系统来进行选择，此处以 <code>Windows</code> 64 位系统为例。</li>
 </ol>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/java-tutorial/javase-series/assets/20220702-jdk-install-and-hello-world/download.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <ol start="3">
 <li>点击最后的链接后，它会让你同意协议，勾选同意，然后登陆你的 <code>Oracle</code> 账户即可开始下载，若是没有 <code>Oracle</code> 账户，点击下面的创建一个就可以了。</li>
 </ol>
-<figure><figcaption></figcaption></figure>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/java-tutorial/javase-series/assets/20220702-jdk-install-and-hello-world/agree.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/java-tutorial/javase-series/assets/20220702-jdk-install-and-hello-world/login.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <ol start="4">
 <li>下载完成后，进行安装即可，安装流程和我们平常安装软件的一样，就再赘述，需要注意的是要记住如下的安装路径，因为一般我们都不会安装到默认路径，所以一定要记住你所安装到的路径，这关系到后续的配置步骤。</li>
 </ol>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/java-tutorial/javase-series/assets/20220702-jdk-install-and-hello-world/install-path.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. 配置</h3>
 <p>好了，经过上面的配置，我们的 JDK 就已经安装好了，但是这个使用你是用不了的，我们还需要进一步的配置；</p>
 <p>打开系统属性来进行环境变量配置，打开系统属性并进行配置的方式如下：</p>
@@ -3939,11 +3939,11 @@ N = 2^E×F
 <ol start="3">
 <li>新建环境变量 <strong>JAVA_HOME</strong>，然后变量值填入刚才安装 JDK 的路径（刚才提醒过要记住！）。</li>
 </ol>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/java-tutorial/javase-series/assets/20220702-jdk-install-and-hello-world/java-home.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <ol start="4">
 <li>编辑 <strong>Path</strong> 环境变量，然后新建一个变量值，填入如下内容：<code>%JAVA_HOME%\bin</code>。</li>
 </ol>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/java-tutorial/javase-series/assets/20220702-jdk-install-and-hello-world/path-bin.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <ol start="5">
 <li>各种确定，然后突出系统属性即可，到这一步，理论上我们的 JDK 就安装并配置成功了，接下来我们就去确认一下到底安装好了没有。</li>
 </ol>
@@ -3960,7 +3960,7 @@ N = 2^E×F
 <ol>
 <li>首先去 <a href="https://www.oracle.com/java/technologies/javase-jdk11-downloads.html" target="_blank" rel="noopener noreferrer">官网下载</a> 对应安装包。</li>
 </ol>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/java-tutorial/javase-series/assets/20220702-jdk-install-and-hello-world/macos-jdk.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <ol start="2">
 <li>
 <p>接受相关协议并登录下载。</p>
@@ -3969,43 +3969,43 @@ N = 2^E×F
 <p>双击下载好的 <code>.dmg</code> 安装包，然后开始安装。</p>
 </li>
 </ol>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/java-tutorial/javase-series/assets/20220702-jdk-install-and-hello-world/install-macos.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <ol start="4">
 <li>安装过程中会让你输入密码，也就是你本机的密码。</li>
 </ol>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/java-tutorial/javase-series/assets/20220702-jdk-install-and-hello-world/pwd.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <ol start="5">
 <li>安装成功。</li>
 </ol>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/java-tutorial/javase-series/assets/20220702-jdk-install-and-hello-world/success.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. 验证</h3>
 <p>不同于 <code>Windows</code>，<code>macOS</code> 下不用再手动配置环境变量了，它会给你自动配置好，我们只需要去验证即可；</p>
 <ol>
 <li>查看 <code>JDK</code> 版本。</li>
 </ol>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/java-tutorial/javase-series/assets/20220702-jdk-install-and-hello-world/macos-jdk-v.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <ol start="2">
 <li>编译命令。</li>
 </ol>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/java-tutorial/javase-series/assets/20220702-jdk-install-and-hello-world/macos-javac.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <ol start="3">
 <li>运行验证命令。</li>
 </ol>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/java-tutorial/javase-series/assets/20220702-jdk-install-and-hello-world/macos-java.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 四、Linux 环境配置</h2>
 <h3> 1. 安装</h3>
 <ol>
 <li>先去 <a href="https://www.oracle.com/java/technologies/javase-downloads.html" target="_blank" rel="noopener noreferrer">下载</a> 要安装的 <code>JDK</code> 版本，然后解压到本地存放的位置。</li>
 </ol>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
-<figure><figcaption></figcaption></figure>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/java-tutorial/javase-series/assets/jdk-install.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/java-tutorial/javase-series/assets/jdk-path.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. 配置</h3>
 <p>打开配置文件 <code>/etc/profile</code>，然后加入如下内容；</p>
-<div class="language-profile line-numbers-mode" data-ext="profile"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
-<figure><figcaption></figcaption></figure>
+<div class="language-profile line-numbers-mode" data-ext="profile"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/java-tutorial/javase-series/assets/jdk-profile.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/java-tutorial/javase-series/assets/profile-jdk.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. 验证</h3>
 <p>安装和配置之后，在终端中输入如下命令进行验证是否成功。</p>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/java-tutorial/javase-series/assets/verify.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 五、安装目录详解</h2>
 <p>安装好 <code>JDK</code> 之后，打开安装路径，通常情况下会有如下的目录结构，而各个模块的功能则如下表所示。</p>
 <div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><table>
@@ -4077,6 +4077,7 @@ N = 2^E×F
 <p>扫一扫，探索另一个全新的世界。</p>
 <figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
+      <enclosure url="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/java-tutorial/javase-series/assets/20220702-jdk-install-and-hello-world/jdk11.png" type="image/png"/>
     </item>
     <item>
       <title>好物周刊#33：</title>
