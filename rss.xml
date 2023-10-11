@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习、面试求职、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 10 Oct 2023 12:14:26 GMT</pubDate>
-    <lastBuildDate>Tue, 10 Oct 2023 12:14:26 GMT</lastBuildDate>
+    <pubDate>Wed, 11 Oct 2023 00:10:11 GMT</pubDate>
+    <lastBuildDate>Wed, 11 Oct 2023 00:10:11 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Java 入门练习</category>
@@ -4792,10 +4792,10 @@ N = 2^E×F
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://github.com/bage2014/study" target="_blank" rel="noopener noreferrer">study</a></h3>
 <p><code>Java</code> 全栈工程师学习笔记；<code>Spring</code>、<code>shiro</code>、<code>CAS</code>、<code>oauth2</code> 单点登录；<code>cache </code>、<code>Redis</code>; <code>web</code> 安全及解决思路；<code>mq</code>、<code>quartz</code>、<code>Docker</code>；<code>Docker</code> 各种组件实践等；<code>MyBatis</code>、<code>Spring</code>、<code>Spring Boot</code> 实践；分布式锁；基于分库分表等等。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694391373421.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://github.com/MaaAssistantArknights/MaaAssistantArknights" target="_blank" rel="noopener noreferrer">MaaAssistantArknights</a></h3>
 <p>一款明日方舟游戏小助手，基于图像识别技术，一键完成全部日常任务！</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694476585427.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://github.com/dushixiang/next-terminal" target="_blank" rel="noopener noreferrer">Next Terminal</a></h3>
 <p>一个简单好用安全的开源交互审计系统，支持 <code>RDP</code>、<code>SSH</code>、<code>VNC</code>、<code>Telnet</code>、<code>Kubernetes</code> 协议。目前支持的功能有：</p>
 <ul>
@@ -4814,38 +4814,38 @@ N = 2^E×F
 <li>登录策略</li>
 <li>系统监控</li>
 </ul>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694476618572.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
 <h3> 1. <a href="https://www.flowlauncher.com/" target="_blank" rel="noopener noreferrer">Flow Launcher</a></h3>
 <p>快搜搜索文件和启动 <code>app</code>，取代 <code>Windows</code> 自带搜索的必备神器，类似于 <code>macOS</code> 中的 <code>Alfred</code>。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694388736952.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://geekuninstaller.com/" target="_blank" rel="noopener noreferrer">Geek Uninstaller</a></h3>
 <p>是一款 100% 免费且高效、快速、小而便携电脑清理卸载软件，易于使用的用户界面，执行深度和快速扫描并删除所有残留信息。保持你的电脑干净！支持卸载 <code>Windows</code> 8/8.1/10 上的 <code>Windows</code> 应用商店应用。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694389024194.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://github.com/namazso/OpenHashTab" target="_blank" rel="noopener noreferrer">OpenHashTab</a></h3>
 <p>资源管理器右键文件-&gt;属性，即可查看文件 <code>MD5</code>、<code>SHA1</code> 等各类 <code>Hash</code> 信息。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694389152477.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://www.1ppt.com/" target="_blank" rel="noopener noreferrer">第 1 PPT</a></h3>
 <p>这里有海量 <code>PPT</code> 素材，幻灯片背景图片，<code>PPT</code> 模板免费下载，专注 <code>PowerPoint</code> 素材下载！</p>
 <p>而且支持在线预览，不用登录即可免费下载。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693958767707.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://www.pptsupermarket.com/" target="_blank" rel="noopener noreferrer">PPT 超级市场</a></h3>
 <p>免费下载 <code>PPT</code> 模板与 <code>PPT</code> 作品，提供免费的 <code>PPT</code> 代做服务，提供一站式 <code>PPT</code>(模板、定制、工具、教程)服务，有了它，一切制作 <code>PPT</code> 的烦恼都将成为过去！</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693958801945.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://www.aigei.com/" target="_blank" rel="noopener noreferrer">爱给网</a></h3>
 <p>中国最大的数字娱乐免费素材下载网站,免费提供免费的音效配乐、3D模型、视频、游戏素材资源下载。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693958840698.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
 <h3> 1. <a href="https://chromewebstore.google.com/detail/microsoft-365/ndjpnladcallmjemlbaebfadecfhkepb" target="_blank" rel="noopener noreferrer">Microsoft 365</a></h3>
 <p>在浏览器中查看、编辑和创建文档。</p>
 <p>专用于 <code>Chrome</code> – 无需安装 <code>Microsoft</code> 365 应用即可使用 <code>Word</code>、<code>Excel</code>、<code>PowerPoint</code>、<code>OneNote</code> 和 <code>Sway Online</code>。</p>
 <p>熟练地创建文件 – 使用熟悉的格式和布局选项来完全忠实地表达你的想法。</p>
 <p>随时随地开展工作 – 与 <code>OneDrive</code> 和 <code>OneDrive for Business</code> 集成，可从任意位置获取文件。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695607160427.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://www.turnoffthelights.com/zh-cn/" target="_blank" rel="noopener noreferrer">关灯看视频</a></h3>
 <p>一个免费的开源浏览器扩展，允许用户将除 <code>HTML5</code> 视频以外的所有部分变暗。适用于所有网络浏览器，例如 <code>Google Chrome</code>、<code>Microsoft Edge</code> 等。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695607160706.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://www.awesomescreenshot.com/" target="_blank" rel="noopener noreferrer">Awesome Screenshot</a></h3>
 <p>超级截图录屏大师是一款录屏神器，也是一款截屏神器．屏幕截图 &amp; 图片编辑，屏幕录像 ＆ 视频编辑，所有这些截图，录屏功能，都被一气呵成的集成到插件和对应的网站服务中。支持如下功能：</p>
 <ul>
@@ -4877,17 +4877,17 @@ N = 2^E×F
 <li>选择你所需要的尺寸</li>
 <li>方框，圆圈，箭头等各种尺寸的批注</li>
 </ol>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695607160427.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://learn.microsoft.com/zh-cn/dotnet/csharp/" target="_blank" rel="noopener noreferrer">C# 文档</a></h3>
 <p>面向新手开发人员、刚开始接触 <code>C#</code> 的开发人员、以及经验丰富的 <code>C#/.NET</code> 开发人员。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694518162388.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://learn.microsoft.com/zh-cn/dotnet/" target="_blank" rel="noopener noreferrer">.NET 文档</a></h3>
 <p>了解如何使用 <code>.NET</code> 在任何使用 <code>C#</code>、<code>F#</code> 和 <code>Visual Basic</code> 的平台上创建应用程序。 浏览 <code>API</code> 引用、代码示例、教程以及其他内容。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694518376166.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://github.com/ljinkai/weekly" target="_blank" rel="noopener noreferrer">独立开发变现周刊</a></h3>
 <p>分享独立开发变现人物志、产品周刊、工具集，每周五发布。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694518686460.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
@@ -4905,7 +4905,6 @@ N = 2^E×F
 <p>扫一扫，探索另一个全新的世界。</p>
 <figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
-      <enclosure url="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694391373421.webp" type="image/webp"/>
     </item>
     <item>
       <title>CSS 教程</title>
@@ -6297,17 +6296,17 @@ N = 2^E×F
 <h2> 一、前言</h2>
 <p>村雨遥的好物周刊，记录每周看到的有价值的信息，主要针对计算机领域，每周五发布。专栏目的在于记录让自己有印象的信息做一个备份及分享，阅读渠道如下：</p>
 <ul>
-<li><a href="https://cunyu1943.github.io/weekly" target="_blank" rel="noopener noreferrer">博客</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">博客(国内)</a></li>
+<li><a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">博客</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">博客(国内)</a></li>
 <li><a href="https://github.com/cunyu1943/JavaPark" target="_blank" rel="noopener noreferrer">JavaPark</a></li>
 <li><a href="https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzIyNTg2MjkzNw==&amp;action=getalbum&amp;album_id=2501145320567963650&amp;scene=173&amp;from_msgid=2247497779&amp;from_itemidx=1&amp;count=3&amp;nolastread=1#wechat_redirect" target="_blank" rel="noopener noreferrer">公众号</a>：移动端推荐</li>
 </ul>
-<p>如果你想推荐或自荐项目/网站/软件/插件/资料等任何资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/weekly/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong><a href="/contact/wechat.png">个人微信：cunyu1943</a></strong> 和我交流。</p>
+<p>如果你想推荐或自荐项目/网站/软件/插件/资料等任何资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong><a href="/contact/wechat.png">个人微信：cunyu1943</a></strong> 和我交流。</p>
 
 <h2> 二、介绍</h2>
 <p>互联网时代，各种信息层出不穷。而从众多信息中过滤出需要的，并将这些信息聚合起来就是一项十分重要的技能。</p>
 <p>作为一名程序员，每天在网上冲浪时经常会浏览到各种好玩的项目、资源、软件以及资源等。而久而久之，一些好的资源渐渐就淹没在信息流中了，后来想再去找也不知道该去哪儿查。</p>
 <p>针对这个问题，给我个人感觉非常不好，不知道你是否也会有这样的感觉呢？于是 <strong>好物周刊</strong> 诞生了，周刊于我而言既是一种留存，也是一种分享，希望我能一直坚持下去，欢迎大家监督。</p>
-<p>如果大家感兴趣，请持续关注我的的周刊专栏<a href="https://cunyu1943.github.io/weekly" target="_blank" rel="noopener noreferrer">电子书</a>，也请移步<a href="https://github.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/weekly/" target="_blank" rel="noopener noreferrer">Gitee</a> 给我一个<code>Star</code>支持下吧。</p>
+<p>如果大家感兴趣，请持续关注我的的周刊专栏<a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a>，也请移步<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> 给我一个<code>Star</code>支持下吧。</p>
 <p>好物周刊开始于 <strong>2023.04.15</strong>，如果看到这篇文章时我依旧在坚持更新，那就是最好的消息。</p>
 <h2> 三、交流</h2>
 <p>欢迎关注<a href="https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzIyNTg2MjkzNw==&amp;action=getalbum&amp;album_id=2501145320567963650&amp;scene=173&amp;from_msgid=2247497779&amp;from_itemidx=1&amp;count=3&amp;nolastread=1#wechat_redirect" target="_blank" rel="noopener noreferrer">公众号</a>|<a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">博客</a>一起交流（每周在公众号首发）：</p>
