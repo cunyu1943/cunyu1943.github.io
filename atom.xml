@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习、面试求职、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2023-10-12T00:01:00.191Z</updated>
+  <updated>2023-10-12T00:34:13.910Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -6310,7 +6310,7 @@ N = 2^E×F
     <title type="text">好物周刊#26：</title>
     <id>https://cunyu1943.github.io/weekly/2023/1007-1013.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/1007-1013.html"/>
-    <updated>2023-09-19T00:32:31.000Z</updated>
+    <updated>2023-10-12T00:15:47.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#26：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -6360,6 +6360,19 @@ N = 2^E×F
 <p>一家专注于分享高质量的免费 <code>PPT</code> 模板下载网站，包括图表、背景图片、素材、教程等各类 <code>PPT</code> 模板相关资源。致力于打造国内最大最权威的 <code>PPT</code> 下载一站式服务平台。</p>
 <figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1693958977192.webp" alt="169395897792" tabindex="0" loading="lazy"><figcaption>169395897792</figcaption></figure>
 <h2> 四、插件</h2>
+<h3> 1. <a href="https://chromewebstore.google.com/detail/mote%EF%BC%9A%E8%AF%AD%E9%9F%B3%E7%AC%94%E8%AE%B0%E5%92%8C%E5%8F%8D%E9%A6%88/ajphlblkfpppdpkgokiejbjfohfohhmk" target="_blank" rel="noopener noreferrer">Mote：语音笔记和反馈</a></h3>
+<p>快速、友好的语音消息。使用 <code>Mote</code> 可以轻松地将语音评论和音频内容添加到共享文档、作业、电子邮件和表单中。已集成到 <code>Google Docs</code>、<code>Slides</code>、<code>Sheets</code>、<code>Forms</code>、<code>Classroom</code> 和 <code>Gmail</code> 中，更加便于录制和播放。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1697068442166.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://chromewebstore.google.com/detail/ejoy-ai-dictionary/amfojhdiedpdnlijjbhjnhokbnohfdfb" target="_blank" rel="noopener noreferrer">eJOY AI Dictionary</a></h3>
+<p>翻译 <code>Netflix</code>, <code>Youtube</code>, <code>iFlix</code> 上的字幕，查字典，藉由游戏学习英语字典。</p>
+<p>单击即可在看电影、短片、阅读新闻、浏览社交媒体或任何地方时获得译文。将新单词储存到字典，并且玩英文游戏牢记单词。</p>
+<p><code>eJOY</code> 还能帮您定义单字、英语成语、常用片语、最新俚语和搭配用词。</p>
+<p>如果您正在加紧准备英文考试，<code>eJOY</code> 会帮您掌握字彙表。 <code>eJOY</code> 提供广泛主题字彙，包括托益、托福、雅思、<code>SAT</code>（学术能力检测）。当您加入新单词到字典后，您可以使用 <code>eJOY</code> 游戏永远记住您的字典，这都归功于最新的间隔重复演算法。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1697068601381.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://chromewebstore.google.com/detail/liner-chatgpt%EF%BC%9Awebyoutube%E7%9A%84/bmhcbmnbenmcecpmpepghooflbehcack" target="_blank" rel="noopener noreferrer">Liner ChatGPT</a></h3>
+<p>直接在页面上使用 <code>ChatGPT</code>，甚至在 <code>YouTube</code> 上！添加 <code>AI Copilot</code>，与您的个人 <code>AI</code> 助手/<code>AI</code> 伴侣一起完成更多工作。</p>
+<p>无论内容的长度或难度如何，<code>LINER AI Copilot</code> 都将帮助您在短时间内消化网络上的大量信息。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1697068683590.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://github.com/javascript-tutorial/zh.javascript.info/" target="_blank" rel="noopener noreferrer">现代 JavaScript 教程</a></h3>
 <p>依托于 <code>learn.javascript.ru</code> 而来，它是俄罗斯最大的 <code>JavaScript</code> 教程和学习平台之一，质量有保障，而且是在线学习，教程都是实时更新且免费的，不像书籍可能存在看的技术过时的问题。现代 <code>JavaScript</code> 教程是 <code>React</code> 官方文档中与 <code>MDN</code> 共同推荐的 <code>JavaScript</code> 学习教程，质量有保障。</p>
