@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习、面试求职、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2023-10-21T01:18:52.395Z</updated>
+  <updated>2023-10-22T14:11:59.850Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -7496,7 +7496,7 @@ N = 2^E×F
     <title type="text">好物周刊#32：</title>
     <id>https://cunyu1943.github.io/weekly/2023/1118-1124.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/1118-1124.html"/>
-    <updated>2023-09-24T14:35:44.000Z</updated>
+    <updated>2023-10-22T14:09:17.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#32：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -7526,6 +7526,12 @@ N = 2^E×F
 <p>一个开源的桌宠软件，可以内置到任何 <code>WPF</code> 应用程序。支持各种互动投喂，开源免费并且支持创意工坊。</p>
 <figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/weekly2023-32-3.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
+<h3> 1. <a href="https://lattics.zineapi.com/zh-CN" target="_blank" rel="noopener noreferrer">Lattics</a></h3>
+<p>「类脑式」知识管理笔记与卡片式写作。增强人类知识、提升知识创造效率。</p>
+<h3> 2. <a href="https://www.hulunote.com/" target="_blank" rel="noopener noreferrer">葫芦笔记</a></h3>
+<p>葫芦笔记，多人超级大脑：微信聊天整理神器，下一代多人协作办公，兼容 <code>Roam Research</code>，支持大纲编辑、双向链接、块引用、自动生成思维导图、链接图、<code>Zotero</code> 文献管理等功能，实践卡片笔记写作法、卢曼卡片盒的利器。</p>
+<h3> 3. <a href="https://www.shimonote.net/" target="_blank" rel="noopener noreferrer">滴墨书摘</a></h3>
+<p>前所未有的笔记体验。只需要拍摄即可瞬间将书本中的笔记转换为电子文字，识别准确度达 90% 以上。</p>
 <h2> 三、网站</h2>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
