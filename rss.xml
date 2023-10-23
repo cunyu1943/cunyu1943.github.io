@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习、面试求职、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 23 Oct 2023 09:20:26 GMT</pubDate>
-    <lastBuildDate>Mon, 23 Oct 2023 09:20:26 GMT</lastBuildDate>
+    <pubDate>Mon, 23 Oct 2023 15:05:59 GMT</pubDate>
+    <lastBuildDate>Mon, 23 Oct 2023 15:05:59 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Java 入门练习</category>
@@ -24,7 +24,1792 @@
     <category>Java 基础</category>
     <category>MySQL 教程</category>
     <category>博客搭建</category>
-    <category>开发工具</category>
+    <item>
+      <title>一、Java 概述</title>
+      <link>https://cunyu1943.github.io/java-tutorial/javase-series/java-tutorial.html</link>
+      <guid>https://cunyu1943.github.io/java-tutorial/javase-series/java-tutorial.html</guid>
+      <source url="https://cunyu1943.github.io/rss.xml">一、Java 概述</source>
+      <description>一、Java 概述 本文预览 计算机软硬件 计算机的组成 计算机组成 计算机的组成只要指的是系统结构的逻辑实现，包括机器内的数据流和控制流的组成以及逻辑设计等。主要分为五个部分，分别是： 控制器 计算机的核心，调度计算机中各部件间的相互协调工作。在控制器的指挥下，计算机就能按照程序所设定的步骤去自动完成一系列操作，完成我们预设的任务。控制器内部的主要部件有：</description>
+      <pubDate>Mon, 23 Oct 2023 15:02:19 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 一、Java 概述</h1>
+<h2> 本文预览</h2>
+<figure><figcaption></figcaption></figure>
+<h2> 计算机软硬件</h2>
+<h3> 计算机的组成</h3>
+<figure><figcaption>计算机组成</figcaption></figure>
+<p>计算机的组成只要指的是系统结构的逻辑实现，包括机器内的数据流和控制流的组成以及逻辑设计等。主要分为五个部分，分别是：</p>
+<ul>
+<li><strong>控制器</strong></li>
+</ul>
+<p>计算机的核心，调度计算机中各部件间的相互协调工作。在控制器的指挥下，计算机就能按照程序所设定的步骤去自动完成一系列操作，完成我们预设的任务。控制器内部的主要部件有：</p>
+<ol>
+<li><strong>指令寄存器</strong>：存放从存储器获取的指令。</li>
+<li><strong>译码器</strong>：将指令中的操作码翻译为控制信号。</li>
+<li><strong>指令计数器</strong>：计算并指出下一条指令的存放地址。</li>
+</ol>
+<ul>
+<li><strong>运算器</strong></li>
+</ul>
+<p>计算机中负责各种算术和逻辑运算的部件，如加、减、乘、除算数运算，与、或、非等逻辑运算，又叫做算术逻辑部件（<code>ALU</code>）。运算器是计算机中处理数据的功能部件，主要由以下部分组成：</p>
+<ol>
+<li><strong>算术逻辑单元（ALU）</strong></li>
+<li><strong>累加器</strong></li>
+<li><strong>状态寄存器</strong></li>
+<li><strong>通用寄存器</strong></li>
+</ol>
+<ul>
+<li><strong>存储器</strong></li>
+</ul>
+<p>计算机中的记忆设备，用于存放程序和各种数据信息。按照使用类型可以分为只读存储器（<code>ROM</code>）和随机存取存储器（<code>RAM</code>）。</p>
+<ul>
+<li><strong>输入设备</strong></li>
+</ul>
+<p>向计算机输入数据和信息的设备，是用户和计算机之间沟通的桥梁，最常见的输入设备有键盘、鼠标、摄像头等。</p>
+<ul>
+<li><strong>输出设备</strong></li>
+</ul>
+<p>计算机硬件设备的终端设备，用于接收计算机数据的输出，最常见的输出设备有屏幕、音箱、打印机等。</p>
+<h3> CPU、内存、硬盘</h3>
+<ol>
+<li><strong>CPU</strong></li>
+</ol>
+<p><code>Central Processing Unit</code>，中文译为中央处理器，是整个计算机中最为核心的部件，计算机就是通过 <code>CPU</code> 来进行运算和控制的。如果把计算机比作一个人，那么 <code>CPU</code> 就是人的大脑。</p>
+<ol start="2">
+<li><strong>硬盘</strong></li>
+</ol>
+<p>主要用于存储计算机中的数据，是计算机中最主要的存储设备，具有容量大、断电不怕数据丢失的特点。目前，常见的硬盘主要分为：</p>
+<ul>
+<li><strong>机械硬盘（HDD）</strong>：传统普通硬盘，主要由盘片，磁头，盘片转轴及控制电机，磁头控制器，数据转换器，接口，缓存等部分组成。</li>
+<li><strong>固态硬盘（SSD）</strong>：又叫固态驱动器，是固态电子存储芯片阵列制成的硬盘，由控制单元和存储单元共同组成。</li>
+<li><strong>混合硬盘（SSHD）</strong>：除了机械硬盘必备的碟片、马达、磁头等等，还内置了 <code>NAND</code> 闪存颗粒，这些颗粒将用户经常访问的数据进行储存，从而达到 <code>SSD</code> 的读取效果。</li>
+</ul>
+<p>固态硬盘无论是在开机速度还是程序运行方面，其加载速度都远超机械硬盘，但有一个缺点就是价格昂贵，因此无法做到全面取代机械硬盘。</p>
+<ol start="3">
+<li><strong>内存</strong></li>
+</ol>
+<p>主要负责计算机中硬盘和 <code>CPU</code> 之间的数据交换处理。一般用来保存从硬盘中读取数据，然后提供给 <code>CPU</code> 使用。此外，对于 <code>CPU</code> 中的一些临时的运算结果，也通常保存在内存中，以便 <code>CPU</code> 再次使用或直接保存到硬盘中。不同于硬盘就算断电也不会丢数据的特点，内存一旦断电，那么它所保存的数据就将丢失。</p>
+<figure><figcaption>CPU、内存、硬盘关系图</figcaption></figure>
+<h2> 软件简介</h2>
+<h3> 什么是软件</h3>
+<blockquote>
+<p>软件 = 数据结构 + 算法</p>
+</blockquote>
+<p>所谓软件，就是一系列按照特顺序组织的数据和指令的合集，如果说硬件是计算机中的有形部分，那么软件则是计算机中的无形部分。一般来说，计算机软件可以分为系统软件、应用软件，以及介于这两种之间的中间件。</p>
+<ol>
+<li><strong>系统软件</strong></li>
+</ol>
+<p>系统软件指的是控制和协调计算机以及外设，支持应用软件开发和运行的系统，无需用户干预的各种程序的合集。最主要的功能是调度、监控和维护计算机系统，负责计算机中相互独立的硬件，让它们能够协调工作。最常见的系统软件有 <code>macOS</code>、<code>Windows 11</code>、<code>Linux</code>、<code>Android</code>、<code>iOS</code> 等。</p>
+<ol start="2">
+<li><strong>应用软件</strong></li>
+</ol>
+<p>应用软件是软件的主要分类，指针对用户的某种特殊应用目的所编写的程序，如文本处理、浏览器、沟通交流等。最常见的应用软件有微信、<code>QQ</code>、钉钉、网易云音乐、<code>Chrome</code> 等。</p>
+<h3> 人机交互方式</h3>
+<p>人机交互方式是指通过计算机输入、输出设备，以有效的方式从而实现人与计算机对话。比如计算机通过输出设备如显示器给人提供大量相关信息，而人通过输入设备如键盘给计算机输入相关指令，让计算机完成对应工作等。</p>
+<ol>
+<li><strong>命令行方式</strong></li>
+</ol>
+<p>需要在控制台中输入特定的指令，然后计算机才能去完成对应的操作。此时就需要使用者对指令十分熟悉，否则将无法使用计算机。</p>
+<figure><figcaption>命令行</figcaption></figure>
+<ol start="2">
+<li><strong>图形化界面</strong></li>
+</ol>
+<p>简单直观，使用者能够十分容易就上手，只需要点点鼠标、输入文字等就能完成对应的操作。</p>
+<figure><figcaption>图形化界面</figcaption></figure>
+<h3> 常用 Dos 命令</h3>
+<p><code>Dos（Disk Operating System）</code>，中文译为磁盘操作系统。它是微软早期在推出 <code>Windows</code> 之前的一个操作系统，是一个单用户、单任务的操作系统，能够直接操纵管理硬盘中的文件。</p>
+<h4> 如何打开 Dos 窗口</h4>
+<p>打开的方式很多，这里例举常用的 <code>5</code> 种。</p>
+<ol>
+<li><strong>方法 1</strong></li>
+</ol>
+<p><code>Win + R</code> 快捷键打开运行，输入 <code>cmd</code> 后回车。</p>
+<ol start="2">
+<li><strong>方法 2</strong></li>
+</ol>
+<p>依次打开开始菜单 -&gt; <code>Windows</code> 系统（<code>Windows</code> 工具） -&gt; 命令提示符。</p>
+<ol start="3">
+<li><strong>方法 3</strong></li>
+</ol>
+<p>打开资源管理器，然后在地址栏输入 <code>cmd</code> 后回车。</p>
+<ol start="4">
+<li><strong>方法 4</strong></li>
+</ol>
+<p>鼠标右键点击开始菜单的 <code>Win</code> 图标，找到命令提示符（终端）并进入。</p>
+<ol start="5">
+<li><strong>方法 5</strong></li>
+</ol>
+<p>在任务栏中的搜索栏中搜索 <code>cmd</code> 并打开。</p>
+<h4> 目录操作</h4>
+<ol>
+<li><strong>磁盘切换</strong></li>
+</ol>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>如 <code>D:</code> 就代表进入 <code>D</code> 盘。</p>
+<figure><figcaption></figcaption></figure>
+<ol start="2">
+<li><strong>进入指定目录</strong></li>
+</ol>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<ol start="3">
+<li><strong>返回磁盘根目录</strong></li>
+</ol>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<ol start="4">
+<li><strong>返回上级目录</strong></li>
+</ol>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<ol start="5">
+<li><strong>新建目录</strong></li>
+</ol>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<ol start="6">
+<li><strong>查看当前目录中内容</strong></li>
+</ol>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<ol start="7">
+<li><strong>查看指定目录结构</strong></li>
+</ol>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<ol start="8">
+<li><strong>删除目录</strong></li>
+</ol>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<ol start="9">
+<li><strong>复制文件</strong></li>
+</ol>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<ol start="10">
+<li><strong>删除文件</strong></li>
+</ol>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<h4> 开关机操作</h4>
+<ol>
+<li><strong>关机</strong></li>
+</ol>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ol start="2">
+<li><strong>重启</strong></li>
+</ol>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ol start="3">
+<li><strong>注销</strong></li>
+</ol>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ol start="4">
+<li><strong>休眠</strong></li>
+</ol>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ol start="5">
+<li><strong>定时关机</strong></li>
+</ol>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<ol start="6">
+<li><strong>取消关机</strong></li>
+</ol>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<h4> 网络操作</h4>
+<ol>
+<li><strong>测试网络延迟和丢包率</strong></li>
+</ol>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<ol start="2">
+<li><strong>查看本机 ip 地址</strong></li>
+</ol>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<ol start="3">
+<li><strong>清除本地 DNS 缓存</strong></li>
+</ol>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<ol start="4">
+<li><strong>路由追踪</strong></li>
+</ol>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<h4> 进程/服务操作</h4>
+<ol>
+<li><strong>查看当前运行的进程</strong></li>
+</ol>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<ol start="2">
+<li><strong>运行指定程序或命令</strong></li>
+</ol>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ol start="3">
+<li><strong>按名称结束进程</strong></li>
+</ol>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<ol start="4">
+<li><strong>按 PID 结束进程</strong></li>
+</ol>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<ol start="5">
+<li><strong>查看当前运行的服务</strong></li>
+</ol>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<ol start="6">
+<li><strong>启动指定服务</strong></li>
+</ol>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<ol start="7">
+<li><strong>停止指定服务</strong></li>
+</ol>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<h4> 其他操作</h4>
+<ol>
+<li><strong>清除屏幕</strong></li>
+</ol>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption>清除前</figcaption></figure>
+<figure><figcaption>清除后</figcaption></figure>
+<ol start="2">
+<li><strong>退出</strong></li>
+</ol>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2> 编程语言</h2>
+<h3> 什么是计算机语言</h3>
+<p>在聊计算机语言之前，我们先来看看什么叫做语言。所谓语言，就是人与人之间沟通的一种方式。比如我们日常生活中用普通话沟通，而和外国人则是用英语沟通。</p>
+<p>而计算机语言指用于人和计算机之间相互沟通的语言，我们通过编程语言编程后对计算机下达指令，然后让计算机去完成我们所需的功能。计算机是人和计算机之间信息传递的媒介，它和人类语言一样，也有很多种，比如 <code>C</code>、<code>C++</code>、<code>Java</code>、<code>Python</code>、<code>Go</code> 等。</p>
+<h3> 计算机语言分类</h3>
+<p>计算机语言的种类非常多，但总体上可分为以下三大类：</p>
+<ul>
+<li><strong>机器语言</strong></li>
+<li><strong>汇编语言</strong></li>
+<li><strong>高级语言</strong></li>
+</ul>
+<ol>
+<li><strong>机器语言</strong></li>
+</ol>
+<p>机器语言指的是一台计算机全部的指令集合。最开始，计算机中的指令和数据都是由 <code>0</code> 和 <code>1</code> 组成的二进制数，以下即为一个机器语言的实例。机器语言虽然效率很高，是直接和计算机进行交互，但是晦涩难懂，如果没有系统性学习过，很难掌握。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ol start="2">
+<li><strong>汇编语言</strong></li>
+</ol>
+<p>由于机器语言难以掌握，于是开始发明用英文所写的助记符来表示基本操作，而这些助记符就构成了汇编语言的基础。同样的，汇编语言是面向计算机的。但因为计算机架构的不同，因此会有不同的汇编语言，这样造成不同平台间难以通用。导致程序难以移植，调试难度加大。相比于机器语言，汇编语言简化了很多，学习难度也随之降低，开发效率进一步提高。</p>
+<p>目前，汇编语言在工业电子编程、软件加解密、计算机病毒分析等领域仍应用广泛。</p>
+<ol start="3">
+<li><strong>高级语言</strong></li>
+</ol>
+<p>一种接近于人们使用习惯的程序设计语言，让程序员能够接近日常使用英语的指令来编写程序。而程序中的各种操作符和运算也和数学中的方程式接近，容易被掌握。</p>
+<p>不同于汇编语言对于计算机的依赖性，高级语言是独立于计算机的，具有一定的通用性。因此高级语言编写的程序往往都具有通用性，能够在不同平台之间复用。</p>
+<p>但有一点需要注意，计算机是不能直接识别和执行高级语言的。高级语言最终需要转换为机器语言才能够被识别和执行，而这个转换器也就是我们常说的编译器/解释器。</p>
+<figure><figcaption></figcaption></figure>
+<p>根据程序设计方法的不同，高级语言也常被划分为两类：</p>
+<ul>
+<li><strong>面向过程的编程语言</strong>：如 <code>C</code>、<code>Pascal</code>、<code>Fortran</code> 等</li>
+<li><strong>面向对象的编程语言</strong>：如 <code>Java</code>、<code>C#</code>、<code>Python</code>、<code>JavaScript</code> 等</li>
+</ul>
+<h3> 计算机语言排行榜</h3>
+<p>可以通过以下链接查看各种流行编程语言的排行榜以及各语言在不同年份之间的涨幅趋势。</p>
+<blockquote>
+<p><a href="https://www.tiobe.com/tiobe-index/" target="_blank" rel="noopener noreferrer">https://www.tiobe.com/tiobe-index/</a></p>
+</blockquote>
+<figure><figcaption>计算机语言排行榜</figcaption></figure>
+<figure><figcaption>计算机语言占比趋势图</figcaption></figure>
+<h2> Java 简介</h2>
+<h3> 发展历史</h3>
+<p>1990 年代初，<code>Sun</code> 公司的詹姆斯·高斯林等人为了实现电视机、电话、闹钟等家用电器的控制和通信，开发了一套用于设置在家用电器等小型系统中的编程语言。在当时，这门语言被命名为 <code>Oka</code>。但由于市场需求不高，所以该计划被逐渐放弃。</p>
+<p>随着 1990 年代互联网的发展，<code>Sun</code> 公司发现 <code>Oka</code> 语言在互联网中的应用前景广泛。于是决定对 <code>Oka</code> 进行改造，并在 1995 年 5 月以 <code>Java</code> 的名义正式发布。</p>
+<p>随着互联网的迅猛发展，<code>Java</code> 也得以逐渐成为重要的网络编程语言，詹姆斯·高斯林也被大家公认为 <code>Java</code> 之父。</p>
+<p>到了 2009 年， <code>Sun</code> 公司被 <code>Oracle</code> 公司所收购，自此 <code>Java</code> 成为 <code>Oracle</code> 公司的一大产品直至今日。</p>
+<p>以下是截止到本文写作时间（2023 年 2 月 22 日）<code>Java</code> 的历史年表，累计经过了 19 次主要版本更新，目前来到了 <code>Java</code> 19。不过虽然 <code>Java</code> 已经经历了这么多版本的更新，但国内目前用得最多的应该还是 <code>Java</code> 8 版本。而出于对稳定性的考虑，企业开发更喜欢 <code>LTS</code> 版本，这也是为什么至今 <code>Java</code> 8 还占有如此高的市场比例。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">版本</th>
+<th style="text-align:center">发布日期</th>
+<th style="text-align:left">主要事件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">JDK Beta</td>
+<td style="text-align:center">1995</td>
+<td style="text-align:left"><code>Java</code> 语言发布，用 <code>Java</code> 实现的浏览器和 <code>Java Applet</code> 被大量应用</td>
+</tr>
+<tr>
+<td style="text-align:center">Java 1.0</td>
+<td style="text-align:center">1996 年 1 月</td>
+<td style="text-align:left">奠定了 <code>JDK</code>、<code>JRE</code>、<code>JVM</code> 的体系结构</td>
+</tr>
+<tr>
+<td style="text-align:center">Java 1.1</td>
+<td style="text-align:center">1997 年 2 月</td>
+<td style="text-align:left">加入 <code>JIT</code>，提升 <code>JDK</code> 效率</td>
+</tr>
+<tr>
+<td style="text-align:center">Java 1.2</td>
+<td style="text-align:center">1998 年 12 月</td>
+<td style="text-align:left">确立 <code>J2SE</code>、<code>J2EE</code>、<code>J2ME</code> 产品结构</td>
+</tr>
+<tr>
+<td style="text-align:center">Java 1.3</td>
+<td style="text-align:center">2000 年 5 月</td>
+<td style="text-align:left">内置 <code>HotSpot JVM</code></td>
+</tr>
+<tr>
+<td style="text-align:center">Java 1.4</td>
+<td style="text-align:center">2002 年 2 月</td>
+<td style="text-align:left"><code>XML</code> 处理、断言、支持正则表达式</td>
+</tr>
+<tr>
+<td style="text-align:center">Java 5.0</td>
+<td style="text-align:center">2004 年 9 月</td>
+<td style="text-align:left">静态导入、泛型、<code>for-each</code> 循环、自动拆，装箱、枚举、可变参数</td>
+</tr>
+<tr>
+<td style="text-align:center">Java 6</td>
+<td style="text-align:center">2006 年 12 月</td>
+<td style="text-align:left">提供动态语言支持、同步垃圾回收</td>
+</tr>
+<tr>
+<td style="text-align:center">Java 7</td>
+<td style="text-align:center">2011 年 7 月</td>
+<td style="text-align:left">字符串的 <code>switch</code> 语句、多异常捕抓</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>Java 8 (LTS)</strong></td>
+<td style="text-align:center">2014 年 3 月</td>
+<td style="text-align:left"><code>Lambda</code> 表达式</td>
+</tr>
+<tr>
+<td style="text-align:center">Java 9</td>
+<td style="text-align:center">2017 年 9 月</td>
+<td style="text-align:left">轻量级 <code>json</code> <code>API</code>、垃圾收集机制更新</td>
+</tr>
+<tr>
+<td style="text-align:center">Java 10</td>
+<td style="text-align:center">2018 年 3 月</td>
+<td style="text-align:left">局部变量类型推断，<code>Java</code> 后续版本快速迭代更新</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>Java 11 (LTS)</strong></td>
+<td style="text-align:center">2018 年 9 月</td>
+<td style="text-align:left">常用类增强，<code>Java</code> 11 是继 <code>Java</code> 8 之后的首个长期支持本版</td>
+</tr>
+<tr>
+<td style="text-align:center">Java 12</td>
+<td style="text-align:center">2019 年 3 月</td>
+<td style="text-align:left"><code>switch</code> 表达式增强</td>
+</tr>
+<tr>
+<td style="text-align:center">Java 13</td>
+<td style="text-align:center">2019 年 9 月</td>
+<td style="text-align:left">文本块支持</td>
+</tr>
+<tr>
+<td style="text-align:center">Java 14</td>
+<td style="text-align:center">2020 年 3 月</td>
+<td style="text-align:left"><code>instanceof</code> 支持模式匹配</td>
+</tr>
+<tr>
+<td style="text-align:center">Java 15</td>
+<td style="text-align:center">2020 年 9 月</td>
+<td style="text-align:left"><code>EdDSA</code> 数字签名算法、 密封类、隐藏类</td>
+</tr>
+<tr>
+<td style="text-align:center">Java 16</td>
+<td style="text-align:center">2021 年 3 月</td>
+<td style="text-align:left">启用 <code>C++</code> 14 语言特性、<code>Vector API</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>Java 17 (LTS)</strong></td>
+<td style="text-align:center">2021 年 9 月</td>
+<td style="text-align:left">恢复总是严格的浮点语义、增强型伪随机数生成器</td>
+</tr>
+<tr>
+<td style="text-align:center">Java 18</td>
+<td style="text-align:center">2022 年 3 月</td>
+<td style="text-align:left">默认 <code>UTF-8</code> 编码、代码片段、简单的网络服务器</td>
+</tr>
+<tr>
+<td style="text-align:center">Java 19</td>
+<td style="text-align:center">2022 年 9 月</td>
+<td style="text-align:left">记录模式、外部函数与内存 <code>API</code>、<code>Linux</code>/<code>RISC-V</code> 移植、虚拟线程、结构化并发</td>
+</tr>
+<tr>
+<td style="text-align:center">JDK 20</td>
+<td style="text-align:center">2023 年 3 月</td>
+<td style="text-align:left">1. 作用域值<br>2. 记录模式<br>3. <code>switch</code> 模式匹配<br>4. 外部函数和内存 <code>API</code><br>5. 虚拟线程<br>6. 结构化并发<br>7. 向量 <code>API</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>JDK 21（LTS）</strong></td>
+<td style="text-align:center">2023 年 9 月</td>
+<td style="text-align:left">1. 分代 <code>ZGC</code><br>2. 序列集合<br>3. 弃用 <code>Windows</code> 32 位 <code>x86</code><br>4. 密钥封装机制 <code>API</code><br>5. 字符串模板<br>6. 未命名类和实例主方法</td>
+</tr>
+</tbody>
+</table>
+<h3> 技术体系</h3>
+<p>根据传统意义上 <code>Sun</code> 官方定义， <code>Java</code> 技术体系的组成主要就是我们常说的 <code>JDK</code>，即以下三部分：</p>
+<ol>
+<li><strong>Java 程序设计语言</strong></li>
+<li><strong>Java 虚拟机</strong></li>
+<li><strong>Java API 类库</strong></li>
+</ol>
+<figure><figcaption></figcaption></figure>
+<p>同时，<code>Java</code> 技术体系又可以主要分为以下 3 个平台。</p>
+<ol>
+<li><strong>Java SE</strong></li>
+</ol>
+<p><code>Java Standard Edition</code>，即 <code>Java</code> 标准版。主要是 <code>Java</code> 技术的核心和基础，要想学好 <code>Java</code>，那么首先你得掌握好这部分。主要运行在桌面级应用，如 <code>Windows</code> 应用程序。</p>
+<ol start="2">
+<li><strong>Java EE</strong></li>
+</ol>
+<p><code>Java Enterprise Editon</code>，即 <code>Java</code> 企业版。从它的名字就不难看出，这是 <code>Java</code> 针对企业级应用开发所提供的一套解决方案，主要用于架设高性能企业网站。</p>
+<ol start="3">
+<li><strong>Java ME</strong></li>
+</ol>
+<p><code>Java Micro Edition</code>，即 <code>Java</code> 小型版。主要是 <code>Java</code> 针对移动设备应用所提供的一套解决方案，主要运行在手机、<code>pad</code> 等移动端。</p>
+<figure><figcaption></figcaption></figure>
+<h3> 优缺点</h3>
+<ol>
+<li><strong>优点</strong></li>
+</ol>
+<ul>
+<li><strong>跨平台</strong>：编写完成后的 <code>Java</code> 程序能够在不同操作系统上运行。其核心在于每个操作系统中安装好 <code>Java</code> 虚拟机之后，<code>Java</code> 程序的运行就由它来负责。</li>
+<li><strong>面向对象</strong>：面向对象是一种程序设计思想，支持封装、继承、多态三大核心特性，设计出的程序具有高内聚、低耦合的特点。</li>
+<li><strong>健壮</strong>：取其精华，吸收了 <code>C/C++</code> 语言中的优点，而去掉了其中有碍于程序健壮性的部分，提供了相对安全的内存管理和访问机制。</li>
+<li><strong>简单</strong>：<code>Java</code> 可以看做是 <code>C++</code> 的一个精简版，去掉了 <code>C++</code> 中的指针、联合、操作符重载等语法。</li>
+<li><strong>高性能</strong>：最初发展阶段，<code>Java</code> 的性能是比较弱的，但通过长时间的发展，通过对 <code>JVM</code> 的优化，<code>Java</code> 的性能早已得到了大幅提升。</li>
+<li><strong>安全系数高</strong>：适合于网络/分布式环境，需要提供一个安全机制从而防止恶意代码的攻击。</li>
+</ul>
+<ol start="2">
+<li><strong>缺点</strong></li>
+</ol>
+<ul>
+<li><strong>语法复杂且严谨</strong>：相较于 <code>Python、PHP</code> 等编程语言，<code>Java</code> 对于开发者的约束更多。</li>
+<li><strong>并非适合所有领域</strong>：<code>Java</code> 更加适用于大型网站开发，整个架构会比较繁重。对于移动端的一些程序可能就更使用使用其他开发语言。如 <code>iOS</code> 与 <code>Swift、Object C</code> 更兼容，而 <code>Windows</code> 程序开发者则更偏爱于 <code>C++、C#</code> 等。</li>
+</ul>
+<h2> Java 开发环境</h2>
+<h3> JDK &amp; JRE</h3>
+<ol>
+<li><strong>JDK</strong></li>
+</ol>
+<p><code>Java Development Kit</code>，<code>Java</code> 程序开发工具包，包含了 <code>JRE</code> 以及我们开发时用到的工具。</p>
+<ol start="2">
+<li><strong>JRE</strong></li>
+</ol>
+<p><code>Java Runtime Environment</code>，<code>Java</code> 程序运行时环境，包含 <code>JVM</code> 和运行时所需的核心类库。</p>
+<figure><figcaption></figcaption></figure>
+<h3> JDK 下载</h3>
+<ol>
+<li>打开下载地址：<a href="https://www.oracle.com/java/technologies/downloads/%EF%BC%8C%E7%84%B6%E5%90%8E%E9%80%89%E6%8B%A9%E9%9C%80%E8%A6%81%E4%B8%8B%E8%BD%BD%E7%9A%84%E5%AE%89%E8%A3%85%E5%8C%85%E5%8D%B3%E5%8F%AF%E3%80%82" target="_blank" rel="noopener noreferrer">https://www.oracle.com/java/technologies/downloads/，然后选择需要下载的安装包即可。</a></li>
+</ol>
+<figure><figcaption></figcaption></figure>
+<ol start="2">
+<li>如果需要下载其他版本的 <code>JDK</code>，则可以点击上方的 <code>Java archive</code>，在这里可以找到其他版本的 <code>JDK</code>。</li>
+</ol>
+<figure><figcaption></figcaption></figure>
+<h3> JDK 安装及验证</h3>
+<h4> Windows</h4>
+<ul>
+<li><strong>安装</strong></li>
+</ul>
+<ol>
+<li>双击下载后的安装包，打开安装程序。</li>
+</ol>
+<figure><figcaption></figcaption></figure>
+<ol start="2">
+<li>设置安装 <code>JDK</code> 的目标路径。</li>
+</ol>
+<figure><figcaption></figcaption></figure>
+<ol start="3">
+<li>等待安装进度跑完即可。</li>
+</ol>
+<figure><figcaption></figcaption></figure>
+<ul>
+<li><strong>配置</strong></li>
+</ul>
+<p>完成上面的步骤后，我们的 <code>JDK</code> 就已经安装好了。这里需要注意，如果安装的是 <code>Java 17</code> ，那么此时就可以直接使用了，而如果安装的是 <code>Java 8/11</code>，那就还需要完成以下配置。</p>
+<p>打开系统属性来进行环境变量配置，打开系统属性并进行配置的步骤如下：</p>
+<ol>
+<li><strong>Windows + R</strong> 快捷键组合唤醒 <code>Windows</code> 运行窗口，然后输入 <code>sysdm.cpl</code>，紧接着回车即可，一般会打开如下界面，然后点击最上方的 <strong>高级</strong>。</li>
+</ol>
+<figure><figcaption></figcaption></figure>
+<ol start="2">
+<li>点击高级后，就会打开如下界面，然后打开环境变量。</li>
+</ol>
+<figure><figcaption></figcaption></figure>
+<ol start="3">
+<li>新建环境变量 <strong>JAVA_HOME</strong>，然后变量值填入刚才安装 <code>JDK</code> 的路径（刚才提醒过要记住！）；</li>
+</ol>
+<figure><figcaption></figcaption></figure>
+<ol start="4">
+<li>编辑 <strong>Path</strong> 环境变量，然后新建一个变量值，填入如下内容：<code>%JAVA_HOME%\bin</code>。</li>
+</ol>
+<figure><figcaption></figcaption></figure>
+<ol start="5">
+<li>各种确定，然后突出系统属性即可，到这一步，理论上我们的 <code>JDK</code> 就安装并配置成功了，接下来我们就去确认一下到底安装好了没；</li>
+</ol>
+<ul>
+<li><strong>验证</strong></li>
+</ul>
+<p>按照上述步骤操作完成之后，接下来就是验证了。</p>
+<p>打开命令控制台（<strong>Windows + R，然后输入 cmd 回车</strong>），然后输入以下三个命令进行验证。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<h4> macOS</h4>
+<ul>
+<li><strong>安装</strong></li>
+</ul>
+<ol>
+<li>双击下载好的 <code>.dmg</code> 安装包，然后开始安装。</li>
+</ol>
+<figure><figcaption></figcaption></figure>
+<ol start="2">
+<li>安装过程中会让你输入密码，也就是你本机的密码，然后等待安装即可。</li>
+</ol>
+<figure><figcaption></figcaption></figure>
+<ol start="3">
+<li>如果看到以下界面，说明此时安装成功了。</li>
+</ol>
+<figure><figcaption></figcaption></figure>
+<ul>
+<li><strong>验证</strong></li>
+</ul>
+<p>不同于 <code>Windows</code>，<code>macOS</code> 下不用再去配置了，它会给你自动配置好，我们只需要去验证即可。</p>
+<ol>
+<li>查看 <code>JDK</code> 版本。</li>
+</ol>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption>版本</figcaption></figure>
+<ol start="2">
+<li>编译命令 <code>javac</code>。</li>
+</ol>
+<figure><figcaption>编译</figcaption></figure>
+<ol start="3">
+<li>运行命令 <code>java</code>。</li>
+</ol>
+<figure><figcaption>运行</figcaption></figure>
+<h3> 安装目录详解</h3>
+<p>安装好 <code>JDK</code> 之后，打开安装路径，通常情况下会有如下的目录结构，而各个模块的功能则如下表所示。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><table>
+<thead>
+<tr>
+<th>目录</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>bin</code></td>
+<td>用于存放各种工具命令，比如我们最常用的 <code>javac</code>、<code>java</code> 等</td>
+</tr>
+<tr>
+<td><code>lib</code></td>
+<td>存放工具的一些补充 <code>jar</code> 包</td>
+</tr>
+<tr>
+<td><code>conf</code></td>
+<td>存放相关配置文件</td>
+</tr>
+<tr>
+<td><code>include</code></td>
+<td>存放一些平台特定的头文件，比如 <code>Windows</code>、<code>macOS</code>、<code>Linux</code> 平台下这里的头文件是有所不同的</td>
+</tr>
+<tr>
+<td><code>legal</code></td>
+<td>存放各模块的授权文件</td>
+</tr>
+<tr>
+<td><code>jmods</code></td>
+<td>存放各种模块</td>
+</tr>
+<tr>
+<td><code>release</code></td>
+<td>版本发布内容以及版本信息</td>
+</tr>
+<tr>
+<td><code>README</code></td>
+<td><code>JDK</code> 信息</td>
+</tr>
+<tr>
+<td><code>LICENSE</code></td>
+<td>版权和签证相关的说明文档</td>
+</tr>
+</tbody>
+</table>
+<h2> Hello World</h2>
+<h3> 开发步骤</h3>
+<p>要开发一个 <code>Java</code> 程序，主要分成 3 个步骤：</p>
+<ol>
+<li><strong>编写代码</strong></li>
+</ol>
+<p>将 <code>Java</code> 代码写入扩展名为 <code>.java</code> 的源文件中。</p>
+<ol start="2">
+<li><strong>编译代码</strong></li>
+</ol>
+<p>源文件准备好之后，就可以用利用 <code>javac</code> 命令来编译该文件，然后生成一个或多个后缀为 <code>.class</code> 的字节码文件。</p>
+<ol start="3">
+<li><strong>运行代码</strong></li>
+</ol>
+<p>最后，利用 <code>java</code> 命令运行生成的 <code>.class</code> 即可。</p>
+<figure><figcaption></figcaption></figure>
+<h3> 代码实践</h3>
+<ol>
+<li>打开编辑器（推荐 <code>VS Code</code>），如果没有，记事本也成，然后写入如下内容，最后保存为 <code>Main.java</code>。这里注意，文件名一定要是 <code>Main</code>，文件后缀名为 <code>.java</code>。</li>
+</ol>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ol start="2">
+<li>打开控制命令台，然后进入上述文件存放的路径，使用如下命令进行编译，然后会生成一个 <code>Main.class</code> 文件。</li>
+</ol>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<ol start="3">
+<li>运行，使用如下命令进行运行，然后就可以看到打印出的最终结果了！</li>
+</ol>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<h3> 知识点说明</h3>
+<p>我们的 <code>Hello World</code> 是打印出来了，但是你肯定对里边的代码很感兴趣，这一节就主要针对我们的 <code>Hello World</code> 程序进行说明。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
+<li><code>public</code>：权限修饰符，表示这一个可以公开访问的类，类似的还有 <code>protected、default、private</code>，后续学习过程中再一一介绍。</li>
+<li><code>class</code>：<code>Java</code> 关键字，表示这是一个类。</li>
+<li><code>Main</code>： 表示我们的类名，在保存时文件一定要和它同名，否则你的程序是编译不了的。你可以试试，如果把我们上面的 <code>Main.java</code> 改成其他名字，你看看是不是还能编译成功呢？</li>
+<li><code>public static void main(String[] args){}</code>：主方法，这是我们以后最常接触到的一个方法，每个主类当中都必须有一个 <code>main</code> 方法。而且它的格式是固定的，这里只需要记住就行了。</li>
+<li><code>System.out.println("Hello World!")</code>：控制台输出语句，执行该语句会在控制台中输出字符串，字符串要用双引号 <code>""</code> 括起来，你可以把其中的 <code>Hello Wolrd!</code> 换成你想要打印的内容试试看。</li>
+</ul>
+<h2> 注释</h2>
+<p>所谓注释，就是写在程序里边对代码进行结束说明的文字，既方便自己也方便他人查看，更快理解程序含义。而且注释是不影响程序的执行的，在我们对 <code>Java</code> 源代码进行编译后，字节码文件中不含源代码中的注释内容。</p>
+<p>在 <code>Java</code> 中，通常支持三种注释方式，它们分别是：</p>
+<ul>
+<li><code>//</code>：单行注释</li>
+<li><code>/* */</code>：多行注释</li>
+<li><code>/** */</code>：文档注释</li>
+</ul>
+<h3> 单行注释</h3>
+<p>单行注释是以双斜杠 <code>//</code> 来标识，表示只注释当前行内容，一般用在需要注释的内容较少的地方，以下就是一个单行注释的实例。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 多行注释</h3>
+<p>通常我们把要注释的内容放在 <code>/*</code> 和 <code>*/</code> 之间，表示在两者之间的内容都是我们的注释内容，以下是一个多行注释的实例。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 文档注释</h3>
+<p>文档注释和多行注释很像，它是将我们所需要注释的内容包含在 <code>/**</code> 和 <code>*/</code> 之间。而文档注释和其他两种注释最大的区别就在于：我们可以利用 <code>javadoc</code> 工具来提取文档注释，然后生成一个 <code>HTML</code> 文档，类似于 <code>Java</code> 官网所提供的 <code>API</code> 文档，以下是一个文档注释的实例。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>然后我们通过终端，使用 <code>javadoc</code> 命令就可以为上述文件生成一个 <code>HTML</code> 文档。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>而文档注释相比于其他两种注释，也有更多值得注意的地方，下面就分别来看看需要留意的地方。</p>
+<ol>
+<li><strong>常用文档注释分类</strong></li>
+</ol>
+<ul>
+<li><strong>类注释</strong></li>
+</ul>
+<p>顾名思义，所谓类注释，就是针对整个类的说明，它必须放在 <code>import</code> 之后，但又必须放在类定义之前。以下是一个类注释的实例：</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>这里需要注意的是，在 <code>/**</code> 和 <code>*/</code> 之间的其他行注释，<code>*</code> 是可有可无的，之所以加上，更大情况出于美观的考虑，上面的实例写成如下样式也是合法的。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
+<li><strong>方法注释</strong></li>
+</ul>
+<p>同样的，方法注释也就是针对类中方法的注释，它必须放在所描述的方法之前。而一般情况下，除开说明该方法的功能之外，我们经常使用如下标记来对方法进行注释。</p>
+<table>
+<thead>
+<tr>
+<th>标记</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>@param variable description</code></td>
+<td>用于介绍当前方法的参数，可以占据多行</td>
+</tr>
+<tr>
+<td><code>@return description</code></td>
+<td>用于描述当前方法的返回值，可以跨多行</td>
+</tr>
+<tr>
+<td><code>@throws class description</code></td>
+<td>用于表示该方法有可能抛出的异常</td>
+</tr>
+</tbody>
+</table>
+<p>以下就是一个方法注释的实例：</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
+<li><strong>字段注释</strong></li>
+</ul>
+<p>字段注释顾名思义，也就是对于类中字段的说明，用于描述字段的含义，以下是一个字段注释的例子。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>当然，如果你不喜欢把一个字段的注释分成多行的话，也可以写成以下格式。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>两种方式都是可以的，也没有优劣之分，可以根据自己的风格来选择。但是在 <code>IntelliJ IDEA</code> 等 <code>IDE</code> 中，如果对代码进行格式化，<code>IDEA</code> 会将第二种方式格式化成第一种方式，这一点需要注意。</p>
+<ol start="2">
+<li><strong>如何提取文档注释</strong></li>
+</ol>
+<p>假设有以下一段代码，我们需要生成关于代码的文档说明。那么就可以使用 <code>JDK</code> 中所提供的 <code>javadoc</code> 命令来提取代码的文档注释。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>然后利用以下命令就可以生成我们的文档注释。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>以上命令的意思就是，对名为 <code>HelloWorld.java</code> 的提取其中的文档注释，并将输出的文件放在 <code>helloworld</code> 文件夹下，并且在文档中包含程序作者和版本，编码方式为 <code>UTF-8</code>。</p>
+<figure><figcaption></figcaption></figure>
+<p>生成的文件列表详情见下图，打开其中的 <code>index.html</code> 就可以查看提取的文档注释。</p>
+<figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+<h2> API 文档</h2>
+<p><code>API（Application Programming Interface）</code>，应用程序编程接口，是 <code>Java</code> 提供的基本编程接口。<code>Java</code> 语言提供了大量的基础类，为了给开发者提供相应的说明文档，于是便有了 <code>Java API</code> 文档。它类似于我们日常生活中的字典，如果遇到什么不认识的字，那么就可以去这里找。而对应到 <code>Java</code> 语言中，就是当我们遇到未使用过的基础类或方法，可以去 <code>Java API</code> 中寻找。</p>
+<p>为了方便大家，在这里贴出目前最常用的 3 个长期版本 <code>Java</code> 的在线阅读地址和离线下载地址，有需要的小伙伴可以自行去下载。</p>
+<p>温馨提示：这里无论是在线阅读还是离线下载后的文档，都是纯英文的！</p>
+<h3> 在线阅读</h3>
+<ul>
+<li><strong><code>Java 8 API</code></strong>:<a href="https://docs.oracle.com/javase/8/docs/api/index.html" target="_blank" rel="noopener noreferrer">https://docs.oracle.com/javase/8/docs/api/index.html</a></li>
+<li><strong><code>Java 11 API</code></strong>:<a href="https://docs.oracle.com/en/java/javase/11/docs/api/" target="_blank" rel="noopener noreferrer">https://docs.oracle.com/en/java/javase/11/docs/api/</a></li>
+<li><strong><code>Java 17 API</code></strong>:<a href="https://docs.oracle.com/en/java/javase/17/docs/api/" target="_blank" rel="noopener noreferrer">https://docs.oracle.com/en/java/javase/17/docs/api/</a></li>
+</ul>
+<h3> 离线下载</h3>
+<ul>
+<li><strong><code>Java 8 API</code></strong>:<a href="https://www.oracle.com/java/technologies/javase-jdk8-doc-downloads.html" target="_blank" rel="noopener noreferrer">https://www.oracle.com/java/technologies/javase-jdk8-doc-downloads.html</a></li>
+<li><strong><code>Java 11 API</code></strong>:<a href="https://www.oracle.com/java/technologies/javase-jdk11-doc-downloads.html" target="_blank" rel="noopener noreferrer">https://www.oracle.com/java/technologies/javase-jdk11-doc-downloads.html</a></li>
+<li><strong><code>Java 17 API</code></strong>:<a href="https://www.oracle.com/java/technologies/javase-jdk17-doc-downloads.html" target="_blank" rel="noopener noreferrer">https://www.oracle.com/java/technologies/javase-jdk17-doc-downloads.html</a></li>
+</ul>
+<h2> 开发工具推荐</h2>
+<h3> 文本开发工具</h3>
+<p>也就是常说的文本编辑器，是用来编写普通文字的应用软件，而程序开发者则一般用来编写程序的源代码。目前常用的几款文本编辑器主要有：</p>
+<ol>
+<li><strong>Visual Studio Code</strong></li>
+</ol>
+<ul>
+<li>下载地址：<a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">https://code.visualstudio.com/</a></li>
+</ul>
+<figure><figcaption>VS Code</figcaption></figure>
+<p>一个完全免费的跨平台文本编辑器，支持 <code>Windows</code>、<code>macOS</code>、<code>Linux</code>，具有开源访问权限和大量扩展集，内置 <code>Git</code> 命令。而且社区活跃，包含大量使用文档、常见问题等内容。</p>
+<ol start="2">
+<li><strong>Sublime Text</strong></li>
+</ol>
+<ul>
+<li>下载地址：<a href="https://www.sublimetext.com/download" target="_blank" rel="noopener noreferrer">https://www.sublimetext.com/download</a></li>
+</ul>
+<figure><figcaption>Sublime Text</figcaption></figure>
+<p><code>Sublime Text</code> 是一个轻量、简洁、高效、跨平台的编辑器。支持安装扩展、即时文件切换、<code>Vim</code> 模式、宏定义等，简约而不失强大。</p>
+<ol start="3">
+<li><strong>HBuilder X</strong></li>
+</ol>
+<ul>
+<li>下载地址：<a href="https://www.dcloud.io/hbuilderx.html" target="_blank" rel="noopener noreferrer">https://www.dcloud.io/hbuilderx.html</a></li>
+</ul>
+<figure><figcaption>HBuilder X</figcaption></figure>
+<blockquote>
+<p><code>HBuilderX</code>，<code>H</code> 是 <code>HTML</code> 的首字母，<code>Builder</code> 是构造者，<code>X</code> 是 <code>HBuilder</code> 的下一代版本。我们也简称 <code>HX</code>。 <code>HX</code> 是轻如编辑器、强如 <code>IDE</code> 的合体版本。</p>
+</blockquote>
+<p>一款轻巧、急速的堪比 <code>IDE</code> 的强大编辑器，支持小程序、<code>Vue</code> 开发、语法提示功能强大、<code>json</code> 支持更强，此外还支持安装各种丰富的插件，进一步提高工作效率。</p>
+<ol start="4">
+<li><strong>UltraEdit</strong></li>
+</ol>
+<ul>
+<li>下载地址：<a href="https://www.ultraedit.com/" target="_blank" rel="noopener noreferrer">https://www.ultraedit.com/</a></li>
+</ul>
+<figure><figcaption>UltraEdit</figcaption></figure>
+<p>一个支持多平台的文本编辑器，可以支持基本语法和二十多种语言。它使用方便，可以用颜色标注重点部分，支持进行内嵌式编辑，也可以进行代码编辑。</p>
+<ol start="5">
+<li><strong>Notepad3</strong></li>
+</ol>
+<ul>
+<li>下载地址：<a href="https://www.rizonesoft.com/downloads/notepad3/" target="_blank" rel="noopener noreferrer">https://www.rizonesoft.com/downloads/notepad3/</a></li>
+</ul>
+<figure><figcaption>Notepad3</figcaption></figure>
+<p><code>Notepad3</code> 是一个快速且轻量级的基于 <code>Scintilla</code> 的文本编辑器，具有语法突出显示功能。它的内存占用量很小，但功能强大，足以处理大多数编程作业。</p>
+<ol start="6">
+<li><strong>Vim</strong></li>
+</ol>
+<ul>
+<li>下载地址：<a href="https://www.vim.org/download.php" target="_blank" rel="noopener noreferrer">https://www.vim.org/download.php</a></li>
+</ul>
+<figure><figcaption>Vim</figcaption></figure>
+<p><code>Vim</code> 是从 <code>vi</code> 发展出来的一个文本编辑器。代码补全、编译及错误跳转等方便编程的功能特别丰富，在程序员中被广泛使用，是类 <code>Unix</code> 系统用户最喜欢的文本编辑器之一。当然，在 <code>Windows</code> 中也能通过安装从而使用上这个编辑器。</p>
+<h3> 集成开发工具</h3>
+<p>也就是常说的 <code>IDE(Integrated Development Environment)</code>，是将代码编写、编译、执行、调试等多项功能综合到一起的开发工具。</p>
+<ol>
+<li><strong>IntelliJ IDEA</strong></li>
+</ol>
+<ul>
+<li>下载地址：<a href="https://www.jetbrains.com/zh-cn/idea/" target="_blank" rel="noopener noreferrer">https://www.jetbrains.com/zh-cn/idea/</a></li>
+</ul>
+<figure><figcaption>IDEA</figcaption></figure>
+<p>业界公认为最好的 <code>Java</code> 开发工具，尤其在智能代码助手、代码自动提示、重构、<code>JavaEE</code> 支持、各类版本工具(<code>git</code>、<code>svn</code> 等)、<code>JUnit</code>、<code>CVS</code> 整合、代码分析、 创新的 <code>GUI</code> 设计等方面的功能可以说是超常的。<code>IDEA</code> 是 <code>JetBrains</code> 公司的产品，总部位于捷克共和国的首都布拉格，开发人员以严谨著称的东欧程序员为主。分为旗舰版和社区版，旗舰版支持 <code>HTML</code>，<code>CSS</code>，<code>PHP</code>，<code>MySQL</code>，<code>Python</code> 等，而社区版只支持 <code>Java</code>,<code>Kotlin</code> 等少数语言。</p>
+<ol start="2">
+<li><strong>Eclipse</strong></li>
+</ol>
+<ul>
+<li>下载地址：<a href="https://www.eclipse.org/downloads/packages/" target="_blank" rel="noopener noreferrer">https://www.eclipse.org/downloads/packages/</a></li>
+</ul>
+<figure><figcaption>Eclipse</figcaption></figure>
+<p><code>Eclipse</code> 是一个开放源代码的、基于 <code>Java</code> 的可扩展开发跨平台的自由集成开发环境。就其本身而言，它只是一个框架和一组服务，用于通过插件组件构建开发环境。同时，<code>Eclipse</code> 附带了一个标准的插件集，包括 <code>Java</code> 开发工具（<code>Java Development Kit</code>，<code>JDK</code>）。通过安装各种插件，从而达到支持不同的计算机语言，如 <code>C++</code>、<code>Python</code> 等。</p>
+<ol start="3">
+<li><strong>Apache NetBeans</strong></li>
+</ol>
+<ul>
+<li>下载地址：<a href="https://netbeans.apache.org/download/index.html" target="_blank" rel="noopener noreferrer">https://netbeans.apache.org/download/index.html</a></li>
+</ul>
+<figure><figcaption>Apache NetBeans</figcaption></figure>
+<p><code>NetBeans</code> 是开源软件开发集成环境，是一个开放框架，可扩展的开发平台，可以用于 <code>Java</code>、<code>C/C++</code>，<code>PHP</code> 等语言的开发。</p>
+<ol start="4">
+<li><strong>MyEclipse</strong></li>
+</ol>
+<ul>
+<li>下载地址：<a href="https://www.genuitec.com/products/myeclipse/download/" target="_blank" rel="noopener noreferrer">https://www.genuitec.com/products/myeclipse/download/</a></li>
+</ul>
+<figure><figcaption>MyEclipse</figcaption></figure>
+<p>这是基于 <code>Eclipse</code> 加上自己的插件开发而成的功能强大的企业级集成开发环境，主要用于 <code>Java</code>、<code>Java EE</code> 以及移动应用的开发。在最新版的 <code>MyEclipse</code> 中，对各种开源产品和主流开发框架的支持相当不错。已支持 <code>PHP</code>、<code>Python</code>、<code>Vue</code>、<code>Angular</code>、<code>React</code>、<code>Java</code>、<code>Java EE</code> 等语言和框架开发。</p>
+<h2> 课后练习</h2>
+<h3> 练习 1：Hello Java</h3>
+<p>参考文章的 <code>Hello World</code> 入门实例，编写一个程序，在控制台中输出字符串 <code>Hello Java，学 Java 认准 JavaPark!</code></p>
+<ul>
+<li><strong>参考答案</strong></li>
+</ul>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 练习 2：打印爱心</h3>
+<p>用纯输出语句，编写一个程序，在控制台中输出以下图案。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
+<li><strong>参考答案</strong></li>
+</ul>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 最后</h2>
+<p>本文中涉及的代码都已上传到 <code>Github</code>，有需要的小伙伴请自行获取。</p>
+<blockquote>
+<p>📌 传送门：<a href="https://github.com/cunyu1943/java-park-code-warehouse/tree/main/java-tutorial/java-tutorial-01/" target="_blank" rel="noopener noreferrer">https://github.com/cunyu1943/java-park-code-warehouse/tree/main/java-tutorial/java-tutorial-01/</a></p>
+</blockquote>
+<h1> 二、变量与运算符</h1>
+<h2> 本文预览</h2>
+<figure><figcaption></figcaption></figure>
+<h2> 关键字</h2>
+<p>所谓关键字，就是被 <code>Java</code> 语言赋予了特殊含义的标识符，用于特定用途的单词/字符串，可能用来表示一种数据类型，又或者表示程序的结构。</p>
+<p><code>Oracle</code> 官方目前给出的关键字共有 <code>50</code> 个，不过大可不必刻意去背，用的多了也就慢慢记住了。如果有一天突然忘记了，也可以到下面的链接中去查询。</p>
+<blockquote>
+<p><a href="https://docs.oracle.com/javase/tutorial/java/nutsandbolts/_keywords.html" target="_blank" rel="noopener noreferrer">https://docs.oracle.com/javase/tutorial/java/nutsandbolts/_keywords.html</a></p>
+</blockquote>
+<figure><figcaption>Java 中的关键字</figcaption></figure>
+<h2> 标识符</h2>
+<p><code>Java</code> 中为了变量、方法、对象、接口或其他用户自定义向所定义的名称，可以由一个或多个字符组成。其命名必须符合以下硬性规则：</p>
+<ol>
+<li>标识符由英文字符大小写（<code>a</code> - <code>z</code>, <code>A</code> - <code>Z</code>）、数字（0 - 9）、下划线（<code>_</code>）和美元符号（<code>$</code>）组成。</li>
+<li>不能以数字开头，不能是关键字，不能包含空格。</li>
+<li>严格区分大小写。</li>
+</ol>
+<p>除了强制性的规则之外，还有一些软性要求，大家在日常开发中也最好能遵守，养成一个良好的命名习惯。要注意，这些要求不满足时程序依旧能够照常编译和运行，但要做好被其他小伙伴鄙视的准备 😂。</p>
+<ol>
+<li><strong>包名</strong>：多个单词组成是所有单词均小写，如 <code>cunyu</code>。</li>
+<li><strong>类名和接口名</strong>：大写驼峰命名法，如 <code>CunYu</code>。</li>
+<li><strong>变量名和方法名</strong>：多个单词组成时，第一个单词全小写，其他单词采用大写驼峰命名法，如 <code>cunYu</code>。</li>
+<li><strong>常量名</strong>：字母全部大写，单词之间用下划线（<code>_</code>）分割，如 <code>CUN_YU</code>。</li>
+</ol>
+<p>更多关于开发时需要遵守的一些规则，可以参照阿里开源的 <code>Java</code> 开发手册，下载地址：</p>
+<blockquote>
+<p><a href="https://github.com/alibaba/p3c" target="_blank" rel="noopener noreferrer">https://github.com/alibaba/p3c</a></p>
+</blockquote>
+<figure><figcaption></figcaption></figure>
+<p>对于无法访问或者访问 <code>Github</code> 较慢的小伙伴们，也不用担心。我在这里已经下载好并上传到云盘中了，需要的小伙伴也可以通过以下链接进行下载。</p>
+<blockquote>
+<p>《Java 开发手册（黄山版）》：<a href="https://cunyu1943.lanzout.com/idnmh0p9hivg" target="_blank" rel="noopener noreferrer">https://cunyu1943.lanzout.com/idnmh0p9hivg</a></p>
+</blockquote>
+<h2> 变量</h2>
+<h3> 变量存在的意义</h3>
+<p>试想一下，如果书本都没有名字，那让你去找某一本书的时候，你该从哪儿开始找起呢？</p>
+<p>而在程序中也是这样，要想尽快找到一个数据的位置，那么我们最好给它定义一个名字，而这个名字在编程语言中就叫做变量。变量是程序中不可或缺的组成单位，是最基本的存储单位。</p>
+<h3> 变量简介</h3>
+<p>所谓变量，就是用来命名一个数据的标识符，它主要是用来在内存中保存数据。一个变量的构成主要包含三要素，分别是：</p>
+<ul>
+<li><strong>数据类型</strong></li>
+<li><strong>变量名</strong></li>
+<li><strong>存储的值</strong></li>
+</ul>
+<p>当这三要素都齐全时，我们就可以按照以下格式来定义一个变量。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>其中数据类型是用于限制存储数据的形式，后面会讲到 <code>Java</code> 中的常见数据类型；变量名是用于代表变量的一个符号，就好比我们每个人的名字；初始值则代表该变量存储时的初始数据。</p>
+<p>在使用变量时，一定要注意以下几点，否则可能导致程序报错。</p>
+<ul>
+<li><strong>变量一定要先声明，再使用</strong></li>
+<li><strong>变量是有作用域的，变量只在作用域内有效</strong></li>
+<li><strong>同一作用域内，不能重复声明同名变量</strong></li>
+<li><strong>变量赋值时要注意控制在数据类型的有效范围内</strong></li>
+</ul>
+<p>在 <code>Java</code> 中，根据数据类型的不同，可以将变量分为<strong>基本数据类型</strong>以及<strong>引用数据类型</strong>。</p>
+<ol>
+<li><strong>基本数据类型</strong></li>
+</ol>
+<p><code>Java</code> 中，共有 8 种基本数据类型，由 <code>Java</code> 语言预定好的，每个数据类型都属于关键字，而且每种基本变量都有其对应的封装类，这 8 种基本数据类型分别是：</p>
+<ul>
+<li><strong>整型（4 种）</strong>：<code>byte</code>、<code>short</code>、<code>int</code>、<code>long</code></li>
+<li><strong>浮点型（2 种）</strong>：<code>float</code>、<code>double</code></li>
+<li><strong>字符型（1 种）</strong>：<code>char</code></li>
+<li><strong>布尔型（1 种）</strong>：<code>boolean</code></li>
+</ul>
+<ol start="2">
+<li><strong>引用数据类型</strong></li>
+</ol>
+<p>常用的引用数据类型：</p>
+<ul>
+<li><strong>类（class）</strong></li>
+<li><strong>数组（array）</strong></li>
+<li><strong>接口（interface）</strong></li>
+<li><strong>枚举（enum）</strong></li>
+<li><strong>注解（annotation）</strong></li>
+<li><strong>记录（record）</strong></li>
+</ul>
+<h2> 基本数据类型</h2>
+<h3> 计算机存储单位</h3>
+<ol>
+<li><strong>位（bit)</strong></li>
+</ol>
+<p><code>binary digit</code> 的英文缩写，表示信息量的最小单位，只有 0、1 两种二进制状态。</p>
+<ol start="2">
+<li><strong>字节（Byte）</strong></li>
+</ol>
+<p>计算机中用于计量存储容量的基本单位，一个字节等于 8 <code>bit</code>.</p>
+<ol start="3">
+<li><strong>转换关系</strong></li>
+</ol>
+<blockquote>
+<p>1 <code>Byte</code> = 8 <code>bit</code></p>
+<p>1 <code>KB</code> = 1024 <code>Byte</code></p>
+<p>1 <code>MB</code> = 1024 <code>KB</code></p>
+<p>1 <code>GB</code> = 1024 <code>MB</code></p>
+<p>1 <code>TB</code> = 1024 <code>GB</code></p>
+</blockquote>
+<h3> 整型</h3>
+<p><code>Java</code> 中，定义了 4 种整型数据类型，分别是：</p>
+<ul>
+<li><code>byte</code></li>
+<li><code>short</code></li>
+<li><code>int</code></li>
+<li><code>long</code></li>
+</ul>
+<p>注意，在定义 <code>long</code> 类型的变量时，一定要在结尾加上 <code>l</code> 或者 <code>L</code> 作为后缀。因为 <code>Java</code> 中默认整型变量都是声明为 <code>int</code> 类型，如果把一个 <code>long</code> 类型的值赋值给 <code>int</code> 类型的变量，有可能会导致精确度问题。</p>
+<p><code>Java</code> 中的各个整型都有着固定的数据范围以及字段长度，不随平台的改变而变化，从而保证了程序的可移植性。以下是各整型数据结构的字段长度以及表示范围：</p>
+<table>
+<thead>
+<tr>
+<th>数据类型</th>
+<th><code>bit</code></th>
+<th>字节</th>
+<th>数据范围</th>
+<th style="text-align:left">封装类</th>
+<th>封装类对象默认值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>byte</code></td>
+<td>8</td>
+<td>1</td>
+<td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>−</mo><msup><mn>2</mn><mn>7</mn></msup></mrow><annotation encoding="application/x-tex">-2^7</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8974em;vertical-align:-0.0833em;"></span><span class="mord">−</span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">7</span></span></span></span></span></span></span></span></span></span></span> ~ <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>2</mn><mn>7</mn></msup><mo>−</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">2^7-1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8974em;vertical-align:-0.0833em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">7</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span></span></span></span></td>
+<td style="text-align:left"><code>Byte</code></td>
+<td><code>0</code></td>
+</tr>
+<tr>
+<td><code>short</code></td>
+<td>16</td>
+<td>2</td>
+<td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>−</mo><msup><mn>2</mn><mn>15</mn></msup></mrow><annotation encoding="application/x-tex">-2^{15}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8974em;vertical-align:-0.0833em;"></span><span class="mord">−</span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">15</span></span></span></span></span></span></span></span></span></span></span></span> ~ <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>2</mn><mn>15</mn></msup><mo>−</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">2^{15}-1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8974em;vertical-align:-0.0833em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">15</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span></span></span></span></td>
+<td style="text-align:left"><code>Short</code></td>
+<td><code>0</code></td>
+</tr>
+<tr>
+<td><code>int</code></td>
+<td>32</td>
+<td>4</td>
+<td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>−</mo><msup><mn>2</mn><mn>31</mn></msup></mrow><annotation encoding="application/x-tex">-2^{31}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8974em;vertical-align:-0.0833em;"></span><span class="mord">−</span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">31</span></span></span></span></span></span></span></span></span></span></span></span> ~ <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>2</mn><mn>31</mn></msup><mo>−</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">2^{31}-1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8974em;vertical-align:-0.0833em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">31</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span></span></span></span></td>
+<td style="text-align:left"><code>Integer</code></td>
+<td><code>0</code></td>
+</tr>
+<tr>
+<td><code>long</code></td>
+<td>64</td>
+<td>8</td>
+<td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>−</mo><msup><mn>2</mn><mn>63</mn></msup></mrow><annotation encoding="application/x-tex">-2^{63}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8974em;vertical-align:-0.0833em;"></span><span class="mord">−</span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">63</span></span></span></span></span></span></span></span></span></span></span></span> ~ <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>2</mn><mn>63</mn></msup><mo>−</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">2^{63}-1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8974em;vertical-align:-0.0833em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">63</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span></span></span></span></td>
+<td style="text-align:left"><code>Long</code></td>
+<td><code>0L</code></td>
+</tr>
+</tbody>
+</table>
+<h3> 浮点型</h3>
+<p>浮点型数据类型主要有 2 种，分别是：</p>
+<ul>
+<li><code>float</code>：<strong>单精度</strong>，尾数最高精确到 <code>7</code> 位有效数字。</li>
+<li><code>double</code>：<strong>双精度</strong>，精度是 <code>float</code> 的两倍，<code>Java</code> 中默认浮点型常量均为 <code>double</code>。</li>
+</ul>
+<p>和定义 <code>long</code> 类型变量需要在默认添加 <code>l</code> 或 <code>L</code> 类似，定义 <code>float</code> 类型的变量时，也需要在赋值时添加 <code>f</code> 或 <code>F</code> 作为后缀，而在给 <code>double</code> 类型的变量赋值时也需要在末尾添加 <code>d</code> 或者 <code>D</code>。而根据阿里的《Java 开发手册》相关规约，这里建议优先选用大写的后缀。</p>
+<table>
+<thead>
+<tr>
+<th>数据类型</th>
+<th><code>bit</code></th>
+<th>字节</th>
+<th>数据范围</th>
+<th>封装类</th>
+<th>封装类对象默认值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>float</code></td>
+<td>32</td>
+<td>4</td>
+<td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1.4</mn><msup><mi>e</mi><mrow><mo>−</mo><mn>45</mn></mrow></msup></mrow><annotation encoding="application/x-tex">1.4e^{-45}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1.4</span><span class="mord"><span class="mord mathnormal">e</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">45</span></span></span></span></span></span></span></span></span></span></span></span> ~ <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>3.4</mn><msup><mi>e</mi><mn>38</mn></msup></mrow><annotation encoding="application/x-tex">3.4e^{38}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">3.4</span><span class="mord"><span class="mord mathnormal">e</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">38</span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td><code>Float</code></td>
+<td><code>0.0F</code></td>
+</tr>
+<tr>
+<td><code>double</code></td>
+<td>64</td>
+<td>8</td>
+<td><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>4.9</mn><msup><mi>e</mi><mrow><mo>−</mo><mn>324</mn></mrow></msup></mrow><annotation encoding="application/x-tex">4.9e^{-324}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">4.9</span><span class="mord"><span class="mord mathnormal">e</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">324</span></span></span></span></span></span></span></span></span></span></span></span> ~ <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1.8</mn><msup><mi>e</mi><mn>308</mn></msup></mrow><annotation encoding="application/x-tex">1.8e^{308}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1.8</span><span class="mord"><span class="mord mathnormal">e</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">308</span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td><code>Double</code></td>
+<td><code>0.0D</code></td>
+</tr>
+</tbody>
+</table>
+<p>对于浮点数，通常用两种表示的形式：</p>
+<ul>
+<li><strong>十进制数形式</strong>：如 <code>19.43</code></li>
+<li><strong>科学计数法形式</strong>：如 <code>1.943E3</code></li>
+</ul>
+<p>注意，并不是所有的小数都能够用二进制浮点数精确表示。而且在不允许舍入误差的金融领域，如果需要做精确计算或者保留指定位数的精度，通常是采用 <code>BigDecimal</code> 类，而不是使用 <code>float</code> 或者 <code>double</code>.</p>
+<h3> 字符类型</h3>
+<p><code>Java</code> 中的字符类型用 <code>char</code> 来定义，表示通常意义上的字符。<code>Java</code> 中的所有字符都采用的 <code>Unicode</code> 编码格式，因此一个字符既可以存储一个字母，也可以存储一个汉字亦或是其他书面语中的一个字符。</p>
+<table>
+<thead>
+<tr>
+<th>数据类型</th>
+<th><code>bit</code></th>
+<th>字节</th>
+<th>数据范围</th>
+<th>封装类</th>
+<th>封装类对象默认值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>char</code></td>
+<td>16</td>
+<td>2</td>
+<td><code>\u0000</code> ~ <code>\uffff</code>（<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>0</mn></mrow><annotation encoding="application/x-tex">0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0</span></span></span></span> ~ <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>65535</mn></mrow><annotation encoding="application/x-tex">65535</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">65535</span></span></span></span>）</td>
+<td><code>Character</code></td>
+<td><code>u0000</code></td>
+</tr>
+</tbody>
+</table>
+<p><code>Java</code> 中字符型变量的表现形式有 4 种，分别是：</p>
+<ol>
+<li>使用单引号 <code>''</code> 括起来的单个字符，比如 <code>'c'</code>、<code>'村'</code> 等。</li>
+<li>利用 <code>Unicode</code> 值来表示字符型常量：<code>\uXXXX</code>，其中 <code>XXXX</code> 表示一个十六进制的整数，如 <code>\u0023</code> 则表示 <code>#</code>.</li>
+<li>使用具体字符对应的数值，如 <code>ASCII</code> 码。</li>
+</ol>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><ol start="4">
+<li>使用转义字符 <code>\</code> 将其后的字符转换为特殊的字符常量，如 <code>\n</code> 就表示换行符。</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>转义符</th>
+<th>Unicode 表示方式</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>\n</code></td>
+<td><code>\u000a</code></td>
+<td>换行符</td>
+</tr>
+<tr>
+<td><code>\t</code></td>
+<td><code>\u0009</code></td>
+<td>制表符</td>
+</tr>
+<tr>
+<td><code>\"</code></td>
+<td><code>\u0022</code></td>
+<td>双引号</td>
+</tr>
+<tr>
+<td><code>\'</code></td>
+<td><code>\u0027</code></td>
+<td>单引号</td>
+</tr>
+<tr>
+<td><code>\\</code></td>
+<td><code>\u005c</code></td>
+<td>反斜线</td>
+</tr>
+<tr>
+<td><code>\b</code></td>
+<td><code>\u0008</code></td>
+<td>退格符</td>
+</tr>
+<tr>
+<td><code>\r</code></td>
+<td><code>\u000d</code></td>
+<td>回车符</td>
+</tr>
+</tbody>
+</table>
+<h3> 布尔类型</h3>
+<p>布尔类型 <code>boolean</code> 用来做逻辑判断，一般都是用在流程控制语句中。而且 <code>boolean</code> 类型数据只有两个值 <code>true</code> 和 <code>false</code>，不能用其他值来代替。</p>
+<p>需要注意的是，到了后面学习 <code>Java</code> 虚拟机的时候，你会发现 <code>boolean</code> 类型的值其实在经过编译之后都是使用 <code>int</code> 类型的数值来代替的，其中 <code>true</code> 用 1 来表示，而 <code>false</code> 则用 0 来表示。 但在日常编码时，却不能使用 1 或 0 来给 <code>boolean</code> 的变量赋值。</p>
+<table>
+<thead>
+<tr>
+<th>数据类型</th>
+<th><code>bit</code></th>
+<th>字节</th>
+<th>数据范围</th>
+<th>封装类</th>
+<th>封装类对象默认值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>boolean</code></td>
+<td>1</td>
+<td>4</td>
+<td><code>true</code> 或 <code>false</code></td>
+<td><code>Boolean</code></td>
+<td><code>false</code></td>
+</tr>
+</tbody>
+</table>
+<p>这里关于 <code>boolean</code> 类型的变量在内存中所占用的字节数可能大家会感到疑惑，但在 <code>JVM</code> 中，<code>boolean</code> 类型的值是编译成了 <code>int</code> 类型，所以也认为 <code>boolean</code> 占用了 4 个字节。</p>
+<h3> 变量运算规则</h3>
+<p><code>Java</code> 中共有 8 种基本数据类型，但能做运算的就只有 7 种，<code>boolean</code> 类型的变量是不能进行运算的。</p>
+<p>运算规则主要包括：</p>
+<ul>
+<li><strong>自动类型提升</strong></li>
+<li><strong>强制类型转换</strong></li>
+</ul>
+<ol>
+<li><strong>自动类型提升</strong></li>
+</ol>
+<p>当取值范围小的变量和取值范围大的变量进行运算时，两者的结果会自动转换为取值范围大的数据类型。但需要注意的是，当 <code>byte</code> 和 <code>short</code> 数据类型的变量在进行计算时，它俩的结果是 <code>int</code> 数据类型。而且这个过程无需我们手动参与，<code>Java</code> 会自动执行类型提升操作。</p>
+<p>8 种数据类型的数据范围从小到大分别是：</p>
+<blockquote>
+<p><code>byte</code> -&gt; <code>short</code> -&gt; <code>int</code> -&gt; <code>long</code> -&gt; <code>float</code> -&gt; <code>double</code></p>
+</blockquote>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>假设有以上两个变量，则 <code>vari1</code> + <code>vari2</code> 的结果是 <code>long</code> 类型，而非 <code>int</code> 类型。</p>
+<ol start="2">
+<li><strong>强制类型转换</strong></li>
+</ol>
+<p>将取值范围大的数据类型变量赋值给取值范围小的数据类型变量时，需要进行强制类型转换。但要注意，强制类型转换时可能会导致精度损失。</p>
+<p>强制类型转换的格式为：</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> String 字符串</h3>
+<p>注意，在一开始的学习中，可能会有的人会把 <code>String</code> 也当做是 <code>Java</code> 中的一种基本数据类型。但实际上，<code>String</code> 是一个类，属于引用类型，我们通常称它为字符串。很多人把它与 <code>char</code> 类型变量的赋值搞混，但两者的区别十分明显：</p>
+<ol>
+<li><strong>数据类型不同</strong>，<code>char</code> 是基本数据类型，而 <code>String</code> 是引用类型。</li>
+<li><strong>赋值方式不同</strong>，<code>char</code> 赋值时用单引号 <code>''</code> 包裹，其内部只能包含一个字符，而 <code>String</code> 赋值时用双引号 <code>""</code> 包裹，其内部可以包含 0 个、1 个或者多个字符。</li>
+</ol>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>同样的，<code>String</code> 也可以参与与基本数据类型之间的运算，但是他们之间只能做连接运算，而且得到的结果还是 <code>String</code> 类型。也就是说，无论是哪个基本数据类型，跟 <code>String</code> 都只能做 <code>+</code> 运算。</p>
+<ul>
+<li><strong>String 跟字符型做运算</strong></li>
+</ul>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
+<li><strong>String 跟整型做运算</strong></li>
+</ul>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
+<li><strong>String 跟浮点型做运算</strong></li>
+</ul>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
+<li><strong>String 跟 boolean 做运算</strong></li>
+</ul>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<h2> 计算机中的进制转换</h2>
+<p>所谓进制转换，就是人们利用符号来计数的方法。进制转换由一组数码符号和两个基本因素“基数”和“位权”所构成。其中<strong>基数</strong>是指进位计数制中所采用的数码的个数，逢 <code>n</code> 进 1 中的 <code>n</code> 就是基数。而<strong>位权</strong>则指的是进位制中每一个固定位置所对应的单位制，而每一种进制中的某一个数的每位上都有一个权值 <code>m</code>，而且权值是位数减一，比如个位上的数的权值为 <code>0</code>（位数 1 - 1 = 0），而十位的权值为 <code>1</code>（位数 2 - 1 = 1）。</p>
+<h3> 二进制</h3>
+<p>二进制是计算机中采用最广泛的一种数制，用 0 和 1 两个数码来表示，其进位规则是逢二进一，而借位规则则是借一当二。在 <code>Java</code> 中，二进制通常以 <code>0b</code> 或者 <code>0B</code> 开头表示。</p>
+<p>如果要将二进制转换为十进制，则采用 <strong>按权展开求和</strong>方法，其步骤是先将二进制的数写成加权系数展开式，然后再更具十进制的加法规则进行求和。</p>
+<p class="katex-block"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mo stretchy="false">(</mo><mn>1011</mn><msub><mo stretchy="false">)</mo><mn>2</mn></msub><mo>=</mo><mn>1</mn><mo>∗</mo><msup><mn>2</mn><mn>3</mn></msup><mo>+</mo><mn>0</mn><mo>∗</mo><msup><mn>2</mn><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo>∗</mo><msup><mn>2</mn><mn>1</mn></msup><mo>+</mo><mn>1</mn><mo>∗</mo><msup><mn>2</mn><mn>0</mn></msup><mo>=</mo><mo stretchy="false">(</mo><mn>11</mn><msub><mo stretchy="false">)</mo><mn>10</mn></msub></mrow><annotation encoding="application/x-tex">
+(1011)_2=1*2^3+0*2^2+1*2^1+1*2^0 = (11)_{10}
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">1011</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.9474em;vertical-align:-0.0833em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.9474em;vertical-align:-0.0833em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.9474em;vertical-align:-0.0833em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8641em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">11</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">10</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></p>
+<h3> 十进制</h3>
+<p>而一个十进制数要转换为二进制数，则需要将整数和小数部分分别转换，最后再进行组合。其中，整数部分采用<strong>除二取余，逆序排序</strong>的方法。具体方法是用 2 来整除一个十进制数，从而得到一个商和余数；然后再用 2 去除以商，从而又得到一个商和余数，重复这个步骤，直到最后得到的商小于 1 时为止。最后把按照得到余数的先后顺序，逆序依次排列，得到的数即为这个十进制数的二进制表示。</p>
+<p class="katex-block"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mo stretchy="false">(</mo><mn>15</mn><msub><mo stretchy="false">)</mo><mn>10</mn></msub><mo>=</mo><mo stretchy="false">(</mo><mn>1111</mn><msub><mo stretchy="false">)</mo><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">
+(15)_{10}=(1111)_2
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">15</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">10</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">1111</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></p>
+<figure><figcaption></figcaption></figure>
+<p>小数部分则不同于整数部分，小数部分要使用<strong>乘 2 取整法</strong>，即用十进制的小数部分乘以 2，然后取结果的整数部分，然后再用剩下的小数重复刚才的步骤，直到最后剩余的小数为 0 时停止。最后将每次得到的整数部分按照先后顺序正序排列，从而得到对应的二进制表示。</p>
+<p class="katex-block"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mo stretchy="false">(</mo><mn>0.25</mn><msub><mo stretchy="false">)</mo><mn>10</mn></msub><mo>=</mo><mo stretchy="false">(</mo><mn>0.01</mn><msub><mo stretchy="false">)</mo><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">
+(0.25)_{10}=(0.01)_2
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">0.25</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">10</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">0.01</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></p>
+<figure><figcaption></figcaption></figure>
+<h3> 八进制</h3>
+<p>所谓八进制，就是每 3 位二进制作为一个单元，其中最小的数是 0，最大的数是 7，一共 8 个数字。在 <code>Java</code> 中，八进制通常以数字 <code>0</code> 开头表示。</p>
+<p>要将二进制的数转换为八进制，需要将 3 个连续的数拼成一组，然后再独立转成八进制中的数字。</p>
+<p>例如，二进制的 <code>111101011110</code> 可以转换为八进制中的 <code>7536</code>。</p>
+<figure><figcaption></figcaption></figure>
+<h3> 十六进制</h3>
+<p>所谓十六进制，就是每 4 位二进制作为一个单元，其中最小数是 0，最大数是 15，一共 16 个数字，分别用 0 ~ 9、<code>A</code>、<code>B</code>、<code>C</code>、<code>D</code>、<code>E</code>、<code>F</code> 表示。在 <code>Java</code> 中，十六进制数通常用 <code>0x</code> 或 <code>0X</code> 开头表示。</p>
+<p>要将二进制转换为十六进制，需要将 4 个连续的数拼成一组，然后再独立转换为十六进制中对应的数字。</p>
+<p>例如，二进制的 <code>1111100111010111</code> 可以转换为十六进制中的 <code>F9D7</code>。</p>
+<figure><figcaption></figcaption></figure>
+<h2> 运算符</h2>
+<p>运算符数 <code>Java</code> 中一种特殊的符号，用于表示数据的运算、赋值和比较操作。按照不同的功能，运算符可以分为以下几种类型：</p>
+<ul>
+<li><strong>算术运算符</strong></li>
+<li><strong>关系运算符</strong></li>
+<li><strong>位运算符</strong></li>
+<li><strong>逻辑运算符</strong></li>
+<li><strong>赋值运算符</strong></li>
+<li><strong>条件运算符</strong></li>
+</ul>
+<h3> 算术运算符</h3>
+<p>常见的算术运算符主要有下表中的 7 种，主要是针对整型和浮点类型的运算。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">操作符</th>
+<th style="text-align:left">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>+</code></td>
+<td style="text-align:left">加法 - 相加运算符两侧的值</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>-</code></td>
+<td style="text-align:left">减法 - 左操作数减去右操作数</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>*</code></td>
+<td style="text-align:left">乘法 - 相乘操作符两侧的值</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>/</code></td>
+<td style="text-align:left">除法 - 左操作数除以右操作数</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>％</code></td>
+<td style="text-align:left">取余 - 左操作数除以右操作数的余数</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>++</code></td>
+<td style="text-align:left">自增: 操作数的值增加1</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>--</code></td>
+<td style="text-align:left">自减: 操作数的值减少1</td>
+</tr>
+</tbody>
+</table>
+<p><strong>注意</strong>：<code>++</code> 和 <code>--</code> 可以放在操作数之前，也可以放在操作数之后；<strong>位于操作数之前时，先自增/减，再赋值；位于操作数之后，先赋值，再自增/减</strong>；总结起来就是<strong>符号在前就先加/减，符号在后就后加/减</strong>。</p>
+<p>以下是部分算术运算符的示例以及运行结果：</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<p>这里不难看出，无论是 <code>++</code> 还是 <code>--</code>，当它们单独写一行时，不管是放在变量前边还是后边，其最终结果都是一样的。但如果将它们参与运算，此时的效果就不一样了，这里需要注意。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>以上代码中，先进行了 <code>b = a</code> 的赋值操作，所以此时 <code>b</code> 的值是 <code>10</code>。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>而此时，先要对 <code>a</code> 进行加一的操作之后，再将 <code>a</code> 的值赋予 <code>b</code>，所以此时 <code>b</code> 的值为 <code>11</code>。</p>
+<h3> 关系运算符</h3>
+<p>关系运算符主要是指两个数据间的关系，两者之间的比较结果用逻辑值来表示，常用来比较判断两个变量或常量的大小。常见的关系运算符及含义如下表：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">运算符</th>
+<th style="text-align:left">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>==</code></td>
+<td style="text-align:left">检查如果两个操作数的值是否相等，如果相等则条件为真</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>!=</code></td>
+<td style="text-align:left">检查如果两个操作数的值是否相等，如果值不相等则条件为真</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>&gt; </code></td>
+<td style="text-align:left">检查左操作数的值是否大于右操作数的值，如果是那么条件为真</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>&lt; </code></td>
+<td style="text-align:left">检查左操作数的值是否小于右操作数的值，如果是那么条件为真</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>&gt;=</code></td>
+<td style="text-align:left">检查左操作数的值是否大于或等于右操作数的值，如果是那么条件为真</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>&lt;=</code></td>
+<td style="text-align:left">检查左操作数的值是否小于或等于右操作数的值，如果是那么条件为真</td>
+</tr>
+</tbody>
+</table>
+<p>以下是部分关系运算符的示例以及运行结果：</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<h3> 位运算符</h3>
+<p>位运算符主要用来对操作数二进制的位进行运算，其运算结果是整型的。常见的位运算符及功能描述如下表所示：</p>
+<table>
+<thead>
+<tr>
+<th>操作符</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>＆</code></td>
+<td>如果相对应位都是 1，则结果为 1，否则为 0</td>
+</tr>
+<tr>
+<td><code>|</code></td>
+<td>如果相对应位都是 0，则结果为 0，否则为 1</td>
+</tr>
+<tr>
+<td><code>^</code></td>
+<td>如果相对应位值相同，则结果为 0，否则为 1</td>
+</tr>
+<tr>
+<td><code>〜</code></td>
+<td>按位取反运算符翻转操作数的每一位，即 0 变成 1，1 变成 0</td>
+</tr>
+<tr>
+<td><code>&lt;&lt;</code></td>
+<td>按位左移运算符。左操作数按位左移右操作数指定的位数</td>
+</tr>
+<tr>
+<td><code>&gt;&gt;</code></td>
+<td>按位右移运算符。左操作数按位右移右操作数指定的位数</td>
+</tr>
+<tr>
+<td><code>&gt;&gt;&gt;</code></td>
+<td>按位右移补零操作符。左操作数的值按右操作数指定的位数右移，移动得到的空位以零填充</td>
+</tr>
+</tbody>
+</table>
+<p>以下是部分位运算符的示例以及运行结果：</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<h3> 逻辑运算符</h3>
+<p>逻辑运算符通过将关系表达式连接起来，从而组成一个复杂的逻辑表达式，从而判断程序中的表达式是否成立，其结果返回 <code>true</code> 或 <code>false</code>。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">操作符</th>
+<th style="text-align:left">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>&amp;&amp;</code></td>
+<td style="text-align:left">称为逻辑与运算符。当且仅当两个操作数都为真，条件才为真</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>||</code></td>
+<td style="text-align:left">称为逻辑或操作符。如果任何两个操作数任何一个为真，条件为真</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>!</code></td>
+<td style="text-align:left">称为逻辑非运算符。用来反转操作数的逻辑状态。如果条件为 <code>true</code>，则逻辑非运算符将得到 <code>false</code></td>
+</tr>
+</tbody>
+</table>
+<p>以下是逻辑运算符的示例以及运行结果：</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<h3> 赋值运算符</h3>
+<p>赋值运算符表示一个动作，将其右侧的值送到左侧的变量中。常见的赋值运算符及含义如下表所示：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">操作符</th>
+<th style="text-align:left">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>=</code></td>
+<td style="text-align:left">简单的赋值运算符，将右操作数的值赋给左侧操作数</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>+=</code></td>
+<td style="text-align:left">加和赋值操作符，它把左操作数和右操作数相加赋值给左操作数</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>-=</code></td>
+<td style="text-align:left">减和赋值操作符，它把左操作数和右操作数相减赋值给左操作数</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>*=</code></td>
+<td style="text-align:left">乘和赋值操作符，它把左操作数和右操作数相乘赋值给左操作数</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>/=</code></td>
+<td style="text-align:left">除和赋值操作符，它把左操作数和右操作数相除赋值给左操作数</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>％=</code></td>
+<td style="text-align:left">取模和赋值操作符，它把左操作数和右操作数取模后赋值给左操作数</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>&lt;&lt;=</code></td>
+<td style="text-align:left">左移位赋值运算符</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>&gt;&gt;=</code></td>
+<td style="text-align:left">右移位赋值运算符</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>&gt;&gt;&gt;=</code></td>
+<td style="text-align:left">按位右移补零操作符</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>＆=</code></td>
+<td style="text-align:left">按位与赋值运算符</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>^=</code></td>
+<td style="text-align:left">按位异或赋值操作符</td>
+</tr>
+<tr>
+<td style="text-align:left"><code>|=</code></td>
+<td style="text-align:left">按位或赋值操作符</td>
+</tr>
+</tbody>
+</table>
+<p>以下是部分赋值运算符的示例以及运行结果：</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<h3> 条件运算符（? :）</h3>
+<p>也叫作三元运算符，共有 3 个操作数，且需要判断布尔表达式的值，常用来取代某个 <code>if-else</code> 语句。其语法结构如下所示：</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>以下是条件运算符的示例以及运行结果：</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<h3> instanceof</h3>
+<p>用于操作对象实例，检查该对象是否是一个特定类型（类类型或接口类型），其语法结构如下。该知识点涉及到类与对象，此处就不做展开，等到后边学习类与对象之后，就能理解了。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 运算符优先级</h3>
+<p>运算符有很多，如果我们将多个运算符组合在一起，那它们又该先计算哪一个，然后再计算哪一个呢？其实就像我们日常排队一样，运算符也是有优先级的。<br>
+常用运算符的优先级如下表所示，在我们使用时，如果涉及到一个表达式中含有多个运算符，一定要注意运算符的优先级。当然了，让我们背下来这些也是挺难的。不过不要紧，我们只需要学会灵活运用括号 <code>()</code> 就好了。我们可以利用 <code>()</code> 将需要先计算的表达式括起来，然后再去进行下一步的运算。</p>
+<table>
+<thead>
+<tr>
+<th>优先级</th>
+<th>运算符</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><code>.</code>、<code>()</code>、<code>{}</code></td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>!</code>、<code>~</code>、<code>++</code>、<code>--</code></td>
+</tr>
+<tr>
+<td>3</td>
+<td><code>*</code>、<code>/</code>、<code>%</code></td>
+</tr>
+<tr>
+<td>4</td>
+<td><code>+</code>、<code>-</code></td>
+</tr>
+<tr>
+<td>5</td>
+<td><code>&lt;&lt;</code>、<code>&gt;&gt;</code>、<code>&gt;&gt;&gt;</code></td>
+</tr>
+<tr>
+<td>6</td>
+<td><code>&lt;</code>、<code>&lt;=</code>、<code>&gt;</code>、<code>&gt;=</code>、<code>instanceof</code></td>
+</tr>
+<tr>
+<td>7</td>
+<td><code>==</code>、<code>!=</code></td>
+</tr>
+<tr>
+<td>8</td>
+<td><code>&amp;</code></td>
+</tr>
+<tr>
+<td>9</td>
+<td><code>^</code></td>
+</tr>
+<tr>
+<td>10</td>
+<td><code>|</code></td>
+</tr>
+<tr>
+<td>11</td>
+<td><code>&amp;&amp;</code></td>
+</tr>
+<tr>
+<td>12</td>
+<td><code>||</code></td>
+</tr>
+<tr>
+<td>13</td>
+<td><code>?:</code></td>
+</tr>
+<tr>
+<td>14</td>
+<td><code>=</code>、<code>+=</code>、<code>-=</code>、<code>*=</code>、<code>/=</code>、<code>%=</code>、<code>&amp;=</code></td>
+</tr>
+</tbody>
+</table>
+<h2> 课后练习</h2>
+<h3> 练习 1：求圆的面积</h3>
+<p>假设有一个圆锥体，该圆锥体的底半径为 <code>radius = 10</code>，高为 <code>height = 5</code> ，求该圆锥的体积。</p>
+<ul>
+<li><strong>参考答案</strong></li>
+</ul>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 练习 2：温度转换器</h3>
+<p>众所周知，温度的表示方式有两种不同的体系。一种是摄氏度（<code>C</code>），而另一种则是华氏度（<code>F</code>）。</p>
+<p>两者之间的关系为：</p>
+<p class="katex-block"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>C</mi><mo>=</mo><mo stretchy="false">(</mo><mi>F</mi><mo>−</mo><mn>32</mn><mo stretchy="false">)</mo><mi mathvariant="normal">/</mi><mn>1.8</mn></mrow><annotation encoding="application/x-tex">
+C = (F - 32) / 1.8
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">32</span><span class="mclose">)</span><span class="mord">/1.8</span></span></span></span></span></p>
+<p>假设需要将一个华氏温度 100 转换为摄氏温度表示，然后分别打印出以华氏度和摄氏度表示的该温度，应该如何实现？</p>
+<ul>
+<li><strong>参考答案</strong></li>
+</ul>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 最后</h2>
+<p>本文中涉及的代码都已上传到 <code>Github</code>，有需要的小伙伴请自行获取。</p>
+<blockquote>
+<p>📌 传送门：<a href="https://github.com/cunyu1943/java-park-code-warehouse/tree/main/java-tutorial/java-tutorial-02/" target="_blank" rel="noopener noreferrer">https://github.com/cunyu1943/java-park-code-warehouse/tree/main/java-tutorial/java-tutorial-02/</a></p>
+</blockquote>
+<h1> 三、流程控制</h1>
+<h2> 本文预览</h2>
+<figure><figcaption></figcaption></figure>
+<p>流程控制是指程序中用于控制各种语句执行顺序的语句，通过将语句进行组合，让它们形成能完成一定功能的小模块。在各种编程语言中，常见的主要就是以下三种流程控制结构，分别是：</p>
+<ul>
+<li><strong>顺序结构</strong></li>
+<li><strong>分支结构</strong></li>
+<li><strong>循环结构</strong></li>
+</ul>
+<h2> 顺序结构</h2>
+<p>顺序结构，指的是代码自顶向下逐行执行，中间不穿插任何判断以及跳转。</p>
+<p>以下就是顺序结构的结构图，它是最简单的一种流程控制。只需按照解决问题的顺序写出对应的语句即可，其执行顺序是自上而下，依次执行的。就类似于我们求解一道数学题，你得根据题意一步一步来，直至解出最后的答案。</p>
+<p>我们以计算 <code>1 + 2 * 3</code> 的结果为例，一般我们的解题思路是：</p>
+<ol>
+<li>首先计算出 <code>2 * 3</code> 的结果为 <code>6</code></li>
+<li>然后用结果 <code>6</code> 再加上 <code>1</code> 就得到了最终的答案 <code>7</code></li>
+</ol>
+<p>从数学知识我们知道需要先进行乘法运算，然后再进行加法运算，而这就是顺序结构的体现。提现到代码中就是：</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<h2> 分支结构</h2>
+<p>顺序结构虽然能够处理计算、输出等场景，但当遇到需要判断选择时，顺序结构已经不能满足我们的需要了，此时就需要用到分支结构。<br>
+<code>Java</code> 中，分支结构主要涉及到 <code>if</code> 和 <code>switch</code> 两种分支语句。</p>
+<h3> if</h3>
+<ol>
+<li><strong>单次判断</strong></li>
+</ol>
+<p>当我们只进行一次判断时，可以使用一个 <code>if</code> 语句包含一个条件表达式，其语法格式如下：</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>其执行逻辑如下图所示，如果条件表达式的值为 <code>true</code>，则执行 <code>if</code> 语句块中的执行语句，否则就执行 <code>if</code> 语句块后边的代码。</p>
+<figure><figcaption></figcaption></figure>
+<p>单次循环除了通过上述的语法格式之外，还有另一种语法格式：</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>其中，执行语句 1 就相当于上面另一种语法结构 <code>if</code> 中的执行语句，而执行语句 2 就相当于 <code>if</code> 语句块后的代码。</p>
+<p>以下是一个单次判断的实例，根据当前用户的年龄来判断他可以玩几多久的王者荣耀。如果用户已成年，那么他可以玩 8 小时，而如果用户未成年，那么他只能玩 2 小时。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ol start="2">
+<li><strong>多次判断</strong></li>
+</ol>
+<p>有时候遇到需要多次选择时，单次判断无法满足我们的需要，此时就可以使用 <code>if…else</code>，而在 <code>else</code> 之后还可以连接多个 <code>if…else</code>，从而实现多次判断，其语法格式如下：</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>其执行逻辑如下图所示，如果条件表达式 1 为 <code>true</code>，则执行执行语句 1，否则接着判断条件表达式 2，若为 <code>true</code>，则执行执行语句 2，依此类推，直到完成最后一个条件表达式的判断。</p>
+<figure><figcaption></figcaption></figure>
+<p>以下是一个多次判断的实例，根据学生的分数，给他打出对应的评级。如果是 <code>90 ~ 100</code> 分，那么他的评级为 <code>A</code>，如果是 <code>80 ~ 90</code> 分，那么他的评级为 <code>B</code>，如果是 <code>60 ~ 80</code> 分，那么他的评级为 <code>C</code>，如果低于 <code>60</code> 分，则评级为 <code>D</code>。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> switch</h3>
+<p>当我们需要使用 <code>if</code> 进行多次判断时，难免显得有些繁琐。此时，可以使用 <code>switch</code> 来进行替代，通过判断一个变量所属范围，从而划分出不同的分支。</p>
+<p><code>switch</code> 分支的语法格式如下：</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>通过判断表达式的值，然后执行对应值下的执行语句，而 <code>default</code> 下的执行语句表示如果 <code>switch</code> 表达式未匹配到对应的值时默认执行的语句。</p>
+<p>在使用 <code>switch</code> 时，表达式结果的类型可以是 <code>byte</code>、<code>short</code>、<code>int</code>、<code>char</code>、<code>String</code>（自 JDK 1.7 开始）。而且每个 <code>case</code> 语句之后，必须要有 <code>break</code> 语句，否则语句会继续往下执行。当然，如果程序设计时便是有意为之可以匹配多个 <code>case</code>，则可以不用在每个 <code>case</code> 后加上 <code>break</code> 语句。</p>
+<p>如果用 <code>switch</code> 语句来改写上面的多次判断的 <code>if</code> 语句实例，那么可以写成以下形式。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 循环结构</h2>
+<p>假设我们现在有一个题目，需要你计算 <code>1 + 2 + 3 + …… + 50</code> 的结果，你会怎么办呢？</p>
+<p>这么写么：</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>这么写其实就是顺序结构，虽然最后也能得到正确答案，但过程太麻烦了。计算到 50 的值就已经很多了，假如有 1000，10000 甚至更大的数，那我们岂不是写个好久才能写完。这时候我们就想要有一个能重复执行的机制，让它重复执行就好了。</p>
+<p>当程序需要重复执行某一个功能时，我们会发现无论是使用顺序结构还是分支结构，都不能很好的满足，于是又有了循环结构。在 <code>Java</code> 中，涉及循环结构的有 <code>for</code>、<code>while</code>、<code>do-while</code> 三种语句。</p>
+<figure><figcaption></figcaption></figure>
+<h3> while</h3>
+<p><code>while</code> 语法格式如下：</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>只要表达式为 <code>true</code>，就会不断循环执行其中的执行语句，直到表达式为 <code>false</code>，此时便跳出循环，不再执行其中的执行语句。</p>
+<p>除开上面的形式之外，还有另一种 <code>while</code> 形式：</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>两者的最大区别在于：<code>do……while</code> 无论 <code>表达式</code> 是否为 <code>true</code>，都至少会执行一次。</p>
+<p>回到最开始的话题，假设我们想计算 <code>1 + 2 + …… + 50</code> 的和，该如何利用 <code>while</code> 语句实现？</p>
+<ol>
+<li><strong>while</strong></li>
+</ol>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ol start="2">
+<li><strong>do…while</strong></li>
+</ol>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>观察以上两个实例，在 <code>while</code> 程序中，我们假设 <code>num = 51</code>，而 <code>51 &gt; 50</code>，所以不进入循环体，直接打印 <code>sum</code> 的值为 <code>0</code>。而在 <code>do…while</code> 程序中，我们同样定义 <code>num = 51</code>，然后假设 <code>num &lt;= 50</code> 时继续循环，很明显不满足该情况，理应跳出循环，打印出 <code>sum</code> 的值为 <code>1</code>，说明此时还是进行了一次循环。</p>
+<p>因此，当我们需要在 <code>while</code> 和 <code>do……while</code> 之间做出选择时，如果我们最少需要进行一次循环，则选择 <code>do……while</code>，其他情况下选用两者都可以。</p>
+<h3> for</h3>
+<ul>
+<li><strong>普通 for 循环</strong></li>
+</ul>
+<p><code>for</code> 循环的语法形式如下：</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><code>for</code> 循环的执行步骤如下：</p>
+<ol>
+<li>首先执行初始条件，可以声明一种类型，但可以初始化一个或多个循环控制变量，甚至可以放空。</li>
+<li>接着判断终止条件，如果为 <code>true</code>，则进入循环体执行循环语句；如果为 <code>false</code>，则终止循环，执行循环体后面的语句。</li>
+<li>一次循环完成后，执行更新语句来更新循环控制变量。</li>
+<li>最后再次判断终止条件，循环以上三个步骤。</li>
+</ol>
+<p><code>for</code> 和 <code>while</code> 最大的区别就在于 <code>for</code> 循环一般都是事先知道需要循环的次数的，而 <code>while</code> 循环则不需要。</p>
+<p>同样以上面计算 <code>1 + 2 + …… + 50</code> 为例，用 <code>for</code> 循环可以写成如下的形式：</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
+<li><strong>增强 for 循环</strong></li>
+</ul>
+<p>自 JDK 1.5 后，引入了一种增强型 <code>for</code> 循环，主要用于遍历，其语法格式如下：</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>假设我们要遍历一个数组中的元素，那么就可以按照以下的形式。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> for 和 while 的区别</h3>
+<p>经过上面的学习，我们可以发现，基本能用 <code>for</code> 循环的，都能将其改写成 <code>while</code> 循环。而使用 <code>while</code> 循环的，也可以在一定程度上改写成 <code>for</code> 循环。两者的运行规则都是一样的，那针对什么场景该使用 <code>for</code>，什么场景又该使用 <code>while</code> 呢？</p>
+<p>通常，如果我们知道循环的次数或者循环的范围，那么我们优先使用 <code>for</code> 循环。如果不知道循环的次数和范围，而只知道循环的结束条件，那么此时优先使用 <code>while</code> 循环。</p>
+<h2> break 和 continue</h2>
+<h3> break</h3>
+<p>主要用在循环语句或者 <code>switch</code> 语句中，表示跳出最里层的循环，然后继续执行该循环下的语句。</p>
+<p><code>break</code> 在 <code>switch</code> 语句中的用法已经见识过了，我们就来看看它在循环中的应用。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<p>观察结果可知，当 <code>i == 5</code> 时，我们执行了 <code>break</code> 语句，此时就直接跳出了 <code>for</code> 循环，而不再进行下一次的循环。</p>
+<h3> continue</h3>
+<p><code>continue</code> 也同样是应用在循环控制结构中，主要是让程序跳出当次循环，进而进入下一次循环的迭代。</p>
+<p>在 <code>for</code> 循环中，执行 <code>continue</code> 语句后，直接跳转到更新语句，而不再执行 <code>continue</code> 后的语句。而在 <code>while</code> 或 <code>do……while</code> 循环中，执行 <code>continue</code> 语句后，直接跳转到表达式的判断。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<p>观察结果可知，当 <code>i == 5</code> 时，执行了 <code>continue</code> 语句，此时便跳出了当次循环，不再进行后边的打印语句，然后继续下一次的循环，所以最终打印的结果没有 5.</p>
+<h2> 键盘录入</h2>
+<p>要从控制台中获取不同类型的数据，那么可以使用 <code>Scanner</code> 类。</p>
+<p>要使用 <code>Scanner</code> 类，首先需要导包。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>接着定义一个对象。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>然后调用 <code>Scanner</code> 中的相关方法就可以获取到指定类型的变量了，常用方法有以下几种。</p>
+<table>
+<thead>
+<tr>
+<th>方法</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>next()</code></td>
+<td>读取到有效字符后结束输入，不能得到带空格的字符串</td>
+</tr>
+<tr>
+<td><code>nextLine()</code></td>
+<td>以回车 <code>Enter</code> 为结束符</td>
+</tr>
+<tr>
+<td><code>nextInt()</code></td>
+<td>获取 <code>int</code> 类型数据</td>
+</tr>
+<tr>
+<td><code>nextLong()</code></td>
+<td>获取 <code>long</code> 类型数据</td>
+</tr>
+<tr>
+<td><code>nextFloat()</code></td>
+<td>获取 <code>float</code> 类型数据</td>
+</tr>
+<tr>
+<td><code>nextDouble()</code></td>
+<td>获取 <code>double</code> 类型数据</td>
+</tr>
+</tbody>
+</table>
+<p>调用完 <code>Scanner</code> 相关方法后，还要记得及时释放资源。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>注意，在使用 <code>Scanner</code> 输入不同数据类型的数据时，用于接收数据的变量的数据类型一定要和调用的方法相匹配，否则会报错。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>上述代码中，我们尝试用一个 <code>int</code> 类型的变量来接收输入的 <code>float</code> 类型的数据时，此时编译就会出现以下的错误。</p>
+<figure><figcaption></figcaption></figure>
+<h2> 课后练习</h2>
+<h3> 练习 1：奇偶性判断</h3>
+<p>输入一个整数，判断这个数的奇偶性。</p>
+<ul>
+<li><strong>参考答案</strong></li>
+</ul>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 练习 2：排序</h3>
+<p>输入三个整数，然后将这三个数从小到大排列。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 最后</h2>
+<p>本文中涉及的代码都已上传到 <code>Github</code>，有需要的小伙伴请自行获取。</p>
+<blockquote>
+<p>📌 传送门：<a href="https://github.com/cunyu1943/java-park-code-warehouse/tree/main/java-tutorial/java-tutorial-03/" target="_blank" rel="noopener noreferrer">https://github.com/cunyu1943/java-park-code-warehouse/tree/main/java-tutorial/java-tutorial-03/</a></p>
+</blockquote>
+<h1> 四、数组</h1>
+<h2> 本文概览</h2>
+<h2> 数组简介</h2>
+<h2> 一维数组</h2>
+<h2> 多维数组</h2>
+<h2> 数组常用算法</h2>
+<h2> Arrays 工具类</h2>
+<h2> 常见异常</h2>
+<h1> 五、 面向对象（上）</h1>
+<h2> 本文预览</h2>
+<h2> 面向对象编程简介</h2>
+<h2> Java 中的类与对象</h2>
+<h2> 对象内存分析</h2>
+<h2> 成员变量</h2>
+<h2> 方法</h2>
+<h2> 对象数组</h2>
+<h2> package &amp; import</h2>
+<h2> 封装</h2>
+<h2> 构造器</h2>
+<h2> 知识拓展</h2>
+<h1> 六、 面向对象（中）</h1>
+<h2> this</h2>
+<h2> 继承</h2>
+<h2> 重写与重载</h2>
+<h2> 权限修饰</h2>
+<h2> super</h2>
+<h2> 子类对象实例化</h2>
+<h2> 多态</h2>
+<h2> Object 类</h2>
+<h1> 七、 面向对象（下）</h1>
+<h2> 本文预览</h2>
+<h2> static</h2>
+<h2> 单例模式</h2>
+<h2> main 方法</h2>
+<h2> 代码块</h2>
+<h2> final</h2>
+<h2> 抽象类与抽象方法</h2>
+<h2> 接口</h2>
+<h2> 内部类</h2>
+<h2> 枚举类</h2>
+<h2> 注解</h2>
+<h2> 包装类</h2>
+<h1> 八、 异常处理</h1>
+<h2> 本文预览</h2>
+<h2> 异常概述</h2>
+<h2> Java 异常体系</h2>
+<h2> 常见错误与异常</h2>
+<h2> 异常处理</h2>
+<h2> throw</h2>
+<h2> 自定义异常</h2>
+<h1> 九、 多线程</h1>
+<h2> 本文预览</h2>
+<h2> 相关概念</h2>
+<h2> 线程创建与启动</h2>
+<h2> Thread 类</h2>
+<h2> 多线程的生命周期</h2>
+<h2> 线程安全</h2>
+<h2> 同步</h2>
+<h2> 线程通信</h2>
+<h1> 十、 常用类和基础 API</h1>
+<h2> 本文预览</h2>
+<h2> String</h2>
+<h2> StringBuffer &amp; StringBuilder</h2>
+<h2> 日期时间 API</h2>
+<h2> Java 比较器</h2>
+<h2> 系统相关类</h2>
+<h2> 数学相关类</h2>
+<h1> 十一、 集合</h1>
+<h2> 本文预览</h2>
+<h2> 集合框架概述</h2>
+<h2> Collection 接口与方法</h2>
+<h2> Iterator 迭代器</h2>
+<h2> List</h2>
+<h2> Set</h2>
+<h2> Map</h2>
+<h2> Collections 工具类</h2>
+<h1> 十二、 泛型</h1>
+<h2> 本文预览</h2>
+<h2> 泛型概述</h2>
+<h2> 泛型实例</h2>
+<h2> 自定义泛型结构</h2>
+<h2> 继承中的泛型</h2>
+<h2> 通配符</h2>
+<h1> 十三、 File 类与 IO 流</h1>
+<h2> 本文预览</h2>
+<h2> java.io.File 类</h2>
+<h2> IO 流原理及分类</h2>
+<h2> FileReader &amp; FileWriter</h2>
+<h2> FileInputStream &amp; FileOutputStream</h2>
+<h2> 缓冲流</h2>
+<h2> 转换流</h2>
+<h2> 数据流</h2>
+<h2> 对象流</h2>
+<h2> 其他流</h2>
+<h2> Apache Common</h2>
+<h1> 十四、 网络编程</h1>
+<h2> 本文预览</h2>
+<h2> 网络编程概述</h2>
+<h2> 网络通信要素</h2>
+<h2> TCP 与 UDP</h2>
+<h2> 网络编程 API</h2>
+<h2> TCP 网络编程</h2>
+<h2> UDP 网络编程</h2>
+<h2> URL 编程</h2>
+<h1> 十五、 反射机制</h1>
+<h2> 本文预览</h2>
+<h2> 反射简介</h2>
+<h2> Class 入门</h2>
+<h2> 类加载</h2>
+<h2> 反射的应用</h2>
+<h2> 反射的动态性</h2>
+<h1> 十六、 常用数据结构</h1>
+<h2> 本文预览</h2>
+<h2> 数据结构简介</h2>
+<h2> 数组</h2>
+<h2> 链表</h2>
+<h2> 栈</h2>
+<h2> 队列</h2>
+<h2> 树与二叉树</h2>
+<h2> List</h2>
+<h2> Map</h2>
+<h2> Set</h2>
+]]></content:encoded>
+    </item>
     <item>
       <title>一、Web 简介</title>
       <link>https://cunyu1943.github.io/java-tutorial/web-front-series/javaweb-tutorial.html</link>
@@ -17948,73 +19733,6 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <guid>https://cunyu1943.github.io/tutorial/blog-series/</guid>
       <source url="https://cunyu1943.github.io/rss.xml">博客搭建</source>
       <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>网站访问太慢，不妨试试这些 CDN</title>
-      <link>https://cunyu1943.github.io/tutorial/dev-series/20220729-cdn.html</link>
-      <guid>https://cunyu1943.github.io/tutorial/dev-series/20220729-cdn.html</guid>
-      <source url="https://cunyu1943.github.io/rss.xml">网站访问太慢，不妨试试这些 CDN</source>
-      <description>网站访问太慢，不妨试试这些 CDN 相关信息 不要哀求，学会争取。若是如此，终有所获。 提示 原文：https://mp.weixin.qq.com/s/WDOc5kI0jVtsbxgWwCoJkQ</description>
-      <category>开发工具</category>
-      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 网站访问太慢，不妨试试这些 CDN</h1>
-<div class="hint-container info">
-<p class="hint-container-title">相关信息</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<div class="hint-container tip">
-<p class="hint-container-title">提示</p>
-<p>原文：<a href="https://mp.weixin.qq.com/s/WDOc5kI0jVtsbxgWwCoJkQ" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/WDOc5kI0jVtsbxgWwCoJkQ</a></p>
-</div>
-<h2> 前言</h2>
-<p>前端开发时，为了让网站的资源快速响应，提高网站的响应速度，我们通常会使用到 CDN。CDN 又叫做内容分发网络，原理是将服务内容分发到全网加速节点，让用户优先从最近的服务器节点上获取内容，从而加速网站访问速度。大多服务商，比如阿里云、腾讯云、又拍云、七牛云等的 CDN 都是按量收费的，但也有一些服务商体用了免费的 CDN 服务。今天就来看看，我从网上给大家找到的一些免费可用的 CDN！</p>
-<h2> <a href="http://cdnjs.com" target="_blank" rel="noopener noreferrer">cdnjs.com</a></h2>
-<figure><figcaption></figcaption></figure>
-<ul>
-<li>官网：<a href="https://cdnjs.com/" target="_blank" rel="noopener noreferrer">https://cdnjs.com/</a></li>
-</ul>
-<p>作为全球最为著名的开源 CDN 库，想必每个从事前端的工作的小伙伴都对他有所了解吧。该网站使用 <code>CloudFlare</code> 分发，如果你是在国外使用，那速度没的说，嗖嗖的。不过要是在国内，那还是优先考虑下其他的吧，因为它在国内访问时实在是太慢了！</p>
-<h2> 字节跳动</h2>
-<figure><figcaption></figcaption></figure>
-<ul>
-<li>官网：<a href="http://cdn.bytedance.com/" target="_blank" rel="noopener noreferrer">http://cdn.bytedance.com/</a></li>
-</ul>
-<p>由国内字节跳动公司所出品的公共库，同步 <code>cdnjs.com</code>，但有时候可能针对部分库未及时更新到最新版本，需要注意这一点，否则在使用时可能会导致一些莫名的错误。</p>
-<h2> jsDelivr</h2>
-<figure><figcaption></figcaption></figure>
-<ul>
-<li>官网：<a href="https://www.jsdelivr.com/" target="_blank" rel="noopener noreferrer">https://www.jsdelivr.com/</a></li>
-</ul>
-<p>jsDelivr 是一个免费开源的 CDN 解决方案，用于帮助开发者和站长。包含 JavaScript 库、jQuery 插件、CSS 框架、字体等等 Web 上常用的静态资源。想必这个 CDN 大家都不会陌生吧，没准儿在看博客的各位就一直在用着它。</p>
-<p>当然，除了以上作用之外，它还可以作为我们图床的加速器，这里不用说，想必许多作者可能都搭配着 Github + jsDelivr 搭建了自己的图床吧。</p>
-<h2> UNPKG</h2>
-<figure><figcaption></figcaption></figure>
-<ul>
-<li>官网：<a href="https://unpkg.com/" target="_blank" rel="noopener noreferrer">https://unpkg.com/</a></li>
-</ul>
-<p>unpkg 是一个快速的全球内容交付网络，适用于 npm 中的所有内容。通过使用它，能够使用以下类似的 URL 就能快速轻松地从任何包加载任何文件！</p>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2> BootCDN</h2>
-<figure><figcaption></figcaption></figure>
-<ul>
-<li>官网：<a href="https://www.bootcdn.cn/" target="_blank" rel="noopener noreferrer">https://www.bootcdn.cn/</a></li>
-</ul>
-<p>BootCDN 是极兔云联合 Bootstrap 中文网共同支持并维护的前端开源项目免费 CDN 服务，致力于为 Bootstrap、jQuery、React、Vue.js 等优秀的前端开源项目提供稳定、快速的免费 CDN 加速服务。BootCDN 所收录的开源项目主要同步于 cdnjs 开源项目仓库，截止文章写作时共收录了 <strong>4256</strong> 个前端开源项目。而且自 2013 年以来已经累计为仅百万网站提供稳定可靠的免费 CDN 加速服务，可以说是相当靠谱了！</p>
-<h2> 75 CDN</h2>
-<figure><figcaption></figcaption></figure>
-<ul>
-<li>官网：<a href="https://cdn.baomitu.com" target="_blank" rel="noopener noreferrer">https://cdn.baomitu.com</a></li>
-</ul>
-<p>谐音于奇舞，是由 360 前端奇舞团支持并维护的开源项目免费 CDN 服务，支持 HTTPS 和 HTTP/2，囊括了上千个前端资源库和 Google 字体库。而且是首个支持 HTTP/2 的 CDN 服务，共收录了 4275 个开源项目，均同步于 cdnjs！</p>
-<h2> Staticfile CDN</h2>
-<figure><figcaption></figcaption></figure>
-<ul>
-<li>官网：<a href="https://staticfile.org/" target="_blank" rel="noopener noreferrer">https://staticfile.org/</a></li>
-</ul>
-<p>这是一个免费、快速、开放的 CDN 服务。你可能没听过这个 CDN，不过没关系，它背后的双引擎：七牛云和掘金想必你不会陌生吧。该网站由七牛云提供 CDN 加速，由技术社区掘金支持。</p>
-<p>网站的目标是提供这样一个仓库，让它尽可能全面收录优秀的开源库，并免费为之提供 CDN 加速服务，使之有更好的访问速度和稳定的环境。同时，也提供开源库源接入的入口，让所有人都能够提交开源库，包括 JavaScript、CSS、图片和 swf 等静态文件。</p>
-<h2> 总结</h2>
-<p>以上就是今天分享的所有内容了，如果你正好在开发你的个人网站，但是又苦于响应速度太慢，不妨去试试使用这些 CDN，看看会不会加速网站响应速度呢？</p>
-]]></content:encoded>
     </item>
   </channel>
 </rss>
