@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习、面试求职、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 23 Oct 2023 00:00:57 GMT</pubDate>
-    <lastBuildDate>Mon, 23 Oct 2023 00:00:57 GMT</lastBuildDate>
+    <pubDate>Mon, 23 Oct 2023 00:21:23 GMT</pubDate>
+    <lastBuildDate>Mon, 23 Oct 2023 00:21:23 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Java 入门练习</category>
@@ -6876,10 +6876,13 @@ N = 2^E×F
 <h2> 二、软件</h2>
 <h3> 1. <a href="https://lattics.zineapi.com/zh-CN" target="_blank" rel="noopener noreferrer">Lattics</a></h3>
 <p>「类脑式」知识管理笔记与卡片式写作。增强人类知识、提升知识创造效率。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1698018989642.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://www.hulunote.com/" target="_blank" rel="noopener noreferrer">葫芦笔记</a></h3>
 <p>葫芦笔记，多人超级大脑：微信聊天整理神器，下一代多人协作办公，兼容 <code>Roam Research</code>，支持大纲编辑、双向链接、块引用、自动生成思维导图、链接图、<code>Zotero</code> 文献管理等功能，实践卡片笔记写作法、卢曼卡片盒的利器。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1698019044967.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. <a href="https://www.shimonote.net/" target="_blank" rel="noopener noreferrer">滴墨书摘</a></h3>
 <p>前所未有的笔记体验。只需要拍摄即可瞬间将书本中的笔记转换为电子文字，识别准确度达 90% 以上。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1698019068536.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
@@ -7264,31 +7267,32 @@ N = 2^E×F
 ]]></content:encoded>
     </item>
     <item>
-      <title>好物周刊#27：</title>
+      <title>好物周刊#27：音乐助手</title>
       <link>https://cunyu1943.github.io/weekly/2023/1014-1020.html</link>
       <guid>https://cunyu1943.github.io/weekly/2023/1014-1020.html</guid>
-      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#27：</source>
-      <description>好物周刊#27： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1. lamp 快速开发平台</description>
+      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#27：音乐助手</source>
+      <description>好物周刊#27：音乐助手 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/c3pYaWXQQptNAYnuZFoGEQ</description>
       <category>好物周刊</category>
       <pubDate>Tue, 05 Sep 2023 15:19:41 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 好物周刊#27：</h1>
+      <content:encoded><![CDATA[<h1> 好物周刊#27：音乐助手</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
 </div>
 <div class="hint-container tip">
 <p class="hint-container-title">原文</p>
+<p><a href="https://mp.weixin.qq.com/s/c3pYaWXQQptNAYnuZFoGEQ" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/c3pYaWXQQptNAYnuZFoGEQ</a></p>
 </div>
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://github.com/dromara/lamp-cloud" target="_blank" rel="noopener noreferrer">lamp 快速开发平台</a></h3>
 <p><code>lamp-cloud</code> 基于 <code>Jdk11</code> + <code>SpringCloud</code> + <code>SpringBoot</code> 开发的微服务中后台快速开发平台，专注于多租户(<code>SaaS</code> 架构)解决方案，亦可作为普通项目（非 <code>SaaS</code> 架构）的基础开发框架使用，目前已实现插拔式数据库隔离、<code>SCHEMA</code> 隔离、字段隔离 等租户隔离方案。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694476767200.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://github.com/valarchie/AgileBoot-Back-End" target="_blank" rel="noopener noreferrer">AgileBoot</a></h3>
 <p>规范易于二开的全栈基础快速开发脚手架。采用 <code>SpringBoot</code> + <code>Vue3</code> + <code>Typescript</code> + <code>Mybatis Plus</code> + <code>Redis</code> + 更面向对象的业务建模 + 面向生产的项目。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694476838686.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://github.com/dromara/RuoYi-Vue-Plus" target="_blank" rel="noopener noreferrer">RuoYi-Vue-Plus</a></h3>
 <p>基于 <code>RuoYi-Vue</code> 集成 <code>Lombok</code> + <code>Mybatis-Plus</code> + <code>Undertow</code> + <code>knife4j</code> + <code>Hutool</code> + <code>Feign</code> 重写所有原生业务 定期与 <code>RuoYi-Vue</code> 同步。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694476808383.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
 <h3> 1. <a href="https://github.com/maotoumao/MusicFree" target="_blank" rel="noopener noreferrer">MusicFree</a></h3>
 <p>一个插件化、定制化、无广告的免费音乐播放器，目前只支持 <code>Android</code> 和 <code>Harmony OS</code>。具有以下特性：</p>
@@ -7299,10 +7303,10 @@ N = 2^E×F
 <li>隐私</li>
 <li>歌词关联</li>
 </ul>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694476868291.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://gitee.com/dromara/redisfront" target="_blank" rel="noopener noreferrer">RedisFront</a></h3>
 <p>一款基于 <code>Java Swing</code> 开发的跨平台 <code>Redis</code> 桌面客户端工具，简单易用，功能完善，支持单机模式, 集群模式, 哨兵模式以及 <code>SSH</code> 隧道连接。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694479428453.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://github.com/lyswhut/lx-music-desktop" target="_blank" rel="noopener noreferrer">洛雪音乐助手</a></h3>
 <p>一个基于 <code>Electron</code> + <code>Vue</code> 开发的音乐软件。使用到的技术栈：</p>
 <ul>
@@ -7315,17 +7319,17 @@ N = 2^E×F
 <li><code>macOS</code></li>
 <li><code>Linux</code></li>
 </ul>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695020246006.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://trends.google.com/trends/" target="_blank" rel="noopener noreferrer">Google 指数</a></h3>
 <p>基于 <code>Google</code> 搜索数据的数据分享平台，可以展示不同关键词、主题、时间段或区域的搜索热度和趋势，还能查看时下流行每日/实时搜索趋势。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694045669849.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://index.baidu.com/v2/index.html#/" target="_blank" rel="noopener noreferrer">百度指数</a></h3>
 <p>百度指数是以百度海量网民行为数据为基础的数据分享平台。在这里，你可以研究关键词搜索趋势、洞察网民兴趣和需求、监测舆情动向、定位受众特征。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694045709392.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://index.chinaz.com/" target="_blank" rel="noopener noreferrer">站长指数</a></h3>
 <p>站长全网指数查询是以各大搜索引擎海量网民搜索行为数据为基础的数据分享平台。在这里，你可以研究关键词在各大搜索引擎的趋势、洞察网民需求变化、监测媒体舆情趋势、定位数字消费者特征；还可以从行业的角度，分析市场特点。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694045739609.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
 <h3> 1. <a href="https://chromewebstore.google.com/detail/videotogether/dpjiaamadbcfheiamdaamhgpomlkohbn" target="_blank" rel="noopener noreferrer">VideoTogether</a></h3>
 <p>一起看视频，和你的家人朋友一起在线看视频。插件特点：</p>
@@ -7334,13 +7338,13 @@ N = 2^E×F
 <li>支持所有在线视频网站和本地视频</li>
 <li>通过一行代码即可为自己的网站添加一起看功能</li>
 </ul>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/image.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://chromewebstore.google.com/detail/shazam%EF%BC%9A%E5%9C%A8%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%AD%E7%9B%B4%E6%8E%A5%E8%AF%86%E5%88%AB%E6%AD%8C%E6%9B%B2/mmioliijnhnoblpgimnlajmefafdfilb?utm_source=ext_app_menu" target="_blank" rel="noopener noreferrer">Shazam</a></h3>
 <p>在浏览器中直接识别歌曲，只需轻轻一点即可识别。用它来发现艺人、歌词与视频无需任何费用。</p>
-<figure><img src="https://files.mdnice.com/user/1194/0462c694-e4da-447f-8084-861728fae51c.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://chromewebstore.google.com/detail/printfriendly-print-and-p/ohlencieiipommannpdfcmfdpjjmeolj" target="_blank" rel="noopener noreferrer">PrintFriendly</a></h3>
 <p>一款网页打印或生成 <code>PDF</code> 的插件，会在打印之前删除垃圾广告，导航和无用浮窗从而实现页面优化，让你拥有最佳的打印阅读体验，如果经常需要打印网页，可以通过该插件让你的打印工作变得省时省力。</p>
-<figure><img src="https://files.mdnice.com/user/1194/3a7bc998-f11b-4db2-93df-f566eb974d24.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://github.com/EndlessCheng/codeforces-go" target="_blank" rel="noopener noreferrer">算法竞赛模板库</a></h3>
 <p><code>Golang</code> 算法竞赛模板库，涵盖以下知识：</p>
@@ -7351,10 +7355,10 @@ N = 2^E×F
 <li>模板补充内容（常见题型中的额外代码、建模技巧等）</li>
 <li>相关题目链接（模板题、经典题、思维转换题等）</li>
 </ul>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695167550597.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://github.com/cbamls/AI_Tutorial" target="_blank" rel="noopener noreferrer">AI_Tutorial</a></h3>
 <p>全面整理高质量的人工智能、机器学习、大数据等技术资料。内容主要来自开源项目官网、综合技术网站（<code>AIQ</code> 、<code>InfoQ</code>、<code>Stackoverflow</code>、<code>Github</code> 等、国内外知名互联网公司技术博客 (<code>FAANG</code>、<code>Alibaba</code>、<code>Meituan etc</code>)、知名技术公众号 (<code>DatafunTalk</code>、阿里技术等)。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695167590367.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://github.com/Visualize-ML/Book3_Elements-of-Mathematics" target="_blank" rel="noopener noreferrer">数学要素</a></h3>
 <p>为了让大家学数学、用数学，甚至爱上数学，作者颇费心机。尽量克服了传统数学教材的各种弊端，让大家学习时有兴趣、能看懂、有思考、更自信。丛书内容具有以下特点：</p>
 <ul>
@@ -7364,7 +7368,7 @@ N = 2^E×F
 <li>理论 + 实践</li>
 <li>学习生态</li>
 </ul>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695168676584.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
@@ -7382,7 +7386,6 @@ N = 2^E×F
 <p>扫一扫，探索另一个全新的世界。</p>
 <figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
-      <enclosure url="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694476767200.webp" type="image/webp"/>
     </item>
     <item>
       <title>好物周刊#28：</title>
