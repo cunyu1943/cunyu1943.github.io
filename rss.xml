@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习、面试求职、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 25 Oct 2023 11:03:55 GMT</pubDate>
-    <lastBuildDate>Wed, 25 Oct 2023 11:03:55 GMT</lastBuildDate>
+    <pubDate>Wed, 25 Oct 2023 11:06:34 GMT</pubDate>
+    <lastBuildDate>Wed, 25 Oct 2023 11:06:34 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Java 入门练习</category>
@@ -9222,6 +9222,28 @@ N = 2^E×F
 <p>包含发展、裁军、经济和金融、国际法、国际关系、和平与安全、社会事务等多个方面的内容。</p>
 <figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1694045873807.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
+<h3> 1. <a href="https://chromewebstore.google.com/detail/magical-ai-writer-autofil/iibninhmiggehlcdolcilmhacighjamp" target="_blank" rel="noopener noreferrer">Magical</a></h3>
+<p>免费 <code>AI</code> 写作工具、文本扩展和自动填充扩展通过 <code>OpenAI</code> 工具（<code>ChatGPT</code>，<code>GPT4</code>）自动化重复任务。</p>
+<p>使用 <code>AI</code> 和 <code>GPT4</code> 的强大力量自动化重复性任务。让 <code>Magical</code> 为您从任何站点或应用程序编写AI生成的消息、电子邮件和客户回复，所有这些都由 <code>GPT4</code> 提示驱动。保存您喜欢的消息作为模板，并使用我们的免费文本扩展器即可立即扩展它们。</p>
+<p>告别在选项卡或应用程序之间切换以访问 <code>AI</code> 和 <code>GPT4</code>，欢迎使用轻松快捷的消息（电子邮件、聊天、内部邮件等）与客户、候选人或前景联系。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1698219897662.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://chromewebstore.google.com/detail/ublacklist/pncfbmialoiaghdehhbnbhkkgmjanfhe" target="_blank" rel="noopener noreferrer">uBlacklist</a></h3>
+<p>此浏览器扩展可以帮你在谷歌搜索结果中屏蔽一些你不想看到的网站。</p>
+<p>你可以通过在搜索结果页面中直接屏蔽某个网站，也可以通过点击本扩展的图标将当前网站添加到黑名单。屏蔽规则同时支持「匹配模式」（比如 <code>*://*.example.com/*</code>）和「正则表达式」（比如 <code>/example\.(net|org)/</code>）的语法。</p>
+<p>本浏览器扩展还提供了黑名单的同步功能，可以通过 <code>Google Drive</code> 和 <code>Dropbox</code> 将黑名单列表在不同设备之间同步。除此之外，你还可以通过订阅一些公开的黑名单列表，随时获取最新的网站黑名单。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1698225838203.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://chromewebstore.google.com/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif" target="_blank" rel="noopener noreferrer">Proxy SwitchyOmega</a></h3>
+<p>轻松快捷地管理和切换多个代理设置，支持如下功能：</p>
+<ul>
+<li>自动检测未加载的元素，并可通过弹出菜单一键设置使用代理。</li>
+<li>支持需要用户名密码验证的代理服务器。</li>
+<li>更灵活的代理配置：代理情景模式、多个自动切换模式以及多个规则列表。</li>
+<li>新增多种切换条件类型，并改进原有的切换条件。</li>
+<li>PAC 脚本生成和切换的性能优化。</li>
+<li>崭新的选项页面和下拉菜单，用户体验更佳。</li>
+<li>许多错误修复以及改进。测试更充分。</li>
+</ul>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1698231645558.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://github.com/AmazingAng/WTF-Solidity" target="_blank" rel="noopener noreferrer">WTF Solidity</a></h3>
 <p><code>Solidity</code> 极简入门教程，供小白们使用，每周更新 1-3 讲。</p>
