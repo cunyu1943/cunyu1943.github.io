@@ -6,10 +6,11 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 13 Nov 2023 00:26:21 GMT</pubDate>
-    <lastBuildDate>Mon, 13 Nov 2023 00:26:21 GMT</lastBuildDate>
+    <pubDate>Tue, 14 Nov 2023 00:23:42 GMT</pubDate>
+    <lastBuildDate>Tue, 14 Nov 2023 00:23:42 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>好物周刊</category>
     <category>Java 入门练习</category>
     <category>C 语言教程</category>
     <category>C++ 语言教程</category>
@@ -19,11 +20,106 @@
     <category>Nginx 教程</category>
     <category>软件设计师</category>
     <category>Java 基础系列</category>
-    <category>好物周刊</category>
     <category>你问我答</category>
     <category>Java 基础</category>
     <category>MySQL 教程</category>
     <category>博客搭建</category>
+    <item>
+      <title>好物周刊#34：</title>
+      <link>https://cunyu1943.github.io/weekly/2023/1202-1208.html</link>
+      <guid>https://cunyu1943.github.io/weekly/2023/1202-1208.html</guid>
+      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#34：</source>
+      <description>好物周刊#34： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1. Solon</description>
+      <category>好物周刊</category>
+      <pubDate>Tue, 14 Nov 2023 00:22:06 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 好物周刊#34：</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">原文</p>
+</div>
+<h2> 一、项目</h2>
+<h3> 1. <a href="https://github.com/noear/solon" target="_blank" rel="noopener noreferrer">Solon</a></h3>
+<p><code>Java</code> 新的生态型应用开发框架，更小、更快、更简单！</p>
+<p>从零开始构建。有自己的标准规范与开放生态。组合不同的生态插件应对不同需求，方便定制，快速开发：</p>
+<ul>
+<li>克制、简洁、高效、开放、生态</li>
+<li>支持 <code>JDK8</code>、<code>JDK11</code>、<code>JDK17</code>、<code>JDK21</code></li>
+<li><code>Http</code>、<code>WebSocket</code>、<code>Socket</code> 三种信号统一的开发体验（俗称：三源合一）</li>
+<li>支持 “注解” 与 “手动” 两种模式，按需自由操控</li>
+<li><code>Not Servlet</code>，可以适配任何基础通讯框架（最小 0.3m 运行 <code>rpc</code> 架构）</li>
+<li>独特的 <code>IOC/AOP</code> 容器设计。不会因为插件变多而启动变很慢</li>
+<li>支持 <code>Web</code>、<code>Data</code>、<code>Job</code>、<code>Remoting</code>、<code>Cloud</code> 等任何开发场景</li>
+<li>兼顾 <code>Handler</code> + <code>Context</code> 和 <code>Listener</code> + <code>Message</code> 两种架构模式</li>
+<li>强调插件式扩展，可扩展可切换；适应不同的应用场景</li>
+<li>支持 <code>GraalVm Native Image</code> 打包
+允许业务插件 “热插”、“热拔”、“热管理”</li>
+</ul>
+<figure><figcaption></figcaption></figure>
+<h3> 2. <a href="https://github.com/bosnzt/wordscheck" target="_blank" rel="noopener noreferrer">敏感词检测</a></h3>
+<p>敏感词检测，违禁词过滤，敏感词过滤，敏感词库，一键启动，本地运行，私有化部署，1 分钟接入完成，支持 <code>docker</code>，支持在线 <code>api</code>。</p>
+<figure><figcaption></figcaption></figure>
+<h3> 3. <a href="https://github.com/xiaoguyu/wechatDownload" target="_blank" rel="noopener noreferrer">wechatDownload</a></h3>
+<p>微信公号文章下载工具，使用 <code>Electron</code> + <code>Typescript</code> 技术栈搭建。支持如下功能：</p>
+<ul>
+<li>单篇文章下载</li>
+<li>批量下载</li>
+<li>监控下载</li>
+<li>保存到 <code>MySQL</code></li>
+<li>线程配置</li>
+</ul>
+<figure><figcaption></figcaption></figure>
+<h2> 二、软件</h2>
+<h3> 1. <a href="https://github.com/CopyTranslator/CopyTranslator" target="_blank" rel="noopener noreferrer">CopyTranslator</a></h3>
+<p>复制即翻译的外文辅助阅读翻译解决方案，具有如下特点：</p>
+<ul>
+<li><strong>复制翻译</strong>：只需复制文本到剪贴板，下一秒即可查看翻译结果，享受所见即所得的快感。</li>
+<li><strong>优化翻译</strong>：解决多余的断句和换行带来的乱码问题，翻译结果更符合阅读习惯。</li>
+<li><strong>拖拽复制</strong>：无限接近划译的系统级开源实现，拖拽选中即可复制翻译。</li>
+</ul>
+<figure><figcaption></figcaption></figure>
+<h3> 2. <a href="https://github.com/rubickCenter/rubick" target="_blank" rel="noopener noreferrer">Rubick</a></h3>
+<p>使用 electron 构建的开源、免费效率工具。更轻便、更简洁、更安全的插件化桌面端工具箱。具有以下特点：</p>
+<ul>
+<li>更加轻量：仅仅包含插件运行所需 <code>API</code></li>
+<li>更加安全：支持基于 <code>webdav</code> 的多端数据同步，支持内网部署，从不获取任何用户数据，插件使用更加安全</li>
+<li>更加便捷：插件托管于 <code>npm</code> 仓库</li>
+<li>更加自由：代码完全开源，可以二次开发定制化</li>
+</ul>
+<figure><figcaption></figcaption></figure>
+<h3> 3. <a href="https://www.huorong.cn/person5.html" target="_blank" rel="noopener noreferrer">火绒安全</a></h3>
+<p>一款 <code>Windows</code> 操作系统下的个人电脑安全软件。主要功能有清除恶意软件、扫描电脑病毒、修补系统漏洞、清理系统垃圾、火绒剑、安全防护功能、自定义规则等。</p>
+<p>产品具有以下特点：</p>
+<ul>
+<li>干净：无任何具有广告推广性质的弹窗和捆绑等打扰用户行为</li>
+<li>轻巧：占用资源少，不影响日常办公、游戏</li>
+<li>简单：一键下载，安装后使用默认配置即可获得安全防护</li>
+<li>易用：产品性能历经数次优化，兼容性好，运行流畅</li>
+</ul>
+<figure><figcaption></figcaption></figure>
+<h2> 三、网站</h2>
+<h2> 四、插件</h2>
+<h2> 五、资料</h2>
+<h2> ✍️ 说明</h2>
+<p>周刊专栏相关信息：</p>
+<ul>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a> | <a href="https://yuque.com/cunyu1943" target="_blank" rel="noopener noreferrer">语雀</a></li>
+</ul>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<hr>
+<h2> 🎬️ 广告</h2>
+<p>当前大环境下，就业形势严峻，尤其针对即将毕业的大学生。作为一个技术求职者，求职前应该做好哪些准备呢，一些面试实战技巧也十分有必要！而刚好最近掘金出了一本《技术人求职指南》小册，相信一定会对在找工作的你有所帮助。</p>
+<p>从求职到拿下 <code>Offer</code>，一本职场的全方位攻略，快来和我一起学习吧！</p>
+<figure><figcaption></figcaption></figure>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+]]></content:encoded>
+    </item>
     <item>
       <title>一、Java 概述</title>
       <link>https://cunyu1943.github.io/java-tutorial/javase-series/java-tutorial.html</link>
@@ -8697,7 +8793,7 @@ PyPy 最突出的优点就是可以提升Python代码的执行速度，它采用
 <p>周刊专栏相关信息：</p>
 <ul>
 <li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
-<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a></li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a> | <a href="https://yuque.com/cunyu1943" target="_blank" rel="noopener noreferrer">语雀</a></li>
 </ul>
 <p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
 <hr>
@@ -8712,14 +8808,14 @@ PyPy 最突出的优点就是可以提升Python代码的执行速度，它采用
 ]]></content:encoded>
     </item>
     <item>
-      <title>好物周刊#32：</title>
+      <title>好物周刊#32：Go 学习指南</title>
       <link>https://cunyu1943.github.io/weekly/2023/1118-1124.html</link>
       <guid>https://cunyu1943.github.io/weekly/2023/1118-1124.html</guid>
-      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#32：</source>
-      <description>好物周刊#32： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1. 抖音/TikTok API</description>
+      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#32：Go 学习指南</source>
+      <description>好物周刊#32：Go 学习指南 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1. 抖音/TikTok API</description>
       <category>好物周刊</category>
       <pubDate>Tue, 19 Sep 2023 14:30:40 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 好物周刊#32：</h1>
+      <content:encoded><![CDATA[<h1> 好物周刊#32：Go 学习指南</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
@@ -8730,51 +8826,51 @@ PyPy 最突出的优点就是可以提升Python代码的执行速度，它采用
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://github.com/Evil0ctal/Douyin_TikTok_Download_API" target="_blank" rel="noopener noreferrer">抖音/TikTok API</a></h3>
 <p>一个开箱即用的高性能异步抖音 | <code>TikTok</code> 数据爬取工具，支持 <code>API</code> 调用，在线批量解析及下载。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/weekly2023-32-1.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://github.com/didi/LogicFlow" target="_blank" rel="noopener noreferrer">LogicFlow</a></h3>
 <p>一款流程图编辑框架，提供了一系列流程图交互、编辑所必需的功能和灵活的节点自定义、插件等拓展机制。<code>LogicFlow</code> 支持前端研发自定义开发各种逻辑编排场景，如流程图、<code>ER</code> 图、<code>BPMN</code> 流程等。在工作审批配置、机器人逻辑编排、无代码平台流程配置都有较好的应用。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/weekly2023-32-2.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://github.com/LorisYounger/VPet" target="_blank" rel="noopener noreferrer">VPet</a></h3>
 <p>一个开源的桌宠软件，可以内置到任何 <code>WPF</code> 应用程序。支持各种互动投喂，开源免费并且支持创意工坊。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/weekly2023-32-3.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
 <h3> 1. <a href="https://lattics.zineapi.com/zh-CN" target="_blank" rel="noopener noreferrer">Lattics</a></h3>
 <p>「类脑式」知识管理笔记与卡片式写作。增强人类知识、提升知识创造效率。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1698018989642.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://www.hulunote.com/" target="_blank" rel="noopener noreferrer">葫芦笔记</a></h3>
 <p>葫芦笔记，多人超级大脑：微信聊天整理神器，下一代多人协作办公，兼容 <code>Roam Research</code>，支持大纲编辑、双向链接、块引用、自动生成思维导图、链接图、<code>Zotero</code> 文献管理等功能，实践卡片笔记写作法、卢曼卡片盒的利器。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1698019044967.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://www.shimonote.net/" target="_blank" rel="noopener noreferrer">滴墨书摘</a></h3>
 <p>前所未有的笔记体验。只需要拍摄即可瞬间将书本中的笔记转换为电子文字，识别准确度达 90% 以上。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1698019068536.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
 <h3> 1. <a href="http://oeasy.org/" target="_blank" rel="noopener noreferrer">oeasy 教程</a></h3>
 <p>一个完全免费的综合性视频教程网站，包括 <code>PS</code> 教程、手机摄影教程、<code>AI</code> 作图教程、<code>Excel</code> 教程、<code>PPT</code> 教程、<code>Word</code> 教程、<code>AE</code> 教程等。而且所有视频教程支持免费下载，还支持下载对应的素材和软件。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1699834659664.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://www.examcoo.com/" target="_blank" rel="noopener noreferrer">考试酷</a></h3>
 <p>永久免费的电子作业与在线考试系统云平台。专为各类学校和培训机构提供考试系统，包括自测练习、组织统一考试、开展知识竞赛、布置课外作业或假期作业、智能组卷、答卷评阅与成绩管理等众多功能；也可用于政府机构、企事业单位内部的入职考试、员工考核、内部培训考试等。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1699834704985.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://www.diyijc.com/" target="_blank" rel="noopener noreferrer">第一教程网</a></h3>
 <p>第一教程网，免费的技能、特长、综合知识学习网站，专注于提供最全最实用的教育教学教程。主要栏目有：优质课视频、视频教程、学习方法、实用范文、生活常识、百科知识、阅读分享、教程下载。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1699834725615.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
 <h3> 1. <a href="https://chromewebstore.google.com/detail/%E7%81%AB%E8%8B%97%E6%97%A5%E5%8E%86/aeghnecfboaaiahloenjabomdmodhpla?hl=zh-CN" target="_blank" rel="noopener noreferrer">火苗日历</a></h3>
 <p>一款可以方便查看公历，农历，节假日的万年历，<code>MV3</code> 全新升级。</p>
 <p>可以方便查看公历、农历、节假日及二十四节气的一款界面清爽，功能齐备的万年历插件，你值得拥有。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1699834917816.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://chromewebstore.google.com/detail/%E8%BA%AB%E4%BB%BD%E9%AA%8C%E8%AF%81%E5%99%A8/bhghoamapcdpbohphigoooaddinpkbai?hl=zh-CN" target="_blank" rel="noopener noreferrer">身份验证器</a></h3>
 <p>用于在浏览器中生成两步认证代码。如果你开启了 <code>Github</code> 的 <code>2FA</code> 验证，相信它对你一定有帮助。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1699834898649.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://chromewebstore.google.com/detail/%E9%9A%90%E7%A7%81%E7%8D%BE/pkehgijcmpdhfbdbbnkijodmdjhbjlgp?hl=zh-CN" target="_blank" rel="noopener noreferrer">隐私獾</a></h3>
 <p>一个浏览器扩展程序，它可以阻止广告商和其他第三方跟踪器秘密跟踪您去哪里，以及您在网上看什么网页。 如果一个广告商似乎在未经您允许的情况下在多个网站上跟踪您，隐私獾会自动阻止该广告商在您的浏览器中加载更多内容。 对广告商来说，您就像突然消失了一样。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1699834875204.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://www.topgoer.com/" target="_blank" rel="noopener noreferrer">Go 语言中文文档</a></h3>
 <p>作者个人随笔，汇聚了关于 <code>Go</code> 语言的学习、框架、面试、资料、插件等内容。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1699834855036.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://tour.go-zh.org/list" target="_blank" rel="noopener noreferrer">Go 指南</a></h3>
 <p>涵盖 <code>Go</code> 语言的大部分重要特性，主要包括基础、方法和接口、并发三大方面的内容。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1699834829456.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://draveness.me/golang/" target="_blank" rel="noopener noreferrer">Go 语言设计与实现</a></h3>
 <p>书中结合近 200 幅生动的全彩图片，配上详尽的文字剖析与精选源代码段，为读者奉上了异彩纷呈、系统完善的 <code>Go</code> 语言解读。本书内容分为 9 章：</p>
 <ul>
@@ -8790,7 +8886,7 @@ PyPy 最突出的优点就是可以提升Python代码的执行速度，它采用
 </ul>
 <p>几乎涵盖了 <code>Go</code> 语言从编译到运行的方方面面。书中的代码片段基于 Go 1.15。</p>
 <p>通过阅读本书，读者不仅能够深入理解 <code>Go</code> 语言的实现细节，而且可以深刻认识设计背后的原理，同时提升阅读源代码的技能。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1699834784205.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
@@ -8808,17 +8904,16 @@ PyPy 最突出的优点就是可以提升Python代码的执行速度，它采用
 <p>扫一扫，探索另一个全新的世界。</p>
 <figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
-      <enclosure url="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/weekly2023-32-1.webp" type="image/webp"/>
     </item>
     <item>
-      <title>好物周刊#30：Github 上大学</title>
+      <title>好物周刊#30：我在 Github 上名校</title>
       <link>https://cunyu1943.github.io/weekly/2023/1104-1110.html</link>
       <guid>https://cunyu1943.github.io/weekly/2023/1104-1110.html</guid>
-      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#30：Github 上大学</source>
-      <description>好物周刊#30：Github 上大学 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/8g2nIilC2CZFlGVq-US_gw 一、项目 1. Fighting Design</description>
+      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#30：我在 Github 上名校</source>
+      <description>好物周刊#30：我在 Github 上名校 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/8g2nIilC2CZFlGVq-US_gw 一、项目 1. Fighting Design</description>
       <category>好物周刊</category>
       <pubDate>Thu, 14 Sep 2023 00:39:56 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 好物周刊#30：Github 上大学</h1>
+      <content:encoded><![CDATA[<h1> 好物周刊#30：我在 Github 上名校</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
@@ -8942,14 +9037,14 @@ PyPy 最突出的优点就是可以提升Python代码的执行速度，它采用
 ]]></content:encoded>
     </item>
     <item>
-      <title>好物周刊#31：</title>
+      <title>好物周刊#31：在线格式转换</title>
       <link>https://cunyu1943.github.io/weekly/2023/1111-1117.html</link>
       <guid>https://cunyu1943.github.io/weekly/2023/1111-1117.html</guid>
-      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#31：</source>
-      <description>好物周刊#31： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1. Soybean Admin</description>
+      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#31：在线格式转换</source>
+      <description>好物周刊#31：在线格式转换 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1. Soybean Admin</description>
       <category>好物周刊</category>
       <pubDate>Thu, 14 Sep 2023 00:39:56 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 好物周刊#31：</h1>
+      <content:encoded><![CDATA[<h1> 好物周刊#31：在线格式转换</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
@@ -8960,10 +9055,10 @@ PyPy 最突出的优点就是可以提升Python代码的执行速度，它采用
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://github.com/honghuangdc/soybean-admin" target="_blank" rel="noopener noreferrer">Soybean Admin</a></h3>
 <p>一个基于 <code>Vue3</code>、<code>Vite3</code>、<code>TypeScript</code>、<code>NaiveUI</code>、<code>Pinia</code> 和 <code>UnoCSS</code> 的清新优雅的中后台模版，它使用了最新流行的前端技术栈，内置丰富的主题配置，有着极高的代码规范，基于文件的路由系统以及基于 <code>Mock</code> 的动态权限路由，开箱即用的中后台前端解决方案，也可用于学习参考。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695133235107.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://github.com/chao921125/vue-vite" target="_blank" rel="noopener noreferrer">vue-vite</a></h3>
 <p><code>vue3</code> + <code>vite4</code> + <code>vue-router</code> + <code>pinia</code>，动态路由、权限管理、<code>vw</code> 适配，路由切换 <code>PC</code> 与移动端，学习商用均可，配置简单，各种实用的插件库及对应示例。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695168150961.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://github.com/tw93/Pake" target="_blank" rel="noopener noreferrer">Pake</a></h3>
 <p>利用 <code>Rust</code> 轻松构建轻量级多端桌面应用，支持 <code>Mac</code>/ <code>Windows</code>/<code>Linux</code>，具有以下特性：</p>
 <ul>
@@ -8972,24 +9067,24 @@ PyPy 最突出的优点就是可以提升Python代码的执行速度，它采用
 <li>不是单纯打包，实现了快捷键的透传、沉浸式的窗口、拖动、样式改写、去广告、产品的极简风格定制。</li>
 <li>只是一个很简单的小玩具，用 <code>Rust</code> 替代之前套壳网页打包的老思路，其实 <code>PWA</code> 也很好。</li>
 </ul>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695175329694.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
 <h3> 1. <a href="https://github.com/chat2db/Chat2DB" target="_blank" rel="noopener noreferrer">Chat2DB</a></h3>
 <p>一款开源免费的多数据库客户端工具，支持 <code>windows</code>、mac 本地安装，也支持服务器端部署，web 网页访问。 和传统的数据库客户端软件 Navicat、DBeaver 相比 Chat2DB 集成了 AIGC 的能力，能够将自然语言转换为 SQL， 也可以将 SQL 转换为自然语言，可以给出研发人员 SQL 的优化建议，极大的提升人员的效率，是 AI 时代数据库研发人员的利器， 不懂 SQL 的运营或业务也可以轻松使用快速查询业务数据、生成报表的能力。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1696648457125.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://github.com/PyJun/Mooc_Downloader" target="_blank" rel="noopener noreferrer">学无止下载器</a></h3>
 <p>学无止下载器，慕课下载器，<code>Mooc</code> 网课下载，慕课网，中国大学，网易云课堂，有道精品课，腾讯课堂，中公网校，学浪，抖音课堂，小鹅通，千聊，超星学习通，学银在线，智慧职教，智慧树，学堂在线，爱课程，B 站下载；支持视频，课件同时下载。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1696754415579.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://kapeli.com/dash" target="_blank" rel="noopener noreferrer">Dash</a></h3>
 <p>强大到你无法想象的 <code>API</code> 离线文档软件，目前仅支持 <code>macOS</code>，程序员居家必备神器。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1696814760761.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://msdn.itellyou.cn/" target="_blank" rel="noopener noreferrer">MSDN</a></h3>
 <p>提供了纯净的原版 <code>Windows</code> 系统惊喜，而且版本齐全，支持免费下载。除此之外，还有开发者工具、工具和资源、开发人员工具、服务器、设计人员工具等诸多资源提供下载。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1699833915226.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://www.dxzy163.com/" target="_blank" rel="noopener noreferrer">大学资源网</a></h3>
 <p>大学资源网致力于为每个希望提升自己能力的人提供学习平台，通过这个平台每个人都有平等提高自己能力的机会，主要学习资源有：大学课程、中学课程、小学课程、管理课程培训等视频教程！</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1699834119840.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://convertio.co/zh/" target="_blank" rel="noopener noreferrer">Convertio</a></h3>
 <p>在线转换文件的简单工具。支持超过 309 种不同的文档、图像、电子表格、电子书、文档、演示文稿、音频和视频格式。具有以下特点：</p>
 <ul>
@@ -9000,7 +9095,7 @@ PyPy 最突出的优点就是可以提升Python代码的执行速度，它采用
 <li>安全保障</li>
 <li>支持所有设备</li>
 </ul>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1699834571341.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
 <h3> 1. <a href="https://chromewebstore.google.com/detail/%E5%85%A8%E6%96%87%E4%B9%A6%E7%AD%BE/nemjnpfmngeipdjjjecgjgeognbcmkbl?hl=zh-CN" target="_blank" rel="noopener noreferrer">全文书签</a></h3>
 <p>可以全文搜索的书签和历史记录。</p>
@@ -9014,10 +9109,10 @@ PyPy 最突出的优点就是可以提升Python代码的执行速度，它采用
 <li>😺 所有东西存储在本地，没有账号，没有云存储，没有隐私问题，完全免费。（当你使用 <code>Ask GPT</code> 功能时会发送数据给 <code>OpenAI API</code>）</li>
 <li>✉️ 支持发送书签页面或浏览历史到自定义 <code>API</code>。</li>
 </ul>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1699834518561.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://chromewebstore.google.com/detail/%E6%9E%81%E9%80%9F%E7%BF%BB%E8%AF%91/pmjagijikomfjjoafjbdeojcinngkcpe?hl=zh-CN" target="_blank" rel="noopener noreferrer">极速翻译</a></h3>
 <p>一款专业的翻译扩展，支持划词翻译、全文翻译、在线翻译、截图翻译、翻译发音，修复谷歌翻译在中国大陆无法使用的问题，自动识别语言，支持上百种语言互译，帮助用户无障碍阅读外文文献。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1699834459487.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://chromewebstore.google.com/detail/%E6%96%B0%E7%AE%80%E5%BD%95%E5%B1%8F-%E6%96%B0%E4%B8%80%E4%BB%A3%E5%9C%A8%E7%BA%BF%E5%BD%95%E5%B1%8F%E6%BC%94%E7%A4%BA%E5%B7%A5%E5%85%B7/dihjfiakmdjknpoejlnocicebohlijpg?hl=zh-CN" target="_blank" rel="noopener noreferrer">新简录屏</a></h3>
 <p>新一代在线录屏演示工具，支持人像模式的屏幕录制，适合团队、销售、电商、在线课堂等各种类型场景！并且提供超长的使用时长，以及几乎无限的存储空间！而这些目前仅需要您现在安装插件即可享用，无需付费以及更多繁琐的订阅操作！支持如下核心功能：</p>
 <ul>
@@ -9027,7 +9122,7 @@ PyPy 最突出的优点就是可以提升Python代码的执行速度，它采用
 <li>多种格式，快速标注</li>
 <li>异步协作，加速理解</li>
 </ul>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1699834120129.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://github.com/gwuhaolin/dive-into-webpack" target="_blank" rel="noopener noreferrer">深入浅出 Webpack</a></h3>
 <p>本书是国内第一本系统全面讲解 <code>Webpack</code> 的图书，涵盖了 <code>Webpack</code> 的入门、配置、实战、优化、原理。</p>
@@ -9040,13 +9135,13 @@ PyPy 最突出的优点就是可以提升Python代码的执行速度，它采用
 </ul>
 <p>除了深入讲解 <code>Webpack</code>，本书还附带介绍了 <code>ES6</code>、<code>TypeScript</code>、<code>PostCSS</code>、<code>Prepack</code>、离线缓存、单页应用、<code>CDN</code> 等 <code>Web</code> 开发相关的技能。</p>
 <p>无论是对 <code>Webpack</code> 一无所知的初学者，还是经验丰富的工程师，相信都能通过本书进一步提高对 <code>Webpack</code> 的理解，让你在 <code>Web</code> 开发中更加熟练的运用 <code>Webpack</code>。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695709833569.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://github.com/Jackson0714/PassJava-Platform" target="_blank" rel="noopener noreferrer">PassJava 学习教程</a></h3>
 <p>一款面试刷题的 <code>Spring Cloud</code> 开源系统。零碎时间利用小程序查看常见面试题，夯实 <code>Java</code> 基础。 该项目可以教会你如何搭建 <code>SpringBoot</code> 项目，<code>Spring Cloud</code> 项目。 采用流行的技术，如 <code>SpringBoot</code>、<code>MyBatis</code>、<code>Redis</code>、 <code>MySql</code>、 <code>MongoDB</code>、 <code>RabbitMQ</code>、<code>Elasticsearch</code>，采用 <code>Docker</code> 容器化部署。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1699833990352.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://github.com/gopl-zh/gopl-zh.github.com" target="_blank" rel="noopener noreferrer">Go 语言圣经</a></h3>
 <p>《The Go Programming Language》 中文版本，仅供学习交流之用。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1699833915230.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
@@ -9064,7 +9159,6 @@ PyPy 最突出的优点就是可以提升Python代码的执行速度，它采用
 <p>扫一扫，探索另一个全新的世界。</p>
 <figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
-      <enclosure url="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1695133235107.webp" type="image/webp"/>
     </item>
     <item>
       <title>好物周刊#29：项目管理软件</title>
@@ -19967,13 +20061,6 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <p>至此，我们的博客就搭建完成了，是不是很简单，赶紧去试试吧！</p>
 <p>对于文中不清楚的地方，欢迎留言，我会在看到的第一时间回复你！</p>
 ]]></content:encoded>
-    </item>
-    <item>
-      <title>博客搭建</title>
-      <link>https://cunyu1943.github.io/tutorial/blog-series/</link>
-      <guid>https://cunyu1943.github.io/tutorial/blog-series/</guid>
-      <source url="https://cunyu1943.github.io/rss.xml">博客搭建</source>
-      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
     </item>
   </channel>
 </rss>
