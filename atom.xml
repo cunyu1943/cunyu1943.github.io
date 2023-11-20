@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2023-11-20T00:26:03.611Z</updated>
+  <updated>2023-11-20T00:29:27.656Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -68,7 +68,7 @@
     <title type="text">好物周刊#36：</title>
     <id>https://cunyu1943.github.io/weekly/2023/1216-1222.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/1216-1222.html"/>
-    <updated>2023-11-19T13:15:18.000Z</updated>
+    <updated>2023-11-20T00:27:48.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#36：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -123,6 +123,7 @@
 <figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1700180196380.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. <a href="https://www.internetdownloadmanager.com/" target="_blank" rel="noopener noreferrer">IDM</a></h3>
 <p>一款独特的下载工具，它不仅拥有续传功能并且可以提升你的下载速度最多达 5 倍。<code>IDM</code> 可以充分利用您的下载速度快速下载资源，支持所有的浏览器下载！</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1700438906241.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
@@ -150,7 +151,7 @@
     <title type="text">好物周刊#37：</title>
     <id>https://cunyu1943.github.io/weekly/2023/1223-1229.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/1223-1229.html"/>
-    <updated>2023-11-19T13:15:18.000Z</updated>
+    <updated>2023-11-20T00:27:48.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#37：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -191,10 +192,13 @@
 <h2> 二、软件</h2>
 <h3> 1. <a href="https://github.com/AutoDarkMode/Windows-Auto-Night-Mode" target="_blank" rel="noopener noreferrer">Windows Auto Dark Mode</a></h3>
 <p>一款能够自动帮助用户随着时间自动切换电脑主题的软件，使用软件后用户的 <code>Windows</code> 系统会随着时间的变化，自动切换当前系统主题。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1700438906241.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://desk.duba.com/" target="_blank" rel="noopener noreferrer">元气桌面</a></h3>
 <p>元气桌面（原猎豹轻桌面）包含元气壁纸和桌面整理，是一款免费桌面美化软件。独家自研动态壁纸引擎，利用图像算法、粒子特效，让静态壁纸动起来，像游戏画面一样炫酷。桌面图标一键收纳，双击隐藏桌面图标，让电脑桌面整洁有序。海量超清 4K 视频桌面壁纸，每日更新风景护眼美女清新萌宠游戏动漫壁纸图片。深度的性能优化，自定义的高性能壁纸播放器和游戏免打扰模式，让动态壁纸的性能消耗可以忽略不计。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1700438906241.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. <a href="https://eagle.cool/" target="_blank" rel="noopener noreferrer">Eagle</a></h3>
 <p>帮助你轻松管理大量图片、视频、音频素材，满足素材「收藏、整理、查找」的各种场景，支持 <code>Mac</code> 与 <code>Windows</code> 系统。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1700438907224.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
@@ -9771,7 +9775,7 @@ salary <span class="token operator">=</span> <span class="token builtin">input</
     <title type="text">好物周刊#33：</title>
     <id>https://cunyu1943.github.io/weekly/2023/1125-1201.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/1125-1201.html"/>
-    <updated>2023-11-17T00:24:38.000Z</updated>
+    <updated>2023-11-20T00:27:48.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#33：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -9836,6 +9840,15 @@ salary <span class="token operator">=</span> <span class="token builtin">input</
 </ul>
 <figure><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
+<h3> 1. <a href="https://www.reg007.com/" target="_blank" rel="noopener noreferrer">你注册过哪些网站</a></h3>
+<p>手机换号，如何保护您的数据？只需输入手机号，就能找回您使用原手机号注册或绑定过的各种应用，进行注销或解绑操作。
+<img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1700439707593.webp" alt="1700439707593" loading="lazy"></p>
+<h3> 2. <a href="https://webdemo.myscript.com/" target="_blank" rel="noopener noreferrer">MyScript</a></h3>
+<p>你还在苦恼复杂的数学公式和化学方程式没办法用电脑打出来吗？有了这个神器，就可以轻松地以手绘的方式画出来，交给电脑自动帮你转化。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1700439870917.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://cybermap.kaspersky.com/cn" target="_blank" rel="noopener noreferrer">网络威胁</a></h3>
+<p>通过该网站，能够直观看到全球黑客的攻击活动情况，查看各个国家被攻击的数据。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1700439707947.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://github.com/TideSec/BypassAntiVirus" target="_blank" rel="noopener noreferrer">BypassAntiVirus</a></h3>
