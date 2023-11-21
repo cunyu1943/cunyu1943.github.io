@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2023-11-21T00:24:00.415Z</updated>
+  <updated>2023-11-21T10:13:50.869Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -352,7 +352,7 @@
     <title type="text">好物周刊#34：</title>
     <id>https://cunyu1943.github.io/weekly/2023/1202-1208.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/1202-1208.html"/>
-    <updated>2023-11-14T00:22:06.000Z</updated>
+    <updated>2023-11-21T10:12:00.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#34：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -431,8 +431,20 @@
 </ul>
 <figure><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
+<h3> 1. <a href="https://www.xibuluo.com/" target="_blank" rel="noopener noreferrer">西部落</a></h3>
+<p>西部落软件搜索平台通过收录各类优质的软件下载网站索引，让用户快速找到对的软件的同时，也让用户告别流氓全家桶软件和捆绑安装广告软件的困扰。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1700526083607.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://duososo.com/" target="_blank" rel="noopener noreferrer">多搜搜</a></h3>
+<p>多搜搜为您提供搜索工具聚合，包括无版权图片搜索、人工智能图片搜索，<code>Gif</code> 搜索，图标搜索，电影海报搜索，无版权免费图片搜索，学习搜索，课程搜索，学术搜索，图书搜索，问答搜索，乐谱搜索，娱乐搜索，视频搜索，影视搜索，购物搜索，直播搜索，网盘搜索，企业查询，政府搜索，域名搜索，招聘搜索。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1700526145306.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://www.omofun.xyz/" target="_blank" rel="noopener noreferrer">OmoFun 动漫</a></h3>
+<p>每日动漫更新在线观看 <code>omofun</code> 动漫番剧，追番二次元 <code>omofun</code> 传送门。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1700526084251.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
+<h3> 1. <a href="https://github.com/objtube/front-end-roadmap" target="_blank" rel="noopener noreferrer">Front End Roadmap</a></h3>
+<p>一个帮助新手、初级、中级前端开发者不断精进学习的网站，前端学习路上，不再迷茫。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1700525289123.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
@@ -9775,7 +9787,7 @@ salary <span class="token operator">=</span> <span class="token builtin">input</
     <title type="text">好物周刊#33：</title>
     <id>https://cunyu1943.github.io/weekly/2023/1125-1201.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/1125-1201.html"/>
-    <updated>2023-11-20T00:27:48.000Z</updated>
+    <updated>2023-11-21T10:12:00.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#33：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -9857,6 +9869,9 @@ salary <span class="token operator">=</span> <span class="token builtin">input</
 <h3> 2. <a href="https://github.com/yangkang2021/nerf-learn" target="_blank" rel="noopener noreferrer">Nerf 学习笔记</a></h3>
 <p>记录了作者对于 <code>Nerf（神经辐射场）</code> 各种算法、应用、软件等的学习过程。</p>
 <figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1700180409419.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://github.com/Daotin/Web" target="_blank" rel="noopener noreferrer">Web</a></h3>
+<p>从零开始学 <code>Web</code> 前端系列图文教程，从零开始一步步带你进入前端的世界。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1700525288808.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
