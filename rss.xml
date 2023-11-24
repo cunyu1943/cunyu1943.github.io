@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 22 Nov 2023 12:11:56 GMT</pubDate>
-    <lastBuildDate>Wed, 22 Nov 2023 12:11:56 GMT</lastBuildDate>
+    <pubDate>Fri, 24 Nov 2023 00:11:03 GMT</pubDate>
+    <lastBuildDate>Fri, 24 Nov 2023 00:11:03 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>好物周刊</category>
@@ -108,6 +108,15 @@
 <h2> 三、网站</h2>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
+<h3> 1. <a href="https://github.com/geekcompany/ResumeSample" target="_blank" rel="noopener noreferrer">ResumeSample</a></h3>
+<p>程序员简历模板系列。包括 <code>PHP</code> 程序员简历模板、<code>iOS</code> 程序员简历模板、<code>Android</code> 程序员简历模板、<code>Web</code> 前端程序员简历模板、<code>Java</code> 程序员简历模板、<code>C/C++</code> 程序员简历模板、<code>NodeJS</code> 程序员简历模板、架构师简历模板以及通用程序员简历模板。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1700653238916.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://github.com/haizlin/fe-interview" target="_blank" rel="noopener noreferrer">fe-interview</a></h3>
+<p>前端面试每日 3+1，以面试题来驱动学习，提倡每日学习与思考，每天进步一点！每天早上 5 点纯手工发布面试题（死磕自己，愉悦大家），6000+ 道前端面试题全面覆盖。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1700654862398.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://github.com/sunface/rust-course" target="_blank" rel="noopener noreferrer">Rust 语言圣经</a></h3>
+<p>涵盖从入门到精通所需的 <code>Rust</code> 知识，目录及内容都经过深思熟虑的设计，同时语言生动幽默，行文流畅自如，摆脱技术书籍常有的机器味和晦涩感。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1700655034001.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
@@ -213,6 +222,8 @@
 <h2> 二、软件</h2>
 <h3> 1. <a href="https://www.coodesker.com/" target="_blank" rel="noopener noreferrer">酷呆桌面</a></h3>
 <p>自动分类整理桌面上的快捷方式、目录、图片等文件。</p>
+<h3> 2. <a href="https://github.com/cxasm/notepad--" target="_blank" rel="noopener noreferrer">Notepad--</a></h3>
+<p>一个使用 <code>C++</code> 编写的文本编辑器 <code>Notepad--</code>, 可以支持 <code>Win/Linux/Mac</code> 平台。</p>
 <h2> 三、网站</h2>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
@@ -282,6 +293,15 @@
 <h2> 三、网站</h2>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
+<h3> 1. <a href="https://github.com/km1994/nlp_paper_study" target="_blank" rel="noopener noreferrer">nlp_paper_study</a></h3>
+<p>主要记录 <code>NLP</code> 算法工程师相关的顶会论文研读笔记。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1700650259960.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://github.com/Light-City/CPlusPlusThings" target="_blank" rel="noopener noreferrer">C++ 那些事</a></h3>
+<p>一个适合初学者从入门到进阶的仓库，解决了面试者与学习者想要深入 <code>C++</code> 及如何入坑 <code>C++</code> 的问题。除此之外，本仓库拓展了更加深入的源码分析，多线程并发等的知识，是一个比较全面的 <code>C++</code> 学习从入门到进阶提升的仓库。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1700650468361.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://github.com/huihut/interview" target="_blank" rel="noopener noreferrer">interview</a></h3>
+<p><code>C/C++</code> 技术面试基础知识总结，包括语言、程序库、数据结构、算法、系统、网络、链接装载库等知识及面试经验、招聘、内推等信息。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1700651901784.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
@@ -390,6 +410,19 @@
 <h3> 1. <a href="https://github.com/objtube/front-end-roadmap" target="_blank" rel="noopener noreferrer">Front End Roadmap</a></h3>
 <p>一个帮助新手、初级、中级前端开发者不断精进学习的网站，前端学习路上，不再迷茫。</p>
 <figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1700525289123.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://github.com/doocs/leetcode" target="_blank" rel="noopener noreferrer">leetcode</a></h3>
+<p>项目包含 <code>LeetCode</code>、《剑指 Offer（第 2 版）》、《剑指 Offer（专项突击版）》、《程序员面试金典（第 6 版）》等题目的相关题解。所有题解均由多种编程语言实现，包括但不限于：<code>Java</code>、<code>Python</code>、<code>C++</code>、<code>Go</code>、<code>TypeScript</code>、<code>Rust</code>，日常更新。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1700612920217.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://github.com/afatcoder/LeetcodeTop" target="_blank" rel="noopener noreferrer">LeetcodeTop</a></h3>
+<p>汇总各大互联网公司容易考察的高频 <code>leetcode</code> 题。</p>
+<p>相对于力扣官方企业题库，本仓库有以下优点</p>
+<ul>
+<li>免费开放：汇总的高频题目免费分享给大家</li>
+<li>分类精细：按公司、部门、岗位进行分类，方便大家更针对性地准备面试</li>
+<li>题源可靠：全网收录题目考察情况，渠道不限于牛客、<code>CSDN</code> 博客、热心网友分享等</li>
+<li>本土特色：汇总办公地位于中国大陆的互联网企业</li>
+</ul>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1700613542669.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
@@ -9163,7 +9196,7 @@ PyPy 最突出的优点就是可以提升Python代码的执行速度，它采用
       <link>https://cunyu1943.github.io/weekly/2023/1118-1124.html</link>
       <guid>https://cunyu1943.github.io/weekly/2023/1118-1124.html</guid>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#32：Go 学习指南</source>
-      <description>好物周刊#32：Go 学习指南 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1. 抖音/TikTok API</description>
+      <description>好物周刊#32：Go 学习指南 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/JcLZJSKOJow9Ug0ZStsv-Q 一、项目 1. 抖音/TikTok API</description>
       <category>好物周刊</category>
       <pubDate>Tue, 19 Sep 2023 14:30:40 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#32：Go 学习指南</h1>
@@ -9173,6 +9206,7 @@ PyPy 最突出的优点就是可以提升Python代码的执行速度，它采用
 </div>
 <div class="hint-container tip">
 <p class="hint-container-title">原文</p>
+<p>https://mp.weixin.qq.com/s/JcLZJSKOJow9Ug0ZStsv-Q</p>
 </div>
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://github.com/Evil0ctal/Douyin_TikTok_Download_API" target="_blank" rel="noopener noreferrer">抖音/TikTok API</a></h3>
