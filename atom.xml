@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2023-11-24T00:11:03.658Z</updated>
+  <updated>2023-11-26T13:12:06.966Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -24,7 +24,7 @@
     <title type="text">好物周刊#39：</title>
     <id>https://cunyu1943.github.io/weekly/2024/0106-0112.html</id>
     <link href="https://cunyu1943.github.io/weekly/2024/0106-0112.html"/>
-    <updated>2023-11-19T13:15:18.000Z</updated>
+    <updated>2023-11-26T13:10:31.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#39：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -35,11 +35,7 @@
 </div>
 <h2> 一、项目</h2>
 <h2> 二、软件</h2>
-<h2> 三、网站</h2>
-<h2> 四、插件</h2>
-<h2> 五、资料</h2>
-<h2> ✍️ 说明</h2>
-<p>周刊专栏相关信息：</p>]]></summary>
+<h3> 1. <a href="https://zhimap.com/" target="_blank" rel="noopener noreferrer">ZhiMap</a></h3>]]></summary>
     <content type="html"><![CDATA[<h1> 好物周刊#39：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -50,6 +46,10 @@
 </div>
 <h2> 一、项目</h2>
 <h2> 二、软件</h2>
+<h3> 1. <a href="https://zhimap.com/" target="_blank" rel="noopener noreferrer">ZhiMap</a></h3>
+<p>好用、好看的在线思维导图工具，帮助你提高工作效率、学习效率。</p>
+<h3> 2. <a href="https://github.com/gedoor/legado" target="_blank" rel="noopener noreferrer">Legado</a></h3>
+<p>一款可以自定义来源阅读网络内容的工具，为广大网络文学爱好者提供一种方便、快捷舒适的试读体验。</p>
 <h2> 三、网站</h2>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
@@ -68,7 +68,7 @@
     <title type="text">好物周刊#36：</title>
     <id>https://cunyu1943.github.io/weekly/2023/1216-1222.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/1216-1222.html"/>
-    <updated>2023-11-24T00:09:12.000Z</updated>
+    <updated>2023-11-26T13:10:31.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#36：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -90,10 +90,10 @@
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://github.com/pymumu/smartdns" target="_blank" rel="noopener noreferrer">SmartDNS</a></h3>
 <p>一个运行在本地的 <code>DNS</code> 服务器，它接受来自本地客户端的 <code>DNS</code> 查询请求，然后从多个上游 <code>DNS</code> 服务器获取 <code>DNS</code> 查询结果，并将访问速度最快的结果返回给客户端，以此提高网络访问速度。 <code>SmartDNS</code> 同时支持指定特定域名 <code>IP</code> 地址，并高性匹配，可达到过滤广告的效果；支持 <code>DOT</code> (<code>DNS over TLS</code>) 和 <code>DOH</code> (<code>DNS over HTTPS</code>)，更好的保护隐私。</p>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1b39fdfb-c506-43b8-85fd-ae33b1e66dbf.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://github.com/521xueweihan/GitHub520" target="_blank" rel="noopener noreferrer">Github520</a></h3>
 <p>让你 “爱” 上 <code>GitHub</code>，无需安装即可解决访问时图裂、加载慢的问题。</p>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/20a958d4-175f-413a-8afb-8759ce6506c9.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. <a href="https://github.com/pingfangushi/screw" target="_blank" rel="noopener noreferrer">Screw</a></h3>
 <p>简洁好用的数据库表结构文档生成器。具有以下特点：</p>
 <ul>
@@ -113,7 +113,7 @@
 <li><code>PostgreSQL</code></li>
 <li><code>Cache DB（2016）</code></li>
 </ul>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/cb285baf-3ea9-43ca-ac8f-34532fc9f1d9.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
 <h3> 1. <a href="https://shutu.cn/" target="_blank" rel="noopener noreferrer">树图</a></h3>
 <p>新一代 “AI 智能” 思维导图。上传文档，AI 一键总结归纳为导图；输入想法，AI 一键生成思维导图；海量导图模板与素材的应用、文件跨平台云同步、多人同时在线协作，助力学习、工作的效率提升。</p>
@@ -123,8 +123,14 @@
 <figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1700180196380.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. <a href="https://www.internetdownloadmanager.com/" target="_blank" rel="noopener noreferrer">IDM</a></h3>
 <p>一款独特的下载工具，它不仅拥有续传功能并且可以提升你的下载速度最多达 5 倍。<code>IDM</code> 可以充分利用您的下载速度快速下载资源，支持所有的浏览器下载！</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1700438906241.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1700438906241.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
+<h3> 1. <a href="https://cloudconvert.com/" target="_blank" rel="noopener noreferrer">CloudConvert</a></h3>
+<p>云端在线图片格式转换网站，支持 200+ 种格式，具有数据安全、转换质量高、功能强大的特点。</p>
+<h3> 2. <a href="https://fonts.safe.360.cn/" target="_blank" rel="noopener noreferrer">360 查字体</a></h3>
+<p>查询字体版权，能否用于商业用途，避免侵权纠纷。</p>
+<h3> 3. <a href="https://www.myfonts.com/" target="_blank" rel="noopener noreferrer">MyFonts</a></h3>
+<p>世界上最大的字体市场，这里有最新时尚的商业英文字体，能为任何项目提供专业字体，超过 270000 种可用字体，而且还在不断增加。</p>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://github.com/geekcompany/ResumeSample" target="_blank" rel="noopener noreferrer">ResumeSample</a></h3>
@@ -160,7 +166,7 @@
     <title type="text">好物周刊#37：</title>
     <id>https://cunyu1943.github.io/weekly/2023/1223-1229.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/1223-1229.html"/>
-    <updated>2023-11-20T00:27:48.000Z</updated>
+    <updated>2023-11-26T13:10:31.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#37：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -211,6 +217,21 @@
 <h2> 三、网站</h2>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
+<h3> 1. <a href="https://github.com/142vip/408CSFamily" target="_blank" rel="noopener noreferrer">408CSFamily</a></h3>
+<p>408 计算机专业课“全家桶”复习资料，收录的大部分内容源于作者的学习输出和相关资料的整理。</p>
+<h3> 2. <a href="https://github.com/seaswalker/spring-analysis" target="_blank" rel="noopener noreferrer">Spring 源码阅读</a></h3>
+<p>汇集 <code>Spring</code> 相关组件阅读笔记，主要包括以下方面内容：</p>
+<ul>
+<li><code>Spring Core</code></li>
+<li><code>Spring Aop</code></li>
+<li><code>Spring Context</code></li>
+<li><code>Spring task</code></li>
+<li><code>Spring transaction</code></li>
+<li><code>Spring MVC</code></li>
+<li><code>guava cache</code></li>
+</ul>
+<h3> 3. <a href="https://github.com/biquanlibai/blockchain-course" target="_blank" rel="noopener noreferrer">blockchain-course</a></h3>
+<p>区块链课程资源分享，主要包含初级、中级、新技术分享、零知识证明等方面内容。</p>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
@@ -235,7 +256,7 @@
     <title type="text">好物周刊#38：</title>
     <id>https://cunyu1943.github.io/weekly/2024/0101-0105.html</id>
     <link href="https://cunyu1943.github.io/weekly/2024/0101-0105.html"/>
-    <updated>2023-11-24T00:09:12.000Z</updated>
+    <updated>2023-11-26T13:10:31.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#38：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -261,6 +282,8 @@
 <p>自动分类整理桌面上的快捷方式、目录、图片等文件。</p>
 <h3> 2. <a href="https://github.com/cxasm/notepad--" target="_blank" rel="noopener noreferrer">Notepad--</a></h3>
 <p>一个使用 <code>C++</code> 编写的文本编辑器 <code>Notepad--</code>, 可以支持 <code>Win/Linux/Mac</code> 平台。</p>
+<h3> 3. <a href="https://fancynode.com.cn/pxcook" target="_blank" rel="noopener noreferrer">PxCook</a></h3>
+<p>高效易用的自动标注工具，生成前端代码，设计研发协作利器。</p>
 <h2> 三、网站</h2>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
@@ -279,7 +302,7 @@
     <title type="text">好物周刊#35：</title>
     <id>https://cunyu1943.github.io/weekly/2023/1209-1215.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/1209-1215.html"/>
-    <updated>2023-11-24T00:09:12.000Z</updated>
+    <updated>2023-11-26T13:10:31.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#35：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -337,6 +360,12 @@
 <p><code>Excel</code> 工具箱，包含了上百个使用功能：文本处理、批量录入、删除工具、合并转换、重复值工具、数据对比、高级排序、颜色排序、合并单元格排序、 聚光灯、宏收纳箱等。</p>
 <figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1700093824758.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
+<h3> 1. <a href="https://chuangzaoshi.com/icon/" target="_blank" rel="noopener noreferrer">StrawBerry Icon</a></h3>
+<p>一款为开发者和创造者设计的免费开源小众图标库，设计师独立绘制，免费开源。</p>
+<h3> 2. <a href="https://www.easyicon.cc/" target="_blank" rel="noopener noreferrer">图标搜索网</a></h3>
+<p>提供超过六十万个 <code>SVG</code>、<code>PNG</code>、<code>ICO</code>、<code>ICNS</code> 图标搜索、图标下载服务。</p>
+<h3> 3. <a href="https://iconstore.co/" target="_blank" rel="noopener noreferrer">IconStore</a></h3>
+<p><code>IconStore</code> 是一个由才华横溢的设计师创建的免费矢量(<code>SVG</code>)图标库，可供下载用于商业用途。</p>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://github.com/km1994/nlp_paper_study" target="_blank" rel="noopener noreferrer">nlp_paper_study</a></h3>
