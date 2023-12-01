@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2023-12-01T00:17:17.583Z</updated>
+  <updated>2023-12-01T00:23:57.847Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -21,11 +21,11 @@
   <category term="你问我答"/>
   <category term="Java 基础"/>
   <entry>
-    <title type="text">好物周刊#39：</title>
+    <title type="text">好物周刊#40：</title>
     <id>https://cunyu1943.github.io/weekly/2024/0113-0119.html</id>
     <link href="https://cunyu1943.github.io/weekly/2024/0113-0119.html"/>
-    <updated>2023-11-30T11:33:20.000Z</updated>
-    <summary type="html"><![CDATA[<h1> 好物周刊#39：</h1>
+    <updated>2023-12-01T00:22:26.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 好物周刊#40：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
@@ -35,36 +35,28 @@
 </div>
 <h2> 一、项目</h2>
 <h2> 二、软件</h2>
-<h3> 1. <a href="https://zhimap.com/" target="_blank" rel="noopener noreferrer">ZhiMap</a></h3>]]></summary>
-    <content type="html"><![CDATA[<h1> 好物周刊#39：</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<div class="hint-container tip">
-<p class="hint-container-title">原文</p>
-</div>
-<h2> 一、项目</h2>
-<h2> 二、软件</h2>
-<h3> 1. <a href="https://zhimap.com/" target="_blank" rel="noopener noreferrer">ZhiMap</a></h3>
-<p>好用、好看的在线思维导图工具，帮助你提高工作效率、学习效率。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0106-0112/image-20231127082853724.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3> 2. <a href="https://github.com/gedoor/legado" target="_blank" rel="noopener noreferrer">Legado</a></h3>
-<p>一款可以自定义来源阅读网络内容的工具，为广大网络文学爱好者提供一种方便、快捷舒适的试读体验。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0106-0112/image-20231127082821478.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3> 3. <a href="https://www.rishiqing.com/" target="_blank" rel="noopener noreferrer">日事清</a></h3>
-<p>日事清是高效能团队管理专家，为追求高效、有序的工作方式的团队管理者，提供专业、有效的团队管理工具和方法，让工作变得井井有条。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0106-0112/1701303273272.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
-<h3> 1. <a href="http://open.nlc.cn/onlineedu/client/index.htm" target="_blank" rel="noopener noreferrer">国图公开课</a></h3>
-<p>中国国家图书馆推出的高质量免费在线学习网站。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0106-0112/1701302673299.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3> 2. <a href="https://www.bangongziyuan.com/" target="_blank" rel="noopener noreferrer">办公资源网</a></h3>
-<p>一家专注海量办公资源下载的网站，提供各种精美创意 <code>PPT</code> 模板、<code>Excel</code> 模板、<code>Word</code> 模板、免费音效资源及大量办公素材，包括个人简历 <code>Word</code> 模板、工作总结 <code>PPT</code>、教育培训课件等大量办公模板，来办公资源网，办公不求人。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0106-0112/1701302644938.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3> 3. <a href="http://www.howzhi.com/" target="_blank" rel="noopener noreferrer">好知</a></h3>
-<p>一个综合性在线学习平台。这里有大量的在线课程，课程涵盖计算机知识、企业管理、摄影、<code>photoshop</code>、职业技能、运动、外语、美食、时尚、手工艺、公开课、职业资格考试等。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0106-0112/1701302616603.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 1. <a href="https://msdn.sjjzm.com/" target="_blank" rel="noopener noreferrer">MSDN-山己几子木</a></h3>]]></summary>
+    <content type="html"><![CDATA[<h1> 好物周刊#40：</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">原文</p>
+</div>
+<h2> 一、项目</h2>
+<h2> 二、软件</h2>
+<h2> 三、网站</h2>
+<h3> 1. <a href="https://msdn.sjjzm.com/" target="_blank" rel="noopener noreferrer">MSDN-山己几子木</a></h3>
+<p>站内提供 <code>Windows 11</code>、<code>Windows 10</code>、<code>Windows 8.1</code>、<code>Windows 8</code>、<code>Windows 7</code>、<code>Windows XP</code> 的 <code>MSDN</code> 镜像资源展示及下载。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0113-0119/image-20231201081936486.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://www.fonts.net.cn/" target="_blank" rel="noopener noreferrer">字体天下</a></h3>
+<p>提供中文字体、手写字体、英文字体、图形字体等各种字体的高速免费下载和在线预览服务。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0113-0119/image-20231201080341645.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://www.dbbqb.com/" target="_blank" rel="noopener noreferrer">逗比表情包</a></h3>
+<p>专业的表情包搜索网站，不仅有精选表情，还有精选套图以及表情自定义。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0113-0119/image-20231201080504953.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
 <h2> ✍️ 说明</h2>
@@ -74,6 +66,10 @@
 <li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a> | <a href="https://yuque.com/cunyu1943" target="_blank" rel="noopener noreferrer">语雀</a></li>
 </ul>
 <p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content>
     <category term="好物周刊"/>
     <published>2023-11-30T11:33:20.000Z</published>
@@ -82,7 +78,7 @@
     <title type="text">好物周刊#39：</title>
     <id>https://cunyu1943.github.io/weekly/2024/0106-0112.html</id>
     <link href="https://cunyu1943.github.io/weekly/2024/0106-0112.html"/>
-    <updated>2023-11-30T11:33:20.000Z</updated>
+    <updated>2023-12-01T00:22:26.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#39：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -132,6 +128,10 @@
 <li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a> | <a href="https://yuque.com/cunyu1943" target="_blank" rel="noopener noreferrer">语雀</a></li>
 </ul>
 <p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content>
     <category term="好物周刊"/>
     <published>2023-11-19T13:15:18.000Z</published>
@@ -343,7 +343,7 @@
     <title type="text">好物周刊#38：</title>
     <id>https://cunyu1943.github.io/weekly/2024/0101-0105.html</id>
     <link href="https://cunyu1943.github.io/weekly/2024/0101-0105.html"/>
-    <updated>2023-11-30T11:33:20.000Z</updated>
+    <updated>2023-12-01T00:22:26.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#38：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -386,6 +386,9 @@
 <figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1701218832636.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
+<h3> 1. <a href="https://github.com/binghe001/BingheGuide" target="_blank" rel="noopener noreferrer">BingheGuide</a></h3>
+<p>包含：编程语言，开发技术，分布式，微服务，高并发，高可用，高可扩展，高可维护，<code>JVM</code> 技术，<code>MySQL</code>，分布式数据库，分布式事务，云原生，大数据，云计算，渗透技术，各种面试题，面试技巧等方面内容。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1701389750846.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
@@ -393,6 +396,10 @@
 <li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a> | <a href="https://yuque.com/cunyu1943" target="_blank" rel="noopener noreferrer">语雀</a></li>
 </ul>
 <p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content>
     <category term="好物周刊"/>
     <published>2023-11-16T14:25:53.000Z</published>
@@ -9966,7 +9973,7 @@ salary <span class="token operator">=</span> <span class="token builtin">input</
     <title type="text">好物周刊#33：手写公式识别</title>
     <id>https://cunyu1943.github.io/weekly/2023/1125-1201.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/1125-1201.html"/>
-    <updated>2023-11-28T13:21:05.000Z</updated>
+    <updated>2023-12-01T00:22:26.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#33：手写公式识别</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -9974,6 +9981,7 @@ salary <span class="token operator">=</span> <span class="token builtin">input</
 </div>
 <div class="hint-container tip">
 <p class="hint-container-title">原文</p>
+<p>https://mp.weixin.qq.com/s/fmmb_1yKUPediAcJkM3L3A</p>
 </div>
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://github.com/rymcu/forest" target="_blank" rel="noopener noreferrer">森林</a></h3>]]></summary>
@@ -9984,6 +9992,7 @@ salary <span class="token operator">=</span> <span class="token builtin">input</
 </div>
 <div class="hint-container tip">
 <p class="hint-container-title">原文</p>
+<p>https://mp.weixin.qq.com/s/fmmb_1yKUPediAcJkM3L3A</p>
 </div>
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://github.com/rymcu/forest" target="_blank" rel="noopener noreferrer">森林</a></h3>
