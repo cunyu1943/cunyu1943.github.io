@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2023-12-04T05:55:48.590Z</updated>
+  <updated>2023-12-04T10:56:10.505Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -405,11 +405,11 @@
     <published>2023-11-16T14:25:53.000Z</published>
   </entry>
   <entry>
-    <title type="text">好物周刊#35：</title>
+    <title type="text">好物周刊#35：图标资源获取</title>
     <id>https://cunyu1943.github.io/weekly/2023/1209-1215.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/1209-1215.html"/>
-    <updated>2023-11-27T00:30:51.000Z</updated>
-    <summary type="html"><![CDATA[<h1> 好物周刊#35：</h1>
+    <updated>2023-12-04T10:54:39.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 好物周刊#35：图标资源获取</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
@@ -419,7 +419,7 @@
 </div>
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://github.com/any86/any-rule" target="_blank" rel="noopener noreferrer">正则大全</a></h3>]]></summary>
-    <content type="html"><![CDATA[<h1> 好物周刊#35：</h1>
+    <content type="html"><![CDATA[<h1> 好物周刊#35：图标资源获取</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
@@ -458,34 +458,63 @@
 <li>截图 <code>OCR</code></li>
 <li>截图翻译</li>
 </ul>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1700094045165.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://github.com/tisfeng/Easydict" target="_blank" rel="noopener noreferrer">Easydict</a></h3>
 <p>一个简洁优雅的词典翻译 <code>macOS App</code>。开箱即用，支持离线 <code>OCR</code> 识别，支持有道词典，苹果系统词典，苹果系统翻译，<code>ChatGPT</code>，<code>DeepL</code>，<code>Google</code>，<code>Bing</code>，百度和火山翻译。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1700094007510.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 3. <a href="http://www.ffcell.com/" target="_blank" rel="noopener noreferrer">方方格子</a></h3>
 <p><code>Excel</code> 工具箱，包含了上百个使用功能：文本处理、批量录入、删除工具、合并转换、重复值工具、数据对比、高级排序、颜色排序、合并单元格排序、 聚光灯、宏收纳箱等。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1700093824758.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://chuangzaoshi.com/icon/" target="_blank" rel="noopener noreferrer">StrawBerry Icon</a></h3>
 <p>一款为开发者和创造者设计的免费开源小众图标库，设计师独立绘制，免费开源。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1701044207270.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://www.easyicon.cc/" target="_blank" rel="noopener noreferrer">图标搜索网</a></h3>
 <p>提供超过六十万个 <code>SVG</code>、<code>PNG</code>、<code>ICO</code>、<code>ICNS</code> 图标搜索、图标下载服务。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1701044155334.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://iconstore.co/" target="_blank" rel="noopener noreferrer">IconStore</a></h3>
 <p><code>IconStore</code> 是一个由才华横溢的设计师创建的免费矢量(<code>SVG</code>)图标库，可供下载用于商业用途。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1701044183959.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
+<h3> 1. <a href="https://chrome.google.com/webstore/detail/%E8%AF%AD%E9%9B%80%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6/hnbdgfongnkfgnbpamndfiiedhapfecn?hl=zh-CN" target="_blank" rel="noopener noreferrer">语雀浏览器插件</a></h3>
+<p>语雀浏览器知识管理插件，支持剪藏页面文本和图片，截图 <code>OCR</code> 识别文字，可划词剪藏、翻译，侧边栏写笔记，并存到语雀。</p>
+<figure><figcaption></figcaption></figure>
+<h3> 2. <a href="https://chromewebstore.google.com/detail/%E6%89%B9%E9%87%8F%E5%9B%BE%E7%89%87%E4%B8%8B%E8%BD%BD%E5%99%A8-imageye/agionbommeaifngbhincahgmoflcikhm" target="_blank" rel="noopener noreferrer">批量图片下载器</a></h3>
+<p>一款用于嗅探、分析网页图片并提供批量下载等功能的浏览器扩展程序。</p>
+<p>使用批量图片下载器在网页上查找并下载所有图像。
+使用此批量图片下载器，您可以在网页上查找，浏览并下载所有图像。此外，您还可以：</p>
+<ul>
+<li>根据像素宽度和高度进行过滤</li>
+<li>根据 <code>URL</code> 进行过滤</li>
+<li>一次性下载所有图像</li>
+<li>选择您想要下载的图像</li>
+<li>检查每个图像的大小</li>
+<li>复制原始图像的 <code>URL</code></li>
+<li>在各种布局选项中进行选择</li>
+<li>支持所有主要网站（<code>Instagram</code>，<code>Facebook</code>，<code>Twitter</code>...）</li>
+<li>执行反向图像搜索</li>
+<li>将 <code>.webp</code> 转换为 <code>.png</code>（测试版）</li>
+</ul>
+<figure><figcaption></figcaption></figure>
+<h3> 3. <a href="https://chromewebstore.google.com/detail/youtube%E8%A7%86%E9%A2%91%E6%91%98%E8%A6%81chatgpt%E7%94%9F%E6%88%90-%E5%BF%AB%E9%80%9F%E7%AC%94%E8%AE%B0/baecjmoceaobpnffgnlkloccenkoibbb" target="_blank" rel="noopener noreferrer">YouTube 视频摘要</a></h3>
+<p>使用 <code>ChatGPT</code> 对 <code>YouTube</code> 视频进行总结。在 <code>YouTube</code> 视频上一键截屏和记录笔记。插件具有以下特点：</p>
+<ul>
+<li>节省时间：快速找到视频字幕里的 <code>YouTube</code> 视频具体位置</li>
+<li>快速加载：视频摘要快速加载</li>
+<li>易于使用：一键复制副本和摘要</li>
+<li>快捷记录带时间戳的笔记和屏幕截图</li>
+</ul>
+<figure><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://github.com/km1994/nlp_paper_study" target="_blank" rel="noopener noreferrer">nlp_paper_study</a></h3>
 <p>主要记录 <code>NLP</code> 算法工程师相关的顶会论文研读笔记。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1700650259960.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://github.com/Light-City/CPlusPlusThings" target="_blank" rel="noopener noreferrer">C++ 那些事</a></h3>
 <p>一个适合初学者从入门到进阶的仓库，解决了面试者与学习者想要深入 <code>C++</code> 及如何入坑 <code>C++</code> 的问题。除此之外，本仓库拓展了更加深入的源码分析，多线程并发等的知识，是一个比较全面的 <code>C++</code> 学习从入门到进阶提升的仓库。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1700650468361.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://github.com/huihut/interview" target="_blank" rel="noopener noreferrer">interview</a></h3>
 <p><code>C/C++</code> 技术面试基础知识总结，包括语言、程序库、数据结构、算法、系统、网络、链接装载库等知识及面试经验、招聘、内推等信息。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1700651901784.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
