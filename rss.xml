@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 05 Dec 2023 11:12:42 GMT</pubDate>
-    <lastBuildDate>Tue, 05 Dec 2023 11:12:42 GMT</lastBuildDate>
+    <pubDate>Wed, 13 Dec 2023 00:08:14 GMT</pubDate>
+    <lastBuildDate>Wed, 13 Dec 2023 00:08:14 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>好物周刊</category>
@@ -27,7 +27,7 @@
       <link>https://cunyu1943.github.io/weekly/2024/0113-0119.html</link>
       <guid>https://cunyu1943.github.io/weekly/2024/0113-0119.html</guid>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#40：</source>
-      <description>好物周刊#40： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 二、软件 三、网站 1. MSDN-山己几子木</description>
+      <description>好物周刊#40： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 二、软件 1. WeChatMsg</description>
       <category>好物周刊</category>
       <pubDate>Thu, 30 Nov 2023 11:33:20 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#40：</h1>
@@ -40,6 +40,9 @@
 </div>
 <h2> 一、项目</h2>
 <h2> 二、软件</h2>
+<h3> 1. <a href="https://github.com/LC044/WeChatMsg" target="_blank" rel="noopener noreferrer">WeChatMsg</a></h3>
+<p>提取微信聊天记录，将其导出成 <code>HTML</code>、<code>Word</code>、<code>CSV</code> 文档永久保存，对聊天记录进行分析生成年度聊天报告。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0113-0119/1701773578459.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://msdn.sjjzm.com/" target="_blank" rel="noopener noreferrer">MSDN-山己几子木</a></h3>
 <p>站内提供 <code>Windows 11</code>、<code>Windows 10</code>、<code>Windows 8.1</code>、<code>Windows 8</code>、<code>Windows 7</code>、<code>Windows XP</code> 的 <code>MSDN</code> 镜像资源展示及下载。</p>
@@ -64,7 +67,7 @@
 <p>扫一扫，探索另一个全新的世界。</p>
 <figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
-      <enclosure url="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0113-0119/image-20231201081936486.webp" type="image/webp"/>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0113-0119/1701773578459.webp" type="image/webp"/>
     </item>
     <item>
       <title>好物周刊#39：</title>
@@ -311,7 +314,7 @@
       <link>https://cunyu1943.github.io/weekly/2024/0101-0105.html</link>
       <guid>https://cunyu1943.github.io/weekly/2024/0101-0105.html</guid>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#38：</source>
-      <description>好物周刊#38： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 二、软件 1. 酷呆桌面</description>
+      <description>好物周刊#38： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1. AiEditor</description>
       <category>好物周刊</category>
       <pubDate>Thu, 16 Nov 2023 14:25:53 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#38：</h1>
@@ -323,6 +326,12 @@
 <p class="hint-container-title">原文</p>
 </div>
 <h2> 一、项目</h2>
+<h3> 1. <a href="https://gitee.com/aieditor-team/aieditor" target="_blank" rel="noopener noreferrer">AiEditor</a></h3>
+<p>一个面向 <code>AI</code> 的下一代富文本编辑器，她基于 <code>Web Component</code>，因此支持 <code>Layui</code>、<code>Vue</code>、<code>React</code>、<code>Angular</code> 等几乎任何前端框架。她适配了 <code>PC Web</code> 端和手机端，并提供了亮色和暗色两个主题。除此之外，还提供了灵活的配置，开发者可以方便的使用其开发任何文字编辑的应用。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1701774383285.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://gitee.com/dromara/go-view" target="_blank" rel="noopener noreferrer">GoView</a></h3>
+<p>一个 <code>Vue3</code> 搭建的低代码数据可视化开发平台，将图表或页面元素封装为基础组件，无需编写代码即可完成业务需求。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1701774668856.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
 <h3> 1. <a href="https://www.coodesker.com/" target="_blank" rel="noopener noreferrer">酷呆桌面</a></h3>
 <p>自动分类整理桌面上的快捷方式、目录、图片等文件。</p>
@@ -360,7 +369,7 @@
 <p>扫一扫，探索另一个全新的世界。</p>
 <figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
-      <enclosure url="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/image-20231127082315331.webp" type="image/webp"/>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1701774383285.webp" type="image/webp"/>
     </item>
     <item>
       <title>好物周刊#35：图标资源获取</title>
