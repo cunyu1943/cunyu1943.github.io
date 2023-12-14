@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 14 Dec 2023 00:09:13 GMT</pubDate>
-    <lastBuildDate>Thu, 14 Dec 2023 00:09:13 GMT</lastBuildDate>
+    <pubDate>Thu, 14 Dec 2023 00:14:29 GMT</pubDate>
+    <lastBuildDate>Thu, 14 Dec 2023 00:14:29 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>好物周刊</category>
@@ -27,7 +27,7 @@
       <link>https://cunyu1943.github.io/weekly/2024/0113-0119.html</link>
       <guid>https://cunyu1943.github.io/weekly/2024/0113-0119.html</guid>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#40：</source>
-      <description>好物周刊#40： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 二、软件 1. WeChatMsg</description>
+      <description>好物周刊#40： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 二、软件 1. Allen Explorer</description>
       <category>好物周刊</category>
       <pubDate>Thu, 30 Nov 2023 11:33:20 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#40：</h1>
@@ -40,7 +40,19 @@
 </div>
 <h2> 一、项目</h2>
 <h2> 二、软件</h2>
-<h3> 1. <a href="https://github.com/LC044/WeChatMsg" target="_blank" rel="noopener noreferrer">WeChatMsg</a></h3>
+<h3> 1. <a href="https://www.allenxiang.com/" target="_blank" rel="noopener noreferrer">Allen Explorer</a></h3>
+<p>一款能够替代“我的电脑”的文件管理软件。类 <code>Chrome</code> 界面设计，简洁美观。</p>
+<ul>
+<li>支持多标签页、双工作区、收藏夹等功能</li>
+<li>可对文件/文件夹进行预览、置顶、标记、备注等操作</li>
+<li>集成多个功能强大的内置及第三方功能插件</li>
+<li>极大优化文件操作体验</li>
+</ul>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0113-0119/1702512381210.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://www.xyplorer.com/" target="_blank" rel="noopener noreferrer">XYplorer</a></h3>
+<p><code>Windows</code> 下的文件管理器。它具有选项卡式浏览、强大的文件搜索、多功能预览、高度可定制的界面、可选的双窗格以及许多有效自动化重复任务的独特方法。快速、轻便且便携。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0113-0119/1702512465083.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://github.com/LC044/WeChatMsg" target="_blank" rel="noopener noreferrer">WeChatMsg</a></h3>
 <p>提取微信聊天记录，将其导出成 <code>HTML</code>、<code>Word</code>、<code>CSV</code> 文档永久保存，对聊天记录进行分析生成年度聊天报告。</p>
 <figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0113-0119/1701773578459.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
@@ -67,7 +79,7 @@
 <p>扫一扫，探索另一个全新的世界。</p>
 <figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
-      <enclosure url="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0113-0119/1701773578459.webp" type="image/webp"/>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0113-0119/1702512381210.webp" type="image/webp"/>
     </item>
     <item>
       <title>好物周刊#39：</title>
