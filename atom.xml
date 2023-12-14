@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2023-12-14T11:20:44.557Z</updated>
+  <updated>2023-12-14T11:24:54.317Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -357,7 +357,7 @@
     <title type="text">好物周刊#38：</title>
     <id>https://cunyu1943.github.io/weekly/2024/0101-0105.html</id>
     <link href="https://cunyu1943.github.io/weekly/2024/0101-0105.html"/>
-    <updated>2023-12-13T00:06:43.000Z</updated>
+    <updated>2023-12-14T11:23:16.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#38：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -408,6 +408,21 @@
 <h3> 1. <a href="https://github.com/binghe001/BingheGuide" target="_blank" rel="noopener noreferrer">BingheGuide</a></h3>
 <p>包含：编程语言，开发技术，分布式，微服务，高并发，高可用，高可扩展，高可维护，<code>JVM</code> 技术，<code>MySQL</code>，分布式数据库，分布式事务，云原生，大数据，云计算，渗透技术，各种面试题，面试技巧等方面内容。</p>
 <figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1701389750846.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://github.com/Drun1baby/JavaSecurityLearning" target="_blank" rel="noopener noreferrer">JavaSecurityLearning</a></h3>
+<p>记录了作者 <code>Java</code> 安全的学习历程，主要包含以下方面的内容：</p>
+<ul>
+<li>基础开发</li>
+<li><code>Java</code> 安全基础</li>
+<li><code>Java</code> 反序列化基础</li>
+<li><code>Java</code> 反序列化进阶</li>
+<li><code>Weblogic</code></li>
+<li>内存马</li>
+<li>……</li>
+</ul>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1702552267661.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://github.com/qiurunze123/threadandjuc" target="_blank" rel="noopener noreferrer">threadandjuc</a></h3>
+<p>项目利用多线程进行千万级别导入，实现可扩展，高性能、高可用、高可靠三个高，本项目可以在千万级别数据实现无差别高性能数据上报与导入，与普通导入相比性能提高 10 倍左右，而且规避风险在偶尔的机器宕机，网络波动等情况出现时，仍能够实现数据一致，数据可靠，数据重试，数据报警等功能。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1702552755528.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
@@ -558,7 +573,7 @@
     <title type="text">好物周刊#34：超级复制神器</title>
     <id>https://cunyu1943.github.io/weekly/2023/1202-1208.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/1202-1208.html"/>
-    <updated>2023-11-28T13:21:05.000Z</updated>
+    <updated>2023-12-14T11:23:16.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#34：超级复制神器</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -566,6 +581,7 @@
 </div>
 <div class="hint-container tip">
 <p class="hint-container-title">原文</p>
+<p>https://mp.weixin.qq.com/s/2vrjZvW4gT_EqMpzEx6kNg</p>
 </div>
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://github.com/noear/solon" target="_blank" rel="noopener noreferrer">Solon</a></h3>]]></summary>
@@ -576,6 +592,7 @@
 </div>
 <div class="hint-container tip">
 <p class="hint-container-title">原文</p>
+<p>https://mp.weixin.qq.com/s/2vrjZvW4gT_EqMpzEx6kNg</p>
 </div>
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://github.com/noear/solon" target="_blank" rel="noopener noreferrer">Solon</a></h3>

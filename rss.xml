@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 14 Dec 2023 11:20:44 GMT</pubDate>
-    <lastBuildDate>Thu, 14 Dec 2023 11:20:44 GMT</lastBuildDate>
+    <pubDate>Thu, 14 Dec 2023 11:24:54 GMT</pubDate>
+    <lastBuildDate>Thu, 14 Dec 2023 11:24:54 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>好物周刊</category>
@@ -369,6 +369,21 @@
 <h3> 1. <a href="https://github.com/binghe001/BingheGuide" target="_blank" rel="noopener noreferrer">BingheGuide</a></h3>
 <p>包含：编程语言，开发技术，分布式，微服务，高并发，高可用，高可扩展，高可维护，<code>JVM</code> 技术，<code>MySQL</code>，分布式数据库，分布式事务，云原生，大数据，云计算，渗透技术，各种面试题，面试技巧等方面内容。</p>
 <figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1701389750846.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://github.com/Drun1baby/JavaSecurityLearning" target="_blank" rel="noopener noreferrer">JavaSecurityLearning</a></h3>
+<p>记录了作者 <code>Java</code> 安全的学习历程，主要包含以下方面的内容：</p>
+<ul>
+<li>基础开发</li>
+<li><code>Java</code> 安全基础</li>
+<li><code>Java</code> 反序列化基础</li>
+<li><code>Java</code> 反序列化进阶</li>
+<li><code>Weblogic</code></li>
+<li>内存马</li>
+<li>……</li>
+</ul>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1702552267661.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://github.com/qiurunze123/threadandjuc" target="_blank" rel="noopener noreferrer">threadandjuc</a></h3>
+<p>项目利用多线程进行千万级别导入，实现可扩展，高性能、高可用、高可靠三个高，本项目可以在千万级别数据实现无差别高性能数据上报与导入，与普通导入相比性能提高 10 倍左右，而且规避风险在偶尔的机器宕机，网络波动等情况出现时，仍能够实现数据一致，数据可靠，数据重试，数据报警等功能。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1702552755528.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
@@ -510,7 +525,7 @@
       <link>https://cunyu1943.github.io/weekly/2023/1202-1208.html</link>
       <guid>https://cunyu1943.github.io/weekly/2023/1202-1208.html</guid>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#34：超级复制神器</source>
-      <description>好物周刊#34：超级复制神器 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1. Solon</description>
+      <description>好物周刊#34：超级复制神器 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/2vrjZvW4gT_EqMpzEx6kNg 一、项目 1. Solon</description>
       <category>好物周刊</category>
       <pubDate>Tue, 14 Nov 2023 00:22:06 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#34：超级复制神器</h1>
@@ -520,6 +535,7 @@
 </div>
 <div class="hint-container tip">
 <p class="hint-container-title">原文</p>
+<p>https://mp.weixin.qq.com/s/2vrjZvW4gT_EqMpzEx6kNg</p>
 </div>
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://github.com/noear/solon" target="_blank" rel="noopener noreferrer">Solon</a></h3>
