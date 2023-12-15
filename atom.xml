@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2023-12-14T11:24:54.317Z</updated>
+  <updated>2023-12-15T00:39:00.166Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -442,7 +442,7 @@
     <title type="text">好物周刊#35：图标资源获取</title>
     <id>https://cunyu1943.github.io/weekly/2023/1209-1215.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/1209-1215.html"/>
-    <updated>2023-12-04T10:54:39.000Z</updated>
+    <updated>2023-12-15T00:37:15.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#35：图标资源获取</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -450,6 +450,7 @@
 </div>
 <div class="hint-container tip">
 <p class="hint-container-title">原文</p>
+<p>https://mp.weixin.qq.com/s/55LRHMH2lnOTXJOc173NDg</p>
 </div>
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://github.com/any86/any-rule" target="_blank" rel="noopener noreferrer">正则大全</a></h3>]]></summary>
@@ -460,6 +461,7 @@
 </div>
 <div class="hint-container tip">
 <p class="hint-container-title">原文</p>
+<p>https://mp.weixin.qq.com/s/55LRHMH2lnOTXJOc173NDg</p>
 </div>
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://github.com/any86/any-rule" target="_blank" rel="noopener noreferrer">正则大全</a></h3>

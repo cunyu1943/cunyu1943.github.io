@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 14 Dec 2023 11:24:54 GMT</pubDate>
-    <lastBuildDate>Thu, 14 Dec 2023 11:24:54 GMT</lastBuildDate>
+    <pubDate>Fri, 15 Dec 2023 00:39:00 GMT</pubDate>
+    <lastBuildDate>Fri, 15 Dec 2023 00:39:00 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>好物周刊</category>
@@ -403,7 +403,7 @@
       <link>https://cunyu1943.github.io/weekly/2023/1209-1215.html</link>
       <guid>https://cunyu1943.github.io/weekly/2023/1209-1215.html</guid>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#35：图标资源获取</source>
-      <description>好物周刊#35：图标资源获取 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1. 正则大全</description>
+      <description>好物周刊#35：图标资源获取 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/55LRHMH2lnOTXJOc173NDg 一、项目 1. 正则大全</description>
       <category>好物周刊</category>
       <pubDate>Thu, 16 Nov 2023 00:33:36 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#35：图标资源获取</h1>
@@ -413,6 +413,7 @@
 </div>
 <div class="hint-container tip">
 <p class="hint-container-title">原文</p>
+<p>https://mp.weixin.qq.com/s/55LRHMH2lnOTXJOc173NDg</p>
 </div>
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://github.com/any86/any-rule" target="_blank" rel="noopener noreferrer">正则大全</a></h3>
