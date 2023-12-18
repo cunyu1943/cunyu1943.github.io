@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 18 Dec 2023 00:11:00 GMT</pubDate>
-    <lastBuildDate>Mon, 18 Dec 2023 00:11:00 GMT</lastBuildDate>
+    <pubDate>Mon, 18 Dec 2023 00:12:07 GMT</pubDate>
+    <lastBuildDate>Mon, 18 Dec 2023 00:12:07 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>好物周刊</category>
@@ -211,10 +211,13 @@
 <li><code>AI</code> 图像生成高级参数设置：提供丰富的参数设置，让您更精准地掌控图像生成过程。</li>
 <li><code>AI</code> 引擎类型丰富：支持多种风格的图像生成，包括彩色动漫、写实、油墨风、二次元、动画风、AI生成 <code>APP</code> 图标等。</li>
 </ul>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1702858071180.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://chromewebstore.google.com/detail/gifs-for-github/dkgjnpbipbdaoaadbdhpiokaemhlphep" target="_blank" rel="noopener noreferrer">Gifs for Github</a></h3>
 <p>轻松搜索 <code>GIPHY</code>，将 <code>GIF</code> 添加到任何 <code>GitHub</code> 评论框中。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1702858039400.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. <a href="https://chromewebstore.google.com/detail/%E6%B5%AE%E5%9B%BE%E7%A7%80/mgpdnhlllbpncjpgokgfogidhoegebod" target="_blank" rel="noopener noreferrer">浮图秀</a></h3>
 <p>一款帮助用户快速查看页面中缩略图对应“大图”的浏览器插件。对于所支持的网站，用户鼠标悬停在缩略图时即可看到相应的高分辨率图片。目前支持的网站包括京东、天猫、淘宝、知乎、微博等 140 余个网站/域名并在不断扩展中。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1702857917761.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://github.com/geekcompany/ResumeSample" target="_blank" rel="noopener noreferrer">ResumeSample</a></h3>
 <p>程序员简历模板系列。包括 <code>PHP</code> 程序员简历模板、<code>iOS</code> 程序员简历模板、<code>Android</code> 程序员简历模板、<code>Web</code> 前端程序员简历模板、<code>Java</code> 程序员简历模板、<code>C/C++</code> 程序员简历模板、<code>NodeJS</code> 程序员简历模板、架构师简历模板以及通用程序员简历模板。</p>
@@ -313,6 +316,7 @@
 <li>支持多种用户自定义配置，用户可以自行去翻译平台申请接口；</li>
 <li>完全免费；</li>
 </ul>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1702858177282.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://chromewebstore.google.com/detail/%E6%89%A9%E5%B1%95%E7%AE%A1%E7%90%86%E5%99%A8/efolofldmcajcobffimbnokcnfcicooc" target="_blank" rel="noopener noreferrer">扩展管理器</a></h3>
 <p>快速轻松的开启、关闭、卸载扩展程序，查看卸载记录；自定义分组、设置别称或备注；支持置顶或收藏插件，并支持导出 <code>CSV</code>。最好用的插件管理工具，具有以下特色功能：</p>
 <ul>
@@ -328,6 +332,7 @@
 <li>更多点击：可以点击管理插件、快速去商城地址等；</li>
 <li>智能分组：可以自定义创建分组，并且分组会在插件列表页展示；</li>
 </ul>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1702858154497.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. <a href="https://chromewebstore.google.com/detail/%E8%87%AA%E5%8B%95%E5%88%B7%E6%96%B0%E9%A0%81%E9%9D%A2-%E9%87%8D%E6%96%B0%E5%8A%A0%E8%BC%89%E9%A0%81%E9%9D%A2/nagebjgefhenmjbjhjmdifchbnbmjgpa" target="_blank" rel="noopener noreferrer">自动刷新页面</a></h3>
 <p>该插件可在指定的秒数后自动刷新和重新加载任何页面或选项卡。只需输入页面刷新之间的秒数，然后单击“开始”按钮。</p>
 <p>这个插件最好的一点是不需要设置 - 它使用起来简单易行，安装它并让您的空闲页面自动重新加载。只需选择您希望页面刷新的时间即可发挥其魔力。</p>
@@ -339,6 +344,7 @@
 <li>在网页上显示可视计时器。</li>
 <li>强制刷新以清除缓存和 <code>cookie</code></li>
 </ul>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2023/assets/1702858118855.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://github.com/142vip/408CSFamily" target="_blank" rel="noopener noreferrer">408CSFamily</a></h3>
 <p>408 计算机专业课“全家桶”复习资料，收录的大部分内容源于作者的学习输出和相关资料的整理。</p>
