@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 29 Dec 2023 12:01:05 GMT</pubDate>
-    <lastBuildDate>Fri, 29 Dec 2023 12:01:05 GMT</lastBuildDate>
+    <pubDate>Tue, 02 Jan 2024 12:46:13 GMT</pubDate>
+    <lastBuildDate>Tue, 02 Jan 2024 12:46:13 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>好物周刊</category>
@@ -22,6 +22,13 @@
     <category>Java 基础系列</category>
     <category>你问我答</category>
     <category>Java 基础</category>
+    <item>
+      <title>2024 年刊</title>
+      <link>https://cunyu1943.github.io/weekly/2024/</link>
+      <guid>https://cunyu1943.github.io/weekly/2024/</guid>
+      <source url="https://cunyu1943.github.io/rss.xml">2024 年刊</source>
+      <pubDate>Tue, 02 Jan 2024 12:44:37 GMT</pubDate>
+    </item>
     <item>
       <title>好物周刊#41：</title>
       <link>https://cunyu1943.github.io/weekly/2024/0120-0126.html</link>
@@ -443,6 +450,8 @@
 <h3> 2. <a href="https://gitee.com/dromara/go-view" target="_blank" rel="noopener noreferrer">GoView</a></h3>
 <p>一个 <code>Vue3</code> 搭建的低代码数据可视化开发平台，将图表或页面元素封装为基础组件，无需编写代码即可完成业务需求。</p>
 <figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1701774668856.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://github.com/xaoxuu/hexo-theme-stellar" target="_blank" rel="noopener noreferrer">hexo-theme-stellar</a></h3>
+<p>一个内置文档系统的简约商务风 <code>Hexo</code> 主题，支持丰富的标签和动态数据组件。</p>
 <h2> 二、软件</h2>
 <h3> 1. <a href="https://www.coodesker.com/" target="_blank" rel="noopener noreferrer">酷呆桌面</a></h3>
 <p>自动分类整理桌面上的快捷方式、目录、图片等文件。</p>
@@ -464,6 +473,25 @@
 <p>一款图片在线去水印网站，永久免费，使用人工智能技术，支持批量去除图片中的文字、标志，多余物体等多种水印，去水印不留痕，不压画质，高质不糊图！</p>
 <figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1701218832636.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
+<h3> 1. <a href="https://chromewebstore.google.com/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp" target="_blank" rel="noopener noreferrer">ColorZilla</a></h3>
+<p>高级吸管、拾色器、渐变生成器和其他与颜色相关的实用工具。</p>
+<p>最用户友好、功能齐全、安全且可靠的颜色选择器和与颜色相关的工具套件。</p>
+<h3> 2. <a href="https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne" target="_blank" rel="noopener noreferrer">Stylus</a></h3>
+<p>一个调整网页外观的用户样式管理器。</p>
+<h3> 3. <a href="https://chromewebstore.google.com/detail/feedly-notifier/egikgfbhipinieabdmcpigejkaomgjgb" target="_blank" rel="noopener noreferrer">Feedly Notifier</a></h3>
+<p>一个精巧的扩展，可让您随时了解 <code>Feedly</code> 订阅。支持如下功能：</p>
+<ul>
+<li>显示未读新闻数</li>
+<li>未读新闻标题(直链新闻站点)</li>
+<li>文章预览在弹窗显示</li>
+<li>设置更新类别</li>
+<li>HTTPS支持</li>
+<li>将新闻标记为已读</li>
+<li>保存以便稍后阅读</li>
+<li>单击按钮即可打开网站(作为计数器)</li>
+<li>桌面通知</li>
+<li>后台模式</li>
+</ul>
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://github.com/binghe001/BingheGuide" target="_blank" rel="noopener noreferrer">BingheGuide</a></h3>
 <p>包含：编程语言，开发技术，分布式，微服务，高并发，高可用，高可扩展，高可维护，<code>JVM</code> 技术，<code>MySQL</code>，分布式数据库，分布式事务，云原生，大数据，云计算，渗透技术，各种面试题，面试技巧等方面内容。</p>
@@ -16076,202 +16104,6 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
 <h2> 总结</h2>
 <p>以上就是日常开发中常见的 4 种其他格式和 <code>JSON</code> 格式之间的转换过程了，其中，最常用的应该莫过于 <code>JSON</code> 和 Java 对象之间的相互转换了，一定要熟练掌握！关于 <code>Fastjson V2</code> 的简单使用就介绍到这里了，关于更多 <code>Fastjson V2</code> 的高级使用技巧，等待我们后续文章再见吧！</p>
-<h2> ⏳ 联系</h2>
-<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
-<p>扫一扫，探索另一个全新的世界。</p>
-<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>深入浅出 Java 注解</title>
-      <link>https://cunyu1943.github.io/java-tutorial/javase-series/20220721-annotations.html</link>
-      <guid>https://cunyu1943.github.io/java-tutorial/javase-series/20220721-annotations.html</guid>
-      <source url="https://cunyu1943.github.io/rss.xml">深入浅出 Java 注解</source>
-      <description>深入浅出 Java 注解 共勉 不要哀求，学会争取。若是如此，终有所获。 注解简介 所谓注解，其实就像一种拥有特定作用的注释，自 JDK1.5 及之后版本所引入的特性，它是放在 Java 源码的类、方法、字段、参数前的一种用作标注的“元数据”，与类、接口、枚举处于同一个层次中。 通过其作用的不同，我们常常将注解分为如下 3 类： 编写文档：通过代码中标识的注解生成对应文档（即类似于 Java doc 的文档）； 代码分析：通过代码中标识的注解对代码进行分析（使用反射）； 编译检查：通过代码中标识的注解让编译器能实现基本的编译检查（@Override）；</description>
-      <category>Java 基础</category>
-      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 深入浅出 Java 注解</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<h2> 注解简介</h2>
-<p>所谓注解，其实就像一种拥有特定作用的注释，自 JDK1.5 及之后版本所引入的特性，它是放在 Java 源码的类、方法、字段、参数前的一种用作标注的“元数据”，与类、接口、枚举处于同一个层次中。</p>
-<p>通过其作用的不同，我们常常将注解分为如下 3 类：</p>
-<ol>
-<li><strong>编写文档</strong>：通过代码中标识的注解生成对应文档（即类似于 Java doc 的文档）；</li>
-<li><strong>代码分析</strong>：通过代码中标识的注解对代码进行分析（使用反射）；</li>
-<li><strong>编译检查</strong>：通过代码中标识的注解让编译器能实现基本的编译检查（<code>@Override</code>）；</li>
-</ol>
-<h2> 常用的预定义注解</h2>
-<h3> <code>@Override</code></h3>
-<p>一般是用在方法上，表示重写该父类的方法，比如我们使用最多的 <code>toString()</code> 方法，它是 <code>Object</code> 类的一个方法，而我们的写的类都是继承自 <code>Object</code> 类，所以我们自定义的所有类都是有 <code>toString()</code> 方法的。但是如果我们自定义类中的方法在父类中没有，则不能使用该注解，否则会导致无法编译通过。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
-<h3> <code>@Deprecated</code></h3>
-<p>一般用在方法之前，表示该方法已经过期，不建议再继续使用（但是仍然有效，只不过可能有更新的版本，推荐使用更新的版本）。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
-<h3> <code>@SuppressWarnings</code></h3>
-<p>表示忽略警告信息，常用的值以及含义如下表：</p>
-<table>
-<thead>
-<tr>
-<th>值</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>deprecation</code></td>
-<td>使用了不赞成使用的类或方法时的警告</td>
-</tr>
-<tr>
-<td><code>unchecked</code></td>
-<td>使用了未经检查的转换时的警告</td>
-</tr>
-<tr>
-<td><code>fallthrough</code></td>
-<td>当 <code>switch</code> 程序块直接通往下一种情况而没有 <code>break</code> 时的警告</td>
-</tr>
-<tr>
-<td><code>path</code></td>
-<td>在类路径、源文件路径等中有不存在的路径时的警告</td>
-</tr>
-<tr>
-<td><code>serial</code></td>
-<td>当在可序列化的类上缺少 <code>serialVersionUID</code> 定义时的警告</td>
-</tr>
-<tr>
-<td><code>finally</code></td>
-<td>任何 <code>finally</code> 子句不能正常完成时的警告</td>
-</tr>
-<tr>
-<td><code>rawtypes</code></td>
-<td>泛型类型未指明</td>
-</tr>
-<tr>
-<td><code>unused</code></td>
-<td>引用定义了，但是没有被使用</td>
-</tr>
-<tr>
-<td><code>all</code></td>
-<td>关闭以上所有情况的警告</td>
-</tr>
-</tbody>
-</table>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
-<h2> 自定义注解</h2>
-<h3> 格式</h3>
-<p>我们可以使用 <code>@interface</code> 来自定义注解，其格式如下：</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>一个简单的示例如下，其中 <code>AnnoDemo</code> 代表着我们自定义注解的名称，而 <code>name()</code>、<code>age()</code>、<code>score()</code> 则分别表示自定义注解的三个属性，而且我们利用关键字 <code>default</code> 对每个属性都赋予了默认值。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 原理</h3>
-<p>注解本质上相当于一个接口，它默认继承自 <code>java.lang.annotation.Annotation</code>。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 参数</h3>
-<p>注解的参数类似于无参的方法，通常我们推荐用 <code>default</code> 来设定一个默认值，对于方法的基本要求通常有如下几点：</p>
-<ol>
-<li>方法的返回值类型不可以是 <code>void</code>；</li>
-<li>如果定义了方法，那么在使用时需要给方法进行赋值，赋值的规则如下：
-<ol>
-<li>若定义方法时，使用了关键字 <code>default</code> 对方法赋予了默认初始值，那么在使用注解时，可以不用对方法进行再次赋值；</li>
-<li>若只有一个方法需要赋值，且方法名为 <code>value</code>，那么此时 <code>value</code> 可以省略，直接定义值即可；</li>
-<li>数组赋值时，值需要用大括号 <code>{}</code> 包裹，若数组中只有一个值，那么此时 <code>{}</code> 可以省略；</li>
-</ol>
-</li>
-</ol>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>如上述例子中，<code>name()</code>、<code>age()</code>、<code>score()</code> 就是我们自定义注解的参数。而当我们要是用该注解时，则通过如下方式来对参数进行赋值。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 元注解</h2>
-<h3> 定义</h3>
-<p>所谓元注解(<code>meta annotation</code>)，就是可以用来修饰其他注解的注解。</p>
-<h3> 常用的元注解</h3>
-<ol>
-<li><code>@Target</code></li>
-</ol>
-<p>描述注解所修饰的对象范围，其取值主要有如下几种：</p>
-<table>
-<thead>
-<tr>
-<th>值</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>ElementType.TYPE</code></td>
-<td>表示可以作用于类或接口</td>
-</tr>
-<tr>
-<td><code>ElementType.FIELD</code></td>
-<td>表示可以作用于成员变量</td>
-</tr>
-<tr>
-<td><code>ElementType.METHOD</code></td>
-<td>表示可以作用于方法</td>
-</tr>
-<tr>
-<td><code>ElementType.CONSTRUCTOR</code></td>
-<td>表示可以作用于构造方法</td>
-</tr>
-<tr>
-<td><code>ElementType.PARAMETER</code></td>
-<td>表示可以作用于方法的参数</td>
-</tr>
-</tbody>
-</table>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ol start="2">
-<li><code>@Retention</code></li>
-</ol>
-<p>用于约束注解的生命周期，其取值如下：</p>
-<table>
-<thead>
-<tr>
-<th>值</th>
-<th style="text-align:left">说明</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>RetentionPolicy.SOURCE</code></td>
-<td style="text-align:left">表示在源代码文件中有效，注解将被编译器丢弃（注解信息仅保留在源码中，源码经编译后注解信息丢失，不再保留到字节码文件中）</td>
-</tr>
-<tr>
-<td><code>RetentionPolicy.CLASS</code></td>
-<td style="text-align:left">表示在字节码文件中有效，注解在字节码文件中可用，但会被 JVM 丢弃</td>
-</tr>
-<tr>
-<td><code>RetentionPolicy.RUNTIME</code></td>
-<td style="text-align:left">表示在运行时有效，此时可以通过反射机制来读取注解的信息</td>
-</tr>
-</tbody>
-</table>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ol start="3">
-<li><code>@Documented</code></li>
-</ol>
-<p>描述其他类型的注解是否被抽取到 API 文档中。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ol start="4">
-<li><code>@Inherited</code></li>
-</ol>
-<p>这是一个标记注解，描述某个注解能够被子类继承，但是该元注解只适合已经配置了 <code>@Target(ElementType.TYPE)</code> 类型的自定义注解，而且仅针对于类的继承，而对于接口的继承则无效。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ol start="5">
-<li><code>@Repeatable</code></li>
-</ol>
-<p>该注解是从 JDK1.8 新引入的元注解，表示在同一位置能够重复相同的注解。在没有该注解之前，我们一般是无法在同一类型上使用相同注解的，但引入该注解后，我们就可以在同一类型上使用相同注解。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>利用 <code>@Repeatable</code> 配置自定义注解之后，我们就可以在某个类型声明处添加多个我们自定义的注解了。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 总结</h2>
-<p>总结上述的知识点，我们将自定义注解的过程归纳为如下 3 步。</p>
-<ol>
-<li><strong>定义一个注解</strong></li>
-</ol>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><ol start="2">
-<li><strong>添加参数并设置默认值</strong></li>
-</ol>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ol start="3">
-<li><strong>利用元注解来配置我们的自定义注解</strong></li>
-</ol>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>在实际应用过程中，利用元注解配置自定义注解时，必须设置 <code>@Target</code> 和 <code>@Retention</code> 两个元注解，而且 <code>@Retention</code> 的值通常是设置为 <code>RetentionPolicy.RUNTIME</code>。</p>
-<p>好了，以上就是我们注解的相关概念以及自定义注解所需要的掌握的一些知识点了，如果你觉得对你有所帮助，那就来一波点赞关注吧！
-<strong>关注公众号，获取最新文章更新</strong></p>
-<div style="text-align:center">
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" alt="" width="200" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-</div>
 <h2> ⏳ 联系</h2>
 <p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
 <p>扫一扫，探索另一个全新的世界。</p>
