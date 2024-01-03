@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 03 Jan 2024 00:13:24 GMT</pubDate>
-    <lastBuildDate>Wed, 03 Jan 2024 00:13:24 GMT</lastBuildDate>
+    <pubDate>Wed, 03 Jan 2024 00:16:15 GMT</pubDate>
+    <lastBuildDate>Wed, 03 Jan 2024 00:16:15 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>好物周刊</category>
@@ -452,6 +452,7 @@
 <figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1701774668856.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. <a href="https://github.com/xaoxuu/hexo-theme-stellar" target="_blank" rel="noopener noreferrer">hexo-theme-stellar</a></h3>
 <p>一个内置文档系统的简约商务风 <code>Hexo</code> 主题，支持丰富的标签和动态数据组件。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1704240568952.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
 <h3> 1. <a href="https://www.coodesker.com/" target="_blank" rel="noopener noreferrer">酷呆桌面</a></h3>
 <p>自动分类整理桌面上的快捷方式、目录、图片等文件。</p>
@@ -476,8 +477,10 @@
 <h3> 1. <a href="https://chromewebstore.google.com/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp" target="_blank" rel="noopener noreferrer">ColorZilla</a></h3>
 <p>高级吸管、拾色器、渐变生成器和其他与颜色相关的实用工具。</p>
 <p>最用户友好、功能齐全、安全且可靠的颜色选择器和与颜色相关的工具套件。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1704240655799.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne" target="_blank" rel="noopener noreferrer">Stylus</a></h3>
 <p>一个调整网页外观的用户样式管理器。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1704240681938.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. <a href="https://chromewebstore.google.com/detail/feedly-notifier/egikgfbhipinieabdmcpigejkaomgjgb" target="_blank" rel="noopener noreferrer">Feedly Notifier</a></h3>
 <p>一个精巧的扩展，可让您随时了解 <code>Feedly</code> 订阅。支持如下功能：</p>
 <ul>
@@ -492,6 +495,7 @@
 <li>桌面通知</li>
 <li>后台模式</li>
 </ul>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1704240718582.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://github.com/binghe001/BingheGuide" target="_blank" rel="noopener noreferrer">BingheGuide</a></h3>
 <p>包含：编程语言，开发技术，分布式，微服务，高并发，高可用，高可扩展，高可维护，<code>JVM</code> 技术，<code>MySQL</code>，分布式数据库，分布式事务，云原生，大数据，云计算，渗透技术，各种面试题，面试技巧等方面内容。</p>
