@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 04 Jan 2024 00:34:36 GMT</pubDate>
-    <lastBuildDate>Thu, 04 Jan 2024 00:34:36 GMT</lastBuildDate>
+    <pubDate>Thu, 04 Jan 2024 11:44:44 GMT</pubDate>
+    <lastBuildDate>Thu, 04 Jan 2024 11:44:44 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>好物周刊</category>
@@ -23,6 +23,116 @@
     <category>你问我答</category>
     <category>Java 基础</category>
     <item>
+      <title>好物周刊#42：</title>
+      <link>https://cunyu1943.github.io/weekly/2024/0127-0202.html</link>
+      <guid>https://cunyu1943.github.io/weekly/2024/0127-0202.html</guid>
+      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#42：</source>
+      <description>好物周刊#42： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 二、软件 1. Fluent Search</description>
+      <category>好物周刊</category>
+      <pubDate>Thu, 04 Jan 2024 11:43:14 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 好物周刊#42：</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">原文</p>
+</div>
+<h2> 一、项目</h2>
+<h2> 二、软件</h2>
+<h3> 1. <a href="https://fluentsearch.net/" target="_blank" rel="noopener noreferrer">Fluent Search</a></h3>
+<p>一款快速启动器，融合了 Windows 11 Fluent Design 风格，当前仅支持 Windows 10 和 Windows 11。</p>
+<h2> 三、网站</h2>
+<h2> 四、插件</h2>
+<h2> 五、资料</h2>
+<h2> ✍️ 说明</h2>
+<p>周刊专栏相关信息：</p>
+<ul>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a> | <a href="https://yuque.com/cunyu1943" target="_blank" rel="noopener noreferrer">语雀</a></li>
+</ul>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<hr>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+]]></content:encoded>
+      <enclosure url="https://cunyu1943.github.io/contact/wechatpublic.png =150x" type="image/"/>
+    </item>
+    <item>
+      <title>好物周刊#43：</title>
+      <link>https://cunyu1943.github.io/weekly/2024/0203-0209.html</link>
+      <guid>https://cunyu1943.github.io/weekly/2024/0203-0209.html</guid>
+      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#43：</source>
+      <description>好物周刊#43： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 二、软件 三、网站 四、插件 五、资料 ✍️ 说明 周刊专栏相关信息：</description>
+      <category>好物周刊</category>
+      <pubDate>Thu, 04 Jan 2024 11:43:14 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 好物周刊#43：</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">原文</p>
+</div>
+<h2> 一、项目</h2>
+<h2> 二、软件</h2>
+<h2> 三、网站</h2>
+<h2> 四、插件</h2>
+<h2> 五、资料</h2>
+<h2> ✍️ 说明</h2>
+<p>周刊专栏相关信息：</p>
+<ul>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a> | <a href="https://yuque.com/cunyu1943" target="_blank" rel="noopener noreferrer">语雀</a></li>
+</ul>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<hr>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+]]></content:encoded>
+      <enclosure url="https://cunyu1943.github.io/contact/wechatpublic.png =150x" type="image/"/>
+    </item>
+    <item>
+      <title>好物周刊#44：</title>
+      <link>https://cunyu1943.github.io/weekly/2024/0210-0216.html</link>
+      <guid>https://cunyu1943.github.io/weekly/2024/0210-0216.html</guid>
+      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#44：</source>
+      <description>好物周刊#44： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 二、软件 三、网站 四、插件 五、资料 ✍️ 说明 周刊专栏相关信息：</description>
+      <category>好物周刊</category>
+      <pubDate>Thu, 04 Jan 2024 11:43:14 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 好物周刊#44：</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">原文</p>
+</div>
+<h2> 一、项目</h2>
+<h2> 二、软件</h2>
+<h2> 三、网站</h2>
+<h2> 四、插件</h2>
+<h2> 五、资料</h2>
+<h2> ✍️ 说明</h2>
+<p>周刊专栏相关信息：</p>
+<ul>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a> | <a href="https://yuque.com/cunyu1943" target="_blank" rel="noopener noreferrer">语雀</a></li>
+</ul>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<hr>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+]]></content:encoded>
+      <enclosure url="https://cunyu1943.github.io/contact/wechatpublic.png =150x" type="image/"/>
+    </item>
+    <item>
       <title>2024 年刊</title>
       <link>https://cunyu1943.github.io/weekly/2024/</link>
       <guid>https://cunyu1943.github.io/weekly/2024/</guid>
@@ -34,7 +144,7 @@
       <link>https://cunyu1943.github.io/weekly/2024/0120-0126.html</link>
       <guid>https://cunyu1943.github.io/weekly/2024/0120-0126.html</guid>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#41：</source>
-      <description>好物周刊#41： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 二、软件 三、网站 1. 熊猫搜索</description>
+      <description>好物周刊#41： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 二、软件 1. PixPin</description>
       <category>好物周刊</category>
       <pubDate>Fri, 22 Dec 2023 00:35:09 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#41：</h1>
@@ -47,9 +157,27 @@
 </div>
 <h2> 一、项目</h2>
 <h2> 二、软件</h2>
+<h3> 1. <a href="https://pixpinapp.com/" target="_blank" rel="noopener noreferrer">PixPin</a></h3>
+<p>集截图/贴图/长截图/文字识别/标注功能于一身。</p>
+<p>功能强大使用简单的截图/贴图工具，帮助你提高效率。</p>
+<h3> 2. <a href="https://github.com/PantsuDango/Dango-Translator" target="_blank" rel="noopener noreferrer">团子翻译器</a></h3>
+<p>一款生肉翻译软件，通过 OCR 识别屏幕特定范围内的文字，然后将识别到的文字调取各种翻译源，并实时输出翻译结果。</p>
+<p>软件具有如下特点：</p>
+<ul>
+<li>搭载了离线 OCR</li>
+<li>搭载了在线 OCR 和漫画 OCR</li>
+<li>实现自动模式，实时识别区域内的文本并翻译</li>
+<li>配置了 15 种翻译源</li>
+<li>账号系统，能够自动云端保存配置</li>
+<li>另有图片翻译功能，实现对生肉漫画图片自动识别、翻译、消字、嵌字</li>
+</ul>
+<h3> 3. <a href="https://www.apipost.cn/" target="_blank" rel="noopener noreferrer">Apipost</a></h3>
+<p>集 API 设计、API 调试、API 文档、自动化测试为一体的 API 研发协同平台，支持 grpc、http、websocket、socketio、socketjs 类型接口调试，支持私有化部署。</p>
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://xmsoushu.com/" target="_blank" rel="noopener noreferrer">熊猫搜索</a></h3>
 <p>熊猫搜索，熊猫搜书，聚合电子书、文档搜索引擎，一站式搜索导航，方便快速导航搜索全网资源，读书学习必备导航站。</p>
+<h3> 2. <a href="https://github.com/kaixindelele/ChatPaper" target="_blank" rel="noopener noreferrer">ChatPaper</a></h3>
+<p>全流程加速科研，利用 chatgpt 进行论文全文总结 + 专业翻译 + 润色 + 审稿 + 审稿回复。</p>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
 <h2> ✍️ 说明</h2>
@@ -71,7 +199,7 @@
       <link>https://cunyu1943.github.io/weekly/2024/0113-0119.html</link>
       <guid>https://cunyu1943.github.io/weekly/2024/0113-0119.html</guid>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#40：</source>
-      <description>好物周刊#40： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 二、软件 1. Allen Explorer</description>
+      <description>好物周刊#40： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1. 中国节假日补班日历</description>
       <category>好物周刊</category>
       <pubDate>Thu, 30 Nov 2023 11:33:20 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#40：</h1>
@@ -83,6 +211,8 @@
 <p class="hint-container-title">原文</p>
 </div>
 <h2> 一、项目</h2>
+<h3> 1. <a href="https://github.com/lanceliao/china-holiday-calender" target="_blank" rel="noopener noreferrer">中国节假日补班日历</a></h3>
+<p>中国节假日、调休、补班日历，ICS 格式，支持 IPhone、Google Calendar、Outlook 等客户端订阅。</p>
 <h2> 二、软件</h2>
 <h3> 1. <a href="https://www.allenxiang.com/" target="_blank" rel="noopener noreferrer">Allen Explorer</a></h3>
 <p>一款能够替代“我的电脑”的文件管理软件。类 <code>Chrome</code> 界面设计，简洁美观。</p>
@@ -130,7 +260,7 @@
       <link>https://cunyu1943.github.io/weekly/2024/0106-0112.html</link>
       <guid>https://cunyu1943.github.io/weekly/2024/0106-0112.html</guid>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#39：</source>
-      <description>好物周刊#39： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 二、软件 1. ZhiMap</description>
+      <description>好物周刊#39： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1. Powerlevel10k</description>
       <category>好物周刊</category>
       <pubDate>Sun, 19 Nov 2023 13:15:18 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#39：</h1>
@@ -142,6 +272,15 @@
 <p class="hint-container-title">原文</p>
 </div>
 <h2> 一、项目</h2>
+<h3> 1. <a href="https://github.com/romkatv/powerlevel10k" target="_blank" rel="noopener noreferrer">Powerlevel10k</a></h3>
+<p>最好看，方便，实用的 zsh 命令行主题。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0106-0112/1704327242436.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://github.com/Nikati/WebStack-Guns-NKT" target="_blank" rel="noopener noreferrer">WebStack-Guns-NKT</a></h3>
+<p>一个开源的网址导航网站项目，具备完整的前后台，后端使用 SpringBoot 搭建，可以拿来制作自己的网址导航。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0106-0112/1704328390116.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://github.com/gfriends/gfriends" target="_blank" rel="noopener noreferrer">Gfriends</a></h3>
+<p>媒体服务器演员头像仓库。旨在满足数量需求前提下，尽可能收集和处理高质量女友头像，并提供导入媒体服务器方案。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0106-0112/1704328314135.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
 <h3> 1. <a href="https://zhimap.com/" target="_blank" rel="noopener noreferrer">ZhiMap</a></h3>
 <p>好用、好看的在线思维导图工具，帮助你提高工作效率、学习效率。</p>
@@ -164,6 +303,8 @@
 <figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0106-0112/1701302616603.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
+<h3> 1.<a href="https://github.com/tsejx/javascript-guidebook" target="_blank" rel="noopener noreferrer">JavaScript Guidebook</a></h3>
+<p>JavaScript 前端知识图谱，整理自各大技术社区和权威书籍的前端技术图谱。</p>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
@@ -176,7 +317,7 @@
 <p>扫一扫，探索另一个全新的世界。</p>
 <figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
-      <enclosure url="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0106-0112/image-20231127082853724.webp" type="image/webp"/>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0106-0112/1704327242436.webp" type="image/webp"/>
     </item>
     <item>
       <title>好物周刊#36：程序员简历</title>
@@ -428,14 +569,14 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>好物周刊#38：</title>
+      <title>好物周刊#38：在线图片处理</title>
       <link>https://cunyu1943.github.io/weekly/2024/0101-0105.html</link>
       <guid>https://cunyu1943.github.io/weekly/2024/0101-0105.html</guid>
-      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#38：</source>
-      <description>好物周刊#38： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1. AiEditor</description>
+      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#38：在线图片处理</source>
+      <description>好物周刊#38：在线图片处理 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1. AiEditor</description>
       <category>好物周刊</category>
       <pubDate>Thu, 16 Nov 2023 14:25:53 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 好物周刊#38：</h1>
+      <content:encoded><![CDATA[<h1> 好物周刊#38：在线图片处理</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
@@ -15644,470 +15785,6 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <div style="text-align:center">
 <figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" alt="" width="200" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 </div>
-<h2> ⏳ 联系</h2>
-<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
-<p>扫一扫，探索另一个全新的世界。</p>
-<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>是时候拥抱 Junit 单元测试了</title>
-      <link>https://cunyu1943.github.io/java-tutorial/javase-series/20220718-test-with-junit.html</link>
-      <guid>https://cunyu1943.github.io/java-tutorial/javase-series/20220718-test-with-junit.html</guid>
-      <source url="https://cunyu1943.github.io/rss.xml">是时候拥抱 Junit 单元测试了</source>
-      <description>是时候拥抱 Junit 单元测试了 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/_FWd0Bj3DlbCReex6pqJKQ 何为测试 在计算机领域中，所谓测试，描述的是一种用来鉴定软件正确性、完整性和质量的过程。而软件测试又一般可以分为黑盒测试和白盒测试，两者的相关定义如下。</description>
-      <category>Java 基础</category>
-      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 是时候拥抱 Junit 单元测试了</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<div class="hint-container tip">
-<p class="hint-container-title">原文</p>
-<p>https://mp.weixin.qq.com/s/_FWd0Bj3DlbCReex6pqJKQ</p>
-</div>
-<h2> 何为测试</h2>
-<p>在计算机领域中，所谓测试，描述的是一种用来鉴定软件正确性、完整性和质量的过程。而软件测试又一般可以分为黑盒测试和白盒测试，两者的相关定义如下。</p>
-<h3> 黑盒测试</h3>
-<blockquote>
-<p>黑盒测试（<code>black-box testing</code>），也称黑箱测试，是软件测试方法，测试应用程序的功能，而不是其内部结构或运作。测试者不需具备应用程序的代码、内部结构和编程语言的专门知识。测试者只需知道什么是系统应该做的事，即当键入一个特定的输入，可得到一定的输出。测试案例是依应用系统应该做的功能，照规范、规格或要求等设计。测试者选择有效输入和无效输入来验证是否正确的输出。</p>
-</blockquote>
-<p>黑盒测试方法可适合大部分的软件测试，例如集成测试（<code>integration testing</code>）以及系统测试（<code>system testing</code>）。</p>
-<h3> 白盒测试</h3>
-<blockquote>
-<p>白盒测试（<code>white-box testing</code>），又称透明盒测试 <code>glass box testing</code>、结构测试 <code>structural testing</code> 等）是一个测试软件的方法，测试应用程序的内部结构或运作，而不是测试应用程序的功能（即黑盒测试）。在白盒测试时，以编程语言的角度来设计测试案例。测试者输入资料验证资料流在程序中的流动路径，并确定适当的输出，类似测试电路中的节点。</p>
-</blockquote>
-<p>白盒测试可以应用于单元测试（<code>unit testing</code>）、集成测试（<code>integration testing</code>）和系统的软件测试流程，可测试在集成过程中每一单元之间的路径，或者主系统跟子系统中的测试。尽管这种测试的方法可以发现许多的错误或问题，它可能无法检测未使用部分的规范。</p>
-<p>介绍一下黑白盒测试，主要是为了大家有一个概念，明白两者之间的区别，关于更多测试的内容，这里就不展开讲了，毕竟我们的重点是 JUnit。</p>
-<h2> JUnit 简介</h2>
-<h3> 什么是 JUnit</h3>
-<blockquote>
-<p>官网：https://junit.org/</p>
-</blockquote>
-<p>JUnit 是一个编写可重复测试的简单框架，是单元测试框架 xUnit 的一个实例，属于白盒测试。</p>
-<p>针对 Java 语言而言，程序中最小的功能单元是方法，因此，对 Java 程序进行单元测试就是针对单个 Java 方法的测试。</p>
-<p>在我们简单的小程序中，平常测试使用的方法是在主类中创建对象，然后调用对应方法。但是这样一来存在两个缺点：</p>
-<ol>
-<li>不能将测试代码和业务代码分离；</li>
-<li>未打印出测试结果和期望结果；</li>
-</ol>
-<p>因此此时我们就需要一种新的测试框架来帮助我们编写测试，而 JUnit 则是专门针对 Java 而设计的一种标准单元测试框架。作为一个 Java 开发者，学习 JUnit 来进行测试是必备技能。</p>
-<h3> 如何安装 JUnit</h3>
-<ul>
-<li><strong>本地安装</strong></li>
-</ul>
-<p>对于这种方法，我们只需要去下载 JUnit 最新的包，当前有 Junit4 和 Junit5 两个版本，可以根据自己的需要进行选择然后导入我们 IDE 的依赖文件即可，依赖文件下载地址如下：</p>
-<blockquote>
-<p>JUnit4：https://github.com/junit-team/junit4/releases/</p>
-<p>JUnit5：https://github.com/junit-team/junit5/releases/</p>
-</blockquote>
-<p>以 IDEA 为例，依次打开 <code>File -&gt; Project Structure -&gt; Project Settings -&gt; Modules -&gt; Dependencies -&gt; 点击 + -&gt; Library... -&gt; Java</code>，最后找到下载的 JUnit 文件即可；</p>
-
-<ul>
-<li><strong>Maven 安装</strong></li>
-</ul>
-<p>当使用 Maven 之后，我们就能十分简单地安装 JUnit 了，只需要在项目的 <code>pom.xml</code> 配置文件中导入依赖即可；</p>
-<div class="language-xml line-numbers-mode" data-ext="xml"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 使用 Junit 进行单元测试</h3>
-<p>首先我们需要有一个主类，然后基于该类来进行测试，这里我们以简单的运算器为例；</p>
-<p>创建一个简易计算机类 <code>Calc</code>，然后包括加法 <code>add</code> 和减法 <code>sub</code> 两个方法；</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>定义好上述主类之后，我们来进行测试，测试步骤如下；</p>
-<ol>
-<li><strong>定义测试类</strong></li>
-</ol>
-<p>定义测试类时，我们推荐定义类名时就是 <strong>主类 Test</strong> 的形式，比如我们上面的类为 <code>Calc</code>，我们要对其进行测试，则测试类的类名为 <code>CalcTest</code>；</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ol start="2">
-<li><strong>定义测试方法</strong></li>
-</ol>
-<p>测试类定义好之后，我们就可以定义测试方法了，而定义测试方法时，我们也有几点建议；</p>
-<ul>
-<li>测试方法名是在主类方法名前加上 <code>test</code>，比如我们上边的方法为 <code>add</code>，则我们对应的测试方法名为 <code>testAdd</code>；</li>
-<li>针对测试方法的返回值，因为我们只需要在方法内给出结果即可，不用再供其他人调用，所以建议返回值设置为 <code>void</code>；</li>
-<li>针对测试方法的参数列表，由于我们主要还是针对传统建类调用方法测试的方法，所以此时最好是保持参数列表为空；</li>
-</ul>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>其中，<code>@Test</code> 为注解，用来注释一个普通的方法为一条测试用例。<code>assertEquals</code> 方法用于断言两个值是否相等。</p>
-<p>如果测试成功，则在 IDE 中会出现如下提示。</p>
-<figure><figcaption></figcaption></figure>
-<p>一般来讲，测试成功一般是绿色，而测试失败则是红色。</p>
-<ul>
-<li>测试成功的界面</li>
-</ul>
-<figure><figcaption></figcaption></figure>
-<ul>
-<li>测试失败的界面</li>
-</ul>
-<figure><figcaption></figcaption></figure>
-<p>总结起来，我们针对一个方法的具体测试的步骤如下：</p>
-<ol>
-<li>首先是创建被测试类的对象；</li>
-<li>然后调用被测试的方法；</li>
-<li>最后加入断言，判断调用方法得到结果和实际的结果之间是否相同；</li>
-</ol>
-<h2> JUnit 常用注解</h2>
-<p>由于现在主要用到的有 Junit4 和 Junit5 两个版本，而两者之间也是存在一些区别的，所以在这里给出两者中常用注解的一些差异。</p>
-<p>下表中，给出了 Junit4 和 Junit5 中所共有功能的对应注解：</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">Junit4 注解</th>
-<th>Junit5 注解</th>
-<th style="text-align:left">说明</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><code>@Test</code></td>
-<td><code>@Test</code></td>
-<td style="text-align:left">标识一条测试用例</td>
-</tr>
-<tr>
-<td style="text-align:center"><code>@Ignore</code></td>
-<td><code>@Disable</code></td>
-<td style="text-align:left">忽略的测试用例</td>
-</tr>
-<tr>
-<td style="text-align:center"><code>@Before</code></td>
-<td><code>@BeforeEach</code></td>
-<td style="text-align:left">每一个测试方法之前运行</td>
-</tr>
-<tr>
-<td style="text-align:center"><code>@After</code></td>
-<td><code>@AfterEach</code></td>
-<td style="text-align:left">每一个测试方法之后运行</td>
-</tr>
-<tr>
-<td style="text-align:center"><code>@BefreClass</code></td>
-<td><code>@BeforeAll</code></td>
-<td style="text-align:left">所有测试开始之前运行</td>
-</tr>
-<tr>
-<td style="text-align:center"><code>@AfterClass</code></td>
-<td><code>@AfterAll</code></td>
-<td style="text-align:left">所有测试结果之后运行</td>
-</tr>
-<tr>
-<td style="text-align:center"><code>@Category</code></td>
-<td><code>@Tag</code></td>
-<td style="text-align:left">标记和过滤</td>
-</tr>
-</tbody>
-</table>
-<p>而相对于 Junit4，Junit5 也有做出升级，其特有的一些注解如下：</p>
-<table>
-<thead>
-<tr>
-<th>注解</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>@TestFactory</code></td>
-<td>测试工厂进行动态测试</td>
-</tr>
-<tr>
-<td><code>@Nested</code></td>
-<td>嵌套测试</td>
-</tr>
-<tr>
-<td><code>@ExtendWith</code></td>
-<td>注册自定义扩展</td>
-</tr>
-</tbody>
-</table>
-<h2> 常用断言方法</h2>
-<p>而在测试中，我们经常用到断言方法。这些断言方法都来自于由继承了 <code>java.lang.Object</code> 的 <code>Assert</code> 类，用于提供编写测试。</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">方法</th>
-<th style="text-align:left">说明</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"><code>void assertArrayEquals([String message],expected array, result array)</code></td>
-<td style="text-align:left">断言预期数组和结果数组相等</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>void assertEquals([String message],expected value, actual value)</code></td>
-<td style="text-align:left">断言两个值是否相等。类似于字符串比较使用的 <code>equals()</code> 方法</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>void assertNotEquals(String message], first, second)</code></td>
-<td style="text-align:left">查看两个对象是否不相等</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>void assertNull(String message], object)</code></td>
-<td style="text-align:left">查看对象是否为空</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>void assertNotNull(String message], object)</code></td>
-<td style="text-align:left">查看对象是否不为空</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>void assertSame(String message], expected, actual)</code></td>
-<td style="text-align:left">查看两个对象的引用是否相等。类似于使用 <code>==</code> 比较两个对象</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>void assertNotSame(String message], unexpected, actual)</code></td>
-<td style="text-align:left">查看两个对象的引用是否不相等。类似于使用 <code>!=</code> 比较两个对象</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>void assertTrue(String message], boolean condition)</code></td>
-<td style="text-align:left">查看运行结果是否为 <code>true</code></td>
-</tr>
-<tr>
-<td style="text-align:left"><code>void assertFalse([String message], boolean condition)</code></td>
-<td style="text-align:left">查看运行结果是否为 <code>false</code></td>
-</tr>
-<tr>
-<td style="text-align:left"><code>void assertThat([String message], actual, matcher)</code></td>
-<td style="text-align:left">查看实际值是否满足指定的条件</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>fail()</code></td>
-<td style="text-align:left">让测试失败</td>
-</tr>
-</tbody>
-</table>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
-<h2> 总结</h2>
-<p>好了，以上就是有关单元测试 Junit 的简单使用指南了。虽说大家现在还是有很多人在使用 Junit4，但如果你之前并未接触过 Junit，个人建议那就直接学习 Junit5 吧。当然了，Junit4 了解也是很有必要的，毕竟技多不压身，多一份技能少求人嘛。</p>
-<p><strong>关注公众号，获取最新文章更新</strong></p>
-<h2> ⏳ 联系</h2>
-<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
-<p>扫一扫，探索另一个全新的世界。</p>
-<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Lombok 安装及使用指南</title>
-      <link>https://cunyu1943.github.io/java-tutorial/javase-series/20220719-lombok-install-and-usage.html</link>
-      <guid>https://cunyu1943.github.io/java-tutorial/javase-series/20220719-lombok-install-and-usage.html</guid>
-      <source url="https://cunyu1943.github.io/rss.xml">Lombok 安装及使用指南</source>
-      <description>Lombok 安装及使用指南 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/t4h5VRfbYqNIRZVlMaqPEg 简介 为了减少写一些 get/set/toString 方法，让项目代码更加整洁，提高开发效率，发现大家都开始采用 Lombok 这个工具。Lombok 是一个 Java 类库，它会自动插入编辑器和构建工具，用于帮助开发人员消除 Java 中冗长样板代码。而我们开发人员所要做的，仅仅是添加几个 Lombok 中的注解，就可以替换掉原来的多行 get/set/toString 方法代码，既简洁也易于维护。下面我们就来看看，如何安装并使用这一工具。</description>
-      <category>Java 基础</category>
-      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Lombok 安装及使用指南</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<div class="hint-container tip">
-<p class="hint-container-title">原文</p>
-<p>https://mp.weixin.qq.com/s/t4h5VRfbYqNIRZVlMaqPEg</p>
-</div>
-<h2> 简介</h2>
-<p>为了减少写一些 <code>get/set/toString</code> 方法，让项目代码更加整洁，提高开发效率，发现大家都开始采用 Lombok 这个工具。Lombok 是一个 Java 类库，它会自动插入编辑器和构建工具，用于帮助开发人员消除 Java 中冗长样板代码。而我们开发人员所要做的，仅仅是添加几个 Lombok 中的注解，就可以替换掉原来的多行 <code>get/set/toString</code> 方法代码，既简洁也易于维护。下面我们就来看看，如何安装并使用这一工具。</p>
-<h2> 安装 Lombok</h2>
-<p>日常开发中，相信大多数人现在使用的都是 IDEA 这个 Java 神器了，如果你还在使用 Eclipse 或者 MyEclipse 等工具，那强烈推荐你去体验一把 IDEA，相信你一用上它就会爱上它的强大！下面我就以在 IDEA 中使用 Lombok 为例，看看如何安装并使用它。</p>
-<p>在先前 IDEA 的版本中，Lombok 是需要通过插件来安装的，安装方法如下：依次进入<code>File -&gt; Settings -&gt; Plugins</code>，然后搜索 Lombok ，最后进行安装即可。而在新版本的 IDEA 中，Lombok 已经被集成到 IDEA 中，我们不用再去安装它就可以直接使用，可以说是十分方便了。</p>
-<ul>
-<li>老版本 IDEA 安装 Lombok</li>
-</ul>
-
-<ul>
-<li>新版本中集成了 Lombok</li>
-</ul>
-
-<p>以上就是 Lombok 的安装过程了，是不是十分简单？那接下来我们就来看看，如何在我们的项目中使用 Lombok！</p>
-<h2> Lombok 使用</h2>
-<p>现在大家进行项目管理时用的工具大多应该都是 Maven，所以我们直接在需要使用 Lombok 的项目中加入 Lombok 编译支持，也就是在 <code>pom.xml</code> 文件中加入以下依赖。</p>
-<div class="language-xml line-numbers-mode" data-ext="xml"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>导入相关依赖之后，接下来就是具体使用过程了。</p>
-<h3> 具体使用</h3>
-<p>在需要的实体类中引入相关注解即可，只不过注解不同它们所对应的功能也不同，而且同一个注解可能在不同位置的功能也不一样。如下图；</p>
-<figure><figcaption></figcaption></figure>
-<h3> 常用注解</h3>
-<h4> @Data</h4>
-<p>注解在 <strong>类</strong> 上：给类的所有属性提供 <code>get</code> 和 <code>set</code> 方法，此外还有 <code>equals、canEqual、hashCode、toString</code> 方法以及 <strong>默认参数为空的构造方法</strong>；</p>
-<ul>
-<li><strong>使用前</strong></li>
-</ul>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
-<li><strong>使用后</strong></li>
-</ul>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4> @Setter</h4>
-<p>注解在 <strong>类</strong> 上：为该类所有属性均提供 <code>set</code> 方法，同时提供 <strong>默认构造方法</strong>；</p>
-<ul>
-<li><strong>使用前</strong></li>
-</ul>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
-<li><strong>使用后</strong></li>
-</ul>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>注解在 <strong>属性</strong> 上：为该属性提供 <code>set</code> 方法，同时提供 <strong>默认构造方法</strong>；</p>
-<ul>
-<li><strong>使用前</strong></li>
-</ul>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
-<li><strong>使用后</strong></li>
-</ul>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4> @Getter</h4>
-<p>注解在 <strong>类</strong> 上：为该类所有属性均提供 <code>get</code> 方法，同时提供 <strong>默认构造方法</strong>；</p>
-<ul>
-<li><strong>使用前</strong></li>
-</ul>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
-<li><strong>使用后</strong></li>
-</ul>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>注解在 <strong>属性</strong> 上：为该属性提供 <code>get</code> 方法，同时提供 <strong>默认构造方法</strong>；</p>
-<ul>
-<li><strong>使用前</strong></li>
-</ul>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
-<li><strong>使用后</strong></li>
-</ul>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4> @ToString</h4>
-<p>注解在 <strong>类</strong> 上：生成所有参数的 <code>toString()</code> 方法，同时提供 <strong>默认构造方法</strong>；</p>
-<ul>
-<li><strong>使用前</strong></li>
-</ul>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
-<li><strong>使用后</strong></li>
-</ul>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4> @Value</h4>
-<p>注解在 <strong>类</strong> 上：生成 <code>get</code> 方法，以及 <code>equals、hashCode、toString</code> 方法，同时提供 <strong>含所有参数的构造方法</strong>；</p>
-<ul>
-<li><strong>使用前</strong></li>
-</ul>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
-<li><strong>使用后</strong></li>
-</ul>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4> @AllArgsConstructor</h4>
-<p>注解在 <strong>类</strong> 上：为类提供一个 <strong>全参构造方法</strong>，但此时不再提供默认构造方法；</p>
-<ul>
-<li><strong>使用前</strong></li>
-</ul>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
-<li><strong>使用后</strong></li>
-</ul>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4> @NoArgsConstructor</h4>
-<p>注解在 <strong>类</strong> 上：为类提供一个 <strong>无参构造方法</strong>；</p>
-<ul>
-<li><strong>使用前</strong></li>
-</ul>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
-<li><strong>使用后</strong></li>
-</ul>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4> @RequiredArgsConstructor</h4>
-<p>注解在 <strong>类</strong> 上：使用类中所有带 <code>@NonNull</code> 注解的或带有 <code>final</code> 修饰的成员变量生成对应构造方法；</p>
-<ul>
-<li><strong>使用前</strong></li>
-</ul>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
-<li><strong>使用后</strong></li>
-</ul>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4> @NonNull</h4>
-<p>注解在 <strong>属性</strong> 上，自动生成一个关于该参数的非空检查，若参数为 <code>null</code>，则抛出一个空指针异常，同时提供 <strong>默认构造方法</strong>，具体用法可以参照上面的例子；</p>
-<h4> @EqualsAndHashCode</h4>
-<p>注解在 <strong>类</strong> 上，生成 <code>equals、canEquals、hasnCode</code> 方法，同时会生成默认构造方法；</p>
-<ul>
-<li><strong>使用前</strong></li>
-</ul>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
-<li><strong>使用后</strong></li>
-</ul>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4> @Cleanup</h4>
-<p>注解在 <strong>局部变量</strong> 前，保证该变量代表的资源使用后自动关闭，默认调用资源的 <code>close()</code> 方法，若该资源有其它关闭方法，可用 <code>@Cleanup("方法名")</code> 来指定要调用的方法，同时提供 默认构造方法；</p>
-<ul>
-<li><strong>使用前</strong></li>
-</ul>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
-<li><strong>使用后</strong></li>
-</ul>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4> @Synchronized</h4>
-<p>注解在 <strong>类方法 或 实例方法</strong>：效果与 <code>synchronized</code> 关键字相同，区别在于锁对象不同，对于类方法和实例方法，<code>synchronized</code> 关键字的锁对象分别是 <strong>类的</strong> <code>**class**</code> <strong>对象和</strong> <code>**this**</code> <strong>对象</strong>，而 <code>@Synchronized</code> 的锁对象分别是 <strong>私有静态</strong> <code>**final**</code> <strong>对象</strong> <code>**lock**</code> <strong>和 私有</strong> <code>**final**</code> <strong>对象</strong> <code>**lock**</code>，也可以自己指定锁对象，同时提供默认构造方法；</p>
-<ul>
-<li><strong>使用前</strong></li>
-</ul>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
-<li><strong>使用后</strong></li>
-</ul>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4> @SneakyThrows</h4>
-<p>注解在 <strong>方法</strong> 上：将方法中的代码用 <code>try-catch</code> 语句包裹，捕获异常并在 <code>catch</code> 中用 <code>Lombok.sneakyThrow(e)</code> 将异常抛出，还可以用 <code>@SneakyThrows(Exception.class)</code> 的形式指定抛出异常类型，同时提供 <strong>默认构造方法</strong>；</p>
-<ul>
-<li><strong>使用前</strong></li>
-</ul>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
-<li><strong>使用后</strong></li>
-</ul>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4> @Log</h4>
-<p>注解在 <strong>类</strong> 上：主要用于我们记录日志信息，同时提供 <strong>默认构造方法</strong>。它封装了多个主流 <code>Log</code> 库，主要有如下几个；</p>
-<ul>
-<li>
-<p><code>@Log</code></p>
-</li>
-<li>
-<p><code>@Slf4j</code></p>
-</li>
-<li>
-<p><code>Log4j</code></p>
-</li>
-<li>
-<p><code>Log4j2</code></p>
-</li>
-</ul>
-<h2> 总结</h2>
-<p>以上就是关于 Lombok 的相关使用小技巧了，如果你还没有使用过它，那就赶紧去试试吧！</p>
-<p>最后，创作不易，如果你觉得我的文章对你有所帮助，那就来个一键三连吧！</p>
-<h2> 参考资料</h2>
-<ol>
-<li>https://projectlombok.org/features/all</li>
-</ol>
-<p><strong>关注公众号，获取最新文章更新</strong></p>
-<h2> ⏳ 联系</h2>
-<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
-<p>扫一扫，探索另一个全新的世界。</p>
-<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Fastjson V2 简单使用手册</title>
-      <link>https://cunyu1943.github.io/java-tutorial/javase-series/20220720-fastjson2-quickstart.html</link>
-      <guid>https://cunyu1943.github.io/java-tutorial/javase-series/20220720-fastjson2-quickstart.html</guid>
-      <source url="https://cunyu1943.github.io/rss.xml">Fastjson V2 简单使用手册</source>
-      <description>Fastjson V2 简单使用手册 共勉 不要哀求，学会争取。若是如此，终有所获。 前言 在日常 Java 企业级开发中，可能避不开 JSON 这个格式。 JSON 源于 1999 年的 JS 语言规范 ECMA262 的一个子集，然后又在 2003 年作为一种数据格式 ECMA404 发布，到了 2006 年，又作为 rfc4627 发布。直到现在，JSON 的应用已经十分广泛了。</description>
-      <category>Java 基础</category>
-      <pubDate>Sun, 27 Aug 2023 01:05:55 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Fastjson V2 简单使用手册</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<h2> 前言</h2>
-<p>在日常 Java 企业级开发中，可能避不开 <code>JSON</code> 这个格式。 <code>JSON</code> 源于 1999 年的 <code>JS</code> 语言规范 <code>ECMA262</code> 的一个子集，然后又在 2003 年作为一种数据格式 <code>ECMA404</code> 发布，到了 2006 年，又作为 <code>rfc4627</code> 发布。直到现在，<code>JSON</code> 的应用已经十分广泛了。</p>
-<p><code>JSON</code> 基于纯文本，所以阅读起来也十分轻松，而且规范简单，容易处理，能够做到开箱即用，最最重要的是，<code>JSON</code> 和平台无关，所以能够作为不同系统间的传输格式协议。</p>
-<p><code>JSON</code> 有 7 大基本数值，分别是：<code>false</code>、<code>null</code>、<code>true</code>、<code>object</code>、<code>array</code>、<code>number</code>、<code>string</code>。其结构也非常简单，只有两种结构：一个是 <strong>数组</strong>，一个是<strong>对象中的键值对集合</strong>。其中，对象用 <code>{}</code> 来表示，其内部是 <code>key:value</code> 形式，而数组则是用 <code>[]</code> 来表示，不同值之间用逗号 <code>,</code> 分隔。</p>
-<p>以下就是一个 <code>JSON</code> 的简单示例：</p>
-<div class="language-json line-numbers-mode" data-ext="json"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>而在 Java 中，主流的 <code>JSON</code> 库只要有以下三个：</p>
-<ol>
-<li><code>Fastjson</code>：国内阿里巴巴公司所开发的 <code>JSON</code> 库，性能出众且快速。</li>
-<li><code>Jackson</code>：<code>Spring</code> 默认的 <code>JSON</code> 库，社区十分活跃，更新迭代快。</li>
-<li><code>Gson</code>：谷歌出品的 <code>JSON</code> 库，算是目前来说功能最全的 <code>JSON</code> 库了。</li>
-</ol>
-<p>得益于 <code>Fastjson</code> 的超高性能，国内的大部分公司都选择了阿里出品的 <code>Fastjson</code> 作为处理 <code>JSON</code> 的工具库。本文就来看看，<code>Fastjson</code> 的一些常用的使用技巧。</p>
-<h2> 使用技巧</h2>
-<p>首先，我们创建一个 <code>Maven</code> 项目，用来演示 <code>Fastjson</code> 的使用，也方便我们管理依赖。同时，这里选择 <code>Fastjson v2</code> 来作为今天的演示主角。</p>
-<p>当然，首要的工作就是创建一个 <code>Maven</code> 项目，如果你还有点摸不着头脑，那可以移步先去看看前备知识：</p>
-<blockquote>
-<p><a href="https://cunyu1943.github.io/JavaPark/md/java/maven/20220104-maven-project-with-idea" target="_blank" rel="noopener noreferrer">Maven 教程：使用 IDEA 创建 Maven 项目</a></p>
-</blockquote>
-<p>当我们创建完成一个 <code>Maven</code> 项目之后，首要的工作就是在项目的 <code>pom.xml</code> 中添加 <code>Fastjson V2</code> 的依赖。</p>
-<div class="language-xml line-numbers-mode" data-ext="xml"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>接着我们创建一个 <code>Hero</code> 类，方便后续过程中的使用。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> Java 对象序列化为 JSON</h3>
-<p>在我们的主类中创建一个 <code>Hero</code> 对象，然后利用 <code>toJSONString()</code> 方法将其转换为 <code>JSON</code> 字符串，可以看到结果正确转换了。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
-<h3> JSON 解析为 Java 对象</h3>
-<p>假设有一个 <code>JSON</code> 字符串，我们想将其转换为 Java 对象，则可以使用 <code>parseObject()</code> 方法。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
-<h3> JSON 解析为 JSONObject</h3>
-<p>将 <code>JSON</code> 解析为 <code>JSONObject</code> 的方法和将 <code>JSON</code> 转换为 Java 对象的方法类似，但是少了一个参数，这里需要注意。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
-<h3> JSON 解析为 JSONArray</h3>
-<p>要将 <code>JSON</code> 解析为 <code>JSONArray</code>，此时可以使用 <code>parseArray()</code> 方法。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
-<h2> 总结</h2>
-<p>以上就是日常开发中常见的 4 种其他格式和 <code>JSON</code> 格式之间的转换过程了，其中，最常用的应该莫过于 <code>JSON</code> 和 Java 对象之间的相互转换了，一定要熟练掌握！关于 <code>Fastjson V2</code> 的简单使用就介绍到这里了，关于更多 <code>Fastjson V2</code> 的高级使用技巧，等待我们后续文章再见吧！</p>
 <h2> ⏳ 联系</h2>
 <p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
 <p>扫一扫，探索另一个全新的世界。</p>
