@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 04 Jan 2024 11:44:44 GMT</pubDate>
-    <lastBuildDate>Thu, 04 Jan 2024 11:44:44 GMT</lastBuildDate>
+    <pubDate>Fri, 05 Jan 2024 09:28:46 GMT</pubDate>
+    <lastBuildDate>Fri, 05 Jan 2024 09:28:46 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>好物周刊</category>
@@ -213,6 +213,8 @@
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://github.com/lanceliao/china-holiday-calender" target="_blank" rel="noopener noreferrer">中国节假日补班日历</a></h3>
 <p>中国节假日、调休、补班日历，ICS 格式，支持 IPhone、Google Calendar、Outlook 等客户端订阅。</p>
+<h3> 2. <a href="https://github.com/zdhxiong/mdui" target="_blank" rel="noopener noreferrer">Material Design User Interface</a></h3>
+<p>使用 Web Components 实现，遵循 Material You 设计规范的 Web 前端组件库。</p>
 <h2> 二、软件</h2>
 <h3> 1. <a href="https://www.allenxiang.com/" target="_blank" rel="noopener noreferrer">Allen Explorer</a></h3>
 <p>一款能够替代“我的电脑”的文件管理软件。类 <code>Chrome</code> 界面设计，简洁美观。</p>
@@ -573,7 +575,7 @@
       <link>https://cunyu1943.github.io/weekly/2024/0101-0105.html</link>
       <guid>https://cunyu1943.github.io/weekly/2024/0101-0105.html</guid>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#38：在线图片处理</source>
-      <description>好物周刊#38：在线图片处理 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1. AiEditor</description>
+      <description>好物周刊#38：在线图片处理 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/jy6pfjLa5Jfp9rZVGem3pg 一、项目 1. AiEditor</description>
       <category>好物周刊</category>
       <pubDate>Thu, 16 Nov 2023 14:25:53 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#38：在线图片处理</h1>
@@ -583,6 +585,7 @@
 </div>
 <div class="hint-container tip">
 <p class="hint-container-title">原文</p>
+<p>https://mp.weixin.qq.com/s/jy6pfjLa5Jfp9rZVGem3pg</p>
 </div>
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://gitee.com/aieditor-team/aieditor" target="_blank" rel="noopener noreferrer">AiEditor</a></h3>

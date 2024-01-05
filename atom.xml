@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2024-01-04T11:44:44.583Z</updated>
+  <updated>2024-01-05T09:28:46.306Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -240,7 +240,7 @@
     <title type="text">好物周刊#40：</title>
     <id>https://cunyu1943.github.io/weekly/2024/0113-0119.html</id>
     <link href="https://cunyu1943.github.io/weekly/2024/0113-0119.html"/>
-    <updated>2024-01-04T11:43:14.000Z</updated>
+    <updated>2024-01-05T09:27:05.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#40：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -262,6 +262,8 @@
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://github.com/lanceliao/china-holiday-calender" target="_blank" rel="noopener noreferrer">中国节假日补班日历</a></h3>
 <p>中国节假日、调休、补班日历，ICS 格式，支持 IPhone、Google Calendar、Outlook 等客户端订阅。</p>
+<h3> 2. <a href="https://github.com/zdhxiong/mdui" target="_blank" rel="noopener noreferrer">Material Design User Interface</a></h3>
+<p>使用 Web Components 实现，遵循 Material You 设计规范的 Web 前端组件库。</p>
 <h2> 二、软件</h2>
 <h3> 1. <a href="https://www.allenxiang.com/" target="_blank" rel="noopener noreferrer">Allen Explorer</a></h3>
 <p>一款能够替代“我的电脑”的文件管理软件。类 <code>Chrome</code> 界面设计，简洁美观。</p>
@@ -650,7 +652,7 @@
     <title type="text">好物周刊#38：在线图片处理</title>
     <id>https://cunyu1943.github.io/weekly/2024/0101-0105.html</id>
     <link href="https://cunyu1943.github.io/weekly/2024/0101-0105.html"/>
-    <updated>2024-01-04T11:43:14.000Z</updated>
+    <updated>2024-01-05T09:27:05.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#38：在线图片处理</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -658,6 +660,7 @@
 </div>
 <div class="hint-container tip">
 <p class="hint-container-title">原文</p>
+<p>https://mp.weixin.qq.com/s/jy6pfjLa5Jfp9rZVGem3pg</p>
 </div>
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://gitee.com/aieditor-team/aieditor" target="_blank" rel="noopener noreferrer">AiEditor</a></h3>]]></summary>
@@ -668,6 +671,7 @@
 </div>
 <div class="hint-container tip">
 <p class="hint-container-title">原文</p>
+<p>https://mp.weixin.qq.com/s/jy6pfjLa5Jfp9rZVGem3pg</p>
 </div>
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://gitee.com/aieditor-team/aieditor" target="_blank" rel="noopener noreferrer">AiEditor</a></h3>
