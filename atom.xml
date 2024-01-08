@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2024-01-08T10:45:48.542Z</updated>
+  <updated>2024-01-08T10:50:40.769Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -73,7 +73,7 @@
     <title type="text">好物周刊#42：</title>
     <id>https://cunyu1943.github.io/weekly/2024/0127-0202.html</id>
     <link href="https://cunyu1943.github.io/weekly/2024/0127-0202.html"/>
-    <updated>2024-01-08T00:22:14.000Z</updated>
+    <updated>2024-01-08T10:48:08.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#42：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -97,18 +97,23 @@
 <h2> 二、软件</h2>
 <h3> 1. <a href="https://fluentsearch.net/" target="_blank" rel="noopener noreferrer">Fluent Search</a></h3>
 <p>一款快速启动器，融合了 Windows 11 Fluent Design 风格，当前仅支持 Windows 10 和 Windows 11。</p>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0127-0202/image-20240108081722437.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://www.verysync.com/" target="_blank" rel="noopener noreferrer">微力同步</a></h3>
 <p>一款高效的数据传输工具，简单易用的多平台文件同步软件，惊人的传输速度是不同于其他产品的最大优势， 微力同步 的智能 P2P 技术加速同步，会将文件分割成若干份仅 KB 的数据同步，而文件都会进行 AES 加密处理。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0127-0202/1704709528680.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. <a href="https://www.zentao.net/" target="_blank" rel="noopener noreferrer">禅道</a></h3>
 <p>国产的开源项目管理软件，专注研发项目管理，内置需求管理、任务管理、bug 管理、缺陷管理、用例管理、计划发布等功能，实现了软件的完整生命周期管理。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0127-0202/1704709657035.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://www.sucai999.com/" target="_blank" rel="noopener noreferrer">菜鸟图库</a></h3>
 <p>菜鸟图库汇集了各种免费高清广告图片设计、电商淘宝、企业办公模板、视频、配乐、音效、字体、插画动图、装饰模型等素材，由顶尖的设计师供稿，满足各个行业的商用需求，下载高品质免费素材就到菜鸟图库。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0127-0202/1704709704174.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://www.51yuansu.com/" target="_blank" rel="noopener noreferrer">觅元素</a></h3>
 <p>觅元素专注于提供高质量版权素材图片免费下载的网站，提供优质 png 素材、高清背景素材、图片素材、设计素材，找高质量版权素材就来觅元素。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0127-0202/1704709747360.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. <a href="https://616pic.com/" target="_blank" rel="noopener noreferrer">图精灵</a></h3>
 <p>图精灵专注提供用户配图背景素材,网站提供海量免费 PNG 图片素材、背景图片素材、广告设计模板、摄影图片、免费字体等,各类高清精品免抠元素和背景图片,让设计从此变得简单！</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0127-0202/1704709803622.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
 <h2> ✍️ 说明</h2>
@@ -131,7 +136,7 @@
     <title type="text">好物周刊#43：</title>
     <id>https://cunyu1943.github.io/weekly/2024/0203-0209.html</id>
     <link href="https://cunyu1943.github.io/weekly/2024/0203-0209.html"/>
-    <updated>2024-01-08T00:22:14.000Z</updated>
+    <updated>2024-01-08T10:48:08.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#43：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -155,11 +160,13 @@
 <h2> 二、软件</h2>
 <h3> 1. <a href="https://rime.im/" target="_blank" rel="noopener noreferrer">RIME</a></h3>
 <p>高度可定制化的输入法框架，完全无广告，适合喜欢折腾的朋友。</p>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0203-0209/image-20240108081856658.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://www.virtualbox.org/" target="_blank" rel="noopener noreferrer">VirtualBox</a></h3>
 <p>一款开源免费的虚拟机管理软件，支持但不限于 Windows（NT 4.0、2000、XP、Server 2003、Vista、7、8、Windows 10 和 Windows 11)、DOS/Windows 3.x、Linux（2.4、2.6、3.x、4.x、5.x 和 6.x）、Solaris 和 OpenSolaris、OS/2、OpenBSD、NetBSD 和 FreeBSD 等系统中运行。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0203-0209/1704710624981.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. <a href="https://www.vmware.com/" target="_blank" rel="noopener noreferrer">VMware</a></h3>
 <p>使用针对现代应用、多云、数字化工作空间、安全和网络的 VMware 解决方案构建数字化基础，以在任何设备和任何云环境中运行任何应用。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0203-0209/1704710669081.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
@@ -183,7 +190,7 @@
     <title type="text">好物周刊#44：</title>
     <id>https://cunyu1943.github.io/weekly/2024/0210-0216.html</id>
     <link href="https://cunyu1943.github.io/weekly/2024/0210-0216.html"/>
-    <updated>2024-01-08T00:22:14.000Z</updated>
+    <updated>2024-01-08T10:48:08.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#44：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -207,7 +214,7 @@
 <h2> 二、软件</h2>
 <h3> 1. <a href="https://termius.com/" target="_blank" rel="noopener noreferrer">Termius</a></h3>
 <p>一款跨平台的开源 SSH 连接客户端软件。 提供包括状态栏显示、自动保存密码、URL 超链接、可移植会话、会话过滤器、DLL 前端、时间戳、窗口透明度等功能。</p>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0210-0216/image-20240108082005617.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://iterm2.com/" target="_blank" rel="noopener noreferrer">iTerm2</a></h3>
 <p>一款功能强大的终端工具，仅适用于 macOS 系统。支持分窗口操作、自动补齐、粘贴历史、回放功能、全屏等功能。</p>
 <h2> 三、网站</h2>
@@ -240,7 +247,7 @@
     <title type="text">好物周刊#41：</title>
     <id>https://cunyu1943.github.io/weekly/2024/0120-0126.html</id>
     <link href="https://cunyu1943.github.io/weekly/2024/0120-0126.html"/>
-    <updated>2024-01-08T00:22:14.000Z</updated>
+    <updated>2024-01-08T10:48:08.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#41：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -265,6 +272,7 @@
 <h3> 1. <a href="https://pixpinapp.com/" target="_blank" rel="noopener noreferrer">PixPin</a></h3>
 <p>集截图/贴图/长截图/文字识别/标注功能于一身。</p>
 <p>功能强大使用简单的截图/贴图工具，帮助你提高效率。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0120-0126/1704709171041.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://github.com/PantsuDango/Dango-Translator" target="_blank" rel="noopener noreferrer">团子翻译器</a></h3>
 <p>一款生肉翻译软件，通过 OCR 识别屏幕特定范围内的文字，然后将识别到的文字调取各种翻译源，并实时输出翻译结果。</p>
 <p>软件具有如下特点：</p>
@@ -276,15 +284,20 @@
 <li>账号系统，能够自动云端保存配置</li>
 <li>另有图片翻译功能，实现对生肉漫画图片自动识别、翻译、消字、嵌字</li>
 </ul>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0120-0126/1704709214595.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. <a href="https://www.apipost.cn/" target="_blank" rel="noopener noreferrer">Apipost</a></h3>
 <p>集 API 设计、API 调试、API 文档、自动化测试为一体的 API 研发协同平台，支持 grpc、http、websocket、socketio、socketjs 类型接口调试，支持私有化部署。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0120-0126/1704709242796.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://xmsoushu.com/" target="_blank" rel="noopener noreferrer">熊猫搜索</a></h3>
 <p>熊猫搜索，熊猫搜书，聚合电子书、文档搜索引擎，一站式搜索导航，方便快速导航搜索全网资源，读书学习必备导航站。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0120-0126/1704709277288.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://github.com/kaixindelele/ChatPaper" target="_blank" rel="noopener noreferrer">ChatPaper</a></h3>
 <p>全流程加速科研，利用 chatgpt 进行论文全文总结 + 专业翻译 + 润色 + 审稿 + 审稿回复。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0120-0126/1704709381142.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. <a href="https://www.macyy.cn/" target="_blank" rel="noopener noreferrer">MACYY</a></h3>
 <p>Mac 破解软件分享中心。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0120-0126/1704709441848.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://i.linuxtoy.org/docs/guide/index.html" target="_blank" rel="noopener noreferrer">开源世界旅行手册</a></h3>
@@ -293,9 +306,10 @@
 <p>地理篇为必修课，它是这本书的核心，包含一些基本教程。这一部分的内容，建议熟读。</p>
 <p>景观篇为选修课，里面的内容为实用的解决方案，但并不是每个人都需要。</p>
 <p>地质篇的内容为开源运动史。</p>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0120-0126/image-20240108081450137.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://github.com/chunhuajiang/zephyr-doc" target="_blank" rel="noopener noreferrer">Zephyr OS 文档</a></h3>
 <p>Zephyr Project 官方文档的中文翻译版。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0120-0126/1704708979286.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
