@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2024-01-09T11:23:30.496Z</updated>
+  <updated>2024-01-09T15:00:47.668Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -73,7 +73,7 @@
     <title type="text">好物周刊#45：</title>
     <id>https://cunyu1943.github.io/weekly/2024/0217-0223.html</id>
     <link href="https://cunyu1943.github.io/weekly/2024/0217-0223.html"/>
-    <updated>2024-01-09T11:21:48.000Z</updated>
+    <updated>2024-01-09T14:59:08.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#45：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -115,6 +115,17 @@
 <li>支持 87 种语言</li>
 </ul>
 <figure><figcaption></figcaption></figure>
+<h3> 2. <a href="https://github.com/OdysseusYuan/LKY_OfficeTools" target="_blank" rel="noopener noreferrer">LKY Office Tools</a></h3>
+<p>一键自动化 下载、安装、激活 Office 的利器。绿色、开源、安全、无毒。目前支持以下功能：</p>
+<ul>
+<li>一键快速下载、安装、激活最新版 Microsoft Office 软件。</li>
+<li>用户可在安装 Word、PPT、Excel 的同时，根据软件提示，自助安装其它组件，包括： Outlook、OneNote、Access、Visio、Project、Publisher、Teams、OneDrive、Lync/Skype。</li>
+<li>工具可自动识别不同的操作系统架构，自动下载适配版本的 Office。</li>
+<li>本工具激活 Office 的方式为正版激活模式，不会篡改任何系统文件。</li>
+<li>当系统中存在多个冗余 Office 版本时，本工具在用户同意的情况下，可实现自动升级。</li>
+</ul>
+<h3> 3. <a href="https://github.com/TGSAN/CMWTAT_Digital_Edition" target="_blank" rel="noopener noreferrer">云萌</a></h3>
+<p>Windows 10+ 激活工具，一键免费终身激活，享受正版相同服务，每次重装自动激活，更换硬件支持 Microsoft 账户迁移激活。</p>
 <h2> 三、网站</h2>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
@@ -324,7 +335,7 @@
     <title type="text">好物周刊#41：</title>
     <id>https://cunyu1943.github.io/weekly/2024/0120-0126.html</id>
     <link href="https://cunyu1943.github.io/weekly/2024/0120-0126.html"/>
-    <updated>2024-01-08T10:48:08.000Z</updated>
+    <updated>2024-01-09T14:59:08.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#41：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -387,6 +398,8 @@
 <h3> 2. <a href="https://github.com/chunhuajiang/zephyr-doc" target="_blank" rel="noopener noreferrer">Zephyr OS 文档</a></h3>
 <p>Zephyr Project 官方文档的中文翻译版。</p>
 <figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0120-0126/1704708979286.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://github.com/golang-design/go-questions" target="_blank" rel="noopener noreferrer">Go 程序员面试笔试宝典</a></h3>
+<p>从问题切入，串连 Go 语言相关的所有知识，融会贯通。</p>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
