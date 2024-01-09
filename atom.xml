@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2024-01-09T11:09:42.879Z</updated>
+  <updated>2024-01-09T11:23:30.496Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -21,11 +21,11 @@
   <category term="你问我答"/>
   <category term="Java 基础"/>
   <entry>
-    <title type="text">好物周刊#45：</title>
-    <id>https://cunyu1943.github.io/weekly/2024/0217-0223.html</id>
-    <link href="https://cunyu1943.github.io/weekly/2024/0217-0223.html"/>
-    <updated>2024-01-06T14:04:16.000Z</updated>
-    <summary type="html"><![CDATA[<h1> 好物周刊#45：</h1>
+    <title type="text">好物周刊#46：</title>
+    <id>https://cunyu1943.github.io/weekly/2024/0224-0301.html</id>
+    <link href="https://cunyu1943.github.io/weekly/2024/0224-0301.html"/>
+    <updated>2024-01-09T11:21:48.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 好物周刊#46：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
@@ -40,6 +40,51 @@
 <h2> 五、资料</h2>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>]]></summary>
+    <content type="html"><![CDATA[<h1> 好物周刊#46：</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">原文</p>
+</div>
+<h2> 一、项目</h2>
+<h2> 二、软件</h2>
+<h2> 三、网站</h2>
+<h2> 四、插件</h2>
+<h2> 五、资料</h2>
+<h2> ✍️ 说明</h2>
+<p>周刊专栏相关信息：</p>
+<ul>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a> | <a href="https://yuque.com/cunyu1943" target="_blank" rel="noopener noreferrer">语雀</a></li>
+</ul>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<hr>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+]]></content>
+    <category term="好物周刊"/>
+    <published>2024-01-09T11:21:48.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">好物周刊#45：</title>
+    <id>https://cunyu1943.github.io/weekly/2024/0217-0223.html</id>
+    <link href="https://cunyu1943.github.io/weekly/2024/0217-0223.html"/>
+    <updated>2024-01-09T11:21:48.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 好物周刊#45：</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">原文</p>
+</div>
+<h2> 一、项目</h2>
+<h2> 二、软件</h2>
+<h3> 1. <a href="https://sparanoid.com/lab/7z/" target="_blank" rel="noopener noreferrer">7-Zip</a></h3>]]></summary>
     <content type="html"><![CDATA[<h1> 好物周刊#45：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -50,6 +95,26 @@
 </div>
 <h2> 一、项目</h2>
 <h2> 二、软件</h2>
+<h3> 1. <a href="https://sparanoid.com/lab/7z/" target="_blank" rel="noopener noreferrer">7-Zip</a></h3>
+<p>一款开源免费软件。大多数源代码都基于 GNU LGPL 许可协议下发布。部分代码基于 BSD 3 句条款（BSD 3-clause）许可协议发布。并且，部分代码受到了 unRAR 许可协议的限制。主要具有以下特性：</p>
+<ul>
+<li>使用了 LZMA 与 LZMA2 算法的 7z 格式 拥有极高的压缩比</li>
+<li>支持格式：
+<ul>
+<li>压缩 / 解压缩：7z、XZ、BZIP2、GZIP、TAR、ZIP 以及 WIM</li>
+<li>仅解压缩：AR、ARJ、CAB、CHM、CPIO、CramFS、DMG、EXT、FAT、GPT、HFS、IHEX、ISO、LZH、LZMA、MBR、MSI、NSIS、NTFS、QCOW2、RAR、RPM、SquashFS、UDF、UEFI、VDI、VHD、VMDK、WIM、XAR 以及 Z</li>
+</ul>
+</li>
+<li>与 ZIP 及 GZIP 格式相比，7-Zip 能提供比使用 PKZip 及 WinZip 高 2-10% 的压缩比</li>
+<li>为 7z 与 ZIP 提供更完善的 AES-256 加密算法</li>
+<li>7z 格式支持创建自释放压缩包</li>
+<li>Windows 资源管理器集成</li>
+<li>强大的文件管理器</li>
+<li>强大的命令行版本</li>
+<li>支持 FAR Manager 插件</li>
+<li>支持 87 种语言</li>
+</ul>
+<figure><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
@@ -190,7 +255,7 @@
     <title type="text">好物周刊#44：</title>
     <id>https://cunyu1943.github.io/weekly/2024/0210-0216.html</id>
     <link href="https://cunyu1943.github.io/weekly/2024/0210-0216.html"/>
-    <updated>2024-01-08T10:48:08.000Z</updated>
+    <updated>2024-01-09T11:21:48.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#44：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -217,6 +282,18 @@
 <figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0210-0216/image-20240108082005617.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://iterm2.com/" target="_blank" rel="noopener noreferrer">iTerm2</a></h3>
 <p>一款功能强大的终端工具，仅适用于 macOS 系统。支持分窗口操作、自动补齐、粘贴历史、回放功能、全屏等功能。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0210-0216/1704780768136.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://mobaxterm.mobatek.net/" target="_blank" rel="noopener noreferrer">MobaXterm</a></h3>
+<p>集多项功能于一身的终端工具，支持如下功能：</p>
+<ul>
+<li>支持 SSH，FTP，串口，VNC，X server 等功能</li>
+<li>支持标签，切换也十分方便</li>
+<li>众多快捷键，操作方便</li>
+<li>有丰富的插件可以免费安装</li>
+<li>直接的便携版，不用安装</li>
+<li>内建多标签和多终端分屏</li>
+</ul>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0210-0216/1704780701979.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
@@ -415,7 +492,7 @@
     <title type="text">好物周刊#39：</title>
     <id>https://cunyu1943.github.io/weekly/2024/0106-0112.html</id>
     <link href="https://cunyu1943.github.io/weekly/2024/0106-0112.html"/>
-    <updated>2024-01-08T00:22:14.000Z</updated>
+    <updated>2024-01-09T11:21:48.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#39：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -465,6 +542,15 @@
 <p>一个综合性在线学习平台。这里有大量的在线课程，课程涵盖计算机知识、企业管理、摄影、<code>photoshop</code>、职业技能、运动、外语、美食、时尚、手工艺、公开课、职业资格考试等。</p>
 <figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0106-0112/1701302616603.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
+<h3> 1. <a href="https://kjeek.com/" target="_blank" rel="noopener noreferrer">闪记</a></h3>
+<p>ALL IN ONE，包括但不止于万级书签管理、沉浸式网页笔记、双语沉浸式翻译、智能网页大纲等 10+ 项高频功能/操作。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0106-0112/1704797860819.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://chromewebstore.google.com/detail/%E8%BF%85%E9%9B%B7%E4%B8%8B%E8%BD%BD%E6%94%AF%E6%8C%81/ncennffkjdiamlpmcbajkmaiiiddgioo?hl=zh-CN" target="_blank" rel="noopener noreferrer">迅雷下载支持</a></h3>
+<p>用于实现迅雷 X 接管 Chrome 浏览器的下载请求，方便的“多选下载”模式可以快速下载网页中的多个链接，并支持下载网页中的在线视频。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0106-0112/1704798224153.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://chromewebstore.google.com/detail/%E4%BC%9A%E8%AF%91%C2%B7%E5%AF%B9%E7%85%A7%E5%BC%8F%E7%BF%BB%E8%AF%91/dgeiaiglmhdhajbpfbmajaajdlfdinpi?hl=zh-CN" target="_blank" rel="noopener noreferrer">会译</a></h3>
+<p>一款 AI 翻译浏览器插件，采用 AI 智能翻译，你的专属 AI 翻译专家。会译沉浸式的帮你翻译网上的任何语言内容，支持多语种对照式翻译，在线翻译，文档翻译，英汉互译，智能识别网页内容，降低语言障碍门槛，一键极速翻译，支持所有网站。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0106-0112/1704798495508.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
 <h3> 1.<a href="https://github.com/tsejx/javascript-guidebook" target="_blank" rel="noopener noreferrer">JavaScript Guidebook</a></h3>
 <p>JavaScript 前端知识图谱，整理自各大技术社区和权威书籍的前端技术图谱。</p>
@@ -16473,259 +16559,6 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <h2> 总结</h2>
 <p>好了，关于 IO 流的知识点到此就结束了，赶紧学起来！如果你觉得本文对你有所帮助，那就点赞关注一波吧！</p>
 <p>对于文中遗漏或者错误的知识点，欢迎大家评论留言，咱们评论区见！</p>
-<p><strong>关注公众号，获取最新文章更新</strong></p>
-<div style="text-align:center">
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" alt="" width="200" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-</div>
-<h2> ⏳ 联系</h2>
-<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
-<p>扫一扫，探索另一个全新的世界。</p>
-<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-]]></content>
-    <category term="Java 基础"/>
-    <published>2023-08-27T01:05:55.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">反射机制详解</title>
-    <id>https://cunyu1943.github.io/java-tutorial/javase-series/20220716-reflection.html</id>
-    <link href="https://cunyu1943.github.io/java-tutorial/javase-series/20220716-reflection.html"/>
-    <updated>2023-09-15T00:12:02.000Z</updated>
-    <summary type="html"><![CDATA[<h1> 反射机制详解</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<div class="hint-container tip">
-<p class="hint-container-title">原文</p>
-<p>https://mp.weixin.qq.com/s/f0sJpAhgI6B7oirsJfv9jQ</p>
-</div>
-<h2> 反射概述</h2>
-<h3> 什么是反射</h3>
-<p>将类的各个组成部分封装为其他对象的过程就叫做 <strong>反射</strong>，其中 <strong>组成部分</strong> 指的是我们类的 <strong>成员变量（Field）</strong>、<strong>构造方法（Constructor）</strong>、<strong>成员方法（Method）</strong>。</p>]]></summary>
-    <content type="html"><![CDATA[<h1> 反射机制详解</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<div class="hint-container tip">
-<p class="hint-container-title">原文</p>
-<p>https://mp.weixin.qq.com/s/f0sJpAhgI6B7oirsJfv9jQ</p>
-</div>
-<h2> 反射概述</h2>
-<h3> 什么是反射</h3>
-<p>将类的各个组成部分封装为其他对象的过程就叫做 <strong>反射</strong>，其中 <strong>组成部分</strong> 指的是我们类的 <strong>成员变量（Field）</strong>、<strong>构造方法（Constructor）</strong>、<strong>成员方法（Method）</strong>。</p>
-<h3> 使用反射的优缺点</h3>
-<ul>
-<li>
-<p><strong>优点</strong></p>
-<ol>
-<li>在 <strong>程序运行过程中</strong> 可以操作类对象，增加了程序的灵活性；</li>
-<li>解耦，从而提高程序的可扩展性，提高代码的复用率，方便外部调用；</li>
-<li>对于任何一个类，当知道它的类名后，就能够知道这个类的所有属性和方法；而对于任何一个对象，都能够调用它的一个任意方法。</li>
-</ol>
-</li>
-<li>
-<p><strong>缺点</strong></p>
-<ol>
-<li><strong>性能问题</strong>：Java 反射中包含了一些动态类型，JVM 无法对这些动态代码进行优化，因此通过反射来操作的方式要比正常操作效率更低。</li>
-<li><strong>安全问题</strong>：使用反射时要求程序必须在一个没有安全限制的环境中运行，如果程序有安全限制，就不能使用反射。</li>
-<li><strong>程序健壮性</strong>：反射允许代码执行一些平常不被允许的操作，破坏了程序结构的抽象性，导致平台发生变化时抽象的逻辑结构无法被识别。</li>
-</ol>
-</li>
-</ul>
-<h2> Class 对象的获取及使用</h2>
-<h3> 获取 Class 对象的方式</h3>
-<ol>
-<li><code>Class.forName("全类名")</code></li>
-</ol>
-<p>源代码阶段，它能将字节码文件加载进内存中，然后返回 <code>Class</code> 对象，多用于 <strong>配置文件</strong> 中，将类名定义在配置文件中，通过读取配置文件来加载类。</p>
-<ol start="2">
-<li><code>类名.class</code></li>
-</ol>
-<p>类对象阶段，通过类名的 <code>class</code> 属性来获取，多用于 <strong>参数的传递</strong>。</p>
-<ol start="3">
-<li><code>对象.getClass()</code></li>
-</ol>
-<p>运行时阶段，<code>getClass()</code> 定义在 <code>Object</code> 类中，表明所有类都能使用该方法，多用于 <strong>对象的获取字节码</strong> 的方式。</p>
-<p>我们首先定义一个 <code>Person</code> 类，用于后续反射功能的测试；</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>定义好 <code>Person</code> 类之后，我们尝试用 3 种不同的方式来获取 <code>Class</code> 对象，并比较它们是否相同。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
-<p>上述代码中，会发现最后输出的比较结果返回的是两个 <code>true</code>，说明通过上述三种方式获取的 <code>Class</code> 对象都是同一个，<strong>同一个字节码文件（<code>*.class</code>）在一次运行过程中只会被加载一次</strong>。</p>
-<h3> Class 对象的使用</h3>
-<h4> 获取成员变量</h4>
-<table>
-<thead>
-<tr>
-<th>方法</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>Field[] getFields()</code></td>
-<td>返回包含一个数组 <code>Field</code>对象反射由此表示的类或接口的所有可访问的公共字段类对象</td>
-</tr>
-<tr>
-<td><code>Field getField(String name)</code></td>
-<td>返回一个 <code>Field</code>对象，它反映此表示的类或接口的指定公共成员字段类对象</td>
-</tr>
-<tr>
-<td><code>Field[] getDeclaredFields()</code></td>
-<td>返回的数组 <code>Field</code>对象反映此表示的类或接口声明的所有字段类对象</td>
-</tr>
-<tr>
-<td><code>Field getDeclaredField(String name)</code></td>
-<td>返回一个 <code>Field</code>对象，它反映此表示的类或接口的指定已声明字段类对象</td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li><code>Field[] getFields()</code></li>
-</ul>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
-<p>回顾下我们的 <code>Person</code> 类，可以发现 <code>id</code>、<code>grade</code> 成员变量都是被 <code>public</code> 所修饰的，说明该方法是用于获取类中所有被 <code>public</code> 所修饰的成员变量（<strong>包括父类</strong>）。</p>
-<ul>
-<li><code>Field getField(String name)</code></li>
-</ul>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
-<figure><figcaption></figcaption></figure>
-<p>从上面的结果分析可知，该方法只能用于获取类中指定名称的 <code>public</code> 所修饰的成员变量，对于 <code>protected</code>、<code>private</code> 所修饰的成员变量，该方法是无法获取的（<strong>包括父类</strong>）。而获取或设置成员变量值时，可以通过 <code>get/set</code> 方法来操作，具体操作方法如下。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
-<li><code>Field[] getDeclaredFields()</code></li>
-</ul>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
-<p>观察上面的结果可知，该方法可用于获取所有的成员变量，不用考虑修饰符的限制（<strong>不包括父类</strong>）。</p>
-<ul>
-<li><code>Field getDeclaredField(String name)</code></li>
-</ul>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
-<p>观察上面的结果可知，该方法可用于获取指定的成员变量，不用考虑成员变量修饰符的限制（<strong>不包括父类</strong>）。但是在利用 <code>set</code>、<code>get</code> 方法来获取和设置 <code>private</code>、<code>protected</code> 修饰的成员变量时，需要利用 <code>setAccessible()</code> 来忽略访问全新啊修饰符的安全检查，否则程序将会报错。</p>
-<h4> 获取构造方法</h4>
-<table>
-<thead>
-<tr>
-<th>方法</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>Constructor&lt;?&gt;[] getConstructors()</code></td>
-<td>返回包含一个数组 <code>Constructor</code>对象反射由此表示的类的所有公共构造类对象</td>
-</tr>
-<tr>
-<td><code>Constructor&lt;T&gt; getConstructor(类&lt;?&gt;... parameterTypes)</code></td>
-<td>返回一个 <code>Constructor</code> 对象，该对象反映 <code>Constructor</code>对象表示的类的指定的公共类函数</td>
-</tr>
-<tr>
-<td><code>Constructor&lt;?&gt;[] getDeclaredConstructors()</code></td>
-<td>返回一个反映 <code>Constructor</code> 对象表示的类声明的所有 <code>Constructor</code> 对象的数组类</td>
-</tr>
-<tr>
-<td><code>Constructor&lt;T&gt; getDeclaredConstructor(类&lt;?&gt;... parameterTypes)</code></td>
-<td>返回一个 <code>Constructor</code> 对象，该对象反映 <code>Constructor</code> 对象表示的类或接口的指定类函数</td>
-</tr>
-</tbody>
-</table>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
-<ul>
-<li>
-<p><code>Constructor&lt;?&gt;[] getConstructors()</code></p>
-<p>类似于通过 <code>Class</code> 实例来获取成员变量，该方法用于获取所有 <code>public</code> 所修饰的构造方法（<strong>包括父类</strong>）；</p>
-</li>
-<li>
-<p><code>Constructor&lt;T&gt; getConstructor(类&lt;?&gt;... parameterTypes)</code></p>
-</li>
-</ul>
-<p>该方法用于获取某一指定参数类型后的 <code>public</code> 所修饰的构造方法（<strong>包括父类</strong>）；</p>
-<ul>
-<li><code>Constructor&lt;?&gt;[] getDeclaredConstructors()</code></li>
-</ul>
-<p>该方法用于获取所有 <code>public</code> 所修饰的构造方法（<strong>不包括父类</strong>）；</p>
-<ul>
-<li><code>Constructor&lt;T&gt; getDeclaredConstructor(类&lt;?&gt;... parameterTypes)</code></li>
-</ul>
-<p>该方法用于获取某一指定参数类型后的 <code>public</code> 所修饰的构造方法（<strong>不包括父类</strong>）；</p>
-<p>而获取到构造方法之后，我们就可以利用 <code>newInstance()</code> 方法来创建类的实例。特殊的，如果我们的构造方法是无参的，此时则可以直接利用 <code>Class.newInstance()</code> 来构造实例。</p>
-<h4> 获取成员方法</h4>
-<table>
-<thead>
-<tr>
-<th>方法</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>Method[] getMethods()</code></td>
-<td>返回包含一个数组 方法对象反射由此表示的类或接口的所有公共方法 类对象，包括那些由类或接口和那些从超类和超接口继承的声明</td>
-</tr>
-<tr>
-<td><code>Method getMethod(String name, 类&lt;?&gt;... parameterTypes)</code></td>
-<td>返回一个方法对象，它反映此表示的类或接口的指定公共成员方法 类对象</td>
-</tr>
-<tr>
-<td><code>Method[] getDeclaredMethods()</code></td>
-<td>返回包含一个数组方法对象反射的类或接口的所有声明的方法，通过此表示 类对象，包括公共，保护，默认（包）访问和私有方法，但不包括继承的方法</td>
-</tr>
-<tr>
-<td><code>Method getDeclaredMethod(String name, 类&lt;?&gt;... parameterTypes)</code></td>
-<td>返回一个方法对象，它反映此表示的类或接口的指定声明的方法类对象</td>
-</tr>
-</tbody>
-</table>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
-<ul>
-<li><code>Method[] getMethods()</code></li>
-</ul>
-<p>用于获取当前类的所有 <code>public</code> 所修饰的成员方法（<strong>包括父类</strong>）。</p>
-<ul>
-<li><code>Method getMethod(String name, 类&lt;?&gt;... parameterTypes)</code></li>
-</ul>
-<p>用于获取当前类的某一个指定名称 <code>public</code> 所修饰的成员方法（<strong>包括父类</strong>）。</p>
-<ul>
-<li><code>Method[] getDeclaredMethods()</code></li>
-</ul>
-<p>用于获取当前类的所有 <code>public</code> 所修饰的成员方法（<strong>不包括父类</strong>）。</p>
-<ul>
-<li><code>Method getDeclaredMethod(String name, 类&lt;?&gt;... parameterTypes)</code></li>
-</ul>
-<p>用于获取当前类的某一个指定名称 <code>public</code> 所修饰的成员方法（<strong>不包括父类</strong>）。</p>
-<p>而当我们获取到类的成员方法后，如果要执行某一个方法，可以使用 <code>invoke()</code> 方法来执行该方法。</p>
-<h4> 获取类名</h4>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
-<ul>
-<li><code>String getName()</code></li>
-</ul>
-<p>从上述程序的结果可知，当我们获取到 <code>Class</code> 对象之后，如果不知道类的全名，就可以使用 <code>getName()</code> 来获取该类的全名。</p>
-<h2> 反射实例</h2>
-<p>假设我们有如下需求：在不改变类的代码的前提下，我们能够创建任意类的对象，并执行其中的方法。</p>
-<p>此时，我们可以通过 <strong>配置文件 + 反射</strong> 的方式来实现这一效果，而这也就是我们现在所用框架中的基础，当我们使用反射后，只需要通过修改配置文件中的内容就能够不用去改代码就实现对应的功能。</p>
-<p>假设我们有两个类，一个 <code>Student</code>，一个 <code>Teacher</code>，两者的定义如下；</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>要实现我们的需求，通常需要如下步骤：</p>
-<ol>
-<li>将要创建对象的全类名和要执行的方法都配置在配置文件中；</li>
-</ol>
-<p>定义的配置文件 <code>prop.properties</code> ，其中主要内容包括 <code>className</code> 和 <code>methodName</code> 两个属性，分别代表类的全类名和要调用方法的名字。一个具体实例如下，分别代表名为 <code>Student</code> 的类和名为 <code>study</code> 的方法。</p>
-<div class="language-properties line-numbers-mode" data-ext="properties"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><ol start="2">
-<li>然后在主方法中加载读取配置文件；</li>
-</ol>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ol start="3">
-<li>利用反射技术将类加载到内存中；</li>
-</ol>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><ol start="4">
-<li>接着利用 <code>newInstance()</code> 方法创建对象；</li>
-</ol>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><ol start="5">
-<li>最后则是利用 <code>invoke()</code> 方法来执行方法；</li>
-</ol>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>将整个流程汇总起来就是：</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>此时，我们只需要改动配置文件 <code>prop.properties</code> 中的配置即可输出不同结果；</p>
-<figure><figcaption></figcaption></figure>
-<figure><figcaption></figcaption></figure>
-<h2> 总结</h2>
-<p>好了，感谢耐心看到这里的各位。如果您觉得本文对您有所帮助，那就给我点个赞吧！</p>
-<p>最后，对于文中知识点有错误或欠缺的地方，还请大家见谅，欢迎大家评论留言给我指正~</p>
 <p><strong>关注公众号，获取最新文章更新</strong></p>
 <div style="text-align:center">
 <figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" alt="" width="200" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
