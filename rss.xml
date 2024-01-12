@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 10 Jan 2024 12:33:30 GMT</pubDate>
-    <lastBuildDate>Wed, 10 Jan 2024 12:33:30 GMT</lastBuildDate>
+    <pubDate>Fri, 12 Jan 2024 01:59:44 GMT</pubDate>
+    <lastBuildDate>Fri, 12 Jan 2024 01:59:44 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>好物周刊</category>
@@ -450,20 +450,21 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>好物周刊#39：</title>
+      <title>好物周刊#39：IT 人必备神器</title>
       <link>https://cunyu1943.github.io/weekly/2024/0106-0112.html</link>
       <guid>https://cunyu1943.github.io/weekly/2024/0106-0112.html</guid>
-      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#39：</source>
-      <description>好物周刊#39： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1. Powerlevel10k</description>
+      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#39：IT 人必备神器</source>
+      <description>好物周刊#39：IT 人必备神器 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/7cYV6BHlCXgCSjnPqWe_cg 一、项目 1. Powerlevel10k</description>
       <category>好物周刊</category>
       <pubDate>Sun, 19 Nov 2023 13:15:18 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 好物周刊#39：</h1>
+      <content:encoded><![CDATA[<h1> 好物周刊#39：IT 人必备神器</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
 </div>
 <div class="hint-container tip">
 <p class="hint-container-title">原文</p>
+<p>https://mp.weixin.qq.com/s/7cYV6BHlCXgCSjnPqWe_cg</p>
 </div>
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://github.com/romkatv/powerlevel10k" target="_blank" rel="noopener noreferrer">Powerlevel10k</a></h3>

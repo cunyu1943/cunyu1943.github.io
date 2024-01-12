@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2024-01-10T12:33:30.410Z</updated>
+  <updated>2024-01-12T01:59:44.021Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -516,27 +516,29 @@
     <published>2023-11-30T11:33:20.000Z</published>
   </entry>
   <entry>
-    <title type="text">好物周刊#39：</title>
+    <title type="text">好物周刊#39：IT 人必备神器</title>
     <id>https://cunyu1943.github.io/weekly/2024/0106-0112.html</id>
     <link href="https://cunyu1943.github.io/weekly/2024/0106-0112.html"/>
-    <updated>2024-01-10T12:31:10.000Z</updated>
-    <summary type="html"><![CDATA[<h1> 好物周刊#39：</h1>
+    <updated>2024-01-12T01:58:00.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 好物周刊#39：IT 人必备神器</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
 </div>
 <div class="hint-container tip">
 <p class="hint-container-title">原文</p>
+<p>https://mp.weixin.qq.com/s/7cYV6BHlCXgCSjnPqWe_cg</p>
 </div>
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://github.com/romkatv/powerlevel10k" target="_blank" rel="noopener noreferrer">Powerlevel10k</a></h3>]]></summary>
-    <content type="html"><![CDATA[<h1> 好物周刊#39：</h1>
+    <content type="html"><![CDATA[<h1> 好物周刊#39：IT 人必备神器</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
 </div>
 <div class="hint-container tip">
 <p class="hint-container-title">原文</p>
+<p>https://mp.weixin.qq.com/s/7cYV6BHlCXgCSjnPqWe_cg</p>
 </div>
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://github.com/romkatv/powerlevel10k" target="_blank" rel="noopener noreferrer">Powerlevel10k</a></h3>
