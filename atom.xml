@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2024-01-16T10:30:35.821Z</updated>
+  <updated>2024-01-16T14:19:27.104Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -151,7 +151,7 @@
     <title type="text">好物周刊#42：</title>
     <id>https://cunyu1943.github.io/weekly/2024/0127-0202.html</id>
     <link href="https://cunyu1943.github.io/weekly/2024/0127-0202.html"/>
-    <updated>2024-01-08T10:48:08.000Z</updated>
+    <updated>2024-01-16T14:16:40.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#42：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -161,8 +161,7 @@
 <p class="hint-container-title">原文</p>
 </div>
 <h2> 一、项目</h2>
-<h2> 二、软件</h2>
-<h3> 1. <a href="https://fluentsearch.net/" target="_blank" rel="noopener noreferrer">Fluent Search</a></h3>]]></summary>
+<h3> 1. <a href="https://github.com/adlered/bolo-solo" target="_blank" rel="noopener noreferrer">菠萝薄款</a></h3>]]></summary>
     <content type="html"><![CDATA[<h1> 好物周刊#42：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -172,6 +171,12 @@
 <p class="hint-container-title">原文</p>
 </div>
 <h2> 一、项目</h2>
+<h3> 1. <a href="https://github.com/adlered/bolo-solo" target="_blank" rel="noopener noreferrer">菠萝薄款</a></h3>
+<p>基于 Java 的菠萝博客系统，简单易部署，精致主题，贴心服务，专为程序员设计。</p>
+<h3> 2. <a href="https://github.com/adlered/Picuang" target="_blank" rel="noopener noreferrer">Picuang</a></h3>
+<p>本地存储图床，使用 SpringBoot 开发，RESTful 前后端分离，面向用户的网络图床服务。</p>
+<h3> 3. <a href="https://gitee.com/ZhongBangKeJi/crmeb_java" target="_blank" rel="noopener noreferrer">CRMEB 开源商城系统 Java 版</a></h3>
+<p>CRMEB 开源商城系统 Java 版，基于 Java+Vue+Uni-app 开发，在微信公众号、小程序、H5 移动端都能使用，代码全开源无加密，独立部署，二开很方便，还支持免费商用，能满足企业新零售、分销推广、拼团、砍价、秒杀等多种经营需求，自用、做二开项目都很合适。</p>
 <h2> 二、软件</h2>
 <h3> 1. <a href="https://fluentsearch.net/" target="_blank" rel="noopener noreferrer">Fluent Search</a></h3>
 <p>一款快速启动器，融合了 Windows 11 Fluent Design 风格，当前仅支持 Windows 10 和 Windows 11。</p>
@@ -214,7 +219,7 @@
     <title type="text">好物周刊#43：</title>
     <id>https://cunyu1943.github.io/weekly/2024/0203-0209.html</id>
     <link href="https://cunyu1943.github.io/weekly/2024/0203-0209.html"/>
-    <updated>2024-01-08T10:48:08.000Z</updated>
+    <updated>2024-01-16T14:16:40.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#43：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -224,8 +229,7 @@
 <p class="hint-container-title">原文</p>
 </div>
 <h2> 一、项目</h2>
-<h2> 二、软件</h2>
-<h3> 1. <a href="https://rime.im/" target="_blank" rel="noopener noreferrer">RIME</a></h3>]]></summary>
+<h3> 1. <a href="https://github.com/fatedier/frp/" target="_blank" rel="noopener noreferrer">frp</a></h3>]]></summary>
     <content type="html"><![CDATA[<h1> 好物周刊#43：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -235,6 +239,13 @@
 <p class="hint-container-title">原文</p>
 </div>
 <h2> 一、项目</h2>
+<h3> 1. <a href="https://github.com/fatedier/frp/" target="_blank" rel="noopener noreferrer">frp</a></h3>
+<p>一个专注于内网穿透的高性能的反向代理应用，支持 TCP、UDP、HTTP、HTTPS 等多种协议，且支持 P2P 通信。可以将内网服务以安全、便捷的方式通过具有公网 IP 节点的中转暴露到公网。</p>
+<h3> 2. <a href="https://gitee.com/nageoffer/congomall" target="_blank" rel="noopener noreferrer">刚果商城</a></h3>
+<p>一个从零到一的 C 端商城项目，包含商城核心业务和基础架构两大模块。</p>
+<p>参照商城系统原型，推出用户、消息、商品、订单、优惠券、支付、网关、购物车等业务模块，通过商城系统中复杂场景，给出对应解决方案。使用 DDD 模型开发系统功能，帮助对 DDD 一知半解的开发者树立正确地开发思路。</p>
+<h3> 3. <a href="https://github.com/wayn111/newbee-mall-pro" target="_blank" rel="noopener noreferrer">newbee-mall-pro</a></h3>
+<p>在 newbee-mall 项目的基础上改造而来，使用 mybatis-plus 作为 orm 层框架，并添加了一系列高级功能以及代码优化。对商城样式了进行大量美化，提升交互性。实现了推荐算法、商品秒杀、优惠卷使用，滑块验证码，支付宝支付，中文分词检索等高级功能</p>
 <h2> 二、软件</h2>
 <h3> 1. <a href="https://rime.im/" target="_blank" rel="noopener noreferrer">RIME</a></h3>
 <p>高度可定制化的输入法框架，完全无广告，适合喜欢折腾的朋友。</p>
