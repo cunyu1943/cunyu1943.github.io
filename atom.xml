@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2024-01-17T12:14:09.408Z</updated>
+  <updated>2024-01-17T12:18:56.960Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -151,7 +151,7 @@
     <title type="text">好物周刊#42：</title>
     <id>https://cunyu1943.github.io/weekly/2024/0127-0202.html</id>
     <link href="https://cunyu1943.github.io/weekly/2024/0127-0202.html"/>
-    <updated>2024-01-16T14:16:40.000Z</updated>
+    <updated>2024-01-17T12:17:19.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#42：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -173,10 +173,13 @@
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://github.com/adlered/bolo-solo" target="_blank" rel="noopener noreferrer">菠萝薄款</a></h3>
 <p>基于 Java 的菠萝博客系统，简单易部署，精致主题，贴心服务，专为程序员设计。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0127-0202/1705491918451.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://github.com/adlered/Picuang" target="_blank" rel="noopener noreferrer">Picuang</a></h3>
 <p>本地存储图床，使用 SpringBoot 开发，RESTful 前后端分离，面向用户的网络图床服务。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0127-0202/1705491966874.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. <a href="https://gitee.com/ZhongBangKeJi/crmeb_java" target="_blank" rel="noopener noreferrer">CRMEB 开源商城系统 Java 版</a></h3>
 <p>CRMEB 开源商城系统 Java 版，基于 Java+Vue+Uni-app 开发，在微信公众号、小程序、H5 移动端都能使用，代码全开源无加密，独立部署，二开很方便，还支持免费商用，能满足企业新零售、分销推广、拼团、砍价、秒杀等多种经营需求，自用、做二开项目都很合适。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0127-0202/1705492056083.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
 <h3> 1. <a href="https://fluentsearch.net/" target="_blank" rel="noopener noreferrer">Fluent Search</a></h3>
 <p>一款快速启动器，融合了 Windows 11 Fluent Design 风格，当前仅支持 Windows 10 和 Windows 11。</p>
@@ -199,6 +202,15 @@
 <figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0127-0202/1704709803622.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
+<h3> 1. <a href="https://k8s.easydoc.net/" target="_blank" rel="noopener noreferrer">K8S 快速上手</a></h3>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0127-0202/1705400562386.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>利用易文档搭建的一套 k8s 文档教程，配套视频教程。</p>
+<h3> 2. <a href="https://docker.easydoc.net/" target="_blank" rel="noopener noreferrer">Docker 快速上手</a></h3>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0127-0202/1705400526824.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>利用易文档搭建的一套 Docker 文档教程，从安装、部署、迁移、挂载、通信等多方面介绍了关于 Docker 的内容。</p>
+<h3> 3. <a href="https://github.com/guangzhengli/k8s-tutorials" target="_blank" rel="noopener noreferrer">k8s 教程</a></h3>
+<p>教程侧重于实战引导，以渐进式修改代码的方式，将从最基础的 container 容器的定义开始，经过 pod, deployment, service, ingress, configmap, secret 等资源直到用 helm 来打包部署一套完整服务。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0127-0202/1705400778312.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
@@ -219,7 +231,7 @@
     <title type="text">好物周刊#43：</title>
     <id>https://cunyu1943.github.io/weekly/2024/0203-0209.html</id>
     <link href="https://cunyu1943.github.io/weekly/2024/0203-0209.html"/>
-    <updated>2024-01-16T14:16:40.000Z</updated>
+    <updated>2024-01-17T12:17:19.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#43：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -241,11 +253,14 @@
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://github.com/fatedier/frp/" target="_blank" rel="noopener noreferrer">frp</a></h3>
 <p>一个专注于内网穿透的高性能的反向代理应用，支持 TCP、UDP、HTTP、HTTPS 等多种协议，且支持 P2P 通信。可以将内网服务以安全、便捷的方式通过具有公网 IP 节点的中转暴露到公网。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0203-0209/1705492131368.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://gitee.com/nageoffer/congomall" target="_blank" rel="noopener noreferrer">刚果商城</a></h3>
 <p>一个从零到一的 C 端商城项目，包含商城核心业务和基础架构两大模块。</p>
 <p>参照商城系统原型，推出用户、消息、商品、订单、优惠券、支付、网关、购物车等业务模块，通过商城系统中复杂场景，给出对应解决方案。使用 DDD 模型开发系统功能，帮助对 DDD 一知半解的开发者树立正确地开发思路。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0203-0209/1705492212568.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. <a href="https://github.com/wayn111/newbee-mall-pro" target="_blank" rel="noopener noreferrer">newbee-mall-pro</a></h3>
-<p>在 newbee-mall 项目的基础上改造而来，使用 mybatis-plus 作为 orm 层框架，并添加了一系列高级功能以及代码优化。对商城样式了进行大量美化，提升交互性。实现了推荐算法、商品秒杀、优惠卷使用，滑块验证码，支付宝支付，中文分词检索等高级功能</p>
+<p>在 newbee-mall 项目的基础上改造而来，使用 mybatis-plus 作为 orm 层框架，并添加了一系列高级功能以及代码优化。对商城样式了进行大量美化，提升交互性。实现了推荐算法、商品秒杀、优惠卷使用，滑块验证码，支付宝支付，中文分词检索等高级功能。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0203-0209/1705492247835.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
 <h3> 1. <a href="https://rime.im/" target="_blank" rel="noopener noreferrer">RIME</a></h3>
 <p>高度可定制化的输入法框架，完全无广告，适合喜欢折腾的朋友。</p>
@@ -259,6 +274,8 @@
 <h2> 三、网站</h2>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
+<h3> 1. <a href="https://github.com/cnych/kubernetes-learning" target="_blank" rel="noopener noreferrer">从 Docker 到 Kubernetes 进阶课程</a></h3>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0203-0209/1705400950175.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
@@ -279,7 +296,7 @@
     <title type="text">好物周刊#44：</title>
     <id>https://cunyu1943.github.io/weekly/2024/0210-0216.html</id>
     <link href="https://cunyu1943.github.io/weekly/2024/0210-0216.html"/>
-    <updated>2024-01-09T11:21:48.000Z</updated>
+    <updated>2024-01-17T12:17:19.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#44：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -319,6 +336,15 @@
 </ul>
 <figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0210-0216/1704780701979.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
+<h3> 1. <a href="https://tool.liumingye.cn/music/" target="_blank" rel="noopener noreferrer">MyFreeMP3</a></h3>
+<p>让音乐下载变得容易，快速而免费。只需点击两步，就能下载到想要的音乐，同时还支持搜索功能！</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0210-0216/1705493256306.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://www.hifini.com/" target="_blank" rel="noopener noreferrer">音乐磁场</a></h3>
+<p>一个由音乐爱好者维护的分享平台，旨在解决问题互帮互助，如果有需求，注册账号并发布信息、详细描述歌曲信息等，网站就会尽力帮您寻找。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0210-0216/1705493410248.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="http://www.shiku.org/" target="_blank" rel="noopener noreferrer">中华诗库</a></h3>
+<p>中华诗库是免费提供中国诗歌作品的网络资料库及在线阅读公益图书馆。收藏有古今中外数万名诗人的数十万首诗歌作品。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0210-0216/1705493553068.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
 <h2> ✍️ 说明</h2>
