@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 19 Jan 2024 10:44:40 GMT</pubDate>
-    <lastBuildDate>Fri, 19 Jan 2024 10:44:40 GMT</lastBuildDate>
+    <pubDate>Fri, 19 Jan 2024 10:48:56 GMT</pubDate>
+    <lastBuildDate>Fri, 19 Jan 2024 10:48:56 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>好物周刊</category>
@@ -131,7 +131,7 @@
       <link>https://cunyu1943.github.io/weekly/2024/0127-0202.html</link>
       <guid>https://cunyu1943.github.io/weekly/2024/0127-0202.html</guid>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#42：</source>
-      <description>好物周刊#42： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1. 菠萝薄款</description>
+      <description>好物周刊#42： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1. 菠萝博客</description>
       <category>好物周刊</category>
       <pubDate>Thu, 04 Jan 2024 11:43:14 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#42：</h1>
@@ -143,7 +143,7 @@
 <p class="hint-container-title">原文</p>
 </div>
 <h2> 一、项目</h2>
-<h3> 1. <a href="https://github.com/adlered/bolo-solo" target="_blank" rel="noopener noreferrer">菠萝薄款</a></h3>
+<h3> 1. <a href="https://github.com/adlered/bolo-solo" target="_blank" rel="noopener noreferrer">菠萝博客</a></h3>
 <p>基于 Java 的菠萝博客系统，简单易部署，精致主题，贴心服务，专为程序员设计。</p>
 <figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0127-0202/1705491918451.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://github.com/adlered/Picuang" target="_blank" rel="noopener noreferrer">Picuang</a></h3>
@@ -236,6 +236,15 @@
 <p>使用针对现代应用、多云、数字化工作空间、安全和网络的 VMware 解决方案构建数字化基础，以在任何设备和任何云环境中运行任何应用。</p>
 <figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0203-0209/1704710669081.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
+<h3> 1. <a href="https://www.logosc.cn/so/" target="_blank" rel="noopener noreferrer">搜图神器</a></h3>
+<p>一键搜索多家免版权图库，再也不用担心商用图片侵权了。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0203-0209/1705660684110.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://www.apptu.cn/" target="_blank" rel="noopener noreferrer">朋友圈素材库</a></h3>
+<p>设计师、运营、市场、营销、产品经理找朋友圈推广素材的必备网站。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0203-0209/1705660919863.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://www.newcger.com/" target="_blank" rel="noopener noreferrer">新 CG 儿</a></h3>
+<p>致力于为广大影视后期设计师打造相互交流、分享作品与经验的互动平台。同时还提供了免费 AE 模板素材下载和国内外 CG 佳作供 CG 儿学习与参考。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0203-0209/1705661001147.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://github.com/cnych/kubernetes-learning" target="_blank" rel="noopener noreferrer">从 Docker 到 Kubernetes 进阶课程</a></h3>
@@ -423,7 +432,7 @@
       <link>https://cunyu1943.github.io/weekly/2024/0113-0119.html</link>
       <guid>https://cunyu1943.github.io/weekly/2024/0113-0119.html</guid>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#40：多功能文件管理器</source>
-      <description>好物周刊#40：多功能文件管理器 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1. 中国节假日补班日历</description>
+      <description>好物周刊#40：多功能文件管理器 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/AF-a6ZtK84lIgYyKmgumxA 一、项目 1. 中国节假日补班日历</description>
       <category>好物周刊</category>
       <pubDate>Thu, 30 Nov 2023 11:33:20 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#40：多功能文件管理器</h1>
@@ -433,6 +442,7 @@
 </div>
 <div class="hint-container tip">
 <p class="hint-container-title">原文</p>
+<p>https://mp.weixin.qq.com/s/AF-a6ZtK84lIgYyKmgumxA</p>
 </div>
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://github.com/lanceliao/china-holiday-calender" target="_blank" rel="noopener noreferrer">中国节假日补班日历</a></h3>
