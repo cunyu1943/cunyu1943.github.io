@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 20 Jan 2024 06:11:13 GMT</pubDate>
-    <lastBuildDate>Sat, 20 Jan 2024 06:11:13 GMT</lastBuildDate>
+    <pubDate>Sat, 20 Jan 2024 08:36:43 GMT</pubDate>
+    <lastBuildDate>Sat, 20 Jan 2024 08:36:43 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>好物周刊</category>
@@ -95,7 +95,7 @@
 <li>支持 FAR Manager 插件</li>
 <li>支持 87 种语言</li>
 </ul>
-<figure><figcaption></figcaption></figure>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0217-0223/image-20240109135809370.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 2. <a href="https://github.com/OdysseusYuan/LKY_OfficeTools" target="_blank" rel="noopener noreferrer">LKY Office Tools</a></h3>
 <p>一键自动化 下载、安装、激活 Office 的利器。绿色、开源、安全、无毒。目前支持以下功能：</p>
 <ul>
@@ -125,16 +125,17 @@
 <p>扫一扫，探索另一个全新的世界。</p>
 <figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
+      <enclosure url="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0217-0223/image-20240109135809370.webp" type="image/webp"/>
     </item>
     <item>
-      <title>好物周刊#42：</title>
+      <title>好物周刊#42：国产项目管理软件</title>
       <link>https://cunyu1943.github.io/weekly/2024/0127-0202.html</link>
       <guid>https://cunyu1943.github.io/weekly/2024/0127-0202.html</guid>
-      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#42：</source>
-      <description>好物周刊#42： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1. 菠萝博客</description>
+      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#42：国产项目管理软件</source>
+      <description>好物周刊#42：国产项目管理软件 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1. 菠萝博客</description>
       <category>好物周刊</category>
       <pubDate>Thu, 04 Jan 2024 11:43:14 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 好物周刊#42：</h1>
+      <content:encoded><![CDATA[<h1> 好物周刊#42：国产项目管理软件</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
@@ -145,44 +146,53 @@
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://github.com/adlered/bolo-solo" target="_blank" rel="noopener noreferrer">菠萝博客</a></h3>
 <p>基于 Java 的菠萝博客系统，简单易部署，精致主题，贴心服务，专为程序员设计。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0127-0202/1705491918451.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://github.com/adlered/Picuang" target="_blank" rel="noopener noreferrer">Picuang</a></h3>
 <p>本地存储图床，使用 SpringBoot 开发，RESTful 前后端分离，面向用户的网络图床服务。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0127-0202/1705491966874.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://gitee.com/ZhongBangKeJi/crmeb_java" target="_blank" rel="noopener noreferrer">CRMEB 开源商城系统 Java 版</a></h3>
 <p>CRMEB 开源商城系统 Java 版，基于 Java+Vue+Uni-app 开发，在微信公众号、小程序、H5 移动端都能使用，代码全开源无加密，独立部署，二开很方便，还支持免费商用，能满足企业新零售、分销推广、拼团、砍价、秒杀等多种经营需求，自用、做二开项目都很合适。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0127-0202/1705492056083.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
 <h3> 1. <a href="https://fluentsearch.net/" target="_blank" rel="noopener noreferrer">Fluent Search</a></h3>
 <p>一款快速启动器，融合了 Windows 11 Fluent Design 风格，当前仅支持 Windows 10 和 Windows 11。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0127-0202/image-20240108081722437.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://www.verysync.com/" target="_blank" rel="noopener noreferrer">微力同步</a></h3>
 <p>一款高效的数据传输工具，简单易用的多平台文件同步软件，惊人的传输速度是不同于其他产品的最大优势， 微力同步 的智能 P2P 技术加速同步，会将文件分割成若干份仅 KB 的数据同步，而文件都会进行 AES 加密处理。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0127-0202/1704709528680.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://www.zentao.net/" target="_blank" rel="noopener noreferrer">禅道</a></h3>
 <p>国产的开源项目管理软件，专注研发项目管理，内置需求管理、任务管理、bug 管理、缺陷管理、用例管理、计划发布等功能，实现了软件的完整生命周期管理。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0127-0202/1704709657035.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://www.sucai999.com/" target="_blank" rel="noopener noreferrer">菜鸟图库</a></h3>
 <p>菜鸟图库汇集了各种免费高清广告图片设计、电商淘宝、企业办公模板、视频、配乐、音效、字体、插画动图、装饰模型等素材，由顶尖的设计师供稿，满足各个行业的商用需求，下载高品质免费素材就到菜鸟图库。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0127-0202/1704709704174.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://www.51yuansu.com/" target="_blank" rel="noopener noreferrer">觅元素</a></h3>
 <p>觅元素专注于提供高质量版权素材图片免费下载的网站，提供优质 png 素材、高清背景素材、图片素材、设计素材，找高质量版权素材就来觅元素。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0127-0202/1704709747360.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://616pic.com/" target="_blank" rel="noopener noreferrer">图精灵</a></h3>
 <p>图精灵专注提供用户配图背景素材,网站提供海量免费 PNG 图片素材、背景图片素材、广告设计模板、摄影图片、免费字体等,各类高清精品免抠元素和背景图片,让设计从此变得简单！</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0127-0202/1704709803622.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
+<h3> 1. <a href="https://chromewebstore.google.com/detail/neatdownloadmanager-exten/cpcifbdmkopohnnofedkjghjiclmhdah" target="_blank" rel="noopener noreferrer">NeatDownloadManager</a></h3>
+<p>将 NeatDownloadManager 应用程序与 Chrome 浏览器集成。主动接管下载链接发送到 NeatDownloadManager，帮助我们从许多网站下载视频/音频。</p>
+<figure><figcaption></figcaption></figure>
+<h3> 2. <a href="https://chromewebstore.google.com/detail/fobdcbnndmloacbikchffcpjinbkadei" target="_blank" rel="noopener noreferrer">Leaf</a></h3>
+<p>提供了一种简单、快速、直观的方式来创建和管理笔记。非常适合那些一天大部分时间都在使用计算机同时需要一个地方来快速记下灵感的人。</p>
+<figure><figcaption></figcaption></figure>
+<h3> 3. <a href="https://chromewebstore.google.com/detail/volume-master-%E9%9F%B3%E9%87%8F%E6%8E%A7%E5%88%B6%E5%99%A8/jghecgabfgfdldnmbfkhmffcabddioke" target="_blank" rel="noopener noreferrer">音量控制器</a></h3>
+<p>最简单，最可靠的音量增强器，最高可以将音量提高 6 倍，而且可以做到精细化到标签控制。</p>
+<figure><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://k8s.easydoc.net/" target="_blank" rel="noopener noreferrer">K8S 快速上手</a></h3>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0127-0202/1705400562386.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>利用易文档搭建的一套 k8s 文档教程，配套视频教程。</p>
+<figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://docker.easydoc.net/" target="_blank" rel="noopener noreferrer">Docker 快速上手</a></h3>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0127-0202/1705400526824.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>利用易文档搭建的一套 Docker 文档教程，从安装、部署、迁移、挂载、通信等多方面介绍了关于 Docker 的内容。</p>
+<figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://github.com/guangzhengli/k8s-tutorials" target="_blank" rel="noopener noreferrer">k8s 教程</a></h3>
 <p>教程侧重于实战引导，以渐进式修改代码的方式，将从最基础的 container 容器的定义开始，经过 pod, deployment, service, ingress, configmap, secret 等资源直到用 helm 来打包部署一套完整服务。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0127-0202/1705400778312.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
@@ -196,17 +206,16 @@
 <p>扫一扫，探索另一个全新的世界。</p>
 <figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
-      <enclosure url="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0127-0202/1705491918451.webp" type="image/webp"/>
     </item>
     <item>
-      <title>好物周刊#43：</title>
+      <title>好物周刊#43：设计素材下载</title>
       <link>https://cunyu1943.github.io/weekly/2024/0203-0209.html</link>
       <guid>https://cunyu1943.github.io/weekly/2024/0203-0209.html</guid>
-      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#43：</source>
-      <description>好物周刊#43： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1. frp</description>
+      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#43：设计素材下载</source>
+      <description>好物周刊#43：设计素材下载 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1. frp</description>
       <category>好物周刊</category>
       <pubDate>Thu, 04 Jan 2024 11:43:14 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 好物周刊#43：</h1>
+      <content:encoded><![CDATA[<h1> 好物周刊#43：设计素材下载</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
@@ -246,9 +255,30 @@
 <p>致力于为广大影视后期设计师打造相互交流、分享作品与经验的互动平台。同时还提供了免费 AE 模板素材下载和国内外 CG 佳作供 CG 儿学习与参考。</p>
 <figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0203-0209/1705661001147.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
+<h3> 1. <a href="https://chromewebstore.google.com/detail/xswitch/idkjhjggpffolpidfkikidcokdkdaogg?hl=zh-CN" target="_blank" rel="noopener noreferrer">XSwitch</a></h3>
+<p>可以使用它将在线 CDN 或任意其他 URL 重定向到其他 URL，如本地文件/CDN 地址/行内 JavaScript 等，使得本地开发更为简单！</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0203-0209/1705728969492.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://chromewebstore.google.com/detail/%E4%BA%8C%E7%AE%A1%E5%AE%B6/aajodjghehmlpahhboidcpfjcncmcklf" target="_blank" rel="noopener noreferrer">二管家</a></h3>
+<p>一个全能的扩展管理和用户脚本管理扩展。</p>
+<p>支持拓展更新通知并记录拓展历史，自动开启/关闭拓展，根据当前网站获取二管家社区推荐。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0203-0209/1705729326272.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://chromewebstore.google.com/detail/super-dark-mode/nlgphodeccebbcnkgmokeegopgpnjfkc" target="_blank" rel="noopener noreferrer">Super Dark Mode</a></h3>
+<p>支持给任意网站切换黑暗模式，有助于节省电量，降低眼睛压力。不过对于以下页面暂不支持：</p>
+<ul>
+<li>新标签页</li>
+<li>Chrome 商店页面</li>
+</ul>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0203-0209/1705729680958.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://github.com/cnych/kubernetes-learning" target="_blank" rel="noopener noreferrer">从 Docker 到 Kubernetes 进阶课程</a></h3>
+<p>从 Docker 入门一步步迁移到 Kubernetes 的进阶课程。</p>
 <figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0203-0209/1705400950175.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://gitee.com/veal98/cs-wiki" target="_blank" rel="noopener noreferrer">cs-wiki</a></h3>
+<p>博主考研时建立并一直维护，旨在用于记录学习过程中博主的所思所想，并力图构建一个完善的后端知识体系。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0203-0209/1705712064109.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://github.com/elasticsearch-cn/elasticsearch-definitive-guide" target="_blank" rel="noopener noreferrer">Elasticsearch 权威指南</a></h3>
+<p>Elasticsearch 权威指南翻译中文版。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0203-0209/1705712458189.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
@@ -265,14 +295,14 @@
       <enclosure url="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0203-0209/1705492131368.webp" type="image/webp"/>
     </item>
     <item>
-      <title>好物周刊#44：</title>
+      <title>好物周刊#44：现代终端工具</title>
       <link>https://cunyu1943.github.io/weekly/2024/0210-0216.html</link>
       <guid>https://cunyu1943.github.io/weekly/2024/0210-0216.html</guid>
-      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#44：</source>
-      <description>好物周刊#44： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 二、软件 1. Termius</description>
+      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#44：现代终端工具</source>
+      <description>好物周刊#44：现代终端工具 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1. Github-Hosts</description>
       <category>好物周刊</category>
       <pubDate>Thu, 04 Jan 2024 11:43:14 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 好物周刊#44：</h1>
+      <content:encoded><![CDATA[<h1> 好物周刊#44：现代终端工具</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
@@ -281,13 +311,22 @@
 <p class="hint-container-title">原文</p>
 </div>
 <h2> 一、项目</h2>
+<h3> 1. <a href="https://github.com/maxiaof/github-hosts" target="_blank" rel="noopener noreferrer">Github-Hosts</a></h3>
+<p>通过修改 Hosts 解决国内 Github 经常抽风访问不到，每日更新。</p>
+<figure><figcaption></figcaption></figure>
+<h3> 2. <a href="https://github.com/woniudiancang/bee" target="_blank" rel="noopener noreferrer">餐饮点餐商城</a></h3>
+<p>针对餐饮行业推出的一套完整的餐饮解决方案，实现了用户在线点餐下单、外卖、叫号排队、支付、配送等功能，完美的使餐饮行业更高效便捷！</p>
+<figure><figcaption></figcaption></figure>
+<h3> 3. <a href="https://github.com/lxgw/LxgwWenKai" target="_blank" rel="noopener noreferrer">霞鹜文楷</a></h3>
+<p>一款开源中文字体，基于 FONTWORKS 出品字体 Klee One 衍生。</p>
+<figure><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
 <h3> 1. <a href="https://termius.com/" target="_blank" rel="noopener noreferrer">Termius</a></h3>
 <p>一款跨平台的开源 SSH 连接客户端软件。 提供包括状态栏显示、自动保存密码、URL 超链接、可移植会话、会话过滤器、DLL 前端、时间戳、窗口透明度等功能。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0210-0216/image-20240108082005617.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://iterm2.com/" target="_blank" rel="noopener noreferrer">iTerm2</a></h3>
 <p>一款功能强大的终端工具，仅适用于 macOS 系统。支持分窗口操作、自动补齐、粘贴历史、回放功能、全屏等功能。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0210-0216/1704780768136.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://mobaxterm.mobatek.net/" target="_blank" rel="noopener noreferrer">MobaXterm</a></h3>
 <p>集多项功能于一身的终端工具，支持如下功能：</p>
 <ul>
@@ -298,19 +337,37 @@
 <li>直接的便携版，不用安装</li>
 <li>内建多标签和多终端分屏</li>
 </ul>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0210-0216/1704780701979.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://tool.liumingye.cn/music/" target="_blank" rel="noopener noreferrer">MyFreeMP3</a></h3>
 <p>让音乐下载变得容易，快速而免费。只需点击两步，就能下载到想要的音乐，同时还支持搜索功能！</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0210-0216/1705493256306.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://www.hifini.com/" target="_blank" rel="noopener noreferrer">音乐磁场</a></h3>
 <p>一个由音乐爱好者维护的分享平台，旨在解决问题互帮互助，如果有需求，注册账号并发布信息、详细描述歌曲信息等，网站就会尽力帮您寻找。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0210-0216/1705493410248.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h3> 3. <a href="http://www.shiku.org/" target="_blank" rel="noopener noreferrer">中华诗库</a></h3>
 <p>中华诗库是免费提供中国诗歌作品的网络资料库及在线阅读公益图书馆。收藏有古今中外数万名诗人的数十万首诗歌作品。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0210-0216/1705493553068.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
+<h3> 1. <a href="https://chromewebstore.google.com/detail/json-handle/iahnhfdhidomcpggpaimmmahffihkfnj" target="_blank" rel="noopener noreferrer">JSON-handle</a></h3>
+<p>对 JSON 格式的内容进行浏览和编辑，以树形图样式展现 JSON 文档，并可实时编辑。</p>
+<figure><figcaption></figcaption></figure>
+<h3> 2. <a href="https://chromewebstore.google.com/detail/%E8%87%AA%E5%AE%9A%E7%BE%A9%E5%85%89%E6%A8%99/anflghppebdhjipndogapfagemgnlblh" target="_blank" rel="noopener noreferrer">自定义光标</a></h3>
+<p>使用酷炫的免费鼠标光标自定义您使用 Chrome 浏览器的体验。所有自定义光标均采用矢量图片，可确保能在任何屏幕上以任何光标大小获得完美的显示质量。在扩展弹出窗口中，还可以更改光标的大小，将其添加到收藏夹或将其从列表中完全删除，十分简单方便。</p>
+<figure><figcaption></figcaption></figure>
+<h3> 3. <a href="https://chromewebstore.google.com/detail/%E4%B9%A6%E7%AD%BE%E4%BE%A7%E8%BE%B9%E6%A0%8F/jdbnofccmhefkmjbkkdkfiicjkgofkdh" target="_blank" rel="noopener noreferrer">书签侧边栏</a></h3>
+<p>此扩展允许通过单击屏幕的左侧或右侧来访问书签。可以通过拖放来编辑、删除或重新排列书签，只需用鼠标左键单击书签即可查看相关信息。</p>
+<figure><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
+<h3> 1. <a href="https://github.com/qdleader/qdleader" target="_blank" rel="noopener noreferrer">qdleader</a></h3>
+<p>关于前端面试 + 知识点的总结型资料库，包含 js、vue、react、node、git、element、typescript、ts、next 方面的内容。</p>
+<figure><figcaption></figcaption></figure>
+<h3> 2. <a href="https://github.com/jishupang/web_atlas" target="_blank" rel="noopener noreferrer">前端知识图谱</a></h3>
+<p>前端知识图谱，包含脑图、png 和 md 文档，方便在不同场景下使用学习。</p>
+<figure><figcaption></figcaption></figure>
+<h3> 3. <a href="https://gitee.com/yu120/lemon-guide" target="_blank" rel="noopener noreferrer">lemon-guide</a></h3>
+<p>仓库收纳了操作系统、Java、算法、数据库、中间件、解决方案、架构、DevOps 和大数据等技术栈总结！</p>
+<figure><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
@@ -324,7 +381,6 @@
 <p>扫一扫，探索另一个全新的世界。</p>
 <figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content:encoded>
-      <enclosure url="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0210-0216/image-20240108082005617.webp" type="image/webp"/>
     </item>
     <item>
       <title>2024 年刊</title>
