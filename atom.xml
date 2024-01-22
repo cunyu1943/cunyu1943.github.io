@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2024-01-22T08:06:28.624Z</updated>
+  <updated>2024-01-22T10:35:19.475Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -21,11 +21,11 @@
   <category term="你问我答"/>
   <category term="Java 基础"/>
   <entry>
-    <title type="text">好物周刊#46：</title>
-    <id>https://cunyu1943.github.io/weekly/2024/0224-0301.html</id>
-    <link href="https://cunyu1943.github.io/weekly/2024/0224-0301.html"/>
-    <updated>2024-01-09T11:21:48.000Z</updated>
-    <summary type="html"><![CDATA[<h1> 好物周刊#46：</h1>
+    <title type="text">好物周刊#47：</title>
+    <id>https://cunyu1943.github.io/weekly/2024/0302-0308.html</id>
+    <link href="https://cunyu1943.github.io/weekly/2024/0302-0308.html"/>
+    <updated>2024-01-22T10:33:47.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 好物周刊#47：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
@@ -40,7 +40,7 @@
 <h2> 五、资料</h2>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>]]></summary>
-    <content type="html"><![CDATA[<h1> 好物周刊#46：</h1>
+    <content type="html"><![CDATA[<h1> 好物周刊#47：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
@@ -67,13 +67,65 @@
 <figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content>
     <category term="好物周刊"/>
+    <published>2024-01-22T10:33:47.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">好物周刊#46：</title>
+    <id>https://cunyu1943.github.io/weekly/2024/0224-0301.html</id>
+    <link href="https://cunyu1943.github.io/weekly/2024/0224-0301.html"/>
+    <updated>2024-01-22T10:33:47.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 好物周刊#46：</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">原文</p>
+</div>
+<h2> 一、项目</h2>
+<h2> 二、软件</h2>
+<h2> 三、网站</h2>
+<h2> 四、插件</h2>
+<h2> 五、资料</h2>
+<h3> 1. <a href="https://chromewebstore.google.com/detail/cookie-editor/iphcomljdfghbkdcfndaijbokpgddeno?hl=zh-CN" target="_blank" rel="noopener noreferrer">Cookie Editor</a></h3>]]></summary>
+    <content type="html"><![CDATA[<h1> 好物周刊#46：</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">原文</p>
+</div>
+<h2> 一、项目</h2>
+<h2> 二、软件</h2>
+<h2> 三、网站</h2>
+<h2> 四、插件</h2>
+<h2> 五、资料</h2>
+<h3> 1. <a href="https://chromewebstore.google.com/detail/cookie-editor/iphcomljdfghbkdcfndaijbokpgddeno?hl=zh-CN" target="_blank" rel="noopener noreferrer">Cookie Editor</a></h3>
+<p>功能强大的 Cookie 管理器，支持编辑、新增、导入、导出 Cookie。</p>
+<h3> 2. <a href="https://chromewebstore.google.com/detail/download-all-images/ifipmflagepipjokmbdecpmjbibjnakm?hl=zh-CN" target="_blank" rel="noopener noreferrer">Download All Images</a></h3>
+<p>安装后，一键点击即可自动将当前页面的所有图片打包成 zip 下载到本地，无需单独操作。</p>
+<h2> ✍️ 说明</h2>
+<p>周刊专栏相关信息：</p>
+<ul>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a> | <a href="https://yuque.com/cunyu1943" target="_blank" rel="noopener noreferrer">语雀</a></li>
+</ul>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<hr>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+]]></content>
+    <category term="好物周刊"/>
     <published>2024-01-09T11:21:48.000Z</published>
   </entry>
   <entry>
     <title type="text">好物周刊#45：</title>
     <id>https://cunyu1943.github.io/weekly/2024/0217-0223.html</id>
     <link href="https://cunyu1943.github.io/weekly/2024/0217-0223.html"/>
-    <updated>2024-01-20T08:35:04.000Z</updated>
+    <updated>2024-01-22T10:33:47.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#45：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -130,6 +182,23 @@
 <figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0217-0223/1704887895189.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
 <h2> 四、插件</h2>
+<h3> 1. <a href="https://chromewebstore.google.com/detail/oscnews/iheapfheanfjcemgneblljhaebonakbg" target="_blank" rel="noopener noreferrer">oscnews</a></h3>
+<p>查看开源中国软件更新资讯，内置文档导航，GitHub 趋势榜，Linux 命令索引，浏览历史记录和时钟页面。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0217-0223/1705909747975.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://chromewebstore.google.com/detail/replace-google-cdn/kpampjmfiopfpkkepbllemkibefkiice" target="_blank" rel="noopener noreferrer">Replace Google CDN</a></h3>
+<p>将 Google CDN 替换为国内镜像，加速网站访问速度。</p>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0217-0223/1705910486872.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://chromewebstore.google.com/detail/%E9%87%8E%E8%8D%89%E4%B9%A6%E7%AD%BE/agboddkglokgkojmbjefdpccdopckjnp?hl=zh-CN" target="_blank" rel="noopener noreferrer">野草书签</a></h3>
+<p>基于 Chrome 的书签管理器，启用插件后会提示是否覆盖默认页面，点确定后插件会接管默认首页，插件具有如下特性：</p>
+<ul>
+<li>基于 Chrome 自身收藏夹数据。</li>
+<li>支持 mp4, webm, m8u3 等音视频后缀直接播放。</li>
+<li>支持第三方独立播放器在线播放。（只要包含【?url=】等特征即可。）</li>
+<li>支持上传本地文件到图床服务器。</li>
+<li>支持暗黑模式。</li>
+<li>支持拖动排序书签顺序。</li>
+</ul>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0217-0223/1705910706490.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
@@ -728,118 +797,6 @@
     <published>2023-11-19T13:15:18.000Z</published>
   </entry>
   <entry>
-    <title type="text">好物周刊#38：在线图片处理</title>
-    <id>https://cunyu1943.github.io/weekly/2024/0101-0105.html</id>
-    <link href="https://cunyu1943.github.io/weekly/2024/0101-0105.html"/>
-    <updated>2024-01-05T09:27:05.000Z</updated>
-    <summary type="html"><![CDATA[<h1> 好物周刊#38：在线图片处理</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<div class="hint-container tip">
-<p class="hint-container-title">原文</p>
-<p>https://mp.weixin.qq.com/s/jy6pfjLa5Jfp9rZVGem3pg</p>
-</div>
-<h2> 一、项目</h2>
-<h3> 1. <a href="https://gitee.com/aieditor-team/aieditor" target="_blank" rel="noopener noreferrer">AiEditor</a></h3>]]></summary>
-    <content type="html"><![CDATA[<h1> 好物周刊#38：在线图片处理</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<div class="hint-container tip">
-<p class="hint-container-title">原文</p>
-<p>https://mp.weixin.qq.com/s/jy6pfjLa5Jfp9rZVGem3pg</p>
-</div>
-<h2> 一、项目</h2>
-<h3> 1. <a href="https://gitee.com/aieditor-team/aieditor" target="_blank" rel="noopener noreferrer">AiEditor</a></h3>
-<p>一个面向 <code>AI</code> 的下一代富文本编辑器，她基于 <code>Web Component</code>，因此支持 <code>Layui</code>、<code>Vue</code>、<code>React</code>、<code>Angular</code> 等几乎任何前端框架。她适配了 <code>PC Web</code> 端和手机端，并提供了亮色和暗色两个主题。除此之外，还提供了灵活的配置，开发者可以方便的使用其开发任何文字编辑的应用。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1701774383285.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3> 2. <a href="https://gitee.com/dromara/go-view" target="_blank" rel="noopener noreferrer">GoView</a></h3>
-<p>一个 <code>Vue3</code> 搭建的低代码数据可视化开发平台，将图表或页面元素封装为基础组件，无需编写代码即可完成业务需求。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1701774668856.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3> 3. <a href="https://github.com/xaoxuu/hexo-theme-stellar" target="_blank" rel="noopener noreferrer">hexo-theme-stellar</a></h3>
-<p>一个内置文档系统的简约商务风 <code>Hexo</code> 主题，支持丰富的标签和动态数据组件。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1704240568952.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h2> 二、软件</h2>
-<h3> 1. <a href="https://www.coodesker.com/" target="_blank" rel="noopener noreferrer">酷呆桌面</a></h3>
-<p>自动分类整理桌面上的快捷方式、目录、图片等文件。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/image-20231127082315331.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3> 2. <a href="https://github.com/cxasm/notepad--" target="_blank" rel="noopener noreferrer">Notepad--</a></h3>
-<p>一个使用 <code>C++</code> 编写的文本编辑器 <code>Notepad--</code>, 可以支持 <code>Win/Linux/Mac</code> 平台。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/image-20231127082606541.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3> 3. <a href="https://fancynode.com.cn/pxcook" target="_blank" rel="noopener noreferrer">PxCook</a></h3>
-<p>高效易用的自动标注工具，生成前端代码，设计研发协作利器。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/image-20231127082530531.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h2> 三、网站</h2>
-<h3> 1. <a href="https://tiomg.org/" target="_blank" rel="noopener noreferrer">太美工具箱</a></h3>
-<p>在线工具，免费图片压缩工具，在线图片工具，在线 <code>PDF</code> 工具，程序开发者工具。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1701217723634.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3> 2. <a href="https://www.gaituya.com/" target="_blank" rel="noopener noreferrer">改图鸭</a></h3>
-<p>改图鸭作为在线版图片格式处理工具，提供图片编辑、图片格式转换、图片压缩等大量的图片处理功能，用户不用下载任何软件，只需将图片上传到官网即可对图片进行编辑，方便快捷。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1701218686283.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3> 3. <a href="https://quququ.cn/" target="_blank" rel="noopener noreferrer">去去去</a></h3>
-<p>一款图片在线去水印网站，永久免费，使用人工智能技术，支持批量去除图片中的文字、标志，多余物体等多种水印，去水印不留痕，不压画质，高质不糊图！</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1701218832636.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h2> 四、插件</h2>
-<h3> 1. <a href="https://chromewebstore.google.com/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp" target="_blank" rel="noopener noreferrer">ColorZilla</a></h3>
-<p>高级吸管、拾色器、渐变生成器和其他与颜色相关的实用工具。</p>
-<p>最用户友好、功能齐全、安全且可靠的颜色选择器和与颜色相关的工具套件。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1704240655799.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3> 2. <a href="https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne" target="_blank" rel="noopener noreferrer">Stylus</a></h3>
-<p>一个调整网页外观的用户样式管理器。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1704240681938.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3> 3. <a href="https://chromewebstore.google.com/detail/feedly-notifier/egikgfbhipinieabdmcpigejkaomgjgb" target="_blank" rel="noopener noreferrer">Feedly Notifier</a></h3>
-<p>一个精巧的扩展，可让您随时了解 <code>Feedly</code> 订阅。支持如下功能：</p>
-<ul>
-<li>显示未读新闻数</li>
-<li>未读新闻标题(直链新闻站点)</li>
-<li>文章预览在弹窗显示</li>
-<li>设置更新类别</li>
-<li>HTTPS支持</li>
-<li>将新闻标记为已读</li>
-<li>保存以便稍后阅读</li>
-<li>单击按钮即可打开网站(作为计数器)</li>
-<li>桌面通知</li>
-<li>后台模式</li>
-</ul>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1704240718582.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h2> 五、资料</h2>
-<h3> 1. <a href="https://github.com/binghe001/BingheGuide" target="_blank" rel="noopener noreferrer">BingheGuide</a></h3>
-<p>包含：编程语言，开发技术，分布式，微服务，高并发，高可用，高可扩展，高可维护，<code>JVM</code> 技术，<code>MySQL</code>，分布式数据库，分布式事务，云原生，大数据，云计算，渗透技术，各种面试题，面试技巧等方面内容。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1701389750846.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3> 2. <a href="https://github.com/Drun1baby/JavaSecurityLearning" target="_blank" rel="noopener noreferrer">JavaSecurityLearning</a></h3>
-<p>记录了作者 <code>Java</code> 安全的学习历程，主要包含以下方面的内容：</p>
-<ul>
-<li>基础开发</li>
-<li><code>Java</code> 安全基础</li>
-<li><code>Java</code> 反序列化基础</li>
-<li><code>Java</code> 反序列化进阶</li>
-<li><code>Weblogic</code></li>
-<li>内存马</li>
-<li>……</li>
-</ul>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1702552267661.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3> 3. <a href="https://github.com/qiurunze123/threadandjuc" target="_blank" rel="noopener noreferrer">threadandjuc</a></h3>
-<p>项目利用多线程进行千万级别导入，实现可扩展，高性能、高可用、高可靠三个高，本项目可以在千万级别数据实现无差别高性能数据上报与导入，与普通导入相比性能提高 10 倍左右，而且规避风险在偶尔的机器宕机，网络波动等情况出现时，仍能够实现数据一致，数据可靠，数据重试，数据报警等功能。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1702552755528.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h2> ✍️ 说明</h2>
-<p>周刊专栏相关信息：</p>
-<ul>
-<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
-<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a> | <a href="https://yuque.com/cunyu1943" target="_blank" rel="noopener noreferrer">语雀</a></li>
-</ul>
-<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
-<h2> ⏳ 联系</h2>
-<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
-<p>扫一扫，探索另一个全新的世界。</p>
-<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-]]></content>
-    <category term="好物周刊"/>
-    <published>2023-11-16T14:25:53.000Z</published>
-  </entry>
-  <entry>
     <title type="text">好物周刊#36：程序员简历</title>
     <id>https://cunyu1943.github.io/weekly/2023/1216-1222.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/1216-1222.html"/>
@@ -1100,6 +1057,118 @@
 <p>当前大环境下，就业形势严峻，尤其针对即将毕业的大学生。作为一个技术求职者，求职前应该做好哪些准备呢，一些面试实战技巧也十分有必要！而刚好最近掘金出了一本《技术人求职指南》小册，相信一定会对在找工作的你有所帮助。</p>
 <p>从求职到拿下 <code>Offer</code>，一本职场的全方位攻略，快来和我一起学习吧！</p>
 <figure><figcaption></figcaption></figure>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+]]></content>
+    <category term="好物周刊"/>
+    <published>2023-11-16T14:25:53.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">好物周刊#38：在线图片处理</title>
+    <id>https://cunyu1943.github.io/weekly/2024/0101-0105.html</id>
+    <link href="https://cunyu1943.github.io/weekly/2024/0101-0105.html"/>
+    <updated>2024-01-05T09:27:05.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 好物周刊#38：在线图片处理</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">原文</p>
+<p>https://mp.weixin.qq.com/s/jy6pfjLa5Jfp9rZVGem3pg</p>
+</div>
+<h2> 一、项目</h2>
+<h3> 1. <a href="https://gitee.com/aieditor-team/aieditor" target="_blank" rel="noopener noreferrer">AiEditor</a></h3>]]></summary>
+    <content type="html"><![CDATA[<h1> 好物周刊#38：在线图片处理</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">原文</p>
+<p>https://mp.weixin.qq.com/s/jy6pfjLa5Jfp9rZVGem3pg</p>
+</div>
+<h2> 一、项目</h2>
+<h3> 1. <a href="https://gitee.com/aieditor-team/aieditor" target="_blank" rel="noopener noreferrer">AiEditor</a></h3>
+<p>一个面向 <code>AI</code> 的下一代富文本编辑器，她基于 <code>Web Component</code>，因此支持 <code>Layui</code>、<code>Vue</code>、<code>React</code>、<code>Angular</code> 等几乎任何前端框架。她适配了 <code>PC Web</code> 端和手机端，并提供了亮色和暗色两个主题。除此之外，还提供了灵活的配置，开发者可以方便的使用其开发任何文字编辑的应用。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1701774383285.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://gitee.com/dromara/go-view" target="_blank" rel="noopener noreferrer">GoView</a></h3>
+<p>一个 <code>Vue3</code> 搭建的低代码数据可视化开发平台，将图表或页面元素封装为基础组件，无需编写代码即可完成业务需求。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1701774668856.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://github.com/xaoxuu/hexo-theme-stellar" target="_blank" rel="noopener noreferrer">hexo-theme-stellar</a></h3>
+<p>一个内置文档系统的简约商务风 <code>Hexo</code> 主题，支持丰富的标签和动态数据组件。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1704240568952.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h2> 二、软件</h2>
+<h3> 1. <a href="https://www.coodesker.com/" target="_blank" rel="noopener noreferrer">酷呆桌面</a></h3>
+<p>自动分类整理桌面上的快捷方式、目录、图片等文件。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/image-20231127082315331.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://github.com/cxasm/notepad--" target="_blank" rel="noopener noreferrer">Notepad--</a></h3>
+<p>一个使用 <code>C++</code> 编写的文本编辑器 <code>Notepad--</code>, 可以支持 <code>Win/Linux/Mac</code> 平台。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/image-20231127082606541.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://fancynode.com.cn/pxcook" target="_blank" rel="noopener noreferrer">PxCook</a></h3>
+<p>高效易用的自动标注工具，生成前端代码，设计研发协作利器。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/image-20231127082530531.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h2> 三、网站</h2>
+<h3> 1. <a href="https://tiomg.org/" target="_blank" rel="noopener noreferrer">太美工具箱</a></h3>
+<p>在线工具，免费图片压缩工具，在线图片工具，在线 <code>PDF</code> 工具，程序开发者工具。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1701217723634.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://www.gaituya.com/" target="_blank" rel="noopener noreferrer">改图鸭</a></h3>
+<p>改图鸭作为在线版图片格式处理工具，提供图片编辑、图片格式转换、图片压缩等大量的图片处理功能，用户不用下载任何软件，只需将图片上传到官网即可对图片进行编辑，方便快捷。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1701218686283.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://quququ.cn/" target="_blank" rel="noopener noreferrer">去去去</a></h3>
+<p>一款图片在线去水印网站，永久免费，使用人工智能技术，支持批量去除图片中的文字、标志，多余物体等多种水印，去水印不留痕，不压画质，高质不糊图！</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1701218832636.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h2> 四、插件</h2>
+<h3> 1. <a href="https://chromewebstore.google.com/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp" target="_blank" rel="noopener noreferrer">ColorZilla</a></h3>
+<p>高级吸管、拾色器、渐变生成器和其他与颜色相关的实用工具。</p>
+<p>最用户友好、功能齐全、安全且可靠的颜色选择器和与颜色相关的工具套件。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1704240655799.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne" target="_blank" rel="noopener noreferrer">Stylus</a></h3>
+<p>一个调整网页外观的用户样式管理器。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1704240681938.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://chromewebstore.google.com/detail/feedly-notifier/egikgfbhipinieabdmcpigejkaomgjgb" target="_blank" rel="noopener noreferrer">Feedly Notifier</a></h3>
+<p>一个精巧的扩展，可让您随时了解 <code>Feedly</code> 订阅。支持如下功能：</p>
+<ul>
+<li>显示未读新闻数</li>
+<li>未读新闻标题(直链新闻站点)</li>
+<li>文章预览在弹窗显示</li>
+<li>设置更新类别</li>
+<li>HTTPS支持</li>
+<li>将新闻标记为已读</li>
+<li>保存以便稍后阅读</li>
+<li>单击按钮即可打开网站(作为计数器)</li>
+<li>桌面通知</li>
+<li>后台模式</li>
+</ul>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1704240718582.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h2> 五、资料</h2>
+<h3> 1. <a href="https://github.com/binghe001/BingheGuide" target="_blank" rel="noopener noreferrer">BingheGuide</a></h3>
+<p>包含：编程语言，开发技术，分布式，微服务，高并发，高可用，高可扩展，高可维护，<code>JVM</code> 技术，<code>MySQL</code>，分布式数据库，分布式事务，云原生，大数据，云计算，渗透技术，各种面试题，面试技巧等方面内容。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1701389750846.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://github.com/Drun1baby/JavaSecurityLearning" target="_blank" rel="noopener noreferrer">JavaSecurityLearning</a></h3>
+<p>记录了作者 <code>Java</code> 安全的学习历程，主要包含以下方面的内容：</p>
+<ul>
+<li>基础开发</li>
+<li><code>Java</code> 安全基础</li>
+<li><code>Java</code> 反序列化基础</li>
+<li><code>Java</code> 反序列化进阶</li>
+<li><code>Weblogic</code></li>
+<li>内存马</li>
+<li>……</li>
+</ul>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1702552267661.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://github.com/qiurunze123/threadandjuc" target="_blank" rel="noopener noreferrer">threadandjuc</a></h3>
+<p>项目利用多线程进行千万级别导入，实现可扩展，高性能、高可用、高可靠三个高，本项目可以在千万级别数据实现无差别高性能数据上报与导入，与普通导入相比性能提高 10 倍左右，而且规避风险在偶尔的机器宕机，网络波动等情况出现时，仍能够实现数据一致，数据可靠，数据重试，数据报警等功能。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1702552755528.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h2> ✍️ 说明</h2>
+<p>周刊专栏相关信息：</p>
+<ul>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a> | <a href="https://yuque.com/cunyu1943" target="_blank" rel="noopener noreferrer">语雀</a></li>
+</ul>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
 <h2> ⏳ 联系</h2>
 <p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
 <p>扫一扫，探索另一个全新的世界。</p>
@@ -9704,104 +9773,6 @@ salary <span class="token operator">=</span> <span class="token builtin">input</
     <published>2023-09-27T07:28:16.000Z</published>
   </entry>
   <entry>
-    <title type="text">内存管理函数</title>
-    <id>https://cunyu1943.github.io/program-language/c-series/20180308-memory-manage.html</id>
-    <link href="https://cunyu1943.github.io/program-language/c-series/20180308-memory-manage.html"/>
-    <updated>2023-09-26T15:06:57.000Z</updated>
-    <summary type="html"><![CDATA[<h1> 内存管理函数</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<h2> malloc函数</h2>
-<ul>
-<li>
-<p>原型：<code>extern void* malloc(unsigned int size)</code>；</p>
-</li>
-<li>
-<p>功能：动态分配内存；</p>
-</li>
-<li>
-<p>注意：<code>size</code> 仅仅为申请内存字节大小，与申请内存块中存储的数据类型无关，故编程时需要通过以下方式给出：<code>长度 * sizeof(数据类型)</code>；</p>
-</li>
-<li>
-<p>示例：</p>
-</li>
-</ul>]]></summary>
-    <content type="html"><![CDATA[<h1> 内存管理函数</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<h2> malloc函数</h2>
-<ul>
-<li>
-<p>原型：<code>extern void* malloc(unsigned int size)</code>；</p>
-</li>
-<li>
-<p>功能：动态分配内存；</p>
-</li>
-<li>
-<p>注意：<code>size</code> 仅仅为申请内存字节大小，与申请内存块中存储的数据类型无关，故编程时需要通过以下方式给出：<code>长度 * sizeof(数据类型)</code>；</p>
-</li>
-<li>
-<p>示例：</p>
-</li>
-</ul>
-<div class="language-c line-numbers-mode" data-ext="c"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> free函数</h2>
-<ul>
-<li>原型：<code>void free(void * ptr)</code>；</li>
-<li>功能：搭配 <code>malloc()</code> 函数，释放 <code>malloc</code> 函数申请的动态内存；</li>
-<li>注意：对于 <code>free(ptr)</code>，若 <code>ptr</code> 为 <code>NULL</code>，则可进行多次释放，若 <code>ptr</code> 是非空指针，则 <code>free</code> 对 <code>ptr</code> 只能进行一次操作，否则程序将崩溃；</li>
-<li>示例：见 <code>malloc</code> 函数；</li>
-<li>结果：见 <code>malloc</code> 函数；</li>
-</ul>
-<h2> realloc函数</h2>
-<ul>
-<li>
-<p>原型： <code>void* realloc(void * ptr,unsigned int size)</code>；</p>
-</li>
-<li>
-<p>功能：先判断当前指针是否有足够的连续空间，若足够，扩大 <code>ptr</code> 指向的地址并返回，若不够，怎按<code>size</code> 指定的大小分配空间，将原数据 <code>copy</code> 到新分配的内存中，然后释放原 <code>ptr</code> 所指向区域；</p>
-</li>
-<li>
-<p>注意：内存使用完毕后，应使用 <code>free()</code> 函数释放，但原来的指针是自动释放，不需要使用free；</p>
-</li>
-<li>
-<p>示例：</p>
-</li>
-</ul>
-<div class="language-c line-numbers-mode" data-ext="c"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> calloc函数</h2>
-<ul>
-<li>
-<p>原型：<code>void* calloc（unsigned int num，unsigned int size）</code>；</p>
-</li>
-<li>
-<p>功能：为已经分配的内存重新分配空间并复制内容；</p>
-</li>
-<li>
-<p>注意：<code>num</code>：对象个数，<code>size</code>：对象占据的内存字节数，相较于 <code>malloc</code> 函数，<code>calloc</code> 函数会自动将内存初始化为 0；</p>
-</li>
-<li>
-<p>示例：</p>
-</li>
-</ul>
-<div class="language-c line-numbers-mode" data-ext="c"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> ⏳ 联系</h2>
-<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
-<p>扫一扫，探索另一个全新的世界。</p>
-<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-]]></content>
-    <category term="C 语言教程"/>
-    <published>2018-03-08T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">C 系列</title>
-    <id>https://cunyu1943.github.io/program-language/c-series/</id>
-    <link href="https://cunyu1943.github.io/program-language/c-series/"/>
-    <updated>2023-09-27T07:28:16.000Z</updated>
-    <published>2023-09-26T15:06:57.000Z</published>
-  </entry>
-  <entry>
     <title type="text">Nginx 教程</title>
     <id>https://cunyu1943.github.io/java-tutorial/nginx-series/</id>
     <link href="https://cunyu1943.github.io/java-tutorial/nginx-series/"/>
@@ -9900,6 +9871,104 @@ salary <span class="token operator">=</span> <span class="token builtin">input</
 ]]></content>
     <category term="Web 前端教程"/>
     <published>2023-09-26T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">内存管理函数</title>
+    <id>https://cunyu1943.github.io/program-language/c-series/20180308-memory-manage.html</id>
+    <link href="https://cunyu1943.github.io/program-language/c-series/20180308-memory-manage.html"/>
+    <updated>2023-09-26T15:06:57.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 内存管理函数</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<h2> malloc函数</h2>
+<ul>
+<li>
+<p>原型：<code>extern void* malloc(unsigned int size)</code>；</p>
+</li>
+<li>
+<p>功能：动态分配内存；</p>
+</li>
+<li>
+<p>注意：<code>size</code> 仅仅为申请内存字节大小，与申请内存块中存储的数据类型无关，故编程时需要通过以下方式给出：<code>长度 * sizeof(数据类型)</code>；</p>
+</li>
+<li>
+<p>示例：</p>
+</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[<h1> 内存管理函数</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<h2> malloc函数</h2>
+<ul>
+<li>
+<p>原型：<code>extern void* malloc(unsigned int size)</code>；</p>
+</li>
+<li>
+<p>功能：动态分配内存；</p>
+</li>
+<li>
+<p>注意：<code>size</code> 仅仅为申请内存字节大小，与申请内存块中存储的数据类型无关，故编程时需要通过以下方式给出：<code>长度 * sizeof(数据类型)</code>；</p>
+</li>
+<li>
+<p>示例：</p>
+</li>
+</ul>
+<div class="language-c line-numbers-mode" data-ext="c"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> free函数</h2>
+<ul>
+<li>原型：<code>void free(void * ptr)</code>；</li>
+<li>功能：搭配 <code>malloc()</code> 函数，释放 <code>malloc</code> 函数申请的动态内存；</li>
+<li>注意：对于 <code>free(ptr)</code>，若 <code>ptr</code> 为 <code>NULL</code>，则可进行多次释放，若 <code>ptr</code> 是非空指针，则 <code>free</code> 对 <code>ptr</code> 只能进行一次操作，否则程序将崩溃；</li>
+<li>示例：见 <code>malloc</code> 函数；</li>
+<li>结果：见 <code>malloc</code> 函数；</li>
+</ul>
+<h2> realloc函数</h2>
+<ul>
+<li>
+<p>原型： <code>void* realloc(void * ptr,unsigned int size)</code>；</p>
+</li>
+<li>
+<p>功能：先判断当前指针是否有足够的连续空间，若足够，扩大 <code>ptr</code> 指向的地址并返回，若不够，怎按<code>size</code> 指定的大小分配空间，将原数据 <code>copy</code> 到新分配的内存中，然后释放原 <code>ptr</code> 所指向区域；</p>
+</li>
+<li>
+<p>注意：内存使用完毕后，应使用 <code>free()</code> 函数释放，但原来的指针是自动释放，不需要使用free；</p>
+</li>
+<li>
+<p>示例：</p>
+</li>
+</ul>
+<div class="language-c line-numbers-mode" data-ext="c"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> calloc函数</h2>
+<ul>
+<li>
+<p>原型：<code>void* calloc（unsigned int num，unsigned int size）</code>；</p>
+</li>
+<li>
+<p>功能：为已经分配的内存重新分配空间并复制内容；</p>
+</li>
+<li>
+<p>注意：<code>num</code>：对象个数，<code>size</code>：对象占据的内存字节数，相较于 <code>malloc</code> 函数，<code>calloc</code> 函数会自动将内存初始化为 0；</p>
+</li>
+<li>
+<p>示例：</p>
+</li>
+</ul>
+<div class="language-c line-numbers-mode" data-ext="c"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+]]></content>
+    <category term="C 语言教程"/>
+    <published>2018-03-08T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">C 系列</title>
+    <id>https://cunyu1943.github.io/program-language/c-series/</id>
+    <link href="https://cunyu1943.github.io/program-language/c-series/"/>
+    <updated>2023-09-27T07:28:16.000Z</updated>
+    <published>2023-09-26T15:06:57.000Z</published>
   </entry>
   <entry>
     <title type="text">软件设计师</title>
@@ -16322,398 +16391,6 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 </ol>
 <div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 总结</h2>
 <p>本文主要讲解了 <code>ArrayList</code> 的定义、泛型支持、构造方法以及常用方法等。主要针对的是日常中的使用，更多关于 <code>ArrayList</code>&nbsp; 底层原理的一些知识，抽个时间再聊吧！</p>
-<h2> ⏳ 联系</h2>
-<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
-<p>扫一扫，探索另一个全新的世界。</p>
-<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-]]></content>
-    <category term="Java 基础"/>
-    <published>2023-08-27T01:05:55.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">输入输出流</title>
-    <id>https://cunyu1943.github.io/java-tutorial/javase-series/20220715-in-out-stream.html</id>
-    <link href="https://cunyu1943.github.io/java-tutorial/javase-series/20220715-in-out-stream.html"/>
-    <updated>2023-09-15T00:12:02.000Z</updated>
-    <summary type="html"><![CDATA[<h1> 输入输出流</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<h2> 前言</h2>
-<p>我们日常开发过程中，有许多方面都涉及到 IO 流，比如上传下载、传输、设计模式等等。而所有的一切都是基于 IO 流来进行，所以今天就来看看 Java 中 IO 流的相关知识点。</p>
-<p>本文主要内容安排如下：</p>
-<ul>
-<li><strong>文件对象</strong></li>
-<li><strong>流简介</strong></li>
-<li><strong>字节流</strong></li>
-<li><strong>字符流</strong></li>
-</ul>]]></summary>
-    <content type="html"><![CDATA[<h1> 输入输出流</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<h2> 前言</h2>
-<p>我们日常开发过程中，有许多方面都涉及到 IO 流，比如上传下载、传输、设计模式等等。而所有的一切都是基于 IO 流来进行，所以今天就来看看 Java 中 IO 流的相关知识点。</p>
-<p>本文主要内容安排如下：</p>
-<ul>
-<li><strong>文件对象</strong></li>
-<li><strong>流简介</strong></li>
-<li><strong>字节流</strong></li>
-<li><strong>字符流</strong></li>
-</ul>
-<h2> 文件对象</h2>
-<h3> 文件路径</h3>
-<p>Java 标准库 <code>java.io</code> 提供了 <code>File</code> 对象用于操作文件和目录，也就是说我们的文件和目录都是可以通过 <code>File</code> 封装成对象的。构造 <code>File</code> 对象时，需要传入我们的文件或目录的路径名，常用的构造方法如下：</p>
-<table>
-<thead>
-<tr>
-<th>方法</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>File(String pathName)</code></td>
-<td>通过将给定路径名字符串转换为抽象路径名来创建新实例</td>
-</tr>
-<tr>
-<td><code>File(String parent, String child)</code></td>
-<td>从父路径名字符串和子路径名字符串创建新实例</td>
-</tr>
-<tr>
-<td><code>File(File parent, String child)</code></td>
-<td>从父抽象路径名和子路径名字符串创建新实例</td>
-</tr>
-</tbody>
-</table>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
-<p>对于我们传入文件的路径，既可以使用绝对路径，也可以使用相对路径。</p>
-<ul>
-<li><strong>相对路径</strong>：以当前文件所在位置为参考，然后建立出另一个文件所在位置路径。我们最常用的有 <code>.</code> 和 <code>..</code>，前者表示当前目录，而后者则表示当前目录的上一级目录。假设我们当前目录为 <code>/home/cunyu1943/data</code>，则 <code>.</code> 仍然表示该目录，而 <code>..</code> 则表示 <code>/home/cunyu1943</code> 目录。</li>
-<li><strong>绝对路径</strong>：又可以分为 <strong>本地绝对路径</strong> 和 <strong>网络绝对路径</strong>。本地绝对路径以根目录为参考，指文件在硬盘中真实存在的路径，比如在 Windows 系统，我们的一个绝对路径是 <code>D:\\Softwares\\Typora\\Typora.exe</code>，而在类 <code>Unix</code> 系统中则为 <code>/home/cunyu1943/IO.md</code>，此时需要注意平台间的分隔符是不一样的，但为了同一，推荐同一写成 <code>/</code>，这样程序在不同系统中迁移时也不会出现问题。而网络绝对位置则指带有网址的路径，比如 <code>https://cunyu1943.site/index.html</code>。</li>
-</ul>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
-<h3> 文件和目录操作</h3>
-<h4> 创建与删除</h4>
-<p>既然拿到了 <code>File</code> 对象，接下来就是通过操作该对象来进行创建和删除文件或目录了，以下是一些 <code>File</code> 类常用的创建和删除方法。</p>
-<table>
-<thead>
-<tr>
-<th>返回值</th>
-<th>方法</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>boolean</code></td>
-<td><code>createNewFile()</code></td>
-<td>当具有该名称的文件不存在时，创建一个由该抽象路径名命名的新空文件；存在时，则创建失败</td>
-</tr>
-<tr>
-<td><code>boolean</code></td>
-<td><code>mkdir()</code></td>
-<td>创建由此抽象路径名命名的目录</td>
-</tr>
-<tr>
-<td><code>boolean</code></td>
-<td><code>mkdirs()</code></td>
-<td>创建由此抽象路径名命名的多级目录，包括任何必需但不存在的父目录</td>
-</tr>
-<tr>
-<td><code>boolean</code></td>
-<td><code>delete()</code></td>
-<td>删除由此抽象路径名命名的文件或目录，删除目录的前提是该目录必须为空</td>
-</tr>
-</tbody>
-</table>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
-<p><strong>注意</strong>：</p>
-<ul>
-<li>
-<p>创建文件时，调用的是 <code>createNewFile()</code> 方法，而创建目录时调用的是 <code>mkdir()</code> 或者 <code>mkdirs()</code> 方法。我们在调用时要注意区分，否则就算你的路径是文件，当调用了创建目录的方法后它也会创建成目录而非文件。对应的，就算你给定的路径是目录，当调用创建文件的方法后它也会创建成文件而非目录。</p>
-</li>
-<li>
-<p>删除目录时，若目录中有内容（目录、文件），则 <strong>不能直接删除</strong>，而是应该先删除目录中的内容，然后才能删除目录；</p>
-</li>
-</ul>
-<h4> 相关属性</h4>
-<p>获取到 <code>File</code> 对象后，我们可以对其相关属性进行判断，常用方法如下：</p>
-<table>
-<thead>
-<tr>
-<th>返回值</th>
-<th>方法</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>long</code></td>
-<td><code>length()</code></td>
-<td>该抽象路径名表示的文件的所占字节大小</td>
-</tr>
-<tr>
-<td><code>boolean</code></td>
-<td><code>canRead()</code></td>
-<td>该抽象路径名表示的文件是否可读</td>
-</tr>
-<tr>
-<td><code>boolean</code></td>
-<td><code>canWrite()</code></td>
-<td>该抽象路径名表示的文件是否可写</td>
-</tr>
-<tr>
-<td><code>boolean</code></td>
-<td><code>canExecute()</code></td>
-<td>该抽象路径名表示的文件是否可执行</td>
-</tr>
-</tbody>
-</table>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
-<h4> 判断和获取</h4>
-<p>获取到 <code>File</code> 对象后，我们既可以用它来表示文件，也可以用来表示目录。而对于文件和目录的判断和获取功能，可以使用如下常用的方法：</p>
-<table>
-<thead>
-<tr>
-<th>返回值</th>
-<th>方法</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>boolean</code></td>
-<td><code>isFile()</code></td>
-<td>测试此抽象路径名表示的文件是否为普通文件</td>
-</tr>
-<tr>
-<td><code>boolean</code></td>
-<td><code>isDirectory()</code></td>
-<td>测试此抽象路径名表示的文件是否为目录</td>
-</tr>
-<tr>
-<td><code>boolean</code></td>
-<td><code>exists()</code></td>
-<td>测试此抽象路径名表示的文件或目录是否存在</td>
-</tr>
-<tr>
-<td><code>String</code></td>
-<td><code>getPath()</code></td>
-<td>将抽象路径转换为路径字符串</td>
-</tr>
-<tr>
-<td><code>String</code></td>
-<td><code>getAbsolutePath()</code></td>
-<td>返回此抽象路径名的绝对路径名字符串</td>
-</tr>
-<tr>
-<td><code>String</code></td>
-<td><code>getName()</code></td>
-<td>返回由此抽象路径名表示的文件或目录的名称</td>
-</tr>
-<tr>
-<td><code>String[]</code></td>
-<td><code>list()</code></td>
-<td>返回字符串数组，表示该抽象路径名表示目录下的文件和目录</td>
-</tr>
-<tr>
-<td><code>File[]</code></td>
-<td><code>listFiles()</code></td>
-<td>返回抽象路径名数组，表示该抽象路径名表示目录下的文件</td>
-</tr>
-</tbody>
-</table>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
-<h3> 练习</h3>
-<p>假设我们要遍历 Windows 下 C 盘的 Windows 目录，并且列出其中文件名和文件大小，而不用列出目录名，我们可以利用如下代码来实现：</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
-<h2> 流</h2>
-<h3> 什么是流</h3>
-<p>所谓流，就是一系列数据的组合。当我们需要进行数据交互的时候，比如在服务器和客户端之间进行数据交互时，我们此时就可以使用 Java 中的流来实现。Java 中，数据的输入和输出都是以流的形式来进行的。根据数据流方向的不同，我们可以将其分为：<strong>输入流</strong>、<strong>输出流</strong>。而根据处理的数据单位不同，可分为：<strong>字节流</strong>、<strong>字符流</strong>。两者的关系可以描述为下表：</p>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>字节流</th>
-<th>字符流</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>输入流</strong></td>
-<td><code>InputStream</code></td>
-<td><code>Reader</code></td>
-</tr>
-<tr>
-<td><strong>输出流</strong></td>
-<td><code>OutputStream</code></td>
-<td><code>Writer</code></td>
-</tr>
-</tbody>
-</table>
-<p>而对于字节流和字符流的选用原则，我们建议遵循如下规则：<strong>如果数据能够通过 Windows 自带笔记本软件打开并且能够读懂其中的内容，则选用字符流，否则选择字节流。而如果我们也不知道应该使用何种类型的流，则默认使用字节流</strong>。</p>
-<p>下图描述了字节流和字符流的类层次图，注意：<strong>无论是字节流还是字符流，其子类名都是以其父类名作为子类名的后缀的</strong>。</p>
-<figure><figcaption></figcaption></figure>
-<h3> InputStream</h3>
-<figure><figcaption></figcaption></figure>
-<p>注意，<code>InputStream</code> 并非是并不是一个接口，而是所有字节输入流所有类的父类。下面我们主要以 <code>FileInputStream</code> 来举例，所谓 <code>FileInputStream</code>，就是从文件流中读取数据，然后将数据从文件中读取到内存，常用方法如下：</p>
-<table>
-<thead>
-<tr>
-<th>返回值</th>
-<th>方法</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>int</code></td>
-<td><code>available()</code></td>
-<td>返回该输入流中可以读取的字节数的估计值</td>
-</tr>
-<tr>
-<td><code>void</code></td>
-<td><code>close()</code></td>
-<td>关闭输入流并释放相关资源</td>
-</tr>
-<tr>
-<td><code>int</code></td>
-<td><code>read(bytep[] b)</code></td>
-<td>从输入流读取一些字节数，并将其存储到缓冲区 b</td>
-</tr>
-</tbody>
-</table>
-<p>下面是一个从文件中读取数据到内存中的实例，文件内容如下：</p>
-<figure><figcaption></figcaption></figure>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
-<h3> OutputStream</h3>
-<figure><figcaption></figcaption></figure>
-<p><code>OutputStream</code> 并非是并不是一个接口，而是所有输出字节流的所有类的父类。下面我们主要以 <code>FileOutputStream</code> 来举例，所谓 <code>FileOutputStream</code>，就是从内存中读取数据，然后将数据从内存存放到文件中，常用方法如下：</p>
-<table>
-<thead>
-<tr>
-<th>返回值</th>
-<th>方法</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>void</code></td>
-<td><code>write(byte[] b)</code></td>
-<td>将 <code>b.length</code> 个字节从指定字节数组写入此文件输出流</td>
-</tr>
-<tr>
-<td><code>void</code></td>
-<td><code>close()</code></td>
-<td>关闭文件输出流并释放相关资源</td>
-</tr>
-</tbody>
-</table>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
-<figure><figcaption></figcaption></figure>
-<p>需要注意的点：</p>
-<ul>
-<li>字节流写入数据时如何实现换行？</li>
-</ul>
-<p>写入换行的转义字符的字节数组即可，但是需要注意，不同系统下换行的转义字符不同，Windows 下为 <code>\r\n</code>，macOS 下为 <code>\r</code>，而 Linux 下为 <code>\m</code>。</p>
-<ul>
-<li>字节流写入数据时如何实现追加？</li>
-</ul>
-<p>调用 <code>public FileOutputStream(String name, boolean append)</code> 这个构造方法即可，当 <code>append</code> 为 <code>true</code> 时，表示追加，默认情况下是 <code>false</code>，表示不追加。</p>
-<h3> 字符串中的编解码问题</h3>
-<h4> 编码</h4>
-<ul>
-<li><code>byte[] getBytes()</code>：使用平台默认字符集将该字符串编码成一系列字节，然后将结果存储到新的字节数组中；</li>
-<li><code>byte[] getBytes(String charsetName)</code>：使用指定字符集将该字符串编码为一系列字节，然后将结果存储到新的字节数组中；</li>
-</ul>
-<h4> 解码</h4>
-<ul>
-<li><code>String(byte[] bytes)</code>：使用平台默认字符集解码指定的字节数来构造新的字符串；</li>
-<li><code>String(byte[] bytes, String charsetName)</code>：通过指定的字符集解码指定的字节数组来构造新的字符串；</li>
-</ul>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
-<h3> Writer</h3>
-<figure><figcaption></figcaption></figure>
-<p>当我们要写入基于字符的数据到数据源中时，需要使用写入器 <code>Writer</code>. 以其中的 <code>FileWriter</code> 具体展开，其常用方法如下：</p>
-<table>
-<thead>
-<tr>
-<th>返回值</th>
-<th>方法</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>void</code></td>
-<td><code>close()</code></td>
-<td>先刷新再关闭流，不能再写数据</td>
-</tr>
-<tr>
-<td><code>void</code></td>
-<td><code>flush()</code></td>
-<td>刷新流，可以继续写数据</td>
-</tr>
-<tr>
-<td><code>void</code></td>
-<td><code>newLine()</code></td>
-<td>写入行分隔符</td>
-</tr>
-<tr>
-<td><code>void</code></td>
-<td><code>write()</code></td>
-<td>写入字符或字符串</td>
-</tr>
-</tbody>
-</table>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
-<h3> Reader</h3>
-<figure><figcaption></figcaption></figure>
-<p>当我们要从数据源读取基于字符的数据时，需要使用读取器 <code>Reader</code>. 我们以 <code>FileReader</code> 实践，其常用的方法有：</p>
-<table>
-<thead>
-<tr>
-<th>返回值</th>
-<th>方法</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>void</code></td>
-<td><code>close()</code></td>
-<td>关闭流并释放相关资源</td>
-</tr>
-<tr>
-<td><code>int</code></td>
-<td><code>read()</code></td>
-<td>读取一个字符</td>
-</tr>
-<tr>
-<td><code>String</code></td>
-<td><code>readLine()</code></td>
-<td>读一行文字</td>
-</tr>
-<tr>
-<td><code>boolean</code></td>
-<td><code>ready()</code></td>
-<td>获取该流是否准备好被读取</td>
-</tr>
-</tbody>
-</table>
-<p>我们以从文件中读取内容为例：</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
-<h2> 总结</h2>
-<p>好了，关于 IO 流的知识点到此就结束了，赶紧学起来！如果你觉得本文对你有所帮助，那就点赞关注一波吧！</p>
-<p>对于文中遗漏或者错误的知识点，欢迎大家评论留言，咱们评论区见！</p>
-<p><strong>关注公众号，获取最新文章更新</strong></p>
-<div style="text-align:center">
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/cunyu1943@main/imgs/wepublic.gif" alt="" width="200" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-</div>
 <h2> ⏳ 联系</h2>
 <p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
 <p>扫一扫，探索另一个全新的世界。</p>
