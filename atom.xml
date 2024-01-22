@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2024-01-22T08:02:53.614Z</updated>
+  <updated>2024-01-22T08:06:28.624Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -728,6 +728,118 @@
     <published>2023-11-19T13:15:18.000Z</published>
   </entry>
   <entry>
+    <title type="text">好物周刊#38：在线图片处理</title>
+    <id>https://cunyu1943.github.io/weekly/2024/0101-0105.html</id>
+    <link href="https://cunyu1943.github.io/weekly/2024/0101-0105.html"/>
+    <updated>2024-01-05T09:27:05.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 好物周刊#38：在线图片处理</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">原文</p>
+<p>https://mp.weixin.qq.com/s/jy6pfjLa5Jfp9rZVGem3pg</p>
+</div>
+<h2> 一、项目</h2>
+<h3> 1. <a href="https://gitee.com/aieditor-team/aieditor" target="_blank" rel="noopener noreferrer">AiEditor</a></h3>]]></summary>
+    <content type="html"><![CDATA[<h1> 好物周刊#38：在线图片处理</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">原文</p>
+<p>https://mp.weixin.qq.com/s/jy6pfjLa5Jfp9rZVGem3pg</p>
+</div>
+<h2> 一、项目</h2>
+<h3> 1. <a href="https://gitee.com/aieditor-team/aieditor" target="_blank" rel="noopener noreferrer">AiEditor</a></h3>
+<p>一个面向 <code>AI</code> 的下一代富文本编辑器，她基于 <code>Web Component</code>，因此支持 <code>Layui</code>、<code>Vue</code>、<code>React</code>、<code>Angular</code> 等几乎任何前端框架。她适配了 <code>PC Web</code> 端和手机端，并提供了亮色和暗色两个主题。除此之外，还提供了灵活的配置，开发者可以方便的使用其开发任何文字编辑的应用。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1701774383285.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://gitee.com/dromara/go-view" target="_blank" rel="noopener noreferrer">GoView</a></h3>
+<p>一个 <code>Vue3</code> 搭建的低代码数据可视化开发平台，将图表或页面元素封装为基础组件，无需编写代码即可完成业务需求。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1701774668856.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://github.com/xaoxuu/hexo-theme-stellar" target="_blank" rel="noopener noreferrer">hexo-theme-stellar</a></h3>
+<p>一个内置文档系统的简约商务风 <code>Hexo</code> 主题，支持丰富的标签和动态数据组件。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1704240568952.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h2> 二、软件</h2>
+<h3> 1. <a href="https://www.coodesker.com/" target="_blank" rel="noopener noreferrer">酷呆桌面</a></h3>
+<p>自动分类整理桌面上的快捷方式、目录、图片等文件。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/image-20231127082315331.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://github.com/cxasm/notepad--" target="_blank" rel="noopener noreferrer">Notepad--</a></h3>
+<p>一个使用 <code>C++</code> 编写的文本编辑器 <code>Notepad--</code>, 可以支持 <code>Win/Linux/Mac</code> 平台。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/image-20231127082606541.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://fancynode.com.cn/pxcook" target="_blank" rel="noopener noreferrer">PxCook</a></h3>
+<p>高效易用的自动标注工具，生成前端代码，设计研发协作利器。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/image-20231127082530531.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h2> 三、网站</h2>
+<h3> 1. <a href="https://tiomg.org/" target="_blank" rel="noopener noreferrer">太美工具箱</a></h3>
+<p>在线工具，免费图片压缩工具，在线图片工具，在线 <code>PDF</code> 工具，程序开发者工具。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1701217723634.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://www.gaituya.com/" target="_blank" rel="noopener noreferrer">改图鸭</a></h3>
+<p>改图鸭作为在线版图片格式处理工具，提供图片编辑、图片格式转换、图片压缩等大量的图片处理功能，用户不用下载任何软件，只需将图片上传到官网即可对图片进行编辑，方便快捷。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1701218686283.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://quququ.cn/" target="_blank" rel="noopener noreferrer">去去去</a></h3>
+<p>一款图片在线去水印网站，永久免费，使用人工智能技术，支持批量去除图片中的文字、标志，多余物体等多种水印，去水印不留痕，不压画质，高质不糊图！</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1701218832636.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h2> 四、插件</h2>
+<h3> 1. <a href="https://chromewebstore.google.com/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp" target="_blank" rel="noopener noreferrer">ColorZilla</a></h3>
+<p>高级吸管、拾色器、渐变生成器和其他与颜色相关的实用工具。</p>
+<p>最用户友好、功能齐全、安全且可靠的颜色选择器和与颜色相关的工具套件。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1704240655799.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne" target="_blank" rel="noopener noreferrer">Stylus</a></h3>
+<p>一个调整网页外观的用户样式管理器。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1704240681938.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://chromewebstore.google.com/detail/feedly-notifier/egikgfbhipinieabdmcpigejkaomgjgb" target="_blank" rel="noopener noreferrer">Feedly Notifier</a></h3>
+<p>一个精巧的扩展，可让您随时了解 <code>Feedly</code> 订阅。支持如下功能：</p>
+<ul>
+<li>显示未读新闻数</li>
+<li>未读新闻标题(直链新闻站点)</li>
+<li>文章预览在弹窗显示</li>
+<li>设置更新类别</li>
+<li>HTTPS支持</li>
+<li>将新闻标记为已读</li>
+<li>保存以便稍后阅读</li>
+<li>单击按钮即可打开网站(作为计数器)</li>
+<li>桌面通知</li>
+<li>后台模式</li>
+</ul>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1704240718582.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h2> 五、资料</h2>
+<h3> 1. <a href="https://github.com/binghe001/BingheGuide" target="_blank" rel="noopener noreferrer">BingheGuide</a></h3>
+<p>包含：编程语言，开发技术，分布式，微服务，高并发，高可用，高可扩展，高可维护，<code>JVM</code> 技术，<code>MySQL</code>，分布式数据库，分布式事务，云原生，大数据，云计算，渗透技术，各种面试题，面试技巧等方面内容。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1701389750846.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 2. <a href="https://github.com/Drun1baby/JavaSecurityLearning" target="_blank" rel="noopener noreferrer">JavaSecurityLearning</a></h3>
+<p>记录了作者 <code>Java</code> 安全的学习历程，主要包含以下方面的内容：</p>
+<ul>
+<li>基础开发</li>
+<li><code>Java</code> 安全基础</li>
+<li><code>Java</code> 反序列化基础</li>
+<li><code>Java</code> 反序列化进阶</li>
+<li><code>Weblogic</code></li>
+<li>内存马</li>
+<li>……</li>
+</ul>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1702552267661.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 3. <a href="https://github.com/qiurunze123/threadandjuc" target="_blank" rel="noopener noreferrer">threadandjuc</a></h3>
+<p>项目利用多线程进行千万级别导入，实现可扩展，高性能、高可用、高可靠三个高，本项目可以在千万级别数据实现无差别高性能数据上报与导入，与普通导入相比性能提高 10 倍左右，而且规避风险在偶尔的机器宕机，网络波动等情况出现时，仍能够实现数据一致，数据可靠，数据重试，数据报警等功能。</p>
+<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1702552755528.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h2> ✍️ 说明</h2>
+<p>周刊专栏相关信息：</p>
+<ul>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a> | <a href="https://yuque.com/cunyu1943" target="_blank" rel="noopener noreferrer">语雀</a></li>
+</ul>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+]]></content>
+    <category term="好物周刊"/>
+    <published>2023-11-16T14:25:53.000Z</published>
+  </entry>
+  <entry>
     <title type="text">好物周刊#36：程序员简历</title>
     <id>https://cunyu1943.github.io/weekly/2023/1216-1222.html</id>
     <link href="https://cunyu1943.github.io/weekly/2023/1216-1222.html"/>
@@ -988,118 +1100,6 @@
 <p>当前大环境下，就业形势严峻，尤其针对即将毕业的大学生。作为一个技术求职者，求职前应该做好哪些准备呢，一些面试实战技巧也十分有必要！而刚好最近掘金出了一本《技术人求职指南》小册，相信一定会对在找工作的你有所帮助。</p>
 <p>从求职到拿下 <code>Offer</code>，一本职场的全方位攻略，快来和我一起学习吧！</p>
 <figure><figcaption></figcaption></figure>
-<h2> ⏳ 联系</h2>
-<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
-<p>扫一扫，探索另一个全新的世界。</p>
-<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-]]></content>
-    <category term="好物周刊"/>
-    <published>2023-11-16T14:25:53.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">好物周刊#38：在线图片处理</title>
-    <id>https://cunyu1943.github.io/weekly/2024/0101-0105.html</id>
-    <link href="https://cunyu1943.github.io/weekly/2024/0101-0105.html"/>
-    <updated>2024-01-05T09:27:05.000Z</updated>
-    <summary type="html"><![CDATA[<h1> 好物周刊#38：在线图片处理</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<div class="hint-container tip">
-<p class="hint-container-title">原文</p>
-<p>https://mp.weixin.qq.com/s/jy6pfjLa5Jfp9rZVGem3pg</p>
-</div>
-<h2> 一、项目</h2>
-<h3> 1. <a href="https://gitee.com/aieditor-team/aieditor" target="_blank" rel="noopener noreferrer">AiEditor</a></h3>]]></summary>
-    <content type="html"><![CDATA[<h1> 好物周刊#38：在线图片处理</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<div class="hint-container tip">
-<p class="hint-container-title">原文</p>
-<p>https://mp.weixin.qq.com/s/jy6pfjLa5Jfp9rZVGem3pg</p>
-</div>
-<h2> 一、项目</h2>
-<h3> 1. <a href="https://gitee.com/aieditor-team/aieditor" target="_blank" rel="noopener noreferrer">AiEditor</a></h3>
-<p>一个面向 <code>AI</code> 的下一代富文本编辑器，她基于 <code>Web Component</code>，因此支持 <code>Layui</code>、<code>Vue</code>、<code>React</code>、<code>Angular</code> 等几乎任何前端框架。她适配了 <code>PC Web</code> 端和手机端，并提供了亮色和暗色两个主题。除此之外，还提供了灵活的配置，开发者可以方便的使用其开发任何文字编辑的应用。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1701774383285.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3> 2. <a href="https://gitee.com/dromara/go-view" target="_blank" rel="noopener noreferrer">GoView</a></h3>
-<p>一个 <code>Vue3</code> 搭建的低代码数据可视化开发平台，将图表或页面元素封装为基础组件，无需编写代码即可完成业务需求。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1701774668856.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3> 3. <a href="https://github.com/xaoxuu/hexo-theme-stellar" target="_blank" rel="noopener noreferrer">hexo-theme-stellar</a></h3>
-<p>一个内置文档系统的简约商务风 <code>Hexo</code> 主题，支持丰富的标签和动态数据组件。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1704240568952.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h2> 二、软件</h2>
-<h3> 1. <a href="https://www.coodesker.com/" target="_blank" rel="noopener noreferrer">酷呆桌面</a></h3>
-<p>自动分类整理桌面上的快捷方式、目录、图片等文件。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/image-20231127082315331.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3> 2. <a href="https://github.com/cxasm/notepad--" target="_blank" rel="noopener noreferrer">Notepad--</a></h3>
-<p>一个使用 <code>C++</code> 编写的文本编辑器 <code>Notepad--</code>, 可以支持 <code>Win/Linux/Mac</code> 平台。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/image-20231127082606541.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3> 3. <a href="https://fancynode.com.cn/pxcook" target="_blank" rel="noopener noreferrer">PxCook</a></h3>
-<p>高效易用的自动标注工具，生成前端代码，设计研发协作利器。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/image-20231127082530531.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h2> 三、网站</h2>
-<h3> 1. <a href="https://tiomg.org/" target="_blank" rel="noopener noreferrer">太美工具箱</a></h3>
-<p>在线工具，免费图片压缩工具，在线图片工具，在线 <code>PDF</code> 工具，程序开发者工具。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1701217723634.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3> 2. <a href="https://www.gaituya.com/" target="_blank" rel="noopener noreferrer">改图鸭</a></h3>
-<p>改图鸭作为在线版图片格式处理工具，提供图片编辑、图片格式转换、图片压缩等大量的图片处理功能，用户不用下载任何软件，只需将图片上传到官网即可对图片进行编辑，方便快捷。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1701218686283.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3> 3. <a href="https://quququ.cn/" target="_blank" rel="noopener noreferrer">去去去</a></h3>
-<p>一款图片在线去水印网站，永久免费，使用人工智能技术，支持批量去除图片中的文字、标志，多余物体等多种水印，去水印不留痕，不压画质，高质不糊图！</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1701218832636.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h2> 四、插件</h2>
-<h3> 1. <a href="https://chromewebstore.google.com/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp" target="_blank" rel="noopener noreferrer">ColorZilla</a></h3>
-<p>高级吸管、拾色器、渐变生成器和其他与颜色相关的实用工具。</p>
-<p>最用户友好、功能齐全、安全且可靠的颜色选择器和与颜色相关的工具套件。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1704240655799.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3> 2. <a href="https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne" target="_blank" rel="noopener noreferrer">Stylus</a></h3>
-<p>一个调整网页外观的用户样式管理器。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1704240681938.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3> 3. <a href="https://chromewebstore.google.com/detail/feedly-notifier/egikgfbhipinieabdmcpigejkaomgjgb" target="_blank" rel="noopener noreferrer">Feedly Notifier</a></h3>
-<p>一个精巧的扩展，可让您随时了解 <code>Feedly</code> 订阅。支持如下功能：</p>
-<ul>
-<li>显示未读新闻数</li>
-<li>未读新闻标题(直链新闻站点)</li>
-<li>文章预览在弹窗显示</li>
-<li>设置更新类别</li>
-<li>HTTPS支持</li>
-<li>将新闻标记为已读</li>
-<li>保存以便稍后阅读</li>
-<li>单击按钮即可打开网站(作为计数器)</li>
-<li>桌面通知</li>
-<li>后台模式</li>
-</ul>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1704240718582.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h2> 五、资料</h2>
-<h3> 1. <a href="https://github.com/binghe001/BingheGuide" target="_blank" rel="noopener noreferrer">BingheGuide</a></h3>
-<p>包含：编程语言，开发技术，分布式，微服务，高并发，高可用，高可扩展，高可维护，<code>JVM</code> 技术，<code>MySQL</code>，分布式数据库，分布式事务，云原生，大数据，云计算，渗透技术，各种面试题，面试技巧等方面内容。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1701389750846.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3> 2. <a href="https://github.com/Drun1baby/JavaSecurityLearning" target="_blank" rel="noopener noreferrer">JavaSecurityLearning</a></h3>
-<p>记录了作者 <code>Java</code> 安全的学习历程，主要包含以下方面的内容：</p>
-<ul>
-<li>基础开发</li>
-<li><code>Java</code> 安全基础</li>
-<li><code>Java</code> 反序列化基础</li>
-<li><code>Java</code> 反序列化进阶</li>
-<li><code>Weblogic</code></li>
-<li>内存马</li>
-<li>……</li>
-</ul>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1702552267661.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h3> 3. <a href="https://github.com/qiurunze123/threadandjuc" target="_blank" rel="noopener noreferrer">threadandjuc</a></h3>
-<p>项目利用多线程进行千万级别导入，实现可扩展，高性能、高可用、高可靠三个高，本项目可以在千万级别数据实现无差别高性能数据上报与导入，与普通导入相比性能提高 10 倍左右，而且规避风险在偶尔的机器宕机，网络波动等情况出现时，仍能够实现数据一致，数据可靠，数据重试，数据报警等功能。</p>
-<figure><img src="https://cdn.jsdelivr.net/gh/cunyu1943/JavaPark@main/src/weekly/2024/assets/0101-0105/1702552755528.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h2> ✍️ 说明</h2>
-<p>周刊专栏相关信息：</p>
-<ul>
-<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
-<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a> | <a href="https://yuque.com/cunyu1943" target="_blank" rel="noopener noreferrer">语雀</a></li>
-</ul>
-<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
 <h2> ⏳ 联系</h2>
 <p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
 <p>扫一扫，探索另一个全新的世界。</p>
@@ -9704,6 +9704,104 @@ salary <span class="token operator">=</span> <span class="token builtin">input</
     <published>2023-09-27T07:28:16.000Z</published>
   </entry>
   <entry>
+    <title type="text">内存管理函数</title>
+    <id>https://cunyu1943.github.io/program-language/c-series/20180308-memory-manage.html</id>
+    <link href="https://cunyu1943.github.io/program-language/c-series/20180308-memory-manage.html"/>
+    <updated>2023-09-26T15:06:57.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 内存管理函数</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<h2> malloc函数</h2>
+<ul>
+<li>
+<p>原型：<code>extern void* malloc(unsigned int size)</code>；</p>
+</li>
+<li>
+<p>功能：动态分配内存；</p>
+</li>
+<li>
+<p>注意：<code>size</code> 仅仅为申请内存字节大小，与申请内存块中存储的数据类型无关，故编程时需要通过以下方式给出：<code>长度 * sizeof(数据类型)</code>；</p>
+</li>
+<li>
+<p>示例：</p>
+</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[<h1> 内存管理函数</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<h2> malloc函数</h2>
+<ul>
+<li>
+<p>原型：<code>extern void* malloc(unsigned int size)</code>；</p>
+</li>
+<li>
+<p>功能：动态分配内存；</p>
+</li>
+<li>
+<p>注意：<code>size</code> 仅仅为申请内存字节大小，与申请内存块中存储的数据类型无关，故编程时需要通过以下方式给出：<code>长度 * sizeof(数据类型)</code>；</p>
+</li>
+<li>
+<p>示例：</p>
+</li>
+</ul>
+<div class="language-c line-numbers-mode" data-ext="c"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> free函数</h2>
+<ul>
+<li>原型：<code>void free(void * ptr)</code>；</li>
+<li>功能：搭配 <code>malloc()</code> 函数，释放 <code>malloc</code> 函数申请的动态内存；</li>
+<li>注意：对于 <code>free(ptr)</code>，若 <code>ptr</code> 为 <code>NULL</code>，则可进行多次释放，若 <code>ptr</code> 是非空指针，则 <code>free</code> 对 <code>ptr</code> 只能进行一次操作，否则程序将崩溃；</li>
+<li>示例：见 <code>malloc</code> 函数；</li>
+<li>结果：见 <code>malloc</code> 函数；</li>
+</ul>
+<h2> realloc函数</h2>
+<ul>
+<li>
+<p>原型： <code>void* realloc(void * ptr,unsigned int size)</code>；</p>
+</li>
+<li>
+<p>功能：先判断当前指针是否有足够的连续空间，若足够，扩大 <code>ptr</code> 指向的地址并返回，若不够，怎按<code>size</code> 指定的大小分配空间，将原数据 <code>copy</code> 到新分配的内存中，然后释放原 <code>ptr</code> 所指向区域；</p>
+</li>
+<li>
+<p>注意：内存使用完毕后，应使用 <code>free()</code> 函数释放，但原来的指针是自动释放，不需要使用free；</p>
+</li>
+<li>
+<p>示例：</p>
+</li>
+</ul>
+<div class="language-c line-numbers-mode" data-ext="c"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> calloc函数</h2>
+<ul>
+<li>
+<p>原型：<code>void* calloc（unsigned int num，unsigned int size）</code>；</p>
+</li>
+<li>
+<p>功能：为已经分配的内存重新分配空间并复制内容；</p>
+</li>
+<li>
+<p>注意：<code>num</code>：对象个数，<code>size</code>：对象占据的内存字节数，相较于 <code>malloc</code> 函数，<code>calloc</code> 函数会自动将内存初始化为 0；</p>
+</li>
+<li>
+<p>示例：</p>
+</li>
+</ul>
+<div class="language-c line-numbers-mode" data-ext="c"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+]]></content>
+    <category term="C 语言教程"/>
+    <published>2018-03-08T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">C 系列</title>
+    <id>https://cunyu1943.github.io/program-language/c-series/</id>
+    <link href="https://cunyu1943.github.io/program-language/c-series/"/>
+    <updated>2023-09-27T07:28:16.000Z</updated>
+    <published>2023-09-26T15:06:57.000Z</published>
+  </entry>
+  <entry>
     <title type="text">Nginx 教程</title>
     <id>https://cunyu1943.github.io/java-tutorial/nginx-series/</id>
     <link href="https://cunyu1943.github.io/java-tutorial/nginx-series/"/>
@@ -9802,104 +9900,6 @@ salary <span class="token operator">=</span> <span class="token builtin">input</
 ]]></content>
     <category term="Web 前端教程"/>
     <published>2023-09-26T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">内存管理函数</title>
-    <id>https://cunyu1943.github.io/program-language/c-series/20180308-memory-manage.html</id>
-    <link href="https://cunyu1943.github.io/program-language/c-series/20180308-memory-manage.html"/>
-    <updated>2023-09-26T15:06:57.000Z</updated>
-    <summary type="html"><![CDATA[<h1> 内存管理函数</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<h2> malloc函数</h2>
-<ul>
-<li>
-<p>原型：<code>extern void* malloc(unsigned int size)</code>；</p>
-</li>
-<li>
-<p>功能：动态分配内存；</p>
-</li>
-<li>
-<p>注意：<code>size</code> 仅仅为申请内存字节大小，与申请内存块中存储的数据类型无关，故编程时需要通过以下方式给出：<code>长度 * sizeof(数据类型)</code>；</p>
-</li>
-<li>
-<p>示例：</p>
-</li>
-</ul>]]></summary>
-    <content type="html"><![CDATA[<h1> 内存管理函数</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<h2> malloc函数</h2>
-<ul>
-<li>
-<p>原型：<code>extern void* malloc(unsigned int size)</code>；</p>
-</li>
-<li>
-<p>功能：动态分配内存；</p>
-</li>
-<li>
-<p>注意：<code>size</code> 仅仅为申请内存字节大小，与申请内存块中存储的数据类型无关，故编程时需要通过以下方式给出：<code>长度 * sizeof(数据类型)</code>；</p>
-</li>
-<li>
-<p>示例：</p>
-</li>
-</ul>
-<div class="language-c line-numbers-mode" data-ext="c"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> free函数</h2>
-<ul>
-<li>原型：<code>void free(void * ptr)</code>；</li>
-<li>功能：搭配 <code>malloc()</code> 函数，释放 <code>malloc</code> 函数申请的动态内存；</li>
-<li>注意：对于 <code>free(ptr)</code>，若 <code>ptr</code> 为 <code>NULL</code>，则可进行多次释放，若 <code>ptr</code> 是非空指针，则 <code>free</code> 对 <code>ptr</code> 只能进行一次操作，否则程序将崩溃；</li>
-<li>示例：见 <code>malloc</code> 函数；</li>
-<li>结果：见 <code>malloc</code> 函数；</li>
-</ul>
-<h2> realloc函数</h2>
-<ul>
-<li>
-<p>原型： <code>void* realloc(void * ptr,unsigned int size)</code>；</p>
-</li>
-<li>
-<p>功能：先判断当前指针是否有足够的连续空间，若足够，扩大 <code>ptr</code> 指向的地址并返回，若不够，怎按<code>size</code> 指定的大小分配空间，将原数据 <code>copy</code> 到新分配的内存中，然后释放原 <code>ptr</code> 所指向区域；</p>
-</li>
-<li>
-<p>注意：内存使用完毕后，应使用 <code>free()</code> 函数释放，但原来的指针是自动释放，不需要使用free；</p>
-</li>
-<li>
-<p>示例：</p>
-</li>
-</ul>
-<div class="language-c line-numbers-mode" data-ext="c"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> calloc函数</h2>
-<ul>
-<li>
-<p>原型：<code>void* calloc（unsigned int num，unsigned int size）</code>；</p>
-</li>
-<li>
-<p>功能：为已经分配的内存重新分配空间并复制内容；</p>
-</li>
-<li>
-<p>注意：<code>num</code>：对象个数，<code>size</code>：对象占据的内存字节数，相较于 <code>malloc</code> 函数，<code>calloc</code> 函数会自动将内存初始化为 0；</p>
-</li>
-<li>
-<p>示例：</p>
-</li>
-</ul>
-<div class="language-c line-numbers-mode" data-ext="c"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> ⏳ 联系</h2>
-<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
-<p>扫一扫，探索另一个全新的世界。</p>
-<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-]]></content>
-    <category term="C 语言教程"/>
-    <published>2018-03-08T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">C 系列</title>
-    <id>https://cunyu1943.github.io/program-language/c-series/</id>
-    <link href="https://cunyu1943.github.io/program-language/c-series/"/>
-    <updated>2023-09-27T07:28:16.000Z</updated>
-    <published>2023-09-26T15:06:57.000Z</published>
   </entry>
   <entry>
     <title type="text">软件设计师</title>
