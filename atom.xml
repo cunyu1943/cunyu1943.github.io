@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2024-02-04T06:51:49.764Z</updated>
+  <updated>2024-02-04T13:12:45.785Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -28,7 +28,7 @@
     <title type="text">编程语言</title>
     <id>https://cunyu1943.github.io/program-language/</id>
     <link href="https://cunyu1943.github.io/program-language/"/>
-    <updated>2024-02-04T03:26:59.000Z</updated>
+    <updated>2024-02-04T10:23:47.000Z</updated>
     <summary type="html"><![CDATA[<h2> C 语言</h2>
 <ol>
 <li><a href="/program-language/c/20180308-memory-manage.html" target="blank">C 语言：内存管理函数</a></li>
@@ -48,6 +48,17 @@
 <li><a href="/program-language/cpp/20180720-summary.html" target="blank">C++ 系列：知识点总结</a></li>
 </ol>
 <h2> Python</h2>
+<h3> 教程</h3>
+<ol>
+<li><a href="/program-language/python/tutorial/20210331-intro.html" target="blank">Python 教程：简介</a></li>
+<li><a href="/program-language/python/tutorial/20210401-pycharm.html" target="blank">Python 教程：玩转 Pycharm</a></li>
+<li><a href="/program-language/python/tutorial/20210402-language-element.html" target="blank">Python 教程：语言元素</a></li>
+<li><a href="/program-language/python/tutorial/20210403-condition.html" target="blank">Python 教程：条件判断、循环以及循环的终止</a></li>
+<li><a href="/program-language/python/tutorial/20220420-shopping.html" target="blank">Python 教程：购物车</a></li>
+<li><a href="/program-language/python/tutorial/20180429-turtle.html" target="blank">Python 教程：turtle 库使用</a></li>
+<li><a href="/program-language/python/tutorial/20180501-digital-time.html" target="blank">Python 教程：数码管绘制</a></li>
+<li><a href="/program-language/python/tutorial/20220421-polyglot-install.html" target="blank">Python 教程：Python 3.7 安装 polyglot 失败</a></li>
+</ol>
 <h3> 编程实例</h3>
 <ol>
 <li><a href="/program-language/python/instance/20181003-1-5.html" target="blank">编程实例（1 - 5）</a></li>
@@ -85,7 +96,7 @@
     <title type="text">Java</title>
     <id>https://cunyu1943.github.io/java-tutorial/</id>
     <link href="https://cunyu1943.github.io/java-tutorial/"/>
-    <updated>2024-02-04T03:26:59.000Z</updated>
+    <updated>2024-02-04T13:11:04.000Z</updated>
     <summary type="html"><![CDATA[<h2> Java 基础</h2>
 <ol>
 <li><a href="/java-tutorial/javase/20220701-intro-to-java.html" target="blank">Java 基础：简介</a></li>
@@ -141,11 +152,28 @@
 <li><a href="/java-tutorial/javase/20221211-abstract.html" target="blank">Java 基础：抽象、接口和内部类</a></li>
 </ol>
 <h2> 实战训练</h2>
+<h3> Java 入门</h3>
+<ol>
+<li><a href="/java-tutorial/in-action/se/20220625-1-5.html" target="blank">入门练习：1 - 5</a></li>
+<li><a href="/java-tutorial/in-action/se/20220626-6-10.html" target="blank">入门练习：6 - 10</a></li>
+<li><a href="/java-tutorial/in-action/se/20220627-11-15.html" target="blank">入门练习：11 - 15</a></li>
+<li><a href="/java-tutorial/in-action/se/20220628-16-20.html" target="blank">入门练习：16 - 20</a></li>
+<li><a href="/java-tutorial/in-action/se/20220629-21-25.html" target="blank">入门练习：21 - 25</a></li>
+<li><a href="/java-tutorial/in-action/se/20220630-26-30.html" target="blank">入门练习：26 - 30</a></li>
+<li><a href="/java-tutorial/in-action/se/20220701-31-35.html" target="blank">入门练习：31 - 35</a></li>
+<li><a href="/java-tutorial/in-action/se/20220702-36-40.html" target="blank">入门练习：36 - 40</a></li>
+</ol>
 <h2> MySQL 教程</h2>
 <ol>
 <li><a href="/java-tutorial/mysql/20220726-sql-in-10min.html" target="blank">MySQL 教程：《SQL 必知必会》全解析</a></li>
 </ol>
 <h2> Web 前端</h2>
+<!-- 1. [前端：开发环境搭建](front-end/20230829-environment.md)
+2. [前端：HTML 大揭秘](front-end/20230829-html.md)
+3. [前端：CSS 教程](front-end/20230903-css.md) -->
+<ol>
+<li><a href="/java-tutorial/front-end/20230926-axios.html" target="blank">前端：Axios 简单使用指南</a></li>
+</ol>
 ]]></content>
     <published>2024-02-03T15:18:16.000Z</published>
   </entry>
@@ -335,7 +363,7 @@
     <title type="text">Java 基础面试知识点</title>
     <id>https://cunyu1943.github.io/interview/knowledge/20240201-java-basic.html</id>
     <link href="https://cunyu1943.github.io/interview/knowledge/20240201-java-basic.html"/>
-    <updated>2024-02-03T15:18:16.000Z</updated>
+    <updated>2024-02-04T10:23:47.000Z</updated>
     <summary type="html"><![CDATA[<h1> Java 基础面试知识点</h1>
 <h2> 一个 Java 文件中是否可以存在多个类（修饰类除外）？</h2>
 <p>一个 Java 文件中是可以存在多个类的，但是一个 Java 文件中只能存在一个 <code>public</code> 所修饰的类，而且这个 Java 文件的文件名还必须和 <code>public</code> 所修饰类的类名保持一致，一个简单的实例如下。</p>
@@ -657,7 +685,7 @@
 <li><strong>文档注释</strong></li>
 </ul>
 <div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 常见关键字</h3>
-<p>![](assets/20240203-java-basic/imgJava 关键字.png)</p>
+<p>![](assets/20240203-java-basic/imgJava 关键字.webp)</p>
 <h3> 标识符和关键字</h3>
 <ul>
 <li><strong>标识符</strong>：用于给程序、类、对象、变量、方法、接口、自定义数据类型等命名；</li>
@@ -1551,7 +1579,7 @@
     <title type="text">Java 进阶面试知识点</title>
     <id>https://cunyu1943.github.io/interview/knowledge/20240203-java-advanced.html</id>
     <link href="https://cunyu1943.github.io/interview/knowledge/20240203-java-advanced.html"/>
-    <updated>2024-02-03T15:18:16.000Z</updated>
+    <updated>2024-02-04T10:23:47.000Z</updated>
     <summary type="html"><![CDATA[<h1> Java 进阶面试知识点</h1>
 <h2> 异常</h2>
 <h3> 异常类层次结构</h3>
@@ -2260,7 +2288,7 @@
     <title type="text">MySQL 面试知识点</title>
     <id>https://cunyu1943.github.io/interview/knowledge/20240203-mysql.html</id>
     <link href="https://cunyu1943.github.io/interview/knowledge/20240203-mysql.html"/>
-    <updated>2024-02-03T15:18:16.000Z</updated>
+    <updated>2024-02-04T10:23:47.000Z</updated>
     <summary type="html"><![CDATA[<h1> MySQL 面试知识点</h1>
 <h2> 数据库基础</h2>
 <h3> 使用数据库的优点</h3>
@@ -3005,7 +3033,7 @@
     <title type="text">基础教程</title>
     <id>https://cunyu1943.github.io/tutorial/</id>
     <link href="https://cunyu1943.github.io/tutorial/"/>
-    <updated>2024-02-04T03:26:59.000Z</updated>
+    <updated>2024-02-04T10:23:47.000Z</updated>
     <summary type="html"><![CDATA[<h2> 博客搭建</h2>
 <ol>
 <li><a href="/tutorial/blog/20220401-hexo.html" target="blank">博客搭建：Hexo+Github Pages博客搭建教程</a></li>
@@ -3024,7 +3052,7 @@
 <li><a href="/tutorial/idea/20220202-idea-guide.html" target="blank">IDEA 教程：最新版 IntelliJ IDEA 使用手册</a></li>
 <li><a href="/tutorial/idea/20230525-code-commit.html" target="blank">IDEA 教程：原来大厂都是这么提交代码的</a></li>
 </ol>
-<p>###\ 效率工具</p>
+<h2> 效率工具</h2>
 <ol>
 <li><a href="/tutorial/efficiency/20230425-markdown-tutorial.html" target="blank">效率工具：如何用 Markdown 写出好看的文章</a></li>
 <li><a href="/tutorial/efficiency/20220729-10-amazing-website.html" target="blank">效率工具：10 个神奇的网站，助力带薪摸鱼</a></li>
@@ -3534,7 +3562,7 @@
     <title type="text">开发环境搭建</title>
     <id>https://cunyu1943.github.io/java-tutorial/front-end/20230829-environment.html</id>
     <link href="https://cunyu1943.github.io/java-tutorial/front-end/20230829-environment.html"/>
-    <updated>2024-02-02T10:39:17.000Z</updated>
+    <updated>2024-02-04T13:11:04.000Z</updated>
     <summary type="html"><![CDATA[<h1> 开发环境搭建</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -3567,7 +3595,7 @@
 <p>软件各有千秋，都有着各自的特色功能。不过环顾左右的前端开发者，大多都选择的是 <code>VS Code</code>（<code>Visual Studio Code</code>）。于是，我们也选择它作为我们 <code>Web</code> 前端教程中的代码编辑器。</p>
 <p>有了写代码的家伙事儿还不够，所谓前端，最终的目的无非是实现各种图形化的效果，供用户交互，让用户能一目了然的看到效果。既然如此，写了代码之外，我们就还需要一个载体，将我们代码实现的效果渲染。而这个载体也很常见，也就是我们日常都会用到的浏览器。</p>
 <p>截止目前，根据 <code>W3Counter</code> 的统计，<code>Chrome</code> 浏览器占据了绝大部分市场，处于绝对领先地位。</p>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/java-tutorial/web-front-series/assets/1693786691442.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/java-tutorial/front-end/assets/1693786691442.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>同时，<code>Chrome</code> 也深受前端开发者的欢迎。出于两方面的考虑，因此选用 <code>Chrome</code> 作为系列教程中用于看效果的载体。</p>
 <p>接下来，我们就先来看看，如何在我们的电脑中安装 <code>VS Code</code> 和 <code>Chrome</code>。</p>
 <h2> 二、VS Code 安装</h2>
@@ -3577,14 +3605,14 @@
 <blockquote>
 <p>https://code.visualstudio.com/</p>
 </blockquote>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/java-tutorial/web-front-series/assets/1693786800554.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/java-tutorial/front-end/assets/1693786800554.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>虽说官网是英文界面，不过都很简单。选择对应操作的安装包，点击 <code>Download</code> 就能得到想要的安装包了。</p>
 <h3> 2. 安装</h3>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/java-tutorial/web-front-series/assets/1693787359078.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/java-tutorial/web-front-series/assets/1693787400353.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/java-tutorial/web-front-series/assets/1693787430775.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/java-tutorial/web-front-series/assets/1693787469522.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/java-tutorial/web-front-series/assets/1693787504599.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/java-tutorial/front-end/assets/1693787359078.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/java-tutorial/front-end/assets/1693787400353.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/java-tutorial/front-end/assets/1693787430775.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/java-tutorial/front-end/assets/1693787469522.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="https://jsd.cdn.zzko.cn/gh/cunyu1943/JavaPark@main/src/java-tutorial/front-end/assets/1693787504599.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3> 3. 插件</h3>
 <p><strong>（1）插件安装</strong></p>
 <p>点击左侧扩展（插件）-&gt; 搜索插件 -&gt; install -&gt; 重启 <code>VS Code</code>。</p>
