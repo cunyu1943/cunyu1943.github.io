@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2024-02-03T15:19:51.715Z</updated>
+  <updated>2024-02-04T03:29:19.696Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -17,7 +17,7 @@
   <category term="Java 基础系列"/>
   <category term="MySQL 教程"/>
   <category term="C 语言教程"/>
-  <category term="C++ 语言教程"/>
+  <category term="C++ 系列"/>
   <category term="博客搭建"/>
   <category term="效率工具"/>
   <category term="IDEA 教程"/>
@@ -25,10 +25,51 @@
   <category term="Java 入门练习"/>
   <category term="Python3 编程实例"/>
   <entry>
+    <title type="text">编程语言</title>
+    <id>https://cunyu1943.github.io/program-language/</id>
+    <link href="https://cunyu1943.github.io/program-language/"/>
+    <updated>2024-02-04T03:26:59.000Z</updated>
+    <summary type="html"><![CDATA[<h2> C 语言</h2>
+<ol>
+<li><a href="/program-language/c/20180308-memory-manage.html" target="blank">C 语言：内存管理函数</a></li>
+<li><a href="/program-language/c/20180720-summary.html" target="blank">C 语言：知识点总结</a></li>
+</ol>
+<h2> C++</h2>
+<ol>
+<li><a href="/program-language/cpp/20180720-summary.html" target="blank">C++ 系列：知识点总结</a></li>
+</ol>]]></summary>
+    <content type="html"><![CDATA[<h2> C 语言</h2>
+<ol>
+<li><a href="/program-language/c/20180308-memory-manage.html" target="blank">C 语言：内存管理函数</a></li>
+<li><a href="/program-language/c/20180720-summary.html" target="blank">C 语言：知识点总结</a></li>
+</ol>
+<h2> C++</h2>
+<ol>
+<li><a href="/program-language/cpp/20180720-summary.html" target="blank">C++ 系列：知识点总结</a></li>
+</ol>
+<h2> Python</h2>
+<h3> 编程实例</h3>
+<ol>
+<li><a href="/program-language/python/instance/20181003-1-5.html" target="blank">编程实例（1 - 5）</a></li>
+<li><a href="/program-language/python/instance/20181004-6-10.html" target="blank">编程实例（6 - 10）</a></li>
+<li><a href="/program-language/python/instance/20181005-11-15.html" target="blank">编程实例（11 - 15）</a></li>
+<li><a href="/program-language/python/instance/20181006-16-20.html" target="blank">编程实例（16 - 20）</a></li>
+<li><a href="/program-language/python/instance/20181007-21-25.html" target="blank">编程实例（21 - 25）</a></li>
+<li><a href="/program-language/python/instance/20181008-26-30.html" target="blank">编程实例（26 - 30）</a></li>
+<li><a href="/program-language/python/instance/20181009-31-35.html" target="blank">编程实例（31 - 35）</a></li>
+<li><a href="/program-language/python/instance/20181010-36-40.html" target="blank">编程实例（36 - 40）</a></li>
+<li><a href="/program-language/python/instance/20181011-41-45.html" target="blank">编程实例（41 - 45）</a></li>
+<li><a href="/program-language/python/instance/20181012-46-50.html" target="blank">编程实例（46 - 50）</a></li>
+<li><a href="/program-language/python/instance/20181013-51-55.html" target="blank">编程实例（51 - 55）</a></li>
+</ol>
+]]></content>
+    <published>2024-02-04T03:26:59.000Z</published>
+  </entry>
+  <entry>
     <title type="text">关于</title>
     <id>https://cunyu1943.github.io/about/</id>
     <link href="https://cunyu1943.github.io/about/"/>
-    <updated>2024-02-03T15:18:16.000Z</updated>
+    <updated>2024-02-04T03:26:59.000Z</updated>
     <summary type="html"><![CDATA[<h2> 关于自己</h2>
 <h2> 关于学习</h2>
 <h2> 关于工作</h2>
@@ -44,21 +85,66 @@
     <title type="text">Java</title>
     <id>https://cunyu1943.github.io/java-tutorial/</id>
     <link href="https://cunyu1943.github.io/java-tutorial/"/>
-    <updated>2024-02-03T15:18:16.000Z</updated>
+    <updated>2024-02-04T03:26:59.000Z</updated>
     <summary type="html"><![CDATA[<h2> Java 基础</h2>
 <ol>
-<li><a href="/java-tutorial/javase/20220701-intro-to-java.html" target="blank">Java 入门简介</a></li>
-</ol>
-<h2> 实战训练</h2>
-<h2> MySQL</h2>
-<h2> Web 前端</h2>
-]]></summary>
+<li><a href="/java-tutorial/javase/20220701-intro-to-java.html" target="blank">Java 基础：简介</a></li>
+<li><a href="/java-tutorial/javase/20220702-jdk-install-and-hello-world.html" target="blank">Java 基础：开发环境搭建及入门程序</a></li>
+<li><a href="/java-tutorial/javase/20220703-learn-java-with-idea.html" target="blank">Java 基础：利用 IDEA 进行 Java 开发</a></li>
+<li><a href="/java-tutorial/javase/20220704-variable-and-datatype.html" target="blank">Java 基础：变量与数据类型</a></li>
+<li><a href="/java-tutorial/javase/20220705-binary-convert.html" target="blank">Java 基础：常用进制转换</a></li>
+<li><a href="/java-tutorial/javase/20220706-operator.html" target="blank">Java 基础：操作符</a></li>
+<li><a href="/java-tutorial/javase/20220707-control-process.html" target="blank">Java 基础：控制流程</a></li>
+<li><a href="/java-tutorial/javase/20221127-loop-in-action.html" target="blank">Java 基础：流程控制知识大闯关</a></li>
+<li><a href="/java-tutorial/javase/20220708-how-to-operate-array.html" target="blank">Java 基础：数组操作的奇技淫巧</a></li>
+<li><a href="/java-tutorial/javase/20220709-oop-1.html" target="blank">Java 基础：面向对象的 3、5 知识点</a></li>
+<li><a href="/java-tutorial/javase/20220710-oop-2.html" target="blank">Java 基础：类的相关知识</a></li>
+<li><a href="/java-tutorial/javase/20220711-oop-3.html" target="blank">Java 基础：包和 jar 文件的创建</a></li>
+<li><a href="/java-tutorial/javase/20220712-all-kinds-of-variable.html" target="blank">Java 基础：成员变量、实例变量、静态变量、局部变量？</a></li>
+<li><a href="/java-tutorial/javase/20220713-string.html" target="blank">Java 基础：String 详解</a></li>
+<li><a href="/java-tutorial/javase/20220714-arraylist.html" target="blank">Java 基础：ArrayList 详解</a></li>
+<li><a href="/java-tutorial/javase/20220715-in-out-stream.html" target="blank">Java 基础：输入输出流</a></li>
+<li><a href="/java-tutorial/javase/20220716-reflection.html" target="blank">Java 基础：反射机制详解</a></li>
+<li><a href="/java-tutorial/javase/20220721-annotations.html" target="blank">Java 基础：深入浅出 Java 注解</a></li>
+<li><a href="/java-tutorial/javase/20220717-jdbc-introduction.html" target="blank">Java 基础：JDBC 入门指南</a></li>
+<li><a href="/java-tutorial/javase/20220718-test-with-junit.html" target="blank">Java 基础：是时候拥抱 Junit 单元测试了！</a></li>
+<li><a href="/java-tutorial/javase/20220719-lombok-install-and-usage.html" target="blank">Java 基础：Lombok 安装及使用指南</a></li>
+<li><a href="/java-tutorial/javase/20220720-fastjson2-quickstart.html" target="blank">Java 基础：Fastjson V2 简单使用手册</a></li>
+<li><a href="/java-tutorial/javase/20221203-oop-advance.html" target="blank">Java 基础：static 和 final 小课堂</a></li>
+<li><a href="/java-tutorial/javase/20221211-abstract.html" target="blank">Java 基础：抽象、接口和内部类</a></li>
+</ol>]]></summary>
     <content type="html"><![CDATA[<h2> Java 基础</h2>
 <ol>
-<li><a href="/java-tutorial/javase/20220701-intro-to-java.html" target="blank">Java 入门简介</a></li>
+<li><a href="/java-tutorial/javase/20220701-intro-to-java.html" target="blank">Java 基础：简介</a></li>
+<li><a href="/java-tutorial/javase/20220702-jdk-install-and-hello-world.html" target="blank">Java 基础：开发环境搭建及入门程序</a></li>
+<li><a href="/java-tutorial/javase/20220703-learn-java-with-idea.html" target="blank">Java 基础：利用 IDEA 进行 Java 开发</a></li>
+<li><a href="/java-tutorial/javase/20220704-variable-and-datatype.html" target="blank">Java 基础：变量与数据类型</a></li>
+<li><a href="/java-tutorial/javase/20220705-binary-convert.html" target="blank">Java 基础：常用进制转换</a></li>
+<li><a href="/java-tutorial/javase/20220706-operator.html" target="blank">Java 基础：操作符</a></li>
+<li><a href="/java-tutorial/javase/20220707-control-process.html" target="blank">Java 基础：控制流程</a></li>
+<li><a href="/java-tutorial/javase/20221127-loop-in-action.html" target="blank">Java 基础：流程控制知识大闯关</a></li>
+<li><a href="/java-tutorial/javase/20220708-how-to-operate-array.html" target="blank">Java 基础：数组操作的奇技淫巧</a></li>
+<li><a href="/java-tutorial/javase/20220709-oop-1.html" target="blank">Java 基础：面向对象的 3、5 知识点</a></li>
+<li><a href="/java-tutorial/javase/20220710-oop-2.html" target="blank">Java 基础：类的相关知识</a></li>
+<li><a href="/java-tutorial/javase/20220711-oop-3.html" target="blank">Java 基础：包和 jar 文件的创建</a></li>
+<li><a href="/java-tutorial/javase/20220712-all-kinds-of-variable.html" target="blank">Java 基础：成员变量、实例变量、静态变量、局部变量？</a></li>
+<li><a href="/java-tutorial/javase/20220713-string.html" target="blank">Java 基础：String 详解</a></li>
+<li><a href="/java-tutorial/javase/20220714-arraylist.html" target="blank">Java 基础：ArrayList 详解</a></li>
+<li><a href="/java-tutorial/javase/20220715-in-out-stream.html" target="blank">Java 基础：输入输出流</a></li>
+<li><a href="/java-tutorial/javase/20220716-reflection.html" target="blank">Java 基础：反射机制详解</a></li>
+<li><a href="/java-tutorial/javase/20220721-annotations.html" target="blank">Java 基础：深入浅出 Java 注解</a></li>
+<li><a href="/java-tutorial/javase/20220717-jdbc-introduction.html" target="blank">Java 基础：JDBC 入门指南</a></li>
+<li><a href="/java-tutorial/javase/20220718-test-with-junit.html" target="blank">Java 基础：是时候拥抱 Junit 单元测试了！</a></li>
+<li><a href="/java-tutorial/javase/20220719-lombok-install-and-usage.html" target="blank">Java 基础：Lombok 安装及使用指南</a></li>
+<li><a href="/java-tutorial/javase/20220720-fastjson2-quickstart.html" target="blank">Java 基础：Fastjson V2 简单使用手册</a></li>
+<li><a href="/java-tutorial/javase/20221203-oop-advance.html" target="blank">Java 基础：static 和 final 小课堂</a></li>
+<li><a href="/java-tutorial/javase/20221211-abstract.html" target="blank">Java 基础：抽象、接口和内部类</a></li>
 </ol>
 <h2> 实战训练</h2>
-<h2> MySQL</h2>
+<h2> MySQL 教程</h2>
+<ol>
+<li><a href="/java-tutorial/mysql/20220726-sql-in-10min.html" target="blank">MySQL 教程：《SQL 必知必会》全解析</a></li>
+</ol>
 <h2> Web 前端</h2>
 ]]></content>
     <published>2024-02-03T15:18:16.000Z</published>
@@ -67,56 +153,56 @@
     <title type="text">关于工作</title>
     <id>https://cunyu1943.github.io/about/job/</id>
     <link href="https://cunyu1943.github.io/about/job/"/>
-    <updated>2024-02-03T15:18:16.000Z</updated>
+    <updated>2024-02-04T03:26:59.000Z</updated>
     <published>2024-02-03T15:18:16.000Z</published>
   </entry>
   <entry>
     <title type="text">关于学习</title>
     <id>https://cunyu1943.github.io/about/study/</id>
     <link href="https://cunyu1943.github.io/about/study/"/>
-    <updated>2024-02-03T15:18:16.000Z</updated>
+    <updated>2024-02-04T03:26:59.000Z</updated>
     <published>2024-02-03T15:18:16.000Z</published>
   </entry>
   <entry>
     <title type="text">数据结构与算法</title>
     <id>https://cunyu1943.github.io/cs-wiki/algo/</id>
     <link href="https://cunyu1943.github.io/cs-wiki/algo/"/>
-    <updated>2024-02-03T15:18:16.000Z</updated>
+    <updated>2024-02-04T03:26:59.000Z</updated>
     <published>2024-02-03T15:18:16.000Z</published>
   </entry>
   <entry>
     <title type="text">组成原理</title>
     <id>https://cunyu1943.github.io/cs-wiki/composition/</id>
     <link href="https://cunyu1943.github.io/cs-wiki/composition/"/>
-    <updated>2024-02-03T15:18:16.000Z</updated>
+    <updated>2024-02-04T03:26:59.000Z</updated>
     <published>2024-02-03T15:18:16.000Z</published>
   </entry>
   <entry>
     <title type="text">计算机网络</title>
     <id>https://cunyu1943.github.io/cs-wiki/network/</id>
     <link href="https://cunyu1943.github.io/cs-wiki/network/"/>
-    <updated>2024-02-03T15:18:16.000Z</updated>
+    <updated>2024-02-04T03:26:59.000Z</updated>
     <published>2024-02-03T15:18:16.000Z</published>
   </entry>
   <entry>
     <title type="text">操作系统</title>
     <id>https://cunyu1943.github.io/cs-wiki/system/</id>
     <link href="https://cunyu1943.github.io/cs-wiki/system/"/>
-    <updated>2024-02-03T15:18:16.000Z</updated>
+    <updated>2024-02-04T03:26:59.000Z</updated>
     <published>2024-02-03T15:18:16.000Z</published>
   </entry>
   <entry>
     <title type="text">MyBatis</title>
     <id>https://cunyu1943.github.io/framework/mybatis/</id>
     <link href="https://cunyu1943.github.io/framework/mybatis/"/>
-    <updated>2024-02-03T15:18:16.000Z</updated>
+    <updated>2024-02-04T03:26:59.000Z</updated>
     <published>2024-02-03T15:18:16.000Z</published>
   </entry>
   <entry>
     <title type="text">MyBatis Plus</title>
     <id>https://cunyu1943.github.io/framework/mybatis-plus/</id>
     <link href="https://cunyu1943.github.io/framework/mybatis-plus/"/>
-    <updated>2024-02-03T15:18:16.000Z</updated>
+    <updated>2024-02-04T03:26:59.000Z</updated>
     <published>2024-02-03T15:18:16.000Z</published>
   </entry>
   <entry>
@@ -235,14 +321,14 @@
     <title type="text">Nginx</title>
     <id>https://cunyu1943.github.io/framework/nginx/</id>
     <link href="https://cunyu1943.github.io/framework/nginx/"/>
-    <updated>2024-02-03T15:18:16.000Z</updated>
+    <updated>2024-02-04T03:26:59.000Z</updated>
     <published>2024-02-03T15:18:16.000Z</published>
   </entry>
   <entry>
     <title type="text">Spring Boot</title>
     <id>https://cunyu1943.github.io/framework/springboot/</id>
     <link href="https://cunyu1943.github.io/framework/springboot/"/>
-    <updated>2024-02-03T15:18:16.000Z</updated>
+    <updated>2024-02-04T03:26:59.000Z</updated>
     <published>2024-02-03T15:18:16.000Z</published>
   </entry>
   <entry>
@@ -2850,7 +2936,7 @@
     <title type="text">知识点</title>
     <id>https://cunyu1943.github.io/interview/knowledge/</id>
     <link href="https://cunyu1943.github.io/interview/knowledge/"/>
-    <updated>2024-02-03T15:18:16.000Z</updated>
+    <updated>2024-02-04T03:26:59.000Z</updated>
     <published>2024-02-03T15:18:16.000Z</published>
   </entry>
   <entry>
@@ -2897,16 +2983,16 @@
     <title type="text">求职面试</title>
     <id>https://cunyu1943.github.io/interview/</id>
     <link href="https://cunyu1943.github.io/interview/"/>
-    <updated>2024-02-03T15:18:16.000Z</updated>
+    <updated>2024-02-04T03:26:59.000Z</updated>
     <summary type="html"><![CDATA[<h2> 知识点</h2>
 <ol>
-<li><a href="/interview/knowledge/20240203-java-basic.html" target="blank">Java 基础面试知识点</a></li>
+<li><a href="/interview/knowledge/20240201-java-basic.html" target="blank">Java 基础面试知识点</a></li>
 <li><a href="/interview/knowledge/20240203-java-advanced.html" target="blank">Java 进阶面试知识点</a></li>
 <li><a href="/interview/knowledge/20240203-mysql.html" target="blank">MySQL 面试知识点</a></li>
 </ol>]]></summary>
     <content type="html"><![CDATA[<h2> 知识点</h2>
 <ol>
-<li><a href="/interview/knowledge/20240203-java-basic.html" target="blank">Java 基础面试知识点</a></li>
+<li><a href="/interview/knowledge/20240201-java-basic.html" target="blank">Java 基础面试知识点</a></li>
 <li><a href="/interview/knowledge/20240203-java-advanced.html" target="blank">Java 进阶面试知识点</a></li>
 <li><a href="/interview/knowledge/20240203-mysql.html" target="blank">MySQL 面试知识点</a></li>
 </ol>
@@ -2919,16 +3005,39 @@
     <title type="text">基础教程</title>
     <id>https://cunyu1943.github.io/tutorial/</id>
     <link href="https://cunyu1943.github.io/tutorial/"/>
-    <updated>2024-02-03T15:18:16.000Z</updated>
-    <summary type="html"><![CDATA[<h2> IDEA 教程</h2>
+    <updated>2024-02-04T03:26:59.000Z</updated>
+    <summary type="html"><![CDATA[<h2> 博客搭建</h2>
+<ol>
+<li><a href="/tutorial/blog/20220401-hexo.html" target="blank">博客搭建：Hexo+Github Pages博客搭建教程</a></li>
+</ol>
+<h2> IDEA 教程</h2>
+<ol>
+<li><a href="/tutorial/idea/20220202-idea-guide.html" target="blank">IDEA 教程：最新版 IntelliJ IDEA 使用手册</a></li>
+<li><a href="/tutorial/idea/20230525-code-commit.html" target="blank">IDEA 教程：原来大厂都是这么提交代码的</a></li>
+</ol>]]></summary>
+    <content type="html"><![CDATA[<h2> 博客搭建</h2>
+<ol>
+<li><a href="/tutorial/blog/20220401-hexo.html" target="blank">博客搭建：Hexo+Github Pages博客搭建教程</a></li>
+</ol>
+<h2> IDEA 教程</h2>
+<ol>
+<li><a href="/tutorial/idea/20220202-idea-guide.html" target="blank">IDEA 教程：最新版 IntelliJ IDEA 使用手册</a></li>
+<li><a href="/tutorial/idea/20230525-code-commit.html" target="blank">IDEA 教程：原来大厂都是这么提交代码的</a></li>
+</ol>
+<p>###\ 效率工具</p>
+<ol>
+<li><a href="/tutorial/efficiency/20230425-markdown-tutorial.html" target="blank">效率工具：如何用 Markdown 写出好看的文章</a></li>
+<li><a href="/tutorial/efficiency/20220729-10-amazing-website.html" target="blank">效率工具：10 个神奇的网站，助力带薪摸鱼</a></li>
+<li><a href="/tutorial/efficiency/20220729-cdn.html" target="blank">效率工具：网站访问太慢，不妨试试这些 CDN</a></li>
+<li><a href="/tutorial/efficiency/20220731-exercise-websites.html" target="blank">效率工具：计算机专业涨薪必备的几个网站</a></li>
+<li><a href="/tutorial/efficiency/20221127-cmd.html" target="blank">效率工具：黑客大神也常用的一些 CMD 命令</a></li>
+<li><a href="/tutorial/efficiency/20230710-browser-plugin-install.html" target="blank">效率工具：如何在浏览器中安装插件</a></li>
+<li><a href="/tutorial/efficiency/20220729-emoji.html" target="blank">效率工具：Emoji 表情大作战</a></li>
+</ol>
 <h2> 软件设计师</h2>
-<h2> 博客搭建</h2>
-<h2> 效率工具</h2>
-]]></summary>
-    <content type="html"><![CDATA[<h2> IDEA 教程</h2>
-<h2> 软件设计师</h2>
-<h2> 博客搭建</h2>
-<h2> 效率工具</h2>
+<ol>
+<li><a href="/tutorial/software-designer/20221024-computer-system.html" target="blank">软设：计算机系统</a></li>
+</ol>
 ]]></content>
     <published>2024-02-02T16:18:13.000Z</published>
   </entry>
@@ -2970,7 +3079,7 @@
     <title type="text">关于自己</title>
     <id>https://cunyu1943.github.io/about/me/</id>
     <link href="https://cunyu1943.github.io/about/me/"/>
-    <updated>2024-02-03T15:18:16.000Z</updated>
+    <updated>2024-02-04T03:26:59.000Z</updated>
     <published>2024-02-02T10:40:35.000Z</published>
   </entry>
   <entry>
@@ -4313,7 +4422,7 @@
     <title type="text">Web 前端</title>
     <id>https://cunyu1943.github.io/java-tutorial/front-end/</id>
     <link href="https://cunyu1943.github.io/java-tutorial/front-end/"/>
-    <updated>2024-02-03T15:18:16.000Z</updated>
+    <updated>2024-02-04T03:26:59.000Z</updated>
     <published>2024-02-02T10:39:17.000Z</published>
   </entry>
   <entry>
@@ -5932,7 +6041,7 @@
     <title type="text">实战训练</title>
     <id>https://cunyu1943.github.io/java-tutorial/in-action/</id>
     <link href="https://cunyu1943.github.io/java-tutorial/in-action/"/>
-    <updated>2024-02-02T10:39:17.000Z</updated>
+    <updated>2024-02-04T03:26:59.000Z</updated>
     <published>2024-02-02T10:39:17.000Z</published>
   </entry>
   <entry>
@@ -11311,7 +11420,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">Java 基础</title>
     <id>https://cunyu1943.github.io/java-tutorial/javase/</id>
     <link href="https://cunyu1943.github.io/java-tutorial/javase/"/>
-    <updated>2024-02-02T10:39:17.000Z</updated>
+    <updated>2024-02-04T03:26:59.000Z</updated>
     <published>2024-02-02T10:39:17.000Z</published>
   </entry>
   <entry>
@@ -17103,7 +17212,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">MySQL</title>
     <id>https://cunyu1943.github.io/java-tutorial/mysql/</id>
     <link href="https://cunyu1943.github.io/java-tutorial/mysql/"/>
-    <updated>2024-02-02T10:40:35.000Z</updated>
+    <updated>2024-02-04T03:26:59.000Z</updated>
     <published>2024-02-02T10:39:17.000Z</published>
   </entry>
   <entry>
@@ -18597,17 +18706,17 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <published>2018-07-20T00:00:00.000Z</published>
   </entry>
   <entry>
-    <title type="text">C 系列</title>
+    <title type="text">C 语言</title>
     <id>https://cunyu1943.github.io/program-language/c/</id>
     <link href="https://cunyu1943.github.io/program-language/c/"/>
-    <updated>2024-02-02T10:39:17.000Z</updated>
+    <updated>2024-02-04T03:26:59.000Z</updated>
     <published>2024-02-02T10:39:17.000Z</published>
   </entry>
   <entry>
     <title type="text">知识点总结</title>
     <id>https://cunyu1943.github.io/program-language/cpp/20180720-summary.html</id>
     <link href="https://cunyu1943.github.io/program-language/cpp/20180720-summary.html"/>
-    <updated>2024-02-02T10:39:17.000Z</updated>
+    <updated>2024-02-04T03:26:59.000Z</updated>
     <summary type="html"><![CDATA[<h1> 知识点总结</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -18717,21 +18826,21 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <p>扫一扫，探索另一个全新的世界。</p>
 <figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 ]]></content>
-    <category term="C++ 语言教程"/>
+    <category term="C++ 系列"/>
     <published>2018-07-20T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">C++ 系列</title>
     <id>https://cunyu1943.github.io/program-language/cpp/</id>
     <link href="https://cunyu1943.github.io/program-language/cpp/"/>
-    <updated>2024-02-02T10:39:17.000Z</updated>
+    <updated>2024-02-04T03:26:59.000Z</updated>
     <published>2024-02-02T10:39:17.000Z</published>
   </entry>
   <entry>
     <title type="text">Python 系列</title>
     <id>https://cunyu1943.github.io/program-language/python/</id>
     <link href="https://cunyu1943.github.io/program-language/python/"/>
-    <updated>2024-02-02T10:39:17.000Z</updated>
+    <updated>2024-02-04T03:26:59.000Z</updated>
     <published>2024-02-02T10:39:17.000Z</published>
   </entry>
   <entry>
@@ -18887,7 +18996,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">博客搭建</title>
     <id>https://cunyu1943.github.io/tutorial/blog/</id>
     <link href="https://cunyu1943.github.io/tutorial/blog/"/>
-    <updated>2024-02-02T10:39:17.000Z</updated>
+    <updated>2024-02-04T03:26:59.000Z</updated>
     <published>2024-02-02T10:39:17.000Z</published>
   </entry>
   <entry>
@@ -19297,7 +19406,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">效率工具</title>
     <id>https://cunyu1943.github.io/tutorial/efficiency/</id>
     <link href="https://cunyu1943.github.io/tutorial/efficiency/"/>
-    <updated>2024-02-02T10:39:17.000Z</updated>
+    <updated>2024-02-04T03:26:59.000Z</updated>
     <published>2024-02-02T10:39:17.000Z</published>
   </entry>
   <entry>
@@ -19703,7 +19812,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">IDEA 教程</title>
     <id>https://cunyu1943.github.io/tutorial/idea/</id>
     <link href="https://cunyu1943.github.io/tutorial/idea/"/>
-    <updated>2024-02-02T10:39:17.000Z</updated>
+    <updated>2024-02-04T03:26:59.000Z</updated>
     <published>2024-02-02T10:39:17.000Z</published>
   </entry>
   <entry>
@@ -19970,7 +20079,7 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
     <title type="text">软件设计师</title>
     <id>https://cunyu1943.github.io/tutorial/software-designer/</id>
     <link href="https://cunyu1943.github.io/tutorial/software-designer/"/>
-    <updated>2024-02-02T10:39:17.000Z</updated>
+    <updated>2024-02-04T03:26:59.000Z</updated>
     <published>2024-02-02T10:39:17.000Z</published>
   </entry>
   <entry>
@@ -20782,7 +20891,7 @@ x年12月:yy天（x为输入的任意年份，yy为当月天数）</p>
     <title type="text">Java 入门</title>
     <id>https://cunyu1943.github.io/java-tutorial/in-action/se/</id>
     <link href="https://cunyu1943.github.io/java-tutorial/in-action/se/"/>
-    <updated>2024-02-02T10:40:35.000Z</updated>
+    <updated>2024-02-04T03:26:59.000Z</updated>
     <published>2024-02-02T10:39:17.000Z</published>
   </entry>
   <entry>
@@ -21401,100 +21510,5 @@ x年12月:yy天（x为输入的任意年份，yy为当月天数）</p>
 ]]></content>
     <category term="Python3 编程实例"/>
     <published>2018-10-09T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">Python3 编程实例（36 - 40）</title>
-    <id>https://cunyu1943.github.io/program-language/python/instance/20181010-36-40.html</id>
-    <link href="https://cunyu1943.github.io/program-language/python/instance/20181010-36-40.html"/>
-    <updated>2024-02-02T10:39:17.000Z</updated>
-    <summary type="html"><![CDATA[<h1> Python3 编程实例（36 - 40）</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<h2> 实例 36</h2>
-<h3> 题目</h3>
-<p>求 100 之内的素数。</p>
-<h3> 分析</h3>
-<p>所谓素数就是除 1 和自身外，无法被其他数整除的数，那就循环比这个数的平方根还小的数，并取模，如果都不能整除，那么这个数就是素数。</p>
-<h3> 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><pre class="language-python"><code><span class="token comment">#!/usr/bin/env python</span>
-<span class="token comment"># -*- coding: utf-8 -*-</span>
-<span class="token comment"># @version : 1.0</span>
-<span class="token comment"># @Time    : 2021/4/10 11:02</span>
-<span class="token comment"># @Author  : cunyu</span>
-<span class="token comment"># @Email   : 747731461@qq.com</span>
-<span class="token comment"># @Site    : https://cunyu1943.site</span>
-<span class="token comment"># 公众号    : 村雨遥</span>
-<span class="token comment"># @File    : 36.py</span>
-<span class="token comment"># @Software: PyCharm</span>
-<span class="token comment"># @Desc    : 练习实例36</span>
-
-<span class="token keyword">if</span> __name__ <span class="token operator">==</span> <span class="token string">'__main__'</span><span class="token punctuation">:</span>
-    count <span class="token operator">=</span> <span class="token number">0</span>
-    <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">101</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
-        <span class="token keyword">if</span> i <span class="token operator">&gt;</span> <span class="token number">1</span><span class="token punctuation">:</span>
-            <span class="token keyword">for</span> j <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span> i<span class="token punctuation">)</span><span class="token punctuation">:</span>
-                <span class="token keyword">if</span> <span class="token punctuation">(</span>i <span class="token operator">%</span> j <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
-                    <span class="token keyword">break</span>
-            <span class="token keyword">else</span><span class="token punctuation">:</span>
-                <span class="token keyword">print</span><span class="token punctuation">(</span>i<span class="token punctuation">,</span> end<span class="token operator">=</span><span class="token string">'\t'</span><span class="token punctuation">)</span>
-                count <span class="token operator">+=</span> <span class="token number">1</span>
-                <span class="token keyword">if</span> <span class="token punctuation">(</span>count <span class="token operator">%</span> <span class="token number">5</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
-                    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"共有素数 %d 个"</span> <span class="token operator">%</span> count<span class="token punctuation">)</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></summary>
-    <content type="html"><![CDATA[<h1> Python3 编程实例（36 - 40）</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<h2> 实例 36</h2>
-<h3> 题目</h3>
-<p>求 100 之内的素数。</p>
-<h3> 分析</h3>
-<p>所谓素数就是除 1 和自身外，无法被其他数整除的数，那就循环比这个数的平方根还小的数，并取模，如果都不能整除，那么这个数就是素数。</p>
-<h3> 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 结果</h3>
-<figure><figcaption></figcaption></figure>
-<h2> 实例 37</h2>
-<h3> 题目</h3>
-<p>对 10 个数进行排序。</p>
-<h3> 分析</h3>
-<p>利用选择法，即从后 9 个比较过程中，选择一个最小的与第一个元素交换，下次类推，即用第二个元素与后 8 个进行比较，并进行交换。</p>
-<h3> 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 结果</h3>
-<figure><figcaption></figcaption></figure>
-<h2> 实例 38</h2>
-<h3> 题目</h3>
-<p>求一个 3 * 3 矩阵主对角线元素之和。</p>
-<h3> 分析</h3>
-<p>分别输入矩阵的 9 个元素，然后求对角线元素之和，对角线元素的行列坐标相等。</p>
-<h3> 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 结果</h3>
-<figure><figcaption></figcaption></figure>
-<h2> 实例 39</h2>
-<h3> 题目</h3>
-<p>有一个已经排好序的数组。现输入一个数，要求按原来的规律将它插入数组中。</p>
-<h3> 分析</h3>
-<p>调用 <code>sorted_add(s, number)</code>，表示在有序列表 s 中正确位置插入 number 元素；</p>
-<h3> 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 结果</h3>
-<figure><figcaption></figcaption></figure>
-<h2> 实例 40</h2>
-<h3> 题目</h3>
-<p>将一个数组逆序输出。</p>
-<h3> 分析</h3>
-<p>直接用第一个与最后一个交换即可。</p>
-<h3> 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 结果</h3>
-<figure><figcaption></figcaption></figure>
-<h2> ⏳ 联系</h2>
-<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
-<p>扫一扫，探索另一个全新的世界。</p>
-<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-]]></content>
-    <category term="Python3 编程实例"/>
-    <published>2018-10-10T00:00:00.000Z</published>
   </entry>
 </feed>
