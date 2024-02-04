@@ -4,14 +4,16 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2024-02-04T13:12:45.785Z</updated>
+  <updated>2024-02-04T14:42:26.348Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
+  <category term="Redis 教程"/>
+  <category term="效率工具"/>
+  <category term="Vue 3 系列"/>
   <category term="关于"/>
   <category term="Nginx 教程"/>
   <category term="求职面试"/>
-  <category term="开发工具"/>
   <category term="Web 前端教程"/>
   <category term="Java 基础"/>
   <category term="Java 基础系列"/>
@@ -19,11 +21,348 @@
   <category term="C 语言教程"/>
   <category term="C++ 系列"/>
   <category term="博客搭建"/>
-  <category term="效率工具"/>
   <category term="IDEA 教程"/>
   <category term="软件设计师"/>
   <category term="Java 入门练习"/>
   <category term="Python3 编程实例"/>
+  <entry>
+    <title type="text">Redis 持久化</title>
+    <id>https://cunyu1943.github.io/framework/redis/20221016-persistence.html</id>
+    <link href="https://cunyu1943.github.io/framework/redis/20221016-persistence.html"/>
+    <updated>2024-02-04T14:40:43.000Z</updated>
+    <summary type="html"><![CDATA[<h1> Redis 持久化</h1>
+<h2> 什么是持久化？</h2>
+<p>所谓持久化，其实就是一种机制，它能够 <strong>将内存中的数据库状态保存到磁盘</strong> 中，从而防止服务器宕机导致内存数据丢失。<code>Redis</code> 的 <strong>数据都是存在内存中</strong> 的，一旦出现宕机等情况，所有数据将会丢失，而持久化机制则是为了应对这一突发故障而提出的机制。</p>
+<h2> 持久化的过程</h2>
+<p>要进行持久化，都是由客户端发起请求，然后再到服务器真实地写入磁盘中，一般需要经过如下步骤：</p>
+<ol>
+<li>客户端向数据库 <strong>发送写命令请求</strong>，此时数据存在于客户端的内存中；</li>
+<li>数据库 <strong>接收</strong> 来自客户端的 <strong>写命令请求</strong>，此时数据存在于服务器的内存中；</li>
+<li>数据库 <strong>调用系统 API</strong> 将数据写入磁盘，此时数据从服务器内存准备写入磁盘，位于 <strong>内核缓冲区</strong>；</li>
+<li>操作系统将 <strong>写缓冲区</strong> 传输到 <strong>磁盘控制器</strong>，此时 <strong>数据由内核缓冲区进入磁盘缓存</strong>；</li>
+<li>操作系统的磁盘控制器将数据 <strong>写入实际物理媒介中</strong>，此时数据写入磁盘；</li>
+</ol>]]></summary>
+    <content type="html"><![CDATA[<h1> Redis 持久化</h1>
+<h2> 什么是持久化？</h2>
+<p>所谓持久化，其实就是一种机制，它能够 <strong>将内存中的数据库状态保存到磁盘</strong> 中，从而防止服务器宕机导致内存数据丢失。<code>Redis</code> 的 <strong>数据都是存在内存中</strong> 的，一旦出现宕机等情况，所有数据将会丢失，而持久化机制则是为了应对这一突发故障而提出的机制。</p>
+<h2> 持久化的过程</h2>
+<p>要进行持久化，都是由客户端发起请求，然后再到服务器真实地写入磁盘中，一般需要经过如下步骤：</p>
+<ol>
+<li>客户端向数据库 <strong>发送写命令请求</strong>，此时数据存在于客户端的内存中；</li>
+<li>数据库 <strong>接收</strong> 来自客户端的 <strong>写命令请求</strong>，此时数据存在于服务器的内存中；</li>
+<li>数据库 <strong>调用系统 API</strong> 将数据写入磁盘，此时数据从服务器内存准备写入磁盘，位于 <strong>内核缓冲区</strong>；</li>
+<li>操作系统将 <strong>写缓冲区</strong> 传输到 <strong>磁盘控制器</strong>，此时 <strong>数据由内核缓冲区进入磁盘缓存</strong>；</li>
+<li>操作系统的磁盘控制器将数据 <strong>写入实际物理媒介中</strong>，此时数据写入磁盘；</li>
+</ol>
+<h2> 持久化的两种方式</h2>
+<ul>
+<li><strong>RDB</strong>：在指定时间间隔内对数据进行快照存储，是 <code>Redis</code> 默认的持久化方式；</li>
+<li><strong>AOF</strong>：记录每次服务器进行的写操作，当服务器重启时重新执行这些命令以恢复原始数据；</li>
+</ul>
+<h3> RDB</h3>
+<figure><figcaption></figcaption></figure>
+<h4> 工作原理</h4>
+<ol>
+<li><code>Redis</code> 调用 <code>fork()</code>，产生一个子进程；</li>
+<li>子进程将数据写到一个临时的 <code>RDB</code> 文件；</li>
+<li>当子进程完成新的 <code>RDB</code> 文件写入后，替换掉旧的 <code>RDB</code> 文件；</li>
+</ol>
+<h4> 优缺点</h4>
+<ol>
+<li><strong>优点</strong></li>
+</ol>
+<ul>
+<li><code>RDB</code> 是一个单文件，十分简洁，保存了某一时间点的 Redis 数据，适合做备份；</li>
+<li><code>RDB</code> 适合用于容灾，单文件传输十分方便；</li>
+<li><code>RDB</code> 性能较好，要进行持久化时，主进程 <code>fork</code> 一个子进程，然后将持久化的工作交给子进程，而主进程无需进行相关的 <code>I/O</code> 操作；</li>
+<li>相比于 <code>AOF</code>，数据量大时，其启动速度更快。</li>
+</ul>
+<ol>
+<li><strong>缺点</strong></li>
+</ol>
+<ul>
+<li><code>RDB</code> 容易造成数据丢失，数据安全性较低；</li>
+<li><code>RDB</code> 利用 <code>fork()</code> 产生子进程进行数据的持久化，一旦数据过大就会消耗一定时间，造成 <code>Redis</code>  停止服务几毫秒甚至更久。</li>
+</ul>
+<h4> 配置</h4>
+<div class="language-properties line-numbers-mode" data-ext="properties"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4> 手动触发方式</h4>
+<ol>
+<li><strong>save</strong></li>
+</ol>
+<p>会阻塞当前 <code>Redis</code> 服务器，直到持久化完成，对于线上要禁止使用；</p>
+<ol>
+<li><strong>bgsave</strong></li>
+</ol>
+<p><code>fork</code> 一个子进程，由子进程负责持久化进程，因此阻塞只会发生在 <code>fork</code> 子进程的过程中；</p>
+<h3> AOF</h3>
+<figure><figcaption></figcaption></figure>
+<h4> 工作原理</h4>
+<ol>
+<li>命令的实时写入，通过增量追加到文件的流程为：命令写入 -&gt; 追加到 <code>AOF</code> 缓存 -&gt; 同步到 <code>AOF</code> 磁盘；</li>
+<li>对 <code>AOF</code> 文件的重写，是为了减少 <code>AOF</code> 文件的大小，可以手动（<code>bgrewriteaof</code>）或自动触发；</li>
+</ol>
+<h4> 优缺点</h4>
+<ol>
+<li><strong>优点</strong></li>
+</ol>
+<ul>
+<li>比 <code>RDB</code> 更可靠，能制定不同的同步策略：不进行同步，每秒同步一次和每次查询进行同步，默认为每秒同步一次；</li>
+<li><code>AOF</code> 是一个纯追加的文件，面对突发情况也不回出现日志定位或损坏问题；</li>
+<li>当 <code>AOF</code> 过大时，<code>Redis</code> 会自动重写。重写是在一个新文件上进行，同时 <code>Redis</code> 会继续往旧文件中追加数据，新文件上会写入能重建当前数据集的最小操作命令的集合。当新文件重写完之后，<code>Redis</code> 就将新旧文件进行替换，然后将数据写入新文件；</li>
+<li><code>AOF</code> 将操作命令以简易的格式保存在文件中，容易导出用于恢复数据；</li>
+</ul>
+<ol start="2">
+<li><strong>缺点</strong></li>
+</ol>
+<ul>
+<li>数据量相同时，<code>AOF</code> 文件的大小一般都会比 <code>RDB</code> 文件大；</li>
+<li>在某些同步策略下，<code>AOF</code> 的速度比 <code>RDB</code> 慢，通常同步设置为每秒一次就能获得较高性能；</li>
+<li>有可能出现 <code>AOF</code> 重建的数据和原数据不一致的问题；</li>
+</ul>
+<h4> 配置</h4>
+<div class="language-properties line-numbers-mode" data-ext="properties"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 总结</h2>
+<p>以上就是 <code>Redis</code> 持久化的相关内容了，首先讲了什么是持久化，然后讲了持久化的过程，最后则是 <code>Redis</code> 中持久化的两种方式：<code>RDB</code> + <code>AOF</code>。</p>
+]]></content>
+    <category term="Redis 教程"/>
+    <published>2024-02-04T14:40:43.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Redis</title>
+    <id>https://cunyu1943.github.io/framework/redis/</id>
+    <link href="https://cunyu1943.github.io/framework/redis/"/>
+    <updated>2024-02-04T14:40:43.000Z</updated>
+    <published>2024-02-04T14:40:43.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">PPT 模板免费下载</title>
+    <id>https://cunyu1943.github.io/tutorial/efficiency/20220623-ppt-template.html</id>
+    <link href="https://cunyu1943.github.io/tutorial/efficiency/20220623-ppt-template.html"/>
+    <updated>2024-02-04T14:40:43.000Z</updated>
+    <summary type="html"><![CDATA[<h1> PPT 模板免费下载</h1>
+<h2> 第 1 PPT</h2>
+<ul>
+<li><a href="https://www.1ppt.com/" target="_blank" rel="noopener noreferrer">官网</a></li>
+</ul>
+<p>这里有海量 <code>PPT</code> 素材、幻灯片背景图片、<code>PPT</code> 模板供你选择下载。资源分类丰富，主要分为以下几个大类：</p>
+<ol>
+<li><code>PPT</code> 模板</li>
+<li>行业 <code>PPT</code></li>
+<li>节日 <code>PPT</code></li>
+<li><code>PPT</code> 背景</li>
+<li><code>PPT</code> 素材</li>
+<li><code>PPT</code> 图表</li>
+<li><code>PPT</code> 下载</li>
+<li><code>PPT</code> 课件</li>
+<li><code>Office</code> 教程</li>
+<li>字体下载</li>
+<li><code>PPT</code> 音效等</li>
+</ol>]]></summary>
+    <content type="html"><![CDATA[<h1> PPT 模板免费下载</h1>
+<h2> 第 1 PPT</h2>
+<ul>
+<li><a href="https://www.1ppt.com/" target="_blank" rel="noopener noreferrer">官网</a></li>
+</ul>
+<p>这里有海量 <code>PPT</code> 素材、幻灯片背景图片、<code>PPT</code> 模板供你选择下载。资源分类丰富，主要分为以下几个大类：</p>
+<ol>
+<li><code>PPT</code> 模板</li>
+<li>行业 <code>PPT</code></li>
+<li>节日 <code>PPT</code></li>
+<li><code>PPT</code> 背景</li>
+<li><code>PPT</code> 素材</li>
+<li><code>PPT</code> 图表</li>
+<li><code>PPT</code> 下载</li>
+<li><code>PPT</code> 课件</li>
+<li><code>Office</code> 教程</li>
+<li>字体下载</li>
+<li><code>PPT</code> 音效等</li>
+</ol>
+<figure><figcaption></figcaption></figure>
+<h2> PPT 超级市场</h2>
+<ul>
+<li><a href="https://www.pptsupermarket.com/" target="_blank" rel="noopener noreferrer">官网</a></li>
+</ul>
+<p>听名字就知道，这里是就像超市一样，提供各式各样的 <code>PPT</code> 作品和相关服务。这里不仅提供免费、优质、高效、安全的 <code>PPT</code> 模板下载，还提供 <code>PPT</code> 定制化增值服务，无论是想白嫖还是花钱买省心，都可以来这里来试试。网站主要分为 <code>PPT</code> 模板、<code>PPT</code> 作品/文案、<code>PPT</code> 定制、<code>PPT</code> 工具、<code>PPT</code> 教程等模块。</p>
+<figure><figcaption></figcaption></figure>
+<h2> PPT 课件网</h2>
+<ul>
+<li><a href="http://www.pptkj.net/" target="_blank" rel="noopener noreferrer">官网</a></li>
+</ul>
+<p>主要提供免费的 <code>PPT</code> 课件下载，这里汇聚了基本上从小学、初中、高中到大学期间所有年级的 <code>PPT</code> 课件，主要包括语文、数学、英语、物理、化学、生物、地理、历史、政治、科学、音乐、美术、信息等科目的 <code>PPT</code>。如果你刚好是一位教育行业从事者，那么相信这个网站一定会对你大有帮助。</p>
+<figure><figcaption></figcaption></figure>
+<h2> 吾道</h2>
+<ul>
+<li><a href="https://www.woodo.cn/design/template/" target="_blank" rel="noopener noreferrer">官网</a></li>
+</ul>
+<p>提供免版权的幻灯片模板，素材广场中还有其他共享文库、图片、视频、音乐、茶花园、营销设计、音效、矢量、贴纸等素材等你来下载！</p>
+<figure><figcaption></figcaption></figure>
+<h2> 优品 PPT</h2>
+<ul>
+<li><a href="https://www.ypppt.com/" target="_blank" rel="noopener noreferrer">官网</a></li>
+</ul>
+<p>官网自称为：一个有轻快的免费 <code>PPT</code> 模板下载网站！这里有各种 <code>PPT</code> 模板、背景、图表、素材、教程、课件等资源，主要分为 <code>PPT</code> 模板、<code>PPT</code> 背景、<code>PPT</code> 图表、<code>PPT</code> 素材、<code>PPT</code> 教程、节日 <code>PPT</code>、字体库、<code>PPT</code> 课件等 8 大模块。</p>
+<figure><figcaption></figcaption></figure>
+<h2> 站长素材</h2>
+<ul>
+<li><a href="https://sc.chinaz.com/ppt/" target="_blank" rel="noopener noreferrer">官网</a></li>
+</ul>
+<p>站长之家下的一个子网站，提供各种商用图库、图片、字体、<code>PPT</code>、简历、表格、音效、<code>PSD</code> 等超多资源下载，虽然有的模板需要开通会员才能洗澡，但是免费的就已经很多了，绝对够你用！</p>
+<figure><figcaption></figcaption></figure>
+<h2> 叮当设计</h2>
+<ul>
+<li><a href="https://www.dingdangsheji.com/" target="_blank" rel="noopener noreferrer">官网</a></li>
+</ul>
+<p>分享优秀设计资源，主要分为 <code>PPT</code> 模板、<code>PPT</code> 教程、<code>PSD</code>、矢量图、<code>XD</code>、<code>Sketch</code>、<code>Figma</code> 等栏目，还支持全站搜索，身为设计师的你，还不赶紧去看看？</p>
+<figure><figcaption></figcaption></figure>
+<h2> 总结</h2>
+<p>以上就是今天分享的几个可以免费下载 <code>PPT</code> 模板的网站了，除开免费下载 <code>PPT</code> 模板之外，各个网站还提供了其他各种素材供君下载。如果你刚好有这方面的需求，何不去看看有没有合适的资源呢？</p>
+]]></content>
+    <category term="效率工具"/>
+    <published>2022-06-23T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">macOS 中安装 Node.js</title>
+    <id>https://cunyu1943.github.io/tutorial/efficiency/20221114-macos-install-node.html</id>
+    <link href="https://cunyu1943.github.io/tutorial/efficiency/20221114-macos-install-node.html"/>
+    <updated>2024-02-04T14:40:43.000Z</updated>
+    <summary type="html"><![CDATA[<h1> macOS 中安装 Node.js</h1>
+<h2> 什么是 Node.js</h2>
+<p><code>Node.js</code> 是一个基于 <code>Chrome V8</code> 引擎的 <code>JavaScript</code> 运行时环境。最早发布于 2009 年 5 月，由 <code>Ryan Dahl</code> 开发。它使用了一个事件驱动、非阻塞式 <code>I/O</code> 模型，让 <code>JavaScript</code> 运行在服务端的开发平台，能让 <code>JavaScript</code> 成为 <code>PHP</code>、<code>Python</code>、<code>Perl</code>、<code>Ruby</code> 等服务端语言的脚本语言。</p>]]></summary>
+    <content type="html"><![CDATA[<h1> macOS 中安装 Node.js</h1>
+<h2> 什么是 Node.js</h2>
+<p><code>Node.js</code> 是一个基于 <code>Chrome V8</code> 引擎的 <code>JavaScript</code> 运行时环境。最早发布于 2009 年 5 月，由 <code>Ryan Dahl</code> 开发。它使用了一个事件驱动、非阻塞式 <code>I/O</code> 模型，让 <code>JavaScript</code> 运行在服务端的开发平台，能让 <code>JavaScript</code> 成为 <code>PHP</code>、<code>Python</code>、<code>Perl</code>、<code>Ruby</code> 等服务端语言的脚本语言。</p>
+<h2> 下载 Node.js</h2>
+<blockquote>
+<ul>
+<li><a href="https://nodejs.org/zh-cn/" target="_blank" rel="noopener noreferrer">下载地址</a></li>
+</ul>
+</blockquote>
+<figure><figcaption></figcaption></figure>
+<p>其中 <code>LTS</code> 表示长期维护版本，也更加推荐安装这个版本。</p>
+<h2> 安装</h2>
+<ol>
+<li>下载好安装包之后，双击后缀名为 <code>.pkg</code> 的安装包，会弹出以下的弹窗。弹窗中会提示欢迎语，然后提示 <code>Node.js</code> 和 <code>npm</code> 会安装到硬盘中的地址。</li>
+</ol>
+<ul>
+<li>
+<p><code>Node.js</code>：安装在硬盘中的 <code>/usr/local/bin/node</code> 目录。</p>
+</li>
+<li>
+<p><code>npm</code>：安装在硬盘中的 <code>/usr/local/bin/npm</code> 目录。</p>
+</li>
+</ul>
+<p>这里注意和 <code>Windows</code> 区分一下，因为 <code>macOS</code> 是基于 <code>Unix</code> 开发而来的，所以它的目录结构和 <code>Linux</code> 类似，是在总的根目录 <code>/</code> 下存在子目录。
+
+2. 点击<strong>继续</strong>，会提示软件的相关许可协议。</p>
+<figure><figcaption></figcaption></figure>
+<ul>
+<li>如果点击<strong>打印</strong>，而你的电脑也连接了打印机，那么这时候就能够将协议打印出来。</li>
+</ul>
+<figure><figcaption></figcaption></figure>
+<ul>
+<li>如果点击<strong>存储</strong>，此时会将协议保存为 <code>pdf</code>，由自己选择存放的路径。</li>
+</ul>
+<figure><figcaption></figcaption></figure>
+<ol start="3">
+<li>再次点击继续，会弹窗提示必须同意相关协议条款才能走下一步。</li>
+</ol>
+<figure><figcaption></figcaption></figure>
+<ol start="4">
+<li>选择软件安装的目的盘，一般来讲，<code>macOS</code> 中没有什么盘之分的，但如果你外接了硬盘，而你需要安装的软件也刚好要放在外接盘中，那么此时就可以选择另一个硬盘。</li>
+</ol>
+<p>
+</p>
+<ol start="5">
+<li>下一步，此时会提示让输入电脑的密码来开始安装。</li>
+</ol>
+<figure><figcaption></figcaption></figure>
+<ol start="6">
+<li>安装成功，关闭安装窗口即可。</li>
+</ol>
+<figure><figcaption></figcaption></figure>
+<h2> 总结</h2>
+<p>以上就是在 <code>macOS</code> 中安装 <code>Node.js</code> 的具体详细步骤，如果你还有任何的疑惑，欢迎在评论区留言或者私信我。当然，如果该教程对你有所帮助，那就给我点个赞再走吧。</p>
+]]></content>
+    <category term="效率工具"/>
+    <published>2022-11-14T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">常用指令</title>
+    <id>https://cunyu1943.github.io/java-tutorial/front-end/vue3/20221012-common-command.html</id>
+    <link href="https://cunyu1943.github.io/java-tutorial/front-end/vue3/20221012-common-command.html"/>
+    <updated>2024-02-04T14:40:43.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 常用指令</h1>
+<h2> 插值</h2>
+<h3> 文本</h3>
+<p>要进行文本部分替换，可以用 <code>{{}}</code> 将变量元素括起来；</p>
+<div class="language-html line-numbers-mode" data-ext="html"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span> <span class="token attr-value"><span class="token punctuation attr-equals">=</span> <span class="token punctuation">"</span>app<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    {{message}}
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></summary>
+    <content type="html"><![CDATA[<h1> 常用指令</h1>
+<h2> 插值</h2>
+<h3> 文本</h3>
+<p>要进行文本部分替换，可以用 <code>{{}}</code> 将变量元素括起来；</p>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>要进行文本全部替换，则可以用 <code>v-text</code> 来进行，比如下面的“测试”将会被 <code>message </code>的内容所替代；</p>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 原始 HTML</h3>
+<p>双大括号会将数据解释为普通文本，但如果我们要插入原始的 HTMl 内容，此时就需要使用 <code>v-html</code> 指令；</p>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 绑定元素属性</h2>
+<p>要实现给元素绑定属性，可以使用 <code>v-bind</code> 指令，其完整写法是 <code>v-bind:属性名="表达式"</code>，简写则可以直接省略掉 <code>v-bind</code>，只保留 <code>:属性名="表达式"</code>，但它属于单向绑定；</p>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 条件与循环</h2>
+<p>条件指令，也就是我们日常开发中所使用的 <code>if</code>，用 <code>v-if</code> 指令来进行绑定；</p>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>此外，还可以使用 <code>v-else</code> 指令来表示 <code>v-if</code> 的 <code>else</code> 块，它必须紧跟在 <code>v-if</code> 或 <code>v-else-if</code> 元素的后面，否则它将不会被识别；</p>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>循环指令，也就是我们经常用到的 <code>for</code> 循环，用 <code>v-for</code> 指令来进行绑定，根据数据生成列表结构，其语法是 <code>(item, index) in 数据</code>；</p>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 处理用户输入</h2>
+<p>要进行用户与应用之间的交互，可以使用 <code>v-on</code> 指令来添加事件监听器，通过它来调用 Vue 实例中定义的方法，此外为了减少开发过程中的代码量，我们还可以使用 <code>@</code> 来替换 <code>v-on</code> ，它俩可以达到同样的效果；</p>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>为了处理不去处理 DOM 事件细节，而只用纯粹的数据逻辑来进行操作，Vue 中为 <code>v-on</code> 又提供了 <strong>事件修饰符</strong>，常见时间修饰符如下：</p>
+<table>
+<thead>
+<tr>
+<th>事件修饰符</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>.stop</code></td>
+<td>表示阻止事件继续传播</td>
+</tr>
+<tr>
+<td><code>.prevent</code></td>
+<td>表示时间不再重载</td>
+</tr>
+<tr>
+<td><code>.capture</code></td>
+<td>表示使用事件捕获模式</td>
+</tr>
+<tr>
+<td><code>.self</code></td>
+<td>表示是当前元素自身时触发处理函数</td>
+</tr>
+<tr>
+<td><code>.once</code></td>
+<td>表示事件只触发一次</td>
+</tr>
+<tr>
+<td><code>.passive</code></td>
+<td>表示事件立即触发</td>
+</tr>
+</tbody>
+</table>
+<p>同时，为了实现表单输入和应用状态之间的双向绑定，我们可以使用 <code>v-model</code> 指令；</p>
+<p>通过 <code>v-model</code> 指令，能够便捷的设置和获取表单元素的值，而且绑定的数据会和表单元素值相关联；</p>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 元素的显示与隐藏</h2>
+<p>要实现元素的显示与隐藏，我们可以通过 <code>v-show</code> 这个指令，它会根据表达式的真假，来切换元素的显示和隐藏状态。</p>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content>
+    <category term="Vue 3 系列"/>
+    <published>2024-02-04T14:40:43.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Vue 3 系列</title>
+    <id>https://cunyu1943.github.io/java-tutorial/front-end/vue3/</id>
+    <link href="https://cunyu1943.github.io/java-tutorial/front-end/vue3/"/>
+    <updated>2024-02-04T14:40:43.000Z</updated>
+    <published>2024-02-04T14:40:43.000Z</published>
+  </entry>
   <entry>
     <title type="text">编程语言</title>
     <id>https://cunyu1943.github.io/program-language/</id>
@@ -96,7 +435,7 @@
     <title type="text">Java</title>
     <id>https://cunyu1943.github.io/java-tutorial/</id>
     <link href="https://cunyu1943.github.io/java-tutorial/"/>
-    <updated>2024-02-04T13:11:04.000Z</updated>
+    <updated>2024-02-04T14:40:43.000Z</updated>
     <summary type="html"><![CDATA[<h2> Java 基础</h2>
 <ol>
 <li><a href="/java-tutorial/javase/20220701-intro-to-java.html" target="blank">Java 基础：简介</a></li>
@@ -173,6 +512,10 @@
 3. [前端：CSS 教程](front-end/20230903-css.md) -->
 <ol>
 <li><a href="/java-tutorial/front-end/20230926-axios.html" target="blank">前端：Axios 简单使用指南</a></li>
+</ol>
+<h3> Vue 3 系列</h3>
+<ol>
+<li><a href="/java-tutorial/front-end/vue3/20221012-common-command.html" target="blank">Vue 3 系列：常用指令</a></li>
 </ol>
 ]]></content>
     <published>2024-02-03T15:18:16.000Z</published>
@@ -2988,10 +3331,14 @@
     <title type="text">框架｜中间件</title>
     <id>https://cunyu1943.github.io/framework/</id>
     <link href="https://cunyu1943.github.io/framework/"/>
-    <updated>2024-02-03T15:18:16.000Z</updated>
+    <updated>2024-02-04T14:40:43.000Z</updated>
     <summary type="html"><![CDATA[<h2> MyBatis</h2>
 <h2> MyBatis Plus</h2>
 <h2> Spring Boot</h2>
+<h2> Redis</h2>
+<ol>
+<li><a href="/framework/redis/20221016-persistence.html" target="blank">Redis：持久化</a></li>
+</ol>
 <h2> Nginx</h2>
 <ol>
 <li><a href="/framework/nginx/20221016-intro-install.html" target="blank">简介与环境搭建</a></li>
@@ -3000,6 +3347,10 @@
     <content type="html"><![CDATA[<h2> MyBatis</h2>
 <h2> MyBatis Plus</h2>
 <h2> Spring Boot</h2>
+<h2> Redis</h2>
+<ol>
+<li><a href="/framework/redis/20221016-persistence.html" target="blank">Redis：持久化</a></li>
+</ol>
 <h2> Nginx</h2>
 <ol>
 <li><a href="/framework/nginx/20221016-intro-install.html" target="blank">简介与环境搭建</a></li>
@@ -3033,10 +3384,10 @@
     <title type="text">基础教程</title>
     <id>https://cunyu1943.github.io/tutorial/</id>
     <link href="https://cunyu1943.github.io/tutorial/"/>
-    <updated>2024-02-04T10:23:47.000Z</updated>
+    <updated>2024-02-04T14:40:43.000Z</updated>
     <summary type="html"><![CDATA[<h2> 博客搭建</h2>
 <ol>
-<li><a href="/tutorial/blog/20220401-hexo.html" target="blank">博客搭建：Hexo+Github Pages博客搭建教程</a></li>
+<li><a href="/tutorial/blog/20220401-hexo.html" target="blank">博客搭建：Hexo + Github Pages 博客搭建教程</a></li>
 </ol>
 <h2> IDEA 教程</h2>
 <ol>
@@ -3045,7 +3396,7 @@
 </ol>]]></summary>
     <content type="html"><![CDATA[<h2> 博客搭建</h2>
 <ol>
-<li><a href="/tutorial/blog/20220401-hexo.html" target="blank">博客搭建：Hexo+Github Pages博客搭建教程</a></li>
+<li><a href="/tutorial/blog/20220401-hexo.html" target="blank">博客搭建：Hexo + Github Pages 博客搭建教程</a></li>
 </ol>
 <h2> IDEA 教程</h2>
 <ol>
@@ -3061,6 +3412,8 @@
 <li><a href="/tutorial/efficiency/20221127-cmd.html" target="blank">效率工具：黑客大神也常用的一些 CMD 命令</a></li>
 <li><a href="/tutorial/efficiency/20230710-browser-plugin-install.html" target="blank">效率工具：如何在浏览器中安装插件</a></li>
 <li><a href="/tutorial/efficiency/20220729-emoji.html" target="blank">效率工具：Emoji 表情大作战</a></li>
+<li><a href="/tutorial/efficiency/20221114-macos-install-node.html" target="blank">效率工具：macOS 安装 Node.js</a></li>
+<li><a href="/tutorial/efficiency/20220623-ppt-template.html" target="blank">效率工具：PPT 模板免费下载</a></li>
 </ol>
 <h2> 软件设计师</h2>
 <ol>
@@ -3073,7 +3426,7 @@
     <title type="text">JavaPark | 编程知识公园 🔥</title>
     <id>https://cunyu1943.github.io/guide.html</id>
     <link href="https://cunyu1943.github.io/guide.html"/>
-    <updated>2024-02-02T16:18:13.000Z</updated>
+    <updated>2024-02-04T14:40:43.000Z</updated>
     <summary type="html"><![CDATA[<p>⏰ 在阅读本博客内容时，若遇到任何内容、代码、图片等有关错误，都可以提交 <strong>issues</strong> 或者 <strong>PR</strong> 的方式进行勘误反馈，我会陆续进行完善改进，感谢支持。</p>
 <ul>
 <li>issues: <code>https://github.com/cunyu1943/JavaPark/issues</code></li>
@@ -3091,6 +3444,7 @@
 <figure><img src="/contact/contact.png" alt="" width="200" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <hr>
 <h2> 本站知识图谱</h2>
+<figure><figcaption></figcaption></figure>
 <h2> Java</h2>
 <h2> 求职面试</h2>
 <h2> 框架｜中间件</h2>
@@ -3114,7 +3468,7 @@
     <title type="text">网站访问太慢，不妨试试这些 CDN</title>
     <id>https://cunyu1943.github.io/tutorial/efficiency/20220729-cdn.html</id>
     <link href="https://cunyu1943.github.io/tutorial/efficiency/20220729-cdn.html"/>
-    <updated>2024-02-02T10:40:35.000Z</updated>
+    <updated>2024-02-04T14:40:43.000Z</updated>
     <summary type="html"><![CDATA[<h1> 网站访问太慢，不妨试试这些 CDN</h1>
 <div class="hint-container info">
 <p class="hint-container-title">相关信息</p>
@@ -3184,14 +3538,14 @@
 <h2> 总结</h2>
 <p>以上就是今天分享的所有内容了，如果你正好在开发你的个人网站，但是又苦于响应速度太慢，不妨去试试使用这些 CDN，看看会不会加速网站响应速度呢？</p>
 ]]></content>
-    <category term="开发工具"/>
+    <category term="效率工具"/>
     <published>2024-02-02T10:40:35.000Z</published>
   </entry>
   <entry>
     <title type="text">计算机专业涨薪必备的几个网站</title>
     <id>https://cunyu1943.github.io/tutorial/efficiency/20220731-exercise-websites.html</id>
     <link href="https://cunyu1943.github.io/tutorial/efficiency/20220731-exercise-websites.html"/>
-    <updated>2024-02-02T10:40:35.000Z</updated>
+    <updated>2024-02-04T14:40:43.000Z</updated>
     <summary type="html"><![CDATA[<h1> 计算机专业涨薪必备的几个网站</h1>
 <div class="hint-container info">
 <p class="hint-container-title">相关信息</p>
@@ -3283,14 +3637,14 @@
 <h2> 总结</h2>
 <p>以上就是我在日常冲浪中发现的几个刷题网站了，基本上是涵盖了学习和工作过程中的需求吧。而且针对不同需要可以选择不同的网站进去学习，如果你要考研学习，那么可以去看看 N 诺；如果你只是为了提升算法，那么 LeetCode 可能更适合你；而如果你要求职找工作，那么牛客网、赛码网等常见面试网站就可以多逛逛；而如果你是想找人工智能方面的面试题，那么不妨去七月在线瞅一眼。</p>
 ]]></content>
-    <category term="开发工具"/>
+    <category term="效率工具"/>
     <published>2024-02-02T10:40:35.000Z</published>
   </entry>
   <entry>
     <title type="text">黑客大神也常用的一些 CMD 命令</title>
     <id>https://cunyu1943.github.io/tutorial/efficiency/20221127-cmd.html</id>
     <link href="https://cunyu1943.github.io/tutorial/efficiency/20221127-cmd.html"/>
-    <updated>2024-02-02T10:40:35.000Z</updated>
+    <updated>2024-02-04T14:40:43.000Z</updated>
     <summary type="html"><![CDATA[<h1> 黑客大神也常用的一些 CMD 命令</h1>
 <div class="hint-container info">
 <p class="hint-container-title">相关信息</p>
@@ -3457,14 +3811,14 @@
 <p>以上就是今天所带来的 <code>Windows</code> 中常用的 <code>CMD</code> 命令了，对付日常使用完全够了，更多的一些命令用到的频率较低，可以在有需要的时候再去具体搜索。</p>
 <p>如果觉得对各位朋友有用的话，不妨点个赞再走呀 ~</p>
 ]]></content>
-    <category term="开发工具"/>
+    <category term="效率工具"/>
     <published>2024-02-02T10:40:35.000Z</published>
   </entry>
   <entry>
     <title type="text">如何在浏览器中安装插件</title>
     <id>https://cunyu1943.github.io/tutorial/efficiency/20230710-browser-plugin-install.html</id>
     <link href="https://cunyu1943.github.io/tutorial/efficiency/20230710-browser-plugin-install.html"/>
-    <updated>2024-02-02T10:40:35.000Z</updated>
+    <updated>2024-02-04T14:40:43.000Z</updated>
     <summary type="html"><![CDATA[<h1> 如何在浏览器中安装插件</h1>
 <div class="hint-container info">
 <p class="hint-container-title">相关信息</p>
@@ -3555,7 +3909,7 @@
 <p>以上就是在浏览器中安装插件的 3 种方式了，屏幕前的你是否学会了呢？</p>
 <p>如果看完了本篇文章，你还是无法成功安装插件，那么可以留言，或者添加我微信发送报错截图，我会在工作之余第一时间回复哦！</p>
 ]]></content>
-    <category term="开发工具"/>
+    <category term="效率工具"/>
     <published>2024-02-02T10:40:35.000Z</published>
   </entry>
   <entry>
@@ -20989,554 +21343,5 @@ x年12月:yy天（x为输入的任意年份，yy为当月天数）</p>
 ]]></content>
     <category term="Python3 编程实例"/>
     <published>2018-10-03T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">Python3 编程实例（6 - 10）</title>
-    <id>https://cunyu1943.github.io/program-language/python/instance/20181004-6-10.html</id>
-    <link href="https://cunyu1943.github.io/program-language/python/instance/20181004-6-10.html"/>
-    <updated>2024-02-02T10:39:17.000Z</updated>
-    <summary type="html"><![CDATA[<h1> Python3 编程实例（6 - 10）</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<h2> 实例 6</h2>
-<h3> 题目</h3>
-<p>输入一个整数 <code>n</code>，然后打印出斐波那契数列的第 <code>n</code>&nbsp;个值。</p>
-<h3> 分析</h3>
-<p>利用递归计算斐波那契数列，输入斐波那契数列的 <code>n</code> 位，调用递归计算出第 <code>n</code> 位的数列值。</p>]]></summary>
-    <content type="html"><![CDATA[<h1> Python3 编程实例（6 - 10）</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<h2> 实例 6</h2>
-<h3> 题目</h3>
-<p>输入一个整数 <code>n</code>，然后打印出斐波那契数列的第 <code>n</code>&nbsp;个值。</p>
-<h3> 分析</h3>
-<p>利用递归计算斐波那契数列，输入斐波那契数列的 <code>n</code> 位，调用递归计算出第 <code>n</code> 位的数列值。</p>
-<h3> 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 实例7</h2>
-<h3> 题目</h3>
-<p>将一个列表的数据复制到另一个列表中；</p>
-<h3> 分析</h3>
-<p>Python复制数据有三种方式：直接赋值、浅拷贝、深拷贝；</p>
-<h3> 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 结果</h3>
-<figure><figcaption></figcaption></figure>
-<h2> 实例8</h2>
-<h3> 题目</h3>
-<p>输出 9*9 乘法口诀表</p>
-<h3> 分析</h3>
-<p>两层循环，将乘法口诀表以左下三角格式打印出</p>
-<h3> 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 结果</h3>
-<figure><figcaption></figcaption></figure>
-<h2> 实例9</h2>
-<h3> 题目</h3>
-<p>暂停一秒输出；</p>
-<h3> 分析</h3>
-<p>调用<code>time</code>模块中的<code>sleep()</code>方法即可；</p>
-<h3> 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 结果</h3>
-<p>打印出结果时会有明显的停顿。</p>
-<figure><figcaption></figcaption></figure>
-<h2> 实例10</h2>
-<h3> 题目</h3>
-<p>暂停一秒输出，并格式化当前时间；</p>
-<h3> 分析</h3>
-<p>使用<code>time</code>模块的<code>strftime()</code>方法实现；</p>
-<h3> 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 结果</h3>
-<figure><figcaption></figcaption></figure>
-<h2> ⏳ 联系</h2>
-<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
-<p>扫一扫，探索另一个全新的世界。</p>
-<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-]]></content>
-    <category term="Python3 编程实例"/>
-    <published>2018-10-04T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">Python3 编程实例（11 - 15）</title>
-    <id>https://cunyu1943.github.io/program-language/python/instance/20181005-11-15.html</id>
-    <link href="https://cunyu1943.github.io/program-language/python/instance/20181005-11-15.html"/>
-    <updated>2024-02-02T10:39:17.000Z</updated>
-    <summary type="html"><![CDATA[<h1> Python3 编程实例（11 - 15）</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<h2> 实例11</h2>
-<h3> 题目</h3>
-<p>古典问题：有一对兔子，从出生后第3个月起每个月都生一对兔子，小兔子长到第三个月后每个月又生一对兔子，假如兔子都不死，问每个月的兔子总数为多少？</p>
-<h3> 分析</h3>
-<p>可通过定义一个函数，然后利用递归的思想将其实现；</p>
-<h3> 代码</h3>]]></summary>
-    <content type="html"><![CDATA[<h1> Python3 编程实例（11 - 15）</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<h2> 实例11</h2>
-<h3> 题目</h3>
-<p>古典问题：有一对兔子，从出生后第3个月起每个月都生一对兔子，小兔子长到第三个月后每个月又生一对兔子，假如兔子都不死，问每个月的兔子总数为多少？</p>
-<h3> 分析</h3>
-<p>可通过定义一个函数，然后利用递归的思想将其实现；</p>
-<h3> 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 结果</h3>
-<figure><figcaption></figcaption></figure>
-<h2> 实例12</h2>
-<h3> 题目</h3>
-<p>判断101-200之间有多少个素数，并输出所有素数；</p>
-<h3> 分析</h3>
-<p>先设置一个标志位默认为<code>False</code>，进入循环判断是否为素数，不为素数则置为<code>True</code>，然后将标志位为<code>False</code>的数输出则为所求素数；</p>
-<h3> 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 结果</h3>
-<figure><figcaption></figcaption></figure>
-<h2> 实例13</h2>
-<h3> 题目</h3>
-<p>打印出所有的"水仙花数"，所谓"水仙花数"是指一个三位数，其各位数字立方和等于该数本身</p>
-<h3> 分析</h3>
-<p>对100-1000之内的三位数进行循环，求出这些三位数各自个位、十位、百位上的数，然后将他们的立方和与这个三位数比较，若两者相等则说明这个三位数是水仙花数；</p>
-<h3> 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 结果</h3>
-<figure><figcaption></figcaption></figure>
-<h2> 实例14</h2>
-<h3> 题目</h3>
-<p>将一个正整数分解质因数；</p>
-<h3> 分析</h3>
-<ul>
-<li>若这个质数恰等于n，则说明分解质因数的过程结束，打印即可；</li>
-<li>若n!=k，但n能被k整除，则应打印出k的值，并用n除以k的商，作为新的正整数n，重复执行第一步；</li>
-<li>若n不能被k整除，则用k+1作为k的值,重复执行第一步；</li>
-</ul>
-<h3> 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 结果</h3>
-<figure><figcaption></figcaption></figure>
-<h2> 实例15</h2>
-<h3> 题目</h3>
-<p>利用条件运算符的嵌套来完成此题：学习成绩&gt;=90分的同学用A表示，60-89分之间的用B表示，60分以下的用C表示；</p>
-<h3> 分析</h3>
-<p>输入成绩，判断是否为数字，是数字则判定属于哪个等级，若不是数字怎根据代码设定返回重新输入成绩或者直接退出程序；</p>
-<h3> 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 结果</h3>
-<figure><figcaption></figcaption></figure>
-<h2> ⏳ 联系</h2>
-<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
-<p>扫一扫，探索另一个全新的世界。</p>
-<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-]]></content>
-    <category term="Python3 编程实例"/>
-    <published>2018-10-05T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">Python3 编程实例（16 - 20）</title>
-    <id>https://cunyu1943.github.io/program-language/python/instance/20181006-16-20.html</id>
-    <link href="https://cunyu1943.github.io/program-language/python/instance/20181006-16-20.html"/>
-    <updated>2024-02-02T10:39:17.000Z</updated>
-    <summary type="html"><![CDATA[<h1> Python3 编程实例（16 - 20）</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<h2> 实例16</h2>
-<h3> 题目</h3>
-<p>输出指定格式的日期；</p>
-<h3> 分析</h3>
-<p>没啥说的，直接调用 <code>datetime</code> 模块即可；</p>
-<h3> 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><pre class="language-python"><code><span class="token comment">#!/usr/bin/env python</span>
-<span class="token comment"># -*- coding: utf-8 -*-</span>
-<span class="token comment"># @Time    : 2019/3/5 22:47</span>
-<span class="token comment"># @Author  : cunyu</span>
-<span class="token comment"># @Site    : cunyu1943.github.io</span>
-<span class="token comment"># @File    : sixteen.py</span>
-<span class="token comment"># @Software: PyCharm</span>
-
-<span class="token keyword">import</span> datetime
-
-<span class="token keyword">if</span> __name__<span class="token operator">==</span><span class="token string">'__main__'</span><span class="token punctuation">:</span>
-	<span class="token comment"># 输出当前日期</span>
-	<span class="token keyword">print</span><span class="token punctuation">(</span>datetime<span class="token punctuation">.</span>date<span class="token punctuation">.</span>today<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
-
-	<span class="token comment"># 创建日期对象</span>
-	Z_Birth <span class="token operator">=</span> datetime<span class="token punctuation">.</span>date<span class="token punctuation">(</span><span class="token number">1994</span><span class="token punctuation">,</span><span class="token number">11</span><span class="token punctuation">,</span><span class="token number">12</span><span class="token punctuation">)</span>
-	<span class="token keyword">print</span><span class="token punctuation">(</span>Z_Birth<span class="token punctuation">)</span>
-
-	<span class="token comment"># 指定格式输出</span>
-	<span class="token keyword">print</span><span class="token punctuation">(</span>Z_Birth<span class="token punctuation">.</span>strftime<span class="token punctuation">(</span><span class="token string">'%m/%d/%Y'</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
-
-	<span class="token comment"># 日期替换</span>
-	Z_Birth <span class="token operator">=</span> Z_Birth<span class="token punctuation">.</span>replace<span class="token punctuation">(</span>year<span class="token operator">=</span>Z_Birth<span class="token punctuation">.</span>year<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">)</span>
-	<span class="token keyword">print</span><span class="token punctuation">(</span>Z_Birth<span class="token punctuation">)</span>
-
-	<span class="token comment"># 日期运算</span>
-	Next_Z_Birth <span class="token operator">=</span> Z_Birth <span class="token operator">+</span> datetime<span class="token punctuation">.</span>timedelta<span class="token punctuation">(</span>days<span class="token operator">=</span><span class="token number">366</span><span class="token punctuation">)</span>
-	<span class="token keyword">print</span><span class="token punctuation">(</span>Next_Z_Birth<span class="token punctuation">)</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></summary>
-    <content type="html"><![CDATA[<h1> Python3 编程实例（16 - 20）</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<h2> 实例16</h2>
-<h3> 题目</h3>
-<p>输出指定格式的日期；</p>
-<h3> 分析</h3>
-<p>没啥说的，直接调用 <code>datetime</code> 模块即可；</p>
-<h3> 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 结果</h3>
-<figure><figcaption></figcaption></figure>
-<h2> 实例17</h2>
-<h3> 题目</h3>
-<p>输入一行字符，分别统计出其中英文字母、空格、数字和其它字符的个数；</p>
-<h3> 分析</h3>
-<p>遍历字符串，然后统计其中是否为对应种类即可；</p>
-<h3> 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 结果</h3>
-<figure><figcaption></figcaption></figure>
-<h2> 实例18</h2>
-<h3> 题目</h3>
-<p>求 s=a+aa+aaa+aaaa+aa...a 的值，其中a是一个数字。例如 2+22+222+2222+22222 (此时共有 5 个数相加)，几个数相加由键盘控制；</p>
-<h3> 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 结果</h3>
-<figure><figcaption></figcaption></figure>
-<h2> 实例19</h2>
-<h3> 题目</h3>
-<p>一个数如果恰好等于它的因子之和，这个数就称为"完数"。例如6=1＋2＋3.编程找出1000以内的所有完数；</p>
-<h3> 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 结果</h3>
-<figure><figcaption></figcaption></figure>
-<h2> 实例20</h2>
-<h3> 题目</h3>
-<p>一球从100米高度自由落下，每次落地后反跳回原高度的一半；再落下，求它在第10次落地时，共经过多少米？第10次反弹多高？</p>
-<h3> 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 结果</h3>
-<figure><figcaption></figcaption></figure>
-<h2> ⏳ 联系</h2>
-<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
-<p>扫一扫，探索另一个全新的世界。</p>
-<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-]]></content>
-    <category term="Python3 编程实例"/>
-    <published>2018-10-06T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">Python3 编程实例（21 - 25）</title>
-    <id>https://cunyu1943.github.io/program-language/python/instance/20181007-21-25.html</id>
-    <link href="https://cunyu1943.github.io/program-language/python/instance/20181007-21-25.html"/>
-    <updated>2024-02-02T10:39:17.000Z</updated>
-    <summary type="html"><![CDATA[<h1> Python3 编程实例（21 - 25）</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<h2> 实例 21</h2>
-<h3> 题目</h3>
-<p>猴子吃桃问题：猴子第一天摘下若干个桃子，当即吃了一半，还不瘾，又多吃了一个第二天早上又将剩下的桃子吃掉一半，又多吃了一个。以后每天早上都吃了前一天剩下的一半零一个。到第 10 天早上想再吃时，见只剩下一个桃子了。求第一天共摘了多少。</p>
-<h3> 分析</h3>]]></summary>
-    <content type="html"><![CDATA[<h1> Python3 编程实例（21 - 25）</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<h2> 实例 21</h2>
-<h3> 题目</h3>
-<p>猴子吃桃问题：猴子第一天摘下若干个桃子，当即吃了一半，还不瘾，又多吃了一个第二天早上又将剩下的桃子吃掉一半，又多吃了一个。以后每天早上都吃了前一天剩下的一半零一个。到第 10 天早上想再吃时，见只剩下一个桃子了。求第一天共摘了多少。</p>
-<h3> 分析</h3>
-<p>采取逆向思维的方法，从后往前推断。</p>
-<h3> 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 结果</h3>
-<figure><figcaption></figcaption></figure>
-<h2> 实例 22</h2>
-<h3> 题目</h3>
-<p>两个乒乓球队进行比赛，各出三人。甲队为 a,b,c 三人，乙队为 x,y,z 三人。已抽签决定比赛名单。有人向队员打听比赛的名单。a 说他不和 x 比，c 说他不和 x,z 比，请编程序找出三队赛手的名单。</p>
-<h3> 分析</h3>
-<p>三层循环，然后再加判断即可；</p>
-<h3> 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 结果</h3>
-<figure><figcaption></figcaption></figure>
-<h2> 实例 23</h2>
-<h3> 题目</h3>
-<p>打印出如下图案（菱形）:</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 分析</h3>
-<p>先把图形分成两部分来看待，前四行一个规律，后三行一个规律，利用双重 for 循环，第一层控制行，第二层控制列。</p>
-<h3> 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 结果</h3>
-<figure><figcaption></figcaption></figure>
-<h2> 实例 24</h2>
-<h3> 题目</h3>
-<p>有一分数序列：2/1，3/2，5/3，8/5，13/8，21/13...求出这个数列的前20项之和。</p>
-<h3> 分析</h3>
-<p>仔细观察数列的分子分母，可以看到，当前分数的分子等于上一个分数的分子分母之和，而当前分数的分母就等于上一个分数的分子；</p>
-<h3> 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 结果</h3>
-<figure><figcaption></figcaption></figure>
-<h2> 实例 25</h2>
-<h3> 题目</h3>
-<p>求 1+2!+3!+...+20! 的和。</p>
-<h3> 分析</h3>
-<p>和累加比较类似，先计算累乘，然后相加即可；</p>
-<h3> 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 结果</h3>
-<figure><figcaption></figcaption></figure>
-<h2> ⏳ 联系</h2>
-<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
-<p>扫一扫，探索另一个全新的世界。</p>
-<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-]]></content>
-    <category term="Python3 编程实例"/>
-    <published>2018-10-07T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">Python3 编程实例（26 - 30）</title>
-    <id>https://cunyu1943.github.io/program-language/python/instance/20181008-26-30.html</id>
-    <link href="https://cunyu1943.github.io/program-language/python/instance/20181008-26-30.html"/>
-    <updated>2024-02-02T10:39:17.000Z</updated>
-    <summary type="html"><![CDATA[<h1> Python3 编程实例（26 - 30）</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<h2> 实例 26</h2>
-<h3> 题目</h3>
-<p>利用递归方法求 5!。</p>
-<h3> 分析</h3>
-<p>递归公式：$f(n) = f(n - 1) * n$；</p>
-<h3> 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><pre class="language-python"><code><span class="token comment">#!/usr/bin/env python</span>
-<span class="token comment"># -*- coding: utf-8 -*-</span>
-<span class="token comment"># @version : 1.0</span>
-<span class="token comment"># @Time    : 2021/4/10 10:07</span>
-<span class="token comment"># @Author  : cunyu</span>
-<span class="token comment"># @Email   : 747731461@qq.com</span>
-<span class="token comment"># @Site    : https://cunyu1943.site</span>
-<span class="token comment"># 公众号    : 村雨遥</span>
-<span class="token comment"># @File    : 26.py</span>
-<span class="token comment"># @Software: PyCharm</span>
-<span class="token comment"># @Desc    : 练习实例26</span>
-
-<span class="token keyword">def</span> <span class="token function">fact</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span><span class="token punctuation">:</span>
-    <span class="token keyword">if</span> num <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">:</span>
-        <span class="token keyword">return</span> <span class="token number">1</span>
-    <span class="token keyword">else</span><span class="token punctuation">:</span>
-        <span class="token keyword">return</span> fact<span class="token punctuation">(</span>num <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token operator">*</span> num
-
-
-<span class="token keyword">if</span> __name__ <span class="token operator">==</span> <span class="token string">'__main__'</span><span class="token punctuation">:</span>
-    <span class="token keyword">print</span><span class="token punctuation">(</span>fact<span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
-
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></summary>
-    <content type="html"><![CDATA[<h1> Python3 编程实例（26 - 30）</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<h2> 实例 26</h2>
-<h3> 题目</h3>
-<p>利用递归方法求 5!。</p>
-<h3> 分析</h3>
-<p>递归公式：$f(n) = f(n - 1) * n$；</p>
-<h3> 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 结果</h3>
-<figure><figcaption></figcaption></figure>
-<h2> 实例 27</h2>
-<h3> 题目</h3>
-<p>利用递归函数调用方式，将所输入的 5 个字符，以相反顺序打印出来。</p>
-<h3> 分析</h3>
-<p>注意边界条件（即字符串长度为 0 时）；</p>
-<h3> 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 结果</h3>
-<figure><figcaption></figcaption></figure>
-<h2> 实例 28</h2>
-<h3> 题目</h3>
-<p>有5个人坐在一起，问第五个人多少岁？他说比第4个人大2岁。问第4个人岁数，他说比第3个人大2岁。问第三个人，又说比第2人大两岁。问第2个人，说比第一个人大两岁。最后问第一个人，他说是10岁。请问第五个人多大？</p>
-<h3> 分析</h3>
-<p>利用递归的方法，递归分为回推和递推两个阶段。要想知道第五个人岁数，需知道第四人的岁数，依次类推，推到第一人（10岁），再往回推。</p>
-<h3> 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 结果</h3>
-<figure><figcaption></figcaption></figure>
-<h2> 实例 29</h2>
-<h3> 题目</h3>
-<p>给一个不多于5位的正整数，要求：一、求它是几位数，二、逆序打印出各位数字。</p>
-<h3> 分析</h3>
-<p>重点在于如何将这个正整数分解，然后再逆序打印即可；</p>
-<h3> 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 结果</h3>
-<figure><figcaption></figcaption></figure>
-<h2> 实例 30</h2>
-<h3> 题目</h3>
-<p>一个 5 位数，判断它是不是回文数。即 12321 是回文数，个位与万位相同，十位与千位相同。</p>
-<h3> 分析</h3>
-<p>和上一个例子一样，重点在于分解该整数，然后再判断个位和万位，十位和千位是否相同；</p>
-<h3> 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 结果</h3>
-<figure><figcaption></figcaption></figure>
-<h2> ⏳ 联系</h2>
-<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
-<p>扫一扫，探索另一个全新的世界。</p>
-<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-]]></content>
-    <category term="Python3 编程实例"/>
-    <published>2018-10-08T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">Python3 编程实例（31 - 35）</title>
-    <id>https://cunyu1943.github.io/program-language/python/instance/20181009-31-35.html</id>
-    <link href="https://cunyu1943.github.io/program-language/python/instance/20181009-31-35.html"/>
-    <updated>2024-02-02T10:39:17.000Z</updated>
-    <summary type="html"><![CDATA[<h1> Python3 编程实例（31 - 35）</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<h2> 实例 31</h2>
-<h3> 题目</h3>
-<p>请输入星期几的第一个字母来判断一下是星期几，如果第一个字母一样，则继续判断第二个字母。</p>
-<h3> 分析</h3>
-<p>用 <code>switch</code> 语句比较好，如果第一个字母一样，则判断用 <code>switch</code> 语句或 <code>if</code> 语句判断第二个字母。</p>]]></summary>
-    <content type="html"><![CDATA[<h1> Python3 编程实例（31 - 35）</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<h2> 实例 31</h2>
-<h3> 题目</h3>
-<p>请输入星期几的第一个字母来判断一下是星期几，如果第一个字母一样，则继续判断第二个字母。</p>
-<h3> 分析</h3>
-<p>用 <code>switch</code> 语句比较好，如果第一个字母一样，则判断用 <code>switch</code> 语句或 <code>if</code> 语句判断第二个字母。</p>
-<h3> 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 结果</h3>
-<figure><figcaption></figcaption></figure>
-<h2> 实例 32</h2>
-<h3> 题目</h3>
-<p>按相反的顺序输出列表的值。</p>
-<h3> 分析</h3>
-<p>考察Python 中对列表的操作。</p>
-<h3> 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 结果</h3>
-<figure><figcaption></figcaption></figure>
-<h2> 实例 33</h2>
-<h3> 题目</h3>
-<p>按逗号分隔列表。</p>
-<h3> 分析</h3>
-<p>利用 <code>join</code> 函数连接。</p>
-<h3> 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 结果</h3>
-<figure><figcaption></figcaption></figure>
-<h2> 实例 34</h2>
-<h3> 题目</h3>
-<p>练习函数调用。</p>
-<h3> 分析</h3>
-<p>使用函数，输出三次字符串。</p>
-<h3> 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 结果</h3>
-<figure><figcaption></figcaption></figure>
-<h2> 实例 35</h2>
-<h3> 题目</h3>
-<p>文本颜色设置。</p>
-<h3> 分析</h3>
-<p>终端的字符颜色通过转义序列控制，常见显示颜色的参数如下：</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">显示方式</th>
-<th style="text-align:left">效果</th>
-<th style="text-align:left">前景色</th>
-<th style="text-align:left">背景色</th>
-<th style="text-align:left">颜色描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">0</td>
-<td style="text-align:left">终端默认设置</td>
-<td style="text-align:left">30</td>
-<td style="text-align:left">40</td>
-<td style="text-align:left">黑色</td>
-</tr>
-<tr>
-<td style="text-align:left">1</td>
-<td style="text-align:left">高亮显示</td>
-<td style="text-align:left">31</td>
-<td style="text-align:left">41</td>
-<td style="text-align:left">红色</td>
-</tr>
-<tr>
-<td style="text-align:left">4</td>
-<td style="text-align:left">使用下划线</td>
-<td style="text-align:left">32</td>
-<td style="text-align:left">42</td>
-<td style="text-align:left">绿色</td>
-</tr>
-<tr>
-<td style="text-align:left">5</td>
-<td style="text-align:left">闪烁</td>
-<td style="text-align:left">33</td>
-<td style="text-align:left">43</td>
-<td style="text-align:left">黄色</td>
-</tr>
-<tr>
-<td style="text-align:left">7</td>
-<td style="text-align:left">反白显示</td>
-<td style="text-align:left">34</td>
-<td style="text-align:left">44</td>
-<td style="text-align:left">蓝色</td>
-</tr>
-<tr>
-<td style="text-align:left">8</td>
-<td style="text-align:left">不可见</td>
-<td style="text-align:left">35</td>
-<td style="text-align:left">45</td>
-<td style="text-align:left">紫红色</td>
-</tr>
-<tr>
-<td style="text-align:left">22</td>
-<td style="text-align:left">非高亮显示</td>
-<td style="text-align:left">36</td>
-<td style="text-align:left">46</td>
-<td style="text-align:left">青蓝色</td>
-</tr>
-<tr>
-<td style="text-align:left">24</td>
-<td style="text-align:left">去下划线</td>
-<td style="text-align:left">37</td>
-<td style="text-align:left">47</td>
-<td style="text-align:left">白色</td>
-</tr>
-<tr>
-<td style="text-align:left">25</td>
-<td style="text-align:left">去闪烁</td>
-<td style="text-align:left"></td>
-<td style="text-align:left"></td>
-<td style="text-align:left"></td>
-</tr>
-<tr>
-<td style="text-align:left">27</td>
-<td style="text-align:left">非反白显示</td>
-<td style="text-align:left"></td>
-<td style="text-align:left"></td>
-<td style="text-align:left"></td>
-</tr>
-<tr>
-<td style="text-align:left">28</td>
-<td style="text-align:left">可见</td>
-<td style="text-align:left"></td>
-<td style="text-align:left"></td>
-<td style="text-align:left"></td>
-</tr>
-</tbody>
-</table>
-<h3> 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 结果</h3>
-<figure><figcaption></figcaption></figure>
-<h2> ⏳ 联系</h2>
-<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
-<p>扫一扫，探索另一个全新的世界。</p>
-<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-]]></content>
-    <category term="Python3 编程实例"/>
-    <published>2018-10-09T00:00:00.000Z</published>
   </entry>
 </feed>
