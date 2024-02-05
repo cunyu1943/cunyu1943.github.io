@@ -6,13 +6,14 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 05 Feb 2024 00:09:49 GMT</pubDate>
-    <lastBuildDate>Mon, 05 Feb 2024 00:09:49 GMT</lastBuildDate>
+    <pubDate>Mon, 05 Feb 2024 10:27:18 GMT</pubDate>
+    <lastBuildDate>Mon, 05 Feb 2024 10:27:18 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>博客搭建</category>
+    <category>Vue 3 系列</category>
     <category>Redis 教程</category>
     <category>效率工具</category>
-    <category>Vue 3 系列</category>
     <category>关于</category>
     <category>Nginx 教程</category>
     <category>求职面试</category>
@@ -22,11 +23,236 @@
     <category>MySQL 教程</category>
     <category>C 语言教程</category>
     <category>C++ 系列</category>
-    <category>博客搭建</category>
     <category>IDEA 教程</category>
     <category>软件设计师</category>
     <category>Java 入门练习</category>
-    <category>Python3 编程实例</category>
+    <item>
+      <title>dumi 搭建文档型博客</title>
+      <link>https://cunyu1943.github.io/tutorial/blog/20220610-dumi.html</link>
+      <guid>https://cunyu1943.github.io/tutorial/blog/20220610-dumi.html</guid>
+      <source url="https://cunyu1943.github.io/rss.xml">dumi 搭建文档型博客</source>
+      <description>dumi 搭建文档型博客 前言 之前已经讲过如何利用网上各种开源的框架来搭建自己的博客，比如 docsify、Hexo、VuePress、Halo 等。前三者可以直接搭配 Github 就能免费得到一个专属自己的博客，而 Halo 可能需要自己有服务器，然后将服务部署在自己的服务器里。 最近在网上冲浪的时候，又发现了一款文档工具，那就是 dumi。从中文拼音来发音，就是 嘟米。这是一款为组件开发场景而是的文档工具，和 father 组成一条龙服务。father 负责构建，dumi 则负责组件开发以及组件文档的生成，一起为开发者提供了一站式的组件开发体验。</description>
+      <category>博客搭建</category>
+      <pubDate>Mon, 05 Feb 2024 10:25:17 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> dumi 搭建文档型博客</h1>
+<h2> 前言</h2>
+<p>之前已经讲过如何利用网上各种开源的框架来搭建自己的博客，比如 <code>docsify</code>、<code>Hexo</code>、<code>VuePress</code>、<code>Halo</code> 等。前三者可以直接搭配 <code>Github</code> 就能免费得到一个专属自己的博客，而 <code>Halo</code> 可能需要自己有服务器，然后将服务部署在自己的服务器里。</p>
+<p>最近在网上冲浪的时候，又发现了一款文档工具，那就是 <code>dumi</code>。从中文拼音来发音，就是 <strong>嘟米</strong>。这是一款为组件开发场景而是的文档工具，和 <code>father</code> 组成一条龙服务。<code>father</code> 负责构建，<code>dumi</code> 则负责组件开发以及组件文档的生成，一起为开发者提供了一站式的组件开发体验。</p>
+<p>今天就一起来看看，如何利用 <code>dumi</code> 搭建自己的文档型网站。</p>
+<h2> dumi 特性</h2>
+<p>既然要用 <code>dumi</code>，那首先就来看看它的一些特性，可以总结如下：</p>
+<ul>
+<li>开箱即用，我们只需要将注意力集中在组件开发和文档编写即可。</li>
+<li>丰富的 <code>Markdown</code> 扩展，不止于渲染组件 <code>demo</code>。</li>
+<li>基于 <code>TypeScript</code> 类型定义，能够自动生成组件 <code>API</code>。</li>
+<li>支持自定义主题，还能创建专属的 <code>Markdown</code> 组件。</li>
+<li>支持移动端组件库，内置移动端搞钱渲染方案。</li>
+<li>一行命令搞定组件资产数据化，串联下游生产力工具。</li>
+</ul>
+<h2> 搭建过程</h2>
+<h3> 首要准备</h3>
+<p>既然都说了 <code>dumi</code> 是基于 <code>TypeScript</code> 类型定义，那怎么离得开 <code>Node.js</code> 呢？所以，在正式搭建过程开始前，你得保证你的电脑上安装了 <code>Node.js</code>，而且还得确保它的版本不低于 <code>10.13</code>。</p>
+<p>如果你已经装过了 <code>Node.js</code>，但是不确定其版本，那么使用以下命令来查看。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<h3> 脚手架初始化</h3>
+<p><code>dumi</code> 支持两种初始化脚手架的方式，一种是组件开发脚手架，另一种则是静态站点脚手架，这里主要介绍如何使用组件开发脚手架。</p>
+<p>组件开发脚手架不仅包含了 <code>dumi</code> 和基础的文档，还包含了一个简单的组件、<code>umi-test</code> 和 <code>father-build</code>， 能够轻松实现组件开发、文档编写、测试用例编写、组件打包的全流程。</p>
+<p>在本地新建一个空文件夹，方便管理脚手架，然后在初始化一个文档模式的组件库开发脚手架。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<p>初始化完成之后，执行以下命令，然后在浏览器其中打开 <code>http://localhost:8080</code> 就可以进行预览了。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+<h3> 编写文档</h3>
+<p>查看我们的项目目录，可以发现 <code>docs</code> 文件，这里就是我们编写文档的地方。项目初始化时，默认只有 <code>index.md</code> 也就是上面我们访问 <code>http://localhost:8080</code> 页面中所称呈现的内容。</p>
+<figure><figcaption></figcaption></figure>
+<p>接着我们在 <code>docs</code> 目录下新增修改 <code>Markdown</code> 文档，它就会帮我们自动渲染到前端页面中。</p>
+<figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+<h2> 总结</h2>
+<p>以上就是利用 <code>dumi</code> 搭建文档型网站的具体过程了。当然，除了作为博客之外，我们还可以利用它来进行前端组件化开发，不断给你的网站添加新功能！</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Hugo + Github Pages 博客搭建教程</title>
+      <link>https://cunyu1943.github.io/tutorial/blog/20220611-hugo.html</link>
+      <guid>https://cunyu1943.github.io/tutorial/blog/20220611-hugo.html</guid>
+      <source url="https://cunyu1943.github.io/rss.xml">Hugo + Github Pages 博客搭建教程</source>
+      <description>Hugo + Github Pages 博客搭建教程 前言 有了利用 Hexo、docsify、vuepress 等框架来搭建博客的经历之后，我们来今天又来看看 Hugo。Hugo 是一款基于 Go 语言而实现的静态网站生成器，具有简单易用、高效易扩展、快速部署的特点。 这里先给出 Hugo 的中英文官方文档，方便大家遇到问题时查阅： Hugo 中文文档 Hugo 英文文档</description>
+      <category>博客搭建</category>
+      <pubDate>Mon, 05 Feb 2024 10:25:17 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> Hugo + Github Pages 博客搭建教程</h1>
+<h2> 前言</h2>
+<p>有了利用 <code>Hexo</code>、<code>docsify</code>、<code>vuepress</code> 等框架来搭建博客的经历之后，我们来今天又来看看 <code>Hugo</code>。<code>Hugo</code> 是一款基于 <code>Go</code> 语言而实现的静态网站生成器，具有简单易用、高效易扩展、快速部署的特点。</p>
+<p>这里先给出 <code>Hugo</code> 的中英文官方文档，方便大家遇到问题时查阅：</p>
+<ol>
+<li><a href="https://www.gohugo.org/" target="_blank" rel="noopener noreferrer"><code>Hugo</code> 中文文档</a></li>
+<li><a href="https://gohugo.io/documentation/" target="_blank" rel="noopener noreferrer"><code>Hugo</code> 英文文档</a></li>
+</ol>
+<p>接下来就来看看，如何利用 <code>Hugo</code> 来搭建一个博客。</p>
+<h2> 搭建过程</h2>
+<h3> 安装 Hugo</h3>
+<p>既然要使用 <code>Hugo</code>，那么首先需要对它进行安装。如果要通过二进制安装包的方式进行安装，那么首先需要到这里去进行选择适合自己平台的安装包，然后下载它。</p>
+<blockquote>
+<p><a href="https://github.com/gohugoio/hugo/releases" target="_blank" rel="noopener noreferrer">下载链接</a></p>
+</blockquote>
+<p>这里不仅有适合 <code>Windows</code> 平台的安装包，还包括了 <code>Linux</code> 平台和 <code>macOS</code> 平台的安装包。不仅如此，针对不同用户，还细心地提供了 <code>32</code> 位和 <code>64</code> 位来供选择。更甚至针对不同架构的芯片也提供了相应的安装包，可以说是十分细心了。</p>
+<figure><figcaption></figcaption></figure>
+<p>不过这里我演示主要是基于 <code>macOS</code> 平台，所以我就不通过安装包的形式来进行安装了，这里通过 <code>homebrew</code> 一行命令就能够轻松搞定。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<p>如果你的 <code>macOS</code> 上还没有安装 <code>homebrew</code>，那么先抓紧去安装下吧。</p>
+<p>这里温馨提示下，国内用户依照 <code>homebrew</code> 官网的方式来进行安装基本上都是会失败的，所以这里给大家推荐另一种安装方式，通过以下脚本进行安装即可。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<h3> 检查是否成功</h3>
+<p>虽然通过上述的命令安装后，控制台是提示我们安装成功了，但我们心里没谱呀，就想看看到低安装成功了没。那这个时候就可以通过查看 <code>Hugo</code> 版本号的方式，来却 <code>Hugo</code> 是否安装成功。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<p>如果安装成功了，那么执行命令后就会像我们上面那样，提示你所安装的 <code>Hugo</code> 的版本。</p>
+<h3> 初始化网站</h3>
+<p>既然安装好了，接下来就是初始化我们的网站目录了。通过以下命令，我们就能够完成 <code>Hugo</code> 项目的初始化了！</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<p>项目初始化后，得到的目录如下。</p>
+<figure><figcaption></figcaption></figure>
+<p>这里主要需要需要注意 <code>config.toml</code> ，这是项目的配置文件，主要用于配置 <code>Hugo</code>，该文件中的配置会对整个工程有效。<code>theme</code> 目录下主要用于放置主题，里边一般还会有一个 <code>theme.toml</code>，用于配置主题。</p>
+<p>默认情况下，<code>config.toml</code> 里边只会有以下三个配置。</p>
+<figure><figcaption></figcaption></figure>
+<h3> 设置主题</h3>
+<p>为了给我们的网站设置样式，我们需要去选择一个喜欢的主题。<code>Hugo</code> 虽然不像 <code>Hexo</code> 提供了较多的主题，但是也还是有很多不错的，大家可以去皮肤列表找。</p>
+<blockquote>
+<p><a href="https://themes.gohugo.io/" target="_blank" rel="noopener noreferrer">皮肤列表</a></p>
+</blockquote>
+<p>这里我选择了一个皮肤 <a href="https://themes.gohugo.io/themes/hugo-theme-m10c/" target="_blank" rel="noopener noreferrer"><code>m10c</code></a>，进入我们初始化的项目，然后利用如下命令将主题下载到 <code>theme</code> 文件夹下。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<p>接着到项目配置文件 <code>config.toml</code> 中，设置主题。</p>
+<div class="language-toml line-numbers-mode" data-ext="toml"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<h3> 预览</h3>
+<p>设置好主题之后，就可以进行预览了！使用如下命令启动 <code>Hugo</code> 服务器，然后进入 <code>http://localhost:1313</code> 就可以进行预览了！</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<h2> 总结</h2>
+<p>以上就是如何利用 <code>Hugo</code> 搭建一个博客了，主要从 <code>Hugo</code> 安装、初始化项目、主题设置、预览等几个方面介绍了 <code>Hugo</code> 的使用，剩下的就是写作了。这是件很难的事，希望大家能一直坚持下去。其实 <code>Hugo</code> 里边还有好多玩法，这里就不做一一介绍了，大家可以去官网探索更多玩法。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Vue 3 简介及入门实例</title>
+      <link>https://cunyu1943.github.io/java-tutorial/front-end/vue3/20220605-intro.html</link>
+      <guid>https://cunyu1943.github.io/java-tutorial/front-end/vue3/20220605-intro.html</guid>
+      <source url="https://cunyu1943.github.io/rss.xml">Vue 3 简介及入门实例</source>
+      <description>Vue 3 简介及入门实例 前言 之前已经学习过来 HTML、 CSS 以及 JavaScript 的相关知识，也算是基本了解了关于这前端三件套的一些基本用法。今天就来了解下，当前前端开发中最炙手可热的当红辣子鸡 - Vue。本文主要介绍 Vue 的一些入门知识和最经典的 Vue 入门 Hello World 程序，如果你想了解的是更高级的使用技巧，那么完全可以忽略。</description>
+      <category>Vue 3 系列</category>
+      <pubDate>Mon, 05 Feb 2024 10:25:17 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> Vue 3 简介及入门实例</h1>
+<h2> 前言</h2>
+<p>之前已经学习过来 <code>HTML</code>、 <code>CSS</code> 以及 <code>JavaScript</code> 的相关知识，也算是基本了解了关于这前端三件套的一些基本用法。今天就来了解下，当前前端开发中最炙手可热的当红辣子鸡 - <code>Vue</code>。本文主要介绍 <code>Vue</code> 的一些入门知识和最经典的 <code>Vue</code> 入门 <code>Hello World</code> 程序，如果你想了解的是更高级的使用技巧，那么完全可以忽略。</p>
+<h2> Vue 简介</h2>
+<h3> Vue 是什么</h3>
+<p><code>Vue</code>  是一套用于构建用户界面的 <strong>渐进式框架</strong>，不同于其他框架， <code>Vue</code>  被设计为可以自底向上逐层应用，核心库只关注视图层，具有易上手，与第三方库整合方便等优点。此外， <code>Vue</code>  还支持多种现代化的工具链以及类库，使得它能够为复杂的单页应用提供驱动。</p>
+<h3> Vue 的特点</h3>
+<ol>
+<li>采用组件化模式，从而提高了代码复用率，更容易维护。</li>
+<li>声明式编码，程序员无需直接操作 <code>DOM</code> ，从而提高开发效率。</li>
+<li>利用虚拟 <code>DOM</code>  + 优秀 <code>Diff</code>  算法，最大化复用 <code>DOM</code> 节点。</li>
+</ol>
+<h3> Vue 的安装</h3>
+<p>Vue 的安装主要有两种方式，一种是通过在文件中直接用 <code>&lt;script&gt;</code> 标签引入的方式，另一种则是则是使用 <code>npm</code> 的方式，接下来我们就来看看两种方式是如何进行安装的。</p>
+<p><strong>标签引入的方式</strong></p>
+<p>假设我们创建了一个 HTML 文件，那么我们此时只需要引入其中以下两个版本中其中一个就可以了。而两者的区别顾名思义，所谓开发环境版本，就是我们日常开发学习所使用的版本，它包含了完整的警告和提示模式，方便我们定位错误，提高我们的开发效率。而生产环境版本，则是对开发环境进行了精简，剔除了其中的警告，尽可能优化了尺寸和速度，针对上线生产所用，有助于生产环境效率的提升。针对生产环境版本，更加推荐大家链接到一个明确的版本号和构建文件，从而避免新版本对老版本中特性造成破坏，影响用户体验。</p>
+<ul>
+<li>开发环境版本</li>
+</ul>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ul>
+<li>生产环境版本</li>
+</ul>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ol start="2">
+<li><strong>npm 安装</strong></li>
+</ol>
+<p>以上的两种方式更适合于我们日常学习和小型应用开发，而如果我们要使用 Vue 构建大型应用时，官方更加推荐我们使用 NPM 进行安装，它能够更好的配合类似 <code>webpack</code> 、 <code>Rollup</code> 等打包器的使用，而且 Vue 也提供了配套的工具来进行单文件组件的开发，而安装的方式也很简单，只要我们的电脑上安装了 Node.js，那我们就可以通过命令行来进行最新稳定版 Vue 的安装了，安装的命令如下。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<h2> Vue 入门实例</h2>
+<p>首先，我们创建一个 <code>.html</code> 文件，用于交互。</p>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>接着我们引入 <code>Vue3</code> 的相关包，这里引入的方式和之前 <code>JavaScript</code> 中介绍的引入的方式一样，直接在 <code>head</code> 部分进行引入即可。</p>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>然后就是在 <code>body</code> 标签中添加模板用于将数据渲染到 <code>DOM</code> 的系统。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>最后得到我们的完整文件如下。</p>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>将文件用浏览器打开，在页面中应该就会显示如下信息了。</p>
+<figure><figcaption></figcaption></figure>
+<p>以上就是一个最简单的 <code>Vue</code> 入门小案例，如何在网页中打印 <code>Hello World！</code> 。虽然看起来十分简单，和我们用 <code>HTML</code> 中的字符串模板来实现相同的效果也十分类似，但实际上 <code>Vue</code> 在背后做了许多我们看不见的工作。</p>
+<h2> 总结</h2>
+<p>以上就是今天的所有内容了，主要从两个方面着手，一方面从 <code>Vue</code> 的定义、特点、安装来对 <code>Vue</code> 进行了介绍，另一方面则用一个最简单经典的 <code>Hello World！</code>  入门小案例来向大家简单介绍下 <code>Vue</code> 的使用方式。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>搭建 Vue + Vite 入门项目</title>
+      <link>https://cunyu1943.github.io/java-tutorial/front-end/vue3/20220606-vite-quickstart.html</link>
+      <guid>https://cunyu1943.github.io/java-tutorial/front-end/vue3/20220606-vite-quickstart.html</guid>
+      <source url="https://cunyu1943.github.io/rss.xml">搭建 Vue + Vite 入门项目</source>
+      <description>搭建 Vue + Vite 入门项目 前言 虽然市面上有很多的打包工具，例如 webpack、Rollup 以及 Parcel 等。毫无疑问，通过使用这些工具，在很大程度上改善了前端开发者的游戏体验。 但随着业务变得越来越复杂，我们不得构建比之前更大型的应用。此时，所需要处理的代码量也越来越大。这时候，上面提到的打包工具就开始遇到性能瓶颈，我们可能需要很长的时间才能启动开发服务器，这样一来，开发效率就变得越来越低。 针对这一现状，大佬们又构建了一个打包工具 ，也就是今天文章的主角 - Vite。Vite 旨在利用生态系统中的新进展来解决上面的问题，通过将应用中的 依赖 和 源码 相分开，从而缩减开发服务器的启动时间。</description>
+      <category>Vue 3 系列</category>
+      <pubDate>Mon, 05 Feb 2024 10:25:17 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 搭建 Vue + Vite 入门项目</h1>
+<h2> 前言</h2>
+<p>虽然市面上有很多的打包工具，例如 <code>webpack</code>、<code>Rollup</code> 以及 <code>Parcel</code> 等。毫无疑问，通过使用这些工具，在很大程度上改善了前端开发者的游戏体验。
+但随着业务变得越来越复杂，我们不得构建比之前更大型的应用。此时，所需要处理的代码量也越来越大。这时候，上面提到的打包工具就开始遇到性能瓶颈，我们可能需要很长的时间才能启动开发服务器，这样一来，开发效率就变得越来越低。
+针对这一现状，大佬们又构建了一个打包工具 ，也就是今天文章的主角 - <code>Vite</code>。<code>Vite</code> 旨在利用生态系统中的新进展来解决上面的问题，通过将应用中的 <strong>依赖</strong> 和 <strong>源码</strong> 相分开，从而缩减开发服务器的启动时间。</p>
+<h2> webpack、Rollup、Vite 的区别</h2>
+<p>由于自己更多的是和后端打交道，所以这里对三者的区别介绍仅限于表面，至于更深一层的代码层面的区别，还请各位自行去了解。经过查阅资料，这里简单给出下 <code>webpack</code>、<code>Rollup</code> 以及 <code>Vite</code> 的区别，先说一个总结论：</p>
+<blockquote>
+<p><strong>webpack</strong> 更适合打包项目，<code>Rollup</code> 更适合打包库，而 <code>Vite</code> 基于 <code>Rollup</code>，实现了热更新的同时也十分适合打包项目。</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>工具</th>
+<th>webpack</th>
+<th>Rollup</th>
+<th>Vite</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>区别</td>
+<td>1. 支持代码切割，从而实现分包<br>2. 支持 <code>HMR</code>，实现热更新</td>
+<td>1. 基于 <code>esm</code> 打包，生成的文件体积更小<br>2. 原生支持 <code>tree-shaking</code></td>
+<td>1. 生产环境通过 <code>Rollup</code> 打包生成 <code>esm</code> 模块包，因此打包的体积小<br>2. 生产环境基于浏览器支持 <code>esm</code>，让浏览器解析模块，然后服务器按需编译返回<br>3. 热更新，实现按需编译，不像 <code>webpack</code> 需全部重新编译并更新</td>
+</tr>
+</tbody>
+</table>
+<h2> 搭建 Vite 项目</h2>
+<p>说完上边的内容之后，接下来就来看看，如何大家我们的第一个 <code>Vite</code> 项目。</p>
+<p>需要注意的是，要使用 <code>Vite</code> 的前提是电脑中有 <code>Node.js</code>，而且版本需要 <code>&gt;=12.0.0</code>，至于个别模块可能需要更高版本的 <code>Node.js</code> 才能正常运行，此时就需要注意升级 <code>Node.js</code> 的版本。</p>
+<p>如果你不清楚你的电脑中是否安装了 <code>Node.js</code>，那么可以在控制台中使用如下命令进行查询。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<p>如何还是不太清楚，那么可以参考我之前的一篇文章：</p>
+<blockquote>
+<p><a href="https://cunyu1943.github.io/JavaPark/efficiency/windows/nodejs-install.html" target="_blank" rel="noopener noreferrer">Windows 教程：Node.js 安装教程</a></p>
+</blockquote>
+<p>初始工作做好之后，我们就可以开始搭建我们的第一个 <code>Vite</code> 项目了。</p>
+<p>如果我们只是要构建一个 <code>Vite</code> 项目，那么简单地使用以下命令即可。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>然后根据提示进行相关设置即可，这里需要注意的是它会让我们选择框架，这就需要根据我们的需求来进行选择了。</p>
+<p>比如我们要创建一个基于 <code>Vue</code> 的项目，那么可以选择 <code>Vue</code> 模板，然后再进行下一步。</p>
+<figure><figcaption></figcaption></figure>
+<p>选择变体，是基于 <code>Vue</code> 还是 <code>Vue-ts</code>。</p>
+<figure><figcaption></figcaption></figure>
+<p>最后，等待项目创建完毕即可。</p>
+<figure><figcaption></figcaption></figure>
+<p>然后根据它的提示，依次执行以下三个命令即可。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<p>接着在浏览器中访问以下地址：</p>
+<blockquote>
+<p><code>http://localhost:3000</code></p>
+</blockquote>
+<p>如果一切正常，那么应该就会出现以下的界面了，至此我们的第一个 <code>Vite</code> + <code>Vue</code> 项目就搭建成功了！</p>
+<figure><figcaption></figcaption></figure>
+<p>当然，除开使用上面的命令来创建之外，我们还可以通过附加的命令选项来执行项目的名称和想要使用的模板。不过这里需要注意，根据你电脑上 <code>npm</code> 版本的不同，需要使用不同的命令。</p>
+<p>如果你的 <code>npm</code> 是 <code>6.x</code> 版本，那么要使用以下命令：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>如果 <code>npm</code> 版本 <code>7.x</code> 及以上版本，那么则需要使用如下命令，一定不要忘记多出来的 <code>–</code>。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<p>同样的，我们依次执行提示的三条命令。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<p>最后，同样在浏览器中访问 <code>http://localhost:3000</code>，不出意外同样可以看到以下的界面。</p>
+<figure><figcaption></figcaption></figure>
+<h2> 总结</h2>
+<p>以上就是本文的所有内容了，主要介绍了 <code>Vite</code> 由来的背景，并简单对比了下 <code>webpack</code>、<code>Rollup</code> 和 <code>Vite</code> 三个打包工具的区别，最后则是利用两种方式来创建了 <code>Vite</code> + <code>Vue</code> 的实例。</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Redis 持久化</title>
       <link>https://cunyu1943.github.io/framework/redis/20221016-persistence.html</link>
@@ -443,6 +669,8 @@
 </ol>
 <h3> Vue 3 系列</h3>
 <ol>
+<li><a href="/java-tutorial/front-end/vue3/20220605-intro.html" target="blank">Vue 3 系列：简介</a></li>
+<li><a href="/java-tutorial/front-end/vue3/20220606-vite-quickstart.html" target="blank">Vue 3 系列：搭建 Vue + Vite 入门项目</a></li>
 <li><a href="/java-tutorial/front-end/vue3/20221012-common-command.html" target="blank">Vue 3 系列：常用指令</a></li>
 </ol>
 ]]></content:encoded>
@@ -3260,11 +3488,13 @@
       <link>https://cunyu1943.github.io/tutorial/</link>
       <guid>https://cunyu1943.github.io/tutorial/</guid>
       <source url="https://cunyu1943.github.io/rss.xml">基础教程</source>
-      <description>博客搭建 博客搭建：Hexo + Github Pages 博客搭建教程 IDEA 教程 IDEA 教程：最新版 IntelliJ IDEA 使用手册 IDEA 教程：原来大厂都是这么提交代码的</description>
+      <description>博客搭建 博客搭建：Hexo + Github Pages 博客搭建教程 博客搭建：dumi 博客搭建 博客搭建：Hugo + Github Pages 博客搭建教程</description>
       <pubDate>Fri, 02 Feb 2024 16:18:13 GMT</pubDate>
       <content:encoded><![CDATA[<h2> 博客搭建</h2>
 <ol>
 <li><a href="/tutorial/blog/20220401-hexo.html" target="blank">博客搭建：Hexo + Github Pages 博客搭建教程</a></li>
+<li><a href="/tutorial/blog/20220610-dumi.html" target="blank">博客搭建：dumi 博客搭建</a></li>
+<li><a href="/tutorial/blog/20220611-hugo.html" target="blank">博客搭建：Hugo + Github Pages 博客搭建教程</a></li>
 </ol>
 <h2> IDEA 教程</h2>
 <ol>
@@ -18637,14 +18867,14 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
       <pubDate>Fri, 02 Feb 2024 10:39:17 GMT</pubDate>
     </item>
     <item>
-      <title>Hexo+Github Pages博客搭建教程</title>
+      <title>Hexo + Github Pages 博客搭建教程</title>
       <link>https://cunyu1943.github.io/tutorial/blog/20220401-hexo.html</link>
       <guid>https://cunyu1943.github.io/tutorial/blog/20220401-hexo.html</guid>
-      <source url="https://cunyu1943.github.io/rss.xml">Hexo+Github Pages博客搭建教程</source>
-      <description>Hexo+Github Pages博客搭建教程 共勉 不要哀求，学会争取。若是如此，终有所获。 前言 现在市面上已经有许多博客了，比如 CSDN、掘金、博客园、简书等等。我们可以直接在上面发表内容，而且交互比较人性化，而且也能被搜索引擎检索到。但是总归是别人的平台，经常会受限，因此我们就希望能有自己的博客。之前也尝试过搭建过不同的博客类型，折腾了不少工作，最终决定定型，采用 Hexo + Github Pages 的方式。今天就带大家一起来搭建自己的博客。由于是采用 Hexo + Github Pages 的方式，所以都是免费的，只是需要有一定的动手能力！</description>
+      <source url="https://cunyu1943.github.io/rss.xml">Hexo + Github Pages 博客搭建教程</source>
+      <description>Hexo + Github Pages 博客搭建教程 共勉 不要哀求，学会争取。若是如此，终有所获。 前言 现在市面上已经有许多博客了，比如 CSDN、掘金、博客园、简书等等。我们可以直接在上面发表内容，而且交互比较人性化，而且也能被搜索引擎检索到。但是总归是别人的平台，经常会受限，因此我们就希望能有自己的博客。之前也尝试过搭建过不同的博客类型，折腾了不少工作，最终决定定型，采用 Hexo + Github Pages 的方式。今天就带大家一起来搭建自己的博客。由于是采用 Hexo + Github Pages 的方式，所以都是免费的，只是需要有一定的动手能力！</description>
       <category>博客搭建</category>
       <pubDate>Fri, 02 Feb 2024 10:39:17 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Hexo+Github Pages博客搭建教程</h1>
+      <content:encoded><![CDATA[<h1> Hexo + Github Pages 博客搭建教程</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
@@ -20368,246 +20598,6 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 <div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 解答</h3>
 <p>要统计字符串中某字母出现的次数，那么遍历该字符串，然后利用字母和字符串的每一个字符相比较，如果相同则计数加 1，直到字符串末尾。注意，要获取字符串第 <code>index</code> 位的字符，需要使用 <code>charAt(index)</code> 方法。</p>
 <div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> ⏳ 联系</h2>
-<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
-<p>扫一扫，探索另一个全新的世界。</p>
-<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-]]></content:encoded>
-      <enclosure url="https://cunyu1943.github.io/contact/wechatpublic.png =150x" type="image/"/>
-    </item>
-    <item>
-      <title>Java 入门练习：31 - 35</title>
-      <link>https://cunyu1943.github.io/java-tutorial/in-action/se/20220701-31-35.html</link>
-      <guid>https://cunyu1943.github.io/java-tutorial/in-action/se/20220701-31-35.html</guid>
-      <source url="https://cunyu1943.github.io/rss.xml">Java 入门练习：31 - 35</source>
-      <description>Java 入门练习：31 - 35 共勉 不要哀求，学会争取。若是如此，终有所获。 JAVA31 十进制数转二进制数 描述 控制台随机输入一个十进制数，请你将它转换为二进制数并输出 输入描述 控制台随机输入的十进制正整数 输出描述 该十进制数转换的二进制数字 示例 1</description>
-      <category>Java 入门练习</category>
-      <pubDate>Fri, 01 Jul 2022 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Java 入门练习：31 - 35</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<h2> JAVA31 十进制数转二进制数</h2>
-<h3> 描述</h3>
-<p>控制台随机输入一个十进制数，请你将它转换为二进制数并输出</p>
-<h4> 输入描述</h4>
-<p>控制台随机输入的十进制正整数</p>
-<h4> 输出描述</h4>
-<p>该十进制数转换的二进制数字</p>
-<h3> 示例 1</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 解答</h3>
-<p>直接利用 Java 中封装类 <code>Integer</code> 所提供的 <code>toBinaryString()</code> 方法即可。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> JAVA32 掷骰子游戏</h2>
-<h3> 描述</h3>
-<p>开发一个掷骰子游戏，即每次运行程序时，产生一个[1,6]之间的随机整数（关于seed的问题可以参考题解）。</p>
-<h4> 输入描述</h4>
-<p>随机数种子</p>
-<h4> 输出描述</h4>
-<p>[1,6] 之间的随机整数</p>
-<h3> 示例1</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 解答</h3>
-<p>既然已经随机输入了随机数种子，那我们只需要利用随机数种子来进行随机算法即可，然后利用 <code>nextInt()</code> 来限制所生成随机数的最大值即可。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> JAVA33 求绝对值，平方根，对数，正弦值</h2>
-<h3> 描述</h3>
-<p>编写函数求出任意数的绝对值，平方根，对数，正弦值</p>
-<h4> 输入描述</h4>
-<p>任意数字</p>
-<h4> 输出描述</h4>
-<p>任意数的绝对值，平方根，对数，正弦值(请直接使用 Math 类的方法进行运算，不考虑精度问题)</p>
-<h3> 示例1</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 解答</h3>
-<p>主要考察对 Java 中 <code>Math</code> 类中各种方法的运用，其中求就绝对值用 <code>abs()</code>，求平方根用 <code>sqrt()</code>，求对数用 <code>log()</code>，求正弦值则是用 <code>sin()</code>。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> JAVA34 输出某一年的各个月份的天数</h2>
-<h3> 描述</h3>
-<p>输入任意年份，输出该年份各月天数（请使用 Calendar 类中的方法）</p>
-<h4> 输入描述</h4>
-<p>任意年份（int 类型整数）</p>
-<h4> 输出描述</h4>
-<p>x年1月:yy天</p>
-<p>x年2月:yy天</p>
-<p>x年3月:yy天</p>
-<p>x年4月:yy天
-x年5月:yy天
-x年6月:yy天
-x年7月:yy天
-x年8月:yy天
-x年9月:yy天
-x年10月:yy天
-x年11月:yy天
-x年12月:yy天（x为输入的任意年份，yy为当月天数）</p>
-<h3> 示例1</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 解答</h3>
-<p>获取 <code>Calender</code> 对象后，循环获取各个月份，然后通过设置年月日，通过 <code>getActuralMaximum()</code> 方法就可以得到某月最大的天数。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> JAVA35 日期换算</h2>
-<h3> 描述</h3>
-<p>已知，纽约时间比北京时间慢12小时，请根据用户输入的北京时间输出相应的纽约时间，若用户输入错误的月份或日期等信息则将其顺加。例如用户输入2021 13 32 14 43 54则生成北京时间为：2022-02-01 14:43:54 纽约时间为：2022-02-01 02:43:54</p>
-<h4> 输入描述</h4>
-<p>一组字符串，年，月，日，时，分，秒用空格隔开，如果用户数据输入不正常，应输出“您输入的数据不合理”</p>
-<h4> 输出描述</h4>
-<p>北京时间为：年-月-日 时:分:秒</p>
-<p>纽约时间为：年-月-日 时:分:秒</p>
-<h3> 示例1</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><h3> 示例2</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 解答</h3>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> ⏳ 联系</h2>
-<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
-<p>扫一扫，探索另一个全新的世界。</p>
-<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-]]></content:encoded>
-      <enclosure url="https://cunyu1943.github.io/contact/wechatpublic.png =150x" type="image/"/>
-    </item>
-    <item>
-      <title>Java 入门练习：36 - 40</title>
-      <link>https://cunyu1943.github.io/java-tutorial/in-action/se/20220702-36-40.html</link>
-      <guid>https://cunyu1943.github.io/java-tutorial/in-action/se/20220702-36-40.html</guid>
-      <source url="https://cunyu1943.github.io/rss.xml">Java 入门练习：36 - 40</source>
-      <description>Java 入门练习：36 - 40 共勉 不要哀求，学会争取。若是如此，终有所获。 JAVA36 判断学生成绩 描述 定义一个方法用于录入学生的考试成绩，要求考试成绩必须在0-100之间，不满足就产生一个自定义异常，控制台输出一个错误信息&amp;quot;分数不合法&amp;quot;（请输出自定义异常对象的错误信息，将错误信息设置为分数不合法） 输入描述 控制台输入的int类型整数</description>
-      <category>Java 入门练习</category>
-      <pubDate>Sat, 02 Jul 2022 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Java 入门练习：36 - 40</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<h2> JAVA36 判断学生成绩</h2>
-<h3> 描述</h3>
-<p>定义一个方法用于录入学生的考试成绩，要求考试成绩必须在0-100之间，不满足就产生一个自定义异常，控制台输出一个错误信息"分数不合法"（请输出自定义异常对象的错误信息，将错误信息设置为分数不合法）</p>
-<h4> 输入描述</h4>
-<p>控制台输入的int类型整数</p>
-<h4> 输出描述</h4>
-<p>若分数合法则输出该分数，否则输出错误信息分数不合法</p>
-<h3> 示例1</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 示例2</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 解答</h3>
-<p>定义一个异常类，然后重写异常类输入异常信息处理的方法，注意此时到了构造方法。然后就是利用 <code>if...else</code> 条件分支对输入进行判断，根据符合的条件进入不同的执行分支。如果输入的分数不满足 <code>[0,100]</code> 的情况，那么就直接抛出异常。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> JAVA37 字符串去重</h2>
-<h3> 描述</h3>
-<p>从键盘获取一串字符串，要求去除重复的字符。请使用 HashSet 解决这一问题</p>
-<h4> 输入描述</h4>
-<p>键盘输入的任意字符串</p>
-<h4> 输出描述</h4>
-<p>去重后的字符串（不要求顺序,预设代码中已经给出输出）</p>
-<h3> 示例1</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 解答</h3>
-<p>既然题目中已经提示了利用 <code>HashSet</code>，那么直接使用就好了，但是要注意的是，往 <code>HashSet</code> 里边添加元素得到的结果是无序的，如果要想得到有序的结果，那么则不能使用 <code>HashSet</code>。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> JAVA38 集合遍历</h2>
-<h3> 描述</h3>
-<p>请使用三种方式遍历一个 <code>list</code> 集合</p>
-<h4> 输入描述</h4>
-<p>键盘任意输入的五个int类型变量</p>
-<h4> 输出描述</h4>
-<p>使用三种不同的方法遍历集合，遍历输出时不换行，数字之间用空格隔开</p>
-<h3> 示例1</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 解答</h3>
-<p>主要考察基础语法，要牢记的两种 <code>for</code> 循环，一种是普通循环，另一种则是增强循环，而迭代器能掌握就更好了。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> JAVA39 排队系统</h2>
-<h3> 描述</h3>
-<p>请设计一个排队程序，用户有普通客人和VIP客人之分，VIP客人不排队（即VIP客人在队列头部），目前队列中已有两位客人小明和小军在排队，请将VIP客人小红新增至队列头部。</p>
-<h4> 输入描述</h4>
-<p>无</p>
-<h4> 输出描述</h4>
-<p>预设代码中已经指定输出</p>
-<h3> 解答</h3>
-<p>对于 <code>VIP</code> 客人，和普通客人最大的区别就在于 <code>VIP</code> 客人不用排队，所以无论何时 <code>VIP</code> 来都可以排到队列的最前边，利用 <code>addFirst()</code> 方法即可实现插队到第一位。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> JAVA40 首尾交替出队</h2>
-<h3> 描述</h3>
-<p>现从一队学生中抽人上台演讲，为公平起见，队头队尾交替抽取，请通过程序实现这个出队的过程。</p>
-<h4> 输入描述</h4>
-<p>一组学生的名字</p>
-<h4> 输出描述</h4>
-<p>交替打印队头队尾学生的名字</p>
-<h3> 示例1</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 解答</h3>
-<p>分为两种情况，如果队列长队不小于 2，那么则不断从队列中依次头、尾打印学生名字。另外一种情况就是此时队伍中只有一个学生了，这个时候只需要打印其名字即可。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> ⏳ 联系</h2>
-<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
-<p>扫一扫，探索另一个全新的世界。</p>
-<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-]]></content:encoded>
-      <enclosure url="https://cunyu1943.github.io/contact/wechatpublic.png =150x" type="image/"/>
-    </item>
-    <item>
-      <title>Java 入门</title>
-      <link>https://cunyu1943.github.io/java-tutorial/in-action/se/</link>
-      <guid>https://cunyu1943.github.io/java-tutorial/in-action/se/</guid>
-      <source url="https://cunyu1943.github.io/rss.xml">Java 入门</source>
-      <pubDate>Fri, 02 Feb 2024 10:39:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>Python3 编程实例（1 - 5）</title>
-      <link>https://cunyu1943.github.io/program-language/python/instance/20181003-1-5.html</link>
-      <guid>https://cunyu1943.github.io/program-language/python/instance/20181003-1-5.html</guid>
-      <source url="https://cunyu1943.github.io/rss.xml">Python3 编程实例（1 - 5）</source>
-      <description>Python3 编程实例（1 - 5） 共勉 不要哀求，学会争取。若是如此，终有所获。 一、实例 1 1. 题目 假设有四个数字：1、2、3、4，它们能组成多少个互不相同且无重复数字的三位数？各是多少？ 2. 分析 通过三层循环，将个、十、百位上的数分别循环一次，当其中任意两位相同时，则跳过，当各位上的数都不同时输出。 3. 代码</description>
-      <category>Python3 编程实例</category>
-      <pubDate>Wed, 03 Oct 2018 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Python3 编程实例（1 - 5）</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<h2> 一、实例 1</h2>
-<h3> 1. 题目</h3>
-<p>假设有四个数字：1、2、3、4，它们能组成多少个互不相同且无重复数字的三位数？各是多少？</p>
-<h3> 2. 分析</h3>
-<p>通过三层循环，将个、十、百位上的数分别循环一次，当其中任意两位相同时，则跳过，当各位上的数都不同时输出。</p>
-<h3> 3. 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 二、实例 2</h2>
-<h3> 1. 题目</h3>
-<p>企业发放的奖金根据利润提成。利润(I)低于或等于 10 万元时，奖金可提 10%；利润高于 10 万元，低于 20 万元时，低于 10 万元的部分按 10% 提成，高于 10 万元的部分，可提成 7.5%；20 万到 40 万之间时，高于 20 万元的部分，可提成 5%；40 万到 60 万之间时高于 40 万元的部分，可提成 3%；60 万到 100 万之间时，高于 60 万元的部分，可提成 1.5%，高于 100 万元时，超过 100 万元的部分按 1% 提成，从键盘输入当月利润 I，求应发放奖金总数。</p>
-<h3> 2. 分析</h3>
-<p>输入企业利润，然后计算出每一阶段利润内所对应奖金并保存在一个变量中，最后输出保存奖金的变量值即可。</p>
-<h3> 3. 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 三、实例 3</h2>
-<h3> 1. 题目</h3>
-<p>一个整数，它加上 100 后是一个完全平方数，再加上 168 又是一个完全平方数，请问该数是多少？</p>
-<h3> 2. 分析</h3>
-<p>如果一个正整数 a 是某一个整数 b 的平方，那么这个正整数 a 叫做完全平方数;</p>
-<p>假设这个数为 x：</p>
-<p>1、则：x + 100 = n ** 2, x + 100 + 168 = m ** 2；</p>
-<p>2、计算等式：m ** 2 - n ** 2 = (m + n)(m - n) = 168；</p>
-<p>3、设置： m + n = i，m - n = j，i * j =168，i 和 j 至少一个是偶数；</p>
-<p>4、可得： m = (i + j) / 2， n = (i - j) / 2，i 和 j 要么都是偶数，要么都是奇数；</p>
-<p>5、从 3 和 4 推导可知道，i 与 j 均是大于等于 2 的偶数；
-6、由于 i * j = 168， j&gt;=2，则 1 &lt; i &lt; 168 / 2 + 1；</p>
-<h3> 3. 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 四、实例 4</h2>
-<h3> 1. 题目</h3>
-<p>输入某年某月某日，判断这一天是这一年的第几天？</p>
-<h3> 2. 分析</h3>
-<p>分别将平年和闰年每个月的天数存入两个列表中，然后输入年月日，判断平年还是闰年，然后进行计算这是这一年中的第几天。</p>
-<h3> 3. 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 五、实例 5</h2>
-<h3> 1. 题目</h3>
-<p>输入三个整数 x,y,z，请把这三个数由小到大输出。</p>
-<h3> 2. 分析</h3>
-<p>分 3 次输入，每次输入后将其追加到列表中，然后对列表进行排序，最后输出排序好的列表；</p>
-<h3> 3. 代码</h3>
-<div class="language-python line-numbers-mode" data-ext="py"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 温馨提示</h2>
-<p>本文所有代码均已开源，获取源码可以到 <a href="https://gitee.com/cunyu1943/python-series-code" target="_blank" rel="noopener noreferrer">Gitee</a>。</p>
-<h2> ⏳ 联系</h2>
 <p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
 <p>扫一扫，探索另一个全新的世界。</p>
 <figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
