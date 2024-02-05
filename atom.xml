@@ -4,19 +4,20 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2024-02-05T10:27:18.482Z</updated>
+  <updated>2024-02-05T14:13:27.564Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
+  <category term="Java 基础"/>
+  <category term="效率工具"/>
+  <category term="Spring Boot 2.7.x"/>
   <category term="博客搭建"/>
   <category term="Vue 3 系列"/>
   <category term="Redis 教程"/>
-  <category term="效率工具"/>
   <category term="关于"/>
   <category term="Nginx 教程"/>
   <category term="求职面试"/>
   <category term="Web 前端教程"/>
-  <category term="Java 基础"/>
   <category term="Java 基础系列"/>
   <category term="MySQL 教程"/>
   <category term="C 语言教程"/>
@@ -24,6 +25,272 @@
   <category term="IDEA 教程"/>
   <category term="软件设计师"/>
   <category term="Java 入门练习"/>
+  <entry>
+    <title type="text">Mockito + JUnit 单元测试实例</title>
+    <id>https://cunyu1943.github.io/java-tutorial/javase/20220722-mockito.html</id>
+    <link href="https://cunyu1943.github.io/java-tutorial/javase/20220722-mockito.html"/>
+    <updated>2024-02-05T14:11:48.000Z</updated>
+    <summary type="html"><![CDATA[<h1> Mockito + JUnit 单元测试实例</h1>
+<h2> 前言</h2>
+<p>在日常 Java 开发中，一般都需要进行单元测试，而 <code>Mock</code> 测试则是单元测试中的重要方法之一。所谓 <code>Mock</code> 测试，就是指在测试过程中，对于一些不容易构造或难以获取的较为复杂的对象，用一个虚拟的对象来代表，从而方便测试的一种测试方法。其中，这个虚拟的对象就叫做 <code>Mock</code> 对象，最常见的就是用它来代表 <code>Servlet</code> 中 <code>HttpServletRequest</code> 对象，<code>JDBC</code> 中的 <code>ResultSet</code> 对象等。</p>]]></summary>
+    <content type="html"><![CDATA[<h1> Mockito + JUnit 单元测试实例</h1>
+<h2> 前言</h2>
+<p>在日常 Java 开发中，一般都需要进行单元测试，而 <code>Mock</code> 测试则是单元测试中的重要方法之一。所谓 <code>Mock</code> 测试，就是指在测试过程中，对于一些不容易构造或难以获取的较为复杂的对象，用一个虚拟的对象来代表，从而方便测试的一种测试方法。其中，这个虚拟的对象就叫做 <code>Mock</code> 对象，最常见的就是用它来代表 <code>Servlet</code> 中 <code>HttpServletRequest</code> 对象，<code>JDBC</code> 中的 <code>ResultSet</code> 对象等。</p>
+<p>通过使用 <code>Mock</code>，我们能够降低单元测试的耦合，如果代码中对其他类或者接口有依赖关系，通过 <code>Mock</code> 就能帮我们模拟出这些依赖，并且帮我们验证所调用的依赖行为。通过使用 <code>Mock</code>，我们就可以验证对象的某些方法的调用情况，调用了多少次，方法的参数又是哪些。</p>
+<p>之前我们介绍过 Junit 相关的知识点，不熟悉的小伙伴可以去看看我之前的一篇文章 -&gt;  <a href="/java-tutorial/javase/20220718-test-with-junit.html" target="blank">是时候拥抱 JUnit 单元测试了！</a> 。但使用 JUnit 时有个问题就是针对难以构造的复杂对象，我们可能需要费很大劲儿才能搞定。此时，我们就可以利用 <code>Mock</code> 测试和 JUnit 结合起来。</p>
+<p>在众多的 <code>Mock</code> 框架中，<code>Mockito</code> 算是比较流行的一个框架了，大家经常将它和 JUnit 结合起来使用。<code>Mockito</code> 允许我们创建和配置 <code>Mock</code> 对象，从而最大程度上简化对外部依赖的测试类的开发。</p>
+<p>通常，使用 <code>Mockito</code> 可以分为以下三个步骤：</p>
+<ol>
+<li>首先，模拟并替换测试代码中的外部依赖。</li>
+<li>其次，执行测试代码。</li>
+<li>最后，验证测试代码是否被正确执行。</li>
+</ol>
+<p>下面就来看看，如何使用 <code>Mockito</code> + JUnit。</p>
+<h2> 创建项目并添加依赖</h2>
+<p>既然要测试，那肯定得上代码了。这里为了方便管理依赖，所以创建一个 Maven 项目来作为示例。</p>
+<p>创建好项目之后，项目结构如下图所示。</p>
+<figure><figcaption></figcaption></figure>
+<p>紧接着，我们向项目的 <code>pom.xml</code> 中添加 <code>Mockito</code> 和 <code>JUnit</code> 的依赖。</p>
+<div class="language-xml line-numbers-mode" data-ext="xml"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>最终得到的 <code>pom.xml</code> 文件内容如下：</p>
+<div class="language-xml line-numbers-mode" data-ext="xml"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 编写代码并测试</h2>
+<p>经过创建项目并添加相关依赖之后，我们就可以来编写代码并继续测试了。</p>
+<p>同样的，首先我们在项目中添加一个简单的 <code>Demo</code> 类，并在其中声明一个方法，其最终代码如下。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>接着在 <code>Demo</code> 类中单击鼠标右键，选择 <code>Generate</code>，会弹出以下选择项，我们选择 <code>Test</code> 来自动生成该类的测试代码。</p>
+<figure><figcaption></figcaption></figure>
+<p>选择 <code>Test</code> 之后，IDEA 并不会立马生成对应的测试类，而是会弹出以下配置窗口让我们配置后再进行生成。这里主要注意的点在于：</p>
+<ol>
+<li><code>Testing library</code>：用于测试的类库，我们一般测试都是选择 <code>JUint4</code> 或者 <code>JUnit5</code>。</li>
+<li><code>Class name</code>：测试类的类名，这里一般默认的就是 <code>类名 + Test</code>，可以根据自己的需要来进行修改。</li>
+<li><code>Destination package</code>：生成的测试类所在的包，一般是对应于上面的类所在的包。</li>
+<li><code>Generate test methods for</code>：这里主要是选择需要生成测试的方法，在下面的 <code>Member</code> 中进行勾选即可。</li>
+</ol>
+<figure><figcaption></figcaption></figure>
+<p>配置完成后，IDEA 会在 <code>test/java</code> 文件夹下自动创建包并生成对应测试类，最终自动生成的测试类如下。</p>
+<figure><figcaption></figcaption></figure>
+<p>最后，我们按照 <code>Mock</code> 测试的三个步骤来书写代码，得到最终的测试方法如下。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>其中，<code>@Test</code> 是 <code>JUnit</code> 中的注解，用于标识测试方法。</p>
+<p>然后以上代码中的第 4 行则对应测试中的第一步，模拟外部依赖，创建 <code>Demo</code> 的对象。</p>
+<p>第 5 行则对应测试中的第二步，执行测试代码，然后返回执行结果。</p>
+<p>第 6 行则对应测试中的第三步，验证代码是否被正确执行。这里主要用到的是 <code>Mockito</code> 中的断言方法。</p>
+<p>最后，执行测试类中的方法，如果测试通过，则 IDEA 中出现如下结果。</p>
+<figure><figcaption></figcaption></figure>
+<p>假设我们修改下以上代码中断言中的期望值，则测试不通过，此时 IDEA 会返回断言中的提示信息。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<h2> 总结</h2>
+<p>以上内容就是关于 <code>Mockito</code> 搭配 <code>JUnit</code> 进行单元测试的简单示例了，主要从两个方面来展开。一方面是如何创建并添加对应依赖，另一方面则是如何编写代码并自动生成对应测试类，然后编写测试代码。而更多关于 <code>Mockito</code> 的使用技巧，我们将到另一篇文章中进行介绍。</p>
+]]></content>
+    <category term="Java 基础"/>
+    <published>2024-02-05T14:11:48.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">iTerm2 + Fish 高效终端</title>
+    <id>https://cunyu1943.github.io/tutorial/efficiency/20220426-iterm2-fish.html</id>
+    <link href="https://cunyu1943.github.io/tutorial/efficiency/20220426-iterm2-fish.html"/>
+    <updated>2024-02-05T14:11:48.000Z</updated>
+    <summary type="html"><![CDATA[<h1> iTerm2 + Fish 高效终端</h1>
+<h2> 什么是 Fish</h2>
+<p>作为一个程序员，难免会和命令行打交道。而提及到命令行，那 Shell 肯定绕不开，说白了，其实学习各种命令实质就是在学习 Shell。</p>
+<p>当前市面上有很多 Shell，用的最多的可能就是 Bash 和 zsh 了。比如 macOS 中默认的 Shell 就是 Bash，然后之前也用过一段时间 zsh，两者各有千秋，看自己的喜好，不过个人觉得总体来讲 zsh 更好用！</p>
+<p>zsh 虽然比较强大，也提供了各种丰富的插件，但有一点就是略为臃肿，用起来感觉太重了。无意中在网上冲浪是发现了 Fish 这个 Shell，于是用了一段时间，最后在 zsh 和 Fish 中选择了 Fish，于是特在此记录安装过程。</p>]]></summary>
+    <content type="html"><![CDATA[<h1> iTerm2 + Fish 高效终端</h1>
+<h2> 什么是 Fish</h2>
+<p>作为一个程序员，难免会和命令行打交道。而提及到命令行，那 Shell 肯定绕不开，说白了，其实学习各种命令实质就是在学习 Shell。</p>
+<p>当前市面上有很多 Shell，用的最多的可能就是 Bash 和 zsh 了。比如 macOS 中默认的 Shell 就是 Bash，然后之前也用过一段时间 zsh，两者各有千秋，看自己的喜好，不过个人觉得总体来讲 zsh 更好用！</p>
+<p>zsh 虽然比较强大，也提供了各种丰富的插件，但有一点就是略为臃肿，用起来感觉太重了。无意中在网上冲浪是发现了 Fish 这个 Shell，于是用了一段时间，最后在 zsh 和 Fish 中选择了 Fish，于是特在此记录安装过程。</p>
+<p>Fish 是 “the friendly interactive shell” 的简称，最大特点是简单易用。Fish 做到了开箱即用，不需要任何配置，提供了许多其他 Shell 需要通过配置才能使用的功能。如果你既想要一个好用的 Shell，又不要去配置各种配置，那么推荐尝试一下 Fish。</p>
+<h2> 安装</h2>
+<p>这里使用 <code>homebrew</code> 进行安装，如果你还没有 <code>homebrew</code>，那么推荐你安装一下，这可是 macOS 中的一大神器。</p>
+<p>当然，在你安装 <code>homebrew</code> 时，可以使用官网所提供的脚本：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>不过基本上都会安装失败，此时大概率会报如下错误。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>当然这也不是我们网络的问题，主要是 <code>http://raw.githubusercontent.com</code> 访问实在不稳定，因此推荐使用以下这种更加高效的方式。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>安装好 <code>homebrew</code> 之后，使用如下命令进行安装即可。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>如果顺利的话，此时是可以安装成功的，但如果你也和我一样在安装时报以下错误信息，那么你可以根据下面的解决方法尝试解决。</p>
+<figure><figcaption></figcaption></figure>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>这是因为 <code>pcre2-10.39.arm64_monterey</code> 依赖包下载失败了，则可以单独将依赖包下载安装，从而避免依赖版本的错误。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<p>接着再使用上面安装 <code>Fish</code> 的命令进行安装即可。</p>
+<figure><figcaption></figcaption></figure>
+<h2> 切换默认 shell</h2>
+<p>虽然我们已经安装好了 <code>Fish</code>，但是我们还要对它进行手动切换才能生效。</p>
+<p>首先使用以下的命令来查看下本机中的 shell，默认情况下 <code>fish-shell</code> 应该还没用加到 shell 列表中的。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>接着，我们手动来更改 shell 列表，使用如下命令即可。使用 <code>sudo</code> 是因为要用到管理员的权限，所以这里还需要你知道管理员的密码。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>然后将 <code>Fish</code> 添加进去到 shell 列表中。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<p>我的电脑安装后 <code>Fish</code> 是位于上面的位置，但是如果你不确定你安装后不知道在哪儿，那么可以使用以下命令进行查询 <code>Fish</code> 所在位置。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<p>最后则是切换默认 shell，让我们之后打开终端后都是使用 <code>Fish</code>，运行如下命令即可。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>至此，我们的 <code>Fish</code> 就安装成功了，退出终端后重新打开终端即可使用安装好的 <code>Fish</code>。</p>
+<figure><figcaption></figcaption></figure>
+<h2> 安装 Oh My Fish</h2>
+<p>官网提供了两种方式，第一种是直接在线安装。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>第二种则是通过将脚本下载之后再进行安装。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>两种方法我都试了以下，第一种呢大概率是不会成功的，那么我们选择第二种，将脚本下载之后安装。但是同样的使用这个命令可能会失败，此时则可以去 <code>https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install</code> 把脚本内容复制到本地的一个文件中。然后再用以下命令安装即可。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>安装好 <code>Oh My Fish</code> 之后，我们就可以安装一个漂亮的主题了。</p>
+<p>如果要查看所有可用的主题，那么可以使用如下命令。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<p>可以看到还是有很多主题的，确定好之后，接下来就可以安装我们心仪的一款主题了，安装命令如下。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<p>最后则是效果预览了，这里我自己是安装了 <code>randomrussel</code>，最终的效果预览如下。</p>
+<figure><figcaption></figcaption></figure>
+<p>此外，<code>Oh My Fish</code> 辅助命令工具 <code>omf</code> 还提供了一些常用命令用于管理插件和主题。</p>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>omf update</code></td>
+<td>更新自身和已安装的所有插件及默认主题</td>
+</tr>
+<tr>
+<td><code>omf list</code></td>
+<td>显示本地已安装的所有插件</td>
+</tr>
+<tr>
+<td><code>omf install [url|name]</code></td>
+<td>安装一个或多个插件</td>
+</tr>
+<tr>
+<td><code>omf destroy</code></td>
+<td>卸载 <code>Oh My Fish</code></td>
+</tr>
+</tbody>
+</table>
+<h2> 总结</h2>
+<p>以上就是我们关于 <code>Fish</code> 的安装以及简单的配置教程了，如果你也想拥有如此酷炫的终端，那就赶紧来试试吧！</p>
+]]></content>
+    <category term="效率工具"/>
+    <published>2022-04-26T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">集成 Knife4j</title>
+    <id>https://cunyu1943.github.io/framework/springboot/2.7.x/20220430-knife4j.html</id>
+    <link href="https://cunyu1943.github.io/framework/springboot/2.7.x/20220430-knife4j.html"/>
+    <updated>2024-02-05T14:11:48.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 集成 Knife4j</h1>
+<h2> 前言</h2>
+<p>之前介绍了如何在 <code>Spring Boot</code> 中集成 <code>Swagger2</code> 和 <code>Swagger3</code>，对于我们日常的接口管理已经够用了。但是作为一个颜值党，无论是 <code>Swagger2</code> 还是 <code>Swagger3</code>，都难以满足我们的审美。而且 <code>Swagger2</code> 和 <code>Swagger3</code> 都已经好久没更新了，更新还是比较慢的。</p>
+<p>偶然之间发现了一个国产的接口文档管理工具 <a href="https://doc.xiaominfo.com/knife4j/" target="_blank" rel="noopener noreferrer">Knife4j</a>，它基于 <code>Swagger</code> 而来，但是又对 <code>Swagger</code> 进行了增强，增加两个越来越多的个性化需求，可以说兼具颜值与实力了。今天我们就来看看，如何在 <code>Spring Boot</code> 中集成 <code>Knife4j</code> 这个接口文档管理工具。</p>]]></summary>
+    <content type="html"><![CDATA[<h1> 集成 Knife4j</h1>
+<h2> 前言</h2>
+<p>之前介绍了如何在 <code>Spring Boot</code> 中集成 <code>Swagger2</code> 和 <code>Swagger3</code>，对于我们日常的接口管理已经够用了。但是作为一个颜值党，无论是 <code>Swagger2</code> 还是 <code>Swagger3</code>，都难以满足我们的审美。而且 <code>Swagger2</code> 和 <code>Swagger3</code> 都已经好久没更新了，更新还是比较慢的。</p>
+<p>偶然之间发现了一个国产的接口文档管理工具 <a href="https://doc.xiaominfo.com/knife4j/" target="_blank" rel="noopener noreferrer">Knife4j</a>，它基于 <code>Swagger</code> 而来，但是又对 <code>Swagger</code> 进行了增强，增加两个越来越多的个性化需求，可以说兼具颜值与实力了。今天我们就来看看，如何在 <code>Spring Boot</code> 中集成 <code>Knife4j</code> 这个接口文档管理工具。</p>
+<h2> 集成过程</h2>
+<h3> 创建 Spring Boot 项目</h3>
+<p>既然要在 <code>Spring Boot</code> 中使用 <code>Knife4j</code>，那首先就得创建一个 <code>Spring Boot</code> 项目。当然，我在之前已经写过文章介绍如何创建 <code>Spring Boot</code> 项目了，所以这里不再赘述。如果你还对 <code>Spring</code> Boot 创建方式不太熟悉，可以参考我之前的文章：<a href="https://cunyu1943.github.io/JavaPark/java/spring-boot/the-methods-to-create-springboot-project.html" target="_blank" rel="noopener noreferrer">Spring Boot 基础教程：创建项目的 3 种方式 | JavaPark</a></p>
+<h3> 添加依赖</h3>
+<p>既然是用 <code>Maven</code> 来管理项目依赖，那我们在项目 <code>pom.xml</code> 中引入 <code>Knife4j</code> 的相关依赖包，引入代码如下。</p>
+<div class="language-xml line-numbers-mode" data-ext="xml"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 配置添加</h3>
+<p>接着在项目中创建一个配置包 <code>config</code>，用于配置 <code>Swagger</code> 的配置依赖。在这里可以配置扫描的 <code>controller</code> 所在的包，设置接口文档的标题、描述、作者信息等。</p>
+<p>这里其实和 <code>Swagger2</code> 和 <code>Swagger3</code> 很相似，<code>Swagger</code> 也是可以通过配置类来指定这些信息。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 编写 Controller 层</h3>
+<p>接着我们编写一个测试的 <code>controller</code>，用于在 <code>Knife4j</code> 中展示用，代码如下。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 启动测试</h3>
+<p>然后将项目启动起来，接着到浏览器中去打开 <code>http://localhost:8080/doc.html</code>，就会出现以下的主界面。这里有我们之前在配置类中所设置的一些接口信息，此外，还对接口进行了统计。因为我们代码中只写了一个 <code>POST</code> 的请求，所以这里统计出只有一个 <code>POST</code> 请求。</p>
+<figure><figcaption></figcaption></figure>
+<p>打开具体接口，这里就有我们接口的请求和响应的一些情况说明。</p>
+<figure><figcaption></figcaption></figure>
+<p>点击左侧 <code>调试</code> 按钮，我们就可以在 <code>Knife4j</code> 中测试我们的接口。</p>
+<figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+<h2> 踩过的坑</h2>
+<p>当然，如果你按照以上步骤顺利打开了 <code>Knife4j</code> 的文档管理页面，那接下来的内容你大可不必了解。但如果你按照上边步骤搭建过程中也出现了问题，那不妨看看以下是否有你遇到的 <code>Bug</code>。</p>
+<h3> 空指针异常</h3>
+<p>首先是报空指针异常，报错信息如下。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>经过查询资料可知，这是因为 <code>Springfox</code> 使用的路径匹配是基于 <code>AntPathMatcher</code> 的，但是由于我使用的是 <code>Spring Boot 2.6.x</code> 版本，正好这个版本使用的是 <code>PathPatternMatcher</code>，所以才会出现这个问题。所以这里主要可以通过两种方式来解决。</p>
+<p>第一种，无可厚非，就是将我们的 <code>Spring Boot</code> 的版本降低，从 <code>2.6.x</code> 降到 <code>2.5.x</code>，此时就应该是可以了，这里可以自己去试一下。</p>
+<p>第二种，既然我们都已经用上 <code>2.6.x</code> 版本了，那我们就是不想降低版本咋整。此时，我们只需要在主程序启动类中加上 <code>@EnableWebMvc</code> 这个注解。然后再次启动程序，你就会发现启动成功了！</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 请求路径未找到</h3>
+<p>一山放过一山拦，以为翻过了上面的山，就能成功了。没想到出师不利，这不又遇到了报错请求路径未找到。</p>
+<p>当我们成功启动项目后，在浏览器中打开 <code>http://localhost:8080/doc.html</code>，却没想到迎接我们的不是成功界面，而是下面的 <code>Whitelabel Error Page</code>。</p>
+<p>然后到 <code>IDEA</code> 中一看日志，程序照常运行，也没报错，但是给我们抛出了一个 <code>WARN</code>，警告信息如下：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>这是因为我们为了解决上面的 <code>Bug</code> 而使用到了 <code>@EnableWebMvc</code>，由于它实现了 <code>WebMvcConfigurer</code> 接口，所以会导致我们访问识别。</p>
+<p>这时候问题就来了，上面又需要这个注解，但是下面这个问题又不需要，那该怎么办呢？</p>
+<p>其实很简单，既然我们要保留 <code>@EnableWebMvc</code>，那我们去配置个规则不就好了。</p>
+<p>在项目的 <code>config</code> 包下，我们新建一个配置类 <code>WebMvcConfigurer</code> 记成 <code>WebMvcConfigurationSupport</code> 类，接着将 <code>dom.html</code> 过滤掉即可。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>完成上述配置后，再去运行项目，再到浏览器中去访问 <code>http://localhost:8080/doc.html</code> 应该就能正常访问 Knife4j 文档管理页面了。</p>
+<h2> 总结</h2>
+<p>以上就是 <code>Spring Boot</code> 中集成 <code>Knife4j</code> 文档管理工具的内容了，这里主要讲了下如何集成并且进行一个最简单的接口调试，关于更多 <code>Knife4j</code> 的个性化功能，可以去它的官网了解下。</p>
+<p>此外，对于文中集成是所遇到的 <code>Bug</code>，如果你没有遇到，那么你应该顺利集成了，如果你也有遇到，那么不妨跟着我去试一下解决的办法。</p>
+<p>最后的最后，关于本文中所涉及的代码，我已经开源了，有需要到小伙伴可以去自取哦。</p>
+<blockquote>
+<p><a href="https://github.com/cunyu1943/java-learning-demos/tree/main/springboot-knife4j-demo" target="_blank" rel="noopener noreferrer">springboot-knife4j-demo</a></p>
+</blockquote>
+]]></content>
+    <category term="Spring Boot 2.7.x"/>
+    <published>2022-04-30T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">集成 Security 入门小实例</title>
+    <id>https://cunyu1943.github.io/framework/springboot/2.7.x/20220604-security.html</id>
+    <link href="https://cunyu1943.github.io/framework/springboot/2.7.x/20220604-security.html"/>
+    <updated>2024-02-05T14:11:48.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 集成 Security 入门小实例</h1>
+<h2> 前言</h2>
+<p><code>Spring Security</code> 是 <code>Spring</code> 家族中一个强大可定制的身份验证和访问控制框架，和 <code>Shiro</code> 一样，它们都具有认证、授权、加密等用于权限管理的功能。但相比于 <code>Shiro</code>，<code>Spring Security</code> 的功能无疑更加强大。而且作为 <code>Spring</code> 家族中的一份子，配合家族中的其它兄弟 - <code>Spring Boot</code>、<code>Spring Cloud</code> 使用起来更加丝滑。</p>]]></summary>
+    <content type="html"><![CDATA[<h1> 集成 Security 入门小实例</h1>
+<h2> 前言</h2>
+<p><code>Spring Security</code> 是 <code>Spring</code> 家族中一个强大可定制的身份验证和访问控制框架，和 <code>Shiro</code> 一样，它们都具有认证、授权、加密等用于权限管理的功能。但相比于 <code>Shiro</code>，<code>Spring Security</code> 的功能无疑更加强大。而且作为 <code>Spring</code> 家族中的一份子，配合家族中的其它兄弟 - <code>Spring Boot</code>、<code>Spring Cloud</code> 使用起来更加丝滑。</p>
+<p>今天就来看看，如何在 <code>Spring Boot</code> 集成 <code>Spring Security</code>，实现最简单的认证授权功能。</p>
+<h2> 集成过程</h2>
+<p>要在 <code>Spring Boot</code> 集成 <code>Security</code>，其实很简单，可以总结为如下几个步骤：</p>
+<ol>
+<li>首先是创建一个 <code>Spring Boot</code> 项目。</li>
+<li>添加 <code>Spring Security</code> 相关依赖。</li>
+</ol>
+<h3> 创建 Spring Boot 项目</h3>
+<p>这个过程只要你学习过 Spring Boot，那么你肯定是已经很熟悉了，所以在这里我也就不再赘述了。当然，如果你对这个过程还是不太熟悉，那么可以参考我之前的文章。</p>
+<h3> 添加相关依赖</h3>
+<p>项目创建好之后，一般默认是已经添加了 <code>Web</code> 依赖，这个时候，我们只需要在项目的 <code>pom.xml</code> 文件中添加 <code>Spring Security</code> 的相关依赖即可。</p>
+<div class="language-xml line-numbers-mode" data-ext="xml"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 启动项目</h3>
+<p>完成上面步骤的操作后，接下来我们直接启动项目，然后在浏览器中访问以下地址：</p>
+<blockquote>
+<p><code>http://localhost:8080</code></p>
+</blockquote>
+<p>不出意外应该会跳出以下的界面，让我们登录。此时你可能会很纳闷，为什么我们只加了个 <code>Spring Security</code> 的依赖，怎么就需要登陆了呢？而且，登录的话，用户名和密码又是多少呢？</p>
+<p>再仔细观察浏览器的地址栏，此时我们访问的地址也变了，变成了：</p>
+<blockquote>
+<p><code>http://localhost:8080/login</code></p>
+</blockquote>
+<p>这又是怎么一回事呢？</p>
+<p>原来这就是 <code>Spring Security</code> 为我们的项目所提供的保护机制。在添加 <code>Spring Security</code> 之后，此时再去访问项目，它就会自动重定向到 <code>Security</code> 所提供的登录页面，也就是下面的界面。</p>
+<figure><figcaption></figcaption></figure>
+<p>同样的 <code>Spring Security</code> 也为我们所提供了一个默认的用户名，也就是 <code>user</code>，至于密码，这就谁都说不准了。因为它会随着我们项目的每次启动而自动生成，所以每次的登录密码都是不一样的。至于要如何获取，那就得去我们的 <code>IDEA</code> 查看控制台查看日志了。</p>
+<p>查看日志我们可以发现如下的一行，其实这就是 <code>Spring Security</code> 所提供的登录密码了。这是一个 <code>UUID</code> 字符串，是 <code>Spring Security</code> 为默认的 <code>user</code> 用户所生成的临时密码。</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<h3> 修改默认登录用户密码</h3>
+<p>虽然 <code>Security</code> 提供了默认的 <code>user</code> 用户，但是大家都知道这是默认的，而且需要每次去日志中找登录密码，那有没有方法可以自定义我们的用户和密码呢？答案是，有的。</p>
+<p><code>Security</code> 为我们提供了配置，我们可以在项目的配置文件 <code>application.yml</code> 中去定义自己的用户名和密码，然后它就会覆盖掉 <code>Security</code> 为我们提供的默认用户和密码。</p>
+<p>在项目的配置文件中配置用户和密码，当然，项目生成的默认配置文件是位于 <code>resources</code> 目录下的 <code>application.properties</code>，所以需要将其后缀改成 <code>.yml</code>。</p>
+<div class="language-yaml line-numbers-mode" data-ext="yml"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>然后重启我们的项目，就可以用我们配置的用户和密码来进行登陆了。</p>
+<h3> 创建页面</h3>
+<p>新建一个 <code>Controller</code> 页面，用于打印最经典的 <code>Hello World!</code>。</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>重新启动项目后，在浏览器中访问以下地址：</p>
+<blockquote>
+<p><code>http://localhost:8080/hello</code></p>
+</blockquote>
+<p>然后 Spring Security 就会重定向到 <code>http://localhost:8080/login</code> 页面，此时我们用上面配置的用户名和密码进行登录，登录成功后就会跳转到我们的 <code>/hello</code> 页面了，页面中会打印 <code>Hello  World!</code></p>
+<figure><figcaption></figcaption></figure>
+<h2> 总结</h2>
+<p>以上就是 <code>Spring Boot</code> 集成 <code>Spring Security</code> 的实例了，主要演示了最经典的 <code>Hello World</code> 程序。关于更多 <code>Spring Security</code> 的知识，我们后续的文章再见吧！</p>
+<p>最后，关于本文的中的代码，我已经上传到云端，有需要的小伙伴可以自取。</p>
+<blockquote>
+<p><a href="https://github.com/cunyu1943/java-learning-demos" target="_blank" rel="noopener noreferrer">➛ 传送门</a></p>
+</blockquote>
+]]></content>
+    <category term="Spring Boot 2.7.x"/>
+    <published>2022-06-04T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Spring Boot 2.7.x</title>
+    <id>https://cunyu1943.github.io/framework/springboot/2.7.x/</id>
+    <link href="https://cunyu1943.github.io/framework/springboot/2.7.x/"/>
+    <updated>2024-02-05T14:11:48.000Z</updated>
+    <published>2024-02-05T14:11:48.000Z</published>
+  </entry>
   <entry>
     <title type="text">dumi 搭建文档型博客</title>
     <id>https://cunyu1943.github.io/tutorial/blog/20220610-dumi.html</id>
@@ -677,7 +944,7 @@
     <title type="text">Java</title>
     <id>https://cunyu1943.github.io/java-tutorial/</id>
     <link href="https://cunyu1943.github.io/java-tutorial/"/>
-    <updated>2024-02-05T10:25:17.000Z</updated>
+    <updated>2024-02-05T14:11:48.000Z</updated>
     <summary type="html"><![CDATA[<h2> Java 基础</h2>
 <ol>
 <li><a href="/java-tutorial/javase/20220701-intro-to-java.html" target="blank">Java 基础：简介</a></li>
@@ -704,6 +971,7 @@
 <li><a href="/java-tutorial/javase/20220720-fastjson2-quickstart.html" target="blank">Java 基础：Fastjson V2 简单使用手册</a></li>
 <li><a href="/java-tutorial/javase/20221203-oop-advance.html" target="blank">Java 基础：static 和 final 小课堂</a></li>
 <li><a href="/java-tutorial/javase/20221211-abstract.html" target="blank">Java 基础：抽象、接口和内部类</a></li>
+<li><a href="/java-tutorial/javase/20220722-mockito.html" target="blank">Java 基础：Mockito + JUnit 单元测试实例</a></li>
 </ol>]]></summary>
     <content type="html"><![CDATA[<h2> Java 基础</h2>
 <ol>
@@ -731,6 +999,7 @@
 <li><a href="/java-tutorial/javase/20220720-fastjson2-quickstart.html" target="blank">Java 基础：Fastjson V2 简单使用手册</a></li>
 <li><a href="/java-tutorial/javase/20221203-oop-advance.html" target="blank">Java 基础：static 和 final 小课堂</a></li>
 <li><a href="/java-tutorial/javase/20221211-abstract.html" target="blank">Java 基础：抽象、接口和内部类</a></li>
+<li><a href="/java-tutorial/javase/20220722-mockito.html" target="blank">Java 基础：Mockito + JUnit 单元测试实例</a></li>
 </ol>
 <h2> 实战训练</h2>
 <h3> Java 入门</h3>
@@ -3575,22 +3844,21 @@
     <title type="text">框架｜中间件</title>
     <id>https://cunyu1943.github.io/framework/</id>
     <link href="https://cunyu1943.github.io/framework/"/>
-    <updated>2024-02-04T14:40:43.000Z</updated>
+    <updated>2024-02-05T14:11:48.000Z</updated>
     <summary type="html"><![CDATA[<h2> MyBatis</h2>
 <h2> MyBatis Plus</h2>
-<h2> Spring Boot</h2>
-<h2> Redis</h2>
+<h2> Spring Boot 2.7.x</h2>
 <ol>
-<li><a href="/framework/redis/20221016-persistence.html" target="blank">Redis：持久化</a></li>
-</ol>
-<h2> Nginx</h2>
-<ol>
-<li><a href="/framework/nginx/20221016-intro-install.html" target="blank">简介与环境搭建</a></li>
-</ol>
-]]></summary>
+<li><a href="/framework/springboot/2.7.x/20220430-knife4j.html" target="blank">Spring Boot 2.7.x：集成 Knife4j</a></li>
+<li><a href="/framework/springboot/2.7.x/20220604-security.html" target="blank">Spring Boot 2.7.x：集成 Security 入门小实例</a></li>
+</ol>]]></summary>
     <content type="html"><![CDATA[<h2> MyBatis</h2>
 <h2> MyBatis Plus</h2>
-<h2> Spring Boot</h2>
+<h2> Spring Boot 2.7.x</h2>
+<ol>
+<li><a href="/framework/springboot/2.7.x/20220430-knife4j.html" target="blank">Spring Boot 2.7.x：集成 Knife4j</a></li>
+<li><a href="/framework/springboot/2.7.x/20220604-security.html" target="blank">Spring Boot 2.7.x：集成 Security 入门小实例</a></li>
+</ol>
 <h2> Redis</h2>
 <ol>
 <li><a href="/framework/redis/20221016-persistence.html" target="blank">Redis：持久化</a></li>
@@ -3628,7 +3896,7 @@
     <title type="text">基础教程</title>
     <id>https://cunyu1943.github.io/tutorial/</id>
     <link href="https://cunyu1943.github.io/tutorial/"/>
-    <updated>2024-02-05T10:25:17.000Z</updated>
+    <updated>2024-02-05T14:11:48.000Z</updated>
     <summary type="html"><![CDATA[<h2> 博客搭建</h2>
 <ol>
 <li><a href="/tutorial/blog/20220401-hexo.html" target="blank">博客搭建：Hexo + Github Pages 博客搭建教程</a></li>
@@ -3656,6 +3924,7 @@
 <li><a href="/tutorial/efficiency/20230710-browser-plugin-install.html" target="blank">效率工具：如何在浏览器中安装插件</a></li>
 <li><a href="/tutorial/efficiency/20220729-emoji.html" target="blank">效率工具：Emoji 表情大作战</a></li>
 <li><a href="/tutorial/efficiency/20221114-macos-install-node.html" target="blank">效率工具：macOS 安装 Node.js</a></li>
+<li><a href="/tutorial/efficiency/20220426-iterm2-fish.html" target="blank">效率工具：iTerm2 + Fish 高效终端</a></li>
 <li><a href="/tutorial/efficiency/20220623-ppt-template.html" target="blank">效率工具：PPT 模板免费下载</a></li>
 </ol>
 <h2> 软件设计师</h2>
@@ -20805,517 +21074,5 @@ Java 中，分支结构相关的语句主要涉及到 <code>if</code> 和 <code>
 ]]></content>
     <category term="Java 入门练习"/>
     <published>2022-06-25T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">Java 入门练习：6 - 10</title>
-    <id>https://cunyu1943.github.io/java-tutorial/in-action/se/20220626-6-10.html</id>
-    <link href="https://cunyu1943.github.io/java-tutorial/in-action/se/20220626-6-10.html"/>
-    <updated>2024-02-02T10:39:17.000Z</updated>
-    <summary type="html"><![CDATA[<h1> Java 入门练习：6 - 10</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<h2> JAVA6 判断体重指数</h2>
-<h3> 描述</h3>
-<p>体重指数 = 体重 (kg) / ( 身高 (m) × 身高 (m) )，小于18.5属于偏瘦，介于18.5和20.9之间（左闭右开）属于苗条，介于20.9和24.9之间（左闭右闭）属于适中，超过24.9属于偏胖。下面由你来编写一段逻辑，算出输入了身高和体重的用户的体重指数，并返回他们的身材状态。(体重指数请使用double类型)</p>]]></summary>
-    <content type="html"><![CDATA[<h1> Java 入门练习：6 - 10</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<h2> JAVA6 判断体重指数</h2>
-<h3> 描述</h3>
-<p>体重指数 = 体重 (kg) / ( 身高 (m) × 身高 (m) )，小于18.5属于偏瘦，介于18.5和20.9之间（左闭右开）属于苗条，介于20.9和24.9之间（左闭右闭）属于适中，超过24.9属于偏胖。下面由你来编写一段逻辑，算出输入了身高和体重的用户的体重指数，并返回他们的身材状态。(体重指数请使用double类型)</p>
-<h4> 输入描述：</h4>
-<p>用户的身高（m）和用户的体重（kg）</p>
-<h4> 输出描述：</h4>
-<p>体重指数代表的用户身材状态</p>
-<h3> 示例1</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 示例2</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 示例3</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 示例4</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 解答</h3>
-<p>首先计算出体重指数 <code>bim = weight / height / height</code>，然后再用条件语句找出对应区间即可。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> JAVA7 判断学生成绩等级</h2>
-<h3> 描述</h3>
-<p>现有如下成绩等级A,B,C,D。其中A代表优秀，B代表良好，C代表及格，D代表不及格。现在请你来为学生的成绩进行分级，如果用户输入错误则输出未知等级。</p>
-<h4> 输入描述</h4>
-<p>成绩等级对应的中文表述</p>
-<h4> 输出描述</h4>
-<p>优秀，良好，及格，不及格，未知等级</p>
-<h3> 示例1</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 示例2</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 示例3</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 示例4</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 示例5</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 解答</h3>
-<p>可以使用 <code>switch</code> 来匹配对应成绩等级，但是需要注意的是 <code>switch</code> 用来 <code>String</code> 需要 Java 8 及之后才行，否则可能会出错。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> JAVA8 邮箱验证</h2>
-<h3> 描述</h3>
-<p>请根据给出的正则表达式来验证邮箱格式是否合法，如果用户输入的格式合法则输出「邮箱格式合法」，否则输出「邮箱格式不合法」。</p>
-<h4> 输入描述</h4>
-<p>任意字符串</p>
-<h4> 输出描述</h4>
-<p>根据输入的邮箱格式判断其合法于不合法，若输入字符串符合邮箱格式则输出邮箱格式合法，否则输出邮箱格式不合法</p>
-<h3> 示例1</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 示例2</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 解答</h3>
-<p>利用 <code>String</code> 的 <code>matches()</code> 方法来讲输入的字符串和正则表达式进行匹配，然后根据匹配后的结果输出对应结果。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> JAVA9 数列求和</h2>
-<h3> 描述</h3>
-<p>有数列为：9，99，999，...，9999999999。要求使用程序计算此数列的和，并在控制台输出结果。（请尝试使用循环的方式生成这个数列并同时在循环中求和）</p>
-<h4> 输入描述</h4>
-<p>无</p>
-<h4> 输出描述</h4>
-<p>将该数列的和直接输出</p>
-<h3> 解答</h3>
-<p>假设数列第一个数为 $a_1 = 9$，那么后续递推公式 $a_i = a_{i-1} * 10 + 9$，然后利用循环求和即可。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> JAVA10 统计输入正数个数</h2>
-<h3> 描述</h3>
-<p>控制台输入整数，请设计一个死循环，当用户输入非正数时停止输入。请给出用户输入的正整数个数（默认输入个数不超过 2147483647）</p>
-<h4> 输入描述</h4>
-<p>若干整数，整数之间用空格隔开</p>
-<h4> 输出描述</h4>
-<p>控制台输入的正整数个数</p>
-<h3> 示例1</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 解答</h3>
-<p>要设计一个死循环，那么可以使用 <code>while</code> 语句，此外，要统计正整数个数，则利用 <code>count</code> 进行叠加即可。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> ⏳ 联系</h2>
-<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
-<p>扫一扫，探索另一个全新的世界。</p>
-<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-]]></content>
-    <category term="Java 入门练习"/>
-    <published>2022-06-26T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">Java 入门练习：11 - 15</title>
-    <id>https://cunyu1943.github.io/java-tutorial/in-action/se/20220627-11-15.html</id>
-    <link href="https://cunyu1943.github.io/java-tutorial/in-action/se/20220627-11-15.html"/>
-    <updated>2024-02-02T10:39:17.000Z</updated>
-    <summary type="html"><![CDATA[<h1> Java 入门练习：11 - 15</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<h2> JAVA11 求最小公倍数</h2>
-<h3> 描述</h3>
-<p>编写一个方法，该方法的返回值是两个不大于 100 的正整数的最小公倍数</p>
-<h4> 输入描述</h4>
-<p>两个 int 类型变量作为方法的参数</p>
-<h4> 输出描述</h4>
-<p>int 类型的变量，值为两个数的最小公倍数</p>]]></summary>
-    <content type="html"><![CDATA[<h1> Java 入门练习：11 - 15</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<h2> JAVA11 求最小公倍数</h2>
-<h3> 描述</h3>
-<p>编写一个方法，该方法的返回值是两个不大于 100 的正整数的最小公倍数</p>
-<h4> 输入描述</h4>
-<p>两个 int 类型变量作为方法的参数</p>
-<h4> 输出描述</h4>
-<p>int 类型的变量，值为两个数的最小公倍数</p>
-<h3> 示例1</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 解答</h3>
-<p>要求两个数的最小公倍数，那么这个数至少应该是两个数中大的那个数，所以需要先求出两个树中大的那个，可以利用 <code>Math</code> 包中提供的 <code>max()</code> 方法。此外，如果两个数互质，那么这两个数的最小公倍数就是它们的积。然后在这个区间中循环，用区间中的数去除以 <code>m</code> 和 <code>n</code>，如果存在一个数能同时整除 <code>m</code> 和 <code>n</code>，那么这个数就是它俩的最小公倍数。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> JAVA12 小球走过路程计算</h2>
-<h3> 描述</h3>
-<p>一球从h米高度自由落下，每次落地后反弹回原高度的一半再落下，求它在第 n 次落地时共经过了多少米？第 n 次反弹多高？</p>
-<h4> 输入描述</h4>
-<p>输入小球的初始高度和落地的次数（先输入小球初始高度再输入反弹次数）</p>
-<h4> 输出描述</h4>
-<p>输出小球反弹的高度和经过的距离（先输出反弹的高度再输出经过的距离，中间用空格隔开）</p>
-<h3> 示例1</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 备注：</h3>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 解答</h3>
-<p>要经过 <code>n</code> 此落地，所以需要循环 <code>n</code> 次，在每次循环的时候，需要将下落的高度和回弹的高度相加。需要注意的点，第 <code>n</code> 次下落不需要计算回弹的距离了。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> JAVA13 求平均数</h2>
-<h3> 描述</h3>
-<p>键盘输入任意多个 10000 以内正整数（负数代表结束），求出它们的平均数，</p>
-<h4> 输入描述</h4>
-<p>任意多个正整数</p>
-<h4> 输出描述</h4>
-<p>它们的平均数（平均数为 double 类型，保留两位小数）</p>
-<h3> 示例1</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 解答</h3>
-<p>分别创建三个变量来表示输入的数和 <code>sum</code>、平均值 <code>avg</code> 以及个数 <code>count</code>，当遇到输入的值是负数时，就终止循环，然后计算出其平均值 <code>sum / count</code>。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> JAVA14 判断质数</h2>
-<h3> 描述</h3>
-<p>请补全预设代码中判断质数的方法。</p>
-<h4> 输入描述</h4>
-<p>一个大于1的整数</p>
-<h4> 输出描述</h4>
-<p>true/false</p>
-<h3> 示例1</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 示例2</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 解答</h3>
-<p>要判断一个数是否是质数，那么用它来除以 <code>2</code> ~ <code>number / 2</code> 之间的数，如果存在一个数能被 <code>number</code> 整除，那么就说明这个数不是质数。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> JAVA15 计算整数位数</h2>
-<h3> 描述</h3>
-<p>输入一个整数，计算它的位数。如果输入的整数不大于 0 则输出这个数</p>
-<h4> 输入描述</h4>
-<p>一个整数</p>
-<h4> 输出描述</h4>
-<p>整数的位数</p>
-<h3> 示例 1</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 示例2</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 示例3</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 解答</h3>
-<p>如果输入的数是非正数，那么就直接输出这个数。如果这个数是正数，那么就将其转换为字符串，然后利用 <code>length()</code> 方法求出其位数即可。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> ⏳ 联系</h2>
-<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
-<p>扫一扫，探索另一个全新的世界。</p>
-<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-]]></content>
-    <category term="Java 入门练习"/>
-    <published>2022-06-27T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">Java 入门练习：16 - 20</title>
-    <id>https://cunyu1943.github.io/java-tutorial/in-action/se/20220628-16-20.html</id>
-    <link href="https://cunyu1943.github.io/java-tutorial/in-action/se/20220628-16-20.html"/>
-    <updated>2024-02-02T10:39:17.000Z</updated>
-    <summary type="html"><![CDATA[<h1> Java 入门练习：16 - 20</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<h2> JAVA16 数组遍历</h2>
-<h3> 描述</h3>
-<p>将用户输入的六个数字填入数组并找出数组中最大值和最小值</p>
-<h4> 输入描述</h4>
-<p>随机输入的 6 个整数</p>
-<h4> 输出描述</h4>
-<p>输出数组中的最大值，最小值(最大值最小值之间用空格隔开。若有多个最大值或最小值，输出一次即可，如样例2所示)</p>]]></summary>
-    <content type="html"><![CDATA[<h1> Java 入门练习：16 - 20</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<h2> JAVA16 数组遍历</h2>
-<h3> 描述</h3>
-<p>将用户输入的六个数字填入数组并找出数组中最大值和最小值</p>
-<h4> 输入描述</h4>
-<p>随机输入的 6 个整数</p>
-<h4> 输出描述</h4>
-<p>输出数组中的最大值，最小值(最大值最小值之间用空格隔开。若有多个最大值或最小值，输出一次即可，如样例2所示)</p>
-<h4> 示例1</h4>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 示例2</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 解答</h3>
-<p>利用 <code>Arrays</code> 中的 <code>sort()</code> 方法对数组 <code>ary</code> 进行排序，排序后的数组中，第一个数就是最小的，最后一个就是最大的。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> JAVA17 数组倒转</h2>
-<h3> 描述</h3>
-<p>输入 6 个整数，先将其输出然后再将数组倒转，再次输出数组</p>
-<h4> 输入描述</h4>
-<p>用户随机输入的 6 个 int 类型变量</p>
-<h4> 输出描述</h4>
-<p>先输出用户输入顺序的数组（这一步预设代码已给出）</p>
-<p>再输出反转后的数组（输出格式为 Arrays.toString(arr)，参考预设代码中的输出格式）</p>
-<h3> 示例1</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><h3> 解答</h3>
-<p>要将数组元素逆序，可以采用双指针，用来指向数组的首尾元素，然后交换两者位置，然后将指针向中间靠近，不断交换位置，直到首尾指针相遇。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> JAVA18 二维数组求和</h2>
-<h3> 描述</h3>
-<p>给定一个二维数组，请你编写一个求和函数，计算出这个数组元素的和</p>
-<h4> 输入描述</h4>
-<p>无</p>
-<h4> 输出描述</h4>
-<p>输出二维数组元素的和</p>
-<h3> 示例1</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 解答</h3>
-<p>要求二维数组元素的和，那么需要使用双重循环，遍历数组中的元素，然后一个个相加。注意，求数组长度时，外层长度为 <code>arr.length</code>，内层长度为 <code>arr[i].length</code>。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> JAVA19 修改 Data 类的定义</h2>
-<h3> 描述</h3>
-<p>现有一个 Data 类，内部定义了属性 x 和 y，在 main 方法中实例化了 Data 类，并计算了 data 对象中 x 和 y 的和。但是，Data 类的定义存在错误，请你将这些错误修正过来，使得 main 方法中的求和逻辑可以正常执行。</p>
-<h4> 输入描述</h4>
-<p>两个整数</p>
-<h4> 输出描述</h4>
-<p>两个整数的和</p>
-<h3> 示例1</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 解答</h3>
-<p>主要需要修改构造函数和 <code>getter</code> 的访问域，从 <code>private</code> 转为 <code>public</code>。其次，在构造函数中，需要添加 <code>this</code>。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> JAVA20 验证年龄</h2>
-<h3> 描述</h3>
-<p>采用封装的思想，为 Person 类定义年龄属性，要求：</p>
-<p>修改年龄时判断其范围，若年龄小于 0 则按 0 输出，若年龄大于 200 则按 200 输出。</p>
-<h4> 输入描述</h4>
-<p>年龄整数值</p>
-<h4> 输出描述</h4>
-<ol>
-<li>
-<p>若年龄小于 0 则输出 0；</p>
-</li>
-<li>
-<p>若年龄大于 200 则输出 200；</p>
-</li>
-<li>
-<p>若年龄介于 [0,200] 之间则直接输出。</p>
-</li>
-</ol>
-<h3> 示例1</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 示例2</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 示例3</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 解答</h3>
-<p>无非就是考察类中的 <code>get</code> 和 <code>set</code> 方法，但是此时要注意，需要根据题意将年龄进行分段。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> ⏳ 联系</h2>
-<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
-<p>扫一扫，探索另一个全新的世界。</p>
-<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-]]></content>
-    <category term="Java 入门练习"/>
-    <published>2022-06-28T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">Java 入门练习：21 - 25</title>
-    <id>https://cunyu1943.github.io/java-tutorial/in-action/se/20220629-21-25.html</id>
-    <link href="https://cunyu1943.github.io/java-tutorial/in-action/se/20220629-21-25.html"/>
-    <updated>2024-02-02T10:39:17.000Z</updated>
-    <summary type="html"><![CDATA[<h1> Java 入门练习：21 - 25</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<h2> JAVA21 补全构造方法</h2>
-<h3> 描述</h3>
-<p>有父类 Base，内部定义了 x、y 属性。有子类 Sub，继承自父类 Base。子类新增了一个 z 属性，并且定义了 calculate 方法，在此方法内计算了父类和子类中 x、y、z 属性三者的乘积。请补全子类构造方法的初始化逻辑，使得该计算逻辑能够正确执行。</p>]]></summary>
-    <content type="html"><![CDATA[<h1> Java 入门练习：21 - 25</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<h2> JAVA21 补全构造方法</h2>
-<h3> 描述</h3>
-<p>有父类 Base，内部定义了 x、y 属性。有子类 Sub，继承自父类 Base。子类新增了一个 z 属性，并且定义了 calculate 方法，在此方法内计算了父类和子类中 x、y、z 属性三者的乘积。请补全子类构造方法的初始化逻辑，使得该计算逻辑能够正确执行。</p>
-<h4> 输入描述</h4>
-<p>三个整数：x, y, z</p>
-<h4> 输出描述</h4>
-<p>三个整数的乘积：x<em>y</em>z</p>
-<h3> 示例1</h3>
-<p>输入：</p>
-<p>1 2 3</p>
-<p>输出：</p>
-<h3> 解答</h3>
-<p>主要考察 <code>super</code> 关键字的运用，<code>Sub</code> 是子类，所以在初始化构造器时，需要先用 <code>super</code> 继承父类 <code>Base</code> 中的构造方法。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> JAVA22 重写计算逻辑</h2>
-<h3> 描述</h3>
-<p>在父类 Base 中定义了计算方法 calculate()，该方法用于计算两个数的乘积（X*Y）。请在子类Sub中重写该方法，将计算逻辑由乘法改为除法（X/Y）。注意，当分母为0时输出 “Error”。</p>
-<h4> 输入描述</h4>
-<p>两个整数</p>
-<h4> 输出描述</h4>
-<p>两个整数的商(int类型，不考虑小数情况)</p>
-<h3> 示例1</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>复制</p>
-<p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>复制</p>
-<h3> 示例2</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>复制</p>
-<p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 解答</h3>
-<p>首先，既然是继承，那么要继承父类的构造方法，然后就是利用条件语句 <code>if...else...</code> 进行重写 <code>calculate()</code> 方法。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> JAVA23 定义打印方法</h2>
-<h3> 描述</h3>
-<p>已知有三个类：First、Second、Third。要求定义一个打印方法，支持传入任意引用类型的参数（包括上述三个类），并在方法内部打印出对象的字符串形式。</p>
-<h4> 输入描述</h4>
-<p>类名</p>
-<h4> 输出描述</h4>
-<p>由该类实例化出来的对象的字符串表示</p>
-<h2> 示例1</h2>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>复制</p>
-<p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 解答</h3>
-<p>和简单的方法没啥两样，主要区别在于传参的类型，平常传参我们都是传的具体的类，但是这里传的参是一个 <code>Object</code> 类型，表示我们可以传任意类型的参数。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> JAVA24 类型判断</h2>
-<h3> 描述</h3>
-<p>父类Base有两个子类：Sub1、Sub2，现有一个方法getClassName()，要求传入Base类型的实例，在方法内部判定其具体的类型，返回的是类型的简单名字（不含包名），请补全getClassName()方法的判断逻辑。</p>
-<h4> 输入描述</h4>
-<p>输入要实例化的类名：Base、Sub1、Sub2 三者之一。</p>
-<h4> 输出描述</h4>
-<p>返回实例的实际类名（简化类名，不包含包的名字）。</p>
-<h3> 示例1</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>复制</p>
-<p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>复制</p>
-<h3> 示例2</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>复制</p>
-<p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>复制</p>
-<h3> 示例3</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>复制</p>
-<p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 解答</h3>
-<p>利用关键字 <code>instanceof</code> 判断一个对象是否属于某个类，接着调用 <code>Object</code> 类的 <code>getClass()</code> 方法来获得 <code>Class</code> 对象，最后用 <code>getSimpleName()</code> 方法就可以或者获取这个对象所属类的名称。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> JAVA25 实现抽象方法</h2>
-<h3> 描述</h3>
-<p>已知抽象类Base中定义了calculate方法，该方法的计算过程依赖于sum()和avg()，而后两个方法均为抽象方法。要求定义Base的子类Sub类，并实现父类的抽象方法，使得main函数中的运算逻辑得以正确执行。</p>
-<h4> 输入描述</h4>
-<p>两个整数</p>
-<h4> 输出描述</h4>
-<p>两个整数的和除以两个整数的平均值（平均值为int类型，不考虑小数问题）</p>
-<h3> 示例1</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>复制</p>
-<p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 解答</h3>
-<p>主要就是考察继承的知识点，继承了抽象方法，那么此时只需要对方法进行重写即可。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> ⏳ 联系</h2>
-<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
-<p>扫一扫，探索另一个全新的世界。</p>
-<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-]]></content>
-    <category term="Java 入门练习"/>
-    <published>2022-06-29T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">Java 入门练习：26 - 30</title>
-    <id>https://cunyu1943.github.io/java-tutorial/in-action/se/20220630-26-30.html</id>
-    <link href="https://cunyu1943.github.io/java-tutorial/in-action/se/20220630-26-30.html"/>
-    <updated>2024-02-02T10:39:17.000Z</updated>
-    <summary type="html"><![CDATA[<h1> Java 入门练习：26 - 30</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<h2> JAVA26 实现接口</h2>
-<h3> 描述</h3>
-<p>已知接口 Comparator，内部定义了 max 函数，用于返回两个整数中的最大值。请定义该接口的实现类，使得 main 方法中的比较逻辑可以正确执行，要求实现类的名称为 ComparatorImpl。</p>
-<h4> 输入描述</h4>
-<p>两个整数</p>]]></summary>
-    <content type="html"><![CDATA[<h1> Java 入门练习：26 - 30</h1>
-<div class="hint-container info">
-<p class="hint-container-title">共勉</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<h2> JAVA26 实现接口</h2>
-<h3> 描述</h3>
-<p>已知接口 Comparator，内部定义了 max 函数，用于返回两个整数中的最大值。请定义该接口的实现类，使得 main 方法中的比较逻辑可以正确执行，要求实现类的名称为 ComparatorImpl。</p>
-<h4> 输入描述</h4>
-<p>两个整数</p>
-<h4> 输出描述</h4>
-<p>两个整数中的最大值</p>
-<h3> 示例1</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 解答</h3>
-<p>创建一个类来实现 <code>Comparator</code> 接口，然后重写 <code>max()</code> 方法即可。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> JAVA27 重写父类方法</h2>
-<h3> 描述</h3>
-<p>父类 Base 中定义了若干 get 方法，以及一个 sum 方法，sum 方法是对一组数字的求和。请在子类 Sub 中重写 getX() 方法，使得 sum 方法返回结果为 x*10+y</p>
-<h4> 输入描述</h4>
-<p>整数</p>
-<h4> 输出描述</h4>
-<p>整数的和</p>
-<h3> 示例1</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 解答</h3>
-<p>注意观察，在父类中 <code>getY()</code> 和 <code>sum()</code> 方法都是加了 <code>final</code> 关键字的，所以代表我们在继承自父类的子类中都是无法修改这两个方法的。而要实现将 <code>x</code> 增大 10 倍，那么就只能操作 <code>getX()</code> 方法了，在这个方法中将 <code>x</code> 放大 10 倍即可。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> JAVA28 创建单例对象</h2>
-<h3> 描述</h3>
-<p>Singleton 类是单例的，每次调用该类的 getInstance() 方法都将得到相同的实例，目前该类中这个方法尚未完成，请将其补充完整，使得 main() 函数中的判断返回真（不考虑线程安全）。</p>
-<h4> 输入描述</h4>
-<p>无</p>
-<h4> 输出描述</h4>
-<p>true</p>
-<h3> 解答</h3>
-<p>通过观察，我们发现代码中已经有了构造方法，我们只需要补充该类的 <code>getInstance()</code> 方法即可。由于要创建单例对象，所以每次调用 <code>getInstance()</code> 方法时，都应该得到的是同一个 <code>Singleton</code> 类型的实例。此时需要注意，要先对该对象判断是否为 <code>null</code>，是就创建新的，不是则返回当前 <code>instance</code>。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> JAVA29 动态字符串</h2>
-<h3> 描述</h3>
-<p>将一个由英文字母组成的字符串转换成从末尾开始每三个字母用逗号分隔的形式。</p>
-<h4> 输入描述</h4>
-<p>一个字符串</p>
-<h4> 输出描述</h4>
-<p>修改后的字符串</p>
-<h3> 示例1</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 解答</h3>
-<p>要注意一点，实际上 <code>String</code> 是不可变的，所以我们需要先将其转换为可变的 <code>StringBuilder</code>。然后从后往前开始，每三位遍历一次，然后将逗号 <code>,</code> 插入其中，从而得到新的字符串，最后将新的字符串转换为 <code>String</code> 类型即可。注意，要在 <code>StringBuilder</code> 类型的字符串中插入 <code>,</code>，需要使用到 <code>insert()</code> 方法。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> JAVA30 统计字符串中字母出现次数</h2>
-<h3> 描述</h3>
-<p>给定一个字符串，随机输入一个字母，判断该字母在这个字符串中出现的次数</p>
-<h4> 输入描述</h4>
-<p>任意一个字母</p>
-<h4> 输出描述</h4>
-<p>字母在字符串中出现次数</p>
-<h3> 示例1</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 示例2</h3>
-<p>输入：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>输出：</p>
-<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 解答</h3>
-<p>要统计字符串中某字母出现的次数，那么遍历该字符串，然后利用字母和字符串的每一个字符相比较，如果相同则计数加 1，直到字符串末尾。注意，要获取字符串第 <code>index</code> 位的字符，需要使用 <code>charAt(index)</code> 方法。</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> ⏳ 联系</h2>
-<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
-<p>扫一扫，探索另一个全新的世界。</p>
-<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-]]></content>
-    <category term="Java 入门练习"/>
-    <published>2022-06-30T00:00:00.000Z</published>
   </entry>
 </feed>
