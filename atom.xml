@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2024-02-04T14:42:26.348Z</updated>
+  <updated>2024-02-05T00:09:49.469Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -29,7 +29,7 @@
     <title type="text">Redis 持久化</title>
     <id>https://cunyu1943.github.io/framework/redis/20221016-persistence.html</id>
     <link href="https://cunyu1943.github.io/framework/redis/20221016-persistence.html"/>
-    <updated>2024-02-04T14:40:43.000Z</updated>
+    <updated>2024-02-05T00:07:56.000Z</updated>
     <summary type="html"><![CDATA[<h1> Redis 持久化</h1>
 <h2> 什么是持久化？</h2>
 <p>所谓持久化，其实就是一种机制，它能够 <strong>将内存中的数据库状态保存到磁盘</strong> 中，从而防止服务器宕机导致内存数据丢失。<code>Redis</code> 的 <strong>数据都是存在内存中</strong> 的，一旦出现宕机等情况，所有数据将会丢失，而持久化机制则是为了应对这一突发故障而提出的机制。</p>
@@ -137,7 +137,7 @@
     <title type="text">PPT 模板免费下载</title>
     <id>https://cunyu1943.github.io/tutorial/efficiency/20220623-ppt-template.html</id>
     <link href="https://cunyu1943.github.io/tutorial/efficiency/20220623-ppt-template.html"/>
-    <updated>2024-02-04T14:40:43.000Z</updated>
+    <updated>2024-02-05T00:07:56.000Z</updated>
     <summary type="html"><![CDATA[<h1> PPT 模板免费下载</h1>
 <h2> 第 1 PPT</h2>
 <ul>
@@ -223,7 +223,7 @@
     <title type="text">macOS 中安装 Node.js</title>
     <id>https://cunyu1943.github.io/tutorial/efficiency/20221114-macos-install-node.html</id>
     <link href="https://cunyu1943.github.io/tutorial/efficiency/20221114-macos-install-node.html"/>
-    <updated>2024-02-04T14:40:43.000Z</updated>
+    <updated>2024-02-05T00:07:56.000Z</updated>
     <summary type="html"><![CDATA[<h1> macOS 中安装 Node.js</h1>
 <h2> 什么是 Node.js</h2>
 <p><code>Node.js</code> 是一个基于 <code>Chrome V8</code> 引擎的 <code>JavaScript</code> 运行时环境。最早发布于 2009 年 5 月，由 <code>Ryan Dahl</code> 开发。它使用了一个事件驱动、非阻塞式 <code>I/O</code> 模型，让 <code>JavaScript</code> 运行在服务端的开发平台，能让 <code>JavaScript</code> 成为 <code>PHP</code>、<code>Python</code>、<code>Perl</code>、<code>Ruby</code> 等服务端语言的脚本语言。</p>]]></summary>
