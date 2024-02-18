@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2024-02-17T09:17:34.729Z</updated>
+  <updated>2024-02-18T00:15:28.946Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -5890,7 +5890,7 @@ Spring 是一个分层架构，主要由如下 7 大模块所构成。Spring 模
     <title type="text">MyBatis 面试知识点</title>
     <id>https://cunyu1943.github.io/interview/knowledge/20210822-mybatis.html</id>
     <link href="https://cunyu1943.github.io/interview/knowledge/20210822-mybatis.html"/>
-    <updated>2024-02-16T12:22:26.000Z</updated>
+    <updated>2024-02-18T00:13:10.000Z</updated>
     <summary type="html"><![CDATA[<h1> MyBatis 面试知识点</h1>
 <h2> Hibernate 简介</h2>
 <h3> 什么是 Hibernate？</h3>
