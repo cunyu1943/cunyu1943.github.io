@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 18 Feb 2024 00:15:28 GMT</pubDate>
-    <lastBuildDate>Sun, 18 Feb 2024 00:15:28 GMT</lastBuildDate>
+    <pubDate>Sun, 18 Feb 2024 01:00:11 GMT</pubDate>
+    <lastBuildDate>Sun, 18 Feb 2024 01:00:11 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>数据结构与算法</category>
@@ -7620,7 +7620,7 @@ Spring 是一个分层架构，主要由如下 7 大模块所构成。Spring 模
 <figure><figcaption></figcaption></figure>
 <div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 测试</h3>
 <p>启动项目，然后在浏览器中访问 <code>http://localhost:8080/index</code>，如果出现下图中的信息，说明整合成功。</p>
-<figure><figcaption>https://s1.ax1x.com/2020/07/29/ae2Uf0.png</figcaption></figure>
+<figure><figcaption></figcaption></figure>
 <h2> 注意事项</h2>
 <p>为了方便使用，我们在使用 Thymeleaf 模板时，可以添加一些自己的配置。而添加的位置则是项目的配置文件 <code>application.yml</code>，项目默认配置文件应该是 <code>application.properties</code>，但 SpringBoot 更加推荐使用 yml 来配置，所以我们这里需要手动将其改为 yml 的格式。</p>
 <div class="language-properties line-numbers-mode" data-ext="properties"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 总结</h2>
