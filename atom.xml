@@ -4,10 +4,11 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2024-02-23T00:06:05.117Z</updated>
+  <updated>2024-02-25T11:36:26.497Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
+  <category term="好物周刊"/>
   <category term="数据结构与算法"/>
   <category term="Maven 系列"/>
   <category term="MyBatis 系列"/>
@@ -24,7 +25,104 @@
   <category term="项目实践"/>
   <category term="JavaScript 系列"/>
   <category term="Vue 3 系列"/>
-  <category term="关于"/>
+  <entry>
+    <title type="text">好物周刊#48：</title>
+    <id>https://cunyu1943.github.io/weekly/2024/0309-0315.html</id>
+    <link href="https://cunyu1943.github.io/weekly/2024/0309-0315.html"/>
+    <updated>2024-02-25T11:33:41.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 好物周刊#48：</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">原文</p>
+</div>
+<h2> 一、项目</h2>
+<h2> 二、软件</h2>
+<h2> 三、网站</h2>
+<h2> 四、插件</h2>
+<h2> 五、资料</h2>
+<h2> ✍️ 说明</h2>
+<p>周刊专栏相关信息：</p>]]></summary>
+    <content type="html"><![CDATA[<h1> 好物周刊#48：</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">原文</p>
+</div>
+<h2> 一、项目</h2>
+<h2> 二、软件</h2>
+<h2> 三、网站</h2>
+<h2> 四、插件</h2>
+<h2> 五、资料</h2>
+<h2> ✍️ 说明</h2>
+<p>周刊专栏相关信息：</p>
+<ul>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a> | <a href="https://yuque.com/cunyu1943" target="_blank" rel="noopener noreferrer">语雀</a></li>
+</ul>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<hr>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+]]></content>
+    <category term="好物周刊"/>
+    <published>2024-02-25T11:33:41.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">好物周刊#49：</title>
+    <id>https://cunyu1943.github.io/weekly/2024/0316-0322.html</id>
+    <link href="https://cunyu1943.github.io/weekly/2024/0316-0322.html"/>
+    <updated>2024-02-25T11:33:41.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 好物周刊#49：</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">原文</p>
+</div>
+<h2> 一、项目</h2>
+<h2> 二、软件</h2>
+<h2> 三、网站</h2>
+<h2> 四、插件</h2>
+<h2> 五、资料</h2>
+<h2> ✍️ 说明</h2>
+<p>周刊专栏相关信息：</p>]]></summary>
+    <content type="html"><![CDATA[<h1> 好物周刊#49：</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">原文</p>
+</div>
+<h2> 一、项目</h2>
+<h2> 二、软件</h2>
+<h2> 三、网站</h2>
+<h2> 四、插件</h2>
+<h2> 五、资料</h2>
+<h2> ✍️ 说明</h2>
+<p>周刊专栏相关信息：</p>
+<ul>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a> | <a href="https://yuque.com/cunyu1943" target="_blank" rel="noopener noreferrer">语雀</a></li>
+</ul>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<hr>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+]]></content>
+    <category term="好物周刊"/>
+    <published>2024-02-25T11:33:41.000Z</published>
+  </entry>
   <entry>
     <title type="text">数组的增删改查</title>
     <id>https://cunyu1943.github.io/cs-wiki/algo/20200510-arr-crud.html</id>
@@ -12116,73 +12214,5 @@ Spring 是一个分层架构，主要由如下 7 大模块所构成。Spring 模
     <link href="https://cunyu1943.github.io/java-tutorial/front-end/vue3/"/>
     <updated>2024-02-04T14:40:43.000Z</updated>
     <published>2024-02-04T14:40:43.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">编程语言</title>
-    <id>https://cunyu1943.github.io/program-language/</id>
-    <link href="https://cunyu1943.github.io/program-language/"/>
-    <updated>2024-02-04T10:23:47.000Z</updated>
-    <summary type="html"><![CDATA[<h2> C 语言</h2>
-<ol>
-<li><a href="/program-language/c/20180308-memory-manage.html" target="blank">C 语言：内存管理函数</a></li>
-<li><a href="/program-language/c/20180720-summary.html" target="blank">C 语言：知识点总结</a></li>
-</ol>
-<h2> C++</h2>
-<ol>
-<li><a href="/program-language/cpp/20180720-summary.html" target="blank">C++ 系列：知识点总结</a></li>
-</ol>]]></summary>
-    <content type="html"><![CDATA[<h2> C 语言</h2>
-<ol>
-<li><a href="/program-language/c/20180308-memory-manage.html" target="blank">C 语言：内存管理函数</a></li>
-<li><a href="/program-language/c/20180720-summary.html" target="blank">C 语言：知识点总结</a></li>
-</ol>
-<h2> C++</h2>
-<ol>
-<li><a href="/program-language/cpp/20180720-summary.html" target="blank">C++ 系列：知识点总结</a></li>
-</ol>
-<h2> Python</h2>
-<h3> 教程</h3>
-<ol>
-<li><a href="/program-language/python/tutorial/20210331-intro.html" target="blank">Python 教程：简介</a></li>
-<li><a href="/program-language/python/tutorial/20210401-pycharm.html" target="blank">Python 教程：玩转 Pycharm</a></li>
-<li><a href="/program-language/python/tutorial/20210402-language-element.html" target="blank">Python 教程：语言元素</a></li>
-<li><a href="/program-language/python/tutorial/20210403-condition.html" target="blank">Python 教程：条件判断、循环以及循环的终止</a></li>
-<li><a href="/program-language/python/tutorial/20220420-shopping.html" target="blank">Python 教程：购物车</a></li>
-<li><a href="/program-language/python/tutorial/20180429-turtle.html" target="blank">Python 教程：turtle 库使用</a></li>
-<li><a href="/program-language/python/tutorial/20180501-digital-time.html" target="blank">Python 教程：数码管绘制</a></li>
-<li><a href="/program-language/python/tutorial/20220421-polyglot-install.html" target="blank">Python 教程：Python 3.7 安装 polyglot 失败</a></li>
-</ol>
-<h3> 编程实例</h3>
-<ol>
-<li><a href="/program-language/python/instance/20181003-1-5.html" target="blank">编程实例（1 - 5）</a></li>
-<li><a href="/program-language/python/instance/20181004-6-10.html" target="blank">编程实例（6 - 10）</a></li>
-<li><a href="/program-language/python/instance/20181005-11-15.html" target="blank">编程实例（11 - 15）</a></li>
-<li><a href="/program-language/python/instance/20181006-16-20.html" target="blank">编程实例（16 - 20）</a></li>
-<li><a href="/program-language/python/instance/20181007-21-25.html" target="blank">编程实例（21 - 25）</a></li>
-<li><a href="/program-language/python/instance/20181008-26-30.html" target="blank">编程实例（26 - 30）</a></li>
-<li><a href="/program-language/python/instance/20181009-31-35.html" target="blank">编程实例（31 - 35）</a></li>
-<li><a href="/program-language/python/instance/20181010-36-40.html" target="blank">编程实例（36 - 40）</a></li>
-<li><a href="/program-language/python/instance/20181011-41-45.html" target="blank">编程实例（41 - 45）</a></li>
-<li><a href="/program-language/python/instance/20181012-46-50.html" target="blank">编程实例（46 - 50）</a></li>
-<li><a href="/program-language/python/instance/20181013-51-55.html" target="blank">编程实例（51 - 55）</a></li>
-</ol>
-]]></content>
-    <published>2024-02-04T03:26:59.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">关于</title>
-    <id>https://cunyu1943.github.io/about/</id>
-    <link href="https://cunyu1943.github.io/about/"/>
-    <updated>2024-02-04T03:26:59.000Z</updated>
-    <summary type="html"><![CDATA[<h2> 关于自己</h2>
-<h2> 关于学习</h2>
-<h2> 关于工作</h2>
-]]></summary>
-    <content type="html"><![CDATA[<h2> 关于自己</h2>
-<h2> 关于学习</h2>
-<h2> 关于工作</h2>
-]]></content>
-    <category term="关于"/>
-    <published>2024-02-03T15:18:16.000Z</published>
   </entry>
 </feed>
