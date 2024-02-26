@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 26 Feb 2024 10:15:40 GMT</pubDate>
-    <lastBuildDate>Mon, 26 Feb 2024 10:15:40 GMT</lastBuildDate>
+    <pubDate>Mon, 26 Feb 2024 13:11:01 GMT</pubDate>
+    <lastBuildDate>Mon, 26 Feb 2024 13:11:01 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>好物周刊</category>
@@ -27,6 +27,42 @@
     <category>项目实践</category>
     <category>JavaScript 系列</category>
     <category>Vue 3 系列</category>
+    <item>
+      <title>好物周刊#50：</title>
+      <link>https://cunyu1943.github.io/weekly/2024/0323-0329.html</link>
+      <guid>https://cunyu1943.github.io/weekly/2024/0323-0329.html</guid>
+      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#50：</source>
+      <description>好物周刊#50： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 二、软件 三、网站 四、插件 五、资料 ✍️ 说明 周刊专栏相关信息：</description>
+      <category>好物周刊</category>
+      <pubDate>Mon, 26 Feb 2024 13:08:10 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 好物周刊#50：</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">原文</p>
+</div>
+<h2> 一、项目</h2>
+<h2> 二、软件</h2>
+<h2> 三、网站</h2>
+<h2> 四、插件</h2>
+<h2> 五、资料</h2>
+<h2> ✍️ 说明</h2>
+<p>周刊专栏相关信息：</p>
+<ul>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a> | <a href="https://yuque.com/cunyu1943" target="_blank" rel="noopener noreferrer">语雀</a></li>
+</ul>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<hr>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+]]></content:encoded>
+      <enclosure url="https://cunyu1943.github.io/contact/wechatpublic.png =150x" type="image/"/>
+    </item>
     <item>
       <title>好物周刊#48：</title>
       <link>https://cunyu1943.github.io/weekly/2024/0309-0315.html</link>
@@ -48,6 +84,10 @@
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://www.autodraw.com/" target="_blank" rel="noopener noreferrer">AutoDraw</a></h3>
 <figure><figcaption></figcaption></figure>
+<h3> 2. <a href="https://www.lookssl.com/" target="_blank" rel="noopener noreferrer">LookSSL</a></h3>
+<p><code>SSL</code> 证书申请网站，既可以申请免费的，也可以支持单主域名和多个扩展域名的标准证书，还支持申请泛主域名和多个扩展域名的泛域名证书。</p>
+<h3> 3. <a href="https://www.51.la/" target="_blank" rel="noopener noreferrer">51LA</a></h3>
+<p>专注网站统计与数据分析行业 20 年，以数据统计分析为核心，驱动产品设计与运营策略，深入挖掘用户和产品需求，赋能商业决策。旗下拥有 51.LA  网站统计等多个数据分析平台，目前累计超过千万应用提供流量统计服务，致力于为开发者及中小企业提供专业的数据服务工具和解决方案。</p>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
 <h2> ✍️ 说明</h2>
@@ -69,7 +109,7 @@
       <link>https://cunyu1943.github.io/weekly/2024/0316-0322.html</link>
       <guid>https://cunyu1943.github.io/weekly/2024/0316-0322.html</guid>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#49：</source>
-      <description>好物周刊#49： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 二、软件 三、网站 四、插件 五、资料 ✍️ 说明 周刊专栏相关信息：</description>
+      <description>好物周刊#49： 共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 二、软件 三、网站 1. 字幕库</description>
       <category>好物周刊</category>
       <pubDate>Sun, 25 Feb 2024 11:33:41 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#49：</h1>
@@ -83,6 +123,11 @@
 <h2> 一、项目</h2>
 <h2> 二、软件</h2>
 <h2> 三、网站</h2>
+<h3> 1. <a href="https://srtku.com/" target="_blank" rel="noopener noreferrer">字幕库</a></h3>
+<h3> 2. <a href="https://subhd.tv/" target="_blank" rel="noopener noreferrer">SubHD</a></h3>
+<p>分享交流下载字幕平台，绝对是美剧、韩剧、日剧等爱好者但又看不懂生肉朋友的福地。</p>
+<h3> 3. <a href="https://r3sub.com/" target="_blank" rel="noopener noreferrer">R3 字幕网</a></h3>
+<p><code>R3</code> 字幕网提供最方便的字幕搜索、电影简介、电影剧照、电影评分。</p>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
 <h2> ✍️ 说明</h2>
@@ -11539,13 +11584,6 @@ Spring 是一个分层架构，主要由如下 7 大模块所构成。Spring 模
 <div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 元素的显示与隐藏</h2>
 <p>要实现元素的显示与隐藏，我们可以通过 <code>v-show</code> 这个指令，它会根据表达式的真假，来切换元素的显示和隐藏状态。</p>
 <div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
-    </item>
-    <item>
-      <title>Vue 3 系列</title>
-      <link>https://cunyu1943.github.io/java-tutorial/front-end/vue3/</link>
-      <guid>https://cunyu1943.github.io/java-tutorial/front-end/vue3/</guid>
-      <source url="https://cunyu1943.github.io/rss.xml">Vue 3 系列</source>
-      <pubDate>Sun, 04 Feb 2024 14:40:43 GMT</pubDate>
     </item>
   </channel>
 </rss>
