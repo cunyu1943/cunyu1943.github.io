@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 28 Feb 2024 09:40:24 GMT</pubDate>
-    <lastBuildDate>Wed, 28 Feb 2024 09:40:24 GMT</lastBuildDate>
+    <pubDate>Thu, 29 Feb 2024 10:56:23 GMT</pubDate>
+    <lastBuildDate>Thu, 29 Feb 2024 10:56:23 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>好物周刊</category>
@@ -135,6 +135,9 @@
 <figure><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
+<h3> 1. <a href="https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes" target="_blank" rel="noopener noreferrer">吴恩达机器学习笔记</a></h3>
+<p>吴恩达老师的机器学习课程个人笔记</p>
+<figure><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
