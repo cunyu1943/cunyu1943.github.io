@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 05 Mar 2024 00:19:26 GMT</pubDate>
-    <lastBuildDate>Tue, 05 Mar 2024 00:19:26 GMT</lastBuildDate>
+    <pubDate>Tue, 05 Mar 2024 13:48:08 GMT</pubDate>
+    <lastBuildDate>Tue, 05 Mar 2024 13:48:08 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>效率工具</category>
@@ -142,14 +142,14 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>好物周刊#：</title>
+      <title>好物周刊#51：</title>
       <link>https://cunyu1943.github.io/weekly/2024/0330-0405.html</link>
       <guid>https://cunyu1943.github.io/weekly/2024/0330-0405.html</guid>
-      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#：</source>
+      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#51：</source>
       <description>共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 二、软件 三、网站 1. 软仓 (https://www.ruancang.net/) 软件收录仓库，截至目前已收录 416 个专业软件，提供免费学习，免费下载。 四、插件 五、资料 ✍️ 说明 周刊专栏相关信息： 项目地址：Github (https://github.com/cunyu...</description>
       <category>好物周刊</category>
       <pubDate>Tue, 05 Mar 2024 00:17:33 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 好物周刊#：</h1>
+      <content:encoded><![CDATA[<h1> 好物周刊#51：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
@@ -220,7 +220,7 @@
       <link>https://cunyu1943.github.io/weekly/2024/0323-0329.html</link>
       <guid>https://cunyu1943.github.io/weekly/2024/0323-0329.html</guid>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#50：</source>
-      <description>共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 二、软件 三、网站 ### 1. 面试狗 (https://interview.dog) 面试神器辅助面试面试助手，史上最强面试辅助工具。实时面试助手，快速识别面试官问题，自动回答。 2. 3D 卡通头像 (https://peeps.ui8.net/) 3. 搬书匠 (http://ww...</description>
+      <description>共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 二、软件 三、网站 1. 面试狗 (https://interview.dog) 面试神器辅助面试面试助手，史上最强面试辅助工具。实时面试助手，快速识别面试官问题，自动回答。 2. 3D 卡通头像 (https://peeps.ui8.net/) 3. 搬书匠 (http://www.ba...</description>
       <category>好物周刊</category>
       <pubDate>Mon, 26 Feb 2024 13:08:10 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#50：</h1>
@@ -234,7 +234,7 @@
 <h2> 一、项目</h2>
 <h2> 二、软件</h2>
 <h2> 三、网站</h2>
-<h3> ### 1. <a href="https://interview.dog" target="_blank" rel="noopener noreferrer">面试狗</a></h3>
+<h3> 1. <a href="https://interview.dog" target="_blank" rel="noopener noreferrer">面试狗</a></h3>
 <p>面试神器|辅助面试|面试助手，史上最强面试辅助工具。实时面试助手，快速识别面试官问题，自动回答。</p>
 <figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://peeps.ui8.net/" target="_blank" rel="noopener noreferrer">3D 卡通头像</a></h3>
@@ -354,6 +354,8 @@
 <p><code>R3</code> 字幕网提供最方便的字幕搜索、电影简介、电影剧照、电影评分。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
+<h3> 1. <a href="https://chromewebstore.google.com/detail/%E4%BB%80%E4%B9%88%E5%AD%97%E4%BD%93-%E6%89%BE%E5%AD%97%E4%BD%93/acpcapnaopbhbelhmbbmppghilclpkep" target="_blank" rel="noopener noreferrer">什么字体</a></h3>
+<p>通过该插件，能够知道自己当前正在浏览的网站所用的字体。</p>
 <h2> 五、资料</h2>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
