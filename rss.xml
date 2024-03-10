@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 09 Mar 2024 09:14:56 GMT</pubDate>
-    <lastBuildDate>Sat, 09 Mar 2024 09:14:56 GMT</lastBuildDate>
+    <pubDate>Sun, 10 Mar 2024 13:44:15 GMT</pubDate>
+    <lastBuildDate>Sun, 10 Mar 2024 13:44:15 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>效率工具</category>
@@ -263,7 +263,7 @@
       <link>https://cunyu1943.github.io/weekly/2024/0309-0315.html</link>
       <guid>https://cunyu1943.github.io/weekly/2024/0309-0315.html</guid>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#48：</source>
-      <description>共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 二、软件 1. Gopeed (https://gopeed.com/zh-CN) 一款现代化的下载器。开源、轻量、原生，支持（HTTP、`BitTorrent、Magnet 等）协议下载。 三、网站 1. AutoDraw (https://www.autodraw.com/) 2. L...</description>
+      <description>共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1. vfox (https://github.com/version-fox/vfox) 一个跨平台版本管理器（类似于 nvm、`fvm、sdkman、asdf-vm 等），可通过插件扩展。允许快速安装和切换需要的环境。 2. 智能微秘书 (https://github.com/leoc...</description>
       <category>好物周刊</category>
       <pubDate>Sun, 25 Feb 2024 11:33:41 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#48：</h1>
@@ -275,10 +275,26 @@
 <p class="hint-container-title">原文</p>
 </div>
 <h2> 一、项目</h2>
+<h3> 1. <a href="https://github.com/version-fox/vfox" target="_blank" rel="noopener noreferrer">vfox</a></h3>
+<p>一个跨平台版本管理器（类似于 <code>nvm</code>、<code>fvm</code>、<code>sdkman</code>、<code>asdf-vm</code> 等），可通过插件扩展。允许快速安装和切换需要的环境。</p>
+<h3> 2. <a href="https://github.com/leochen-g/wechat-assistant-pro" target="_blank" rel="noopener noreferrer">智能微秘书</a></h3>
+<p>一个全能的微信机器人管理平台，最简单的方式接入 <code>ChatGPT</code>，<code>FastGPT</code>，<code>Dify</code> 知识库，支持绘图，联网查询，语音识别，各种定时任务，支持企微、个微、公众号、<code>5G</code> 消息、<code>WhatsApp</code>。</p>
 <h2> 二、软件</h2>
 <h3> 1. <a href="https://gopeed.com/zh-CN" target="_blank" rel="noopener noreferrer">Gopeed</a></h3>
 <p>一款现代化的下载器。开源、轻量、原生，支持（<code>HTTP</code>、<code>BitTorrent</code>、<code>Magnet</code> 等）协议下载。</p>
 <figure><figcaption></figcaption></figure>
+<h3> 2. <a href="https://yaak.app/" target="_blank" rel="noopener noreferrer">Yaak</a></h3>
+<p><code>API</code> 调试工具，具有以下特点：</p>
+<ul>
+<li>支持多种请求类型</li>
+<li>定义环境变量</li>
+<li>批量请求</li>
+<li><code>Cookie</code> 管理</li>
+<li>数据本地化</li>
+<li>……</li>
+</ul>
+<h3> 3. <a href="https://github.com/suziwen/markdownxiaoshujiang" target="_blank" rel="noopener noreferrer">小书匠</a></h3>
+<p>一款本地优先，去中心化，分布式，支持选择性同步的全平台覆盖知识管理笔记软件。</p>
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://www.autodraw.com/" target="_blank" rel="noopener noreferrer">AutoDraw</a></h3>
 <figure><figcaption></figcaption></figure>
@@ -310,8 +326,10 @@
 <figure><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes" target="_blank" rel="noopener noreferrer">吴恩达机器学习笔记</a></h3>
-<p>吴恩达老师的机器学习课程个人笔记</p>
+<p>吴恩达老师的机器学习课程个人笔记。</p>
 <figure><figcaption></figcaption></figure>
+<h3> 2. <a href="https://github.com/mao888/golang-guide" target="_blank" rel="noopener noreferrer">Golang-Guide</a></h3>
+<p>「<code>Golang</code> 学习 + 面试指南」一份涵盖大部分 <code>Golang</code> 程序员所需要掌握的核心知识。</p>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
