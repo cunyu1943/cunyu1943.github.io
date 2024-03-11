@@ -6,11 +6,10 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 10 Mar 2024 13:44:15 GMT</pubDate>
-    <lastBuildDate>Sun, 10 Mar 2024 13:44:15 GMT</lastBuildDate>
+    <pubDate>Mon, 11 Mar 2024 15:23:49 GMT</pubDate>
+    <lastBuildDate>Mon, 11 Mar 2024 15:23:49 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <category>效率工具</category>
     <category>好物周刊</category>
     <category>数据结构与算法</category>
     <category>Maven 系列</category>
@@ -18,6 +17,7 @@
     <category>Spring 系列</category>
     <category>Java 基础</category>
     <category>博客搭建</category>
+    <category>效率工具</category>
     <category>Spring Boot 2.7.x</category>
     <category>MyBatis Plus</category>
     <category>Redis 教程</category>
@@ -28,125 +28,11 @@
     <category>JavaScript 系列</category>
     <category>Vue 3 系列</category>
     <item>
-      <title>如何压缩截图同时添加水印</title>
-      <link>https://cunyu1943.github.io/tutorial/efficiency/20240305-sharex-watermark-compress.html</link>
-      <guid>https://cunyu1943.github.io/tutorial/efficiency/20240305-sharex-watermark-compress.html</guid>
-      <source url="https://cunyu1943.github.io/rss.xml">如何压缩截图同时添加水印</source>
-      <description>不要哀求，学会争取。若是如此，终有所获。 原文： 一、前言 想必看过我文章的小伙伴都发现了，大部分我文章里的图片都添加了水印。同时，我还把文章都同步到了利用 Github/Gitee Pages 搭建的博客里。如果还没访问过，那还不赶紧去加入收藏夹 👇： https://cunyu1943.github.io https://cunyu1943.gi...</description>
-      <category>效率工具</category>
-      <pubDate>Tue, 05 Mar 2024 00:17:33 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 如何压缩截图同时添加水印</h1>
-<div class="hint-container info">
-<p class="hint-container-title">相关信息</p>
-<p>不要哀求，学会争取。若是如此，终有所获。</p>
-</div>
-<div class="hint-container tip">
-<p class="hint-container-title">提示</p>
-<p>原文：</p>
-</div>
-<h2> 一、前言</h2>
-<p>想必看过我文章的小伙伴都发现了，大部分我文章里的图片都添加了水印。同时，我还把文章都同步到了利用 <code>Github/Gitee Pages</code> 搭建的博客里。如果还没访问过，那还不赶紧去加入收藏夹 👇：</p>
-<blockquote>
-<p>https://cunyu1943.github.io</p>
-<p>https://cunyu1943.gitee.io</p>
-</blockquote>
-<p>不过有个问题，<code>Github/Gitee Pages</code> 公共仓库都有容量限制的问题。虽说只是文字占不了多少存储，但是文章里的图片可是消耗了不少的空间。为了尽量避免满仓，我都把文章里的图片压缩成了 <code>.webp</code> 格式，从一定程度上缓解了容量焦虑。</p>
-<p>屏幕前的你是不是很疑惑，把图片加水印同时压缩体积，我是怎么做到的呢？工作量是不是很大呢？</p>
-<p>其实不然，文章里的图片大多都是截的图，所以完成水印添加和压缩的操作其实主要就借助了一款截图软件。</p>
-<p>下面，就来介绍下这款强大的软件，以及如何利用它来截图的同时来添加水印并压缩为 <code>.webp</code> 格式。</p>
-<h2> 二、软件安装</h2>
-<p>首先，当然是要安装今天文章的主角，开源强大的截图软件 - <code>ShareX</code>。</p>
-<p>不过各位看官老爷需要注意，该软件目前仅支持 <code>Windows</code>，所以如果是使用 <code>macOS</code> 系统的朋友就得另寻他法了（这也是为啥我文章里的图有的有水印，有的没水印 😂）。</p>
-<blockquote>
-<p>⛩️ 下载地址：https://getsharex.com/</p>
-</blockquote>
-<p>下载完成后，就是 <code>Windows</code> 中最简单的下一步下一步点就完事了。不过考虑到不同的需求，这里还是给大家更加详细点的教程。</p>
-<p>第一步：去官网下载安装包。</p>
-<figure><figcaption></figcaption></figure>
-<p>第二步：双击下载后的安装包，同意相关协议。</p>
-<figure><figcaption></figcaption></figure>
-<p>第三步：根据自己需要选择是否要创建快捷方式、集成文件管理器的右键上下文菜单、是否开机自启动。</p>
-<figure><figcaption></figcaption></figure>
-<figure><figcaption></figcaption></figure>
-<p>第四步：等待安装过程跑完，直到最后安装完成启动即可。</p>
-<figure><figcaption></figcaption></figure>
-<figure><figcaption></figcaption></figure>
-<h2> 三、添加水印</h2>
-<p>安装完成后，最简单的截图功能就有了。<code>ShareX</code> 支持多种截图方式，还能录制 <code>gif</code> 和视频，可谓是六边形战士了。</p>
-<p>接下来，我们就先来看看，如何在截图的同时添加水印。</p>
-<p>第一步：打开 <code>ShareX</code> 的 <strong>动作设置</strong>，然后依次点击 <strong>图像 -&gt; 特效 -&gt; 图像特像配置</strong>。</p>
-<figure><figcaption></figcaption></figure>
-<p>第二步：点击预设下的绿色 <code>+</code>，接着点击效果下的绿色 <code>+</code>，选择绘图下的 <code>Text watermark</code>，然后设置你的水印相关参数就可以了。</p>
-<figure><figcaption></figcaption></figure>
-<p>新增文本水印参数时，注意下水印的几个关键参数，其他的参数可以根据自己的需要进行自行调整。</p>
-<ul>
-<li><code>Text</code>：水印内容</li>
-<li><code>Placement</code>：水印位置</li>
-<li><code>TextFont</code>：水印内容字体</li>
-<li><code>TextColor</code>：水印字体颜色</li>
-<li><code>DrawBackground</code>：是否需要水印背景</li>
-</ul>
-<p>以下是我的水印相关参数，给大家提供一个参考。设置完成后，你也应该可以得到类似下图中的水印设置。</p>
-<figure><figcaption></figcaption></figure>
-<p>第三步：完成水印参数的设置后，需要在 <strong>截图后的任务</strong> 中，勾选以下两项操作：</p>
-<ul>
-<li>添加图像特效</li>
-<li>图像复制到剪贴板</li>
-</ul>
-<p>这样一来，当你再去截图时，就会自动给你的截图加上设置的水印了。这时候带有水印的图片就已经在你的剪贴板了，只需要 <code>Ctrl + V</code> 即可粘贴。</p>
-<figure><figcaption></figcaption></figure>
-<h2> 四、压缩为 webp</h2>
-<p>到这里，针对截图后添加水印的操作就已经完成了。那接下来继续看看，怎么给截的图压缩为 <code>.webp</code> 格式。</p>
-<p>目前来说，只是借助 <code>ShareX</code> 是没办法做到压缩的，这里还需要借助另一个软件 <code>FFmpeg</code>。</p>
-<h3> 1. FFmpeg 安装</h3>
-<p>首先，通过以下链接去下载最新版本的 <code>FFmpeg</code>。</p>
-<ul>
-<li><a href="https://github.com/BtbN/FFmpeg-Builds/releases" target="_blank" rel="noopener noreferrer">FFmpeg 最新版下载地址</a></li>
-</ul>
-<figure><figcaption></figcaption></figure>
-<p>然后，安装的方式也很简单，把下载后的压缩包解压就行了。这里建议解压放到纯英文的路径下，尽量不要带有中文和空格之类的特殊字符。</p>
-<figure><figcaption></figcaption></figure>
-<h3> 2. 压缩转换配置</h3>
-<p><code>FFmpeg</code> 安装完成后，我们接着来做压缩转换相关的配置。</p>
-<p>第一步：打开 <code>ShareX</code> 的 <strong>动作设置</strong>，选择 <strong>图像</strong> 栏，然后将 <strong>图像格式</strong> 设置为 <code>png</code>。</p>
-<figure><figcaption></figcaption></figure>
-<p>第二步：选择 <strong>动作</strong> 栏，在右侧进行添加一个新的动作。动作的相关参数如下：</p>
-<ul>
-<li>名称：随意设置。</li>
-<li>文件路径：上面步骤中 <code>FFmpeg</code> 的安装路径，注意这里一定要指定到 <code>FFmpeg.exe</code> 可执行文件。</li>
-<li>参数：<code>-i "$input" -q 50 "$output"</code>，其中 <code>-q 50</code> 代表以 50% 的质量压缩，数值越小，压缩越狠。</li>
-<li>输出文件的扩展名：<code>webp</code></li>
-<li>扩展名筛选：<code>png</code>，这也是为什么需要先统一设置图像格式为 <code>png</code>。</li>
-</ul>
-<p>接着，勾选上 <strong>隐藏窗口</strong> 和 <strong>删除输入文件</strong> 配置，点击确定即可。</p>
-<figure><figcaption></figcaption></figure>
-<p>第三步：配置完成后，同样需要在 <strong>截图后的任务</strong> 中，勾选以下几项：</p>
-<ul>
-<li>保存图像文件</li>
-<li>执行操作</li>
-<li>将文件复制到剪贴板</li>
-</ul>
-<figure><figcaption></figcaption></figure>
-<h2> 五、总结</h2>
-<p>经过我们的一番设置，就能在截图的时候实现添加水印的同时压缩为 <code>.webp</code> 格式了，是不是很方便？</p>
-<p>如果我们要同时实现以上两项特色功能，需要注意，在截图后的任务中，一定要勾选上以下五项设置：</p>
-<ul>
-<li>添加图像特效</li>
-<li>图像复制到剪贴板</li>
-<li>保存图像文件</li>
-<li>执行操作</li>
-<li>将文件复制到剪贴板</li>
-</ul>
-<p>说了这么多，赶紧去实操试试吧，相信你也能轻松搞定。</p>
-<p>注意，有时候压缩不生效可能是因为 <code>FFmpeg</code> 不是最新版导致的。这时候你只需要到上面提到的下载地址去下载最新版本的 <code>FFmpeg</code>，然后解压后覆盖掉之前的版本就可以了。</p>
-]]></content:encoded>
-    </item>
-    <item>
       <title>好物周刊#51：</title>
       <link>https://cunyu1943.github.io/weekly/2024/0330-0405.html</link>
       <guid>https://cunyu1943.github.io/weekly/2024/0330-0405.html</guid>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#51：</source>
-      <description>共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 二、软件 三、网站 1. 软仓 (https://www.ruancang.net/) 软件收录仓库，截至目前已收录 416 个专业软件，提供免费学习，免费下载。 四、插件 五、资料 ✍️ 说明 周刊专栏相关信息： 项目地址：Github (https://github.com/cunyu...</description>
+      <description>共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 二、软件 三、网站 1. 软仓 (https://www.ruancang.net/) 软件收录仓库，截至目前已收录 416 个专业软件，提供免费学习，免费下载。 2. 读者阁 (https://duzhege.cn/) PDF 原貌版电子杂志免费在线阅读、下载。 四、插件 五、资料 ✍️...</description>
       <category>好物周刊</category>
       <pubDate>Tue, 05 Mar 2024 00:17:33 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#51：</h1>
@@ -163,6 +49,8 @@
 <h3> 1. <a href="https://www.ruancang.net/" target="_blank" rel="noopener noreferrer">软仓</a></h3>
 <p>软件收录仓库，截至目前已收录 <strong>416</strong> 个专业软件，提供免费学习，免费下载。</p>
 <figure><figcaption></figcaption></figure>
+<h3> 2. <a href="https://duzhege.cn/" target="_blank" rel="noopener noreferrer">读者阁</a></h3>
+<p><code>PDF</code> 原貌版电子杂志免费在线阅读、下载。</p>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
 <h2> ✍️ 说明</h2>
@@ -279,6 +167,8 @@
 <p>一个跨平台版本管理器（类似于 <code>nvm</code>、<code>fvm</code>、<code>sdkman</code>、<code>asdf-vm</code> 等），可通过插件扩展。允许快速安装和切换需要的环境。</p>
 <h3> 2. <a href="https://github.com/leochen-g/wechat-assistant-pro" target="_blank" rel="noopener noreferrer">智能微秘书</a></h3>
 <p>一个全能的微信机器人管理平台，最简单的方式接入 <code>ChatGPT</code>，<code>FastGPT</code>，<code>Dify</code> 知识库，支持绘图，联网查询，语音识别，各种定时任务，支持企微、个微、公众号、<code>5G</code> 消息、<code>WhatsApp</code>。</p>
+<h3> 3. <a href="https://github.com/guanshuicheng/invoice" target="_blank" rel="noopener noreferrer">invoice</a></h3>
+<p>增值税发票 <code>OCR</code> 识别，使用 <code>flask</code> 微服务架构。支持识别：增值税电子普通发票、增值税普通发票、增值税专用发票。主要识别发票中的字段为：发票代码、发票号码、开票日期、校验码、税后金额等。</p>
 <h2> 二、软件</h2>
 <h3> 1. <a href="https://gopeed.com/zh-CN" target="_blank" rel="noopener noreferrer">Gopeed</a></h3>
 <p>一款现代化的下载器。开源、轻量、原生，支持（<code>HTTP</code>、<code>BitTorrent</code>、<code>Magnet</code> 等）协议下载。</p>
@@ -330,6 +220,9 @@
 <figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://github.com/mao888/golang-guide" target="_blank" rel="noopener noreferrer">Golang-Guide</a></h3>
 <p>「<code>Golang</code> 学习 + 面试指南」一份涵盖大部分 <code>Golang</code> 程序员所需要掌握的核心知识。</p>
+<h3> 3. <a href="https://github.com/cnymw/GolangStudy" target="_blank" rel="noopener noreferrer">GolangStudy</a></h3>
+<p>指导程序员们如何从基础开始系统的学习 <code>Go</code> 语言，并学习开发时所需知识点。</p>
+<p>通过短视频、文字、思维导图、面试真题等方面来学习，而且还支持移动端，让你随时随地打开手机就能学。</p>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
@@ -379,10 +272,12 @@
 <p>一个美观，轻量，可自定义的主页。</p>
 <p>每当你打开一个新的窗口或标签，迎接你的将是这个看起来很简约的页面，这将有助于你的宁静和生产力。由于其华丽的高质量背景根据一天的心情而变化，你的新标签将永远感到新鲜。</p>
 <figure><figcaption></figcaption></figure>
-<h3> 3. <a href="https://chromewebstore.google.com/detail/cofdbpoegempjloogbagkncekinflcnj" target="_blank" rel="noopener noreferrer">DeepL&nbsp;翻译</a></h3>
-<p>无需离开浏览器，你便可以享受 <code>DeepL</code>&nbsp;无与伦比的翻译质量。 轻松翻译你在 <code>Chrome</code>&nbsp;浏览器内阅读或输入的任何内容。如果你是 <code>DeepL Pro</code>&nbsp;用户，还可以进行全网页翻译。 如果你需要翻译任何文本，请先选择该文本，并点击随之出现的 <code>DeepL</code>&nbsp;图标。如果你想在 <code>Chrome</code>&nbsp;浏览器上使用 <code>DeepL</code>&nbsp;更快捷地翻译你所读写的内容，还可以在设置中自定义快捷方式。</p>
+<h3> 3. <a href="https://chromewebstore.google.com/detail/cofdbpoegempjloogbagkncekinflcnj" target="_blank" rel="noopener noreferrer">DeepL 翻译</a></h3>
+<p>无需离开浏览器，你便可以享受 <code>DeepL</code> 无与伦比的翻译质量。 轻松翻译你在 <code>Chrome</code> 浏览器内阅读或输入的任何内容。如果你是 <code>DeepL Pro</code> 用户，还可以进行全网页翻译。 如果你需要翻译任何文本，请先选择该文本，并点击随之出现的 <code>DeepL</code> 图标。如果你想在 <code>Chrome</code> 浏览器上使用 <code>DeepL</code> 更快捷地翻译你所读写的内容，还可以在设置中自定义快捷方式。</p>
 <figure><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
+<h3> 1. <a href="https://github.com/6174/comflowy" target="_blank" rel="noopener noreferrer">Comflowy</a></h3>
+<p>探索 <code>ComfyUI</code> 的无限可能，致力于以 <code>ComfyUI</code> 和 <code>Stable Diffusion</code> 为核心，打造更优质的生产工具、构建开发者与用户内容社区。</p>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
@@ -11640,6 +11535,74 @@ Spring 是一个分层架构，主要由如下 7 大模块所构成。Spring 模
       <guid>https://cunyu1943.github.io/framework/redis/</guid>
       <source url="https://cunyu1943.github.io/rss.xml">Redis</source>
       <pubDate>Sun, 04 Feb 2024 14:40:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>PPT 模板免费下载</title>
+      <link>https://cunyu1943.github.io/tutorial/efficiency/20220623-ppt-template.html</link>
+      <guid>https://cunyu1943.github.io/tutorial/efficiency/20220623-ppt-template.html</guid>
+      <source url="https://cunyu1943.github.io/rss.xml">PPT 模板免费下载</source>
+      <description>第 1 PPT 官网 (https://www.1ppt.com/); 这里有海量 PPT 素材、幻灯片背景图片、PPT 模板供你选择下载。资源分类丰富，主要分为以下几个大类： 1. PPT 模板 2. 行业 PPT 3. 节日 PPT 4. PPT 背景 5. PPT 素材 6. PPT 图表 7. PPT 下载 8. PPT 课件 9. Offic...</description>
+      <category>效率工具</category>
+      <pubDate>Thu, 23 Jun 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> PPT 模板免费下载</h1>
+<h2> 第 1 PPT</h2>
+<ul>
+<li><a href="https://www.1ppt.com/" target="_blank" rel="noopener noreferrer">官网</a></li>
+</ul>
+<p>这里有海量 <code>PPT</code> 素材、幻灯片背景图片、<code>PPT</code> 模板供你选择下载。资源分类丰富，主要分为以下几个大类：</p>
+<ol>
+<li><code>PPT</code> 模板</li>
+<li>行业 <code>PPT</code></li>
+<li>节日 <code>PPT</code></li>
+<li><code>PPT</code> 背景</li>
+<li><code>PPT</code> 素材</li>
+<li><code>PPT</code> 图表</li>
+<li><code>PPT</code> 下载</li>
+<li><code>PPT</code> 课件</li>
+<li><code>Office</code> 教程</li>
+<li>字体下载</li>
+<li><code>PPT</code> 音效等</li>
+</ol>
+<figure><figcaption></figcaption></figure>
+<h2> PPT 超级市场</h2>
+<ul>
+<li><a href="https://www.pptsupermarket.com/" target="_blank" rel="noopener noreferrer">官网</a></li>
+</ul>
+<p>听名字就知道，这里是就像超市一样，提供各式各样的 <code>PPT</code> 作品和相关服务。这里不仅提供免费、优质、高效、安全的 <code>PPT</code> 模板下载，还提供 <code>PPT</code> 定制化增值服务，无论是想白嫖还是花钱买省心，都可以来这里来试试。网站主要分为 <code>PPT</code> 模板、<code>PPT</code> 作品/文案、<code>PPT</code> 定制、<code>PPT</code> 工具、<code>PPT</code> 教程等模块。</p>
+<figure><figcaption></figcaption></figure>
+<h2> PPT 课件网</h2>
+<ul>
+<li><a href="http://www.pptkj.net/" target="_blank" rel="noopener noreferrer">官网</a></li>
+</ul>
+<p>主要提供免费的 <code>PPT</code> 课件下载，这里汇聚了基本上从小学、初中、高中到大学期间所有年级的 <code>PPT</code> 课件，主要包括语文、数学、英语、物理、化学、生物、地理、历史、政治、科学、音乐、美术、信息等科目的 <code>PPT</code>。如果你刚好是一位教育行业从事者，那么相信这个网站一定会对你大有帮助。</p>
+<figure><figcaption></figcaption></figure>
+<h2> 吾道</h2>
+<ul>
+<li><a href="https://www.woodo.cn/design/template/" target="_blank" rel="noopener noreferrer">官网</a></li>
+</ul>
+<p>提供免版权的幻灯片模板，素材广场中还有其他共享文库、图片、视频、音乐、茶花园、营销设计、音效、矢量、贴纸等素材等你来下载！</p>
+<figure><figcaption></figcaption></figure>
+<h2> 优品 PPT</h2>
+<ul>
+<li><a href="https://www.ypppt.com/" target="_blank" rel="noopener noreferrer">官网</a></li>
+</ul>
+<p>官网自称为：一个有轻快的免费 <code>PPT</code> 模板下载网站！这里有各种 <code>PPT</code> 模板、背景、图表、素材、教程、课件等资源，主要分为 <code>PPT</code> 模板、<code>PPT</code> 背景、<code>PPT</code> 图表、<code>PPT</code> 素材、<code>PPT</code> 教程、节日 <code>PPT</code>、字体库、<code>PPT</code> 课件等 8 大模块。</p>
+<figure><figcaption></figcaption></figure>
+<h2> 站长素材</h2>
+<ul>
+<li><a href="https://sc.chinaz.com/ppt/" target="_blank" rel="noopener noreferrer">官网</a></li>
+</ul>
+<p>站长之家下的一个子网站，提供各种商用图库、图片、字体、<code>PPT</code>、简历、表格、音效、<code>PSD</code> 等超多资源下载，虽然有的模板需要开通会员才能洗澡，但是免费的就已经很多了，绝对够你用！</p>
+<figure><figcaption></figcaption></figure>
+<h2> 叮当设计</h2>
+<ul>
+<li><a href="https://www.dingdangsheji.com/" target="_blank" rel="noopener noreferrer">官网</a></li>
+</ul>
+<p>分享优秀设计资源，主要分为 <code>PPT</code> 模板、<code>PPT</code> 教程、<code>PSD</code>、矢量图、<code>XD</code>、<code>Sketch</code>、<code>Figma</code> 等栏目，还支持全站搜索，身为设计师的你，还不赶紧去看看？</p>
+<figure><figcaption></figcaption></figure>
+<h2> 总结</h2>
+<p>以上就是今天分享的几个可以免费下载 <code>PPT</code> 模板的网站了，除开免费下载 <code>PPT</code> 模板之外，各个网站还提供了其他各种素材供君下载。如果你刚好有这方面的需求，何不去看看有没有合适的资源呢？</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>
