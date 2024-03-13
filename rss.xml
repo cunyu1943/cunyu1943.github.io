@@ -6,10 +6,11 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 12 Mar 2024 15:04:41 GMT</pubDate>
-    <lastBuildDate>Tue, 12 Mar 2024 15:04:41 GMT</lastBuildDate>
+    <pubDate>Wed, 13 Mar 2024 11:04:07 GMT</pubDate>
+    <lastBuildDate>Wed, 13 Mar 2024 11:04:07 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>效率工具</category>
     <category>好物周刊</category>
     <category>数据结构与算法</category>
     <category>Maven 系列</category>
@@ -17,7 +18,6 @@
     <category>Spring 系列</category>
     <category>Java 基础</category>
     <category>博客搭建</category>
-    <category>效率工具</category>
     <category>Spring Boot 2.7.x</category>
     <category>MyBatis Plus</category>
     <category>Redis 教程</category>
@@ -27,6 +27,49 @@
     <category>项目实践</category>
     <category>JavaScript 系列</category>
     <category>Vue 3 系列</category>
+    <item>
+      <title>Miniconda</title>
+      <link>https://cunyu1943.github.io/tutorial/efficiency/20240313-miniconda.html</link>
+      <guid>https://cunyu1943.github.io/tutorial/efficiency/20240313-miniconda.html</guid>
+      <source url="https://cunyu1943.github.io/rss.xml">Miniconda</source>
+      <description>下载 https://docs.anaconda.com/free/miniconda/index.html 安装</description>
+      <category>效率工具</category>
+      <pubDate>Wed, 13 Mar 2024 11:02:23 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> Miniconda</h1>
+<h2> 下载</h2>
+<p>https://docs.anaconda.com/free/miniconda/index.html</p>
+<figure><figcaption></figcaption></figure>
+<h2> 安装</h2>
+<figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>MobaXterm</title>
+      <link>https://cunyu1943.github.io/tutorial/efficiency/20240313-mobaxterm.html</link>
+      <guid>https://cunyu1943.github.io/tutorial/efficiency/20240313-mobaxterm.html</guid>
+      <source url="https://cunyu1943.github.io/rss.xml">MobaXterm</source>
+      <description>下载 https://mobaxterm.mobatek.net/download-home-edition.html 安装</description>
+      <category>效率工具</category>
+      <pubDate>Wed, 13 Mar 2024 11:02:23 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> MobaXterm</h1>
+<h2> 下载</h2>
+<p>https://mobaxterm.mobatek.net/download-home-edition.html</p>
+<figure><figcaption></figcaption></figure>
+<h2> 安装</h2>
+<figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+]]></content:encoded>
+    </item>
     <item>
       <title>好物周刊#51：</title>
       <link>https://cunyu1943.github.io/weekly/2024/0330-0405.html</link>
@@ -51,8 +94,10 @@
 <figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://duzhege.cn/" target="_blank" rel="noopener noreferrer">读者阁</a></h3>
 <p><code>PDF</code> 原貌版电子杂志免费在线阅读、下载。</p>
+<figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://aspoem.com/zh-Hans" target="_blank" rel="noopener noreferrer">AsPoem</a></h3>
 <p>现代化的中国诗词学习网站，提供全站搜索、拼音标注、注释和白话文翻译等功能。无论您对唐诗宋词感兴趣还是想深入学习，都是您的理想选择，从这里开始您的诗歌之旅！</p>
+<figure><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://github.com/datawhalechina/llm-universe" target="_blank" rel="noopener noreferrer">动手学大模型应用开发</a></h3>
@@ -66,10 +111,13 @@
 <li>迭代验证</li>
 <li>前后端开发</li>
 </ul>
+<figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://github.com/XuankaiWang/XuankaiWang.github.io" target="_blank" rel="noopener noreferrer">统计学自学指南</a></h3>
 <p>一本统计的自学指南，也是作者对自己在数院自学生涯的一个纪念。</p>
+<figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://github.com/qufei1993/nextjs-learn-cn" target="_blank" rel="noopener noreferrer">Next.js 中文教程</a></h3>
 <p>基于官方教程的一个中文翻译版本。在翻译、整理的过程中，每个章节对应的 <code>Example</code> 代码，笔者也都进行了测试，有问题的部分也进行了修改。</p>
+<figure><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
@@ -151,6 +199,7 @@
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://github.com/liguodongiot/llm-action" target="_blank" rel="noopener noreferrer">LLM-Action</a></h3>
 <p>分享大模型相关技术原理以及实战经验，<code>Slogan</code> 是让天下没有难学的大模型。</p>
+<figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://github.com/ImCa0/just-laws" target="_blank" rel="noopener noreferrer">Just Laws</a></h3>
 <p>一个简洁、便捷的中国法律文库。具有如下特点：</p>
 <ul>
@@ -165,10 +214,12 @@
 <li>
 <p>动态更新</p>
 <p>保持每周一到两部法律的新增收录，并且在已收录法律完成修正或修订后及时进行更新，保证内容的时效性。</p>
-<h3> 3. <a href="https://yunyinghui.feishu.cn/wiki/BaCEwe3AliqYERkc9dVcfW0BnXg" target="_blank" rel="noopener noreferrer">Sora 学习手册</a></h3>
-<p>基于飞书文档发布，持续更新 <code>Sora</code>&nbsp;模型的相关资讯动态、研究报告、实用场景等模块内容，承诺永久免费在线查看。</p>
 </li>
 </ul>
+<figure><figcaption></figcaption></figure>
+<h3> 3. <a href="https://yunyinghui.feishu.cn/wiki/BaCEwe3AliqYERkc9dVcfW0BnXg" target="_blank" rel="noopener noreferrer">Sora 学习手册</a></h3>
+<p>基于飞书文档发布，持续更新 <code>Sora</code>&nbsp;模型的相关资讯动态、研究报告、实用场景等模块内容，承诺永久免费在线查看。</p>
+<figure><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
@@ -337,6 +388,7 @@
 <figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://www.sjkjc.com/" target="_blank" rel="noopener noreferrer">数据库教程</a></h3>
 <p>一个数据库相关的技术学习网站，定期发布数据相关的文章、教程、资讯等。教程包括 <code>MySQL</code>，<code>PostgreSQL</code>，<code>Oracle</code>，<code>SQL Server</code>, <code>SQLite</code>，<code>MongoDB</code>，<code>Redis</code> 等关系数据库和非关系数据库。本站所有的教程都是基于实例的，都带有可以运行的代码及实操的截图，助您更快的进入数据库的世界。</p>
+<figure><figcaption></figcaption></figure>
 <h2> ✍️ 说明</h2>
 <p>周刊专栏相关信息：</p>
 <ul>
@@ -11586,81 +11638,6 @@ Spring 是一个分层架构，主要由如下 7 大模块所构成。Spring 模
 <h4> 配置</h4>
 <div class="language-properties line-numbers-mode" data-ext="properties"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 总结</h2>
 <p>以上就是 <code>Redis</code> 持久化的相关内容了，首先讲了什么是持久化，然后讲了持久化的过程，最后则是 <code>Redis</code> 中持久化的两种方式：<code>RDB</code> + <code>AOF</code>。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Redis</title>
-      <link>https://cunyu1943.github.io/framework/redis/</link>
-      <guid>https://cunyu1943.github.io/framework/redis/</guid>
-      <source url="https://cunyu1943.github.io/rss.xml">Redis</source>
-      <pubDate>Sun, 04 Feb 2024 14:40:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>PPT 模板免费下载</title>
-      <link>https://cunyu1943.github.io/tutorial/efficiency/20220623-ppt-template.html</link>
-      <guid>https://cunyu1943.github.io/tutorial/efficiency/20220623-ppt-template.html</guid>
-      <source url="https://cunyu1943.github.io/rss.xml">PPT 模板免费下载</source>
-      <description>第 1 PPT 官网 (https://www.1ppt.com/); 这里有海量 PPT 素材、幻灯片背景图片、PPT 模板供你选择下载。资源分类丰富，主要分为以下几个大类： 1. PPT 模板 2. 行业 PPT 3. 节日 PPT 4. PPT 背景 5. PPT 素材 6. PPT 图表 7. PPT 下载 8. PPT 课件 9. Offic...</description>
-      <category>效率工具</category>
-      <pubDate>Thu, 23 Jun 2022 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> PPT 模板免费下载</h1>
-<h2> 第 1 PPT</h2>
-<ul>
-<li><a href="https://www.1ppt.com/" target="_blank" rel="noopener noreferrer">官网</a></li>
-</ul>
-<p>这里有海量 <code>PPT</code> 素材、幻灯片背景图片、<code>PPT</code> 模板供你选择下载。资源分类丰富，主要分为以下几个大类：</p>
-<ol>
-<li><code>PPT</code> 模板</li>
-<li>行业 <code>PPT</code></li>
-<li>节日 <code>PPT</code></li>
-<li><code>PPT</code> 背景</li>
-<li><code>PPT</code> 素材</li>
-<li><code>PPT</code> 图表</li>
-<li><code>PPT</code> 下载</li>
-<li><code>PPT</code> 课件</li>
-<li><code>Office</code> 教程</li>
-<li>字体下载</li>
-<li><code>PPT</code> 音效等</li>
-</ol>
-<figure><figcaption></figcaption></figure>
-<h2> PPT 超级市场</h2>
-<ul>
-<li><a href="https://www.pptsupermarket.com/" target="_blank" rel="noopener noreferrer">官网</a></li>
-</ul>
-<p>听名字就知道，这里是就像超市一样，提供各式各样的 <code>PPT</code> 作品和相关服务。这里不仅提供免费、优质、高效、安全的 <code>PPT</code> 模板下载，还提供 <code>PPT</code> 定制化增值服务，无论是想白嫖还是花钱买省心，都可以来这里来试试。网站主要分为 <code>PPT</code> 模板、<code>PPT</code> 作品/文案、<code>PPT</code> 定制、<code>PPT</code> 工具、<code>PPT</code> 教程等模块。</p>
-<figure><figcaption></figcaption></figure>
-<h2> PPT 课件网</h2>
-<ul>
-<li><a href="http://www.pptkj.net/" target="_blank" rel="noopener noreferrer">官网</a></li>
-</ul>
-<p>主要提供免费的 <code>PPT</code> 课件下载，这里汇聚了基本上从小学、初中、高中到大学期间所有年级的 <code>PPT</code> 课件，主要包括语文、数学、英语、物理、化学、生物、地理、历史、政治、科学、音乐、美术、信息等科目的 <code>PPT</code>。如果你刚好是一位教育行业从事者，那么相信这个网站一定会对你大有帮助。</p>
-<figure><figcaption></figcaption></figure>
-<h2> 吾道</h2>
-<ul>
-<li><a href="https://www.woodo.cn/design/template/" target="_blank" rel="noopener noreferrer">官网</a></li>
-</ul>
-<p>提供免版权的幻灯片模板，素材广场中还有其他共享文库、图片、视频、音乐、茶花园、营销设计、音效、矢量、贴纸等素材等你来下载！</p>
-<figure><figcaption></figcaption></figure>
-<h2> 优品 PPT</h2>
-<ul>
-<li><a href="https://www.ypppt.com/" target="_blank" rel="noopener noreferrer">官网</a></li>
-</ul>
-<p>官网自称为：一个有轻快的免费 <code>PPT</code> 模板下载网站！这里有各种 <code>PPT</code> 模板、背景、图表、素材、教程、课件等资源，主要分为 <code>PPT</code> 模板、<code>PPT</code> 背景、<code>PPT</code> 图表、<code>PPT</code> 素材、<code>PPT</code> 教程、节日 <code>PPT</code>、字体库、<code>PPT</code> 课件等 8 大模块。</p>
-<figure><figcaption></figcaption></figure>
-<h2> 站长素材</h2>
-<ul>
-<li><a href="https://sc.chinaz.com/ppt/" target="_blank" rel="noopener noreferrer">官网</a></li>
-</ul>
-<p>站长之家下的一个子网站，提供各种商用图库、图片、字体、<code>PPT</code>、简历、表格、音效、<code>PSD</code> 等超多资源下载，虽然有的模板需要开通会员才能洗澡，但是免费的就已经很多了，绝对够你用！</p>
-<figure><figcaption></figcaption></figure>
-<h2> 叮当设计</h2>
-<ul>
-<li><a href="https://www.dingdangsheji.com/" target="_blank" rel="noopener noreferrer">官网</a></li>
-</ul>
-<p>分享优秀设计资源，主要分为 <code>PPT</code> 模板、<code>PPT</code> 教程、<code>PSD</code>、矢量图、<code>XD</code>、<code>Sketch</code>、<code>Figma</code> 等栏目，还支持全站搜索，身为设计师的你，还不赶紧去看看？</p>
-<figure><figcaption></figcaption></figure>
-<h2> 总结</h2>
-<p>以上就是今天分享的几个可以免费下载 <code>PPT</code> 模板的网站了，除开免费下载 <code>PPT</code> 模板之外，各个网站还提供了其他各种素材供君下载。如果你刚好有这方面的需求，何不去看看有没有合适的资源呢？</p>
 ]]></content:encoded>
     </item>
   </channel>
