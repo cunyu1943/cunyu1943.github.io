@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 15 Mar 2024 08:38:21 GMT</pubDate>
-    <lastBuildDate>Fri, 15 Mar 2024 08:38:21 GMT</lastBuildDate>
+    <pubDate>Sun, 17 Mar 2024 07:17:46 GMT</pubDate>
+    <lastBuildDate>Sun, 17 Mar 2024 07:17:46 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>好物周刊</category>
@@ -423,14 +423,14 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>好物周刊#49：</title>
+      <title>好物周刊#49：字幕交流网站</title>
       <link>https://cunyu1943.github.io/weekly/2024/0316-0322.html</link>
       <guid>https://cunyu1943.github.io/weekly/2024/0316-0322.html</guid>
-      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#49：</source>
+      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#49：字幕交流网站</source>
       <description>共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1. Starship (https://github.com/starship/starship) 轻量、迅速、可无限定制的高颜值终端，可用于各种 Shell 的提示符。 2. spring cloud shop (https://github.com/SiGuiyang/spring-...</description>
       <category>好物周刊</category>
       <pubDate>Sun, 25 Feb 2024 11:33:41 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 好物周刊#49：</h1>
+      <content:encoded><![CDATA[<h1> 好物周刊#49：字幕交流网站</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
@@ -460,6 +460,7 @@
 <figure><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://srtku.com/" target="_blank" rel="noopener noreferrer">字幕库</a></h3>
+<p>字幕下载网站，提供中文、美剧、韩剧字幕下载。</p>
 <figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://subhd.tv/" target="_blank" rel="noopener noreferrer">SubHD</a></h3>
 <p>分享交流下载字幕平台，绝对是美剧、韩剧、日剧等爱好者但又看不懂生肉朋友的福地。</p>

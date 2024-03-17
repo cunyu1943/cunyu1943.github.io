@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2024-03-15T08:38:21.488Z</updated>
+  <updated>2024-03-17T07:17:46.285Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -503,11 +503,11 @@
     <published>2024-02-25T11:33:41.000Z</published>
   </entry>
   <entry>
-    <title type="text">好物周刊#49：</title>
+    <title type="text">好物周刊#49：字幕交流网站</title>
     <id>https://cunyu1943.github.io/weekly/2024/0316-0322.html</id>
     <link href="https://cunyu1943.github.io/weekly/2024/0316-0322.html"/>
-    <updated>2024-03-14T12:00:25.000Z</updated>
-    <summary type="html"><![CDATA[<h1> 好物周刊#49：</h1>
+    <updated>2024-03-17T07:16:08.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 好物周刊#49：字幕交流网站</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
@@ -517,7 +517,7 @@
 </div>
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://github.com/starship/starship" target="_blank" rel="noopener noreferrer">Starship</a></h3>]]></summary>
-    <content type="html"><![CDATA[<h1> 好物周刊#49：</h1>
+    <content type="html"><![CDATA[<h1> 好物周刊#49：字幕交流网站</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
@@ -547,6 +547,7 @@
 <figure><figcaption></figcaption></figure>
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://srtku.com/" target="_blank" rel="noopener noreferrer">字幕库</a></h3>
+<p>字幕下载网站，提供中文、美剧、韩剧字幕下载。</p>
 <figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://subhd.tv/" target="_blank" rel="noopener noreferrer">SubHD</a></h3>
 <p>分享交流下载字幕平台，绝对是美剧、韩剧、日剧等爱好者但又看不懂生肉朋友的福地。</p>
