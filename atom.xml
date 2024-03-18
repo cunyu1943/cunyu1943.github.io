@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2024-03-17T14:14:32.341Z</updated>
+  <updated>2024-03-18T10:12:03.505Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -24,7 +24,57 @@
   <category term="IDEA 教程"/>
   <category term="项目实践"/>
   <category term="JavaScript 系列"/>
-  <category term="Vue 3 系列"/>
+  <entry>
+    <title type="text">好物周刊#53：</title>
+    <id>https://cunyu1943.github.io/weekly/2024/0413-0419.html</id>
+    <link href="https://cunyu1943.github.io/weekly/2024/0413-0419.html"/>
+    <updated>2024-03-18T10:10:04.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 好物周刊#53：</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">原文</p>
+</div>
+<h2> 一、项目</h2>
+<h2> 二、软件</h2>
+<h2> 三、网站</h2>
+<h2> 四、插件</h2>
+<h2> 五、资料</h2>
+<h3> 1. <a href="https://github.com/jsksxs360/How-to-use-Transformers" target="_blank" rel="noopener noreferrer">Transformers 快速入门</a></h3>]]></summary>
+    <content type="html"><![CDATA[<h1> 好物周刊#53：</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">原文</p>
+</div>
+<h2> 一、项目</h2>
+<h2> 二、软件</h2>
+<h2> 三、网站</h2>
+<h2> 四、插件</h2>
+<h2> 五、资料</h2>
+<h3> 1. <a href="https://github.com/jsksxs360/How-to-use-Transformers" target="_blank" rel="noopener noreferrer">Transformers 快速入门</a></h3>
+<p>教程旨在帮助 <code>NLP</code> 初学者快速熟悉 <code>Transformers</code> 库的使用方法，并通过实例带领读者一步一步构建自己的模型，完成各种 <code>NLP</code> 任务。而且读者只需熟悉 <code>Python</code> 语言即可，并不需要提前掌握 <code>Keras</code>、<code>Pytorch</code> 等深度学习包的使用。</p>
+<figure><figcaption></figcaption></figure>
+<h2> ✍️ 说明</h2>
+<p>周刊专栏相关信息：</p>
+<ul>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a> | <a href="https://yuque.com/cunyu1943" target="_blank" rel="noopener noreferrer">语雀</a></li>
+</ul>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<hr>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+]]></content>
+    <category term="好物周刊"/>
+    <published>2024-03-18T10:10:04.000Z</published>
+  </entry>
   <entry>
     <title type="text">好物周刊#52：</title>
     <id>https://cunyu1943.github.io/weekly/2024/0406-0412.html</id>
@@ -189,7 +239,7 @@
     <title type="text">好物周刊#51：</title>
     <id>https://cunyu1943.github.io/weekly/2024/0330-0405.html</id>
     <link href="https://cunyu1943.github.io/weekly/2024/0330-0405.html"/>
-    <updated>2024-03-13T11:02:23.000Z</updated>
+    <updated>2024-03-18T10:10:04.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#51：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -199,9 +249,7 @@
 <p class="hint-container-title">原文</p>
 </div>
 <h2> 一、项目</h2>
-<h2> 二、软件</h2>
-<h2> 三、网站</h2>
-<h3> 1. <a href="https://www.ruancang.net/" target="_blank" rel="noopener noreferrer">软仓</a></h3>]]></summary>
+<h3> 1. <a href="https://github.com/201206030/novel-cloud" target="_blank" rel="noopener noreferrer">novel-cloud</a></h3>]]></summary>
     <content type="html"><![CDATA[<h1> 好物周刊#51：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -211,6 +259,10 @@
 <p class="hint-container-title">原文</p>
 </div>
 <h2> 一、项目</h2>
+<h3> 1. <a href="https://github.com/201206030/novel-cloud" target="_blank" rel="noopener noreferrer">novel-cloud</a></h3>
+<p>一套基于时下最新 Java 技术栈 <code>Spring Boot 3</code> + <code>Vue 3</code> 开发的前后端分离学习型小说项目，配备保姆级教程手把手教你从零开始开发上线一套生产级别的 <code>Java</code> 系统，由小说门户系统、作家后台管理系统、平台后台管理系统等多个子系统构成。包括小说推荐、作品检索、小说排行榜、小说阅读、小说评论、会员中心、作家专区、充值订阅、新闻发布等功能。</p>
+<p><code>novel-cloud</code> 是 <code>novel</code> 项目的微服务版本，基于 <code>Spring Cloud 2022</code> &amp; <code>Spring Cloud Alibaba 2022</code> 构建，数据结构、后端接口和 <code>novel</code> 项目保持完全一致，<code>Vue 3</code> 开发的前端能无缝对接这两个项目。</p>
+<figure><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
 <h2> 三、网站</h2>
 <h3> 1. <a href="https://www.ruancang.net/" target="_blank" rel="noopener noreferrer">软仓</a></h3>
@@ -311,7 +363,7 @@
     <title type="text">好物周刊#50：</title>
     <id>https://cunyu1943.github.io/weekly/2024/0323-0329.html</id>
     <link href="https://cunyu1943.github.io/weekly/2024/0323-0329.html"/>
-    <updated>2024-03-17T14:12:43.000Z</updated>
+    <updated>2024-03-18T10:10:04.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#50：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -333,10 +385,13 @@
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://github.com/chengxy-nds/Springboot-Notebook" target="_blank" rel="noopener noreferrer">Springboot-Notebook</a></h3>
 <p>一个以 <code>Spring Boot</code> 为基础开发框架， 整合 <code>Redis</code> 、<code>Mysql</code> 、 <code>Rabbitmq</code> 、<code>ES</code> 、<code>MongoDB</code>、<code>sharding-jdbc</code> 分库分表、<code>Zookeeper</code> 、<code>web</code> 人脸识别 、实时消息推送 、<code>SQL</code> 优化、注册中心 、数据脱敏 等互联网主流技术， 文章图解理论配合实战案例，实现开发中常见功能点的综合项目。 本着开箱即用的原则，助力于减少开发者在工作中的学习成本。</p>
+<figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://github.com/NanmiCoder/MediaCrawler" target="_blank" rel="noopener noreferrer">MediaCrawler</a></h3>
 <p>利用 <code>playwright</code> 搭桥，保留登录成功后的上下文浏览器环境，通过执行 <code>JS</code> 表达式获取一些加密参数 通过使用此方式，免去了复现核心加密 <code>JS</code> 代码，逆向难度大大降低。目前能够抓取小红书、抖音、快手、B 站、微博的视频、图片、评论、点赞、转发等信息。</p>
+<figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://github.com/changmingxie/tcc-transaction" target="_blank" rel="noopener noreferrer">TCC-TRANSACTION</a></h3>
 <p>一款开源的微服务架构下的 <code>TCC</code> 型分布式事务解决方案，致力于提供高性能和简单易用的分布式事务服务。</p>
+<figure><figcaption></figcaption></figure>
 <h2> 二、软件</h2>
 <h3> 1. <a href="https://nukesaq88.github.io/Pngyu/" target="_blank" rel="noopener noreferrer">Pngyu</a></h3>
 <p>免费 <code>png</code> 图片压缩工具，同时支持 <code>Windows</code> 和 <code>macOS</code> 平台。</p>
@@ -12228,55 +12283,6 @@ Spring 是一个分层架构，主要由如下 7 大模块所构成。Spring 模
 <p>以上就是如何利用 <code>Hugo</code> 搭建一个博客了，主要从 <code>Hugo</code> 安装、初始化项目、主题设置、预览等几个方面介绍了 <code>Hugo</code> 的使用，剩下的就是写作了。这是件很难的事，希望大家能一直坚持下去。其实 <code>Hugo</code> 里边还有好多玩法，这里就不做一一介绍了，大家可以去官网探索更多玩法。</p>
 ]]></content>
     <category term="博客搭建"/>
-    <published>2024-02-05T10:25:17.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">Vue 3 简介及入门实例</title>
-    <id>https://cunyu1943.github.io/java-tutorial/front-end/vue3/20220605-intro.html</id>
-    <link href="https://cunyu1943.github.io/java-tutorial/front-end/vue3/20220605-intro.html"/>
-    <updated>2024-02-05T10:25:17.000Z</updated>
-    <summary type="html"><![CDATA[<h1> Vue 3 简介及入门实例</h1>
-<h2> 前言</h2>
-<p>之前已经学习过来 <code>HTML</code>、 <code>CSS</code> 以及 <code>JavaScript</code> 的相关知识，也算是基本了解了关于这前端三件套的一些基本用法。今天就来了解下，当前前端开发中最炙手可热的当红辣子鸡 - <code>Vue</code>。本文主要介绍 <code>Vue</code> 的一些入门知识和最经典的 <code>Vue</code> 入门 <code>Hello World</code> 程序，如果你想了解的是更高级的使用技巧，那么完全可以忽略。</p>]]></summary>
-    <content type="html"><![CDATA[<h1> Vue 3 简介及入门实例</h1>
-<h2> 前言</h2>
-<p>之前已经学习过来 <code>HTML</code>、 <code>CSS</code> 以及 <code>JavaScript</code> 的相关知识，也算是基本了解了关于这前端三件套的一些基本用法。今天就来了解下，当前前端开发中最炙手可热的当红辣子鸡 - <code>Vue</code>。本文主要介绍 <code>Vue</code> 的一些入门知识和最经典的 <code>Vue</code> 入门 <code>Hello World</code> 程序，如果你想了解的是更高级的使用技巧，那么完全可以忽略。</p>
-<h2> Vue 简介</h2>
-<h3> Vue 是什么</h3>
-<p><code>Vue</code>  是一套用于构建用户界面的 <strong>渐进式框架</strong>，不同于其他框架， <code>Vue</code>  被设计为可以自底向上逐层应用，核心库只关注视图层，具有易上手，与第三方库整合方便等优点。此外， <code>Vue</code>  还支持多种现代化的工具链以及类库，使得它能够为复杂的单页应用提供驱动。</p>
-<h3> Vue 的特点</h3>
-<ol>
-<li>采用组件化模式，从而提高了代码复用率，更容易维护。</li>
-<li>声明式编码，程序员无需直接操作 <code>DOM</code> ，从而提高开发效率。</li>
-<li>利用虚拟 <code>DOM</code>  + 优秀 <code>Diff</code>  算法，最大化复用 <code>DOM</code> 节点。</li>
-</ol>
-<h3> Vue 的安装</h3>
-<p>Vue 的安装主要有两种方式，一种是通过在文件中直接用 <code>&lt;script&gt;</code> 标签引入的方式，另一种则是则是使用 <code>npm</code> 的方式，接下来我们就来看看两种方式是如何进行安装的。</p>
-<p><strong>标签引入的方式</strong></p>
-<p>假设我们创建了一个 HTML 文件，那么我们此时只需要引入其中以下两个版本中其中一个就可以了。而两者的区别顾名思义，所谓开发环境版本，就是我们日常开发学习所使用的版本，它包含了完整的警告和提示模式，方便我们定位错误，提高我们的开发效率。而生产环境版本，则是对开发环境进行了精简，剔除了其中的警告，尽可能优化了尺寸和速度，针对上线生产所用，有助于生产环境效率的提升。针对生产环境版本，更加推荐大家链接到一个明确的版本号和构建文件，从而避免新版本对老版本中特性造成破坏，影响用户体验。</p>
-<ul>
-<li>开发环境版本</li>
-</ul>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ul>
-<li>生产环境版本</li>
-</ul>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ol start="2">
-<li><strong>npm 安装</strong></li>
-</ol>
-<p>以上的两种方式更适合于我们日常学习和小型应用开发，而如果我们要使用 Vue 构建大型应用时，官方更加推荐我们使用 NPM 进行安装，它能够更好的配合类似 <code>webpack</code> 、 <code>Rollup</code> 等打包器的使用，而且 Vue 也提供了配套的工具来进行单文件组件的开发，而安装的方式也很简单，只要我们的电脑上安装了 Node.js，那我们就可以通过命令行来进行最新稳定版 Vue 的安装了，安装的命令如下。</p>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
-<h2> Vue 入门实例</h2>
-<p>首先，我们创建一个 <code>.html</code> 文件，用于交互。</p>
-<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>接着我们引入 <code>Vue3</code> 的相关包，这里引入的方式和之前 <code>JavaScript</code> 中介绍的引入的方式一样，直接在 <code>head</code> 部分进行引入即可。</p>
-<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>然后就是在 <code>body</code> 标签中添加模板用于将数据渲染到 <code>DOM</code> 的系统。</p>
-<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>最后得到我们的完整文件如下。</p>
-<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>将文件用浏览器打开，在页面中应该就会显示如下信息了。</p>
-<figure><figcaption></figcaption></figure>
-<p>以上就是一个最简单的 <code>Vue</code> 入门小案例，如何在网页中打印 <code>Hello World！</code> 。虽然看起来十分简单，和我们用 <code>HTML</code> 中的字符串模板来实现相同的效果也十分类似，但实际上 <code>Vue</code> 在背后做了许多我们看不见的工作。</p>
-<h2> 总结</h2>
-<p>以上就是今天的所有内容了，主要从两个方面着手，一方面从 <code>Vue</code> 的定义、特点、安装来对 <code>Vue</code> 进行了介绍，另一方面则用一个最简单经典的 <code>Hello World！</code>  入门小案例来向大家简单介绍下 <code>Vue</code> 的使用方式。</p>
-]]></content>
-    <category term="Vue 3 系列"/>
     <published>2024-02-05T10:25:17.000Z</published>
   </entry>
 </feed>
