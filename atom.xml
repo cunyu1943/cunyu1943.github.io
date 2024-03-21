@@ -4,7 +4,7 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2024-03-21T10:58:28.376Z</updated>
+  <updated>2024-03-21T14:30:50.211Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
@@ -24,6 +24,56 @@
   <category term="IDEA 教程"/>
   <category term="项目实践"/>
   <category term="JavaScript 系列"/>
+  <entry>
+    <title type="text">好物周刊#55：</title>
+    <id>https://cunyu1943.github.io/weekly/2024/0427-0503.html</id>
+    <link href="https://cunyu1943.github.io/weekly/2024/0427-0503.html"/>
+    <updated>2024-03-21T14:28:53.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 好物周刊#55：</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">原文</p>
+</div>
+<h2> 一、项目</h2>
+<h2> 二、软件</h2>
+<h2> 三、网站</h2>
+<h2> 四、插件</h2>
+<h2> 五、资料</h2>
+<h3> 1. <a href="https://github.com/Java-Edge/Java-Interview-Tutorial" target="_blank" rel="noopener noreferrer">Java-Interview-Tutorial</a></h3>]]></summary>
+    <content type="html"><![CDATA[<h1> 好物周刊#55：</h1>
+<div class="hint-container info">
+<p class="hint-container-title">共勉</p>
+<p>不要哀求，学会争取。若是如此，终有所获。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">原文</p>
+</div>
+<h2> 一、项目</h2>
+<h2> 二、软件</h2>
+<h2> 三、网站</h2>
+<h2> 四、插件</h2>
+<h2> 五、资料</h2>
+<h3> 1. <a href="https://github.com/Java-Edge/Java-Interview-Tutorial" target="_blank" rel="noopener noreferrer">Java-Interview-Tutorial</a></h3>
+<p>涵盖互联网大厂数据库、缓存、<code>DDD</code>、设计模式、微服务架构、主流中间件框架原理及真实业务最佳实践。</p>
+<h2> ✍️ 说明</h2>
+<p>周刊专栏相关信息：</p>
+<ul>
+<li><strong>项目地址</strong>：<a href="https://github.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://gitee.com/cunyu1943/JavaPark/" target="_blank" rel="noopener noreferrer">Gitee</a> ，觉得不错麻烦给我一个<strong>Star</strong>，感谢 ❤️</li>
+<li><strong>浏览地址</strong>：公众号 | <a href="https://cunyu1943.github.io/" target="_blank" rel="noopener noreferrer">电子书</a> | <a href="https://cunyu1943.gitee.io/" target="_blank" rel="noopener noreferrer">电子书（国内）</a> | <a href="https://yuque.com/cunyu1943" target="_blank" rel="noopener noreferrer">语雀</a></li>
+</ul>
+<p>如果你阅读到这里，说明我的工作没有白费。如果你想推荐项目/网站/软件/资源，欢迎提交 <strong><a href="https://github.com/cunyu1943/JavaPark/issues" target="_blank" rel="noopener noreferrer">issue</a></strong> 或者添加我 <strong>个人微信：cunyu1943</strong> 与我交流。</p>
+<hr>
+<h2> ⏳ 联系</h2>
+<p>想解锁更多知识？不妨关注我的微信公众号：<strong>村雨遥（id：JavaPark）</strong>。</p>
+<p>扫一扫，探索另一个全新的世界。</p>
+<figure><img src="/contact/wechatpublic.png" alt="" width="150" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+]]></content>
+    <category term="好物周刊"/>
+    <published>2024-03-21T14:28:53.000Z</published>
+  </entry>
   <entry>
     <title type="text">好物周刊#54：</title>
     <id>https://cunyu1943.github.io/weekly/2024/0420-0426.html</id>
@@ -309,7 +359,7 @@
     <title type="text">好物周刊#51：</title>
     <id>https://cunyu1943.github.io/weekly/2024/0330-0405.html</id>
     <link href="https://cunyu1943.github.io/weekly/2024/0330-0405.html"/>
-    <updated>2024-03-21T10:56:45.000Z</updated>
+    <updated>2024-03-21T14:28:53.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#51：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -360,6 +410,12 @@
 <p>现代化的中国诗词学习网站，提供全站搜索、拼音标注、注释和白话文翻译等功能。无论您对唐诗宋词感兴趣还是想深入学习，都是您的理想选择，从这里开始您的诗歌之旅！</p>
 <figure><figcaption></figcaption></figure>
 <h2> 四、插件</h2>
+<h3> 1. <a href="https://chromewebstore.google.com/detail/ncldcbhpeplkfijdhnoepdgdnmjkckij?utm_source=chrome-ntp-icon" target="_blank" rel="noopener noreferrer">iCG 谷歌学术助手</a></h3>
+<p>为广大科研及医务工作者、高校学生提供谷歌学术文献、期刊等资料产品的查询与加速访问。方便从一个位置搜索众多学科和资料来源：来自学术著作出版商、专业性社团、预印本、各大学及其他学术组织的经同行评论的文章、论文、图书、摘要和文章，帮助您在整个学术领域中确定相关性最强的研究。</p>
+<h3> 2. <a href="https://chromewebstore.google.com/detail/stream-recorder-download/iogidnfllpdhagebkblkgbfijkbkjdmm" target="_blank" rel="noopener noreferrer">Stream Recorder</a></h3>
+<p>最受欢迎的 <code>HLS</code> 格式发布的视频文件下载器，能直接拦截直播流、<code>flv</code>、<code>m3u8</code> 等格式。</p>
+<h3> 3. <a href="https://chromewebstore.google.com/detail/bdkobfnbgkbemcfgopfollaikdlknlkm" target="_blank" rel="noopener noreferrer">百度广告屏蔽</a></h3>
+<p>屏蔽百度线上产品页面广告，点击扩展图标，可当书签用，省去每次输入百度地址的麻烦。</p>
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://github.com/datawhalechina/llm-universe" target="_blank" rel="noopener noreferrer">动手学大模型应用开发</a></h3>
 <p>一个面向小白开发者的大模型应用开发教程，旨在结合个人知识库助手项目，通过一个课程完成大模型开发的重点入门，主要内容包括：</p>
@@ -448,7 +504,7 @@
     <title type="text">好物周刊#50：</title>
     <id>https://cunyu1943.github.io/weekly/2024/0323-0329.html</id>
     <link href="https://cunyu1943.github.io/weekly/2024/0323-0329.html"/>
-    <updated>2024-03-21T10:56:45.000Z</updated>
+    <updated>2024-03-21T14:28:53.000Z</updated>
     <summary type="html"><![CDATA[<h1> 好物周刊#50：</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
@@ -503,6 +559,8 @@
 <h3> 2. <a href="https://chromewebstore.google.com/detail/picture-in-picture-extens/hkgfoiooedgoejojocmhlaklaeopbecg" target="_blank" rel="noopener noreferrer">Picture-in-Picture Extension</a></h3>
 <p>画中画插件，当上班摸鱼浏览到好看的时候的或者直播，但又不敢明目张胆放大看的时候，就可以通过这个插件将内容缩放到屏幕的一个小框里观看。既不会引起别人的注意，也不影响工作。</p>
 <figure><figcaption></figcaption></figure>
+<h3> 3. <a href="https://chromewebstore.google.com/detail/aeajloomjeoncelkceelhhpkgbcgafek" target="_blank" rel="noopener noreferrer">绿色搜索</a></h3>
+<p>屏蔽百度搜索结果列表中的广告信息，将移除或者弱化显示，还你的搜索结果一份干净。</p>
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://github.com/liguodongiot/llm-action" target="_blank" rel="noopener noreferrer">LLM-Action</a></h3>
 <p>分享大模型相关技术原理以及实战经验，<code>Slogan</code> 是让天下没有难学的大模型。</p>
@@ -12259,56 +12317,5 @@ Spring 是一个分层架构，主要由如下 7 大模块所构成。Spring 模
     <link href="https://cunyu1943.github.io/framework/springboot/2.7.x/"/>
     <updated>2024-02-05T14:11:48.000Z</updated>
     <published>2024-02-05T14:11:48.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">dumi 搭建文档型博客</title>
-    <id>https://cunyu1943.github.io/tutorial/blog/20220610-dumi.html</id>
-    <link href="https://cunyu1943.github.io/tutorial/blog/20220610-dumi.html"/>
-    <updated>2024-02-05T10:25:17.000Z</updated>
-    <summary type="html"><![CDATA[<h1> dumi 搭建文档型博客</h1>
-<h2> 前言</h2>
-<p>之前已经讲过如何利用网上各种开源的框架来搭建自己的博客，比如 <code>docsify</code>、<code>Hexo</code>、<code>VuePress</code>、<code>Halo</code> 等。前三者可以直接搭配 <code>Github</code> 就能免费得到一个专属自己的博客，而 <code>Halo</code> 可能需要自己有服务器，然后将服务部署在自己的服务器里。</p>
-<p>最近在网上冲浪的时候，又发现了一款文档工具，那就是 <code>dumi</code>。从中文拼音来发音，就是 <strong>嘟米</strong>。这是一款为组件开发场景而是的文档工具，和 <code>father</code> 组成一条龙服务。<code>father</code> 负责构建，<code>dumi</code> 则负责组件开发以及组件文档的生成，一起为开发者提供了一站式的组件开发体验。</p>]]></summary>
-    <content type="html"><![CDATA[<h1> dumi 搭建文档型博客</h1>
-<h2> 前言</h2>
-<p>之前已经讲过如何利用网上各种开源的框架来搭建自己的博客，比如 <code>docsify</code>、<code>Hexo</code>、<code>VuePress</code>、<code>Halo</code> 等。前三者可以直接搭配 <code>Github</code> 就能免费得到一个专属自己的博客，而 <code>Halo</code> 可能需要自己有服务器，然后将服务部署在自己的服务器里。</p>
-<p>最近在网上冲浪的时候，又发现了一款文档工具，那就是 <code>dumi</code>。从中文拼音来发音，就是 <strong>嘟米</strong>。这是一款为组件开发场景而是的文档工具，和 <code>father</code> 组成一条龙服务。<code>father</code> 负责构建，<code>dumi</code> 则负责组件开发以及组件文档的生成，一起为开发者提供了一站式的组件开发体验。</p>
-<p>今天就一起来看看，如何利用 <code>dumi</code> 搭建自己的文档型网站。</p>
-<h2> dumi 特性</h2>
-<p>既然要用 <code>dumi</code>，那首先就来看看它的一些特性，可以总结如下：</p>
-<ul>
-<li>开箱即用，我们只需要将注意力集中在组件开发和文档编写即可。</li>
-<li>丰富的 <code>Markdown</code> 扩展，不止于渲染组件 <code>demo</code>。</li>
-<li>基于 <code>TypeScript</code> 类型定义，能够自动生成组件 <code>API</code>。</li>
-<li>支持自定义主题，还能创建专属的 <code>Markdown</code> 组件。</li>
-<li>支持移动端组件库，内置移动端搞钱渲染方案。</li>
-<li>一行命令搞定组件资产数据化，串联下游生产力工具。</li>
-</ul>
-<h2> 搭建过程</h2>
-<h3> 首要准备</h3>
-<p>既然都说了 <code>dumi</code> 是基于 <code>TypeScript</code> 类型定义，那怎么离得开 <code>Node.js</code> 呢？所以，在正式搭建过程开始前，你得保证你的电脑上安装了 <code>Node.js</code>，而且还得确保它的版本不低于 <code>10.13</code>。</p>
-<p>如果你已经装过了 <code>Node.js</code>，但是不确定其版本，那么使用以下命令来查看。</p>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
-<h3> 脚手架初始化</h3>
-<p><code>dumi</code> 支持两种初始化脚手架的方式，一种是组件开发脚手架，另一种则是静态站点脚手架，这里主要介绍如何使用组件开发脚手架。</p>
-<p>组件开发脚手架不仅包含了 <code>dumi</code> 和基础的文档，还包含了一个简单的组件、<code>umi-test</code> 和 <code>father-build</code>， 能够轻松实现组件开发、文档编写、测试用例编写、组件打包的全流程。</p>
-<p>在本地新建一个空文件夹，方便管理脚手架，然后在初始化一个文档模式的组件库开发脚手架。</p>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
-<p>初始化完成之后，执行以下命令，然后在浏览器其中打开 <code>http://localhost:8080</code> 就可以进行预览了。</p>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
-<figure><figcaption></figcaption></figure>
-<h3> 编写文档</h3>
-<p>查看我们的项目目录，可以发现 <code>docs</code> 文件，这里就是我们编写文档的地方。项目初始化时，默认只有 <code>index.md</code> 也就是上面我们访问 <code>http://localhost:8080</code> 页面中所称呈现的内容。</p>
-<figure><figcaption></figcaption></figure>
-<p>接着我们在 <code>docs</code> 目录下新增修改 <code>Markdown</code> 文档，它就会帮我们自动渲染到前端页面中。</p>
-<figure><figcaption></figcaption></figure>
-<figure><figcaption></figcaption></figure>
-<figure><figcaption></figcaption></figure>
-<figure><figcaption></figcaption></figure>
-<h2> 总结</h2>
-<p>以上就是利用 <code>dumi</code> 搭建文档型网站的具体过程了。当然，除了作为博客之外，我们还可以利用它来进行前端组件化开发，不断给你的网站添加新功能！</p>
-]]></content>
-    <category term="博客搭建"/>
-    <published>2024-02-05T10:25:17.000Z</published>
   </entry>
 </feed>
