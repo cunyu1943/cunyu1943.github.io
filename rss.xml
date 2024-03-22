@@ -6,13 +6,13 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 22 Mar 2024 00:04:57 GMT</pubDate>
-    <lastBuildDate>Fri, 22 Mar 2024 00:04:57 GMT</lastBuildDate>
+    <pubDate>Fri, 22 Mar 2024 09:18:37 GMT</pubDate>
+    <lastBuildDate>Fri, 22 Mar 2024 09:18:37 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>效率工具</category>
     <category>好物周刊</category>
     <category>MySQL 教程</category>
-    <category>效率工具</category>
     <category>数据结构与算法</category>
     <category>Maven 系列</category>
     <category>MyBatis 系列</category>
@@ -26,6 +26,23 @@
     <category>IDEA 教程</category>
     <category>项目实践</category>
     <category>JavaScript 系列</category>
+    <item>
+      <title></title>
+      <link>https://cunyu1943.github.io/tutorial/efficiency/20240322-vitepress.html</link>
+      <guid>https://cunyu1943.github.io/tutorial/efficiency/20240322-vitepress.html</guid>
+      <source url="https://cunyu1943.github.io/rss.xml"></source>
+      <description>安装</description>
+      <category>效率工具</category>
+      <pubDate>Fri, 22 Mar 2024 09:16:56 GMT</pubDate>
+      <content:encoded><![CDATA[<h2> 安装</h2>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+]]></content:encoded>
+    </item>
     <item>
       <title>好物周刊#55：</title>
       <link>https://cunyu1943.github.io/weekly/2024/0427-0503.html</link>
@@ -11607,13 +11624,6 @@ Spring 是一个分层架构，主要由如下 7 大模块所构成。Spring 模
 <p><a href="https://github.com/cunyu1943/java-learning-demos" target="_blank" rel="noopener noreferrer">➛ 传送门</a></p>
 </blockquote>
 ]]></content:encoded>
-    </item>
-    <item>
-      <title>Spring Boot 2.7.x</title>
-      <link>https://cunyu1943.github.io/framework/springboot/2.7.x/</link>
-      <guid>https://cunyu1943.github.io/framework/springboot/2.7.x/</guid>
-      <source url="https://cunyu1943.github.io/rss.xml">Spring Boot 2.7.x</source>
-      <pubDate>Mon, 05 Feb 2024 14:11:48 GMT</pubDate>
     </item>
   </channel>
 </rss>

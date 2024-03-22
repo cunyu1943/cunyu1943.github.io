@@ -7,6 +7,19 @@
   "favicon": "https://cunyu1943.github.io/logo.svg",
   "items": [
     {
+      "title": "",
+      "url": "https://cunyu1943.github.io/tutorial/efficiency/20240322-vitepress.html",
+      "id": "https://cunyu1943.github.io/tutorial/efficiency/20240322-vitepress.html",
+      "summary": "安装",
+      "content_html": "<h2> 安装</h2>\n<div class=\"language-bash line-numbers-mode\" data-ext=\"sh\"><div class=\"line-numbers\" aria-hidden=\"true\"><div class=\"line-number\"></div></div></div><figure><figcaption></figcaption></figure>\n<div class=\"language-bash line-numbers-mode\" data-ext=\"sh\"><div class=\"line-numbers\" aria-hidden=\"true\"><div class=\"line-number\"></div></div></div><figure><figcaption></figcaption></figure>\n<div class=\"language-bash line-numbers-mode\" data-ext=\"sh\"><div class=\"line-numbers\" aria-hidden=\"true\"><div class=\"line-number\"></div></div></div><figure><figcaption></figcaption></figure>\n<figure><figcaption></figcaption></figure>\n<div class=\"language-bash line-numbers-mode\" data-ext=\"sh\"><div class=\"line-numbers\" aria-hidden=\"true\"><div class=\"line-number\"></div></div></div><figure><figcaption></figcaption></figure>\n<figure><figcaption></figcaption></figure>\n",
+      "date_published": "2024-03-22T09:16:56.000Z",
+      "date_modified": "2024-03-22T09:16:56.000Z",
+      "authors": [],
+      "tags": [
+        "效率工具"
+      ]
+    },
+    {
       "title": "好物周刊#55：",
       "url": "https://cunyu1943.github.io/weekly/2024/0427-0503.html",
       "id": "https://cunyu1943.github.io/weekly/2024/0427-0503.html",
@@ -1280,16 +1293,6 @@
       "tags": [
         "Spring Boot 2.7.x"
       ]
-    },
-    {
-      "title": "Spring Boot 2.7.x",
-      "url": "https://cunyu1943.github.io/framework/springboot/2.7.x/",
-      "id": "https://cunyu1943.github.io/framework/springboot/2.7.x/",
-      "content_html": "",
-      "date_published": "2024-02-05T14:11:48.000Z",
-      "date_modified": "2024-02-05T14:11:48.000Z",
-      "authors": [],
-      "tags": []
     }
   ]
 }

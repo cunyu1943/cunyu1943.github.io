@@ -4,13 +4,13 @@
   <title>JavaPark</title>
   <subtitle>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</subtitle>
   <icon>https://cunyu1943.github.io/logo.svg</icon>
-  <updated>2024-03-22T00:04:57.834Z</updated>
+  <updated>2024-03-22T09:18:37.292Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://cunyu1943.github.io/atom.xml"/>
   <link rel="alternate" href="https://cunyu1943.github.io/"/>
+  <category term="效率工具"/>
   <category term="好物周刊"/>
   <category term="MySQL 教程"/>
-  <category term="效率工具"/>
   <category term="数据结构与算法"/>
   <category term="Maven 系列"/>
   <category term="MyBatis 系列"/>
@@ -24,6 +24,25 @@
   <category term="IDEA 教程"/>
   <category term="项目实践"/>
   <category term="JavaScript 系列"/>
+  <entry>
+    <title type="text"></title>
+    <id>https://cunyu1943.github.io/tutorial/efficiency/20240322-vitepress.html</id>
+    <link href="https://cunyu1943.github.io/tutorial/efficiency/20240322-vitepress.html"/>
+    <updated>2024-03-22T09:16:56.000Z</updated>
+    <summary type="html"><![CDATA[<h2> 安装</h2>
+<div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code>corepack <span class="token builtin class-name">enable</span> <span class="token function">pnpm</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div>]]></summary>
+    <content type="html"><![CDATA[<h2> 安装</h2>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+]]></content>
+    <category term="效率工具"/>
+    <published>2024-03-22T09:16:56.000Z</published>
+  </entry>
   <entry>
     <title type="text">好物周刊#55：</title>
     <id>https://cunyu1943.github.io/weekly/2024/0427-0503.html</id>
@@ -12316,12 +12335,5 @@ Spring 是一个分层架构，主要由如下 7 大模块所构成。Spring 模
 ]]></content>
     <category term="Spring Boot 2.7.x"/>
     <published>2022-06-04T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">Spring Boot 2.7.x</title>
-    <id>https://cunyu1943.github.io/framework/springboot/2.7.x/</id>
-    <link href="https://cunyu1943.github.io/framework/springboot/2.7.x/"/>
-    <updated>2024-02-05T14:11:48.000Z</updated>
-    <published>2024-02-05T14:11:48.000Z</published>
   </entry>
 </feed>
