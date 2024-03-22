@@ -6,8 +6,8 @@
     <link>https://cunyu1943.github.io/</link>
     <description>分享编程学习（侧重 Java）、面试求职、计算机基础、效率工具等方面内容。</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 21 Mar 2024 14:30:50 GMT</pubDate>
-    <lastBuildDate>Thu, 21 Mar 2024 14:30:50 GMT</lastBuildDate>
+    <pubDate>Fri, 22 Mar 2024 00:04:57 GMT</pubDate>
+    <lastBuildDate>Fri, 22 Mar 2024 00:04:57 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>好物周刊</category>
@@ -286,14 +286,14 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>好物周刊#51：</title>
+      <title>好物周刊#51：诗词学习</title>
       <link>https://cunyu1943.github.io/weekly/2024/0330-0405.html</link>
       <guid>https://cunyu1943.github.io/weekly/2024/0330-0405.html</guid>
-      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#51：</source>
+      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#51：诗词学习</source>
       <description>共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1. novel-cloud (https://github.com/201206030/novel-cloud) 一套基于时下最新 Java 技术栈 Spring Boot 3 + Vue 3 开发的前后端分离学习型小说项目，配备保姆级教程手把手教你从零开始开发上线一套生产级别的 Jav...</description>
       <category>好物周刊</category>
       <pubDate>Tue, 05 Mar 2024 00:17:33 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 好物周刊#51：</h1>
+      <content:encoded><![CDATA[<h1> 好物周刊#51：诗词学习</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
@@ -335,10 +335,13 @@
 <h2> 四、插件</h2>
 <h3> 1. <a href="https://chromewebstore.google.com/detail/ncldcbhpeplkfijdhnoepdgdnmjkckij?utm_source=chrome-ntp-icon" target="_blank" rel="noopener noreferrer">iCG 谷歌学术助手</a></h3>
 <p>为广大科研及医务工作者、高校学生提供谷歌学术文献、期刊等资料产品的查询与加速访问。方便从一个位置搜索众多学科和资料来源：来自学术著作出版商、专业性社团、预印本、各大学及其他学术组织的经同行评论的文章、论文、图书、摘要和文章，帮助您在整个学术领域中确定相关性最强的研究。</p>
+<figure><figcaption></figcaption></figure>
 <h3> 2. <a href="https://chromewebstore.google.com/detail/stream-recorder-download/iogidnfllpdhagebkblkgbfijkbkjdmm" target="_blank" rel="noopener noreferrer">Stream Recorder</a></h3>
 <p>最受欢迎的 <code>HLS</code> 格式发布的视频文件下载器，能直接拦截直播流、<code>flv</code>、<code>m3u8</code> 等格式。</p>
+<figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://chromewebstore.google.com/detail/bdkobfnbgkbemcfgopfollaikdlknlkm" target="_blank" rel="noopener noreferrer">百度广告屏蔽</a></h3>
 <p>屏蔽百度线上产品页面广告，点击扩展图标，可当书签用，省去每次输入百度地址的麻烦。</p>
+<figure><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://github.com/datawhalechina/llm-universe" target="_blank" rel="noopener noreferrer">动手学大模型应用开发</a></h3>
 <p>一个面向小白开发者的大模型应用开发教程，旨在结合个人知识库助手项目，通过一个课程完成大模型开发的重点入门，主要内容包括：</p>
@@ -409,14 +412,14 @@
       <enclosure url="https://cunyu1943.github.io/contact/wechatpublic.png =150x" type="image/"/>
     </item>
     <item>
-      <title>好物周刊#50：</title>
+      <title>好物周刊#50：Sora 学习手册</title>
       <link>https://cunyu1943.github.io/weekly/2024/0323-0329.html</link>
       <guid>https://cunyu1943.github.io/weekly/2024/0323-0329.html</guid>
-      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#50：</source>
+      <source url="https://cunyu1943.github.io/rss.xml">好物周刊#50：Sora 学习手册</source>
       <description>共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1. Springboot-Notebook (https://github.com/chengxy-nds/Springboot-Notebook) 一个以 Spring Boot 为基础开发框架， 整合 Redis 、Mysql 、 Rabbitmq 、ES 、MongoDB、`sha...</description>
       <category>好物周刊</category>
       <pubDate>Mon, 26 Feb 2024 13:08:10 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 好物周刊#50：</h1>
+      <content:encoded><![CDATA[<h1> 好物周刊#50：Sora 学习手册</h1>
 <div class="hint-container info">
 <p class="hint-container-title">共勉</p>
 <p>不要哀求，学会争取。若是如此，终有所获。</p>
@@ -462,6 +465,7 @@
 <figure><figcaption></figcaption></figure>
 <h3> 3. <a href="https://chromewebstore.google.com/detail/aeajloomjeoncelkceelhhpkgbcgafek" target="_blank" rel="noopener noreferrer">绿色搜索</a></h3>
 <p>屏蔽百度搜索结果列表中的广告信息，将移除或者弱化显示，还你的搜索结果一份干净。</p>
+<figure><figcaption></figcaption></figure>
 <h2> 五、资料</h2>
 <h3> 1. <a href="https://github.com/liguodongiot/llm-action" target="_blank" rel="noopener noreferrer">LLM-Action</a></h3>
 <p>分享大模型相关技术原理以及实战经验，<code>Slogan</code> 是让天下没有难学的大模型。</p>
@@ -605,7 +609,7 @@
       <link>https://cunyu1943.github.io/weekly/2024/0316-0322.html</link>
       <guid>https://cunyu1943.github.io/weekly/2024/0316-0322.html</guid>
       <source url="https://cunyu1943.github.io/rss.xml">好物周刊#49：字幕交流网站</source>
-      <description>共勉 不要哀求，学会争取。若是如此，终有所获。 原文 一、项目 1. Starship (https://github.com/starship/starship) 轻量、迅速、可无限定制的高颜值终端，可用于各种 Shell 的提示符。 2. spring cloud shop (https://github.com/SiGuiyang/spring-...</description>
+      <description>共勉 不要哀求，学会争取。若是如此，终有所获。 原文 https://mp.weixin.qq.com/s/aBki6pNYWQLL_AIg2TcGIw 一、项目 1. Starship (https://github.com/starship/starship) 轻量、迅速、可无限定制的高颜值终端，可用于各种 Shell 的提示符。 2. sprin...</description>
       <category>好物周刊</category>
       <pubDate>Sun, 25 Feb 2024 11:33:41 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 好物周刊#49：字幕交流网站</h1>
@@ -615,6 +619,7 @@
 </div>
 <div class="hint-container tip">
 <p class="hint-container-title">原文</p>
+<p>https://mp.weixin.qq.com/s/aBki6pNYWQLL_AIg2TcGIw</p>
 </div>
 <h2> 一、项目</h2>
 <h3> 1. <a href="https://github.com/starship/starship" target="_blank" rel="noopener noreferrer">Starship</a></h3>
