@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>AC-Baidu 优化脚本</title>
+      <link href="/04/0402-ac-baidu/"/>
+      <url>/04/0402-ac-baidu/</url>
+      
+        <content type="html"><![CDATA[<h2 id="资源简介"><a href="#资源简介" class="headerlink" title="资源简介"></a>资源简介</h2><p><img src="/static/imgs/assets/04/0402-ac-baidu/0402-ac-baidu.webp"></p><p>百度、谷歌、必应、鸭鸭、好搜搜索优化脚本</p><p>一个将近 10 年的脚本，强化搜索效果，增强各搜索引擎搜索功能、显示效果优化、广告拦截的综合性脚本~</p><p>脚本功能说明：</p><ul><li>去掉百度、搜狗、谷歌搜索结果的重定向，回归为网站的原始网址</li><li>添加百度、搜狗、谷歌搜索结果中 Favicon 显示效果</li><li>搜索高亮用这个：搜索高亮脚本</li><li>百度和谷歌搜索页面可以设置为单列、双列模式</li><li>添加标记数量，标记当前的 id，界面更好看</li><li>请求是异步请求，并不会出现一个链接没有反馈回来，其余等待的情况，每个链接的请求都是独立的，互不影响，对于网络的影响几乎没有</li><li>目前支持自动翻页，所以暂时不需要安装自动翻页了</li><li>提供自定义页面背景图，让你的搜索页面更加美观实用</li></ul><h2 id="资源链接"><a href="#资源链接" class="headerlink" title="资源链接"></a>资源链接</h2><blockquote><p><a href="https://scriptcat.org/zh-CN/script-show-page/3002">https://scriptcat.org/zh-CN/script-show-page/3002</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 插件 </category>
+          
+          <category> 油猴 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 工具 </tag>
+            
+            <tag> 插件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>黑暗模式 - 夜眼</title>
       <link href="/04/0401-dark-mode-night-eye/"/>
       <url>/04/0401-dark-mode-night-eye/</url>
@@ -23,6 +52,8 @@
         <tags>
             
             <tag> 工具 </tag>
+            
+            <tag> 插件 </tag>
             
         </tags>
       
