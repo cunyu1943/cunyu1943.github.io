@@ -4,6 +4,95 @@
   
     
     <entry>
+      <title>Aice PS - AI 图片编辑器</title>
+      <link href="/03/0301-aice-ps/"/>
+      <url>/03/0301-aice-ps/</url>
+      
+        <content type="html"><![CDATA[<h2 id="资源简介"><a href="#资源简介" class="headerlink" title="资源简介"></a>资源简介</h2><p><img src="/static/imgs/assets/03/0301-aice-ps/0301-aice-ps.webp"></p><p>一款功能强大的网页版 AI 照片编辑器，利用 Google aistudio 的先进能力，让专业级的图像编辑和创作变得简单直观。用户可以通过简单的文本提示对图像进行修饰、应用创意滤镜、进行专业调整，甚至从零开始生成全新的图像。</p><p>主要功能：</p><ul><li>Aice PS 结合了多种尖端 AI 能力，为您提供一站式的创意图片与视频解决方案：</li><li>🚀 AI 图像生成: 输入任意文本描述，即可由 Imagen 4 模型创造出细节丰富、富有创意的高质量图片，并支持多种宽高比。</li><li>✍️ 智能修饰 (局部编辑): 在图片上轻松点击指定位置，通过简单的文字指令（如 “移除这个物体”、“把衬衫变成红色”）进行精准、无缝的局部修改。</li><li>🎨 创意滤镜与专业调整: 一键应用动漫、合成波、Lomo 等多种艺术风格滤镜，或进行背景虚化、增强细节、调整光效等专业级图像调整。</li><li>💡 AI 灵感建议: 不确定从何下手？AI 会智能分析您的图片，并为您量身推荐最合适的滤镜、调整和纹理效果，激发您的创作灵感。</li><li>🧩 智能合成: 上传多张图片，通过一句话描述，即可将不同元素（如人物、背景、风格）无缝地融合在一起，创造出全新的合成图像。</li><li>🧱 纹理叠加: 为图片添加各种逼真的创意纹理，如裂纹漆、木纹、金属拉丝等，瞬间提升画面质感。</li><li>✂️ 一键抠图: 强大的人工智能可自动识别并移除图片背景，一键生成带透明通道的 PNG 图像，非常适合设计和合成。</li><li>🕰️ Past Forward (时空穿越): 上传一张肖像照，AI 将带您穿越时空，生成您在 1950s 至 2000s 各个年代的逼真样貌。</li><li>🎵 音画志 (BeatSync): 上传一张图片和一段音乐，AI 会自动生成多种风格化图集，并根据音乐节拍一键生成带有酷炫转场效果的视频短片。</li><li>📚 NB 提示词库: 内置一个可搜索、分页的模板库，提供丰富的创意起点。点击模板即可加载预设图片和提示词，轻松开始您的创作之旅。</li><li>🛠️ 基础编辑套件: 提供无限制的裁剪、撤销 &#x2F; 重做、实时对比原图、保存和下载等基础功能，满足您的日常编辑需求。</li></ul><h2 id="资源链接"><a href="#资源链接" class="headerlink" title="资源链接"></a>资源链接</h2><blockquote><p><a href="https://github.com/aigem/aice_ps">https://github.com/aigem/aice_ps</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 项目 </category>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> AI </tag>
+            
+            <tag> React </tag>
+            
+            <tag> Google Gemini </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Claude Relay Service</title>
+      <link href="/03/0301-claude-relay-service/"/>
+      <url>/03/0301-claude-relay-service/</url>
+      
+        <content type="html"><![CDATA[<h2 id="资源简介"><a href="#资源简介" class="headerlink" title="资源简介"></a>资源简介</h2><p><img src="/static/imgs/assets/03/0301-claude-relay-service/0301-claude-relay-service.webp"></p><p>自建 Claude Code 镜像，支持 Claude Code、Gemini CLI、Codex CLI，支持 Claude Console 接入。集成 OAuth 认 证、多账号池切换、自定义 API 密钥、OpenAI 兼容格式、代理支持和智能防封机制。</p><p>基础功能：</p><ul><li>✅ 多账户管理: 可以添加多个 Claude 账户自动轮换</li><li>✅ 自定义 API Key: 给每个人分配独立的 Key</li><li>✅ 使用统计: 详细记录每个人用了多少 token</li></ul><p>高级功能：</p><ul><li>🔄 智能切换: 账户出问题自动换下一个</li><li>🚀 性能优化: 连接池、缓存，减少延迟</li><li>📊 监控面板: Web 界面查看所有数据</li><li>🛡️ 安全控制: 访问限制、速率控制、客户端限制</li><li>🌐 代理支持: 支持 HTTP &#x2F; SOCKS5 代理</li></ul><h2 id="资源链接"><a href="#资源链接" class="headerlink" title="资源链接"></a>资源链接</h2><blockquote><p><a href="https://github.com/Wei-Shaw/claude-relay-service">https://github.com/Wei-Shaw/claude-relay-service</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 项目 </category>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> AI </tag>
+            
+            <tag> Claude </tag>
+            
+            <tag> Gemini </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Front-End RSS</title>
+      <link href="/01/0106-front-end-rss/"/>
+      <url>/01/0106-front-end-rss/</url>
+      
+        <content type="html"><![CDATA[<h2 id="资源简介"><a href="#资源简介" class="headerlink" title="资源简介"></a>资源简介</h2><p><img src="/static/imgs/assets/01/0106-front-end-rss/0106-front-end-rss.webp"></p><p>根据 RSS 订阅最新前端技术文章并自动分类，每天定时更新前端技术文章，并推送到 GitHub 方便查看。</p><h2 id="资源链接"><a href="#资源链接" class="headerlink" title="资源链接"></a>资源链接</h2><blockquote><p><a href="https://github.com/ChanceYu/front-end-rss">https://github.com/ChanceYu/front-end-rss</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 资源 </category>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> RSS </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>AC-Baidu 优化脚本</title>
       <link href="/04/0402-ac-baidu/"/>
       <url>/04/0402-ac-baidu/</url>
@@ -140,13 +229,13 @@
       
         <tags>
             
-            <tag> 国产剧 </tag>
-            
-            <tag> 爱情 </tag>
-            
             <tag> 夸克网盘 </tag>
             
+            <tag> 国产剧 </tag>
+            
             <tag> 喜剧 </tag>
+            
+            <tag> 爱情 </tag>
             
         </tags>
       
@@ -237,11 +326,11 @@
       
         <tags>
             
-            <tag> 迅雷网盘 </tag>
-            
             <tag> 国产剧 </tag>
             
             <tag> 爱情 </tag>
+            
+            <tag> 迅雷网盘 </tag>
             
             <tag> 剧情 </tag>
             
@@ -270,11 +359,11 @@
       
         <tags>
             
+            <tag> 夸克网盘 </tag>
+            
             <tag> 国产剧 </tag>
             
             <tag> 爱情 </tag>
-            
-            <tag> 夸克网盘 </tag>
             
             <tag> 古装 </tag>
             
@@ -303,9 +392,9 @@
       
         <tags>
             
-            <tag> 迅雷网盘 </tag>
-            
             <tag> 国产剧 </tag>
+            
+            <tag> 迅雷网盘 </tag>
             
             <tag> 剧情 </tag>
             
