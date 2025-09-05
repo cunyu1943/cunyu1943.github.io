@@ -4,6 +4,120 @@
   
     
     <entry>
+      <title>Open-XiaoAI</title>
+      <link href="/03/0302-open-xiaoai/"/>
+      <url>/03/0302-open-xiaoai/</url>
+      
+        <content type="html"><![CDATA[<h2 id="资源简介"><a href="#资源简介" class="headerlink" title="资源简介"></a>资源简介</h2><p><img src="/static/imgs/assets/03/0302-open-xiaoai/0302-open-xiaoai.webp"></p><p>让小爱音箱听见你的声音，解锁无限可能。固件适用于小爱音箱 Pro（LX06）和 Xiaomi 智能音箱 Pro（OH2P）这两款机型。</p><h2 id="资源链接"><a href="#资源链接" class="headerlink" title="资源链接"></a>资源链接</h2><blockquote><p><a href="https://github.com/idootop/open-xiaoai">https://github.com/idootop/open-xiaoai</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 项目 </category>
+          
+          <category> 后端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 小米 </tag>
+            
+            <tag> 小爱 </tag>
+            
+            <tag> 音箱 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>文字转手写</title>
+      <link href="/01/0106-text-to-handwriting/"/>
+      <url>/01/0106-text-to-handwriting/</url>
+      
+        <content type="html"><![CDATA[<h2 id="资源简介"><a href="#资源简介" class="headerlink" title="资源简介"></a>资源简介</h2><p><img src="/static/imgs/assets/01/0106-text-to-handwriting/0106-text-to-handwriting.webp"></p><p>一个免费在线工具，在各种纸张背景上将数字文字转换为漂亮的手写笔记。</p><p>支持以下特点：</p><ul><li>各种纸张背景：选择多种纸张样式，包括横线、空白和装饰背景用于您的手写文字。</li><li>多语言支持：支持不同语言，每种语言都有相应的手写字体。</li><li>轻松预览和下载：即时预览您的手写文字，一键下载高质量图像。</li></ul><h2 id="资源链接"><a href="#资源链接" class="headerlink" title="资源链接"></a>资源链接</h2><blockquote><p><a href="https://text-to-handwriting.org/zh">https://text-to-handwriting.org/zh</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 网站 </category>
+          
+          <category> 实用工具 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 工具 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>90-Day Cybersecurity Study Plan</title>
+      <link href="/01/0106-90days-sec-study/"/>
+      <url>/01/0106-90days-sec-study/</url>
+      
+        <content type="html"><![CDATA[<h2 id="资源简介"><a href="#资源简介" class="headerlink" title="资源简介"></a>资源简介</h2><p><img src="/static/imgs/assets/01/0106-90days-sec-study/0106-90days-sec-study.webp"></p><p>90 天快学入门网络安全，一份结构清晰，从基础概念到核心进阶技能，涵盖渗透测试、漏洞分析、防御策略等内容。</p><h2 id="资源链接"><a href="#资源链接" class="headerlink" title="资源链接"></a>资源链接</h2><blockquote><p><a href="https://github.com/farhanashrafdev/90DaysOfCyberSecurity">https://github.com/farhanashrafdev/90DaysOfCyberSecurity</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 资源 </category>
+          
+          <category> 编程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 网络安全 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Crop Image</title>
+      <link href="/02/0205-cropimage/"/>
+      <url>/02/0205-cropimage/</url>
+      
+        <content type="html"><![CDATA[<h2 id="资源简介"><a href="#资源简介" class="headerlink" title="资源简介"></a>资源简介</h2><p><img src="/static/imgs/assets/02/0205-cropimage/0205-cropimage.webp"></p><p>免费在线裁剪图像。无需注册。支持 JPEG、PNG 和其他格式。图像在您的设备上处理。</p><p>具有以下特点：</p><ul><li>🖼️ 裁剪任何图像</li><li>♻️ 适用于 JPEG、PNG、WebP 和 SVG</li><li>💯 100% 免费</li><li>👍 易于使用</li><li>🌎 在您的网络浏览器中工作</li><li>✅ 无需注册</li><li>🙈 私人 - 没有上传</li></ul><h2 id="资源链接"><a href="#资源链接" class="headerlink" title="资源链接"></a>资源链接</h2><blockquote><p><a href="https://cropimage.com/">https://cropimage.com</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 网站 </category>
+          
+          <category> 实用工具 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 工具 </tag>
+            
+            <tag> 图片编辑 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Douban Book+</title>
       <link href="/04/0401-douban-book/"/>
       <url>/04/0401-douban-book/</url>
@@ -82,6 +196,8 @@
             
             <tag> 计算器 </tag>
             
+            <tag> 工作 </tag>
+            
         </tags>
       
     </entry>
@@ -90,17 +206,17 @@
     
     <entry>
       <title>OfferStar AI</title>
-      <link href="/02/0203-offerstar/"/>
-      <url>/02/0203-offerstar/</url>
+      <link href="/05/0503-offerstar/"/>
+      <url>/05/0503-offerstar/</url>
       
-        <content type="html"><![CDATA[<h2 id="资源简介"><a href="#资源简介" class="headerlink" title="资源简介"></a>资源简介</h2><p><img src="/static/imgs/assets/02/0203-offerstar/0203-offerstar.webp"></p><p>AI 时代面试笔试助手，秒杀八股文、手撕算法题、测评题，这些通通搞定！面试笔试都能用，真的很无敌！</p><p>工具无视切屏检测、共享屏幕，隐蔽性非常高！面试笔试都可用！秒杀一切八股文、测评题、算法题！但工具虽好，还是需要多多练习，根据自身情况灵活使用，才能在面试中如虎添翼！</p><h2 id="资源链接"><a href="#资源链接" class="headerlink" title="资源链接"></a>资源链接</h2><blockquote><p><a href="https://www.offerstar.cn/">https://www.offerstar.cn/</a></p></blockquote>]]></content>
+        <content type="html"><![CDATA[<h2 id="资源简介"><a href="#资源简介" class="headerlink" title="资源简介"></a>资源简介</h2><p><img src="/static/imgs/assets/05/0503-offerstar/0503-offerstar.webp"></p><p>AI 时代面试笔试助手，秒杀八股文、手撕算法题、测评题，这些通通搞定！面试笔试都能用，真的很无敌！</p><p>工具无视切屏检测、共享屏幕，隐蔽性非常高！面试笔试都可用！秒杀一切八股文、测评题、算法题！但工具虽好，还是需要多多练习，根据自身情况灵活使用，才能在面试中如虎添翼！</p><h2 id="资源链接"><a href="#资源链接" class="headerlink" title="资源链接"></a>资源链接</h2><blockquote><p><a href="https://www.offerstar.cn/">https://www.offerstar.cn/</a></p></blockquote>]]></content>
       
       
       <categories>
           
-          <category> 网站 </category>
+          <category> 软件 </category>
           
-          <category> AI 工具 </category>
+          <category> Windows </category>
           
       </categories>
       
@@ -110,6 +226,8 @@
             <tag> AI </tag>
             
             <tag> 面试 </tag>
+            
+            <tag> macOS </tag>
             
         </tags>
       
