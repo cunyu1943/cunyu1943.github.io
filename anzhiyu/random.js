@@ -1,3 +1,0 @@
-var posts=["01/0101-aini/","01/0101-aiqinggongyu/","01/0101-haishanggangqinshi/","01/0101-lianhualou/","01/0103-mengqi30/","01/0102-jiandaochenxin/","01/0101-xianyu/","01/0105-labubu/","01/0106-90days-sec-study/","01/0106-front-end-rss/","01/0106-sensitive-lexicon/","01/0106-text-to-handwriting/","02/0202-green-video/","02/0205-cropimage/","02/0205-laofa-calc/","03/0301-aice-ps/","03/0301-claude-relay-service/","03/0302-open-xiaoai/","04/0401-dark-mode-night-eye/","04/0401-douban-book/","04/0401-the-qr-code-extension/","04/0402-ac-baidu/","05/0503-offerstar/"];function toRandomPost(){
-    pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
-  };
