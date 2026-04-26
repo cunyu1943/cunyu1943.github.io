@@ -20,8 +20,8 @@
   --color-text-secondary: #999999;
   --color-text-muted: #666666;
   --color-text-body: #e0e0e0;
-  --color-accent: #54675e;
-  --color-accent-hover: #FFFF00;
+  --color-accent: #42B883;
+  --color-accent-hover: #42B883;
   --color-badge-gold: #e8c547;
 
   /* ── Typography (Apple-style system font stack) ── */
@@ -1466,8 +1466,8 @@ body {
 }
 
 .search-result-item__tag--hit {
-  color: #FFFF00;
-  background: rgba(255, 255, 0, 0.25);
+  color: #42B883;
+  background: rgba(66, 184, 131, 0.25);
 }
 
 .search-result-item__date {

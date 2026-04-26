@@ -20,13 +20,13 @@
   --color-text-secondary: #999999;
   --color-text-muted: #666666;
   --color-text-body: #e0e0e0;
-  --color-accent: #54675e;
-  --color-accent-hover: #FFFF00;
+  --color-accent: #42B883;
+  --color-accent-hover: #42B883;
   --color-badge-gold: #e8c547;
 
-  /* ── Typography (LXGW WenKai + system font stack) ── */
-  --font-body: "LXGW WenKai", -apple-system, BlinkMacSystemFont, "SF Pro SC", "SF Pro Text", "PingFang SC", "Helvetica Neue", "Microsoft YaHei", "Segoe UI", sans-serif;
-  --font-heading: "LXGW WenKai", -apple-system, BlinkMacSystemFont, "SF Pro SC", "SF Pro Display", "PingFang SC", "Helvetica Neue", "Microsoft YaHei", "Segoe UI", sans-serif;
+  /* ── Typography ── */
+  --font-body: "LXGW WenKai Screen", "Noto Serif SC", serif;
+  --font-heading: "LXGW WenKai Screen", "Noto Serif SC", serif;
   --font-mono: "SF Mono", SFMono-Regular, ui-monospace, Menlo, Monaco, Consolas, monospace;
   --font-size-base: 16px;
   --line-height-base: 1.58824;
@@ -101,8 +101,8 @@ a:hover {
 }
 
 mark {
-  background-color: rgba(255, 255, 0, 0.25);
-  color: var(--color-accent-hover);
+  background-color: rgba(66, 184, 131, 0.25);
+  color: #42B883;
   padding: 1px 2px;
   border-radius: 2px;
   white-space: nowrap;
@@ -252,8 +252,8 @@ body {
   --color-text-secondary: #555555;
   --color-text-muted: #8a8a8a;
   --color-text-body: #222222;
-  --color-accent: #1f1f1f;
-  --color-accent-hover: #b88a00;
+  --color-accent: #42B883;
+  --color-accent-hover: #42B883;
   --color-badge-gold: #b88a00;
 }
 
@@ -270,8 +270,8 @@ body {
 }
 
 .theme-light mark {
-  background-color: rgba(255, 235, 59, 0.45);
-  color: #6a5200;
+  background-color: rgba(66, 184, 131, 0.25);
+  color: #42B883;
 }
 
 /* 文章内容：blockquote / 行内代码 在浅色下需要单独处理硬编码颜色 */
@@ -298,8 +298,8 @@ body {
 }
 
 .theme-light .search-result-item__tag--hit {
-  color: #6a5200;
-  background: rgba(255, 235, 59, 0.45);
+  color: #42B883;
+  background: rgba(66, 184, 131, 0.45);
 }
 
 .theme-light .search-result-item__date {
