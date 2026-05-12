@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+<link rel="preconnect" href="https://cdnjs.cloudflare.com">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/style.css">
+<link rel="stylesheet" href="/styles/main.min.css">
+
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+
+
+<style>:root { --heatmap-color: #39d353; }</style>
+
+
+
+<script>
+  (function () {
+    try {
+      var saved = localStorage.getItem('flavor-theme');
+      var theme = saved || 'dark';
+      if (theme === 'light') {
+        document.documentElement.classList.add('theme-light');
+      }
+    } catch (e) { }
+  })();
+</script>
+  <meta name="generator" content="Gridea Pro 1.1.1">
+  <title>第一章：走进 Java 世界 | 村雨遥的资源站</title>
+  
+<meta property="og:title" content="第一章：走进 Java 世界" />
+<meta property="og:type" content="article" />
+
+<meta property="og:image" content="https://cdn.seovx.com/ha/?mom=302" />
+
+
+<meta name="description" content="欢迎来到 Java 编程的世界！无论你之前是否接触过编程，这都将是一段充满乐趣和挑战的旅程。 本章将带你了解 Java 的过去、现在与未来，帮助你建立起对 Java 的整体认知，为后续深入学习打下坚实基础。 1. Java 语言发展史 1.1 诞生：从 Oak 到 Java 故事要从 20 世纪 90 年代初说起。当时，Sun Microsystems 公司的工程师詹姆斯·&amp;hellip;">
+<meta name="keywords" content="Java,村雨遥,教程,资源">
+<link rel="canonical" href="https://cunyu1943.github.io/post/walk-into-java-world/">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"第一章：走进 Java 世界","url":"https://cunyu1943.github.io/post/walk-into-java-world/","description":"欢迎来到 Java 编程的世界！无论你之前是否接触过编程，这都将是一段充满乐趣和挑战的旅程。 本章将带你了解 Java 的过去、现在与未来，帮助你建立起对 Java 的整体认知，为后续深入学习打下坚实基础。 1. Java 语言发展史 1.1 诞生：从 Oak 到 Java 故事要从 20 世纪 90 年代初说起。当时，Sun Microsystems 公司的工程师詹姆斯·\u0026hellip;","image":"https://cdn.seovx.com/ha/?mom=302","datePublished":"2026-04-26T20:13:08+08:00","dateModified":"2026-05-12T21:42:48+08:00","author":{"@type":"Person","name":"村雨遥的资源站"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/images/avatar.png"},"name":"村雨遥的资源站"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://cunyu1943.github.io","name":"村雨遥的资源站","position":1},{"@type":"ListItem","item":"https://cunyu1943.github.io/post/walk-into-java-world/","name":"第一章：走进 Java 世界","position":2}]}</script>
+<meta property="og:title" content="第一章：走进 Java 世界">
+<meta property="og:description" content="欢迎来到 Java 编程的世界！无论你之前是否接触过编程，这都将是一段充满乐趣和挑战的旅程。 本章将带你了解 Java 的过去、现在与未来，帮助你建立起对 Java 的整体认知，为后续深入学习打下坚实基础。 1. Java 语言发展史 1.1 诞生：从 Oak 到 Java 故事要从 20 世纪 90 年代初说起。当时，Sun Microsystems 公司的工程师詹姆斯·&amp;hellip;">
+<meta property="og:url" content="https://cunyu1943.github.io/post/walk-into-java-world/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="村雨遥的资源站">
+<meta property="og:image" content="https://cdn.seovx.com/ha/?mom=302">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://cunyu1943.github.io/post/walk-into-java-world/">
+<meta name="twitter:title" content="第一章：走进 Java 世界">
+<meta name="twitter:description" content="欢迎来到 Java 编程的世界！无论你之前是否接触过编程，这都将是一段充满乐趣和挑战的旅程。 本章将带你了解 Java 的过去、现在与未来，帮助你建立起对 Java 的整体认知，为后续深入学习打下坚实基础。 1. Java 语言发展史 1.1 诞生：从 Oak 到 Java 故事要从 20 世纪 90 年代初说起。当时，Sun Microsystems 公司的工程师詹姆斯·&amp;hellip;">
+<meta name="twitter:image" content="https://cdn.seovx.com/ha/?mom=302">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#42b883">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="村雨遥的资源站">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/icons/icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/images/icons/icon-192x192.png">
+<meta name="msapplication-TileColor" content="#42b883">
+<meta name="msapplication-TileImage" content="/images/icons/icon-192x192.png">
+<script>if('serviceWorker' in navigator){navigator.serviceWorker.register('/sw.js')}</script>
+</head>
+<body class="flavor-theme">
+
+  <header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <div class="top-bar">
+
+      
+      <div class="top-bar__left">
+        
+        <a href="https://cunyu1943.github.io" class="site-avatar-link" aria-label="返回首页">
+          <img class="site-avatar" src="/images/theme/村雨遥.jpg" alt="村雨遥的资源站" />
+        </a>
+        
+        <a href="https://cunyu1943.github.io" class="site-name-link">村雨遥的资源站</a>
+      </div>
+
+      
+      <nav class="top-bar__nav" id="sectionBar">
+        
+        
+        <a class="nav-item" href="/">首页</a>
+        
+        <a class="nav-item" href="/post">资源列表</a>
+        
+        <a class="nav-item" href="/archives">归档</a>
+        
+        <a class="nav-item" href="/tags">标签</a>
+        
+        <a class="nav-item" href="https://cunyu1943.github.io/JavaPark">JavaPark</a>
+        
+        <a class="nav-item" href="https://cunyu1943.github.io/weekly">好物周刊</a>
+        
+        
+      </nav>
+
+      
+      <div class="top-bar__right">
+        <button class="btn-icon btn-search search-btn" id="btnSearch" type="button" aria-label="搜索">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </button>
+        <button class="btn-icon theme-toggle theme-toggle-sun" id="themeToggleSun" type="button"
+          aria-label="切换到浅色模式">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 1C12.5523 1 13 1.44772 13 2V4C13 4.55228 12.5523 5 12 5C11.4477 5 11 4.55228 11 4V2C11 1.44772 11.4477 1 12 1Z"></path>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M7 12C7 9.23858 9.23858 7 12 7C14.7614 7 17 9.23858 17 12C17 14.7614 14.7614 17 12 17C9.23858 17 7 14.7614 7 12ZM12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9Z"></path>
+            <path d="M13 20C13 19.4477 12.5523 19 12 19C11.4477 19 11 19.4477 11 20V22C11 22.5523 11.4477 23 12 23C12.5523 23 13 22.5523 13 22V20Z"></path>
+            <path d="M4.22282 4.22289C4.61335 3.83236 5.24651 3.83236 5.63704 4.22289L7.04704 5.63289C7.43756 6.02341 7.43756 6.65658 7.04704 7.0471C6.65651 7.43762 6.02335 7.43762 5.63283 7.0471L4.22282 5.6371C3.8323 5.24658 3.8323 4.61341 4.22282 4.22289Z"></path>
+            <path d="M18.367 16.9529C17.9765 16.5623 17.3433 16.5623 16.9528 16.9529C16.5623 17.3434 16.5623 17.9766 16.9528 18.3671L18.3628 19.7771C18.7533 20.1676 19.3865 20.1676 19.777 19.7771C20.1675 19.3866 20.1675 18.7534 19.777 18.3629L18.367 16.9529Z"></path>
+            <path d="M1 12C1 11.4477 1.44772 11 2 11H4C4.55228 11 5 11.4477 5 12C5 12.5523 4.55228 13 4 13H2C1.44772 13 1 12.5523 1 12Z"></path>
+            <path d="M20 11C19.4477 11 19 11.4477 19 12C19 12.5523 19.4477 13 20 13H22C22.5523 13 23 12.5523 23 12C23 11.4477 22.5523 11 22 11H20Z"></path>
+            <path d="M7.04704 16.9529C7.43756 17.3434 7.43756 17.9766 7.04704 18.3671L5.63704 19.7771C5.24651 20.1676 4.61335 20.1676 4.22282 19.7771C3.8323 19.3866 3.8323 18.7534 4.22283 18.3629L5.63283 16.9529C6.02335 16.5623 6.65651 16.5623 7.04704 16.9529Z"></path>
+            <path d="M19.777 5.6371C20.1675 5.24657 20.1675 4.61341 19.777 4.22289C19.3865 3.83236 18.7533 3.83236 18.3628 4.22289L16.9528 5.63289C16.5623 6.02341 16.5623 6.65658 16.9528 7.0471C17.3433 7.43762 17.9765 7.43762 18.367 7.0471L19.777 5.6371Z"></path>
+          </svg>
+        </button>
+        <button class="btn-icon theme-toggle theme-toggle-moon" id="themeToggleMoon" type="button"
+          aria-label="切换到深色模式">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C10.0222 2 8.08879 2.58649 6.4443 3.6853C4.79981 4.78412 3.51809 6.3459 2.76121 8.17317C2.00433 10.0004 1.8063 12.0111 2.19215 13.9509C2.578 15.8907 3.53041 17.6725 4.92894 19.0711C6.32746 20.4696 8.10929 21.422 10.0491 21.8079C11.9889 22.1937 13.9996 21.9957 15.8268 21.2388C17.6541 20.4819 19.2159 19.2002 20.3147 17.5557C21.4135 15.9112 22 13.9778 22 12C22 11.5955 21.7564 11.2309 21.3827 11.0761C21.009 10.9213 20.5789 11.0069 20.2929 11.2929C19.287 12.2988 17.9226 12.864 16.5 12.864C15.0774 12.864 13.713 12.2988 12.7071 11.2929C11.7012 10.287 11.136 8.92261 11.136 7.5C11.136 6.07739 11.7012 4.71304 12.7071 3.70711C12.9931 3.42111 13.0787 2.99099 12.9239 2.61732C12.7691 2.24364 12.4045 2 12 2ZM7.55544 5.34824C8.27036 4.87055 9.05353 4.51389 9.87357 4.28778C9.39271 5.27979 9.13604 6.37666 9.13604 7.5C9.13604 9.45304 9.91189 11.3261 11.2929 12.7071C12.6739 14.0881 14.547 14.864 16.5 14.864C17.6233 14.864 18.7202 14.6073 19.7122 14.1264C19.4861 14.9465 19.1295 15.7296 18.6518 16.4446C17.7727 17.7602 16.5233 18.7855 15.0615 19.391C13.5997 19.9965 11.9911 20.155 10.4393 19.8463C8.88743 19.5376 7.46197 18.7757 6.34315 17.6569C5.21447 16.538 4.4624 15.1126 4.15372 13.5607C3.84504 12.0089 4.00347 10.4003 4.60897 8.93853C5.21447 7.47672 6.23985 6.22729 7.55544 5.34824Z"></path>
+            <path d="M19 2C19.5523 2 20 2.44772 20 3V4H21C21.5523 4 22 4.44772 22 5C22 5.55228 21.5523 6 21 6H20V7C20 7.55228 19.5523 8 19 8C18.4477 8 18 7.55228 18 7V6H17C16.4477 6 16 5.55228 16 5C16 4.44772 16.4477 4 17 4H18V3C18 2.44772 18.4477 2 19 2Z"></path>
+          </svg>
+        </button>
+        <button class="btn-icon btn-nav-toggle mobile-only" id="btnNavToggle" type="button" aria-label="切换导航">
+          <div class="hamburger" id="hamburger">
+            <span class="hamburger__line hamburger__line--top"></span>
+            <span class="hamburger__line hamburger__line--bottom"></span>
+          </div>
+        </button>
+      </div>
+
+    </div>
+  </div>
+</header>
+
+
+<div class="header-spacer"></div>
+
+<script>
+(function(){
+  var btn = document.getElementById('btnNavToggle');
+  var nav = document.getElementById('sectionBar');
+  var hamburger = document.getElementById('hamburger');
+  if (btn && nav) {
+    btn.addEventListener('click', function(){
+      nav.classList.toggle('top-bar__nav--open');
+      if (hamburger) hamburger.classList.toggle('is-active');
+    });
+    nav.querySelectorAll('.nav-item').forEach(function(item){
+      item.addEventListener('click', function(){
+        nav.classList.remove('top-bar__nav--open');
+        if (hamburger) hamburger.classList.remove('is-active');
+      });
+    });
+  }
+
+  var root = document.documentElement;
+  var applyTheme = function(theme, persist){
+    if (theme === 'light') {
+      root.classList.add('theme-light');
+    } else {
+      root.classList.remove('theme-light');
+    }
+    if (persist) {
+      try { localStorage.setItem('flavor-theme', theme); } catch (e) {}
+    }
+  };
+  document.querySelectorAll('.theme-toggle').forEach(function(el){
+    el.addEventListener('click', function(){
+      applyTheme(root.classList.contains('theme-light') ? 'dark' : 'light', true);
+    });
+  });
+})();
+</script>
+
+  <main class="site-main" role="main">
+    
+<article class="article-container">
+  <header class="article-header">
+    <h1 class="article-title">第一章：走进 Java 世界</h1>
+    <div class="article-meta">
+      
+      
+      <a href="/category/java/" class="article-meta__category">Java 教程</a>
+      
+      
+      <span class="article-meta__sep">·</span>
+      
+      <span class="article-meta__item">2026-04-26</span>
+      
+      <span class="article-meta__sep">·</span>
+      <span class="article-meta__item">8 分钟阅读</span>
+      
+    </div>
+    
+  </header>
+
+  
+  <div class="article-feature">
+    <img src="https://cdn.seovx.com/ha/?mom=302" alt="第一章：走进 Java 世界" />
+  </div>
+  
+
+  <div class="article-content">
+    <p>欢迎来到 Java 编程的世界！无论你之前是否接触过编程，这都将是一段充满乐趣和挑战的旅程。</p>
+<p>本章将带你了解 Java 的过去、现在与未来，帮助你建立起对 Java 的整体认知，为后续深入学习打下坚实基础。</p>
+<h2 id="1-java-">1. Java 语言发展史</h2>
+<h3 id="11--oak--java">1.1 诞生：从 Oak 到 Java</h3>
+<p>故事要从 20 世纪 90 年代初说起。当时，Sun Microsystems 公司的工程师詹姆斯·高斯林（James Gosling）带领一个团队，希望为消费类电子产品（如电视机顶盒、微波炉等）开发一种新的编程语言。这种语言需要具备 <strong>跨平台</strong> 的能力，因为不同的家用电器采用不同的处理器。</p>
+<p>于是，一种名为 <strong>Oak</strong> 的语言在 1991 年诞生了。高斯林非常喜欢他办公室窗外的橡树，便以此命名。然而，Oak 在发展初期并未在消费电子市场掀起波澜。</p>
+<p>转机出现在互联网兴起之时。Sun 公司发现，Oak 语言的特性——安全、跨平台、动态网页交互——非常适合刚刚兴起的互联网应用。1995 年，Sun 公司正式将 Oak 更名为 <strong>Java</strong>，并提出了口号 <strong>“Write Once, Run Anywhere”（一次编写，到处运行）</strong>。</p>
+<p>随着 Web 浏览器的普及，Java Applet（可在浏览器中运行的小程序）令 Java 迅速风靡全球，成为网络编程的首选语言。</p>
+<h3 id="12-java-">1.2 Java 的成长里程碑</h3>
+<ul>
+<li><strong>1996 年：JDK 1.0 发布</strong>，标志着 Java 开发工具包正式面世。</li>
+<li><strong>1998 年：Java 1.2 发布</strong>，引入了集合框架等。</li>
+<li><strong>2004 年：Java 5.0 发布</strong>，引入了泛型、增强 for 循环、自动装箱/拆箱、枚举、可变参数等核心特性。</li>
+<li><strong>2006 年：Sun 公司宣布开源 Java</strong>，开启了 OpenJDK 项目。</li>
+<li><strong>2009 年：Oracle 公司收购 Sun</strong>，Java 从此进入 Oracle 时代。</li>
+<li><strong>2014 年：Java 8（LTS）发布</strong>，带来了 Lambda 表达式、Stream API、新的日期时间 API 等。</li>
+<li><strong>2017 年：Oracle 宣布新发布节奏</strong>，每 6 个月发布一个新版本，并设立 LTS（Long-Term Support）版本以保证长期稳定。</li>
+<li><strong>2018 年：Java 11（LTS）发布</strong>，进一步增强安全性。</li>
+<li><strong>2021 年：Java 17（LTS）发布</strong>，密封类正式加入，Switch 表达式转正。</li>
+<li><strong>2023 年：Java 21（LTS）发布</strong>，虚拟线程（Virtual Threads）正式推出，极大提升了高并发程序的编写效率和吞吐量。</li>
+<li><strong>2025 年 9 月 16 日：Java 25（LTS）发布</strong>，Oracle 官方宣布提供至少 8 年的长期支持，包含 18 项 JEP（JDK Enhancement Proposals）新功能[reference:1][reference:2][reference:3]。</li>
+</ul>
+<p><strong>本教程将基于 Java 25（JDK 25）进行讲解。</strong></p>
+<h3 id="13-">1.3 名字背后的故事</h3>
+<p>Java 的命名趣味十足。最初叫 Oak，因为一棵橡树；后来改名 Java，取自印度尼西亚的爪哇岛，那里以盛产咖啡闻名。众多 Java 技术中常出现咖啡元素，比如 JavaBeans（咖啡豆），所以看到咖啡标志时别惊讶，那就是 Java！</p>
+<hr />
+<h2 id="2-java-">2. Java 的特点与优势</h2>
+<p>Java 之所以历经近 30 年仍位居编程语言排行榜前列，主要归功于以下几个显著优势。</p>
+<h3 id="21-">2.1 跨平台性（核心优势）</h3>
+<p>Java 程序运行在 <strong>JVM（Java Virtual Machine，Java 虚拟机）</strong> 上。不同操作系统（Windows、Linux、macOS 等）都有对应的 JVM 实现。Java 源代码（<code>.java</code> 文件）被编译成字节码（<code>.class</code> 文件），字节码是 JVM 能够识别的&quot;平台无关&quot;指令，由 JVM 翻译成所在平台的机器码执行。</p>
+<p><strong>简单理解：</strong> 你只需写一份 Java 程序，在任何安装了 JVM 的设备上都能运行。</p>
+<h3 id="22-">2.2 面向对象</h3>
+<p>Java 是一门纯粹的面向对象编程语言（OOP），支持封装、继承、多态三大特性，强制使用类（class）来组织代码。面向对象的思想更契合人类对现实世界的认知模型，使得大型软件的设计和维护变得更加容易。</p>
+<h3 id="23-">2.3 自动内存管理（垃圾回收）</h3>
+<p>Java 引入了 <strong>垃圾回收器（Garbage Collector, GC）</strong>，会自动扫描堆内存，识别不再被使用的对象并回收内存空间。在 JDK 25 中，默认使用高性能的 <strong>G1 GC</strong>，同时还提供 <strong>ZGC</strong> 和 <strong>Shenandoah GC</strong> 作为低延迟选择。</p>
+<h3 id="24-">2.4 健壮性、安全性与高性能</h3>
+<p>Java 强化了编译时类型检查和运行时异常检查，并强制要求进行显式的异常处理（try-catch），同时也提供了安全管理器和加密体系（JCA/JCE）等多种安全机制。JVM 采用 <strong>JIT（Just-In-Time）即时编译</strong>技术，能将频繁执行的热点代码直接编译为本地机器码缓存起来，运行效率非常接近甚至超越 C++。</p>
+<h3 id="25-">2.5 庞大的生态系统</h3>
+<p>Java 拥有全球最大的开发者社区之一，以及极其丰富的开源框架、类库和工具。无论你需要什么功能，几乎都能找到成熟的解决方案。这极大提升了开发效率。</p>
+<hr />
+<h2 id="3-java-">3. Java 技术体系平台</h2>
+<ul>
+<li>
+<p><strong>Java SE（Java Standard Edition，标准版）</strong>：Java 的核心和基础。无论要开发什么类型的 Java 应用，都必须先掌握 Java SE。本教程的前半部分主要聚焦于 Java SE。</p>
+</li>
+<li>
+<p><strong>Jakarta EE（原 Java EE，企业版）</strong>：建立在 Java SE 之上，增加了大量服务器端开发 API，如 Servlet、JMS、WebSocket 等。最新稳定版本是 <strong>Jakarta EE 11</strong>[reference:4]。近年来，<strong>Spring Framework</strong>（尤其是 Spring Boot 4.x / Spring Cloud）已经成为 Java 企业开发的主流选择。</p>
+</li>
+<li>
+<p><strong>Java ME（Java Micro Edition，微型版）</strong>：专为资源受限的嵌入式设备设计，目前应用范围很小，初学者基本无需学习。</p>
+</li>
+</ul>
+<p><strong>注意：</strong> Android 应用的底层使用 Java 语言，但采用的是 Android SDK 和 Dalvik/ART 虚拟机。学习 Java SE 是学习 Android 开发的必备基础。</p>
+<hr />
+<h2 id="4-java-">4. Java 的应用领域与就业前景</h2>
+<h3 id="41-">4.1 应用领域</h3>
+<ol>
+<li>
+<p><strong>企业级应用开发</strong>：银行、保险、电商、政府等后台系统大多数使用 Java 开发，尤其是基于 Spring Boot/Spring Cloud 的微服务架构。</p>
+</li>
+<li>
+<p><strong>大数据与云计算</strong>：几乎所有大数据处理框架都是用 Java 或 JVM 语言（如 Scala）编写的，包括 Hadoop、Spark、Flink、Kafka 等。掌握 Java 是进入大数据领域的必备基础。</p>
+</li>
+<li>
+<p><strong>Android 应用开发</strong>：Android 应用层开发主要使用 Java 或 Kotlin，许多 Android 框架和工具链都以 Java 为基础。</p>
+</li>
+<li>
+<p><strong>中间件和基础设施</strong>：很多重要的中间件和基础软件都是用 Java 构建的，如：Tomcat、Jetty（Web 服务器）、Elasticsearch（搜索引擎）、Netty（高性能网络框架）。</p>
+</li>
+<li>
+<p><strong>科学计算与游戏后台</strong>：Java 也可用于开发大型多人在线游戏的服务端和科学计算软件。</p>
+</li>
+</ol>
+<h3 id="42-">4.2 就业前景</h3>
+<p>Java 后端开发岗位的需求一直稳居前列，尤其是在一线互联网公司和传统企业数字化转型的过程中，Java 人才需求巨大。Java 软件开发工程师在 2026 年依然是高需求岗位，尤其在金融、保险等行业。初级岗位（1 ~ 3 年经验）年薪约 36 万 ~ 39 万人民币。</p>
+<blockquote>
+<p><strong>提示：</strong> 薪资受地域、企业规模、个人能力等多种因素影响，以上数据仅供参考。</p>
+</blockquote>
+<hr />
+<h2 id="5-jdk-">5. JDK 版本演进与选择</h2>
+<h3 id="51-jdk-">5.1 JDK 是什么？</h3>
+<p><strong>JDK（Java Development Kit）</strong> 是 Java 开发工具包，包含：</p>
+<ul>
+<li><strong>JRE（Java Runtime Environment）</strong>：Java 运行时环境，包括 JVM 和核心类库；</li>
+<li><strong>开发工具</strong>：编译器（<code>javac</code>）、打包工具（<code>jar</code>）、调试器（<code>jdb</code>）、文档生成器（<code>javadoc</code>）等。</li>
+</ul>
+<p>简单来说：<strong>用户只需要安装 JRE 来运行 Java 程序，而作为开发者的你需要安装 JDK 来编写和调试程序</strong>。</p>
+<h3 id="52--lts-">5.2 现代 LTS 版本速览</h3>
+<p>自 Java 9 起，Oracle 将发布周期调整为每 6 个月发布一个功能版本。<strong>LTS（Long-Term Support，长期支持）</strong> 版本会得到至少 8 年的更新与安全补丁。最新 LTS 版本为 <strong>JDK 25（2025 年 9 月发布）</strong>，下一个 LTS 版本预计为 <strong>JDK 27（2027 年发布）</strong>。</p>
+<table>
+<thead>
+<tr>
+<th>LTS 版本</th>
+<th>发布时间</th>
+<th>主要特性</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Java 8</td>
+<td>2014.03</td>
+<td>Lambda 表达式、Stream API、新日期时间 API</td>
+</tr>
+<tr>
+<td>Java 11</td>
+<td>2018.09</td>
+<td>增强安全性、新 HTTP 客户端</td>
+</tr>
+<tr>
+<td>Java 17</td>
+<td>2021.09</td>
+<td>密封类、Switch 表达式转正</td>
+</tr>
+<tr>
+<td>Java 21</td>
+<td>2023.09</td>
+<td><strong>虚拟线程</strong>正式推出</td>
+</tr>
+<tr>
+<td><strong>Java 25</strong></td>
+<td><strong>2025.09</strong></td>
+<td><strong>18 项 JEP 新特性，8 年以上长期支持</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="53-">5.3 发行版选择</h3>
+<p>市面上有很多 OpenJDK 发行版，推荐：</p>
+<ul>
+<li><strong>Eclipse Temurin</strong>：由 Eclipse 基金会维护，免费、开源、TCK 认证，支持 JDK 25 LTS。</li>
+<li><strong>Oracle JDK</strong>：Oracle 官方版本，使用需遵守许可。</li>
+<li><strong>Amazon Corretto</strong>：亚马逊提供，免费且长期支持。</li>
+<li><strong>Azul Zulu</strong>：提供免费社区版。</li>
+</ul>
+<p><strong>本教程推荐使用 Eclipse Temurin 25</strong>（最新 LTS 版本），它稳定、免费，没有任何使用限制。</p>
+<hr />
+<h2 id="6--java-">6 学习 Java 的方法与建议</h2>
+<h3 id="61-">6.1 零基础如何开始？</h3>
+<ol>
+<li><strong>不要试图一次性掌握所有东西</strong>：编程是一门实践性极强的学科，先理解基本概念，再通过编码巩固。</li>
+<li><strong>多动手，多敲代码</strong>：每一道例题和练习都亲自敲一遍，学会调试和解决错误才是成长。</li>
+<li><strong>理解原理而非死记硬背</strong>：例如，理解对象在内存中如何存储，比记住怎么写一个类更有价值。</li>
+<li><strong>逐步构建知识体系</strong>：Java SE → 面向对象 → 常用类库 → 多线程 → 集合框架 → IO → 高级特性，按顺序学习，会自然形成体系。</li>
+<li><strong>使用正确的工具</strong>：尽快习惯使用 IntelliJ IDEA，提供的代码提示、调试和重构功能能极大提高效率。</li>
+</ol>
+<h3 id="62-">6.2 遇到问题怎么办？</h3>
+<ul>
+<li><strong>利用搜索引擎</strong>：遇到错误信息，先拷贝到 Google 或百度中搜索。</li>
+<li><strong>查阅官方文档</strong>：JDK 的 API 文档是最权威的参考资料。</li>
+<li><strong>在社区提问</strong>：Stack Overflow、CSDN、SegmentFault 等是程序员的好帮手。</li>
+<li><strong>加入学习社群</strong>：与同学交流讨论，互相促进。</li>
+</ul>
+<h3 id="63-">6.3 保持耐心和热情</h3>
+<p>学习 Java 可能会遇到难以理解的抽象概念，但请不要气馁。只要坚持动手实践，你会发现 Java 世界的大门会逐渐为你打开。当你写出第一个可以运行的程序，或成功调试出一个 bug 时，那种成就感是无与伦比的。</p>
+<p><strong>最后，记住一句话：Talk is cheap, show me the code.</strong></p>
+<p>好了，让我们开始激动人心的 Java 学习之旅吧！下一章，我们将搭建开发环境，并运行起第一个 Java 程序。</p>
+
+  </div>
+
+  
+  <nav class="post-nav">
+    
+    <div class="post-nav-card post-nav-card--empty">
+      <div class="post-nav-card__body">
+        <span class="post-nav-card__label meta-text">上一篇</span>
+        <span class="post-nav-card__empty-text">没有上一篇了~</span>
+      </div>
+    </div>
+    
+    
+    <div class="post-nav-card post-nav-card--empty post-nav-card--next">
+      <div class="post-nav-card__body">
+        <span class="post-nav-card__label meta-text">下一篇</span>
+        <span class="post-nav-card__empty-text">没有下一篇了~</span>
+      </div>
+    </div>
+    
+  </nav>
+
+  
+  
+
+
+</article>
+
+  </main>
+
+  <footer class="site-footer">
+  <div class="footer-inner">
+
+    
+    
+    <nav class="footer-nav" aria-label="页脚导航">
+      
+      <a class="footer-nav__link" href="/">首页</a>
+      
+      <a class="footer-nav__link" href="/post">资源列表</a>
+      
+      <a class="footer-nav__link" href="/archives">归档</a>
+      
+      <a class="footer-nav__link" href="/tags">标签</a>
+      
+      <a class="footer-nav__link" href="https://cunyu1943.github.io/JavaPark">JavaPark</a>
+      
+      <a class="footer-nav__link" href="https://cunyu1943.github.io/weekly">好物周刊</a>
+      
+    </nav>
+    
+
+    
+    <div class="footer-social">
+      
+      <a class="footer-social__link" href="https://github.com/cunyu1943" target="_blank" rel="noopener noreferrer"
+        aria-label="GitHub">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+          <path
+            d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+        </svg>
+      </a>
+      
+      
+      
+      <a class="footer-social__link" href="/feed.xml" aria-label="RSS">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M6.18 15.64a2.18 2.18 0 110 4.36 2.18 2.18 0 010-4.36zM4 4.44A15.56 15.56 0 0119.56 20h-2.83A12.73 12.73 0 004 7.27V4.44zm0 5.66a9.9 9.9 0 019.9 9.9h-2.83A7.07 7.07 0 004 12.93V10.1z"/>
+        </svg>
+      </a>
+    </div>
+
+    
+    <div class="footer-copyright">
+      <p>&copy; 2026 村雨遥的资源站. All rights reserved.</p>
+    </div>
+
+    
+    
+    <div class="footer-custom">
+      免责声明：资源由本人购买整理，版权归原创所有 ，如有侵权请私信联系 cunyu1024@foxmail.com 删除，资源仅供以个人学习交流使用，请勿用于商业用途。
+    </div>
+    
+
+    
+    <div class="footer-powered">
+      <span>Powered by <a href="https://gridea.pro" target="_blank" rel="noopener noreferrer">Gridea Pro</a></span>
+    </div>
+
+  </div>
+</footer>
+
+  
+  <div class="search-overlay" id="searchOverlay" style="display:none;">
+  <div class="search-modal">
+    <div class="search-header">
+      <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+      <input type="text" class="search-input" id="searchInput" placeholder="搜索文章..." autocomplete="off" />
+      <span class="search-kbd">&#8984;K</span>
+      <button class="search-close" id="searchClose" type="button" aria-label="关闭搜索">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+    <div class="search-results" id="searchResults"></div>
+  </div>
+</div>
+
+<script src="/scripts/search.js"></script>
+  
+
+  
+
+  
+
+  
+
+<script>console.log("\n%c ✦ Gridea Pro v1.1.1 %c · Theme: flavor-theme v1.0.0 · https://gridea.pro %c\n","color:#fadfa3;background:#111111;padding:9px 14px;border-radius:4px 0 0 4px;font-weight:500;font-size:12px","color:#e05c00;background:#fff3ec;padding:9px 14px;border-radius:0 4px 4px 0;font-size:11px","")</script>
+</body>
+</html>

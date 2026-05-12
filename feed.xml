@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>村雨遥的博客</title>
+    <title>村雨遥的资源站</title>
     <link>https://cunyu1943.github.io/</link>
-    <description>不要哀求，学会争取。&#xA;若是如此，终有所获。&#xA;&#xA;</description>
+    <description>免费资源分享网站！</description>
     <language>zh-cn</language>
     <generator>Gridea Pro</generator>
-    <lastBuildDate>Sat, 25 Apr 2026 12:38:23 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 21:42:48 +0800</lastBuildDate>
     <atom:link href="https://cunyu1943.github.io/feed.xml" rel="self" type="application/rss+xml"></atom:link>
+    <item>
+      <title>美女《色戒》写真</title>
+      <link>https://cunyu1943.github.io/post/hai-shang-hua-xie-zhense-jie-ji-shi-gan/</link>
+      <guid isPermaLink="true">https://cunyu1943.github.io/post/hai-shang-hua-xie-zhense-jie-ji-shi-gan/</guid>
+      <pubDate>Tue, 12 May 2026 21:29:42 +0800</pubDate>
+      <description><![CDATA[<h2 id="heading">一、资源简介</h2>
+<p>美女《海上花》写真，《色戒》既视感。</p>
+<h2 id="heading-1">二、资源链接</h2>
+<p><a href="https://pan.quark.cn/s/023fff192db7">https://pan.quark.cn/s/023fff192db7</a></p>
+]]></description>
+      <category>美女</category>
+      <category>写真</category>
+      <enclosure url="https://cunyu1943.github.io/post-images/hai-shang-hua-xie-zhense-jie-ji-shi-gan.png" length="0" type="image/png"></enclosure>
+    </item>
   </channel>
 </rss>
