@@ -28,7 +28,7 @@
   (function () {
     try {
       var saved = localStorage.getItem('chatgpt-theme');
-      var mode = saved || 'dark';
+      var mode = saved || 'auto';
       if (mode === 'auto') {
         mode = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
       }
@@ -57,7 +57,7 @@
 <meta name="description" content="村雨遥的资源站 的全部文章">
 
 <meta name="description" content="免费资源分享网站！">
-<meta name="keywords" content="Java,村雨遥,教程,资源">
+<meta name="keywords" content="村雨遥,网站,资源">
 <link rel="canonical" href="https://cunyu1943.github.io/post/">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"村雨遥的资源站","url":"https://cunyu1943.github.io","description":"免费资源分享网站！","potentialAction":{"@type":"SearchAction","query-input":"required name=search_term_string","target":"https://cunyu1943.github.io/search?q={search_term_string}"}}</script>
 <meta property="og:title" content="村雨遥的资源站">
@@ -76,7 +76,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
-<meta name="apple-mobile-web-app-title" content="村雨遥的资源站">
+<meta name="apple-mobile-web-app-title" content="村雨遥 - 资源分享站">
 <link rel="apple-touch-icon" sizes="180x180" href="/images/icons/icon-180x180.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/images/icons/icon-192x192.png">
 <meta name="msapplication-TileColor" content="#42b883">
@@ -126,7 +126,7 @@
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
         
       </span>
-      <span class="sidebar__nav-label">资源列表</span>
+      <span class="sidebar__nav-label">文章</span>
     </a>
     
     <a class="sidebar__nav-item" href="/archives" data-link="/archives">
@@ -263,10 +263,59 @@
   <div class="msg__head">
     <img class="msg__avatar" src="/images/avatar.png" alt="村雨遥的资源站">
     
-    <p class="msg__intro">还没有文章，敬请期待。</p>
+    <p class="msg__intro" data-reply="都在这里了——{count} 篇，每一篇都是某个时刻的我。
+一共 {count} 篇。字会记得写下它们的人。" data-scene="replyBlog" data-count="1">都在这里了——1 篇，每一篇都是某个时刻的我。</p>
     
   </div>
   <div class="msg__body">
+    
+    <div class="post-cards">
+      
+      
+<article class="post-card">
+  <a class="post-card__link" href="/post/2026-07-daily-share/">
+    <div class="post-card__body">
+      <h3 class="post-card__title">
+        
+        202607 每日分享
+      </h3>
+      
+      <p class="post-card__excerpt">
+发现不错的资源，即可点击这里快速投稿。
+
+
+0714
+
+小羿 - 专注收录各种优秀软件！
+
+最新最全软件资讯，收录新出品软件（安卓、Windows、macOS、Linux、AI、鸿蒙），分享、推荐优秀软件、常用软件等，提倡自由，开源的软...</p>
+      
+      
+      <div class="post-card__meta">
+        <time datetime="2026-07-15T03:13:22+08:00">刚刚</time>
+        
+        <span class="dot" aria-hidden="true">·</span>
+        <span>1 分钟</span>
+        
+        
+        <span class="dot" aria-hidden="true">·</span>
+        <span class="post-card__cats">每日分享</span>
+        
+      </div>
+    </div>
+    
+  </a>
+</article>
+
+      
+    </div>
+    
+
+
+
+
+
+
     
   </div>
 </div>

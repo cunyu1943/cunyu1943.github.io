@@ -6,7 +6,35 @@
     <description>免费资源分享网站！</description>
     <language>zh-cn</language>
     <generator>Gridea Pro</generator>
-    <lastBuildDate>Sun, 26 Apr 2026 20:31:49 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 19:29:05 +0800</lastBuildDate>
     <atom:link href="https://cunyu1943.github.io/feed.xml" rel="self" type="application/rss+xml"></atom:link>
+    <item>
+      <title>202607 每日分享</title>
+      <link>https://cunyu1943.github.io/post/2026-07-daily-share/</link>
+      <guid isPermaLink="true">https://cunyu1943.github.io/post/2026-07-daily-share/</guid>
+      <pubDate>Wed, 15 Jul 2026 03:13:22 +0800</pubDate>
+      <description><![CDATA[<blockquote>
+<p>发现不错的资源，即可点击<a href="https://github.com/cunyu1943/weekly/issues">这里</a>快速投稿。</p>
+</blockquote>
+<!-- more -->
+<h2 id="0714">0714</h2>
+<ol>
+<li><a href="https://xiaoyi.vc">小羿 - 专注收录各种优秀软件！</a></li>
+</ol>
+<p>最新最全软件资讯，收录新出品软件（安卓、Windows、macOS、Linux、AI、鸿蒙），分享、推荐优秀软件、常用软件等，提倡自由，开源的软件。目标是成为一种生活态度，不拘泥于形式，在持有质量和原则之下，怀着一颗纯真的感恩的心过活。</p>
+<ol start="2">
+<li><a href="https://www.tominlab.com/wonderpen">妙笔</a></li>
+</ol>
+<p>一款专业的写作软件，致力于为作者提供专注且流畅的写作体验。</p>
+<ol start="3">
+<li><a href="https://localhost.cc/invite/sgxvj">localhost</a></li>
+</ol>
+<p>为开发者、学生和创作者提供免费的二级域名。一键认领专属子域名，自助管理 DNS 解析（A/AAAA/CNAME/TXT），全球任播网络加速，永久免费续费。</p>
+<ol start="4">
+<li><a href="https://tuji.app">图几</a></li>
+</ol>
+<p>一款强大易用的截图应用，您可以使用它对屏幕进行截图，并根据需要为截图添加标注、水印、边框以及漂亮的背景等等。</p>
+]]></description>
+    </item>
   </channel>
 </rss>
