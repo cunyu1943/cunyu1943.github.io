@@ -1,38 +1,61 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
+  <meta name="generator" content="Gridea Pro 1.2.2">
+  <title>归档 - 村雨遥的资源站</title>
   <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-
-<link rel="preconnect" href="https://cdnjs.cloudflare.com">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="generator" content="Gridea Pro">
 <link rel="stylesheet" href="/styles/main.min.css">
-
-
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="https://unpkg.com/lxgw-wenkai-screen-webfont@1.6.0/lxgwwenkaiscreen.css">
 
 
 
-<style>:root { --heatmap-color: #39d353; }</style>
+<link rel="icon" href="/images/avatar.png">
 
+
+
+
+<link rel="alternate" type="application/rss+xml" title="村雨遥的资源站" href="/feed.xml">
+<link rel="alternate" type="application/atom+xml" title="村雨遥的资源站" href="/atom.xml">
+
+
+
+<style>:root { --accent: #42b883; --content-w: 56rem; }</style>
 
 
 <script>
   (function () {
     try {
-      var saved = localStorage.getItem('flavor-theme');
-      var theme = saved || 'dark';
-      if (theme === 'light') {
-        document.documentElement.classList.add('theme-light');
+      var saved = localStorage.getItem('chatgpt-theme');
+      var mode = saved || 'dark';
+      if (mode === 'auto') {
+        mode = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
       }
-    } catch (e) { }
+      document.documentElement.setAttribute('data-theme', mode);
+      if (localStorage.getItem('chatgpt-sidebar') === 'collapsed') {
+        document.documentElement.classList.add('sidebar-collapsed');
+      }
+    } catch (e) {
+      document.documentElement.setAttribute('data-theme', 'light');
+    }
   })();
 </script>
-  <meta name="generator" content="Gridea Pro 1.1.1">
-  <title>归档 | 村雨遥的资源站</title>
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11/build/styles/github.min.css" id="hljs-theme-light">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11/build/styles/github-dark.min.css" id="hljs-theme-dark" disabled>
+<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11/build/highlight.min.js" defer></script>
+
+
+
+
+
+
   
+<meta name="description" content="村雨遥的资源站 的文章归档">
+
 <meta name="description" content="免费资源分享网站！">
 <meta name="keywords" content="Java,村雨遥,教程,资源">
 <link rel="canonical" href="https://cunyu1943.github.io/archives/">
@@ -60,251 +83,292 @@
 <meta name="msapplication-TileImage" content="/images/icons/icon-192x192.png">
 <script>if('serviceWorker' in navigator){navigator.serviceWorker.register('/sw.js')}</script>
 </head>
-<body class="flavor-theme">
+<body data-typewriter="True">
 
-  <header class="site-header" id="siteHeader">
-  <div class="header-inner">
-    <div class="top-bar">
+  <div class="sidebar-overlay" id="sidebar-overlay" aria-hidden="true"></div>
 
+<aside class="sidebar" id="sidebar" aria-label="侧边栏">
+
+  
+  <div class="sidebar__top">
+    <a class="sidebar__brand" href="/" aria-label="村雨遥的资源站 首页">
       
-      <div class="top-bar__left">
-        
-        <a href="https://cunyu1943.github.io" class="site-avatar-link" aria-label="返回首页">
-          <img class="site-avatar" src="/images/theme/村雨遥.jpg" alt="村雨遥的资源站" />
-        </a>
-        
-        <a href="https://cunyu1943.github.io" class="site-name-link">村雨遥的资源站</a>
-      </div>
-
+      <img class="sidebar__brand-logo" src="/images/avatar.png" alt="村雨遥的资源站">
       
-      <nav class="top-bar__nav" id="sectionBar">
-        
-        
-        <a class="nav-item" href="/">首页</a>
-        
-        <a class="nav-item" href="/post">资源列表</a>
-        
-        <a class="nav-item" href="/archives">归档</a>
-        
-        <a class="nav-item" href="/tags">标签</a>
-        
-        <a class="nav-item" href="https://cunyu1943.github.io/JavaPark">JavaPark</a>
-        
-        <a class="nav-item" href="https://cunyu1943.github.io/weekly">好物周刊</a>
-        
-        
-      </nav>
+    </a>
+    <button class="icon-btn sidebar__collapse" id="sidebar-collapse" type="button" aria-label="收起侧边栏" title="收起侧边栏">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="4"/><line x1="9.5" y1="3" x2="9.5" y2="21"/></svg>
+    </button>
+  </div>
 
+  
+  <button class="sidebar__search" id="sidebar-search" type="button">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="20" y1="20" x2="16.2" y2="16.2"/></svg>
+    <span>搜索</span>
+    <kbd class="sidebar__search-kbd">⌘K</kbd>
+  </button>
+
+  
+  <nav class="sidebar__nav" aria-label="站点导航">
+    
+    <a class="sidebar__nav-item" href="/" data-link="/">
+      <span class="sidebar__nav-icon" aria-hidden="true">
+        
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/></svg>
+        
+      </span>
+      <span class="sidebar__nav-label">首页</span>
+    </a>
+    
+    <a class="sidebar__nav-item" href="/post" data-link="/post">
+      <span class="sidebar__nav-icon" aria-hidden="true">
+        
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        
+      </span>
+      <span class="sidebar__nav-label">资源列表</span>
+    </a>
+    
+    <a class="sidebar__nav-item" href="/archives" data-link="/archives">
+      <span class="sidebar__nav-icon" aria-hidden="true">
+        
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="21 8 21 21 3 21 3 8"/><rect x="1" y="3" width="22" height="5" rx="1"/><line x1="10" y1="12" x2="14" y2="12"/></svg>
+        
+      </span>
+      <span class="sidebar__nav-label">归档</span>
+    </a>
+    
+    <a class="sidebar__nav-item" href="/tags" data-link="/tags">
+      <span class="sidebar__nav-icon" aria-hidden="true">
+        
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+        
+      </span>
+      <span class="sidebar__nav-label">标签</span>
+    </a>
+    
+    <a class="sidebar__nav-item" href="https://github.com/cunyu1943" data-link="https://github.com/cunyu1943">
+      <span class="sidebar__nav-icon" aria-hidden="true">
+        
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        
+      </span>
+      <span class="sidebar__nav-label">GitHub</span>
+    </a>
+    
+  </nav>
+
+  
+  <div class="sidebar__recent">
+    <div class="sidebar__recent-title">最近</div>
+    <ul class="sidebar__recent-list" id="sidebar-recent" data-count="20"></ul>
+  </div>
+
+  
+  <div class="sidebar__foot">
+    <button class="sidebar__user" id="user-menu-toggle" type="button" aria-haspopup="true" aria-expanded="false">
       
-      <div class="top-bar__right">
-        <button class="btn-icon btn-search search-btn" id="btnSearch" type="button" aria-label="搜索">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-            stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="11" cy="11" r="8"></circle>
-            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-          </svg>
-        </button>
-        <button class="btn-icon theme-toggle theme-toggle-sun" id="themeToggleSun" type="button"
-          aria-label="切换到浅色模式">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 1C12.5523 1 13 1.44772 13 2V4C13 4.55228 12.5523 5 12 5C11.4477 5 11 4.55228 11 4V2C11 1.44772 11.4477 1 12 1Z"></path>
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M7 12C7 9.23858 9.23858 7 12 7C14.7614 7 17 9.23858 17 12C17 14.7614 14.7614 17 12 17C9.23858 17 7 14.7614 7 12ZM12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9Z"></path>
-            <path d="M13 20C13 19.4477 12.5523 19 12 19C11.4477 19 11 19.4477 11 20V22C11 22.5523 11.4477 23 12 23C12.5523 23 13 22.5523 13 22V20Z"></path>
-            <path d="M4.22282 4.22289C4.61335 3.83236 5.24651 3.83236 5.63704 4.22289L7.04704 5.63289C7.43756 6.02341 7.43756 6.65658 7.04704 7.0471C6.65651 7.43762 6.02335 7.43762 5.63283 7.0471L4.22282 5.6371C3.8323 5.24658 3.8323 4.61341 4.22282 4.22289Z"></path>
-            <path d="M18.367 16.9529C17.9765 16.5623 17.3433 16.5623 16.9528 16.9529C16.5623 17.3434 16.5623 17.9766 16.9528 18.3671L18.3628 19.7771C18.7533 20.1676 19.3865 20.1676 19.777 19.7771C20.1675 19.3866 20.1675 18.7534 19.777 18.3629L18.367 16.9529Z"></path>
-            <path d="M1 12C1 11.4477 1.44772 11 2 11H4C4.55228 11 5 11.4477 5 12C5 12.5523 4.55228 13 4 13H2C1.44772 13 1 12.5523 1 12Z"></path>
-            <path d="M20 11C19.4477 11 19 11.4477 19 12C19 12.5523 19.4477 13 20 13H22C22.5523 13 23 12.5523 23 12C23 11.4477 22.5523 11 22 11H20Z"></path>
-            <path d="M7.04704 16.9529C7.43756 17.3434 7.43756 17.9766 7.04704 18.3671L5.63704 19.7771C5.24651 20.1676 4.61335 20.1676 4.22282 19.7771C3.8323 19.3866 3.8323 18.7534 4.22283 18.3629L5.63283 16.9529C6.02335 16.5623 6.65651 16.5623 7.04704 16.9529Z"></path>
-            <path d="M19.777 5.6371C20.1675 5.24657 20.1675 4.61341 19.777 4.22289C19.3865 3.83236 18.7533 3.83236 18.3628 4.22289L16.9528 5.63289C16.5623 6.02341 16.5623 6.65658 16.9528 7.0471C17.3433 7.43762 17.9765 7.43762 18.367 7.0471L19.777 5.6371Z"></path>
-          </svg>
-        </button>
-        <button class="btn-icon theme-toggle theme-toggle-moon" id="themeToggleMoon" type="button"
-          aria-label="切换到深色模式">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C10.0222 2 8.08879 2.58649 6.4443 3.6853C4.79981 4.78412 3.51809 6.3459 2.76121 8.17317C2.00433 10.0004 1.8063 12.0111 2.19215 13.9509C2.578 15.8907 3.53041 17.6725 4.92894 19.0711C6.32746 20.4696 8.10929 21.422 10.0491 21.8079C11.9889 22.1937 13.9996 21.9957 15.8268 21.2388C17.6541 20.4819 19.2159 19.2002 20.3147 17.5557C21.4135 15.9112 22 13.9778 22 12C22 11.5955 21.7564 11.2309 21.3827 11.0761C21.009 10.9213 20.5789 11.0069 20.2929 11.2929C19.287 12.2988 17.9226 12.864 16.5 12.864C15.0774 12.864 13.713 12.2988 12.7071 11.2929C11.7012 10.287 11.136 8.92261 11.136 7.5C11.136 6.07739 11.7012 4.71304 12.7071 3.70711C12.9931 3.42111 13.0787 2.99099 12.9239 2.61732C12.7691 2.24364 12.4045 2 12 2ZM7.55544 5.34824C8.27036 4.87055 9.05353 4.51389 9.87357 4.28778C9.39271 5.27979 9.13604 6.37666 9.13604 7.5C9.13604 9.45304 9.91189 11.3261 11.2929 12.7071C12.6739 14.0881 14.547 14.864 16.5 14.864C17.6233 14.864 18.7202 14.6073 19.7122 14.1264C19.4861 14.9465 19.1295 15.7296 18.6518 16.4446C17.7727 17.7602 16.5233 18.7855 15.0615 19.391C13.5997 19.9965 11.9911 20.155 10.4393 19.8463C8.88743 19.5376 7.46197 18.7757 6.34315 17.6569C5.21447 16.538 4.4624 15.1126 4.15372 13.5607C3.84504 12.0089 4.00347 10.4003 4.60897 8.93853C5.21447 7.47672 6.23985 6.22729 7.55544 5.34824Z"></path>
-            <path d="M19 2C19.5523 2 20 2.44772 20 3V4H21C21.5523 4 22 4.44772 22 5C22 5.55228 21.5523 6 21 6H20V7C20 7.55228 19.5523 8 19 8C18.4477 8 18 7.55228 18 7V6H17C16.4477 6 16 5.55228 16 5C16 4.44772 16.4477 4 17 4H18V3C18 2.44772 18.4477 2 19 2Z"></path>
-          </svg>
-        </button>
-        <button class="btn-icon btn-nav-toggle mobile-only" id="btnNavToggle" type="button" aria-label="切换导航">
-          <div class="hamburger" id="hamburger">
-            <span class="hamburger__line hamburger__line--top"></span>
-            <span class="hamburger__line hamburger__line--bottom"></span>
-          </div>
-        </button>
-      </div>
+      <img class="sidebar__user-avatar" src="/images/avatar.png" alt="村雨遥的资源站">
+      
+      <span class="sidebar__user-meta">
+        <span class="sidebar__user-name">村雨遥的资源站</span>
+        
+        <span class="sidebar__user-desc">免费资源分享网站！</span>
+        
+      </span>
+      <svg class="sidebar__user-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="7 15 12 10 17 15"/></svg>
+    </button>
 
+    
+    <div class="user-menu" id="user-menu" hidden>
+      
+      <button class="user-menu__item" id="user-menu-theme" type="button">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+        <span class="user-menu__theme-label">切换深浅模式</span>
+      </button>
+      
+      <a class="user-menu__item" href="/feed.xml" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>
+        <span>RSS 订阅</span>
+      </a>
+      
+      
+      <div class="user-menu__sep" aria-hidden="true"></div>
+      
+      
+      <a class="user-menu__item" href="https://github.com/cunyu1943" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55v-2.15c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.75 2.69 1.25 3.34.95.11-.74.4-1.25.73-1.54-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11.1 11.1 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.38-5.25 5.67.41.35.78 1.05.78 2.12v3.14c0 .3.21.66.8.55A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+        <span>GitHub</span>
+      </a>
+      
+      
+      
     </div>
+  </div>
+
+</aside>
+
+
+  <div class="main">
+    <header class="topbar">
+  <div class="topbar__left">
+    
+    <button class="icon-btn topbar__menu" id="sidebar-open" type="button" aria-label="打开侧边栏" title="打开侧边栏">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="4"/><line x1="9.5" y1="3" x2="9.5" y2="21"/></svg>
+    </button>
+    
+    <a class="topbar__title" href="/">
+      <span>村雨遥的资源站</span>
+      <svg class="topbar__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+    </a>
+  </div>
+  <div class="topbar__right">
+    
+    <button class="icon-btn" id="theme-toggle" type="button" aria-label="切换深浅模式" title="切换深浅模式">
+      <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 1C12.5523 1 13 1.44772 13 2V4C13 4.55228 12.5523 5 12 5C11.4477 5 11 4.55228 11 4V2C11 1.44772 11.4477 1 12 1Z"></path>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M7 12C7 9.23858 9.23858 7 12 7C14.7614 7 17 9.23858 17 12C17 14.7614 14.7614 17 12 17C9.23858 17 7 14.7614 7 12ZM12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9Z"></path>
+        <path d="M13 20C13 19.4477 12.5523 19 12 19C11.4477 19 11 19.4477 11 20V22C11 22.5523 11.4477 23 12 23C12.5523 23 13 22.5523 13 22V20Z"></path>
+        <path d="M4.22282 4.22289C4.61335 3.83236 5.24651 3.83236 5.63704 4.22289L7.04704 5.63289C7.43756 6.02341 7.43756 6.65658 7.04704 7.0471C6.65651 7.43762 6.02335 7.43762 5.63283 7.0471L4.22282 5.6371C3.8323 5.24658 3.8323 4.61341 4.22282 4.22289Z"></path>
+        <path d="M23 12C23 12.5523 22.5523 13 22 13H20C19.4477 13 19 12.5523 19 12C19 11.4477 19.4477 11 20 11H22C22.5523 11 23 11.4477 23 12Z"></path>
+        <path d="M5 12C5 12.5523 4.55228 13 4 13H2C1.44772 13 1 12.5523 1 12C1 11.4477 1.44772 11 2 11H4C4.55228 11 5 11.4477 5 12Z"></path>
+        <path d="M19.7772 4.22289C20.1677 4.61341 20.1677 5.24658 19.7772 5.6371L18.3672 7.0471C17.9767 7.43762 17.3435 7.43762 16.953 7.0471C16.5624 6.65658 16.5624 6.02341 16.953 5.63289L18.363 4.22289C18.7535 3.83236 19.3867 3.83236 19.7772 4.22289Z"></path>
+        <path d="M7.04704 16.953C7.43756 17.3435 7.43756 17.9767 7.04704 18.3672L5.63704 19.7772C5.24651 20.1677 4.61335 20.1677 4.22282 19.7772C3.8323 19.3867 3.8323 18.7535 4.22282 18.363L5.63283 16.953C6.02335 16.5624 6.65651 16.5624 7.04704 16.953Z"></path>
+        <path d="M19.7772 18.363C20.1677 18.7535 20.1677 19.3867 19.7772 19.7772C19.3867 20.1677 18.7535 20.1677 18.363 19.7772L16.953 18.3672C16.5624 17.9767 16.5624 17.3435 16.953 16.953C17.3435 16.5624 17.9767 16.5624 18.3672 16.953L19.7772 18.363Z"></path>
+      </svg>
+      <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C10.0222 2 8.08879 2.58649 6.4443 3.6853C4.79981 4.78412 3.51809 6.3459 2.76121 8.17317C2.00433 10.0004 1.8063 12.0111 2.19215 13.9509C2.578 15.8907 3.53041 17.6725 4.92894 19.0711C6.32746 20.4696 8.10929 21.422 10.0491 21.8079C11.9889 22.1937 13.9996 21.9957 15.8268 21.2388C17.6541 20.4819 19.2159 19.2002 20.3147 17.5557C21.4135 15.9112 22 13.9778 22 12C22 11.5955 21.7564 11.2309 21.3827 11.0761C21.009 10.9213 20.5789 11.0069 20.2929 11.2929C19.287 12.2988 17.9226 12.864 16.5 12.864C15.0774 12.864 13.713 12.2988 12.7071 11.2929C11.7012 10.287 11.136 8.92261 11.136 7.5C11.136 6.07739 11.7012 4.71304 12.7071 3.70711C12.9931 3.42111 13.0787 2.99099 12.9239 2.61732C12.7691 2.24364 12.4045 2 12 2ZM7.55544 5.34824C8.27036 4.87055 9.05353 4.51389 9.87357 4.28778C9.39271 5.27979 9.13604 6.37666 9.13604 7.5C9.13604 9.45304 9.91189 11.3261 11.2929 12.7071C12.6739 14.0881 14.547 14.864 16.5 14.864C17.6233 14.864 18.7202 14.6073 19.7122 14.1264C19.4861 14.9465 19.1295 15.7296 18.6518 16.4446C17.7727 17.7602 16.5233 18.7855 15.0615 19.391C13.5997 19.9965 11.9911 20.155 10.4393 19.8463C8.88743 19.5376 7.46197 18.7757 6.34315 17.6569C5.21447 16.538 4.4624 15.1126 4.15372 13.5607C3.84504 12.0089 4.00347 10.4003 4.60897 8.93853C5.21447 7.47672 6.23985 6.22729 7.55544 5.34824Z"></path>
+        <path d="M19 2C19.5523 2 20 2.44772 20 3V4H21C21.5523 4 22 4.44772 22 5C22 5.55228 21.5523 6 21 6H20V7C20 7.55228 19.5523 8 19 8C18.4477 8 18 7.55228 18 7V6H17C16.4477 6 16 5.55228 16 5C16 4.44772 16.4477 4 17 4H18V3C18 2.44772 18.4477 2 19 2Z"></path>
+      </svg>
+    </button>
   </div>
 </header>
 
 
-<div class="header-spacer"></div>
+    <main class="content" id="content">
+      <div class="chat-thread" id="chat-thread">
+        
 
-<script>
-(function(){
-  var btn = document.getElementById('btnNavToggle');
-  var nav = document.getElementById('sectionBar');
-  var hamburger = document.getElementById('hamburger');
-  if (btn && nav) {
-    btn.addEventListener('click', function(){
-      nav.classList.toggle('top-bar__nav--open');
-      if (hamburger) hamburger.classList.toggle('is-active');
-    });
-    nav.querySelectorAll('.nav-item').forEach(function(item){
-      item.addEventListener('click', function(){
-        nav.classList.remove('top-bar__nav--open');
-        if (hamburger) hamburger.classList.remove('is-active');
-      });
-    });
-  }
-
-  var root = document.documentElement;
-  var applyTheme = function(theme, persist){
-    if (theme === 'light') {
-      root.classList.add('theme-light');
-    } else {
-      root.classList.remove('theme-light');
-    }
-    if (persist) {
-      try { localStorage.setItem('flavor-theme', theme); } catch (e) {}
-    }
-  };
-  document.querySelectorAll('.theme-toggle').forEach(function(el){
-    el.addEventListener('click', function(){
-      applyTheme(root.classList.contains('theme-light') ? 'dark' : 'light', true);
-    });
-  });
-})();
-</script>
-
-  <main class="site-main" role="main">
-    
-<div class="container">
-  <div class="page-header">
-    <h1 class="page-title">归档</h1>
-    
-    <p class="page-subtitle meta-text">共 2 篇文章</p>
-    
-  </div>
-
-  
-  <div class="archive-list">
-    
-    <h2 class="archive-year">2026</h2>
-    
-    <a href="/post/hei-bai-si-xiao-jie-jie-zhao-pian-ji/" class="archive-item">
-      <time class="archive-item__date" datetime="2026-05-12T21:45:48+08:00">2026-05-12</time>
-      <span class="archive-item__title">黑白丝小姐姐照片集</span>
-      
-    </a>
-    
-    <a href="/post/hai-shang-hua-xie-zhense-jie-ji-shi-gan/" class="archive-item">
-      <time class="archive-item__date" datetime="2026-05-12T21:29:42+08:00">2026-05-12</time>
-      <span class="archive-item__title">美女《色戒》写真</span>
-      
-    </a>
-    
-    
-  </div>
-  
+<div class="msg msg--user">
+  <div class="msg__bubble" data-ask="时间都去哪儿了？
+帮我把时光按年份叠好，可以吗？
+回头看看，这些年留下了什么足迹？" data-scene="askArchives">时间都去哪儿了？</div>
 </div>
 
-  </main>
-
-  <footer class="site-footer">
-  <div class="footer-inner">
-
+<div class="msg msg--assistant">
+  <div class="msg__head">
+    <img class="msg__avatar" src="/images/avatar.png" alt="村雨遥的资源站">
     
+    <p class="msg__intro" data-reply="我把 {count} 篇文字按年份叠好了，沿着时间往回走吧。
+好的，{count} 篇，从此刻一路向过去铺展。" data-scene="replyArchives" data-count="2">我把 2 篇文字按年份叠好了，沿着时间往回走吧。</p>
     
-    <nav class="footer-nav" aria-label="页脚导航">
-      
-      <a class="footer-nav__link" href="/">首页</a>
-      
-      <a class="footer-nav__link" href="/post">资源列表</a>
-      
-      <a class="footer-nav__link" href="/archives">归档</a>
-      
-      <a class="footer-nav__link" href="/tags">标签</a>
-      
-      <a class="footer-nav__link" href="https://cunyu1943.github.io/JavaPark">JavaPark</a>
-      
-      <a class="footer-nav__link" href="https://cunyu1943.github.io/weekly">好物周刊</a>
-      
-    </nav>
-    
+  </div>
+  <div class="msg__body">
 
     
-    <div class="footer-social">
-      
-      <a class="footer-social__link" href="https://github.com/cunyu1943" target="_blank" rel="noopener noreferrer"
-        aria-label="GitHub">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-          <path
-            d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
-        </svg>
-      </a>
-      
-      
-      
-      <a class="footer-social__link" href="/feed.xml" aria-label="RSS">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M6.18 15.64a2.18 2.18 0 110 4.36 2.18 2.18 0 010-4.36zM4 4.44A15.56 15.56 0 0119.56 20h-2.83A12.73 12.73 0 004 7.27V4.44zm0 5.66a9.9 9.9 0 019.9 9.9h-2.83A7.07 7.07 0 004 12.93V10.1z"/>
-        </svg>
-      </a>
+    
+    <div class="archive-cats" id="archive-cats" hidden>
+      <div class="section-label">分类</div>
+      <div class="archive-cats__chips" id="archive-cats-chips"></div>
+    </div>
+    <div hidden id="archive-cats-data">
+      <span data-name="美女" data-link="/category/mei-nu/"></span><span data-name="美女" data-link="/category/mei-nu/"></span>
     </div>
 
     
-    <div class="footer-copyright">
-      <p>&copy; 2026 村雨遥的资源站. All rights reserved.</p>
+    <div class="timeline">
+      
+      <section class="timeline__year">
+        <div class="timeline__year-label">2026<span class="timeline__year-count">2 篇</span></div>
+        <div class="timeline__items">
+          
+          <a class="timeline__item" href="/post/hei-bai-si-xiao-jie-jie-zhao-pian-ji/">
+            <time class="timeline__date" datetime="2026-05-12T21:45:48+08:00">05-12</time>
+            <span class="timeline__dot" aria-hidden="true"></span>
+            <span class="timeline__title">黑白丝小姐姐照片集</span>
+          </a>
+          
+          <a class="timeline__item" href="/post/hai-shang-hua-xie-zhense-jie-ji-shi-gan/">
+            <time class="timeline__date" datetime="2026-05-12T21:29:42+08:00">05-12</time>
+            <span class="timeline__dot" aria-hidden="true"></span>
+            <span class="timeline__title">美女《色戒》写真</span>
+          </a>
+          
+        </div>
+      </section>
+      
     </div>
+    
+  </div>
+</div>
+
+
+      </div>
+    </main>
 
     
-    
-    <div class="footer-custom">
-      免责声明：资源由本人购买整理，版权归原创所有 ，如有侵权请私信联系 cunyu1024@foxmail.com 删除，资源仅供以个人学习交流使用，请勿用于商业用途。
-    </div>
-    
+<div class="composer-wrap">
+  <form class="composer" id="composer" action="javascript:void(0)" autocomplete="off">
+    <button class="composer__plus" type="button" tabindex="-1" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+    </button>
+    <input class="composer__input" id="composer-input" type="text" name="q" placeholder="有问题，尽管搜…" aria-label="站内搜索" enterkeyhint="search">
+    <button class="composer__send" id="composer-send" type="submit" aria-label="搜索">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
+    </button>
+  </form>
+  <p class="composer__note">
+    村雨遥的资源站 由博主亲笔撰写，重要信息可放心引用。
+  </p>
+</div>
 
-    
-    <div class="footer-powered">
-      <span>Powered by <a href="https://gridea.pro" target="_blank" rel="noopener noreferrer">Gridea Pro</a></span>
-    </div>
 
   </div>
-</footer>
 
   
-  <div class="search-overlay" id="searchOverlay" style="display:none;">
-  <div class="search-modal">
-    <div class="search-header">
-      <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <circle cx="11" cy="11" r="8"></circle>
-        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-      </svg>
-      <input type="text" class="search-input" id="searchInput" placeholder="搜索文章..." autocomplete="off" />
-      <span class="search-kbd">&#8984;K</span>
-      <button class="search-close" id="searchClose" type="button" aria-label="关闭搜索">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-          stroke-linecap="round" stroke-linejoin="round">
-          <line x1="18" y1="6" x2="6" y2="18"></line>
-          <line x1="6" y1="6" x2="18" y2="18"></line>
-        </svg>
+<div class="search-overlay" id="search-overlay" hidden>
+  <div class="search-modal" role="dialog" aria-modal="true" aria-label="站内搜索">
+    <div class="search-modal__head">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="20" y1="20" x2="16.2" y2="16.2"/></svg>
+      <input class="search-modal__input" id="search-modal-input" type="text" placeholder="搜索文章…" autocomplete="off">
+      <kbd class="search-modal__kbd">Esc</kbd>
+      <button class="icon-btn search-modal__close" id="search-modal-close" type="button" aria-label="关闭搜索">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
       </button>
     </div>
-    <div class="search-results" id="searchResults"></div>
+    <div class="search-modal__results" id="search-modal-results" role="listbox"></div>
   </div>
 </div>
 
-<script src="/scripts/search.js"></script>
-  
 
+  <script src="/scripts/app.js" defer></script>
+  <script src="/scripts/search.js" defer></script>
   
-
   
+<script>
+  // 从服务端输出的数据节点聚合分类（模板层无法去重，这里用 JS 完成）
+  (function () {
+    var data = document.querySelectorAll('#archive-cats-data span');
+    if (!data.length) return;
+    var map = {};
+    data.forEach(function (el) {
+      var name = el.getAttribute('data-name');
+      if (!map[name]) map[name] = { link: el.getAttribute('data-link'), count: 0 };
+      map[name].count++;
+    });
+    var chips = document.getElementById('archive-cats-chips');
+    Object.keys(map).forEach(function (name) {
+      var a = document.createElement('a');
+      a.className = 'chip';
+      a.href = map[name].link;
+      a.textContent = name + ' (' + map[name].count + ')';
+      chips.appendChild(a);
+    });
+    document.getElementById('archive-cats').hidden = false;
+  })();
+</script>
 
-  
-
-<script>console.log("\n%c ✦ Gridea Pro v1.1.1 %c · Theme: flavor-theme v1.0.0 · https://gridea.pro %c\n","color:#fadfa3;background:#111111;padding:9px 14px;border-radius:4px 0 0 4px;font-weight:500;font-size:12px","color:#e05c00;background:#fff3ec;padding:9px 14px;border-radius:0 4px 4px 0;font-size:11px","")</script>
+<script>console.log("\n%c ✦ Gridea Pro v1.2.2 %c · Theme: chatgpt v1.2.0 · https://gridea.pro %c\n","color:#fadfa3;background:#111111;padding:9px 14px;border-radius:4px 0 0 4px;font-weight:500;font-size:12px","color:#e05c00;background:#fff3ec;padding:9px 14px;border-radius:0 4px 4px 0;font-size:11px","")</script>
 </body>
 </html>
