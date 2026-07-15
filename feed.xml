@@ -6,7 +6,7 @@
     <description>免费资源分享网站！</description>
     <language>zh-cn</language>
     <generator>Gridea Pro</generator>
-    <lastBuildDate>Wed, 15 Jul 2026 08:19:14 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 08:31:19 +0800</lastBuildDate>
     <atom:link href="https://cunyu1943.github.io/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <item>
       <title>202607 每日分享</title>
@@ -47,6 +47,10 @@
 <li><a href="https://www.qijishow.com">奇迹秀</a></li>
 </ul>
 <p>一个公益组织，为设计师提供设计干货及资源，站内所有收集的资源都能免费下载，且资源都经过组织成员测试后再发布，保证资源绿色，大家可放心使用，</p>
+<ul>
+<li><a href="https://github.com/tianma-if/edgeever">EdgeEver</a></li>
+</ul>
+<p>一个开源、自托管、Cloudflare-native 的现代笔记工作区。它保留经典印象笔记的三栏体验，同时提供清晰的数据模型、REST API、OpenAPI schema 和 MCP endpoint，原生支持 AI Agent 接入。</p>
 ]]></description>
     </item>
   </channel>
