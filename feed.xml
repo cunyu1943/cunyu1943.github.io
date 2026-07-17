@@ -6,7 +6,7 @@
     <description>免费资源分享网站！</description>
     <language>zh-cn</language>
     <generator>Gridea Pro</generator>
-    <lastBuildDate>Thu, 16 Jul 2026 08:22:49 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 07:59:50 +0800</lastBuildDate>
     <atom:link href="https://cunyu1943.github.io/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <item>
       <title>202607 每日分享</title>
@@ -72,7 +72,17 @@
 <li><a href="https://pandai.pro/?ref=I4LJDoy0">磐代 AI</a></li>
 </ul>
 <p>磐代 AI 是多模型并行的 AI PPT 自动生成工具：输入一句话，Deepseek / Kimi / 通义千问 / 智谱 / MiniMax / 豆包 / MiMo / StepFun 等多个大模型同时生成 PPT，对比选优，免费试用，导出可二次编辑的真实 .pptx 文件。</p>
+<h2 id="0717">0717</h2>
+<ul>
+<li><a href="https://github.com/Fei-Away/Codex-Dream-Skin">Codex-Dream-Skin</a></li>
+</ul>
+<p>给 Codex 桌面端换一张会呼吸的脸。外部主题/换肤工具，通过本机 CDP 注入，不改官方安装包。</p>
 ]]></description>
+      <category>网站</category>
+      <category>资源</category>
+      <category>项目</category>
+      <category>软件</category>
+      <category>插件</category>
     </item>
   </channel>
 </rss>
