@@ -8,16 +8,21 @@ import { RSSOptions, RssPlugin } from 'vitepress-plugin-rss'
 import { GitChangelog, GitChangelogMarkdownSection, } from '@nolebase/vitepress-plugin-git-changelog/vite'
 import { SponsorPlugin } from 'vitepress-plugin-sponsor'
 
-
+const baseRepo = '/'
 const baseUrl = 'https://cunyu1943.github.io'
 const RSS: RSSOptions = {
   title: '村雨遥',
   baseUrl,
-  copyright: 'Copyright (c) 2025-present, 村雨遥',
+  copyright: 'Copyright © ' + new Date().getFullYear() + '<a href="https://cunyu1943.github.io">村雨遥</a>',
 }
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  // 站点级配置，写在顶层，不是 themeConfig 内部
+  head: [
+    ['link', { rel: 'icon', type: 'image/png', href:  '/imgs/site/logo.png' }]
+  ],
+    
   // 代码组图标
   markdown: {
     config: (md) => {
@@ -127,7 +132,7 @@ export default defineConfig({
     // 页脚
     footer: {
       // message: 'Released under the MIT License.', 
-      copyright: 'Copyright © 2025-' + new Date().getFullYear() + '   cunyu1943',
+      copyright: 'Copyright © ' + new Date().getFullYear() + '<a href="https://cunyu1943.github.io">村雨遥</a>',
     },
 
     //上次更新时间
